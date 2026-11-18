@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DE43ADD9F0050A6F499B7C /* LegacyRecovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16A5B7686B3B86AC7DC83C4 /* LegacyRecovery.swift */; };
+		13252B26069D12C09B5DE6A0 /* MoneroBridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9F4EC8625BB92CE2B5A2E3E5 /* MoneroBridge.cpp */; };
+		14D275CB8A7E00049C9D146A /* SyncAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C900F5BFA5C728023D302E83 /* SyncAttributes.swift */; };
+		16B55D38EB08D3F11091FB41 /* ConnectionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D1C22109B2406EE472D23 /* ConnectionTests.swift */; };
+		26CD928F7709E531CB1CD4DB /* SyncWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AB1B3D2949EF6A318CCDE /* SyncWidget.swift */; };
+		2AFA850BC2649BC948ECF95E /* SyncWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7992E36FAFAC636A2B319D75 /* SyncWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2E8FA6C3E77B73EBB3A90907 /* WalletVaultTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74666DAEC91DC48DF35E7F0D /* WalletVaultTests.swift */; };
+		321B0DF00C2A88306D70AB89 /* ColdSigning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0DC417B4CC82B84BA32E4 /* ColdSigning.swift */; };
+		33255518889099E90F03C183 /* WalletTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B43CB9FFD736349869988 /* WalletTypes.swift */; };
+		371B682D804190699710D961 /* monero_c-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B1CE5716C421D18832598383 /* monero_c-LICENSE */; };
+		3BA915FE5F117A21826F83B8 /* MoneroWallet.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 53A7A26FFDC7251F1A2CA631 /* MoneroWallet.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		452AB14108244FB3119314B8 /* WalletSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2E968D491D03A95BC0B49 /* WalletSession.swift */; };
+		4817F7299974F81762E504C0 /* GPL-3.0.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8A08DD52295DA8086D3A85CF /* GPL-3.0.txt */; };
+		534AB0F33535064CF807EF25 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = C1E0F17395D2637322A771AE /* Localizable.xcstrings */; };
+		54385D1891534F855D6A84E5 /* WalletUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDB326FEC958DD7943EAA21 /* WalletUI.swift */; };
+		5F465415C87C00147144E80C /* LegacyRecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0741FCB23E7AB47386BDA8D4 /* LegacyRecoveryTests.swift */; };
+		60E27A6A912D3BB2B1D5E517 /* NodeRelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FACD5E7504DD0AF488557 /* NodeRelay.swift */; };
+		65521DDF0870122D43ADF7C6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 9AB11C155431DB18F32D462C /* LICENSE */; };
+		664E511E5B5B522E971C942F /* VaultGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9036F2D6F90DCB0F1F6746A4 /* VaultGate.swift */; };
+		6F0E8A7D5D73E72F0313016D /* Payments.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEA53BA79881118424BD74 /* Payments.swift */; };
+		72A96BC494023D554200CB12 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8C207999BAAFE3299EA7D0 /* Settings.swift */; };
+		9397B3AA28B6D4EC53DF740B /* WalletTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98C483EB626EFC5207E79899 /* WalletTools.swift */; };
+		97123652C62AFE97AC009D45 /* Recovery-NOTICES.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAEE5836C7FBFBCED37808A7 /* Recovery-NOTICES.txt */; };
+		9F87FDE86C0C8B6C269A2728 /* WalletDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351476276AD3DDFE3F508AB /* WalletDashboard.swift */; };
+		A2E8C61E841FC40AAA50DD2A /* ProxyRoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518BD35D1FA609F02DCB705C /* ProxyRoutingTests.swift */; };
+		AB24CEB757B75371F63AAE3A /* Monero-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D0A9E273B7D3A66B893D12F1 /* Monero-LICENSE */; };
+		AE4E3BAD8380F0C06BEFB761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B207A036AF06F8674D48E82B /* Assets.xcassets */; };
+		B11D4BE62938BF8F7D2C5EBB /* WalletStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE97EF9A2167B46C850AB5A /* WalletStyle.swift */; };
+		B4013CA2ECCE2FC7C40CF517 /* WalletVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A3364090CA3473FB6DA164 /* WalletVault.swift */; };
+		BE95EA8CDFD072F6A75CB4A0 /* SyncAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C900F5BFA5C728023D302E83 /* SyncAttributes.swift */; };
+		C0085890C5D0CD11050328E0 /* WalletEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E147695BEAFBD35BC9AFD47 /* WalletEngine.swift */; };
+		C027E22A46E4C2B9DBEAB916 /* VaultArtwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BE03DDF1E64EE63B4A7374 /* VaultArtwork.swift */; };
+		C40B8C7834A9FDD09FF35CA5 /* MoneroWallet.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A7A26FFDC7251F1A2CA631 /* MoneroWallet.xcframework */; };
+		C5572365BB1F8A052A26C07C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E61E3787A4BD2E6E759005CA /* PrivacyInfo.xcprivacy */; };
+		CA8587F8E6219AC9AF796196 /* TransferIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DAE307F5051418BBBAFA55 /* TransferIntegrationTests.swift */; };
+		CB102C9BC4BC97546F311EE2 /* WalletSessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79EBAE55C3541776F89217 /* WalletSessionTests.swift */; };
+		EA639A218ED390F15A7AA389 /* Cake-translations-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5BCA106DA55476BAB5B40AEF /* Cake-translations-LICENSE */; };
+		ED5D8A566C6364D13BD9E432 /* MarketChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539A267C11A73AF58A04D735 /* MarketChart.swift */; };
+		F2061076357EEE82A7CAB2EF /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585AEE74BFD208A929D5E366 /* Connection.swift */; };
+		F3D42334CFA6335630A3E689 /* legacy-recovery.js in Resources */ = {isa = PBXBuildFile; fileRef = 15951DEB7BA994CCB4C3B94F /* legacy-recovery.js */; };
+		F9ADB39D01BA3F01F55FF77C /* WalletLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20685C7F8AB34701EB92C04 /* WalletLanguage.swift */; };
+		FD37CEE4ABB7B227F7C1B621 /* PaymentInputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7E9890F10886F31B9BBFCE /* PaymentInputTests.swift */; };
+		FF189F8707FED30DCF4136DF /* XMRMoneroWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACAB1A08A23EA3A08F4496F /* XMRMoneroWalletApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241F62C97E19739E93BED280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088C7BEDD3BD7E0114A091EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1CD21372E1F12772E13462;
+			remoteInfo = XMRMoneroWallet;
+		};
+		35BC27C07D2B162A59AE1539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088C7BEDD3BD7E0114A091EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF2E36363DD71DEECEDC7FC0;
+			remoteInfo = SyncWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D624257FA7A68FAF24EF4AE4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3BA915FE5F117A21826F83B8 /* MoneroWallet.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCAC03056D331333079F8941 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2AFA850BC2649BC948ECF95E /* SyncWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0741FCB23E7AB47386BDA8D4 /* LegacyRecoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyRecoveryTests.swift; sourceTree = "<group>"; };
+		0DDA65764340EF958ACCB28C /* WalletTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15951DEB7BA994CCB4C3B94F /* legacy-recovery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "legacy-recovery.js"; sourceTree = "<group>"; };
+		2E4B43CB9FFD736349869988 /* WalletTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTypes.swift; sourceTree = "<group>"; };
+		4351476276AD3DDFE3F508AB /* WalletDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDashboard.swift; sourceTree = "<group>"; };
+		518BD35D1FA609F02DCB705C /* ProxyRoutingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxyRoutingTests.swift; sourceTree = "<group>"; };
+		539A267C11A73AF58A04D735 /* MarketChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketChart.swift; sourceTree = "<group>"; };
+		53A7A26FFDC7251F1A2CA631 /* MoneroWallet.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MoneroWallet.xcframework; path = Vendor/MoneroWallet.xcframework; sourceTree = "<group>"; };
+		57136419AC27C4BBF720EFC5 /* MoneroBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoneroBridge.h; sourceTree = "<group>"; };
+		585AEE74BFD208A929D5E366 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		5BCA106DA55476BAB5B40AEF /* Cake-translations-LICENSE */ = {isa = PBXFileReference; path = "Cake-translations-LICENSE"; sourceTree = "<group>"; };
+		628C3A3438257963BF4F5284 /* XMRMoneroWallet.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = XMRMoneroWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BE03DDF1E64EE63B4A7374 /* VaultArtwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultArtwork.swift; sourceTree = "<group>"; };
+		66DAE307F5051418BBBAFA55 /* TransferIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferIntegrationTests.swift; sourceTree = "<group>"; };
+		69C0DC417B4CC82B84BA32E4 /* ColdSigning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdSigning.swift; sourceTree = "<group>"; };
+		6ACAB1A08A23EA3A08F4496F /* XMRMoneroWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMRMoneroWalletApp.swift; sourceTree = "<group>"; };
+		74666DAEC91DC48DF35E7F0D /* WalletVaultTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVaultTests.swift; sourceTree = "<group>"; };
+		7992E36FAFAC636A2B319D75 /* SyncWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SyncWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE97EF9A2167B46C850AB5A /* WalletStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStyle.swift; sourceTree = "<group>"; };
+		8A08DD52295DA8086D3A85CF /* GPL-3.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GPL-3.0.txt"; sourceTree = "<group>"; };
+		9036F2D6F90DCB0F1F6746A4 /* VaultGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultGate.swift; sourceTree = "<group>"; };
+		98C483EB626EFC5207E79899 /* WalletTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTools.swift; sourceTree = "<group>"; };
+		9AB11C155431DB18F32D462C /* LICENSE */ = {isa = PBXFileReference; path = LICENSE; sourceTree = "<group>"; };
+		9E147695BEAFBD35BC9AFD47 /* WalletEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletEngine.swift; sourceTree = "<group>"; };
+		9F4EC8625BB92CE2B5A2E3E5 /* MoneroBridge.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MoneroBridge.cpp; sourceTree = "<group>"; };
+		A16A5B7686B3B86AC7DC83C4 /* LegacyRecovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyRecovery.swift; sourceTree = "<group>"; };
+		AFDB326FEC958DD7943EAA21 /* WalletUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletUI.swift; sourceTree = "<group>"; };
+		B1CE5716C421D18832598383 /* monero_c-LICENSE */ = {isa = PBXFileReference; path = "monero_c-LICENSE"; sourceTree = "<group>"; };
+		B207A036AF06F8674D48E82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93D1C22109B2406EE472D23 /* ConnectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionTests.swift; sourceTree = "<group>"; };
+		C1E0F17395D2637322A771AE /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		C2A3364090CA3473FB6DA164 /* WalletVault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletVault.swift; sourceTree = "<group>"; };
+		C900F5BFA5C728023D302E83 /* SyncAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncAttributes.swift; sourceTree = "<group>"; };
+		CC7E9890F10886F31B9BBFCE /* PaymentInputTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInputTests.swift; sourceTree = "<group>"; };
+		D0A9E273B7D3A66B893D12F1 /* Monero-LICENSE */ = {isa = PBXFileReference; path = "Monero-LICENSE"; sourceTree = "<group>"; };
+		D24AB1B3D2949EF6A318CCDE /* SyncWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncWidget.swift; sourceTree = "<group>"; };
+		DAEE5836C7FBFBCED37808A7 /* Recovery-NOTICES.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Recovery-NOTICES.txt"; sourceTree = "<group>"; };
+		DCCEA53BA79881118424BD74 /* Payments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payments.swift; sourceTree = "<group>"; };
+		E57FACD5E7504DD0AF488557 /* NodeRelay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeRelay.swift; sourceTree = "<group>"; };
+		E61E3787A4BD2E6E759005CA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		ED79EBAE55C3541776F89217 /* WalletSessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSessionTests.swift; sourceTree = "<group>"; };
+		F20685C7F8AB34701EB92C04 /* WalletLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletLanguage.swift; sourceTree = "<group>"; };
+		F5B2E968D491D03A95BC0B49 /* WalletSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSession.swift; sourceTree = "<group>"; };
+		FE8C207999BAAFE3299EA7D0 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		664D357D1D220D0A7135A3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40B8C7834A9FDD09FF35CA5 /* MoneroWallet.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		337060252E073D2DBF62C756 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9F4EC8625BB92CE2B5A2E3E5 /* MoneroBridge.cpp */,
+				57136419AC27C4BBF720EFC5 /* MoneroBridge.h */,
+				9E147695BEAFBD35BC9AFD47 /* WalletEngine.swift */,
+				2E4B43CB9FFD736349869988 /* WalletTypes.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		372051F7AE8EF1DC471D57BE /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B93D1C22109B2406EE472D23 /* ConnectionTests.swift */,
+				0741FCB23E7AB47386BDA8D4 /* LegacyRecoveryTests.swift */,
+				CC7E9890F10886F31B9BBFCE /* PaymentInputTests.swift */,
+				518BD35D1FA609F02DCB705C /* ProxyRoutingTests.swift */,
+				66DAE307F5051418BBBAFA55 /* TransferIntegrationTests.swift */,
+				ED79EBAE55C3541776F89217 /* WalletSessionTests.swift */,
+				74666DAEC91DC48DF35E7F0D /* WalletVaultTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		57981BF4653117E3E92B98F5 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA106DA55476BAB5B40AEF /* Cake-translations-LICENSE */,
+				8A08DD52295DA8086D3A85CF /* GPL-3.0.txt */,
+				B1CE5716C421D18832598383 /* monero_c-LICENSE */,
+				D0A9E273B7D3A66B893D12F1 /* Monero-LICENSE */,
+				DAEE5836C7FBFBCED37808A7 /* Recovery-NOTICES.txt */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		65FE05B58ED27F7BC6C28B65 = {
+			isa = PBXGroup;
+			children = (
+				9AB11C155431DB18F32D462C /* LICENSE */,
+				E283486AFA7E5EE12525AB9B /* App */,
+				337060252E073D2DBF62C756 /* Core */,
+				DD6D1E4DB63E645CC2C09A0A /* Interface */,
+				7A19A63B6BFF94D26D71910A /* Resources */,
+				6A3E52768ED44BEC096049E5 /* Security */,
+				EBBF1432FF437F20BB2A2A1C /* Shared */,
+				83B0CFC876836F5926B70AFE /* SyncWidget */,
+				372051F7AE8EF1DC471D57BE /* Tests */,
+				57981BF4653117E3E92B98F5 /* ThirdParty */,
+				C7BA9826872B5F2C209F7D6D /* Frameworks */,
+				FFF5515AB0D49115F7BD7607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A3E52768ED44BEC096049E5 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				A16A5B7686B3B86AC7DC83C4 /* LegacyRecovery.swift */,
+				66BE03DDF1E64EE63B4A7374 /* VaultArtwork.swift */,
+				9036F2D6F90DCB0F1F6746A4 /* VaultGate.swift */,
+				F20685C7F8AB34701EB92C04 /* WalletLanguage.swift */,
+				C2A3364090CA3473FB6DA164 /* WalletVault.swift */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		7A19A63B6BFF94D26D71910A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B207A036AF06F8674D48E82B /* Assets.xcassets */,
+				15951DEB7BA994CCB4C3B94F /* legacy-recovery.js */,
+				C1E0F17395D2637322A771AE /* Localizable.xcstrings */,
+				E61E3787A4BD2E6E759005CA /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83B0CFC876836F5926B70AFE /* SyncWidget */ = {
+			isa = PBXGroup;
+			children = (
+				D24AB1B3D2949EF6A318CCDE /* SyncWidget.swift */,
+			);
+			path = SyncWidget;
+			sourceTree = "<group>";
+		};
+		C7BA9826872B5F2C209F7D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A7A26FFDC7251F1A2CA631 /* MoneroWallet.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6D1E4DB63E645CC2C09A0A /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				69C0DC417B4CC82B84BA32E4 /* ColdSigning.swift */,
+				539A267C11A73AF58A04D735 /* MarketChart.swift */,
+				DCCEA53BA79881118424BD74 /* Payments.swift */,
+				4351476276AD3DDFE3F508AB /* WalletDashboard.swift */,
+				7AE97EF9A2167B46C850AB5A /* WalletStyle.swift */,
+				98C483EB626EFC5207E79899 /* WalletTools.swift */,
+				AFDB326FEC958DD7943EAA21 /* WalletUI.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		E283486AFA7E5EE12525AB9B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				585AEE74BFD208A929D5E366 /* Connection.swift */,
+				E57FACD5E7504DD0AF488557 /* NodeRelay.swift */,
+				FE8C207999BAAFE3299EA7D0 /* Settings.swift */,
+				F5B2E968D491D03A95BC0B49 /* WalletSession.swift */,
+				6ACAB1A08A23EA3A08F4496F /* XMRMoneroWalletApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EBBF1432FF437F20BB2A2A1C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C900F5BFA5C728023D302E83 /* SyncAttributes.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FFF5515AB0D49115F7BD7607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7992E36FAFAC636A2B319D75 /* SyncWidget.appex */,
+				0DDA65764340EF958ACCB28C /* WalletTests.xctest */,
+				628C3A3438257963BF4F5284 /* XMRMoneroWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		645BE3DD2B0CA71D0522A84C /* WalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52496F2A206C33B162B93423 /* Build configuration list for PBXNativeTarget "WalletTests" */;
+			buildPhases = (
+				A2F2D6E3FC34363C5E14AFA0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33F8A83B569B13799A51BD2 /* PBXTargetDependency */,
+			);
+			name = WalletTests;
+			packageProductDependencies = (
+			);
+			productName = WalletTests;
+			productReference = 0DDA65764340EF958ACCB28C /* WalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F1CD21372E1F12772E13462 /* XMRMoneroWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF723323591D61764F31F21 /* Build configuration list for PBXNativeTarget "XMRMoneroWallet" */;
+			buildPhases = (
+				3A38152CBEE6FEB1415DD2A1 /* Sources */,
+				F112D2C225ADD1ADB8D85188 /* Resources */,
+				664D357D1D220D0A7135A3AF /* Frameworks */,
+				DCAC03056D331333079F8941 /* Embed Foundation Extensions */,
+				D624257FA7A68FAF24EF4AE4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E407C401B7F2DBC6FDADE8C /* PBXTargetDependency */,
+			);
+			name = XMRMoneroWallet;
+			packageProductDependencies = (
+			);
+			productName = XMRMoneroWallet;
+			productReference = 628C3A3438257963BF4F5284 /* XMRMoneroWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF2E36363DD71DEECEDC7FC0 /* SyncWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1A364F6E7474F7F9247796 /* Build configuration list for PBXNativeTarget "SyncWidget" */;
+			buildPhases = (
+				C3008E20F97EE17D181F809B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncWidget;
+			packageProductDependencies = (
+			);
+			productName = SyncWidget;
+			productReference = 7992E36FAFAC636A2B319D75 /* SyncWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088C7BEDD3BD7E0114A091EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					645BE3DD2B0CA71D0522A84C = {
+						ProvisioningStyle = Automatic;
+					};
+					7F1CD21372E1F12772E13462 = {
+						ProvisioningStyle = Automatic;
+					};
+					BF2E36363DD71DEECEDC7FC0 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 988B5BCAB5B0F5806AA3B7C0 /* Build configuration list for PBXProject "XMRMoneroWallet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 65FE05B58ED27F7BC6C28B65;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFF5515AB0D49115F7BD7607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1CD21372E1F12772E13462 /* XMRMoneroWallet */,
+				BF2E36363DD71DEECEDC7FC0 /* SyncWidget */,
+				645BE3DD2B0CA71D0522A84C /* WalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F112D2C225ADD1ADB8D85188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4E3BAD8380F0C06BEFB761 /* Assets.xcassets in Resources */,
+				EA639A218ED390F15A7AA389 /* Cake-translations-LICENSE in Resources */,
+				4817F7299974F81762E504C0 /* GPL-3.0.txt in Resources */,
+				65521DDF0870122D43ADF7C6 /* LICENSE in Resources */,
+				534AB0F33535064CF807EF25 /* Localizable.xcstrings in Resources */,
+				AB24CEB757B75371F63AAE3A /* Monero-LICENSE in Resources */,
+				C5572365BB1F8A052A26C07C /* PrivacyInfo.xcprivacy in Resources */,
+				97123652C62AFE97AC009D45 /* Recovery-NOTICES.txt in Resources */,
+				F3D42334CFA6335630A3E689 /* legacy-recovery.js in Resources */,
+				371B682D804190699710D961 /* monero_c-LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A38152CBEE6FEB1415DD2A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321B0DF00C2A88306D70AB89 /* ColdSigning.swift in Sources */,
+				F2061076357EEE82A7CAB2EF /* Connection.swift in Sources */,
+				04DE43ADD9F0050A6F499B7C /* LegacyRecovery.swift in Sources */,
+				ED5D8A566C6364D13BD9E432 /* MarketChart.swift in Sources */,
+				13252B26069D12C09B5DE6A0 /* MoneroBridge.cpp in Sources */,
+				60E27A6A912D3BB2B1D5E517 /* NodeRelay.swift in Sources */,
+				6F0E8A7D5D73E72F0313016D /* Payments.swift in Sources */,
+				72A96BC494023D554200CB12 /* Settings.swift in Sources */,
+				14D275CB8A7E00049C9D146A /* SyncAttributes.swift in Sources */,
+				C027E22A46E4C2B9DBEAB916 /* VaultArtwork.swift in Sources */,
+				664E511E5B5B522E971C942F /* VaultGate.swift in Sources */,
+				9F87FDE86C0C8B6C269A2728 /* WalletDashboard.swift in Sources */,
+				C0085890C5D0CD11050328E0 /* WalletEngine.swift in Sources */,
+				F9ADB39D01BA3F01F55FF77C /* WalletLanguage.swift in Sources */,
+				452AB14108244FB3119314B8 /* WalletSession.swift in Sources */,
+				B11D4BE62938BF8F7D2C5EBB /* WalletStyle.swift in Sources */,
+				9397B3AA28B6D4EC53DF740B /* WalletTools.swift in Sources */,
+				33255518889099E90F03C183 /* WalletTypes.swift in Sources */,
+				54385D1891534F855D6A84E5 /* WalletUI.swift in Sources */,
+				B4013CA2ECCE2FC7C40CF517 /* WalletVault.swift in Sources */,
+				FF189F8707FED30DCF4136DF /* XMRMoneroWalletApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F2D6E3FC34363C5E14AFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B55D38EB08D3F11091FB41 /* ConnectionTests.swift in Sources */,
+				5F465415C87C00147144E80C /* LegacyRecoveryTests.swift in Sources */,
+				FD37CEE4ABB7B227F7C1B621 /* PaymentInputTests.swift in Sources */,
+				A2E8C61E841FC40AAA50DD2A /* ProxyRoutingTests.swift in Sources */,
+				CA8587F8E6219AC9AF796196 /* TransferIntegrationTests.swift in Sources */,
+				CB102C9BC4BC97546F311EE2 /* WalletSessionTests.swift in Sources */,
+				2E8FA6C3E77B73EBB3A90907 /* WalletVaultTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3008E20F97EE17D181F809B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE95EA8CDFD072F6A75CB4A0 /* SyncAttributes.swift in Sources */,
+				26CD928F7709E531CB1CD4DB /* SyncWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E407C401B7F2DBC6FDADE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF2E36363DD71DEECEDC7FC0 /* SyncWidget */;
+			targetProxy = 35BC27C07D2B162A59AE1539 /* PBXContainerItemProxy */;
+		};
+		E33F8A83B569B13799A51BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1CD21372E1F12772E13462 /* XMRMoneroWallet */;
+			targetProxy = 241F62C97E19739E93BED280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CB819F40C94921C6D615416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		54316F60F2F4982648FF6E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66C2DDAB49B5E3FCD9B1A9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.harvard1932.xmrwallet.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMRMoneroWallet.app/XMRMoneroWallet";
+			};
+			name = Debug;
+		};
+		8CFE734B6DA0260DC5B9D95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Vendor\"",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.harvard1932.xmrwallet;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = Core/MoneroBridge.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA26E44F0952A1F14C0FEF38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SyncWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.harvard1932.xmrwallet.sync;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5A34352C02F8742196EB8EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Vendor\"",
+				);
+				INFOPLIST_FILE = Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.harvard1932.xmrwallet;
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = Core/MoneroBridge.h;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E10022442B42F623D54CFC79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SyncWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.harvard1932.xmrwallet.sync;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4ED75E802A6A20582D9AB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.harvard1932.xmrwallet.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XMRMoneroWallet.app/XMRMoneroWallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52496F2A206C33B162B93423 /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C2DDAB49B5E3FCD9B1A9FC /* Debug */,
+				F4ED75E802A6A20582D9AB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5C1A364F6E7474F7F9247796 /* Build configuration list for PBXNativeTarget "SyncWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA26E44F0952A1F14C0FEF38 /* Debug */,
+				E10022442B42F623D54CFC79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		988B5BCAB5B0F5806AA3B7C0 /* Build configuration list for PBXProject "XMRMoneroWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54316F60F2F4982648FF6E1A /* Debug */,
+				4CB819F40C94921C6D615416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FEF723323591D61764F31F21 /* Build configuration list for PBXNativeTarget "XMRMoneroWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5A34352C02F8742196EB8EC /* Debug */,
+				8CFE734B6DA0260DC5B9D95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088C7BEDD3BD7E0114A091EC /* Project object */;
+}
