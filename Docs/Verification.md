@@ -1,6 +1,6 @@
 # Verification
 
-The iPhone 17 Pro simulator suite passed all 18 XCTest cases on iOS 26.5 with the optional public-node test enabled. Xcode also produced an unsigned arm64 Release build for iPhone. These are development checks. An independent review, source-to-binary reproduction and physical-device signing and camera tests remain open.
+The iPhone 17 Pro simulator suite passed all 18 XCTest cases on iOS 26.5 with the optional public-node test enabled. Xcode also produced an unsigned arm64 Release build for iPhone. A clean, unauthenticated GitHub clone also built for iPhone after running the documented dependency script. All three JavaScript recovery tests passed and rebuilding the bundled adapter produced an identical file. These are development checks. An independent review, source-to-binary reproduction and physical-device signing and camera tests remain open.
 
 | Check | Evidence |
 | --- | --- |

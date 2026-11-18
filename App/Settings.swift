@@ -9,7 +9,7 @@ struct WalletSource: View {
     var body: some View {
         WalletSheet(title: "Open source") {
             Image(systemName: "curlybraces").font(.system(size: 38, weight: .medium)).foregroundStyle(WalletStyle.apricot)
-            Text("Inside the wallet").font(.largeTitle.weight(.semibold))
+            Text("XMR Monero Wallet - Safe and opensource").font(.largeTitle.weight(.semibold))
             Text("Every screen, wallet operation and build instruction is public. You can read the Swift code, inspect the native engine and build your own copy.")
                 .foregroundStyle(WalletStyle.muted)
             WalletLine(label: "App license", value: "MIT")

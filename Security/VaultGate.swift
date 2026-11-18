@@ -123,6 +123,10 @@ private struct VaultEntry: View {
                     notice = nil
                 } label: { actionLabel("Restore a wallet", symbol: "arrow.counterclockwise") }
                 .buttonStyle(WalletPrimaryButton(muted: true)).accessibilityIdentifier("vault.restore")
+                Text("Developer preview. Independent security review is pending.")
+                    .font(.footnote).foregroundStyle(WalletStyle.muted)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .padding(.top, 4)
                 if !vault.wallets.isEmpty {
                     Button("Back to my wallets") { vault.lock() }.padding(.top, 6)
                 }

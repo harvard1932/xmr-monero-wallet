@@ -21,7 +21,7 @@ To rebuild the engine independently, clone the wrapper at the exact commit above
 
 The pinned engine's native HTTP client uses TLS autodetection. In this version that mode may accept an unverified certificate or retry with plaintext, even when given an HTTPS URL. `WalletEngine.connect` therefore rejects direct remote HTTPS traffic. The raw native endpoint must be loopback or a v3 onion service reached through a SOCKS4a-compatible proxy. For onion destinations the proxy resolves the hostname. The engine never falls back from an onion connection to a direct clearnet connection.
 
-The wallet2 base in this wrapper predates Monero v0.18.5.4. Patches, dependencies, daemon compatibility and advisory changes between these releases need review before a production release. A matching archive digest identifies the expected bytes. It does not provide independent security assurance.
+The wallet2 base in this wrapper predates Monero v0.18.5.4. The [upstream v0.18.5.0 release](https://github.com/monero-project/monero/releases/tag/v0.18.5.0) includes additional change-address checks and HTTP client authentication fixes. The newer upstream changes need to be evaluated and incorporated where applicable before a production release. A matching archive digest identifies the expected bytes. It does not provide independent security assurance.
 
 ## Verification
 
