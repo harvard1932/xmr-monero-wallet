@@ -104,7 +104,40 @@ final class WalletFlowUITests: XCTestCase {
         XCTAssertTrue(app.buttons["Share"].exists)
         XCTAssertTrue(app.buttons["Copy"].exists)
         app.buttons["Close"].tap()
-        app.buttons["Activity"].tap()
+        let tabs = app.tabBars.firstMatch
+        XCTAssertEqual(tabs.buttons.allElementsBoundByIndex.map(\.label), ["Wallet", "Activity", "Market", "Store", "Settings"])
+        tabs.buttons["Market"].tap()
+        XCTAssertTrue(app.navigationBars["Market"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.segmentedControls.firstMatch.buttons["7 days"].exists)
+        XCTAssertTrue(app.staticTexts["Direct price lookups are disabled while the wallet is offline or using a proxy."].exists)
+        tabs.buttons["Store"].tap()
+        XCTAssertTrue(app.navigationBars["Store"].waitForExistence(timeout: 5))
+        let invoiceName = "UI request " + UUID().uuidString.prefix(6)
+        app.buttons["New request"].tap()
+        let invoiceLabel = app.textFields["e.g. Studio rent"]
+        XCTAssertTrue(invoiceLabel.waitForExistence(timeout: 5))
+        invoiceLabel.tap()
+        invoiceLabel.typeText(invoiceName)
+        let invoiceAmount = app.textFields["0.00"]
+        invoiceAmount.tap()
+        invoiceAmount.typeText("0.0125")
+        let createRequest = app.buttons["Create request"]
+        scrollTo(createRequest, in: app)
+        createRequest.tap()
+        XCTAssertTrue(app.navigationBars[invoiceName].waitForExistence(timeout: 10))
+        XCTAssertTrue(app.staticTexts["Awaiting payment"].exists)
+        XCTAssertTrue(app.staticTexts["Dedicated subaddress"].exists)
+        XCTAssertTrue(app.buttons["Share request"].exists)
+        app.buttons["Close"].tap()
+        tabs.buttons["Settings"].tap()
+        XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 5))
+        tabs.buttons["Store"].tap()
+        let savedInvoice = app.buttons.containing(.staticText, identifier: invoiceName).firstMatch
+        XCTAssertTrue(savedInvoice.waitForExistence(timeout: 5))
+        savedInvoice.tap()
+        XCTAssertTrue(app.navigationBars[invoiceName].waitForExistence(timeout: 5))
+        app.buttons["Close"].tap()
+        tabs.buttons["Activity"].tap()
         XCTAssertTrue(app.textFields["Search hash, note or recipient"].waitForExistence(timeout: 5))
         let direction = app.segmentedControls.firstMatch
         XCTAssertTrue(direction.exists)
@@ -118,6 +151,14 @@ final class WalletFlowUITests: XCTestCase {
         XCTAssertTrue(app.navigationBars["Node and sync settings"].waitForExistence(timeout: 5))
         app.buttons["Done"].tap()
         app.buttons["Tools"].tap()
+        XCTAssertTrue(app.navigationBars["Wallet tools"].waitForExistence(timeout: 5))
+        for tool in ["Contacts", "Coin control", "Cold signing"] {
+            let entry = app.buttons.containing(.staticText, identifier: tool).firstMatch
+            scrollTo(entry, in: app)
+            entry.tap()
+            XCTAssertTrue(app.navigationBars[tool].waitForExistence(timeout: 5))
+            app.buttons["Close"].tap()
+        }
         let pulse = app.buttons.containing(.staticText, identifier: "Privacy Pulse").firstMatch
         if pulse.exists { pulse.tap() } else { app.buttons["Privacy Pulse"].tap() }
         XCTAssertTrue(app.navigationBars["Privacy Pulse"].waitForExistence(timeout: 5))

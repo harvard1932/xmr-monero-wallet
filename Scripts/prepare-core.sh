@@ -39,34 +39,46 @@ for platform in ios ios-simulator; do
     if [[ "$platform" == ios ]]; then
         library="$device"
         native_platform=IOS
+        bundle_platform=iPhoneOS
+        sdk_name=iphoneos
     else
         library="$simulator"
         native_platform=IOSSIMULATOR
+        bundle_platform=iPhoneSimulator
+        sdk_name=iphonesimulator
     fi
     [[ "$(lipo -archs "$library")" == arm64 ]] || { echo "Expected an arm64 library for $platform." >&2; exit 1; }
     xcrun vtool -show-build "$library" > "$work/platform.txt"
     [[ "$(awk '$1 == "platform" {print $2}' "$work/platform.txt")" == "$native_platform" ]] || { echo "Incorrect wallet library platform." >&2; exit 1; }
     minos="$(awk '$1 == "minos" {print $2}' "$work/platform.txt")"
+    sdk_version="$(awk '$1 == "sdk" {print $2}' "$work/platform.txt")"
     LC_ALL=C strings "$library" > "$work/identifiers.txt"
     grep -Fxq '087f2bb11cdbca5f886346850c74f0404a9c371fd1706521e7590dcea21d8af5-22578c3f7d7b4b6dd85ff7daa42a827d97cc53d0' "$work/identifiers.txt" || { echo "Wrong wrapper or Monero revision for $platform." >&2; exit 1; }
     shasum -a 256 "$library"
     cp "$library" "$framework/MoneroWallet"
     chmod 755 "$framework/MoneroWallet"
     install_name_tool -id '@rpath/MoneroWallet.framework/MoneroWallet' "$framework/MoneroWallet"
-    cat > "$framework/Info.plist" <<'PLIST'
+    cat > "$framework/Info.plist" <<PLIST
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0"><dict>
 <key>CFBundleIdentifier</key><string>org.getmonero.walletcore</string>
+<key>CFBundleDevelopmentRegion</key><string>en</string>
+<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
 <key>CFBundleName</key><string>MoneroWallet</string>
 <key>CFBundleExecutable</key><string>MoneroWallet</string>
 <key>CFBundlePackageType</key><string>FMWK</string>
-<key>CFBundleVersion</key><string>1</string>
-<key>CFBundleShortVersionString</key><string>0.18.5.3</string>
-<key>MinimumOSVersion</key><string>13.0</string>
+<key>CFBundleShortVersionString</key><string>0.18.5</string>
+<key>CFBundleVersion</key><string>3</string>
+<key>CFBundleSupportedPlatforms</key><array><string>$bundle_platform</string></array>
+<key>DTPlatformName</key><string>$sdk_name</string>
+<key>DTPlatformVersion</key><string>$sdk_version</string>
+<key>DTSDKName</key><string>$sdk_name$sdk_version</string>
+<key>MinimumOSVersion</key><string>$minos</string>
 </dict></plist>
 PLIST
-    plutil -replace MinimumOSVersion -string "$minos" "$framework/Info.plist"
+    cp "$root/ThirdParty/Monero-PrivacyInfo.xcprivacy" "$framework/PrivacyInfo.xcprivacy"
+    plutil -lint "$framework/Info.plist" "$framework/PrivacyInfo.xcprivacy" >/dev/null
     codesign --force --sign - "$framework"
 done
 xcodebuild -create-xcframework -framework "$work/ios/MoneroWallet.framework" \

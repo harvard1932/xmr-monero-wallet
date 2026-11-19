@@ -2,7 +2,7 @@ import SwiftUI
 
 enum ProjectLinks {
     static let source = URL(string: "https://github.com/harvard1932/xmr-monero-wallet")!
-    static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.3.0"
+    static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.4.0"
     static let revision = source.appending(path: "tree").appending(path: "v" + version)
     static let verification = source.appending(path: "blob/v" + version + "/Docs/Verification.md")
     static let security = source.appending(path: "blob/main/SECURITY.md")
@@ -91,6 +91,7 @@ struct WalletSettings: View {
     @ObservedObject var session: WalletSession
     let lock: () -> Void
     var initialPage: SettingsPage?
+    var isTab = false
     @State private var path = [SettingsPage]()
     @State private var backup: VaultBackup?
     @State private var showWords = false
@@ -163,7 +164,11 @@ struct WalletSettings: View {
                 case .security: Form { security }.navigationTitle("Wallet security")
                 }
             }
-            .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Done") { dismiss() } } }
+            .toolbar {
+                if !isTab {
+                    ToolbarItem(placement: .topBarTrailing) { Button("Done") { dismiss() } }
+                }
+            }
         }
         .onAppear { if let initialPage, path.isEmpty { path = [initialPage] } }
         .sheet(isPresented: $showSource) { WalletSource() }

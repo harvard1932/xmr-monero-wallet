@@ -4,6 +4,7 @@ struct InvoiceList: View {
     @Environment(\.locale) private var locale
     var data: WalletPresentation
     var actions: WalletActions
+    var isStoreTab = false
     @State private var label = ""
     @State private var amount = ""
     @State private var creating = false
@@ -12,7 +13,7 @@ struct InvoiceList: View {
     @State private var error: String?
 
     var body: some View {
-        WalletSheet(title: "Payment requests") {
+        WalletSheet(title: isStoreTab ? "Store" : "Payment requests", showsCloseButton: !isStoreTab) {
             if creating {
                 WalletField(label: "Invoice label") { TextField("e.g. Studio rent", text: $label) }
                 WalletField(label: "Amount in XMR") {

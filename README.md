@@ -2,7 +2,7 @@
 
 A free, independent, self-custody Monero wallet for iPhone. Read the app code, inspect the wallet engine and build your own copy. The app charges no subscription, purchase price or service fee. Sending XMR incurs a Monero network fee, shown before confirmation.
 
-**Version 0.3.0 · iPhone developer preview.** This app has not had an independent security audit. Evaluate it with disposable wallets. It has no App Store or TestFlight release.
+**Version 0.4.0 · iPhone beta candidate.** This app has not had an independent security audit. Evaluate it with disposable wallets. The TestFlight invitation is pending. [Beta test instructions](Docs/TestFlight.md)
 
 <p>
   <img src="Docs/images/welcome.png" width="225" alt="Welcome screen with create and restore actions">
@@ -15,7 +15,7 @@ A free, independent, self-custody Monero wallet for iPhone. Read the app code, i
 | Area | Implementation |
 | --- | --- |
 | Wallets and recovery | Create a 25-word wallet, keep multiple wallets, restore by classic seed, Polyseed, supported MyMonero or BIP39 derivations, spend and view keys, or a view key alone. [Recovery formats](Recovery/README.md) |
-| Receive | Choose a labeled address, add an optional exact amount to its QR, or create a dedicated invoice and follow its receipts. |
+| Receive | Choose a labeled address, add an optional exact amount to its QR, or open Store to create a dedicated invoice and follow its receipts. |
 | Send | Paste an address or scan a payment URI with the camera or photo picker. Request the maximum after fees, use one funded subaddress or select outputs. Review the exact amount and fee, swipe and authenticate. Add a private transaction note. |
 | Activity and coins | Search local notes, hashes, addresses and contacts, filter sent or received activity, and see totals and confirmations by date. Label, freeze or select outputs. |
 | Sync and privacy | Test the named nodes, pin a node, enable automatic failover, connect to your daemon or choose Tor or offline mode. Follow the block heights, rescan, and review Privacy Pulse’s weighted checks. |

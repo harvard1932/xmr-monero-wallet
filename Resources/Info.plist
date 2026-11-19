@@ -26,6 +26,8 @@
 	<string>Scan Monero addresses, invoices and signing QR codes.</string>
 	<key>NSFaceIDUsageDescription</key>
 	<string>Use Face ID to unlock this wallet and protect recovery information.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connect to the Monero node you choose on your local network.</string>
 	<key>NSSupportsLiveActivities</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>

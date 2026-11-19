@@ -78,8 +78,10 @@ def main():
     descriptions = plistlib.loads((RESOURCES / "Info.plist").read_bytes())
     validate(local, "Localizable")
     validate(info, "InfoPlist", descriptions)
-    for key in descriptions:
-        if key.endswith("UsageDescription"): assert key in info, key
+    permission_keys = {key for key in descriptions if key.endswith("UsageDescription")}
+    required = {"NSCameraUsageDescription", "NSFaceIDUsageDescription", "NSLocalNetworkUsageDescription"}
+    assert required <= permission_keys, ("Missing permission description in Info.plist", sorted(required - permission_keys))
+    assert permission_keys <= info.keys(), ("Missing localized permission description", sorted(permission_keys - info.keys()))
     if args.derived_data:
         seen = set()
         for path in args.derived_data.rglob("*.stringsdata"):

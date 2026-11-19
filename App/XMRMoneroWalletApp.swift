@@ -35,9 +35,15 @@ struct WalletRoot: View {
             if vault.phase == .unlocked {
                 Group {
                     if let data = session.data {
-                        WalletDashboard(data: data, actions: session.actions(vault: vault, settings: { panel = .settings }, wallets: { panel = .wallets }),
-                                        showNetwork: { panel = .network }, showPulse: { panel = .privacy }, privacyScore: PrivacyPulse(vault: vault, session: session).score, walletCount: vault.wallets.count)
-                            .id(vault.sessionID)
+                        WalletDashboard(
+                            data: data,
+                            actions: session.actions(vault: vault, settings: { panel = .settings }, wallets: { panel = .wallets }),
+                            showNetwork: { panel = .network }, showPulse: { panel = .privacy },
+                            privacyScore: PrivacyPulse(vault: vault, session: session).score, walletCount: vault.wallets.count
+                        ) {
+                            WalletSettings(vault: vault, session: session, lock: lock, isTab: true)
+                        }
+                        .id(vault.sessionID)
                     } else {
                         VStack(spacing: 20) {
                             if let issue = session.problem {

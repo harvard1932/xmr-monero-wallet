@@ -1,5 +1,15 @@
 # Verification
 
+## Version 0.4.0, build 4
+
+The generic iPhone Release archive completed with Xcode 27.1. Inspection verified the iPhone-only app and Live Activity extension, matched both version numbers and checked the signed wallet framework’s per-platform metadata and privacy manifest. All three permission descriptions are included in 23 languages. The archive was built locally without an Apple distribution signature. Apple processing and beta approval are separate steps. [TestFlight beta](TestFlight.md)
+
+All 49 native tests and both production UI tests passed on an iPhone 17 Pro simulator running iOS 26.5, with zero skips. The native run enabled live HTTPS, Tor, market data and 100 Tor start/stop cycles. The UI tests checked the five top-level tabs, the offline price gate, and creation, sharing and reopening of an invoice for exactly 0.0125 XMR. All six JavaScript recovery tests passed. The localization check validated 672 interface strings and three permission descriptions in each of 23 languages.
+
+The project’s 50 direct directory entries each answered the mainnet health request over verified HTTPS on November 19, 2026. Node availability changes over time. Both private-chain scenarios also passed using the matching wallet2 engine. Independent recipient wallets confirmed a 1.25 test XMR cold-signed payment and a 0.25 test XMR hot-wallet payment from the selected subaddress. The protocol versions exercised and remaining physical-device checks are recorded below.
+
+## Version 0.3.0
+
 The app targets arm64 iPhones running iOS 17 or later. Version 0.3.0 was checked on an iPhone 17 Pro simulator running iOS 26.5 and on isolated chains using disposable wallets. The UI checks used a separate bundle identifier. The project’s [feature comparison](FeatureCoverage.md) records the reference screens, known differences and hardware checks that remain open.
 
 On November 18, 2026, the full native suite passed **48 of 48 tests** with the source-built Monero 0.18.5.3 simulator engine, real Tor and HTTPS nodes, live CoinGecko data and the 100-cycle Tor test enabled. Both production UI tests passed on the same model with zero skips, and all six JavaScript recovery tests passed. Xcode built the arm64 iPhone Release target with the signed-distribution device engine. The same public recipe also compiled wallet2 for both arm64 iPhone and Simulator. Framework packaging verified the platform for each slice. The isolated-chain tests confirmed the exact hot and cold transfer amounts in independent recipient wallets. All test funds were disposable.

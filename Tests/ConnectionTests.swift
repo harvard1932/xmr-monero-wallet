@@ -20,6 +20,16 @@ final class ConnectionTests: XCTestCase {
         XCTAssertThrowsError(try config.validate())
     }
 
+    func testDirectoryHasFiftyDistinctTLSHostsAndSeparateOnionRoutes() {
+        let direct = ConnectionSettings.directDirectory
+        XCTAssertEqual(direct.count, 50)
+        XCTAssertEqual(Set(direct.compactMap { $0.url.host }).count, direct.count)
+        XCTAssertTrue(direct.allSatisfy { $0.url.scheme == "https" && $0.url.user == nil && $0.url.password == nil })
+        let tor = ConnectionSettings.torDirectory
+        XCTAssertTrue(tor.allSatisfy { $0.url.host?.hasSuffix(".onion") == true })
+        XCTAssertTrue(Set(direct.map(\.url)).isDisjoint(with: tor.map(\.url)))
+    }
+
     func testPinnedNodesPersistWithoutBecomingTrustedCustomNodes() async throws {
         var settings = ConnectionSettings()
         settings.mode = ConnectionMode.pinned.rawValue

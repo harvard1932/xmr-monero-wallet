@@ -9,8 +9,8 @@ settings:
     TARGETED_DEVICE_FAMILY: "1"
     SUPPORTS_MACCATALYST: NO
     SWIFT_EMIT_LOC_STRINGS: YES
-    CURRENT_PROJECT_VERSION: 3
-    MARKETING_VERSION: 0.3.0
+    CURRENT_PROJECT_VERSION: 4
+    MARKETING_VERSION: 0.4.0
     CODE_SIGN_STYLE: Automatic
 targets:
   XMRMoneroWallet:
@@ -53,6 +53,7 @@ targets:
       base:
         INFOPLIST_FILE: Resources/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: io.github.harvard1932.xmrwallet
+        TARGETED_DEVICE_FAMILY: "1"
         SWIFT_OBJC_BRIDGING_HEADER: Core/MoneroBridge.h
         HEADER_SEARCH_PATHS: '$(inherited) "$(SRCROOT)/Security/Polyseed/include"'
         CLANG_CXX_LANGUAGE_STANDARD: c++17
@@ -78,6 +79,7 @@ targets:
       base:
         INFOPLIST_FILE: SyncWidget/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: io.github.harvard1932.xmrwallet.sync
+        TARGETED_DEVICE_FAMILY: "1"
         SKIP_INSTALL: YES
   WalletTests:
     type: bundle.unit-test

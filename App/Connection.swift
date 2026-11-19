@@ -90,7 +90,49 @@ struct ConnectionSettings: Codable, Equatable {
         PublicNode("MoneroDevs II", "https://node2.monerodevs.org:18089"),
         PublicNode("MoneroDevs III", "https://node3.monerodevs.org:18089"),
         PublicNode("RavFX I", "https://ravfx.its-a-node.org:18081"),
-        PublicNode("RavFX II", "https://ravfx2.its-a-node.org:18089")
+        PublicNode("RavFX II", "https://ravfx2.its-a-node.org:18089"),
+        PublicNode("anstee.dev", "https://anstee.dev:18081"),
+        PublicNode("chad.fiatfaucet.com", "https://chad.fiatfaucet.com"),
+        PublicNode("connect.xmr-node.org", "https://connect.xmr-node.org:443"),
+        PublicNode("corny.cc", "https://corny.cc:443"),
+        PublicNode("kuk.fan", "https://kuk.fan"),
+        PublicNode("mainnet.xmr.kernal.eu", "https://mainnet.xmr.kernal.eu:18089"),
+        PublicNode("monero-rpc.cheems.de.box.skhron.com.ua", "https://monero-rpc.cheems.de.box.skhron.com.ua"),
+        PublicNode("monero.ceo", "https://monero.ceo:18090"),
+        PublicNode("monero.definitelynotafed.com", "https://monero.definitelynotafed.com"),
+        PublicNode("monero.econanon.com", "https://monero.econanon.com:443"),
+        PublicNode("monero.konku.rs", "https://monero.konku.rs:18089"),
+        PublicNode("monero.openinternet.io", "https://monero.openinternet.io"),
+        PublicNode("monerodice.pro", "https://monerodice.pro:18089"),
+        PublicNode("node.chaoswg.dev", "https://node.chaoswg.dev"),
+        PublicNode("node.kyc.rip", "https://node.kyc.rip"),
+        PublicNode("node.mon3ro.com", "https://node.mon3ro.com"),
+        PublicNode("node.monero.fail", "https://node.monero.fail"),
+        PublicNode("node.monerosafe.com", "https://node.monerosafe.com"),
+        PublicNode("node.privacyx.co", "https://node.privacyx.co:443"),
+        PublicNode("node.wagyu.xyz", "https://node.wagyu.xyz:443"),
+        PublicNode("node.xmr.indst.eu", "https://node.xmr.indst.eu:443"),
+        PublicNode("node.xmr.pub", "https://node.xmr.pub"),
+        PublicNode("node.xmr.surf", "https://node.xmr.surf"),
+        PublicNode("wakkawakka.duckdns.org", "https://wakkawakka.duckdns.org:6977"),
+        PublicNode("xmr-01.tari.com", "https://xmr-01.tari.com"),
+        PublicNode("xmr-au-1.cryptovps.io", "https://xmr-au-1.cryptovps.io"),
+        PublicNode("xmr.0xrpc.io", "https://xmr.0xrpc.io"),
+        PublicNode("xmr.apschneider-it.eu", "https://xmr.apschneider-it.eu:443"),
+        PublicNode("xmr.carlslab.de", "https://xmr.carlslab.de:443"),
+        PublicNode("xmr.cryptostorm.is", "https://xmr.cryptostorm.is:443"),
+        PublicNode("xmr.diyarciftci.xyz", "https://xmr.diyarciftci.xyz:18089"),
+        PublicNode("xmr.hostingwire.net", "https://xmr.hostingwire.net"),
+        PublicNode("xmr.jayjonkman.nl", "https://xmr.jayjonkman.nl:18089"),
+        PublicNode("xmr.marritt.ca", "https://xmr.marritt.ca"),
+        PublicNode("xmr.nadeko.net", "https://xmr.nadeko.net:18081"),
+        PublicNode("xmr.okade.pro", "https://xmr.okade.pro:443"),
+        PublicNode("xmr.pants-on.net", "https://xmr.pants-on.net:18089"),
+        PublicNode("xmr.privacygateway.io", "https://xmr.privacygateway.io:443"),
+        PublicNode("xmr.subgenius.finance", "https://xmr.subgenius.finance:443"),
+        PublicNode("xmr.support", "https://xmr.support:18089"),
+        PublicNode("xmr.surveillance.monster", "https://xmr.surveillance.monster"),
+        PublicNode("xmr.thinhhv.com", "https://xmr.thinhhv.com:443"),
     ]
     static let torDirectory = [
         PublicNode("Plowsof I", "http://plowsof3t5hogddwabaeiyrno25efmzfxyro2vligremt7sxpsclfaid.onion:18089"),
@@ -139,21 +181,30 @@ struct ConnectionSettings: Codable, Equatable {
             let nodes = directory
             let origins = nodes.map(\.url)
             let routeProxy = useProxy ? activeProxy : nil
-            return await withTaskGroup(of: URL?.self) { group in
-                for node in nodes {
-                    group.addTask {
-                        guard (try? await Self.responseTime(node, proxy: routeProxy)) != nil else { return nil }
-                        return node.url
+            // Limit the number of operators that see an automatic lookup. Only a
+            // failed group or the explicit Test all action contacts more nodes.
+            let batchSize = useProxy ? nodes.count : 8
+            for start in stride(from: 0, to: nodes.count, by: batchSize) {
+                try Task.checkCancellation()
+                let batch = nodes[start..<min(start + batchSize, nodes.count)]
+                let first = await withTaskGroup(of: URL?.self) { group -> URL? in
+                    for node in batch {
+                        group.addTask {
+                            guard (try? await Self.responseTime(node, proxy: routeProxy)) != nil else { return nil }
+                            return node.url
+                        }
                     }
-                }
-                for await result in group {
-                    if let first = result {
-                        group.cancelAll()
-                        return [first] + origins.filter { $0 != first }
+                    for await result in group {
+                        if let result {
+                            group.cancelAll()
+                            return result
+                        }
                     }
+                    return nil
                 }
-                return []
+                if let first { return [first] + origins.filter { $0 != first } }
             }
+            return []
         }
     }
 

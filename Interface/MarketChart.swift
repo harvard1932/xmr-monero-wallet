@@ -68,7 +68,7 @@ struct MarketChart: View {
     private var fetchID: String { "\(enabled)-\(allowsConnection)-\(window.rawValue)-\(revision)-\(phase == .active)" }
 
     var body: some View {
-        WalletSheet(title: "XMR price") {
+        WalletSheet(title: "Market", showsCloseButton: false) {
             Text("XMR / USD").font(.subheadline.weight(.semibold)).foregroundStyle(WalletStyle.muted)
             if let latest = closes.last, let first = closes.first {
                 Text(latest.usd, format: .currency(code: "USD")).font(.largeTitle.bold()).monospacedDigit()

@@ -1,29 +1,22 @@
 import SwiftUI
 
-private enum DashboardTab: String, CaseIterable {
-    case wallet = "Wallet", activity = "Activity", tools = "Tools"
-
-    var icon: String {
-        switch self {
-        case .wallet: "wallet.bifold"
-        case .activity: "clock.arrow.circlepath"
-        case .tools: "square.grid.2x2"
-        }
-    }
+private enum DashboardTab {
+    case wallet, activity, market, store, settings
 }
 
 private enum WalletRoute: String, Identifiable {
-    case send, scan, receive, contacts, invoices, coins, price, cold
+    case send, scan, receive, contacts, coins, cold
     var id: Self { self }
 }
 
-struct WalletDashboard: View {
+struct WalletDashboard<SettingsContent: View>: View {
     var data: WalletPresentation
     var actions: WalletActions
     var showNetwork: (() -> Void)?
     var showPulse: (() -> Void)?
     var privacyScore: Int?
     var walletCount = 1
+    @ViewBuilder var settingsContent: () -> SettingsContent
     @Environment(\.scenePhase) private var phase
     @Environment(\.locale) private var locale
     @State private var livePrices = false
@@ -32,30 +25,39 @@ struct WalletDashboard: View {
     private var directPrices: Bool { data.networkEnabled && !data.usesProxy }
     private var showPrices: Bool { livePrices && directPrices && phase == .active }
     @State private var tab: DashboardTab = .wallet
+    @State private var showTools = false
     @State private var sheet: WalletRoute?
     @State private var detail: WalletActivityItem?
     @State private var concealed = false
 
     var body: some View {
-        VStack(spacing: 0) {
-            header
-            ScrollView {
-                VStack(alignment: .leading, spacing: 24) {
-                    switch tab {
-                    case .wallet: overview
-                    case .activity:
-                        sectionTitle("Activity")
-                        ActivityHistory(items: data.activity, contacts: data.contacts, selected: { detail = $0 })
-                    case .tools:
-                        sectionTitle("Wallet tools")
-                        toolList
+        TabView(selection: $tab) {
+            NavigationStack {
+                dashboardPage { overview }
+                    .toolbar(.hidden, for: .navigationBar)
+                    .navigationDestination(isPresented: $showTools) {
+                        ScrollView { toolList.padding(20).frame(maxWidth: 640).frame(maxWidth: .infinity) }
+                            .background(WalletStyle.ink)
+                            .navigationTitle("Wallet tools")
+                            .toolbar(.visible, for: .navigationBar)
                     }
-                }
-                .padding(.horizontal, 20).padding(.top, 13).padding(.bottom, 28)
-                .frame(maxWidth: 640).frame(maxWidth: .infinity)
             }
-            .refreshable { await actions.refresh() }
-            tabBar
+            .tabItem { Label("Wallet", systemImage: "wallet.bifold") }.tag(DashboardTab.wallet)
+
+            dashboardPage {
+                sectionTitle("Activity")
+                ActivityHistory(items: data.activity, contacts: data.contacts, selected: { detail = $0 })
+            }
+            .tabItem { Label("Activity", systemImage: "clock.arrow.circlepath") }.tag(DashboardTab.activity)
+
+            MarketChart(allowsConnection: directPrices, enabled: $livePrices)
+                .tabItem { Label("Market", systemImage: "chart.line.uptrend.xyaxis") }.tag(DashboardTab.market)
+
+            InvoiceList(data: data, actions: actions, isStoreTab: true)
+                .tabItem { Label("Store", systemImage: "storefront") }.tag(DashboardTab.store)
+
+            settingsContent()
+                .tabItem { Label("Settings", systemImage: "gearshape") }.tag(DashboardTab.settings)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(WalletStyle.ink.ignoresSafeArea())
@@ -66,11 +68,9 @@ struct WalletDashboard: View {
             case .send: SendView(data: data, actions: actions)
             case .scan: SendView(data: data, actions: actions, scanOnOpen: true)
             case .receive: ReceiveView(data: data, actions: actions)
-            case .invoices: InvoiceList(data: data, actions: actions)
             case .coins: CoinList(data: data, actions: actions)
             case .cold:
                 if let actions = actions.cold { ColdSigningTools(data: data, actions: actions) }
-            case .price: MarketChart(allowsConnection: directPrices, enabled: $livePrices)
             case .contacts:
                 ContactList(data: data, actions: actions)
             }
@@ -102,6 +102,19 @@ struct WalletDashboard: View {
         }
     }
 
+    private func dashboardPage<Content: View>(@ViewBuilder content: () -> Content) -> some View {
+        VStack(spacing: 0) {
+            header
+            ScrollView {
+                VStack(alignment: .leading, spacing: 24) { content() }
+                    .padding(.horizontal, 20).padding(.top, 13).padding(.bottom, 28)
+                    .frame(maxWidth: 640).frame(maxWidth: .infinity)
+            }
+            .refreshable { await actions.refresh() }
+        }
+        .background(WalletStyle.ink)
+    }
+
     private var header: some View {
         HStack {
             HStack(spacing: 9) {
@@ -122,12 +135,12 @@ struct WalletDashboard: View {
                 } icon: { Image(systemName: data.usesProxy ? "shield.lefthalf.filled" : "network") }
                     .frame(maxWidth: 155, minHeight: 44, alignment: .trailing)
             }.accessibilityLabel("Node and sync settings")
-            Button(action: actions.settings) {
-                Image(systemName: "gearshape").font(.system(size: 18, weight: .medium))
+            Button { tab = .wallet; showTools = true } label: {
+                Image(systemName: "wrench.and.screwdriver").font(.system(size: 18, weight: .medium))
                     .frame(width: 44, height: 44)
                     .background(WalletStyle.dusk, in: Circle())
                     .overlay(Circle().stroke(WalletStyle.stroke))
-            }.accessibilityLabel("Settings")
+            }.accessibilityLabel("Tools")
         }
         .padding(.horizontal, 20).padding(.vertical, 8).frame(maxWidth: 640)
     }
@@ -231,7 +244,7 @@ struct WalletDashboard: View {
             .padding(.vertical, 13)
             .accessibilityElement(children: .combine)
             if !concealed {
-                Button { sheet = .price } label: {
+                Button { tab = .market } label: {
                     if showPrices, let quote = marketQuote {
                         HStack {
                             Text(verbatim: quote.fiat(data.total, locale: locale))
@@ -290,23 +303,23 @@ struct WalletDashboard: View {
                     .font(.headline).frame(maxWidth: .infinity, alignment: .leading).padding()
             }
             Divider().overlay(WalletStyle.stroke)
-            toolRow("Payment requests", "Invoices and payment status", "qrcode", .invoices)
+            toolRow("Payment requests", "Invoices and payment status", "qrcode") { tab = .store }
             Divider().overlay(WalletStyle.stroke)
-            toolRow("Contacts", "Saved Monero addresses", "person.crop.rectangle.stack", .contacts)
+            toolRow("Contacts", "Saved Monero addresses", "person.crop.rectangle.stack") { sheet = .contacts }
             Divider().overlay(WalletStyle.stroke)
-            toolRow("Coin control", "Inspect and freeze outputs", "slider.horizontal.3", .coins)
+            toolRow("Coin control", "Inspect and freeze outputs", "slider.horizontal.3") { sheet = .coins }
             Divider().overlay(WalletStyle.stroke)
             if actions.cold != nil {
-                toolRow("Cold signing", "Transfer wallet data over QR", "viewfinder", .cold)
+                toolRow("Cold signing", "Transfer wallet data over QR", "viewfinder") { sheet = .cold }
                 Divider().overlay(WalletStyle.stroke)
             }
-            toolRow("XMR price", "Market chart in US dollars", "chart.xyaxis.line", .price)
+            toolRow("XMR price", "Market chart in US dollars", "chart.xyaxis.line") { tab = .market }
         }
         .background(WalletStyle.dusk, in: RoundedRectangle(cornerRadius: 17))
     }
 
-    private func toolRow(_ title: LocalizedStringKey, _ subtitle: LocalizedStringKey, _ symbol: String, _ route: WalletRoute) -> some View {
-        Button { sheet = route } label: {
+    private func toolRow(_ title: LocalizedStringKey, _ subtitle: LocalizedStringKey, _ symbol: String, action: @escaping () -> Void) -> some View {
+        Button(action: action) {
             HStack(spacing: 13) {
                 Image(systemName: symbol).foregroundStyle(WalletStyle.apricot).frame(width: 36)
                 VStack(alignment: .leading, spacing: 5) {
@@ -319,27 +332,6 @@ struct WalletDashboard: View {
         }.buttonStyle(.plain)
     }
 
-    private var tabBar: some View {
-        HStack {
-            ForEach(DashboardTab.allCases, id: \.self) { item in
-                Button { tab = item } label: {
-                    VStack(spacing: 4) {
-                        Image(systemName: item.icon).font(.system(size: 18, weight: .semibold))
-                            .frame(width: 52, height: 27)
-                            .background(tab == item ? WalletStyle.apricot.opacity(0.11) : .clear, in: Capsule())
-                        Text(LocalizedStringKey(item.rawValue)).font(.caption2.weight(.semibold))
-                    }
-                    .foregroundStyle(tab == item ? WalletStyle.apricot : WalletStyle.muted)
-                    .frame(maxWidth: .infinity)
-                }
-                .buttonStyle(.plain)
-                .accessibilityAddTraits(tab == item ? .isSelected : [])
-            }
-        }
-        .padding(.horizontal, 15).padding(.top, 9).padding(.bottom, 3)
-        .background(WalletStyle.dusk.ignoresSafeArea(edges: .bottom))
-        .overlay(alignment: .top) { Rectangle().fill(WalletStyle.stroke).frame(height: 1) }
-    }
 }
 
 enum ActivityDirection: String, CaseIterable {

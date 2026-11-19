@@ -286,6 +286,149 @@
           }
         }
       }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "اتصل بعقدة مونيرو التي تختارها على شبكتك المحلية."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "আপনার স্থানীয় নেটওয়ার্কে আপনার বেছে নেওয়া Monero নোডে সংযোগ করুন।"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verbinde dich mit dem von dir ausgewählten Monero-Knoten in deinem lokalen Netzwerk."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Connect to the Monero node you choose on your local network."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Conéctate al nodo de Monero que elijas en tu red local."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Connectez-vous au nœud Monero de votre choix sur votre réseau local."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "अपने स्थानीय नेटवर्क पर चुने हुए Monero नोड से कनेक्ट करें।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Hubungkan ke node Monero yang Anda pilih di jaringan lokal."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Connettiti al nodo Monero che scegli sulla tua rete locale."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ローカルネットワーク上で選択したMoneroノードに接続します。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "로컬 네트워크에서 선택한 모네로 노드에 연결합니다."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sambung kepada nod Monero yang anda pilih pada rangkaian setempat anda."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Maak verbinding met de Monero-node die je op je lokale netwerk kiest."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Połącz się z wybranym węzłem Monero w sieci lokalnej."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Conecte-se ao nó Monero que você escolher na sua rede local."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Подключитесь к выбранному узлу Monero в локальной сети."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Anslut till den Monero-nod du väljer i ditt lokala nätverk."
+          }
+        },
+        "sw": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Unganisha kwenye nodi ya Monero unayochagua katika mtandao wako wa ndani."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "เชื่อมต่อกับโหนด Monero ที่คุณเลือกบนเครือข่ายภายในของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Yerel ağınızda seçtiğiniz Monero düğümüne bağlanın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Kết nối với nút Monero bạn chọn trên mạng cục bộ."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "连接到你在本地网络中选择的门罗币节点。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "連接至你在區域網路上選擇的門羅幣節點。"
+          }
+        }
+      }
     }
   },
   "version": "1.0"

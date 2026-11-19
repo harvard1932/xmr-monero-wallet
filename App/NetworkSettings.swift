@@ -53,7 +53,7 @@ struct NetworkSettings: View {
                 }.disabled(busy || (draft.selection == .pinned && draft.pinnedNode == nil) || (!session.needsNetworkChoice && draft == session.connection))
             }
             if draft.isPublic {
-                Section("Public nodes") {
+                Section {
                     TextField("Search nodes", text: $search).textInputAutocapitalization(.never).autocorrectionDisabled()
                     Button("Test all nodes") { results.removeAll(); testID = UUID() }
                         .disabled(!canTest || testID != nil)
@@ -70,7 +70,7 @@ struct NetworkSettings: View {
                             HStack {
                                 VStack(alignment: .leading) {
                                     Text(verbatim: node.name)
-                                    Text(verbatim: node.url.host ?? "").font(.caption2).foregroundStyle(.secondary)
+                                    if node.name != node.url.host { Text(verbatim: node.url.host ?? "").font(.caption2).foregroundStyle(.secondary) }
                                 }
                                 Spacer()
                                 if let result = results[node.url] {
@@ -91,6 +91,12 @@ struct NetworkSettings: View {
                             }.contentShape(Rectangle())
                         }.buttonStyle(.plain)
                             .accessibilityAddTraits(draft.selection == .pinned && draft.pinnedNode == node.url ? [.isSelected] : [])
+                    }
+                } header: {
+                    HStack {
+                        Text("Public nodes")
+                        Spacer()
+                        Text(draft.directory.count, format: .number)
                     }
                 }
             }

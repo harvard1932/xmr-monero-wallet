@@ -115,6 +115,7 @@ struct WalletPrimaryButton: ButtonStyle {
 struct WalletSheet<Content: View>: View {
     let title: LocalizedStringKey
     var canDismiss = true
+    var showsCloseButton = true
     @ViewBuilder let content: Content
     @Environment(\.dismiss) private var dismiss
     var body: some View {
@@ -129,9 +130,11 @@ struct WalletSheet<Content: View>: View {
             .navigationTitle(title)
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button { dismiss() } label: { Image(systemName: "xmark").font(.subheadline.bold()) }
-                        .accessibilityLabel("Close").disabled(!canDismiss)
+                if showsCloseButton {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button { dismiss() } label: { Image(systemName: "xmark").font(.subheadline.bold()) }
+                            .accessibilityLabel("Close").disabled(!canDismiss)
+                    }
                 }
             }
         }
