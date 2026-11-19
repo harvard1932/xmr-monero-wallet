@@ -14,10 +14,23 @@ download() {
 download https://downloads.getmonero.org/cli/monero-mac-armv8-v0.18.5.4.tar.bz2 cli.tar.bz2 d457de7c8a1ad42e3232fdea6d9f9003be9652143fb8f719c1fc906aa6b4917b
 bin=monero-aarch64-apple-darwin11-v0.18.5.4
 tar -xjf cli.tar.bz2 "$bin/monerod" "$bin/monero-wallet-rpc"
-download https://github.com/MrCyjaneK/monero_c/releases/download/v0.18.4.6-RC2/release-bundle.zip release.zip 94ae3d99f878d1e392b9c49d4c5431e4d0b7780c6177081df5369d05e68cea70
 lib=libmonero_wallet2_api_c.dylib
-unzip -p release.zip "v0.18.4.6-RC2/aarch64-apple-darwin/$lib" > "$lib"
+mac_archive="${MONERO_MAC_ARCHIVE:-$work/Monero_com_v6.5.4.dmg}"
+if [[ -z "${MONERO_MAC_ARCHIVE:-}" ]]; then
+    curl --proto '=https' -fLsS --retry 3 https://github.com/cake-tech/cake_wallet/releases/download/v6.5.4/Monero_com_v6.5.4.dmg -o "$mac_archive"
+fi
+[[ "$(shasum -a 256 "$mac_archive" | cut -d' ' -f1)" == 12609942cb06af45e02fdd1968b99c079601645b8299214f37d59edc8d5ee724 ]] || { echo "Mac archive checksum mismatch." >&2; exit 1; }
+(
+    mkdir disk
+    hdiutil attach -readonly -nobrowse -mountpoint "$work/disk" "$mac_archive" >/dev/null
+    trap 'hdiutil detach "$work/disk" >/dev/null' EXIT
+    original="$work/disk/Monero.com.app/Contents/Frameworks/$lib"
+    codesign --verify --strict -R='anchor apple generic and certificate leaf[subject.OU] = "32J6BB6VUS"' "$original"
+    lipo "$original" -thin arm64 -output "$work/$lib"
+)
+[[ "$(shasum -a 256 "$lib" | cut -d' ' -f1)" == 3d0786038cbe65ad0c5ecac510f22784afc9de47979ca474f28ba618cebff9a4 ]] || { echo "Mac wallet engine checksum mismatch." >&2; exit 1; }
 chmod +x "$lib"
+install_name_tool -id "@rpath/$lib" "$lib"
 codesign -fs - "$lib"
 
 ur_commit=d82e7c753e710b8000706dc3383b498438795208

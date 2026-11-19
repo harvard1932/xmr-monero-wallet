@@ -16,7 +16,13 @@ final class WalletFlowUITests: XCTestCase {
     @MainActor func testOnboardingShowsRecoveryChoices() throws {
         let app = launch()
         let restore = app.buttons["vault.restore"]
-        guard restore.waitForExistence(timeout: 10) else { throw XCTSkip("This onboarding test needs an empty test installation.") }
+        if !restore.waitForExistence(timeout: 2),
+           ProcessInfo.processInfo.environment["XMR_UI_TEST_DISPOSABLE"] == "1",
+           app.staticTexts[qaWallet].exists {
+            app.buttons["Create or restore another wallet"].tap()
+        }
+        guard restore.waitForExistence(timeout: 5) else { throw XCTSkip("Use a disposable wallet or an empty test installation.") }
+        capturePublicScreen("welcome", app: app)
         restore.tap()
         XCTAssertTrue(app.secureTextFields["Enter the words in order"].waitForExistence(timeout: 5))
         app.buttons["View-only"].tap()
@@ -89,6 +95,25 @@ final class WalletFlowUITests: XCTestCase {
         XCTAssertTrue(node.waitForExistence(timeout: 15))
         XCTAssertTrue(app.staticTexts["Overview"].waitForExistence(timeout: 5))
         if app.staticTexts["No transactions yet"].exists { capturePublicScreen("dashboard", app: app) }
+        app.buttons["Receive"].tap()
+        let amount = app.textFields["0.00"]
+        XCTAssertTrue(amount.waitForExistence(timeout: 5))
+        capturePublicScreen("receive", app: app)
+        amount.tap()
+        amount.typeText("1.25")
+        XCTAssertTrue(app.buttons["Share"].exists)
+        XCTAssertTrue(app.buttons["Copy"].exists)
+        app.buttons["Close"].tap()
+        app.buttons["Activity"].tap()
+        XCTAssertTrue(app.textFields["Search hash, note or recipient"].waitForExistence(timeout: 5))
+        let direction = app.segmentedControls.firstMatch
+        XCTAssertTrue(direction.exists)
+        direction.buttons["Received"].tap()
+        direction.buttons["Sent"].tap()
+        app.buttons["Wallet"].tap()
+        app.buttons["Send"].tap()
+        XCTAssertTrue(app.buttons["Scan from photo"].waitForExistence(timeout: 5))
+        app.buttons["Close"].tap()
         node.tap()
         XCTAssertTrue(app.navigationBars["Node and sync settings"].waitForExistence(timeout: 5))
         app.buttons["Done"].tap()
@@ -101,6 +126,15 @@ final class WalletFlowUITests: XCTestCase {
         XCTAssertTrue(settingsBack.isHittable)
         settingsBack.tap()
         XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 5))
+        let appearance = app.buttons["settings.appearance"]
+        scrollTo(appearance, in: app)
+        appearance.tap()
+        app.buttons["Light"].tap()
+        XCTAssertTrue(app.buttons.matching(identifier: "settings.appearance").matching(NSPredicate(format: "value == %@", "Light")).firstMatch.waitForExistence(timeout: 3))
+        capturePublicScreen("settings-light", app: app)
+        appearance.tap()
+        app.buttons["Dark"].tap()
+        XCTAssertTrue(app.buttons.matching(identifier: "settings.appearance").matching(NSPredicate(format: "value == %@", "Dark")).firstMatch.waitForExistence(timeout: 3))
         let lock = app.buttons["Lock wallet"]
         scrollTo(lock, in: app)
         lock.tap()

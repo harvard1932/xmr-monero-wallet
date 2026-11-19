@@ -65,11 +65,12 @@ bool XMRSubmitSigned(void *wallet, const char *payload) {
 
 // The upstream C façade hardcodes an empty subaddress set. Call the corresponding
 // C++ method so the selected subaddresses and the preferred key images both apply.
-void *XMRCreateSelectedTransaction(void *wallet, const char *destination, uint64_t amount, int priority,
+void *XMRPrepareTransaction(void *wallet, const char *destination, uint64_t amount, int priority,
                                    const uint32_t *indices, size_t count, const char *keyImages) {
-    if (!indices || count == 0 || !keyImages || !*keyImages || amount == 0) return nullptr;
+    if (!wallet || !destination || !keyImages || (count && !indices)) return nullptr;
     try {
-        std::set<uint32_t> subaddresses(indices, indices + count);
+        std::set<uint32_t> subaddresses;
+        if (count) subaddresses.insert(indices, indices + count);
         std::set<std::string> images;
         std::istringstream fields(keyImages);
         for (std::string value; std::getline(fields, value, ',');) {
@@ -77,11 +78,34 @@ void *XMRCreateSelectedTransaction(void *wallet, const char *destination, uint64
             images.insert(value);
         }
         return static_cast<Monero::Wallet *>(wallet)->createTransaction(
-            destination, "", amount, 0, static_cast<Monero::PendingTransaction::Priority>(priority),
+            destination, "", amount ? Monero::optional<uint64_t>(amount) : Monero::optional<uint64_t>(), 0, static_cast<Monero::PendingTransaction::Priority>(priority),
             0, std::move(subaddresses), images);
     } catch (...) {
         return nullptr;
     }
+}
+
+// Validate the native construction data and report how many source addresses
+// the transaction actually links. A sweep may contain multiple transactions.
+size_t XMRPendingSourceCount(void *transaction, const uint32_t *allowed, size_t count) {
+    if (!transaction || (count && !allowed)) return 0;
+    try {
+        auto tx = static_cast<Monero::PendingTransaction *>(transaction);
+        const auto accounts = tx->subaddrAccount();
+        const auto sources = tx->subaddrIndices();
+        if (accounts.size() != tx->txCount() || sources.size() != accounts.size()) return 0;
+        std::set<uint32_t> permitted;
+        if (count) permitted.insert(allowed, allowed + count);
+        std::set<uint32_t> used;
+        for (size_t i = 0; i < sources.size(); ++i) {
+            if (accounts[i] != 0 || sources[i].empty()) return 0;
+            for (uint32_t source : sources[i]) {
+                if (count && !permitted.count(source)) return 0;
+                used.insert(source);
+            }
+        }
+        return used.size();
+    } catch (...) { return 0; }
 }
 
 // The pinned C wrapper ignores its requested background mode. Select wallet2's

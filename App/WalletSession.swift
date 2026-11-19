@@ -14,6 +14,7 @@ final class WalletSession: ObservableObject {
     @Published var notice: String?
 
     @Published private(set) var lockScreenProgress: SyncAttributes.ContentState?
+    @Published private(set) var probeProxy: String?
     @Published private(set) var torProgress: Int?
     @Published private(set) var needsNetworkChoice = true
     private var backgroundEngine: WalletEngine?
@@ -33,7 +34,7 @@ final class WalletSession: ObservableObject {
     private var pending = [String: WalletTransfer]()
     private var lastProgress = Date()
     private var attempted = Set<URL>()
-    private var activeNode: URL?
+    private(set) var activeNode: URL?
     private var relay: NodeRelay?
 
     init(preferences: UserDefaults = .standard) {
@@ -147,6 +148,7 @@ final class WalletSession: ObservableObject {
         pending.removeAll()
         nodeName = nil
         activeNode = nil
+        probeProxy = nil
         torProgress = nil
         height = 0
         chainHeight = 0
@@ -305,7 +307,8 @@ final class WalletSession: ObservableObject {
                 }
             } else { proxy = connection.useProxy ? connection.proxy : nil }
             try check(current)
-            let candidates = try await connection.candidates()
+            probeProxy = proxy
+            let candidates = try await connection.candidates(through: proxy)
             try check(current)
             var targets = candidates.filter { !retrying || !attempted.contains($0) }
             if targets.isEmpty && retrying { attempted.removeAll(); targets = candidates }
@@ -339,6 +342,8 @@ final class WalletSession: ObservableObject {
         } catch {
             guard engine === current else { return }
             torProgress = nil
+            activeNode = nil
+            nodeName = nil
             problem = WalletL10n.diagnostic(error)
             lastProgress = Date()
         }
@@ -361,6 +366,9 @@ final class WalletSession: ObservableObject {
             var presentation = WalletPresentation(id: wallet.id.uuidString, name: wallet.name, network: "Mainnet")
             presentation.usesProxy = connection.useProxy
             presentation.networkEnabled = connection.selection != .offline
+            presentation.scannedHeight = snap.height
+            presentation.targetHeight = snap.targetHeight
+            presentation.routeDescription = WalletL10n.text(connection.selection.title) + (connection.useProxy ? " · Tor" : "")
             presentation.nodeName = nodeName
             presentation.total = snap.balance
             presentation.available = snap.unlocked
@@ -369,8 +377,10 @@ final class WalletSession: ObservableObject {
             presentation.syncProgress = snap.connected && snap.targetHeight > 0 ? min(1, Double(snap.height) / Double(snap.targetHeight)) : nil
             presentation.viewOnly = snap.watchOnly
             presentation.addresses = addresses
+            let receivingAddresses = Dictionary(uniqueKeysWithValues: addresses.map { ($0.id, $0.address) })
             presentation.activity = snap.history.map { WalletActivityItem(transactionHash: $0.id, subaddresses: $0.subaddressIndices.sorted(), incoming: $0.incoming, amount: $0.amount,
-                date: $0.date, confirmations: $0.confirmations, pending: $0.pending, failed: $0.failed, fee: $0.fee) }.sorted { $0.date > $1.date }
+                date: $0.date, confirmations: $0.confirmations, pending: $0.pending, failed: $0.failed, fee: $0.fee, note: $0.note,
+                recipients: $0.incoming ? $0.subaddressIndices.compactMap { receivingAddresses[$0] } : $0.recipients) }.sorted { $0.date > $1.date }
             presentation.coins = coins.map { WalletCoinItem(id: $0.id, amount: $0.amount, frozen: $0.frozen, unlocked: $0.unlocked, label: $0.label, subaddressIndex: $0.subaddressIndex) }
             presentation.contacts = contacts.map { WalletContactItem(id: $0.id, name: $0.name, address: $0.address) }
             presentation.invoices = invoices.map { item in
@@ -396,11 +406,52 @@ final class WalletSession: ObservableObject {
             try check(owner)
             return owner
         }
+        func remember(_ tx: WalletTransfer, core: WalletEngine) throws -> WalletSendReview {
+            _ = try current()
+            try self.check(core)
+            self.pending = [tx.id.uuidString: tx]
+            return WalletSendReview(id: tx.id.uuidString, address: tx.destination, amount: tx.amount, fee: tx.fee,
+                                    sourceSubaddressCount: tx.sourceSubaddressCount)
+        }
+        func broadcast(_ id: String, note: String) async throws {
+            let core = try current()
+            do { try await vault.authorizeAction(reason: "Confirm and send payment") }
+            catch { throw WalletPaymentAuthorizationError(underlying: error) }
+            _ = try current()
+            guard let tx = self.pending.removeValue(forKey: id) else { throw WalletEngineError("Review the payment again.") }
+            let ids = try await core.commit(tx)
+            guard (try? current()) != nil else { return }
+            if !note.isEmpty {
+                do {
+                    let hashes = ids.split(separator: ",")
+                    guard !hashes.isEmpty else { throw WalletEngineError("Could not save the transaction note.") }
+                    for hash in hashes {
+                        _ = try current()
+                        try await core.setTransactionNote(note, for: String(hash))
+                    }
+                } catch {
+                    if (try? current()) != nil { self.notice = WalletL10n.text("Payment submitted. Add the note again in Activity.") }
+                }
+            }
+            if self.engine === core { await self.refresh() }
+        }
         return WalletActions(settings: { if (try? current()) != nil { settings() } },
                              wallets: { if (try? current()) != nil { wallets() } }, refresh: {
             guard (try? current()) != nil else { return }
             if self.activeNode == nil { await self.connect() }
             await self.refresh()
+        }, rescan: {
+            do {
+                let core = try current()
+                try await core.rescan()
+                try self.check(core)
+                await self.refresh()
+            } catch {
+                if (try? current()) != nil { self.notice = WalletL10n.diagnostic(error) }
+            }
+        }, validateAddress: { address in
+            guard let core = try? current() else { return false }
+            return await core.validAddress(address)
         }, newAddress: { label in
             let core = try current()
             let item = try await core.addAddress(label: label)
@@ -410,17 +461,19 @@ final class WalletSession: ObservableObject {
         }, prepare: { address, amount, priority, inputs in
             let core = try current()
             let tx = try await core.prepare(destination: address, amount: amount, priority: priority, preferredInputs: inputs)
-            try self.check(core)
-            self.pending[tx.id.uuidString] = tx
-            return WalletSendReview(id: tx.id.uuidString, address: tx.destination, amount: tx.amount, fee: tx.fee)
-        }, submit: { id in
+            return try remember(tx, core: core)
+        }, prepareMax: { address, priority, inputs in
             let core = try current()
-            do { try await vault.authorizeAction(reason: "Confirm and send payment") }
-            catch { throw WalletPaymentAuthorizationError(underlying: error) }
-            _ = try current()
-            guard let tx = self.pending.removeValue(forKey: id) else { throw WalletEngineError("Review the payment again.") }
-            _ = try await core.commit(tx)
-            if self.engine === core { await self.refresh() }
+            let tx = try await core.prepareMax(destination: address, priority: priority, preferredInputs: inputs)
+            return try remember(tx, core: core)
+        }, preparePrivate: { address, amount, priority in
+            let core = try current()
+            let tx = try await core.preparePrivate(destination: address, amount: amount, priority: priority)
+            return try remember(tx, core: core)
+        }, submit: { id in
+            try await broadcast(id, note: "")
+        }, submitWithNote: { id, note in
+            try await broadcast(id, note: note)
         }, discard: { id in
             if let core = try? current(), let tx = self.pending.removeValue(forKey: id) { await core.cancel(tx) }
         }, freeze: { key, value in
@@ -430,6 +483,11 @@ final class WalletSession: ObservableObject {
         }, labelOutput: { key, label in
             let core = try current()
             try await core.setLabel(label, output: key)
+            await self.refresh()
+        }, saveTransactionNote: { hash, note in
+            let core = try current()
+            try await core.setTransactionNote(note, for: hash)
+            try self.check(core)
             await self.refresh()
         }, saveContact: { item in
             let core = try current()
@@ -479,6 +537,8 @@ final class WalletSession: ObservableObject {
         }, inspectUnsigned: { frames in
             let review = try await current().inspectUnsigned(frames)
             return WalletOfflineReview(id: review.id, summary: review.summary)
+        }, discardUnsigned: { id in
+            if let core = try? current() { await core.discardUnsigned(id) }
         }, sign: { review in
             _ = try current()
             try await vault.authorizeAction(reason: "Sign this transaction")

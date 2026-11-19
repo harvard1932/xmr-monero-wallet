@@ -106,26 +106,27 @@ actor WalletEngine {
         var kind = "classic"
         switch source {
         case .mnemonic(let input), .decryptedPolyseed(let input), .protectedMnemonic(let input, _), .polyseedWithMoneroOffset(let input, _):
-            let offset: String
+            let suppliedOffset: String?
             let expectsPolyseed: Bool?
             switch source {
             case .decryptedPolyseed:
-                offset = ""
+                suppliedOffset = nil
                 expectsPolyseed = true
                 kind = "polyseed-encrypted"
             case .protectedMnemonic(_, let passphrase):
-                offset = passphrase
+                suppliedOffset = passphrase
                 expectsPolyseed = false
             case .polyseedWithMoneroOffset(_, let passphrase):
-                offset = passphrase
+                suppliedOffset = passphrase
                 expectsPolyseed = true
             default:
-                offset = ""
+                suppliedOffset = nil
                 expectsPolyseed = nil
             }
-            guard !offset.utf8.contains(0), expectsPolyseed == nil || !offset.isEmpty else {
+            if let suppliedOffset, suppliedOffset.isEmpty || suppliedOffset.utf8.contains(0) {
                 throw WalletEngineError("Invalid seed offset passphrase.")
             }
+            let offset = suppliedOffset ?? ""
             let words = input.split(whereSeparator: \.isWhitespace)
             let mnemonic = words.joined(separator: " ")
             guard !mnemonic.utf8.contains(0) else { throw WalletEngineError("Invalid recovery phrase.") }
@@ -161,6 +162,10 @@ actor WalletEngine {
         }
         MONERO_Wallet_setRefreshFromBlockHeight(wallet, height)
         try save(wallet)
+    }
+
+    func recordedRestoreHeight() throws -> UInt64? {
+        UInt64(string(MONERO_Wallet_getCacheAttribute(try current(), birthHeightKey)))
     }
 
     func seed() throws -> String {
@@ -240,6 +245,27 @@ actor WalletEngine {
         MONERO_Wallet_startRefresh(wallet)
     }
 
+    func rescan() throws {
+        let wallet = try current()
+        guard hasNode, MONERO_Wallet_connected(wallet) == MONERO_WalletConnectionStatus_Connected else {
+            throw WalletEngineError("Connect to a node before rescanning.")
+        }
+        guard pending == nil, unsigned == nil else { throw WalletEngineError("Finish the current payment review before rescanning.") }
+        // wallet2 soft resets transfer records. Keep frozen funds protected and
+        // preserve recipient addresses that cannot be recovered from the chain.
+        let history = try snapshot().history
+        guard !history.contains(where: { $0.pending }) else { throw WalletEngineError("Wait for pending payments to confirm before rescanning.") }
+        guard !(try outputs()).contains(where: { $0.frozen }) else { throw WalletEngineError("Review and thaw frozen outputs before rescanning.") }
+        for payment in history where !payment.incoming && !payment.recipients.isEmpty {
+            let encoded = try JSONEncoder().encode(payment.recipients)
+            guard MONERO_Wallet_setCacheAttribute(wallet, "xmrwallet.recipients." + payment.id, encoded.base64EncodedString()) else {
+                throw failure(wallet, "Could not preserve the recipient history.")
+            }
+        }
+        try save(wallet)
+        MONERO_Wallet_rescanBlockchainAsync(wallet)
+    }
+
     func validAddress(_ address: String) -> Bool {
         [95, 106].contains(address.utf8.count) && !address.utf8.contains(0) && MONERO_Wallet_addressValid(address, network)
     }
@@ -280,12 +306,38 @@ actor WalletEngine {
             guard let row = MONERO_TransactionHistory_transaction(history, index),
                   MONERO_TransactionInfo_subaddrAccount(row) == 0 else { return nil }
             let indices = string(MONERO_TransactionInfo_subaddrIndex(row, ",")).split(separator: ",").compactMap { Int($0) }
-            return WalletPayment(id: string(MONERO_TransactionInfo_hash(row)), amount: MONERO_TransactionInfo_amount(row),
+            let hash = string(MONERO_TransactionInfo_hash(row))
+            var recipients = (0..<MONERO_TransactionInfo_transfers_count(row)).map {
+                string(MONERO_TransactionInfo_transfers_address(row, $0))
+            }
+            if recipients.isEmpty, MONERO_TransactionInfo_direction(row) != MONERO_TransactionInfoDirection_In {
+                let encoded = string(MONERO_Wallet_getCacheAttribute(wallet, "xmrwallet.recipients." + hash))
+                if let bytes = Data(base64Encoded: encoded), let saved = try? JSONDecoder().decode([String].self, from: bytes) {
+                    recipients = saved
+                }
+            }
+            return WalletPayment(id: hash, amount: MONERO_TransactionInfo_amount(row),
                                  fee: MONERO_TransactionInfo_fee(row), date: Date(timeIntervalSince1970: Double(MONERO_TransactionInfo_timestamp(row))),
                                  incoming: MONERO_TransactionInfo_direction(row) == MONERO_TransactionInfoDirection_In,
                                  confirmations: MONERO_TransactionInfo_confirmations(row), pending: MONERO_TransactionInfo_isPending(row),
-                                 failed: MONERO_TransactionInfo_isFailed(row), subaddressIndices: indices)
+                                 failed: MONERO_TransactionInfo_isFailed(row), subaddressIndices: indices,
+                                 note: string(MONERO_Wallet_getUserNote(wallet, hash)), recipients: recipients)
         }.sorted { $0.date > $1.date }
+    }
+
+    func getTransactionNote(for transactionHash: String) throws -> String {
+        let wallet = try current()
+        guard validKey(transactionHash) else { throw WalletEngineError("Invalid transaction ID.") }
+        return string(MONERO_Wallet_getUserNote(wallet, transactionHash))
+    }
+
+    func setTransactionNote(_ note: String, for transactionHash: String) throws {
+        let wallet = try current()
+        guard validKey(transactionHash), !note.utf8.contains(0),
+              MONERO_Wallet_setUserNote(wallet, transactionHash, note) else {
+            throw WalletEngineError("Could not save the transaction note.")
+        }
+        try save(wallet)
     }
 
     func addAddress(label: String) throws -> WalletAddress {
@@ -298,36 +350,72 @@ actor WalletEngine {
     }
 
     func prepare(destination: String, amount: UInt64, priority: Int, preferredInputs: [String] = []) throws -> WalletTransfer {
+        try preparePayment(destination: destination, amount: amount, priority: priority, preferredInputs: preferredInputs)
+    }
+
+    func prepareMax(destination: String, priority: Int, preferredInputs: [String] = []) throws -> WalletTransfer {
+        try preparePayment(destination: destination, amount: nil, priority: priority, preferredInputs: preferredInputs)
+    }
+
+    func preparePrivate(destination: String, amount: UInt64, priority: Int) throws -> WalletTransfer {
+        try preparePayment(destination: destination, amount: amount, priority: priority, preferSingleSubaddress: true)
+    }
+
+    private func preparePayment(destination: String, amount: UInt64?, priority: Int, preferredInputs: [String] = [],
+                                preferSingleSubaddress: Bool = false) throws -> WalletTransfer {
         let wallet = try current()
         discardTransactions(wallet)
         guard validAddress(destination) else { throw WalletEngineError("The destination is not a valid Monero address on this network.") }
-        guard amount > 0, (0...3).contains(priority) else { throw WalletEngineError("Enter a positive amount and a supported fee priority.") }
+        guard amount != 0, (0...3).contains(priority) else { throw WalletEngineError("Enter a positive amount and a supported fee priority.") }
         guard hasNode, MONERO_Wallet_connected(wallet) == MONERO_WalletConnectionStatus_Connected, MONERO_Wallet_synchronized(wallet) else {
             throw WalletEngineError("Connect to a node and finish syncing before sending.")
         }
         let target = MONERO_Wallet_daemonBlockChainHeight(wallet)
         guard target > 0, MONERO_Wallet_blockChainHeight(wallet) >= target else { throw WalletEngineError("Wait until the wallet is synchronized.") }
-        guard amount <= MONERO_Wallet_unlockedBalance(wallet, 0) else { throw WalletEngineError("The amount exceeds the available balance.") }
+        let unlocked = MONERO_Wallet_unlockedBalance(wallet, 0)
+        guard unlocked > 0, amount ?? 0 <= unlocked else { throw WalletEngineError("The amount exceeds the available balance.") }
         let inputs = try selectedInputs(preferredInputs, wallet: wallet)
-        let candidate: Handle?
-        if inputs.images.isEmpty {
-            candidate = MONERO_Wallet_createTransaction(wallet, destination, "", amount, 0, Int32(priority), 0, "", ",")
-        } else {
-            candidate = inputs.subaddresses.withUnsafeBufferPointer {
-                XMRCreateSelectedTransaction(wallet, destination, amount, Int32(priority), $0.baseAddress, $0.count, inputs.images.joined(separator: ","))
+        var sources = [(indices: [UInt32], available: UInt64)]()
+        if preferSingleSubaddress, let amount {
+            var byAddress = [UInt32: UInt64]()
+            for row in coinRows(wallet) where MONERO_CoinsInfo_unlocked(row) && !MONERO_CoinsInfo_frozen(row) {
+                let index = MONERO_CoinsInfo_subaddrIndex(row)
+                let sum = byAddress[index, default: 0].addingReportingOverflow(MONERO_CoinsInfo_amount(row))
+                guard !sum.overflow else { throw WalletEngineError("The wallet returned an invalid output balance.") }
+                byAddress[index] = sum.partialValue
             }
+            // Avoid choosing a predictable spending address. Try each candidate
+            // once because the real fee may exceed its remaining balance.
+            sources = byAddress.filter { $0.value > amount }.shuffled()
+                .map { ([$0.key], min($0.value, unlocked)) }
         }
-        guard let tx = candidate else {
-            throw failure(wallet, "Could not prepare the transaction.")
+        sources.append((inputs.subaddresses, min(inputs.available ?? unlocked, unlocked)))
+        for (i, source) in sources.enumerated() {
+            // wallet2 uses an absent amount for sweep-all. The bridge maps zero
+            // to that optional value only after validating a user-entered amount.
+            let candidate = source.indices.withUnsafeBufferPointer {
+                XMRPrepareTransaction(wallet, destination, amount ?? 0, Int32(priority), $0.baseAddress, $0.count, inputs.images.joined(separator: ","))
+            }
+            guard let tx = candidate else { throw failure(wallet, "Could not prepare the transaction.") }
+            if MONERO_PendingTransaction_status(tx) != 0 {
+                let detail = string(MONERO_PendingTransaction_errorString(tx))
+                XMRDisposePending(wallet, tx)
+                if i < sources.count - 1 { continue }
+                throw WalletEngineError(detail.isEmpty ? "The wallet could not prepare the requested amount." : detail)
+            }
+            let preparedAmount = MONERO_PendingTransaction_amount(tx)
+            let fee = MONERO_PendingTransaction_fee(tx)
+            let sourceCount = source.indices.withUnsafeBufferPointer { XMRPendingSourceCount(tx, $0.baseAddress, $0.count) }
+            guard sourceCount > 0, amount == nil || preparedAmount == amount,
+                  WalletTransfer.fitsSpendableBalance(amount: preparedAmount, fee: fee, available: source.available) else {
+                XMRDisposePending(wallet, tx)
+                throw WalletEngineError("The transaction does not match the requested sources, amount and available balance.")
+            }
+            let result = WalletTransfer(id: UUID(), destination: destination, amount: preparedAmount, fee: fee, sourceSubaddressCount: sourceCount)
+            pending = (result.id, tx)
+            return result
         }
-        guard MONERO_PendingTransaction_status(tx) == 0, MONERO_PendingTransaction_amount(tx) == amount else {
-            let detail = string(MONERO_PendingTransaction_errorString(tx))
-            XMRDisposePending(wallet, tx)
-            throw WalletEngineError(detail.isEmpty ? "The wallet could not prepare the requested amount." : detail)
-        }
-        let result = WalletTransfer(id: UUID(), destination: destination, amount: amount, fee: MONERO_PendingTransaction_fee(tx))
-        pending = (result.id, tx)
-        return result
+        throw WalletEngineError("Could not prepare the transaction.")
     }
 
     func commit(_ transfer: WalletTransfer) throws -> String {
@@ -362,15 +450,21 @@ actor WalletEngine {
         }
     }
 
-    private func selectedInputs(_ publicKeys: [String], wallet: Handle) throws -> (images: [String], subaddresses: [UInt32]) {
-        guard !publicKeys.isEmpty else { return ([], []) }
+    private func selectedInputs(_ publicKeys: [String], wallet: Handle) throws -> (images: [String], subaddresses: [UInt32], available: UInt64?) {
+        guard !publicKeys.isEmpty else { return ([], [], nil) }
         let keys = Set(publicKeys)
         let result = coinRows(wallet).filter {
             keys.contains(string(MONERO_CoinsInfo_pubKey($0))) && MONERO_CoinsInfo_keyImageKnown($0)
                 && MONERO_CoinsInfo_unlocked($0) && !MONERO_CoinsInfo_frozen($0)
         }
         guard result.count == keys.count else { throw WalletEngineError("A selected output is no longer spendable.") }
-        return (result.map { string(MONERO_CoinsInfo_keyImage($0)) }, Array(Set(result.map { MONERO_CoinsInfo_subaddrIndex($0) })))
+        var available: UInt64 = 0
+        for coin in result {
+            let sum = available.addingReportingOverflow(MONERO_CoinsInfo_amount(coin))
+            guard !sum.overflow else { throw WalletEngineError("The wallet returned an invalid output balance.") }
+            available = sum.partialValue
+        }
+        return (result.map { string(MONERO_CoinsInfo_keyImage($0)) }, Array(Set(result.map { MONERO_CoinsInfo_subaddrIndex($0) })), available)
     }
 
     func outputs() throws -> [WalletOutput] {
@@ -545,6 +639,12 @@ actor WalletEngine {
         let review = OfflineReview(id: UUID(), summary: summary)
         unsigned = (review.id, tx)
         return review
+    }
+
+    func discardUnsigned(_ reviewID: UUID) {
+        guard let unsigned, unsigned.id == reviewID else { return }
+        self.unsigned = nil
+        XMRDisposeUnsigned(unsigned.handle)
     }
 
     func sign(_ review: OfflineReview) throws -> [String] {

@@ -57,8 +57,20 @@ final class TorClientTests: XCTestCase {
             let walletFile = folder.appendingPathComponent("test-wallet")
             let password = UUID().uuidString
             _ = try await wallet.create(at: walletFile, password: password)
-            let node = try XCTUnwrap(ConnectionSettings.onionNodes.first)
-            try await wallet.connect(node: node, proxy: proxy)
+            var route = ConnectionSettings()
+            route.mode = ConnectionMode.automatic.rawValue
+            route.useProxy = true
+            let candidates = try await route.candidates(through: proxy)
+            XCTAssertFalse(candidates.isEmpty, "Expected at least one healthy daemon through a Tor circuit.")
+            var connected = false
+            for node in candidates {
+                do {
+                    try await wallet.connect(node: node, proxy: proxy)
+                    connected = true
+                    break
+                } catch { continue }
+            }
+            XCTAssertTrue(connected, "None of the configured onion daemons accepted the native wallet connection.")
             let snapshot = try await wallet.snapshot()
             XCTAssertTrue(snapshot.connected)
             XCTAssertGreaterThan(snapshot.targetHeight, 0)

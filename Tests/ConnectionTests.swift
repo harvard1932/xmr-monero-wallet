@@ -20,6 +20,27 @@ final class ConnectionTests: XCTestCase {
         XCTAssertThrowsError(try config.validate())
     }
 
+    func testPinnedNodesPersistWithoutBecomingTrustedCustomNodes() async throws {
+        var settings = ConnectionSettings()
+        settings.mode = ConnectionMode.pinned.rawValue
+        XCTAssertThrowsError(try settings.validate())
+        let node = try XCTUnwrap(settings.directory.first { $0.matches("monerodevs iii") })
+        XCTAssertTrue(node.matches("node3.monero"))
+        XCTAssertFalse(node.matches("onion"))
+        settings.pinnedNode = node.url
+        let roundTrip = try JSONDecoder().decode(ConnectionSettings.self, from: JSONEncoder().encode(settings))
+        let direct = try await roundTrip.candidates()
+        XCTAssertEqual(direct, [node.url])
+        XCTAssertEqual(roundTrip.selection, .pinned)
+        settings.useProxy = true
+        XCTAssertThrowsError(try settings.validate())
+        settings.pinnedNode = try XCTUnwrap(settings.directory.first?.url)
+        let onion = try await settings.candidates()
+        XCTAssertEqual(onion, [settings.pinnedNode!])
+        settings.pinnedNode = URL(string: "http://127.0.0.1")
+        XCTAssertThrowsError(try settings.validate())
+    }
+
     func testLoopbackListenerChallengesUnauthenticatedRequests() async throws {
         let relay = try NodeRelay(upstream: URL(string: "https://node.invalid")!, proxy: nil)
         defer { relay.stop() }

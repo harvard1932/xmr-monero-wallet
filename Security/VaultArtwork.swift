@@ -25,7 +25,7 @@ struct VaultArtwork: View {
                                     y: center.y + sin(a) * r * ripple * 0.92)
                     if point == 0 { wave.move(to: p) } else { wave.addLine(to: p) }
                 }
-                ctx.stroke(wave, with: .color(WalletStyle.apricot.opacity(band.isMultiple(of: 5) ? 0.50 : 0.31)), lineWidth: 0.65)
+                ctx.stroke(wave, with: .color(WalletStyle.cardAccent.opacity(band.isMultiple(of: 5) ? 0.50 : 0.31)), lineWidth: 0.65)
             }
             let dark = Color(red: 0.22, green: 0.12, blue: 0.19)
             func rim(_ r: CGFloat, _ c: CGPoint) -> Path {
@@ -33,7 +33,7 @@ struct VaultArtwork: View {
             }
             ctx.fill(rim(radius + 4, CGPoint(x: center.x + 2, y: center.y + 5)), with: .color(dark))
             ctx.fill(rim(radius, center), with: .linearGradient(
-                Gradient(colors: [Color(red: 1, green: 0.80, blue: 0.62), WalletStyle.apricot,
+                Gradient(colors: [Color(red: 1, green: 0.80, blue: 0.62), WalletStyle.cardAccent,
                                   Color(red: 0.78, green: 0.42, blue: 0.34)]),
                 startPoint: CGPoint(x: center.x-radius, y: center.y-radius),
                 endPoint: CGPoint(x: center.x+radius, y: center.y+radius)))
@@ -58,7 +58,7 @@ struct VaultArtwork: View {
                     guide.move(to: CGPoint(x: x, y: y-3.5)); guide.addLine(to: CGPoint(x: x, y: y+3.5))
                 }
             }
-            ctx.stroke(guide, with: .color(WalletStyle.apricot.opacity(0.75)), lineWidth: 0.8)
+            ctx.stroke(guide, with: .color(WalletStyle.cardAccent.opacity(0.75)), lineWidth: 0.8)
             ctx.stroke(field, with: .color(Color.white.opacity(0.12)), lineWidth: 1)
         } symbols: {
             MoneroMark().foregroundStyle(Color(red: 0.25, green: 0.15, blue: 0.20)).frame(width: 100, height: 100).tag(1)

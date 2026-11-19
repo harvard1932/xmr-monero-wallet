@@ -3,6 +3,13 @@ import XCTest
 @testable import XMRMoneroWallet
 
 final class TransferIntegrationTests: XCTestCase {
+    func testPreparedAmountAndFeeMustFitTheSpendableBalance() {
+        XCTAssertTrue(WalletTransfer.fitsSpendableBalance(amount: 95, fee: 5, available: 100))
+        XCTAssertFalse(WalletTransfer.fitsSpendableBalance(amount: 95, fee: 6, available: 100))
+        XCTAssertFalse(WalletTransfer.fitsSpendableBalance(amount: .max, fee: 1, available: .max))
+        XCTAssertFalse(WalletTransfer.fitsSpendableBalance(amount: 0, fee: 1, available: 10))
+    }
+
     func testNativeWalletRoundTripAndOfflineSpendGuard() async throws {
         let directory = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
         try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)

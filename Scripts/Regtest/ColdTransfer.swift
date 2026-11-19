@@ -79,7 +79,14 @@ struct ColdTransfer {
         let address = try String(contentsOf: work.appendingPathComponent("destination"), encoding: .utf8)
         let frames = try String(contentsOf: work.appendingPathComponent("unsigned.ur"), encoding: .utf8)
             .split(whereSeparator: \.isNewline).map(String.init)
+        let discarded = try await signer.inspectUnsigned(frames)
+        await signer.discardUnsigned(discarded.id)
+        do {
+            _ = try await signer.sign(discarded)
+            throw WalletEngineError("A cancelled review was accepted.")
+        } catch let error as WalletEngineError where error.message.contains("Review this transaction again") {}
         let review = try await signer.inspectUnsigned(frames)
+        await signer.discardUnsigned(discarded.id)  // A late dismissal must preserve the new review.
         guard review.summary.contains(address), review.summary.contains("1.250") else {
             throw WalletEngineError("The offline review did not show the expected recipient and amount.")
         }

@@ -15,8 +15,9 @@ bool XMRIsBackgroundSyncing(void *wallet);
 bool XMRConfigureScanOnly(void *wallet, const char *password);
 void XMRDisposePending(void *wallet, void *transaction);
 void XMRDisposeUnsigned(void *transaction);
-void *XMRCreateSelectedTransaction(void *wallet, const char *destination, uint64_t amount, int priority,
+void *XMRPrepareTransaction(void *wallet, const char *destination, uint64_t amount, int priority,
                                    const uint32_t *indices, size_t count, const char *keyImages);
+size_t XMRPendingSourceCount(void *transaction, const uint32_t *allowed, size_t count);
 void *XMRReadUnsigned(void *wallet, const char *payload);
 bool XMRSubmitSigned(void *wallet, const char *payload);
 #ifdef __cplusplus

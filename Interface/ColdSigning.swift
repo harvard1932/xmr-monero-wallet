@@ -159,7 +159,7 @@ private struct ColdFrameReader: View {
                     }
                 }.buttonStyle(WalletPrimaryButton())
             }
-        }.padding(20).background(WalletStyle.ink).foregroundStyle(WalletStyle.text).preferredColorScheme(.dark)
+        }.padding(20).background(WalletStyle.ink).foregroundStyle(WalletStyle.text)
     }
 }
 
@@ -230,6 +230,7 @@ struct ColdSigningTools: View {
     @State private var frames: [String] = []
     @State private var instructions = ""
     @State private var review: WalletOfflineReview?
+    @State private var reviewGeneration = UUID()
     @State private var pairText: String?
     @State private var busy = false
     @State private var status: String?
@@ -249,6 +250,7 @@ struct ColdSigningTools: View {
                 Button("Done") { frames = []; instructions = "" }.buttonStyle(WalletPrimaryButton(muted: true))
             } else if let review {
                 Text("Review on this device").font(.title2.bold())
+                signerNotice
                 Text("Check every destination, amount and fee before signing.").foregroundStyle(WalletStyle.muted)
                 Text(review.summary).font(.system(.callout, design: .monospaced)).textSelection(.enabled)
                 Button(busy ? "Signing…" : "Sign this transaction") {
@@ -258,7 +260,7 @@ struct ColdSigningTools: View {
                         display(signed, "Scan the signed transaction into the online view-only wallet.")
                     }
                 }.buttonStyle(WalletPrimaryButton()).disabled(busy || data.networkEnabled)
-                Button("Cancel") { self.review = nil }.disabled(busy)
+                Button("Cancel") { discardReview() }.disabled(busy)
             } else if let scannedKind {
                 Text(WalletL10n.text("Scanned %@", WalletL10n.text(scannedKind.label))).font(.title2.bold())
                 if scannedKind == .images {
@@ -283,6 +285,7 @@ struct ColdSigningTools: View {
                 taskButton("Broadcast signed transaction", "paperplane") { activeScan = .signed }
             } else {
                 Text("Offline signer").font(.title2.bold())
+                signerNotice
                 if data.networkEnabled {
                     Text("Choose Offline in node settings before using this wallet as a signer.").foregroundStyle(WalletStyle.muted)
                 } else {
@@ -309,11 +312,12 @@ struct ColdSigningTools: View {
             if phase == .background {
                 pairText = nil
                 frames = []
-                review = nil
+                discardReview()
                 activeScan = nil
                 clearImport()
             }
         }
+        .onDisappear { discardReview() }
         .sheet(item: $activeScan) { kind in
             ColdFrameReader(kind: kind) { result in
                 collected = result
@@ -322,6 +326,12 @@ struct ColdSigningTools: View {
                 error = nil
             }
         }
+    }
+
+    private var signerNotice: some View {
+        Label("Cold signing in this preview is awaiting independent security review. Sign disposable test transfers only.",
+              systemImage: "exclamationmark.triangle")
+            .font(.footnote).foregroundStyle(WalletStyle.apricot)
     }
 
     private func buttonFor(_ kind: ColdInput) -> String {
@@ -340,6 +350,13 @@ struct ColdSigningTools: View {
     private func display(_ payload: [String], _ prompt: String) {
         frames = payload
         instructions = prompt
+    }
+
+    private func discardReview() {
+        reviewGeneration = UUID()
+        guard let review else { return }
+        self.review = nil
+        Task { await actions.discardUnsigned(review.id) }
     }
 
     private func clearImport() {
@@ -364,7 +381,14 @@ struct ColdSigningTools: View {
             switch kind {
             case .outputs: try await actions.importOutputs(collected); status = "Outputs imported."
             case .images: try await actions.importKeyImages(collected, trustNode); status = "Key images imported."
-            case .unsigned: review = try await actions.inspectUnsigned(collected)
+            case .unsigned:
+                let generation = reviewGeneration
+                let inspected = try await actions.inspectUnsigned(collected)
+                guard generation == reviewGeneration else {
+                    await actions.discardUnsigned(inspected.id)
+                    return
+                }
+                review = inspected
             case .signed:
                 // A timeout can occur after broadcast. Consume the scanned payload
                 // for every submit attempt so another send requires a new scan.

@@ -2,7 +2,7 @@
 
 A free, independent, self-custody Monero wallet for iPhone. Read the app code, inspect the wallet engine and build your own copy. The app charges no subscription, purchase price or service fee. Sending XMR incurs a Monero network fee, shown before confirmation.
 
-**Version 0.2.0 · iPhone developer preview.** This app has not had an independent security audit. Evaluate it with disposable wallets. It has no App Store or TestFlight release.
+**Version 0.3.0 · iPhone developer preview.** This app has not had an independent security audit. Evaluate it with disposable wallets. It has no App Store or TestFlight release.
 
 <p>
   <img src="Docs/images/welcome.png" width="225" alt="Welcome screen with create and restore actions">
@@ -15,15 +15,15 @@ A free, independent, self-custody Monero wallet for iPhone. Read the app code, i
 | Area | Implementation |
 | --- | --- |
 | Wallets and recovery | Create a 25-word wallet, keep multiple wallets, restore by classic seed, Polyseed, supported MyMonero or BIP39 derivations, spend and view keys, or a view key alone. [Recovery formats](Recovery/README.md) |
-| Receive | Display a primary address or a new labeled subaddress, show or share payment QR codes, and track a requested amount on a dedicated invoice address. |
-| Send | Paste or scan a Monero address or payment URI, choose a fee priority, inspect the exact amount, fee and total, then swipe and authenticate to send that transaction. Amounts use integer atomic units. |
-| Activity and coins | See available and locked balances, incoming and outgoing payments, confirmations and individual outputs. Label, freeze or select outputs and maintain a local address book. |
-| Sync and privacy | Choose the fastest responding healthy public node, your own node, built-in Tor, or offline mode. Each wallet remembers its own route. Tap the node in the wallet header to change it. Follow scan progress in a Live Activity and act on the five Privacy Pulse checks. |
+| Receive | Choose a labeled address, add an optional exact amount to its QR, or create a dedicated invoice and follow its receipts. |
+| Send | Paste an address or scan a payment URI with the camera or photo picker. Request the maximum after fees, use one funded subaddress or select outputs. Review the exact amount and fee, swipe and authenticate. Add a private transaction note. |
+| Activity and coins | Search local notes, hashes, addresses and contacts, filter sent or received activity, and see totals and confirmations by date. Label, freeze or select outputs. |
+| Sync and privacy | Test the named nodes, pin a node, enable automatic failover, connect to your daemon or choose Tor or offline mode. Follow the block heights, rescan, and review Privacy Pulse’s weighted checks. |
 | Air-gapped wallets | Pair a view-only wallet with an offline signer, exchange outputs and key images, review unsigned transactions, and transfer signed transactions over multipart QR. Physical two-device camera testing is pending. |
-| Price chart | Follow XMR/USD with 1-day, 7-day, 30-day and 90-day charts. Start, pause or refresh live prices. Direct price requests are available only with a direct online route. |
+| Price chart | Follow XMR/USD with 1-day, 7-day, 30-day and 90-day charts. Enable CoinGecko for a session to see the USD balance, 24-hour change and transaction estimates. Direct price requests are available only with a direct online route. |
 | Device security | Use a 6–12 digit app PIN and optional Face ID or Touch ID. Reveal encrypted recovery material after fresh authentication. Erase a wallet individually or type DELETE to clear all app data. |
 
-The app ships 23 interface languages. The source includes all translations and their review status. BIP39 supports the Exodus / Cake account-zero derivation. The feature comparison identifies each published reference feature, where to access it and how it was verified. [Feature comparison](Docs/FeatureCoverage.md) · [Translation coverage](Localization/README.md) · [Security and network behavior](SECURITY.md)
+Choose light, dark or system appearance. The app ships 23 interface languages. The source includes all translations and their review status. BIP39 supports the Exodus / Cake account-zero derivation. The feature comparison identifies each published reference feature, where to access it and how it was verified. [Feature comparison](Docs/FeatureCoverage.md) · [Translation coverage](Localization/README.md) · [Security and network behavior](SECURITY.md)
 
 ## Build and run
 
@@ -38,6 +38,8 @@ open XMRMoneroWallet.xcodeproj
 ```
 
 Select the **XMRMoneroWallet** scheme and an iPhone simulator, then Run. For on-device signing, select your development team and use available matching app and extension bundle identifiers. Wallet creation on an iPhone requires a device passcode.
+
+The default device build verifies Cake Wallet’s distribution signature and pinned engine digest. The simulator compiles wallet2 from its pinned source. You can also compile wallet2 for the physical iPhone target. [Build the engine from source](Scripts/AppleCore/README.md)
 
 Both preparation scripts check pinned digests. The app’s Swift, native bridges, Polyseed sources, translation catalogs and dependency build instructions are public. [Wallet engine](ThirdParty/WalletEngine.md) · [Embedded Tor](ThirdParty/Tor/README.md) · [Polyseed](ThirdParty/Polyseed-NOTICE)
 

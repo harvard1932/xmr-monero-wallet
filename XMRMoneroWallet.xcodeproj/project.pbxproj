@@ -60,6 +60,7 @@
 		9F87FDE86C0C8B6C269A2728 /* WalletDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4351476276AD3DDFE3F508AB /* WalletDashboard.swift */; };
 		A2E8C61E841FC40AAA50DD2A /* ProxyRoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518BD35D1FA609F02DCB705C /* ProxyRoutingTests.swift */; };
 		AB24CEB757B75371F63AAE3A /* Monero-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D0A9E273B7D3A66B893D12F1 /* Monero-LICENSE */; };
+		AC6DAE41143EC95DEF95282C /* PaymentQRPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F95AFDAC38C4E258828A13D /* PaymentQRPhoto.swift */; };
 		ADCBA2C5BA59AC9D6AAE83B8 /* ProtectedSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7EC60488F5E014B324203D /* ProtectedSeed.swift */; };
 		AE4E3BAD8380F0C06BEFB761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B207A036AF06F8674D48E82B /* Assets.xcassets */; };
 		B11D4BE62938BF8F7D2C5EBB /* WalletStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE97EF9A2167B46C850AB5A /* WalletStyle.swift */; };
@@ -190,6 +191,7 @@
 		82786ADEB9184F17B729DC92 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		8A08DD52295DA8086D3A85CF /* GPL-3.0.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "GPL-3.0.txt"; sourceTree = "<group>"; };
 		8BE73ACC24C4E5A90D1B2886 /* WalletPINTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletPINTests.swift; sourceTree = "<group>"; };
+		8F95AFDAC38C4E258828A13D /* PaymentQRPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentQRPhoto.swift; sourceTree = "<group>"; };
 		9036F2D6F90DCB0F1F6746A4 /* VaultGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultGate.swift; sourceTree = "<group>"; };
 		98C483EB626EFC5207E79899 /* WalletTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletTools.swift; sourceTree = "<group>"; };
 		98CA10C860F808C4BAE27496 /* tor-nolzma.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "tor-nolzma.xcframework"; path = "Vendor/tor-nolzma.xcframework"; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 			children = (
 				69C0DC417B4CC82B84BA32E4 /* ColdSigning.swift */,
 				539A267C11A73AF58A04D735 /* MarketChart.swift */,
+				8F95AFDAC38C4E258828A13D /* PaymentQRPhoto.swift */,
 				DCCEA53BA79881118424BD74 /* Payments.swift */,
 				4351476276AD3DDFE3F508AB /* WalletDashboard.swift */,
 				7AE97EF9A2167B46C850AB5A /* WalletStyle.swift */,
@@ -652,6 +655,7 @@
 				13252B26069D12C09B5DE6A0 /* MoneroBridge.cpp in Sources */,
 				8DA465BCCBD7DEF4F7968BB9 /* NetworkSettings.swift in Sources */,
 				60E27A6A912D3BB2B1D5E517 /* NodeRelay.swift in Sources */,
+				AC6DAE41143EC95DEF95282C /* PaymentQRPhoto.swift in Sources */,
 				6F0E8A7D5D73E72F0313016D /* Payments.swift in Sources */,
 				44459E94E1F0D6EFF0CAC1FF /* PolyseedAdapter.m in Sources */,
 				0C8CF9DB09C1F01758DED7A2 /* PrivacyPulse.swift in Sources */,
@@ -785,7 +789,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -798,7 +802,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.3.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -847,7 +851,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -866,7 +870,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MARKETING_VERSION = 0.2.0;
+				MARKETING_VERSION = 0.3.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;

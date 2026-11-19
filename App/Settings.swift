@@ -2,11 +2,21 @@ import SwiftUI
 
 enum ProjectLinks {
     static let source = URL(string: "https://github.com/harvard1932/xmr-monero-wallet")!
-    static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.2.0"
+    static let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "0.3.0"
     static let revision = source.appending(path: "tree").appending(path: "v" + version)
     static let verification = source.appending(path: "blob/v" + version + "/Docs/Verification.md")
+    static let security = source.appending(path: "blob/main/SECURITY.md")
     static let tor = revision.appending(path: "ThirdParty/Tor")
-    static let core = URL(string: "https://github.com/MrCyjaneK/monero_c/tree/v0.18.4.6-RC2")!
+    static let core = URL(string: "https://github.com/MrCyjaneK/monero_c/tree/33671871de3d51696b66ffb3bd94f744e26974f6")!
+}
+
+struct WalletPreviewNotice: View {
+    var body: some View {
+        Label("Developer preview. Use disposable wallets and keep real XMR elsewhere. An independent security review is pending.",
+              systemImage: "exclamationmark.triangle")
+            .font(.footnote).foregroundStyle(WalletStyle.apricot)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
 }
 
 struct WalletSource: View {
@@ -16,6 +26,8 @@ struct WalletSource: View {
             Text("XMR Monero Wallet - Safe and opensource").font(.largeTitle.weight(.semibold))
             Text("Every screen, wallet operation and build instruction is public. You can read the Swift code, inspect the native engine and build your own copy.")
                 .foregroundStyle(WalletStyle.muted)
+            WalletPreviewNotice()
+            Link("Security and privacy notes", destination: ProjectLinks.security)
             WalletLine(label: "App version", value: ProjectLinks.version)
             WalletLine(label: "App license", value: "MIT")
             WalletLine(label: "App fee", value: WalletL10n.text("Free"))
@@ -49,7 +61,15 @@ struct WalletPicker: View {
                 } label: {
                     HStack {
                         Image(systemName: "wallet.bifold").foregroundStyle(WalletStyle.apricot)
-                        Text(wallet.name).font(.headline)
+                        VStack(alignment: .leading, spacing: 4) {
+                            Text(wallet.name).font(.headline)
+                            if vault.active?.id == wallet.id, let current = session.data {
+                                Text(XMRAmount.format(current.total) + " XMR · " + WalletL10n.text(current.syncStatus)).font(.caption)
+                            } else {
+                                if let format = wallet.recoveryFormat { Text(WalletL10n.text(format)).font(.caption) }
+                                if let height = wallet.restoreHeight { Text("Restore height · \(height)").font(.caption) }
+                            }
+                        }
                         Spacer()
                         if vault.active?.id == wallet.id { Image(systemName: "checkmark") }
                     }.padding().background(WalletStyle.panel, in: RoundedRectangle(cornerRadius: 16))
@@ -78,9 +98,10 @@ struct WalletSettings: View {
     @State private var deleting: Deletion?
     @State private var eraseConfirmation = ""
     @State private var eraseAll = false
-    @State private var createdAddress: WalletAddressItem?
+    @State private var showInvoices = false
     @State private var error: String?
     @State private var busy = false
+    @AppStorage(WalletAppearance.preference) private var appearance = WalletAppearance.dark
     @AppStorage("keepAwake") private var keepAwake = false
     @AppStorage("syncActivity") private var liveActivity = false
     @Environment(\.dismiss) private var dismiss
@@ -107,7 +128,14 @@ struct WalletSettings: View {
                     }
                 }
                 Section("Wallet security") { security }
-                Section { WalletLanguagePicker() }
+                Section {
+                    WalletLanguagePicker()
+                    Picker("Appearance", selection: $appearance) {
+                        ForEach(WalletAppearance.allCases, id: \.self) { Text($0.title).tag($0) }
+                    }.pickerStyle(.menu)
+                        .accessibilityValue(Text(appearance.title))
+                        .accessibilityIdentifier("settings.appearance")
+                }
                 Section("Project") {
                     Button { showSource = true } label: { Label("Source code and license", systemImage: "curlybraces") }
                 }
@@ -121,17 +149,15 @@ struct WalletSettings: View {
                 case .privacy:
                     PrivacyPulseView(pulse: pulse) { control in
                         switch control {
-                        case .route: path.append(.tor)
                         case .node: path.append(.network)
                         case .backup: revealSeed()
-                        case .deviceLock: path.append(.security)
-                        case .subaddress:
+                        case .deviceLock, .biometrics:
                             Task {
-                                do {
-                                    createdAddress = try await session.actions(vault: vault, settings: {}, wallets: {})
-                                        .newAddress(WalletL10n.text("Private receiving address"))
-                                } catch { self.error = WalletL10n.diagnostic(error) }
+                                do { try await vault.managePIN() }
+                                catch is CancellationError {}
+                                catch { self.error = WalletL10n.diagnostic(error) }
                             }
+                        case .invoices: showInvoices = true
                         }
                     }
                 case .security: Form { security }.navigationTitle("Wallet security")
@@ -143,14 +169,12 @@ struct WalletSettings: View {
         .sheet(isPresented: $showSource) { WalletSource() }
         .sheet(isPresented: $showWords, onDismiss: { backup = nil }) {
             WalletSheet(title: "Recovery backup") {
-                if let backup { VaultBackupContent(backup: backup) }
+                if let backup { VaultBackupContent(backup: backup, vault: vault) }
             }
         }
-        .sheet(item: $createdAddress) { item in
-            WalletSheet(title: "Receiving address") {
-                PaymentQR(payload: item.address)
-                Text(item.address).font(.system(.caption, design: .monospaced)).textSelection(.enabled)
-                ShareLink(item: item.address)
+        .sheet(isPresented: $showInvoices) {
+            if let data = session.data {
+                InvoiceList(data: data, actions: session.actions(vault: vault, settings: {}, wallets: {}))
             }
         }
         .onDisappear { backup = nil }
@@ -173,7 +197,7 @@ struct WalletSettings: View {
     }
 
     private var pulse: PrivacyPulse {
-        PrivacyPulse(backedUp: vault.active?.backupVerified == true, locked: vault.phase == .unlocked, hasSubaddress: (session.data?.addresses.count ?? 0) > 1, route: session.connection)
+        PrivacyPulse(vault: vault, session: session)
     }
 
     @ViewBuilder private var security: some View {

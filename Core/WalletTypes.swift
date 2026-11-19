@@ -25,6 +25,8 @@ struct WalletPayment: Identifiable, Sendable {
     let pending: Bool
     let failed: Bool
     let subaddressIndices: [Int]
+    let note: String
+    let recipients: [String]
 }
 
 struct WalletSnapshot: Sendable {
@@ -44,6 +46,12 @@ struct WalletTransfer: Identifiable, Sendable {
     let destination: String
     let amount: UInt64
     let fee: UInt64
+    let sourceSubaddressCount: Int
+
+    static func fitsSpendableBalance(amount: UInt64, fee: UInt64, available: UInt64) -> Bool {
+        let total = amount.addingReportingOverflow(fee)
+        return amount > 0 && !total.overflow && total.partialValue <= available
+    }
 }
 
 struct WalletOutput: Identifiable, Sendable {

@@ -14,6 +14,8 @@ struct VaultWallet: Identifiable, Codable, Hashable {
     let name: String
     let createdAt: Date
     var backupVerified: Bool
+    var recoveryFormat: String?
+    var restoreHeight: UInt64?
 }
 
 struct VaultLocation {
@@ -142,6 +144,8 @@ final class WalletVault: ObservableObject {
     @Published private(set) var sessionID = UUID()
     @Published private(set) var working = false
     @Published private(set) var loadError: String?
+    @Published private(set) var hasPIN = false
+    @Published private(set) var hasBiometrics = false
     private var sessionKey: SymmetricKey?
     private let fm = FileManager.default
     private let root: URL
@@ -217,6 +221,8 @@ final class WalletVault: ObservableObject {
     func lock() {
         WalletPINPrompt.cancel()
         sessionKey = nil
+        hasPIN = false
+        hasBiometrics = false
         sessionID = UUID()
         if phase != .loading { phase = wallets.isEmpty ? .needsWallet : .locked }
     }
@@ -241,8 +247,11 @@ final class WalletVault: ObservableObject {
         let session = sessionID
         let hasCiphertexts = wallets.contains { fm.fileExists(atPath: passwordFile($0.id).path) }
         let key = try await WalletPINPrompt.request(reason: reason, existingCiphertexts: hasCiphertexts, manage: manage)
+        let protections = try? await WalletPINStore.shared.protectionSettings()
         try requireCurrent(session)
         sessionKey = key
+        hasPIN = protections?.hasPIN ?? false
+        hasBiometrics = protections?.hasBiometrics ?? false
     }
 
     func managePIN() async throws {
@@ -257,17 +266,18 @@ final class WalletVault: ObservableObject {
         try await commitFullErasure(close: close)
     }
 
-    func eraseAllFromLock() async throws {
+    func eraseAllFromLock(close: () async -> Void) async throws {
         guard phase == .locked || (phase == .loading && loadError != nil), let ticket = beginOperation() else { throw CancellationError() }
         defer { endOperation(ticket) }
         try await WalletPINStore.shared.authorizeEmergencyErase()
         try requireCurrent(ticket)
-        try await commitFullErasure(close: {})
+        try await commitFullErasure(close: close)
     }
 
     private func commitFullErasure(close: () async -> Void) async throws {
         // Establish the durable user intent before closing any native handle.
         try eraseJournal.begin()
+        WalletRecoveryClipboard.shared.clearIfOwned()
         phase = .loading; loadError = nil; active = nil; wallets = []
         lock()
         await close()
@@ -371,8 +381,10 @@ final class WalletVault: ObservableObject {
         }
     }
 
-    func register(_ location: VaultLocation) throws {
-        let wallet = location.wallet
+    func register(_ location: VaultLocation, recoveryFormat: String, restoreHeight: UInt64?) throws {
+        var wallet = location.wallet
+        wallet.recoveryFormat = recoveryFormat
+        wallet.restoreHeight = restoreHeight
         // Apply complete protection explicitly to the wallet core's initial files.
         for url in try fm.contentsOfDirectory(at: folder(wallet.id), includingPropertiesForKeys: nil) {
             try fm.setAttributes([.protectionKey: FileProtectionType.complete], ofItemAtPath: url.path)
@@ -391,6 +403,23 @@ final class WalletVault: ObservableObject {
 
     private func save(_ wallet: VaultWallet) throws {
         try JSONEncoder().encode(wallet).write(to: manifest(wallet.id), options: [.atomic, .completeFileProtection])
+    }
+
+    func completeMetadata(for wallet: VaultWallet, restoreHeight: UInt64?) throws {
+        guard let key = sessionKey, let i = wallets.firstIndex(where: { $0.id == wallet.id }) else { return }
+        var updated = wallets[i]
+        if updated.restoreHeight == nil { updated.restoreHeight = restoreHeight }
+        if updated.recoveryFormat == nil {
+            struct StoredFormat: Decodable { let format: String }
+            if var bytes = try? WalletSealedFile.read(originalFile(wallet.id), walletID: wallet.id, key: key) {
+                defer { bytes.resetBytes(in: 0..<bytes.count) }
+                updated.recoveryFormat = try? JSONDecoder().decode(StoredFormat.self, from: bytes).format
+            }
+        }
+        guard updated != wallets[i] else { return }
+        try save(updated)
+        wallets[i] = updated
+        if active?.id == wallet.id { active = updated }
     }
 
     func markBackupVerified(for wallet: VaultWallet) throws {
@@ -415,6 +444,7 @@ final class WalletVault: ObservableObject {
         // leaves the wallet usable. A crash after the move is completed on startup.
         let tombstone = root.appending(path: ".deleting-" + wallet.id.uuidString, directoryHint: .isDirectory)
         try fm.moveItem(at: folder(wallet.id), to: tombstone)
+        WalletRecoveryClipboard.shared.clearIfOwned()
         wallets.removeAll { $0.id == wallet.id }
         active = wallets.first
         lock()

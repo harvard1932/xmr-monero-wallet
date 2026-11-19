@@ -9,10 +9,11 @@ struct VaultGate: View {
     let readSeed: () async throws -> String
     let onSource: () -> Void
     let primaryAddress: () async throws -> String
+    let restoreHeight: () async throws -> UInt64?
 
     var body: some View {
         VaultEntry(vault: vault, create: create, restore: restore, open: open, close: close,
-                   readSeed: readSeed, onSource: onSource, primaryAddress: primaryAddress)
+                   readSeed: readSeed, onSource: onSource, primaryAddress: primaryAddress, restoreHeight: restoreHeight)
             .id(vault.sessionID)
     }
 }
@@ -31,6 +32,7 @@ private struct VaultEntry: View {
     let readSeed: () async throws -> String
     let onSource: () -> Void
     let primaryAddress: () async throws -> String
+    let restoreHeight: () async throws -> UInt64?
 
     @State private var step = GateStep.welcome
     @State private var name = ""
@@ -92,7 +94,6 @@ private struct VaultEntry: View {
         .background(WalletStyle.ink.ignoresSafeArea())
         .foregroundStyle(WalletStyle.text)
         .tint(WalletStyle.apricot)
-        .preferredColorScheme(.dark)
         .sheet(isPresented: $confirmAddress, onDismiss: { finishReview(false) }) {
             WalletSheet(title: "Confirm restored address") {
                 Text("Compare this primary address with your original wallet before finishing. A different passphrase or derivation can open a different wallet.")
@@ -116,7 +117,7 @@ private struct VaultEntry: View {
                     eraseConfirmation = ""
                     confirmWipe = false
                     Task {
-                        do { await close(); try await vault.eraseAllFromLock() }
+                        do { try await vault.eraseAllFromLock(close: close) }
                         catch is CancellationError {}
                         catch { notice = WalletL10n.diagnostic(error) }
                     }
@@ -172,6 +173,7 @@ private struct VaultEntry: View {
             VaultArtwork().frame(height: 240).padding(.top, 4)
             heading("XMR Monero\nWallet",
                     subtitle: "Free and open source. Create a wallet on this iPhone or restore one from a backup.")
+            WalletPreviewNotice()
             VStack(spacing: 12) {
                 Button {
                     name = vault.wallets.isEmpty ? "Personal wallet" : ""
@@ -185,10 +187,11 @@ private struct VaultEntry: View {
                     notice = nil
                 } label: { actionLabel("Restore a wallet", symbol: "arrow.counterclockwise") }
                 .buttonStyle(WalletPrimaryButton(muted: true)).accessibilityIdentifier("vault.restore")
-                Text("Developer preview. Independent security review is pending.")
-                    .font(.footnote).foregroundStyle(WalletStyle.muted)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(.top, 4)
+                HStack {
+                    Link("Security and privacy notes", destination: ProjectLinks.security)
+                    Spacer()
+                    Button("Source code and license", action: onSource)
+                }.font(.footnote)
                 if !vault.wallets.isEmpty {
                     Button("Back to my wallets") { vault.lock() }.padding(.top, 6)
                 }
@@ -311,6 +314,7 @@ private struct VaultEntry: View {
         VStack(alignment: .leading, spacing: 18) {
             heading("Write it down.", subtitle: "Keep these words in order on paper. Anyone with this phrase can spend your Monero.")
             VaultSeedWords(phrase: phrase)
+            WalletBackupCopyButton(phrase: phrase, vault: vault)
             Button {
                 let words = seedWords
                 guard words.count >= 2 else { notice = "The wallet returned an incomplete recovery phrase."; return }
@@ -406,6 +410,7 @@ private struct VaultEntry: View {
                 await close()
                 try vault.requireCurrent(session)
                 let words: String
+                let format: String
                 if let request {
                     try await restore(location, request)
                     try vault.requireCurrent(session)
@@ -415,10 +420,14 @@ private struct VaultEntry: View {
                     try vault.requireCurrent(session)
                     let backup: VaultBackup
                     if method == .phrase {
-                        backup = .init(format: (seedFormat == .classic && seedWords.count == 16 && polyseedOffset) ? "Polyseed with Monero seed offset" : seedFormat.rawValue, phrase: seedWords.joined(separator: " "), address: restoredAddress,
+                        if seedFormat != .classic { format = seedFormat.rawValue }
+                        else if seedWords.count == 16 { format = polyseedOffset ? "Polyseed with Monero seed offset" : "Polyseed" }
+                        else { format = "25-word Monero seed" }
+                        backup = .init(format: format, phrase: seedWords.joined(separator: " "), address: restoredAddress,
                                        view: nil, spend: nil, requiresPassphrase: seedFormat != .myMonero && !passphrase.isEmpty)
                     } else {
-                        backup = .init(format: method.rawValue, phrase: nil, address: restoredAddress,
+                        format = method.rawValue
+                        backup = .init(format: format, phrase: nil, address: restoredAddress,
                                        view: viewKey.trimmingCharacters(in: .whitespacesAndNewlines),
                                        spend: method == .keys ? spendKey.trimmingCharacters(in: .whitespacesAndNewlines) : nil,
                                        requiresPassphrase: false)
@@ -426,13 +435,16 @@ private struct VaultEntry: View {
                     try vault.saveOriginal(backup, for: location.wallet)
                     words = ""
                 } else {
+                    format = "25-word Monero seed"
                     words = try await create(location)
                     guard words.split(whereSeparator: \.isWhitespace).count >= 2 else {
                         throw InputError("The wallet could not produce a recovery phrase.")
                     }
                 }
                 try vault.requireCurrent(session)
-                try vault.register(location)
+                let recordedHeight = try await restoreHeight()
+                try vault.requireCurrent(session)
+                try vault.register(location, recoveryFormat: format, restoreHeight: recordedHeight)
                 draft = nil
                 wipeInputs()
                 if restoring {
@@ -467,6 +479,12 @@ private struct VaultEntry: View {
                 openingCore = true
                 try await open(location)
                 try vault.requireCurrent(session)
+                if wallet.restoreHeight == nil || wallet.recoveryFormat == nil {
+                    let height = try await restoreHeight()
+                    try vault.requireCurrent(session)
+                    // A read-only wallet can still be opened when optional display metadata cannot be saved.
+                    try? vault.completeMetadata(for: wallet, restoreHeight: height)
+                }
                 if wallet.backupVerified {
                     vault.enter(wallet)
                 } else {

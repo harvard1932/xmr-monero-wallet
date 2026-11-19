@@ -62,6 +62,38 @@ final class ProxyRoutingTests: XCTestCase {
                                             proxy: "127.0.0.1:9050"))
     }
 
+    func testManualOnionHealthCheckSendsHostnameToSelectedProxy() async throws {
+        let onion = try XCTUnwrap(ConnectionSettings.torDirectory.first)
+        let host = try XCTUnwrap(onion.url.host)
+        let rpc = UInt16(try XCTUnwrap(onion.url.port))
+        let request = Data([4, 1, UInt8(rpc >> 8), UInt8(truncatingIfNeeded: rpc), 0, 0, 0, 1, 0] + Array(host.utf8) + [0])
+        let socks = try LoopbackTestListener { peer in
+            peer.receive(minimumIncompleteLength: request.count, maximumLength: request.count) { bytes, _, _, _ in
+                guard bytes == request else { XCTFail("The check did not send the onion hostname to the selected proxy."); peer.cancel(); return }
+                peer.send(content: Data([0, 90, 0, 0, 0, 0, 0, 0]), completion: .contentProcessed { _ in
+                    peer.receive(minimumIncompleteLength: 14, maximumLength: 4096) { bytes, _, _, _ in
+                        XCTAssertTrue(String(decoding: bytes ?? Data(), as: UTF8.self).hasPrefix("GET /get_info "))
+                        let reply = "HTTP/1.0 200 OK\r\nConnection: close\r\n\r\n" + #"{"mainnet":true,"height":55,"status":"OK","synchronized":true}"#
+                        peer.send(content: Data(reply.utf8), contentContext: .finalMessage, isComplete: true,
+                                  completion: .contentProcessed { _ in peer.cancel() })
+                    }
+                })
+            }
+        }
+        let port = try await socks.start()
+        defer { socks.stop() }
+        let duration = try await ConnectionSettings.responseTime(onion, proxy: "127.0.0.1:\(port)")
+        XCTAssertGreaterThan(duration, .zero)
+        do {
+            _ = try await ConnectionSettings.responseTime(onion, proxy: nil)
+            XCTFail("Onion checks require a proxy.")
+        } catch {}
+        do {
+            _ = try await ConnectionSettings.responseTime(ConnectionSettings.directDirectory[0], proxy: "127.0.0.1:\(port)")
+            XCTFail("Tor checks only allow onion destinations.")
+        } catch {}
+    }
+
     func testAutomaticProxiedCandidatesDoNotProbePublicNodes() async throws {
         // candidates() normally probes with an ephemeral URLSession. In this test
         // those sessions get a protocol that records and rejects each public-node

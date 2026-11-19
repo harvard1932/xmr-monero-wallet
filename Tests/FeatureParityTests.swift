@@ -1,18 +1,69 @@
 import XCTest
+import CoreImage.CIFilterBuiltins
+import UniformTypeIdentifiers
+import ImageIO
 @testable import XMRMoneroWallet
 
 final class FeatureParityTests: XCTestCase {
-    func testPrivacyPulseIsDeterministicAndEveryControlChangesItsScore() {
-        var direct = ConnectionSettings()
-        direct.mode = ConnectionMode.automatic.rawValue
-        let plain = PrivacyPulse(backedUp: false, locked: false, hasSubaddress: false, route: direct)
-        XCTAssertEqual(plain.score, 0)
-        XCTAssertEqual(PrivacyPulse(backedUp: true, locked: true, hasSubaddress: true, route: direct).score, 60)
-        direct.mode = ConnectionMode.custom.rawValue
-        direct.useProxy = true
-        let protected = PrivacyPulse(backedUp: true, locked: true, hasSubaddress: true, route: direct)
-        XCTAssertEqual(protected.score, 100)
-        XCTAssertEqual(protected.complete, Set(PrivacyPulse.Control.allCases))
+    func testPrivacyPulseReflectsWalletProtectionsAndChosenRoute() {
+        var route = ConnectionSettings()
+        func score(pin: Bool = false, biometric: Bool = false, backup: Bool = false, invoices: Bool = true, choseRoute: Bool = true) -> Int {
+            PrivacyPulse(backedUp: backup, hasPIN: pin, hasBiometrics: biometric, freshInvoices: invoices, route: route, choseRoute: choseRoute).score
+        }
+        XCTAssertEqual(score(choseRoute: false), 77)
+        XCTAssertEqual(score(), 82)
+        route.mode = ConnectionMode.automatic.rawValue
+        XCTAssertEqual(score(), 77)
+        XCTAssertEqual(score(invoices: false), 67)
+        XCTAssertEqual(score(pin: true), 85)
+        XCTAssertEqual(score(biometric: true), 77)
+        XCTAssertEqual(score(pin: true, biometric: true), 88)
+        XCTAssertEqual(score(backup: true), 84)
+        route.useProxy = true
+        XCTAssertEqual(score(pin: true, biometric: true, backup: true), 100)
+        route.useProxy = false
+        route.mode = ConnectionMode.custom.rawValue
+        XCTAssertEqual(score(), 82)
+    }
+
+    func testPrivacyPulseCreditsDistinctSavedInvoiceSubaddresses() {
+        let primary = WalletAddressItem(id: 0, label: "", address: "primary")
+        let first = WalletAddressItem(id: 1, label: "", address: "first")
+        let second = WalletAddressItem(id: 2, label: "", address: "second")
+        let addresses = [primary, first, second]
+        func invoice(_ address: String) -> WalletInvoiceItem { .init(label: "", address: address, amount: 1) }
+        XCTAssertFalse(PrivacyPulse.hasFreshInvoices([], addresses: addresses))
+        XCTAssertFalse(PrivacyPulse.hasFreshInvoices([invoice("primary")], addresses: addresses))
+        XCTAssertFalse(PrivacyPulse.hasFreshInvoices([invoice("other")], addresses: addresses))
+        XCTAssertFalse(PrivacyPulse.hasFreshInvoices([invoice("first"), invoice("first")], addresses: addresses))
+        XCTAssertTrue(PrivacyPulse.hasFreshInvoices([invoice("first"), invoice("second")], addresses: addresses))
+    }
+
+    @MainActor
+    func testAmountSpecificReceiveQRAndPhotoImport() throws {
+        let address = "44yQXfkWZNmJ8QgRfFWTzmJ8QgRfFWTzmJ8QgRfFWTzmJ7suhUXwdrDJ8QgRfFWTzmJ8QgRfFWTzmJ8QgRfFWTzmCYrSgjJ"
+        let locale = Locale(identifier: "de_DE")
+        let uri = try XCTUnwrap(ReceiveView.paymentRequest(for: address, amount: "0,000000000001", locale: locale))
+        XCTAssertEqual(try MoneroPaymentTarget(uri).amount, 1)
+        XCTAssertEqual(ReceiveView.paymentRequest(for: address, amount: "", locale: locale), address)
+        XCTAssertNil(ReceiveView.paymentRequest(for: address, amount: "0", locale: locale))
+        XCTAssertNil(ReceiveView.paymentRequest(for: address, amount: "0,0000000000001", locale: locale))
+
+        let filter = CIFilter.qrCodeGenerator()
+        filter.message = Data(uri.utf8)
+        let encoded = try XCTUnwrap(filter.outputImage)
+        let extent = encoded.extent.insetBy(dx: -5, dy: -5)
+        let padded = encoded.composited(over: CIImage(color: .white).cropped(to: extent))
+        let image = padded.transformed(by: CGAffineTransform(scaleX: 8, y: 8))
+        let context = CIContext(options: [.useSoftwareRenderer: true])
+        let raster = try XCTUnwrap(context.createCGImage(image, from: image.extent))
+        let url = URL.temporaryDirectory.appending(path: UUID().uuidString + ".png")
+        defer { try? FileManager.default.removeItem(at: url) }
+        let file = try XCTUnwrap(CGImageDestinationCreateWithURL(url as CFURL, UTType.png.identifier as CFString, 1, nil))
+        CGImageDestinationAddImage(file, raster, nil)
+        XCTAssertTrue(CGImageDestinationFinalize(file))
+        XCTAssertEqual(try PaymentQRPhoto.read(url), uri)
+        XCTAssertThrowsError(try PaymentQRPhoto.singlePayload([uri, "another QR"]))
     }
 
     func testNewTorChoicesUseEmbeddedClientAndPreviousProxyChoicesSurvive() throws {
@@ -41,23 +92,28 @@ final class FeatureParityTests: XCTestCase {
     }
 
     func testIntradayAndLongTermChartsUseAppropriateIntervals() throws {
-        XCTAssertEqual(PriceWindow.day.minutes, 5)
-        XCTAssertEqual(PriceWindow.quarter.minutes, 1440)
-        let now = Date(timeIntervalSince1970: 2_000_000_000)
-        let url = try XCTUnwrap(URLComponents(url: PriceWindow.week.request(at: now), resolvingAgainstBaseURL: false))
-        XCTAssertEqual(url.queryItems?.first(where: { $0.name == "since" })?.value, String(2_000_000_000 - 7 * 86400))
-        let valid = #"{"error":[],"result":{"XXMRZUSD":[[200,"0","0","0","2.01"],[100,"0","0","0","1.45"]]}}"#
+        for window in PriceWindow.allCases {
+            let url = try XCTUnwrap(URLComponents(url: window.request, resolvingAgainstBaseURL: false))
+            XCTAssertEqual(url.host, "api.coingecko.com")
+            XCTAssertEqual(url.queryItems?.first(where: { $0.name == "days" })?.value, String(window.rawValue))
+        }
+        let valid = #"{"prices":[[200000,2.01],[100000,1.45]]}"#
         XCTAssertEqual(try MarketChart.prices(from: Data(valid.utf8)).map(\.usd), [1.45, 2.01])
-        XCTAssertThrowsError(try MarketChart.prices(from: Data(#"{"error":["Unknown pair"]}"#.utf8)))
+        XCTAssertThrowsError(try MarketChart.prices(from: Data(#"{"error":"Unknown pair"}"#.utf8)))
+        let data = Data(#"{"monero":{"usd":210.5,"usd_24h_change":-3.2,"last_updated_at":200}}"#.utf8)
+        let quote = try WalletMarketQuote.read(data, now: Date(timeIntervalSince1970: 200))
+        XCTAssertEqual(quote.fiat(XMRAmount.scale, locale: Locale(identifier: "en_US")), "$210.50")
+        XCTAssertEqual(quote.change24h, -0.032, accuracy: 0.000001)
+        XCTAssertThrowsError(try WalletMarketQuote.read(data, now: Date(timeIntervalSince1970: 5000)))
     }
 
     @MainActor
     func testLivePriceChartLoadsRealIntradayCandles() async throws {
         guard ProcessInfo.processInfo.environment["XMR_LIVE_MARKET"] == "1" else {
-            throw XCTSkip("Opt in to requesting the chart's public XMR/USD prices from Kraken.")
+            throw XCTSkip("Opt in to requesting the chart's public XMR/USD prices from CoinGecko.")
         }
         let now = Date()
-        let response = try await PublicJSON.read(PriceWindow.day.request(at: now), limit: 512 * 1024, timeout: 12)
+        let response = try await PublicJSON.read(PriceWindow.day.request, limit: 512 * 1024, timeout: 12)
         let candles = try MarketChart.prices(from: response)
         XCTAssertGreaterThan(candles.count, 2)
         XCTAssertGreaterThan(try XCTUnwrap(candles.last?.date), now.addingTimeInterval(-3600))

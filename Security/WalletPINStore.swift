@@ -160,6 +160,16 @@ private enum DevicePINItems {
 actor WalletPINStore {
     static let shared = WalletPINStore()
 
+    /// Read the opt-in and current enrollment without opening any protected key or prompting.
+    func protectionSettings() throws -> (hasPIN: Bool, hasBiometrics: Bool) {
+        guard let envelope = try state() else { return (false, false) }
+        guard envelope.biometrics, let recorded = envelope.biometricEnrollment else { return (true, false) }
+        let context = LAContext()
+        defer { context.invalidate() }
+        guard context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: nil) else { return (true, false) }
+        return (true, BiometricEnrollment.domainState(for: context) == recorded.domainState)
+    }
+
     func state() throws -> PINEnvelope? {
         guard let bytes = try DevicePINItems.read(PINItem.envelope) else { return nil }
         let state = try JSONDecoder().decode(PINEnvelope.self, from: bytes)

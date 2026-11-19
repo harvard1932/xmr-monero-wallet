@@ -2,6 +2,7 @@ import SwiftUI
 
 @main
 struct XMRMoneroWalletApp: App {
+    @AppStorage(WalletAppearance.preference) private var appearance = WalletAppearance.dark
     @UIApplicationDelegateAdaptor(VaultAppDelegate.self) private var appDelegate
     @StateObject private var vault = WalletVault()
     @StateObject private var session = WalletSession()
@@ -9,7 +10,7 @@ struct XMRMoneroWalletApp: App {
         WindowGroup {
             WalletRoot(vault: vault, session: session)
                 .modifier(WalletLanguageEnvironment())
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(appearance.scheme)
                 .tint(WalletStyle.apricot)
         }
     }
@@ -35,7 +36,7 @@ struct WalletRoot: View {
                 Group {
                     if let data = session.data {
                         WalletDashboard(data: data, actions: session.actions(vault: vault, settings: { panel = .settings }, wallets: { panel = .wallets }),
-                                        showNetwork: { panel = .network }, showPulse: { panel = .privacy })
+                                        showNetwork: { panel = .network }, showPulse: { panel = .privacy }, privacyScore: PrivacyPulse(vault: vault, session: session).score, walletCount: vault.wallets.count)
                             .id(vault.sessionID)
                     } else {
                         VStack(spacing: 20) {
@@ -50,7 +51,7 @@ struct WalletRoot: View {
             } else {
                 VaultGate(vault: vault, create: session.create, restore: session.restore, open: session.open,
                           close: session.close, readSeed: session.readSeed, onSource: { panel = .source },
-                          primaryAddress: session.primaryAddress)
+                          primaryAddress: session.primaryAddress, restoreHeight: { try await session.liveEngine().recordedRestoreHeight() })
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -88,7 +89,7 @@ struct WalletRoot: View {
             if id != nil, vault.phase == .unlocked, session.needsNetworkChoice, panel == nil { panel = .network }
         }
         .onReceive(NotificationCenter.default.publisher(for: UIApplication.protectedDataWillBecomeUnavailableNotification)) { _ in
-            session.finishBackgroundScan()
+            lock()
         }
         .onReceive(NotificationCenter.default.publisher(for: UIScreen.capturedDidChangeNotification)) { _ in
             isCaptured = UIScreen.main.isCaptured
@@ -121,6 +122,7 @@ struct WalletRoot: View {
 
     private func lock() {
         panel = nil
+        WalletRecoveryClipboard.shared.clearIfOwned()
         vault.lock()
         session.takeOffline()
         UIApplication.shared.isIdleTimerDisabled = false

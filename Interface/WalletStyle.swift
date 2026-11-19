@@ -1,15 +1,47 @@
 import SwiftUI
 
+enum WalletAppearance: String, CaseIterable {
+    case dark, light, system
+    static let preference = "wallet.appearance"
+
+    var scheme: ColorScheme? {
+        switch self {
+        case .dark: .dark
+        case .light: .light
+        case .system: nil
+        }
+    }
+
+    var title: LocalizedStringKey {
+        switch self {
+        case .dark: "Dark"
+        case .light: "Light"
+        case .system: "Use device appearance"
+        }
+    }
+}
+
 enum WalletStyle {
-    static let ink = Color(red: 0.082, green: 0.071, blue: 0.091)
-    static let dusk = Color(red: 0.128, green: 0.111, blue: 0.139)
-    static let panel = Color(red: 0.157, green: 0.137, blue: 0.168)
-    static let stroke = Color.white.opacity(0.115)
-    static let text = Color(red: 0.979, green: 0.954, blue: 0.937)
-    static let muted = Color(red: 0.731, green: 0.691, blue: 0.727)
-    static let apricot = Color(red: 1.0, green: 0.659, blue: 0.45)
-    static let mint = Color(red: 0.67, green: 0.849, blue: 0.757)
+    private static func adaptive(light: UInt32, dark: UInt32, alpha: CGFloat = 1) -> Color {
+        Color(uiColor: UIColor { traits in
+            let rgb = traits.userInterfaceStyle == .dark ? dark : light
+            return UIColor(red: CGFloat((rgb >> 16) & 255) / 255,
+                           green: CGFloat((rgb >> 8) & 255) / 255,
+                           blue: CGFloat(rgb & 255) / 255, alpha: alpha)
+        })
+    }
+
+    static let ink = adaptive(light: 0xFCF9F5, dark: 0x151217)
+    static let dusk = adaptive(light: 0xF3EDE7, dark: 0x211C23)
+    static let panel = adaptive(light: 0xEBE3DD, dark: 0x28232B)
+    static let stroke = adaptive(light: 0x30252F, dark: 0xFFFFFF, alpha: 0.15)
+    static let text = adaptive(light: 0x241C22, dark: 0xFAF3EF)
+    static let muted = adaptive(light: 0x605560, dark: 0xBAB0B9)
+    static let apricot = adaptive(light: 0x963E15, dark: 0xFFA873)
+    static let mint = adaptive(light: 0x286047, dark: 0xABD9C1)
     static let plum = Color(red: 0.245, green: 0.155, blue: 0.193)
+    static let cardAccent = Color(red: 1.0, green: 0.659, blue: 0.45)
+    static let cardInk = Color(red: 0.082, green: 0.071, blue: 0.091)
 }
 
 /// Geometric Monero monogram drawn at any resolution.
@@ -106,7 +138,6 @@ struct WalletSheet<Content: View>: View {
         .interactiveDismissDisabled(!canDismiss)
         .tint(WalletStyle.apricot)
         .foregroundStyle(WalletStyle.text)
-        .preferredColorScheme(.dark)
     }
 }
 

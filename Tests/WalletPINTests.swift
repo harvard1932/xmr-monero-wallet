@@ -80,12 +80,13 @@ final class WalletPINTests: XCTestCase {
         XCTAssertTrue(retired)
     }
 
-    func testPolyseedEncryptedFormatAndNativeOffsetAreDistinct() throws {
+    func testPolyseedEncryptedFormatAndNativeOffsetAreDistinct() async throws {
         // v3.0.2 upstream g_phrase_en1, encrypted by libpolyseed's polyseed_crypt
         // with the public test passphrase below. No wallet funds or secrets are used.
         let clear = "raven tail swear infant grief assist regular lamp duck valid someone little harsh puppy airport language"
         let encrypted = "open sniff erode tenant pave resource battle wisdom drastic novel invite ski cactus craft cash father"
-        guard case .decryptedPolyseed(let decoded) = try ProtectedSeed.source(words: encrypted, passphrase: "public test password") else {
+        let recovered = try ProtectedSeed.source(words: encrypted, passphrase: "public test password")
+        guard case .decryptedPolyseed(let decoded) = recovered else {
             return XCTFail("Expected canonical plaintext Polyseed.")
         }
         XCTAssertEqual(decoded, clear)
@@ -97,6 +98,28 @@ final class WalletPINTests: XCTestCase {
         }
         XCTAssertEqual(words, clear)
         XCTAssertEqual(offset, "pass")
+
+        let directory = URL.temporaryDirectory.appending(path: UUID().uuidString)
+        try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: directory) }
+        let engine = WalletEngine(testnet: true)
+        let password = UUID().uuidString
+        do {
+            try await engine.restore(at: directory.appending(path: "plain"), password: password, source: .mnemonic(clear), height: 0)
+            let plain = try await engine.snapshot()
+            let expected = try XCTUnwrap(plain.addresses.first?.address)
+            try await engine.restore(at: directory.appending(path: "encrypted"), password: password, source: recovered, height: 0)
+            let protected = try await engine.snapshot()
+            XCTAssertEqual(protected.addresses.first?.address, expected)
+            do {
+                _ = try await engine.seed()
+                XCTFail("An encrypted restore should direct the user to the original backup.")
+            } catch is WalletEngineError {}
+            try await engine.close()
+        } catch {
+            try? await engine.close()
+            throw error
+        }
     }
 
     @MainActor

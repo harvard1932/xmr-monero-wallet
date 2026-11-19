@@ -20,11 +20,12 @@ enum WalletPINPrompt {
         let id = UUID()
         return try await withCheckedThrowingContinuation { continuation in
             let language = UserDefaults.standard.string(forKey: "wallet.interface.language") ?? ""
+            let appearance = WalletAppearance(rawValue: UserDefaults.standard.string(forKey: WalletAppearance.preference) ?? "") ?? .dark
             let form = WalletPINForm(reason: reason, manage: manage, existingCiphertexts: existingCiphertexts,
                 initial: state, finish: { result in finish(id: id, result) })
                 .environment(\.locale, language.isEmpty ? .autoupdatingCurrent : Locale(identifier: language))
                 .environment(\.layoutDirection, (language.isEmpty ? Locale.current.language.characterDirection == .rightToLeft : language == "ar") ? .rightToLeft : .leftToRight)
-                .preferredColorScheme(.dark)
+                .preferredColorScheme(appearance.scheme)
             let controller = UIHostingController(rootView: form)
             controller.modalPresentationStyle = .overFullScreen
             controller.isModalInPresentation = true

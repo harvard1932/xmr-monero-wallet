@@ -16,7 +16,7 @@ LANGUAGES = set(re.findall(r'"([a-z]{2}(?:-Ha(?:ns|nt))?)"',
                     LANGUAGE_SOURCE.split("static let supported =", 1)[1].split("]", 1)[0])) - {"en"}
 FORMAT = re.compile(r"%(?:(\d+)\$)?(lld|llu|ld|lu|d|u|@|%)")
 # Cognates, international terms and accepted loanwords that naturally match English.
-SHARED_TERMS = {"Address", "App PIN", "Block", "Confirmations", "Contacts", "Date", "Direction",
+SHARED_TERMS = {"24h", "Max", "Address", "App PIN", "Block", "Confirmations", "Contacts", "Date", "Direction",
                 "Free", "Label", "Mainnet", "Name", "Normal", "OK", "Offline", "Pause", "Personal",
                 "Phrase", "Privacy", "Privacy Pulse", "Project", "Status", "Testnet", "Tor", "Total", "Transaction",
                 "Unlock", "Wallet", "Wallets", "/ 100", "Exodus / Cake BIP39", "PIN", "Monero", "XMR"}

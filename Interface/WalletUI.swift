@@ -70,6 +70,8 @@ struct WalletActivityItem: Identifiable, Equatable {
     var pending: Bool = false
     var failed: Bool = false
     var fee: UInt64 = 0
+    var note = ""
+    var recipients: [String] = []
 }
 
 struct WalletCoinItem: Identifiable {
@@ -89,6 +91,9 @@ struct WalletPresentation {
     var available: UInt64 = 0
     var nodeName: String?
     var syncStatus: String = "Offline"
+    var scannedHeight: UInt64 = 0
+    var targetHeight: UInt64 = 0
+    var routeDescription: String = ""
     var synced: Bool = false
     var syncProgress: Double? = nil
     var viewOnly: Bool = false
@@ -121,6 +126,7 @@ struct WalletSendReview {
     var address: String
     var amount: UInt64
     var fee: UInt64
+    var sourceSubaddressCount: Int = 0
 }
 
 @MainActor
@@ -128,13 +134,19 @@ struct WalletActions {
     var settings: () -> Void
     var wallets: () -> Void
     var refresh: () async -> Void
+    var rescan: (() async -> Void)? = nil
+    var validateAddress: ((String) async -> Bool)? = nil
     var newAddress: (_ label: String) async throws -> WalletAddressItem
     /// Priorities follow wallet2: default 0, low 1, normal 2, high 3.
     var prepare: (_ address: String, _ amount: UInt64, _ priority: Int, _ preferredInputs: [String]) async throws -> WalletSendReview
+    var prepareMax: ((_ address: String, _ priority: Int, _ preferredInputs: [String]) async throws -> WalletSendReview)? = nil
+    var preparePrivate: ((_ address: String, _ amount: UInt64, _ priority: Int) async throws -> WalletSendReview)? = nil
     var submit: (_ reviewID: String) async throws -> Void
+    var submitWithNote: ((String, String) async throws -> Void)? = nil
     var discard: (_ reviewID: String) async -> Void
     var freeze: (_ outputKey: String, _ frozen: Bool) async throws -> Void
     var labelOutput: (_ outputKey: String, _ label: String) async throws -> Void
+    var saveTransactionNote: (_ hash: String, _ note: String) async throws -> Void
     var saveContact: (WalletContactItem) async throws -> Void
     var removeContact: (Int) async throws -> Void
     /// Allocate a dedicated subaddress, persist invoice metadata, and return it.
@@ -156,6 +168,7 @@ struct WalletColdActions {
     var importKeyImages: (_ frames: [String], _ trustNodeForThisImport: Bool) async throws -> Void
     var exportUnsigned: (_ reviewID: String) async throws -> [String]
     var inspectUnsigned: ([String]) async throws -> WalletOfflineReview
+    var discardUnsigned: (UUID) async -> Void
     var sign: (WalletOfflineReview) async throws -> [String]
     var submitSigned: ([String]) async throws -> Void
 }

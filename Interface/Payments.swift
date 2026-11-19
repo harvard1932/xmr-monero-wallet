@@ -1,5 +1,6 @@
 import SwiftUI
 import CoreImage.CIFilterBuiltins
+import PhotosUI
 import VisionKit
 import AVFoundation
 
@@ -55,9 +56,16 @@ struct SendView: View {
     @State private var wantsInitialScan: Bool
     @State private var destination: String
     @State private var amount = ""
+    @State private var sweep = false
+    @State private var preferOne = true
+    @State private var note = ""
+    @State private var checkedAddress: (text: String, valid: Bool)?
+    @Environment(\.walletMarketQuote) private var quote
     @State private var priority = 0
     @State private var preferred: Set<String> = []
     @State private var showInputs = false
+    @State private var photoItem: PhotosPickerItem?
+    @State private var readingPhoto = false
     @State private var scan = false
     @State private var error: String?
     @State private var review: WalletSendReview?
@@ -93,6 +101,7 @@ struct SendView: View {
                 Button("Done") { dismiss() }.buttonStyle(WalletPrimaryButton())
             } else if let review {
                 VStack(alignment: .leading, spacing: 8) {
+                    if let quote { Text(verbatim: quote.fiat(review.amount, locale: locale)).font(.headline) }
                     Text("Sending").font(.subheadline).foregroundStyle(WalletStyle.muted)
                     Text(XMRAmount.format(review.amount) + " XMR").font(.largeTitle.bold()).monospacedDigit()
                 }
@@ -108,6 +117,10 @@ struct SendView: View {
                     let total = review.amount.addingReportingOverflow(review.fee)
                     WalletLine(label: "Total", value: total.overflow ? WalletL10n.text("Out of range") : XMRAmount.format(total.partialValue) + " XMR")
                 }
+                if review.sourceSubaddressCount > 1 {
+                    WalletNotice(text: WalletL10n.text("This payment combines funds from multiple subaddresses."))
+                }
+                if !note.isEmpty { WalletLine(label: "Transaction note", value: note) }
                 if let error { WalletNotice(text: error) }
                 if data.viewOnly, let cold = actions.cold {
                     Button(busy ? "Exporting…" : "Export unsigned transaction") {
@@ -146,20 +159,44 @@ struct SendView: View {
                         .lineLimit(2...5).textInputAutocapitalization(.never).autocorrectionDisabled()
                         .privacySensitive()
                 }
-                HStack(spacing: 20) {
-                    Button { openScanner() } label: { Label("Scan QR", systemImage: "qrcode.viewfinder") }
+                ViewThatFits(in: .horizontal) {
+                    HStack { recipientControls }
+                    VStack(alignment: .leading) { recipientControls }
+                }.font(.subheadline)
+                if let checkedAddress, checkedAddress.text == destination {
+                    Label(checkedAddress.valid ? "Valid address" : "Invalid address", systemImage: checkedAddress.valid ? "checkmark.circle" : "exclamationmark.circle")
+                        .font(.caption).foregroundStyle(checkedAddress.valid ? WalletStyle.mint : WalletStyle.apricot)
+                }
+                if readingPhoto { ProgressView() }
+                Group {
                     if !data.contacts.isEmpty {
                         Menu {
                             ForEach(data.contacts) { contact in
-                                Button(contact.name) { destination = contact.address }
+                                Button(contact.name) { fillRecipient(contact.address) }
                             }
                         } label: { Label("Contacts", systemImage: "person.crop.circle") }
                     }
                 }.font(.subheadline)
                 WalletField(label: "Amount in XMR") {
-                    TextField("0.00", text: $amount).keyboardType(.decimalPad).font(.title2.monospacedDigit())
+                    HStack {
+                        if sweep { Text("Maximum after fees").font(.headline) }
+                        else { TextField("0.00", text: $amount).keyboardType(.decimalPad).font(.title2.monospacedDigit()) }
+                        Spacer()
+                        if actions.prepareMax != nil, (try? MoneroPaymentTarget(destination).amount) == nil {
+                            Button(sweep ? "Edit amount" : "Max") { sweep.toggle(); preferOne = false }
+                        }
+                    }
+                }
+                if !sweep, let quote, let atomic = XMRAmount.parseInput(amount, locale: locale) {
+                    Text(verbatim: quote.fiat(atomic, locale: locale)).font(.caption).foregroundStyle(WalletStyle.muted)
                 }
                 WalletLine(label: "Available", value: XMRAmount.format(data.available) + " XMR")
+                if !data.viewOnly, actions.submitWithNote != nil {
+                    WalletField(label: "Transaction note") {
+                        TextField("Optional note", text: $note, axis: .vertical).lineLimit(1...3)
+                            .onChange(of: note) { _, value in if value.count > 1024 { note = String(value.prefix(1024)) } }
+                    }
+                }
                 HStack {
                     Text("Fee priority")
                     Spacer()
@@ -170,7 +207,11 @@ struct SendView: View {
                         Text("High").tag(3)
                     }.labelsHidden()
                 }
-                if !data.coins.isEmpty {
+                if !sweep, actions.preparePrivate != nil {
+                    Toggle("Prefer a single funded subaddress", isOn: $preferOne)
+                        .onChange(of: preferOne) { _, enabled in if enabled { preferred.removeAll() } }
+                }
+                if !data.coins.isEmpty, sweep || !preferOne || actions.preparePrivate == nil {
                     DisclosureGroup(isExpanded: $showInputs) {
                         VStack(alignment: .leading, spacing: 10) {
                             Text("Leave all outputs unselected to let the wallet choose.").font(.caption).foregroundStyle(WalletStyle.muted)
@@ -179,7 +220,7 @@ struct SendView: View {
                                 ForEach(data.addresses.filter { address in
                                     spendableCoins.contains { $0.subaddressIndex == address.id }
                                 }) { address in
-                                    Button(address.label.isEmpty ? WalletL10n.text("Subaddress %lld", Int64(address.id)) : address.label) {
+                                    Button(sourceTitle(address)) {
                                         preferred = Set(spendableCoins.filter { $0.subaddressIndex == address.id }.map(\.id))
                                     }
                                 }
@@ -205,7 +246,7 @@ struct SendView: View {
                 if let error { WalletNotice(text: error) }
                 Button(busy ? "Preparing…" : "Review payment") { prepare() }
                     .buttonStyle(WalletPrimaryButton())
-                    .disabled(busy || destination.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || (data.viewOnly && actions.cold == nil))
+                    .disabled(busy || readingPhoto || destination.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || (data.viewOnly && actions.cold == nil))
             }
         }
         .sheet(isPresented: $scan) {
@@ -214,18 +255,34 @@ struct SendView: View {
                     scan = false
                     switch result {
                     case .success(let payload):
-                        do {
-                            let target = try MoneroPaymentTarget(payload)
-                            destination = payload.trimmingCharacters(in: .whitespacesAndNewlines)
-                            if let invoiceAmount = target.amount { amount = XMRAmount.format(invoiceAmount) }
-                            error = nil
-                        } catch { self.error = WalletL10n.diagnostic(error) }
+                        fillRecipient(payload)
                     case .failure(let failure): error = WalletL10n.diagnostic(failure)
                     }
                     return true
                 }
                 Button("Close") { scan = false }.buttonStyle(.borderedProminent).padding()
             }.preferredColorScheme(.dark)
+        }
+        .task(id: destination) {
+            checkedAddress = nil
+            guard let target = try? MoneroPaymentTarget(destination) else { return }
+            if let invoice = target.amount { sweep = false; amount = XMRAmount.format(invoice) }
+            guard target.address.count >= 95, let validate = actions.validateAddress else { return }
+            let value = destination
+            let valid = await validate(target.address)
+            if !Task.isCancelled { checkedAddress = (value, valid) }
+        }
+        .task(id: photoItem) {
+            guard let item = photoItem else { return }
+            readingPhoto = true
+            defer { if photoItem == item { readingPhoto = false; photoItem = nil } }
+            do {
+                guard let image = try await item.loadTransferable(type: PaymentQRPhoto.self) else { throw QRPhotoError.unreadable }
+                try Task.checkCancellation()
+                if visible, review == nil { fillRecipient(image.payload) }
+            } catch {
+                if !Task.isCancelled { self.error = WalletL10n.diagnostic(error) }
+            }
         }
         .onAppear {
             visible = true
@@ -237,8 +294,36 @@ struct SendView: View {
         }
     }
 
+    @ViewBuilder private var recipientControls: some View {
+        PasteButton(payloadType: String.self) { values in
+            if let text = values.first { fillRecipient(text) }
+        }
+        Button { openScanner() } label: { Label("Scan QR", systemImage: "qrcode.viewfinder") }
+        PhotosPicker(selection: $photoItem, matching: .images) { Label("Scan from photo", systemImage: "photo") }
+            .disabled(busy)
+    }
+
+    private func fillRecipient(_ text: String) {
+        do {
+            let target = try MoneroPaymentTarget(text)
+            if let paymentAmount = target.amount { sweep = false; amount = XMRAmount.format(paymentAmount) }
+            else if let oldAmount = try? MoneroPaymentTarget(destination).amount, amount == XMRAmount.format(oldAmount) { amount = "" }
+            destination = text.trimmingCharacters(in: .whitespacesAndNewlines)
+            error = nil
+        } catch { self.error = WalletL10n.diagnostic(error) }
+    }
+
     private var spendableCoins: [WalletCoinItem] {
         data.coins.filter { $0.unlocked && !$0.frozen }
+    }
+
+    private func sourceTitle(_ address: WalletAddressItem) -> String {
+        let name = address.label.isEmpty ? WalletL10n.text("Subaddress %lld", Int64(address.id)) : address.label
+        let balance = spendableCoins.filter { $0.subaddressIndex == address.id }.reduce(UInt64(0)) { sum, coin in
+            let total = sum.addingReportingOverflow(coin.amount)
+            return total.overflow ? UInt64.max : total.partialValue
+        }
+        return name + " · " + XMRAmount.format(balance) + " XMR"
     }
 
     private func openScanner() {
@@ -259,8 +344,8 @@ struct SendView: View {
             let target = try MoneroPaymentTarget(destination)
             let entered = amount.trimmingCharacters(in: .whitespacesAndNewlines)
             let parsed = entered.isEmpty ? target.amount : XMRAmount.parseInput(entered, locale: locale)
-            guard let parsed, parsed > 0 else { throw PaymentInputError.amount }
-            if let invoiceAmount = target.amount, invoiceAmount != parsed {
+            guard sweep || (parsed ?? 0) > 0 else { throw PaymentInputError.amount }
+            if let invoiceAmount = target.amount, sweep || invoiceAmount != parsed {
                 error = "The amount differs from the payment request. Check the request before continuing."
                 return
             }
@@ -268,7 +353,11 @@ struct SendView: View {
             Task {
                 defer { busy = false }
                 do {
-                    let prepared = try await actions.prepare(target.address, parsed, priority, preferred.sorted())
+                    let prepared: WalletSendReview
+                    if sweep, let max = actions.prepareMax { prepared = try await max(target.address, priority, preferred.sorted()) }
+                    else if let parsed, preferOne, let one = actions.preparePrivate { prepared = try await one(target.address, parsed, priority) }
+                    else if let parsed { prepared = try await actions.prepare(target.address, parsed, priority, preferred.sorted()) }
+                    else { throw PaymentInputError.amount }
                     if visible { review = prepared } else { await actions.discard(prepared.id) }
                 } catch { self.error = WalletL10n.diagnostic(error) }
             }
@@ -282,7 +371,8 @@ struct SendView: View {
         Task {
             defer { busy = false }
             do {
-                try await actions.submit(prepared.id)
+                if let submit = actions.submitWithNote { try await submit(prepared.id, note) }
+                else { try await actions.submit(prepared.id) }
                 review = nil
                 sent = true
             } catch let failure as WalletPaymentAuthorizationError {
@@ -354,6 +444,14 @@ struct PaymentQR: View {
 struct ReceiveView: View {
     var data: WalletPresentation
     var actions: WalletActions
+    @Environment(\.locale) private var locale
+    @State private var requestedAmount = ""
+
+    static func paymentRequest(for address: String, amount: String, locale: Locale) -> String? {
+        if amount.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty { return address }
+        guard let units = XMRAmount.parseInput(amount, locale: locale), units > 0 else { return nil }
+        return "monero:" + address + "?tx_amount=" + XMRAmount.format(units)
+    }
     @State private var selectedID: Int?
     @State private var creating = false
     @State private var label = ""
@@ -371,7 +469,12 @@ struct ReceiveView: View {
                         ForEach(data.addresses) { entry in Text(name(entry)).tag(entry.id) }
                     }.pickerStyle(.menu)
                 } else { Text(name(selected)).font(.headline) }
-                PaymentQR(payload: selected.address)
+                WalletField(label: "Requested amount") {
+                    TextField("0.00", text: $requestedAmount).keyboardType(.decimalPad)
+                }
+                let request = Self.paymentRequest(for: selected.address, amount: requestedAmount, locale: locale)
+                if let request { PaymentQR(payload: request) }
+                else { WalletNotice(text: WalletL10n.text("Enter a positive XMR amount with up to 12 decimal places.")) }
                 WalletField(label: "Address · \(WalletL10n.text(data.network))") {
                     Text(verbatim: selected.address).font(.system(.caption, design: .monospaced)).textSelection(.enabled)
                         .environment(\.layoutDirection, .leftToRight)
@@ -382,8 +485,10 @@ struct ReceiveView: View {
                         copied = true
                     } label: { Label(copied ? "Copied" : "Copy", systemImage: copied ? "checkmark" : "doc.on.doc") }
                     .buttonStyle(WalletPrimaryButton(muted: true))
-                    ShareLink(item: selected.address) { Label("Share", systemImage: "square.and.arrow.up") }
-                        .buttonStyle(WalletPrimaryButton(muted: true))
+                    if let request {
+                        ShareLink(item: request) { Label("Share", systemImage: "square.and.arrow.up") }
+                            .buttonStyle(WalletPrimaryButton(muted: true))
+                    }
                 }
             }
             if creating {
