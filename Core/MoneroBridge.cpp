@@ -1,6 +1,23 @@
 #include "MoneroBridge.h"
 #include <sstream>
+#include <signal.h>
 #include "../ThirdParty/wallet2_api.hpp"
+
+// Darwin can deliver SIGPIPE when a native transport writes after the peer
+// closed the socket. Preserve a handler supplied by the host application.
+void XMRInitializeNetworking(void) {
+    static const bool initialized = [] {
+        struct sigaction current{};
+        if (sigaction(SIGPIPE, nullptr, &current) == 0 && current.sa_handler == SIG_DFL) {
+            struct sigaction ignore{};
+            ignore.sa_handler = SIG_IGN;
+            sigemptyset(&ignore.sa_mask);
+            sigaction(SIGPIPE, &ignore, nullptr);
+        }
+        return true;
+    }();
+    (void)initialized;
+}
 
 // monero_c exposes constructors for pending and unsigned transactions but omits
 // their disposal functions. Use the exact matching patched wallet2 C++ interface.
@@ -19,6 +36,22 @@ void *XMRReadUnsigned(void *wallet, const char *payload) {
         return static_cast<Monero::Wallet *>(wallet)->loadUnsignedTxUR(payload);
     } catch (...) {
         return nullptr;
+    }
+}
+
+bool XMRImportOutputs(void *wallet, const char *payload) {
+    try {
+        return static_cast<Monero::Wallet *>(wallet)->importOutputsUR(payload);
+    } catch (...) {
+        return false;
+    }
+}
+
+bool XMRImportKeyImages(void *wallet, const char *payload) {
+    try {
+        return static_cast<Monero::Wallet *>(wallet)->importKeyImagesUR(payload);
+    } catch (...) {
+        return false;
     }
 }
 
@@ -49,4 +82,18 @@ void *XMRCreateSelectedTransaction(void *wallet, const char *destination, uint64
     } catch (...) {
         return nullptr;
     }
+}
+
+// The pinned C wrapper ignores its requested background mode. Select wallet2's
+// reuse-password mode explicitly. It stores scan progress in the original cache.
+// The pinned C facade's isBackgroundSyncing function calls hasUnknownKeyImages.
+bool XMRIsBackgroundSyncing(void *wallet) {
+    return static_cast<Monero::Wallet *>(wallet)->isBackgroundSyncing();
+}
+
+bool XMRConfigureScanOnly(void *wallet, const char *password) {
+    try {
+        return static_cast<Monero::Wallet *>(wallet)->setupBackgroundSync(
+            Monero::Wallet::BackgroundSync_ReusePassword, password, {});
+    } catch (...) { return false; }
 }

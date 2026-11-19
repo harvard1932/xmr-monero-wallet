@@ -145,6 +145,263 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+MyMonero legacy dictionaries
+https://github.com/mymonero/monero-core-custom/tree/d0d4ec2c99a1db96518a98ff47773d76cf729d84/mnemonics
+
+chinese_simplified, spanish, portuguese
+// Word list originally created by dabura667 and released under The MIT License (MIT)
+//
+// The MIT License (MIT)
+//
+// Permission is hereby granted, free of charge, to any person obtaining
+// a copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to
+// permit persons to whom the Software is furnished to do so, subject to
+// the following conditions:
+//
+// The above copyright notice and this permission notice shall be
+// included in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+// LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+// OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+// WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+//
+// Code surrounding the word list is Copyright (c) 2014-2022, The Monero Project
+//
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+dutch, esperanto
+// Copyright (c) 2014-2022, The Monero Project
+//
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+french, lojban
+// Copyright (c) 2014-2022, The Monero Project
+//
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+german, italian
+// Word list created by Monero contributor Shrikez
+//
+// Copyright (c) 2014-2022, The Monero Project
+//
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+japanese
+// Word list originally created by dabura667 and released under The MIT License (MIT)
+//
+// The MIT License (MIT)
+//
+// Permission is hereby granted, free of charge, to any person obtaining
+// a copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to
+// permit persons to whom the Software is furnished to do so, subject to
+// the following conditions:
+//
+// The above copyright notice and this permission notice shall be
+// included in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+// EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+// NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+// LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+// OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+// WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+//
+// Code surrounding the word list is Copyright (c) 2014-2022, The Monero Project
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+russian
+// Word list created by Monero contributor sammy007
+//
+// Copyright (c) 2014-2022, The Monero Project
+//
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+english_old
+// Word list originally created as part of the Electrum project, Copyright (C) 2014 Thomas Voegtlin
+//
+// Copyright (c) 2014-2022, The Monero Project
+//
+// All rights reserved.
+//
+// Redistribution and use in source and binary forms, with or without modification, are
+// permitted provided that the following conditions are met:
+//
+// 1. Redistributions of source code must retain the above copyright notice, this list of
+//    conditions and the following disclaimer.
+//
+// 2. Redistributions in binary form must reproduce the above copyright notice, this list
+//    of conditions and the following disclaimer in the documentation and/or other
+//    materials provided with the distribution.
+//
+// 3. Neither the name of the copyright holder nor the names of its contributors may be
+//    used to endorse or promote products derived from this software without specific
+//    prior written permission.
+//
+// THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+// EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
+// THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+// SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+// PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+// INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+// STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF
+// THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
 */
 var LegacyRecovery = (() => {
   var __defProp = Object.defineProperty;
@@ -969,8 +1226,8 @@ var LegacyRecovery = (() => {
   var anumber2 = anumber;
   function astring(value, title = "") {
     if (typeof value !== "string") {
-      const prefix = title && `"${title}" `;
-      throw new TypeError(prefix + "expected string, got type=" + typeof value);
+      const prefix2 = title && `"${title}" `;
+      throw new TypeError(prefix2 + "expected string, got type=" + typeof value);
     }
     return value;
   }
@@ -1007,12 +1264,12 @@ var LegacyRecovery = (() => {
   }
   function asafenumber(value, title = "") {
     if (typeof value !== "number") {
-      const prefix = title && `"${title}" `;
-      throw new TypeError(prefix + "expected number, got type=" + typeof value);
+      const prefix2 = title && `"${title}" `;
+      throw new TypeError(prefix2 + "expected number, got type=" + typeof value);
     }
     if (!Number.isSafeInteger(value)) {
-      const prefix = title && `"${title}" `;
-      throw new RangeError(prefix + "expected safe integer, got " + value);
+      const prefix2 = title && `"${title}" `;
+      throw new RangeError(prefix2 + "expected safe integer, got " + value);
     }
   }
   function numberToHexUnpadded(num) {
@@ -3606,14 +3863,14 @@ var LegacyRecovery = (() => {
         throw new Error("HDKey.constructor must not be called directly");
       }
       const depth = opt.depth ?? 0;
-      const index2 = opt.index ?? 0;
+      const index = opt.index ?? 0;
       const parentFingerprint = opt.parentFingerprint ?? 0;
       if (!Number.isSafeInteger(depth) || depth < 0 || depth > MAX_DEPTH) {
         throw new RangeError("HDKey: depth must be an integer in range 0..255");
       }
-      toU32(index2, "index");
+      toU32(index, "index");
       toU32(parentFingerprint, "parentFingerprint");
-      if (depth === 0 && (index2 !== 0 || parentFingerprint !== 0)) {
+      if (depth === 0 && (index !== 0 || parentFingerprint !== 0)) {
         throw new Error("HDKey: zero depth with non-zero index/parent fingerprint");
       }
       this.versions = opt.versions ? validateVersions(opt.versions) : BITCOIN_VERSIONS;
@@ -3621,7 +3878,7 @@ var LegacyRecovery = (() => {
       if (opt.chainCode)
         abytes(opt.chainCode, 32);
       this._chainCode = opt.chainCode ? Uint8Array.from(opt.chainCode) : null;
-      this.index = index2;
+      this.index = index;
       this.parentFingerprint = parentFingerprint;
       if (opt.publicKey && opt.privateKey) {
         throw new Error("HDKey: publicKey and privateKey at same time.");
@@ -3666,16 +3923,16 @@ var LegacyRecovery = (() => {
       }
       return child;
     }
-    deriveChild(index2) {
-      return this._deriveChild(index2);
+    deriveChild(index) {
+      return this._deriveChild(index);
     }
     /** Test-only implementation seam. Production callers must use deriveChild(). */
-    _deriveChild(index2, _I) {
+    _deriveChild(index, _I) {
       if (!this._publicKey || !this._chainCode) {
         throw new Error("No publicKey or chainCode set");
       }
-      let data = toU32(index2, "index");
-      if (index2 >= HARDENED_OFFSET) {
+      let data = toU32(index, "index");
+      if (index >= HARDENED_OFFSET) {
         const priv = this._privateKey;
         if (!priv) {
           throw new Error("Could not derive hardened child key");
@@ -3693,17 +3950,17 @@ var LegacyRecovery = (() => {
         chainCode,
         depth: this.depth + 1,
         parentFingerprint: this.fingerprint,
-        index: index2
+        index
       };
       if (opt.depth > MAX_DEPTH) {
         throw new Error("HDKey: depth exceeds the serializable value 255");
       }
       const retry = () => {
         const maxIndex = this._privateKey ? 2 ** 32 - 1 : HARDENED_OFFSET - 1;
-        if (index2 >= maxIndex) {
-          throw new Error(`HDKey: cannot retry child derivation at index ${index2}`);
+        if (index >= maxIndex) {
+          throw new Error(`HDKey: cannot retry child derivation at index ${index}`);
         }
-        return this.deriveChild(index2 + 1);
+        return this.deriveChild(index + 1);
       };
       const ctweak = Fn.fromBytes(childTweak, true);
       if (!Fn.isValid(ctweak))
@@ -3881,28 +4138,28 @@ var LegacyRecovery = (() => {
     const bitsLeft = 8 - entropy.length / 4;
     return sha256(entropy)[0] >> bitsLeft << bitsLeft;
   };
-  function awordlist(wordlist2) {
-    if (!Array.isArray(wordlist2) || wordlist2.length !== 2048 || typeof wordlist2[0] !== "string")
+  function awordlist(wordlist11) {
+    if (!Array.isArray(wordlist11) || wordlist11.length !== 2048 || typeof wordlist11[0] !== "string")
       throw new TypeError("Wordlist: expected array of 2048 strings");
-    wordlist2.forEach((i) => {
+    wordlist11.forEach((i) => {
       if (typeof i !== "string")
         throw new TypeError("wordlist: non-string element: " + i);
       if (!isWellFormedUnicode(i))
         throw new TypeError("wordlist: expected well-formed Unicode string");
     });
   }
-  function decodeWords(words, wordlist2) {
-    awordlist(wordlist2);
+  function decodeWords(words, wordlist11) {
+    awordlist(wordlist11);
     const entLen = words.length / 3 * 4;
     const bytes = new Uint8Array(entLen + 1);
     let carry = 0;
     let bits = 0;
     let pos = 0;
     for (const word of words) {
-      const index2 = wordlist2.indexOf(word);
-      if (index2 === -1)
+      const index = wordlist11.indexOf(word);
+      if (index === -1)
         throw new Error("Unknown word: " + word);
-      carry = carry << 11 | index2;
+      carry = carry << 11 | index;
       bits += 11;
       while (bits >= 8) {
         bits -= 8;
@@ -3917,15 +4174,15 @@ var LegacyRecovery = (() => {
       throw new Error("Invalid checksum");
     return Uint8Array.from(entropy);
   }
-  function mnemonicToEntropy(mnemonic, wordlist2) {
+  function mnemonicToEntropy(mnemonic, wordlist11) {
     const { words } = normalize(mnemonic);
-    const entropy = decodeWords(words, wordlist2);
+    const entropy = decodeWords(words, wordlist11);
     aentropy(entropy);
     return entropy;
   }
-  function validateMnemonic(mnemonic, wordlist2) {
+  function validateMnemonic(mnemonic, wordlist11) {
     try {
-      mnemonicToEntropy(mnemonic, wordlist2);
+      mnemonicToEntropy(mnemonic, wordlist11);
     } catch (e) {
       return false;
     }
@@ -5993,6 +6250,18456 @@ zero
 zone
 zoo`.split("\n"));
 
+  // node_modules/@scure/bip39/wordlists/czech.js
+  var wordlist2 = /* @__PURE__ */ Object.freeze(`abdikace
+abeceda
+adresa
+agrese
+akce
+aktovka
+alej
+alkohol
+amputace
+ananas
+andulka
+anekdota
+anketa
+antika
+anulovat
+archa
+arogance
+asfalt
+asistent
+aspirace
+astma
+astronom
+atlas
+atletika
+atol
+autobus
+azyl
+babka
+bachor
+bacil
+baculka
+badatel
+bageta
+bagr
+bahno
+bakterie
+balada
+baletka
+balkon
+balonek
+balvan
+balza
+bambus
+bankomat
+barbar
+baret
+barman
+baroko
+barva
+baterka
+batoh
+bavlna
+bazalka
+bazilika
+bazuka
+bedna
+beran
+beseda
+bestie
+beton
+bezinka
+bezmoc
+beztak
+bicykl
+bidlo
+biftek
+bikiny
+bilance
+biograf
+biolog
+bitva
+bizon
+blahobyt
+blatouch
+blecha
+bledule
+blesk
+blikat
+blizna
+blokovat
+bloudit
+blud
+bobek
+bobr
+bodlina
+bodnout
+bohatost
+bojkot
+bojovat
+bokorys
+bolest
+borec
+borovice
+bota
+boubel
+bouchat
+bouda
+boule
+bourat
+boxer
+bradavka
+brambora
+branka
+bratr
+brepta
+briketa
+brko
+brloh
+bronz
+broskev
+brunetka
+brusinka
+brzda
+brzy
+bublina
+bubnovat
+buchta
+buditel
+budka
+budova
+bufet
+bujarost
+bukvice
+buldok
+bulva
+bunda
+bunkr
+burza
+butik
+buvol
+buzola
+bydlet
+bylina
+bytovka
+bzukot
+capart
+carevna
+cedr
+cedule
+cejch
+cejn
+cela
+celer
+celkem
+celnice
+cenina
+cennost
+cenovka
+centrum
+cenzor
+cestopis
+cetka
+chalupa
+chapadlo
+charita
+chata
+chechtat
+chemie
+chichot
+chirurg
+chlad
+chleba
+chlubit
+chmel
+chmura
+chobot
+chochol
+chodba
+cholera
+chomout
+chopit
+choroba
+chov
+chrapot
+chrlit
+chrt
+chrup
+chtivost
+chudina
+chutnat
+chvat
+chvilka
+chvost
+chyba
+chystat
+chytit
+cibule
+cigareta
+cihelna
+cihla
+cinkot
+cirkus
+cisterna
+citace
+citrus
+cizinec
+cizost
+clona
+cokoliv
+couvat
+ctitel
+ctnost
+cudnost
+cuketa
+cukr
+cupot
+cvaknout
+cval
+cvik
+cvrkot
+cyklista
+daleko
+dareba
+datel
+datum
+dcera
+debata
+dechovka
+decibel
+deficit
+deflace
+dekl
+dekret
+demokrat
+deprese
+derby
+deska
+detektiv
+dikobraz
+diktovat
+dioda
+diplom
+disk
+displej
+divadlo
+divoch
+dlaha
+dlouho
+dluhopis
+dnes
+dobro
+dobytek
+docent
+dochutit
+dodnes
+dohled
+dohoda
+dohra
+dojem
+dojnice
+doklad
+dokola
+doktor
+dokument
+dolar
+doleva
+dolina
+doma
+dominant
+domluvit
+domov
+donutit
+dopad
+dopis
+doplnit
+doposud
+doprovod
+dopustit
+dorazit
+dorost
+dort
+dosah
+doslov
+dostatek
+dosud
+dosyta
+dotaz
+dotek
+dotknout
+doufat
+doutnat
+dovozce
+dozadu
+doznat
+dozorce
+drahota
+drak
+dramatik
+dravec
+draze
+drdol
+drobnost
+drogerie
+drozd
+drsnost
+drtit
+drzost
+duben
+duchovno
+dudek
+duha
+duhovka
+dusit
+dusno
+dutost
+dvojice
+dvorec
+dynamit
+ekolog
+ekonomie
+elektron
+elipsa
+email
+emise
+emoce
+empatie
+epizoda
+epocha
+epopej
+epos
+esej
+esence
+eskorta
+eskymo
+etiketa
+euforie
+evoluce
+exekuce
+exkurze
+expedice
+exploze
+export
+extrakt
+facka
+fajfka
+fakulta
+fanatik
+fantazie
+farmacie
+favorit
+fazole
+federace
+fejeton
+fenka
+fialka
+figurant
+filozof
+filtr
+finance
+finta
+fixace
+fjord
+flanel
+flirt
+flotila
+fond
+fosfor
+fotbal
+fotka
+foton
+frakce
+freska
+fronta
+fukar
+funkce
+fyzika
+galeje
+garant
+genetika
+geolog
+gilotina
+glazura
+glejt
+golem
+golfista
+gotika
+graf
+gramofon
+granule
+grep
+gril
+grog
+groteska
+guma
+hadice
+hadr
+hala
+halenka
+hanba
+hanopis
+harfa
+harpuna
+havran
+hebkost
+hejkal
+hejno
+hejtman
+hektar
+helma
+hematom
+herec
+herna
+heslo
+hezky
+historik
+hladovka
+hlasivky
+hlava
+hledat
+hlen
+hlodavec
+hloh
+hloupost
+hltat
+hlubina
+hluchota
+hmat
+hmota
+hmyz
+hnis
+hnojivo
+hnout
+hoblina
+hoboj
+hoch
+hodiny
+hodlat
+hodnota
+hodovat
+hojnost
+hokej
+holinka
+holka
+holub
+homole
+honitba
+honorace
+horal
+horda
+horizont
+horko
+horlivec
+hormon
+hornina
+horoskop
+horstvo
+hospoda
+hostina
+hotovost
+houba
+houf
+houpat
+houska
+hovor
+hradba
+hranice
+hravost
+hrazda
+hrbolek
+hrdina
+hrdlo
+hrdost
+hrnek
+hrobka
+hromada
+hrot
+hrouda
+hrozen
+hrstka
+hrubost
+hryzat
+hubenost
+hubnout
+hudba
+hukot
+humr
+husita
+hustota
+hvozd
+hybnost
+hydrant
+hygiena
+hymna
+hysterik
+idylka
+ihned
+ikona
+iluze
+imunita
+infekce
+inflace
+inkaso
+inovace
+inspekce
+internet
+invalida
+investor
+inzerce
+ironie
+jablko
+jachta
+jahoda
+jakmile
+jakost
+jalovec
+jantar
+jarmark
+jaro
+jasan
+jasno
+jatka
+javor
+jazyk
+jedinec
+jedle
+jednatel
+jehlan
+jekot
+jelen
+jelito
+jemnost
+jenom
+jepice
+jeseter
+jevit
+jezdec
+jezero
+jinak
+jindy
+jinoch
+jiskra
+jistota
+jitrnice
+jizva
+jmenovat
+jogurt
+jurta
+kabaret
+kabel
+kabinet
+kachna
+kadet
+kadidlo
+kahan
+kajak
+kajuta
+kakao
+kaktus
+kalamita
+kalhoty
+kalibr
+kalnost
+kamera
+kamkoliv
+kamna
+kanibal
+kanoe
+kantor
+kapalina
+kapela
+kapitola
+kapka
+kaple
+kapota
+kapr
+kapusta
+kapybara
+karamel
+karotka
+karton
+kasa
+katalog
+katedra
+kauce
+kauza
+kavalec
+kazajka
+kazeta
+kazivost
+kdekoliv
+kdesi
+kedluben
+kemp
+keramika
+kino
+klacek
+kladivo
+klam
+klapot
+klasika
+klaun
+klec
+klenba
+klepat
+klesnout
+klid
+klima
+klisna
+klobouk
+klokan
+klopa
+kloub
+klubovna
+klusat
+kluzkost
+kmen
+kmitat
+kmotr
+kniha
+knot
+koalice
+koberec
+kobka
+kobliha
+kobyla
+kocour
+kohout
+kojenec
+kokos
+koktejl
+kolaps
+koleda
+kolize
+kolo
+komando
+kometa
+komik
+komnata
+komora
+kompas
+komunita
+konat
+koncept
+kondice
+konec
+konfese
+kongres
+konina
+konkurs
+kontakt
+konzerva
+kopanec
+kopie
+kopnout
+koprovka
+korbel
+korektor
+kormidlo
+koroptev
+korpus
+koruna
+koryto
+korzet
+kosatec
+kostka
+kotel
+kotleta
+kotoul
+koukat
+koupelna
+kousek
+kouzlo
+kovboj
+koza
+kozoroh
+krabice
+krach
+krajina
+kralovat
+krasopis
+kravata
+kredit
+krejcar
+kresba
+kreveta
+kriket
+kritik
+krize
+krkavec
+krmelec
+krmivo
+krocan
+krok
+kronika
+kropit
+kroupa
+krovka
+krtek
+kruhadlo
+krupice
+krutost
+krvinka
+krychle
+krypta
+krystal
+kryt
+kudlanka
+kufr
+kujnost
+kukla
+kulajda
+kulich
+kulka
+kulomet
+kultura
+kuna
+kupodivu
+kurt
+kurzor
+kutil
+kvalita
+kvasinka
+kvestor
+kynolog
+kyselina
+kytara
+kytice
+kytka
+kytovec
+kyvadlo
+labrador
+lachtan
+ladnost
+laik
+lakomec
+lamela
+lampa
+lanovka
+lasice
+laso
+lastura
+latinka
+lavina
+lebka
+leckdy
+leden
+lednice
+ledovka
+ledvina
+legenda
+legie
+legrace
+lehce
+lehkost
+lehnout
+lektvar
+lenochod
+lentilka
+lepenka
+lepidlo
+letadlo
+letec
+letmo
+letokruh
+levhart
+levitace
+levobok
+libra
+lichotka
+lidojed
+lidskost
+lihovina
+lijavec
+lilek
+limetka
+linie
+linka
+linoleum
+listopad
+litina
+litovat
+lobista
+lodivod
+logika
+logoped
+lokalita
+loket
+lomcovat
+lopata
+lopuch
+lord
+losos
+lotr
+loudal
+louh
+louka
+louskat
+lovec
+lstivost
+lucerna
+lucifer
+lump
+lusk
+lustrace
+lvice
+lyra
+lyrika
+lysina
+madam
+madlo
+magistr
+mahagon
+majetek
+majitel
+majorita
+makak
+makovice
+makrela
+malba
+malina
+malovat
+malvice
+maminka
+mandle
+manko
+marnost
+masakr
+maskot
+masopust
+matice
+matrika
+maturita
+mazanec
+mazivo
+mazlit
+mazurka
+mdloba
+mechanik
+meditace
+medovina
+melasa
+meloun
+mentolka
+metla
+metoda
+metr
+mezera
+migrace
+mihnout
+mihule
+mikina
+mikrofon
+milenec
+milimetr
+milost
+mimika
+mincovna
+minibar
+minomet
+minulost
+miska
+mistr
+mixovat
+mladost
+mlha
+mlhovina
+mlok
+mlsat
+mluvit
+mnich
+mnohem
+mobil
+mocnost
+modelka
+modlitba
+mohyla
+mokro
+molekula
+momentka
+monarcha
+monokl
+monstrum
+montovat
+monzun
+mosaz
+moskyt
+most
+motivace
+motorka
+motyka
+moucha
+moudrost
+mozaika
+mozek
+mozol
+mramor
+mravenec
+mrkev
+mrtvola
+mrzet
+mrzutost
+mstitel
+mudrc
+muflon
+mulat
+mumie
+munice
+muset
+mutace
+muzeum
+muzikant
+myslivec
+mzda
+nabourat
+nachytat
+nadace
+nadbytek
+nadhoz
+nadobro
+nadpis
+nahlas
+nahnat
+nahodile
+nahradit
+naivita
+najednou
+najisto
+najmout
+naklonit
+nakonec
+nakrmit
+nalevo
+namazat
+namluvit
+nanometr
+naoko
+naopak
+naostro
+napadat
+napevno
+naplnit
+napnout
+naposled
+naprosto
+narodit
+naruby
+narychlo
+nasadit
+nasekat
+naslepo
+nastat
+natolik
+navenek
+navrch
+navzdory
+nazvat
+nebe
+nechat
+necky
+nedaleko
+nedbat
+neduh
+negace
+nehet
+nehoda
+nejen
+nejprve
+neklid
+nelibost
+nemilost
+nemoc
+neochota
+neonka
+nepokoj
+nerost
+nerv
+nesmysl
+nesoulad
+netvor
+neuron
+nevina
+nezvykle
+nicota
+nijak
+nikam
+nikdy
+nikl
+nikterak
+nitro
+nocleh
+nohavice
+nominace
+nora
+norek
+nositel
+nosnost
+nouze
+noviny
+novota
+nozdra
+nuda
+nudle
+nuget
+nutit
+nutnost
+nutrie
+nymfa
+obal
+obarvit
+obava
+obdiv
+obec
+obehnat
+obejmout
+obezita
+obhajoba
+obilnice
+objasnit
+objekt
+obklopit
+oblast
+oblek
+obliba
+obloha
+obluda
+obnos
+obohatit
+obojek
+obout
+obrazec
+obrna
+obruba
+obrys
+obsah
+obsluha
+obstarat
+obuv
+obvaz
+obvinit
+obvod
+obvykle
+obyvatel
+obzor
+ocas
+ocel
+ocenit
+ochladit
+ochota
+ochrana
+ocitnout
+odboj
+odbyt
+odchod
+odcizit
+odebrat
+odeslat
+odevzdat
+odezva
+odhadce
+odhodit
+odjet
+odjinud
+odkaz
+odkoupit
+odliv
+odluka
+odmlka
+odolnost
+odpad
+odpis
+odplout
+odpor
+odpustit
+odpykat
+odrazka
+odsoudit
+odstup
+odsun
+odtok
+odtud
+odvaha
+odveta
+odvolat
+odvracet
+odznak
+ofina
+ofsajd
+ohlas
+ohnisko
+ohrada
+ohrozit
+ohryzek
+okap
+okenice
+oklika
+okno
+okouzlit
+okovy
+okrasa
+okres
+okrsek
+okruh
+okupant
+okurka
+okusit
+olejnina
+olizovat
+omak
+omeleta
+omezit
+omladina
+omlouvat
+omluva
+omyl
+onehdy
+opakovat
+opasek
+operace
+opice
+opilost
+opisovat
+opora
+opozice
+opravdu
+oproti
+orbital
+orchestr
+orgie
+orlice
+orloj
+ortel
+osada
+oschnout
+osika
+osivo
+oslava
+oslepit
+oslnit
+oslovit
+osnova
+osoba
+osolit
+ospalec
+osten
+ostraha
+ostuda
+ostych
+osvojit
+oteplit
+otisk
+otop
+otrhat
+otrlost
+otrok
+otruby
+otvor
+ovanout
+ovar
+oves
+ovlivnit
+ovoce
+oxid
+ozdoba
+pachatel
+pacient
+padouch
+pahorek
+pakt
+palanda
+palec
+palivo
+paluba
+pamflet
+pamlsek
+panenka
+panika
+panna
+panovat
+panstvo
+pantofle
+paprika
+parketa
+parodie
+parta
+paruka
+paryba
+paseka
+pasivita
+pastelka
+patent
+patrona
+pavouk
+pazneht
+pazourek
+pecka
+pedagog
+pejsek
+peklo
+peloton
+penalta
+pendrek
+penze
+periskop
+pero
+pestrost
+petarda
+petice
+petrolej
+pevnina
+pexeso
+pianista
+piha
+pijavice
+pikle
+piknik
+pilina
+pilnost
+pilulka
+pinzeta
+pipeta
+pisatel
+pistole
+pitevna
+pivnice
+pivovar
+placenta
+plakat
+plamen
+planeta
+plastika
+platit
+plavidlo
+plaz
+plech
+plemeno
+plenta
+ples
+pletivo
+plevel
+plivat
+plnit
+plno
+plocha
+plodina
+plomba
+plout
+pluk
+plyn
+pobavit
+pobyt
+pochod
+pocit
+poctivec
+podat
+podcenit
+podepsat
+podhled
+podivit
+podklad
+podmanit
+podnik
+podoba
+podpora
+podraz
+podstata
+podvod
+podzim
+poezie
+pohanka
+pohnutka
+pohovor
+pohroma
+pohyb
+pointa
+pojistka
+pojmout
+pokazit
+pokles
+pokoj
+pokrok
+pokuta
+pokyn
+poledne
+polibek
+polknout
+poloha
+polynom
+pomalu
+pominout
+pomlka
+pomoc
+pomsta
+pomyslet
+ponechat
+ponorka
+ponurost
+popadat
+popel
+popisek
+poplach
+poprosit
+popsat
+popud
+poradce
+porce
+porod
+porucha
+poryv
+posadit
+posed
+posila
+poskok
+poslanec
+posoudit
+pospolu
+postava
+posudek
+posyp
+potah
+potkan
+potlesk
+potomek
+potrava
+potupa
+potvora
+poukaz
+pouto
+pouzdro
+povaha
+povidla
+povlak
+povoz
+povrch
+povstat
+povyk
+povzdech
+pozdrav
+pozemek
+poznatek
+pozor
+pozvat
+pracovat
+prahory
+praktika
+prales
+praotec
+praporek
+prase
+pravda
+princip
+prkno
+probudit
+procento
+prodej
+profese
+prohra
+projekt
+prolomit
+promile
+pronikat
+propad
+prorok
+prosba
+proton
+proutek
+provaz
+prskavka
+prsten
+prudkost
+prut
+prvek
+prvohory
+psanec
+psovod
+pstruh
+ptactvo
+puberta
+puch
+pudl
+pukavec
+puklina
+pukrle
+pult
+pumpa
+punc
+pupen
+pusa
+pusinka
+pustina
+putovat
+putyka
+pyramida
+pysk
+pytel
+racek
+rachot
+radiace
+radnice
+radon
+raft
+ragby
+raketa
+rakovina
+rameno
+rampouch
+rande
+rarach
+rarita
+rasovna
+rastr
+ratolest
+razance
+razidlo
+reagovat
+reakce
+recept
+redaktor
+referent
+reflex
+rejnok
+reklama
+rekord
+rekrut
+rektor
+reputace
+revize
+revma
+revolver
+rezerva
+riskovat
+riziko
+robotika
+rodokmen
+rohovka
+rokle
+rokoko
+romaneto
+ropovod
+ropucha
+rorejs
+rosol
+rostlina
+rotmistr
+rotoped
+rotunda
+roubenka
+roucho
+roup
+roura
+rovina
+rovnice
+rozbor
+rozchod
+rozdat
+rozeznat
+rozhodce
+rozinka
+rozjezd
+rozkaz
+rozloha
+rozmar
+rozpad
+rozruch
+rozsah
+roztok
+rozum
+rozvod
+rubrika
+ruchadlo
+rukavice
+rukopis
+ryba
+rybolov
+rychlost
+rydlo
+rypadlo
+rytina
+ryzost
+sadista
+sahat
+sako
+samec
+samizdat
+samota
+sanitka
+sardinka
+sasanka
+satelit
+sazba
+sazenice
+sbor
+schovat
+sebranka
+secese
+sedadlo
+sediment
+sedlo
+sehnat
+sejmout
+sekera
+sekta
+sekunda
+sekvoje
+semeno
+seno
+servis
+sesadit
+seshora
+seskok
+seslat
+sestra
+sesuv
+sesypat
+setba
+setina
+setkat
+setnout
+setrvat
+sever
+seznam
+shoda
+shrnout
+sifon
+silnice
+sirka
+sirotek
+sirup
+situace
+skafandr
+skalisko
+skanzen
+skaut
+skeptik
+skica
+skladba
+sklenice
+sklo
+skluz
+skoba
+skokan
+skoro
+skripta
+skrz
+skupina
+skvost
+skvrna
+slabika
+sladidlo
+slanina
+slast
+slavnost
+sledovat
+slepec
+sleva
+slezina
+slib
+slina
+sliznice
+slon
+sloupek
+slovo
+sluch
+sluha
+slunce
+slupka
+slza
+smaragd
+smetana
+smilstvo
+smlouva
+smog
+smrad
+smrk
+smrtka
+smutek
+smysl
+snad
+snaha
+snob
+sobota
+socha
+sodovka
+sokol
+sopka
+sotva
+souboj
+soucit
+soudce
+souhlas
+soulad
+soumrak
+souprava
+soused
+soutok
+souviset
+spalovna
+spasitel
+spis
+splav
+spodek
+spojenec
+spolu
+sponzor
+spornost
+spousta
+sprcha
+spustit
+sranda
+sraz
+srdce
+srna
+srnec
+srovnat
+srpen
+srst
+srub
+stanice
+starosta
+statika
+stavba
+stehno
+stezka
+stodola
+stolek
+stopa
+storno
+stoupat
+strach
+stres
+strhnout
+strom
+struna
+studna
+stupnice
+stvol
+styk
+subjekt
+subtropy
+suchar
+sudost
+sukno
+sundat
+sunout
+surikata
+surovina
+svah
+svalstvo
+svetr
+svatba
+svazek
+svisle
+svitek
+svoboda
+svodidlo
+svorka
+svrab
+sykavka
+sykot
+synek
+synovec
+sypat
+sypkost
+syrovost
+sysel
+sytost
+tabletka
+tabule
+tahoun
+tajemno
+tajfun
+tajga
+tajit
+tajnost
+taktika
+tamhle
+tampon
+tancovat
+tanec
+tanker
+tapeta
+tavenina
+tazatel
+technika
+tehdy
+tekutina
+telefon
+temnota
+tendence
+tenista
+tenor
+teplota
+tepna
+teprve
+terapie
+termoska
+textil
+ticho
+tiskopis
+titulek
+tkadlec
+tkanina
+tlapka
+tleskat
+tlukot
+tlupa
+tmel
+toaleta
+topinka
+topol
+torzo
+touha
+toulec
+tradice
+traktor
+tramp
+trasa
+traverza
+trefit
+trest
+trezor
+trhavina
+trhlina
+trochu
+trojice
+troska
+trouba
+trpce
+trpitel
+trpkost
+trubec
+truchlit
+truhlice
+trus
+trvat
+tudy
+tuhnout
+tuhost
+tundra
+turista
+turnaj
+tuzemsko
+tvaroh
+tvorba
+tvrdost
+tvrz
+tygr
+tykev
+ubohost
+uboze
+ubrat
+ubrousek
+ubrus
+ubytovna
+ucho
+uctivost
+udivit
+uhradit
+ujednat
+ujistit
+ujmout
+ukazatel
+uklidnit
+uklonit
+ukotvit
+ukrojit
+ulice
+ulita
+ulovit
+umyvadlo
+unavit
+uniforma
+uniknout
+upadnout
+uplatnit
+uplynout
+upoutat
+upravit
+uran
+urazit
+usednout
+usilovat
+usmrtit
+usnadnit
+usnout
+usoudit
+ustlat
+ustrnout
+utahovat
+utkat
+utlumit
+utonout
+utopenec
+utrousit
+uvalit
+uvolnit
+uvozovka
+uzdravit
+uzel
+uzenina
+uzlina
+uznat
+vagon
+valcha
+valoun
+vana
+vandal
+vanilka
+varan
+varhany
+varovat
+vcelku
+vchod
+vdova
+vedro
+vegetace
+vejce
+velbloud
+veletrh
+velitel
+velmoc
+velryba
+venkov
+veranda
+verze
+veselka
+veskrze
+vesnice
+vespodu
+vesta
+veterina
+veverka
+vibrace
+vichr
+videohra
+vidina
+vidle
+vila
+vinice
+viset
+vitalita
+vize
+vizitka
+vjezd
+vklad
+vkus
+vlajka
+vlak
+vlasec
+vlevo
+vlhkost
+vliv
+vlnovka
+vloupat
+vnucovat
+vnuk
+voda
+vodivost
+vodoznak
+vodstvo
+vojensky
+vojna
+vojsko
+volant
+volba
+volit
+volno
+voskovka
+vozidlo
+vozovna
+vpravo
+vrabec
+vracet
+vrah
+vrata
+vrba
+vrcholek
+vrhat
+vrstva
+vrtule
+vsadit
+vstoupit
+vstup
+vtip
+vybavit
+vybrat
+vychovat
+vydat
+vydra
+vyfotit
+vyhledat
+vyhnout
+vyhodit
+vyhradit
+vyhubit
+vyjasnit
+vyjet
+vyjmout
+vyklopit
+vykonat
+vylekat
+vymazat
+vymezit
+vymizet
+vymyslet
+vynechat
+vynikat
+vynutit
+vypadat
+vyplatit
+vypravit
+vypustit
+vyrazit
+vyrovnat
+vyrvat
+vyslovit
+vysoko
+vystavit
+vysunout
+vysypat
+vytasit
+vytesat
+vytratit
+vyvinout
+vyvolat
+vyvrhel
+vyzdobit
+vyznat
+vzadu
+vzbudit
+vzchopit
+vzdor
+vzduch
+vzdychat
+vzestup
+vzhledem
+vzkaz
+vzlykat
+vznik
+vzorek
+vzpoura
+vztah
+vztek
+xylofon
+zabrat
+zabydlet
+zachovat
+zadarmo
+zadusit
+zafoukat
+zahltit
+zahodit
+zahrada
+zahynout
+zajatec
+zajet
+zajistit
+zaklepat
+zakoupit
+zalepit
+zamezit
+zamotat
+zamyslet
+zanechat
+zanikat
+zaplatit
+zapojit
+zapsat
+zarazit
+zastavit
+zasunout
+zatajit
+zatemnit
+zatknout
+zaujmout
+zavalit
+zavelet
+zavinit
+zavolat
+zavrtat
+zazvonit
+zbavit
+zbrusu
+zbudovat
+zbytek
+zdaleka
+zdarma
+zdatnost
+zdivo
+zdobit
+zdroj
+zdvih
+zdymadlo
+zelenina
+zeman
+zemina
+zeptat
+zezadu
+zezdola
+zhatit
+zhltnout
+zhluboka
+zhotovit
+zhruba
+zima
+zimnice
+zjemnit
+zklamat
+zkoumat
+zkratka
+zkumavka
+zlato
+zlehka
+zloba
+zlom
+zlost
+zlozvyk
+zmapovat
+zmar
+zmatek
+zmije
+zmizet
+zmocnit
+zmodrat
+zmrzlina
+zmutovat
+znak
+znalost
+znamenat
+znovu
+zobrazit
+zotavit
+zoubek
+zoufale
+zplodit
+zpomalit
+zprava
+zprostit
+zprudka
+zprvu
+zrada
+zranit
+zrcadlo
+zrnitost
+zrno
+zrovna
+zrychlit
+zrzavost
+zticha
+ztratit
+zubovina
+zubr
+zvednout
+zvenku
+zvesela
+zvon
+zvrat
+zvukovod
+zvyk`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/french.js
+  var wordlist3 = /* @__PURE__ */ Object.freeze(`abaisser
+abandon
+abdiquer
+abeille
+abolir
+aborder
+aboutir
+aboyer
+abrasif
+abreuver
+abriter
+abroger
+abrupt
+absence
+absolu
+absurde
+abusif
+abyssal
+acade\u0301mie
+acajou
+acarien
+accabler
+accepter
+acclamer
+accolade
+accroche
+accuser
+acerbe
+achat
+acheter
+aciduler
+acier
+acompte
+acque\u0301rir
+acronyme
+acteur
+actif
+actuel
+adepte
+ade\u0301quat
+adhe\u0301sif
+adjectif
+adjuger
+admettre
+admirer
+adopter
+adorer
+adoucir
+adresse
+adroit
+adulte
+adverbe
+ae\u0301rer
+ae\u0301ronef
+affaire
+affecter
+affiche
+affreux
+affubler
+agacer
+agencer
+agile
+agiter
+agrafer
+agre\u0301able
+agrume
+aider
+aiguille
+ailier
+aimable
+aisance
+ajouter
+ajuster
+alarmer
+alchimie
+alerte
+alge\u0300bre
+algue
+alie\u0301ner
+aliment
+alle\u0301ger
+alliage
+allouer
+allumer
+alourdir
+alpaga
+altesse
+alve\u0301ole
+amateur
+ambigu
+ambre
+ame\u0301nager
+amertume
+amidon
+amiral
+amorcer
+amour
+amovible
+amphibie
+ampleur
+amusant
+analyse
+anaphore
+anarchie
+anatomie
+ancien
+ane\u0301antir
+angle
+angoisse
+anguleux
+animal
+annexer
+annonce
+annuel
+anodin
+anomalie
+anonyme
+anormal
+antenne
+antidote
+anxieux
+apaiser
+ape\u0301ritif
+aplanir
+apologie
+appareil
+appeler
+apporter
+appuyer
+aquarium
+aqueduc
+arbitre
+arbuste
+ardeur
+ardoise
+argent
+arlequin
+armature
+armement
+armoire
+armure
+arpenter
+arracher
+arriver
+arroser
+arsenic
+arte\u0301riel
+article
+aspect
+asphalte
+aspirer
+assaut
+asservir
+assiette
+associer
+assurer
+asticot
+astre
+astuce
+atelier
+atome
+atrium
+atroce
+attaque
+attentif
+attirer
+attraper
+aubaine
+auberge
+audace
+audible
+augurer
+aurore
+automne
+autruche
+avaler
+avancer
+avarice
+avenir
+averse
+aveugle
+aviateur
+avide
+avion
+aviser
+avoine
+avouer
+avril
+axial
+axiome
+badge
+bafouer
+bagage
+baguette
+baignade
+balancer
+balcon
+baleine
+balisage
+bambin
+bancaire
+bandage
+banlieue
+bannie\u0300re
+banquier
+barbier
+baril
+baron
+barque
+barrage
+bassin
+bastion
+bataille
+bateau
+batterie
+baudrier
+bavarder
+belette
+be\u0301lier
+belote
+be\u0301ne\u0301fice
+berceau
+berger
+berline
+bermuda
+besace
+besogne
+be\u0301tail
+beurre
+biberon
+bicycle
+bidule
+bijou
+bilan
+bilingue
+billard
+binaire
+biologie
+biopsie
+biotype
+biscuit
+bison
+bistouri
+bitume
+bizarre
+blafard
+blague
+blanchir
+blessant
+blinder
+blond
+bloquer
+blouson
+bobard
+bobine
+boire
+boiser
+bolide
+bonbon
+bondir
+bonheur
+bonifier
+bonus
+bordure
+borne
+botte
+boucle
+boueux
+bougie
+boulon
+bouquin
+bourse
+boussole
+boutique
+boxeur
+branche
+brasier
+brave
+brebis
+bre\u0300che
+breuvage
+bricoler
+brigade
+brillant
+brioche
+brique
+brochure
+broder
+bronzer
+brousse
+broyeur
+brume
+brusque
+brutal
+bruyant
+buffle
+buisson
+bulletin
+bureau
+burin
+bustier
+butiner
+butoir
+buvable
+buvette
+cabanon
+cabine
+cachette
+cadeau
+cadre
+cafe\u0301ine
+caillou
+caisson
+calculer
+calepin
+calibre
+calmer
+calomnie
+calvaire
+camarade
+came\u0301ra
+camion
+campagne
+canal
+caneton
+canon
+cantine
+canular
+capable
+caporal
+caprice
+capsule
+capter
+capuche
+carabine
+carbone
+caresser
+caribou
+carnage
+carotte
+carreau
+carton
+cascade
+casier
+casque
+cassure
+causer
+caution
+cavalier
+caverne
+caviar
+ce\u0301dille
+ceinture
+ce\u0301leste
+cellule
+cendrier
+censurer
+central
+cercle
+ce\u0301re\u0301bral
+cerise
+cerner
+cerveau
+cesser
+chagrin
+chaise
+chaleur
+chambre
+chance
+chapitre
+charbon
+chasseur
+chaton
+chausson
+chavirer
+chemise
+chenille
+che\u0301quier
+chercher
+cheval
+chien
+chiffre
+chignon
+chime\u0300re
+chiot
+chlorure
+chocolat
+choisir
+chose
+chouette
+chrome
+chute
+cigare
+cigogne
+cimenter
+cine\u0301ma
+cintrer
+circuler
+cirer
+cirque
+citerne
+citoyen
+citron
+civil
+clairon
+clameur
+claquer
+classe
+clavier
+client
+cligner
+climat
+clivage
+cloche
+clonage
+cloporte
+cobalt
+cobra
+cocasse
+cocotier
+coder
+codifier
+coffre
+cogner
+cohe\u0301sion
+coiffer
+coincer
+cole\u0300re
+colibri
+colline
+colmater
+colonel
+combat
+come\u0301die
+commande
+compact
+concert
+conduire
+confier
+congeler
+connoter
+consonne
+contact
+convexe
+copain
+copie
+corail
+corbeau
+cordage
+corniche
+corpus
+correct
+corte\u0300ge
+cosmique
+costume
+coton
+coude
+coupure
+courage
+couteau
+couvrir
+coyote
+crabe
+crainte
+cravate
+crayon
+cre\u0301ature
+cre\u0301diter
+cre\u0301meux
+creuser
+crevette
+cribler
+crier
+cristal
+crite\u0300re
+croire
+croquer
+crotale
+crucial
+cruel
+crypter
+cubique
+cueillir
+cuille\u0300re
+cuisine
+cuivre
+culminer
+cultiver
+cumuler
+cupide
+curatif
+curseur
+cyanure
+cycle
+cylindre
+cynique
+daigner
+damier
+danger
+danseur
+dauphin
+de\u0301battre
+de\u0301biter
+de\u0301border
+de\u0301brider
+de\u0301butant
+de\u0301caler
+de\u0301cembre
+de\u0301chirer
+de\u0301cider
+de\u0301clarer
+de\u0301corer
+de\u0301crire
+de\u0301cupler
+de\u0301dale
+de\u0301ductif
+de\u0301esse
+de\u0301fensif
+de\u0301filer
+de\u0301frayer
+de\u0301gager
+de\u0301givrer
+de\u0301glutir
+de\u0301grafer
+de\u0301jeuner
+de\u0301lice
+de\u0301loger
+demander
+demeurer
+de\u0301molir
+de\u0301nicher
+de\u0301nouer
+dentelle
+de\u0301nuder
+de\u0301part
+de\u0301penser
+de\u0301phaser
+de\u0301placer
+de\u0301poser
+de\u0301ranger
+de\u0301rober
+de\u0301sastre
+descente
+de\u0301sert
+de\u0301signer
+de\u0301sobe\u0301ir
+dessiner
+destrier
+de\u0301tacher
+de\u0301tester
+de\u0301tourer
+de\u0301tresse
+devancer
+devenir
+deviner
+devoir
+diable
+dialogue
+diamant
+dicter
+diffe\u0301rer
+dige\u0301rer
+digital
+digne
+diluer
+dimanche
+diminuer
+dioxyde
+directif
+diriger
+discuter
+disposer
+dissiper
+distance
+divertir
+diviser
+docile
+docteur
+dogme
+doigt
+domaine
+domicile
+dompter
+donateur
+donjon
+donner
+dopamine
+dortoir
+dorure
+dosage
+doseur
+dossier
+dotation
+douanier
+double
+douceur
+douter
+doyen
+dragon
+draper
+dresser
+dribbler
+droiture
+duperie
+duplexe
+durable
+durcir
+dynastie
+e\u0301blouir
+e\u0301carter
+e\u0301charpe
+e\u0301chelle
+e\u0301clairer
+e\u0301clipse
+e\u0301clore
+e\u0301cluse
+e\u0301cole
+e\u0301conomie
+e\u0301corce
+e\u0301couter
+e\u0301craser
+e\u0301cre\u0301mer
+e\u0301crivain
+e\u0301crou
+e\u0301cume
+e\u0301cureuil
+e\u0301difier
+e\u0301duquer
+effacer
+effectif
+effigie
+effort
+effrayer
+effusion
+e\u0301galiser
+e\u0301garer
+e\u0301jecter
+e\u0301laborer
+e\u0301largir
+e\u0301lectron
+e\u0301le\u0301gant
+e\u0301le\u0301phant
+e\u0301le\u0300ve
+e\u0301ligible
+e\u0301litisme
+e\u0301loge
+e\u0301lucider
+e\u0301luder
+emballer
+embellir
+embryon
+e\u0301meraude
+e\u0301mission
+emmener
+e\u0301motion
+e\u0301mouvoir
+empereur
+employer
+emporter
+emprise
+e\u0301mulsion
+encadrer
+enche\u0300re
+enclave
+encoche
+endiguer
+endosser
+endroit
+enduire
+e\u0301nergie
+enfance
+enfermer
+enfouir
+engager
+engin
+englober
+e\u0301nigme
+enjamber
+enjeu
+enlever
+ennemi
+ennuyeux
+enrichir
+enrobage
+enseigne
+entasser
+entendre
+entier
+entourer
+entraver
+e\u0301nume\u0301rer
+envahir
+enviable
+envoyer
+enzyme
+e\u0301olien
+e\u0301paissir
+e\u0301pargne
+e\u0301patant
+e\u0301paule
+e\u0301picerie
+e\u0301pide\u0301mie
+e\u0301pier
+e\u0301pilogue
+e\u0301pine
+e\u0301pisode
+e\u0301pitaphe
+e\u0301poque
+e\u0301preuve
+e\u0301prouver
+e\u0301puisant
+e\u0301querre
+e\u0301quipe
+e\u0301riger
+e\u0301rosion
+erreur
+e\u0301ruption
+escalier
+espadon
+espe\u0300ce
+espie\u0300gle
+espoir
+esprit
+esquiver
+essayer
+essence
+essieu
+essorer
+estime
+estomac
+estrade
+e\u0301tage\u0300re
+e\u0301taler
+e\u0301tanche
+e\u0301tatique
+e\u0301teindre
+e\u0301tendoir
+e\u0301ternel
+e\u0301thanol
+e\u0301thique
+ethnie
+e\u0301tirer
+e\u0301toffer
+e\u0301toile
+e\u0301tonnant
+e\u0301tourdir
+e\u0301trange
+e\u0301troit
+e\u0301tude
+euphorie
+e\u0301valuer
+e\u0301vasion
+e\u0301ventail
+e\u0301vidence
+e\u0301viter
+e\u0301volutif
+e\u0301voquer
+exact
+exage\u0301rer
+exaucer
+exceller
+excitant
+exclusif
+excuse
+exe\u0301cuter
+exemple
+exercer
+exhaler
+exhorter
+exigence
+exiler
+exister
+exotique
+expe\u0301dier
+explorer
+exposer
+exprimer
+exquis
+extensif
+extraire
+exulter
+fable
+fabuleux
+facette
+facile
+facture
+faiblir
+falaise
+fameux
+famille
+farceur
+farfelu
+farine
+farouche
+fasciner
+fatal
+fatigue
+faucon
+fautif
+faveur
+favori
+fe\u0301brile
+fe\u0301conder
+fe\u0301de\u0301rer
+fe\u0301lin
+femme
+fe\u0301mur
+fendoir
+fe\u0301odal
+fermer
+fe\u0301roce
+ferveur
+festival
+feuille
+feutre
+fe\u0301vrier
+fiasco
+ficeler
+fictif
+fide\u0300le
+figure
+filature
+filetage
+filie\u0300re
+filleul
+filmer
+filou
+filtrer
+financer
+finir
+fiole
+firme
+fissure
+fixer
+flairer
+flamme
+flasque
+flatteur
+fle\u0301au
+fle\u0300che
+fleur
+flexion
+flocon
+flore
+fluctuer
+fluide
+fluvial
+folie
+fonderie
+fongible
+fontaine
+forcer
+forgeron
+formuler
+fortune
+fossile
+foudre
+fouge\u0300re
+fouiller
+foulure
+fourmi
+fragile
+fraise
+franchir
+frapper
+frayeur
+fre\u0301gate
+freiner
+frelon
+fre\u0301mir
+fre\u0301ne\u0301sie
+fre\u0300re
+friable
+friction
+frisson
+frivole
+froid
+fromage
+frontal
+frotter
+fruit
+fugitif
+fuite
+fureur
+furieux
+furtif
+fusion
+futur
+gagner
+galaxie
+galerie
+gambader
+garantir
+gardien
+garnir
+garrigue
+gazelle
+gazon
+ge\u0301ant
+ge\u0301latine
+ge\u0301lule
+gendarme
+ge\u0301ne\u0301ral
+ge\u0301nie
+genou
+gentil
+ge\u0301ologie
+ge\u0301ome\u0300tre
+ge\u0301ranium
+germe
+gestuel
+geyser
+gibier
+gicler
+girafe
+givre
+glace
+glaive
+glisser
+globe
+gloire
+glorieux
+golfeur
+gomme
+gonfler
+gorge
+gorille
+goudron
+gouffre
+goulot
+goupille
+gourmand
+goutte
+graduel
+graffiti
+graine
+grand
+grappin
+gratuit
+gravir
+grenat
+griffure
+griller
+grimper
+grogner
+gronder
+grotte
+groupe
+gruger
+grutier
+gruye\u0300re
+gue\u0301pard
+guerrier
+guide
+guimauve
+guitare
+gustatif
+gymnaste
+gyrostat
+habitude
+hachoir
+halte
+hameau
+hangar
+hanneton
+haricot
+harmonie
+harpon
+hasard
+he\u0301lium
+he\u0301matome
+herbe
+he\u0301risson
+hermine
+he\u0301ron
+he\u0301siter
+heureux
+hiberner
+hibou
+hilarant
+histoire
+hiver
+homard
+hommage
+homoge\u0300ne
+honneur
+honorer
+honteux
+horde
+horizon
+horloge
+hormone
+horrible
+houleux
+housse
+hublot
+huileux
+humain
+humble
+humide
+humour
+hurler
+hydromel
+hygie\u0300ne
+hymne
+hypnose
+idylle
+ignorer
+iguane
+illicite
+illusion
+image
+imbiber
+imiter
+immense
+immobile
+immuable
+impact
+impe\u0301rial
+implorer
+imposer
+imprimer
+imputer
+incarner
+incendie
+incident
+incliner
+incolore
+indexer
+indice
+inductif
+ine\u0301dit
+ineptie
+inexact
+infini
+infliger
+informer
+infusion
+inge\u0301rer
+inhaler
+inhiber
+injecter
+injure
+innocent
+inoculer
+inonder
+inscrire
+insecte
+insigne
+insolite
+inspirer
+instinct
+insulter
+intact
+intense
+intime
+intrigue
+intuitif
+inutile
+invasion
+inventer
+inviter
+invoquer
+ironique
+irradier
+irre\u0301el
+irriter
+isoler
+ivoire
+ivresse
+jaguar
+jaillir
+jambe
+janvier
+jardin
+jauger
+jaune
+javelot
+jetable
+jeton
+jeudi
+jeunesse
+joindre
+joncher
+jongler
+joueur
+jouissif
+journal
+jovial
+joyau
+joyeux
+jubiler
+jugement
+junior
+jupon
+juriste
+justice
+juteux
+juve\u0301nile
+kayak
+kimono
+kiosque
+label
+labial
+labourer
+lace\u0301rer
+lactose
+lagune
+laine
+laisser
+laitier
+lambeau
+lamelle
+lampe
+lanceur
+langage
+lanterne
+lapin
+largeur
+larme
+laurier
+lavabo
+lavoir
+lecture
+le\u0301gal
+le\u0301ger
+le\u0301gume
+lessive
+lettre
+levier
+lexique
+le\u0301zard
+liasse
+libe\u0301rer
+libre
+licence
+licorne
+lie\u0300ge
+lie\u0300vre
+ligature
+ligoter
+ligue
+limer
+limite
+limonade
+limpide
+line\u0301aire
+lingot
+lionceau
+liquide
+lisie\u0300re
+lister
+lithium
+litige
+littoral
+livreur
+logique
+lointain
+loisir
+lombric
+loterie
+louer
+lourd
+loutre
+louve
+loyal
+lubie
+lucide
+lucratif
+lueur
+lugubre
+luisant
+lumie\u0300re
+lunaire
+lundi
+luron
+lutter
+luxueux
+machine
+magasin
+magenta
+magique
+maigre
+maillon
+maintien
+mairie
+maison
+majorer
+malaxer
+male\u0301fice
+malheur
+malice
+mallette
+mammouth
+mandater
+maniable
+manquant
+manteau
+manuel
+marathon
+marbre
+marchand
+mardi
+maritime
+marqueur
+marron
+marteler
+mascotte
+massif
+mate\u0301riel
+matie\u0300re
+matraque
+maudire
+maussade
+mauve
+maximal
+me\u0301chant
+me\u0301connu
+me\u0301daille
+me\u0301decin
+me\u0301diter
+me\u0301duse
+meilleur
+me\u0301lange
+me\u0301lodie
+membre
+me\u0301moire
+menacer
+mener
+menhir
+mensonge
+mentor
+mercredi
+me\u0301rite
+merle
+messager
+mesure
+me\u0301tal
+me\u0301te\u0301ore
+me\u0301thode
+me\u0301tier
+meuble
+miauler
+microbe
+miette
+mignon
+migrer
+milieu
+million
+mimique
+mince
+mine\u0301ral
+minimal
+minorer
+minute
+miracle
+miroiter
+missile
+mixte
+mobile
+moderne
+moelleux
+mondial
+moniteur
+monnaie
+monotone
+monstre
+montagne
+monument
+moqueur
+morceau
+morsure
+mortier
+moteur
+motif
+mouche
+moufle
+moulin
+mousson
+mouton
+mouvant
+multiple
+munition
+muraille
+mure\u0300ne
+murmure
+muscle
+muse\u0301um
+musicien
+mutation
+muter
+mutuel
+myriade
+myrtille
+myste\u0300re
+mythique
+nageur
+nappe
+narquois
+narrer
+natation
+nation
+nature
+naufrage
+nautique
+navire
+ne\u0301buleux
+nectar
+ne\u0301faste
+ne\u0301gation
+ne\u0301gliger
+ne\u0301gocier
+neige
+nerveux
+nettoyer
+neurone
+neutron
+neveu
+niche
+nickel
+nitrate
+niveau
+noble
+nocif
+nocturne
+noirceur
+noisette
+nomade
+nombreux
+nommer
+normatif
+notable
+notifier
+notoire
+nourrir
+nouveau
+novateur
+novembre
+novice
+nuage
+nuancer
+nuire
+nuisible
+nume\u0301ro
+nuptial
+nuque
+nutritif
+obe\u0301ir
+objectif
+obliger
+obscur
+observer
+obstacle
+obtenir
+obturer
+occasion
+occuper
+oce\u0301an
+octobre
+octroyer
+octupler
+oculaire
+odeur
+odorant
+offenser
+officier
+offrir
+ogive
+oiseau
+oisillon
+olfactif
+olivier
+ombrage
+omettre
+onctueux
+onduler
+one\u0301reux
+onirique
+opale
+opaque
+ope\u0301rer
+opinion
+opportun
+opprimer
+opter
+optique
+orageux
+orange
+orbite
+ordonner
+oreille
+organe
+orgueil
+orifice
+ornement
+orque
+ortie
+osciller
+osmose
+ossature
+otarie
+ouragan
+ourson
+outil
+outrager
+ouvrage
+ovation
+oxyde
+oxyge\u0300ne
+ozone
+paisible
+palace
+palmare\u0300s
+palourde
+palper
+panache
+panda
+pangolin
+paniquer
+panneau
+panorama
+pantalon
+papaye
+papier
+papoter
+papyrus
+paradoxe
+parcelle
+paresse
+parfumer
+parler
+parole
+parrain
+parsemer
+partager
+parure
+parvenir
+passion
+paste\u0300que
+paternel
+patience
+patron
+pavillon
+pavoiser
+payer
+paysage
+peigne
+peintre
+pelage
+pe\u0301lican
+pelle
+pelouse
+peluche
+pendule
+pe\u0301ne\u0301trer
+pe\u0301nible
+pensif
+pe\u0301nurie
+pe\u0301pite
+pe\u0301plum
+perdrix
+perforer
+pe\u0301riode
+permuter
+perplexe
+persil
+perte
+peser
+pe\u0301tale
+petit
+pe\u0301trir
+peuple
+pharaon
+phobie
+phoque
+photon
+phrase
+physique
+piano
+pictural
+pie\u0300ce
+pierre
+pieuvre
+pilote
+pinceau
+pipette
+piquer
+pirogue
+piscine
+piston
+pivoter
+pixel
+pizza
+placard
+plafond
+plaisir
+planer
+plaque
+plastron
+plateau
+pleurer
+plexus
+pliage
+plomb
+plonger
+pluie
+plumage
+pochette
+poe\u0301sie
+poe\u0300te
+pointe
+poirier
+poisson
+poivre
+polaire
+policier
+pollen
+polygone
+pommade
+pompier
+ponctuel
+ponde\u0301rer
+poney
+portique
+position
+posse\u0301der
+posture
+potager
+poteau
+potion
+pouce
+poulain
+poumon
+pourpre
+poussin
+pouvoir
+prairie
+pratique
+pre\u0301cieux
+pre\u0301dire
+pre\u0301fixe
+pre\u0301lude
+pre\u0301nom
+pre\u0301sence
+pre\u0301texte
+pre\u0301voir
+primitif
+prince
+prison
+priver
+proble\u0300me
+proce\u0301der
+prodige
+profond
+progre\u0300s
+proie
+projeter
+prologue
+promener
+propre
+prospe\u0300re
+prote\u0301ger
+prouesse
+proverbe
+prudence
+pruneau
+psychose
+public
+puceron
+puiser
+pulpe
+pulsar
+punaise
+punitif
+pupitre
+purifier
+puzzle
+pyramide
+quasar
+querelle
+question
+quie\u0301tude
+quitter
+quotient
+racine
+raconter
+radieux
+ragondin
+raideur
+raisin
+ralentir
+rallonge
+ramasser
+rapide
+rasage
+ratisser
+ravager
+ravin
+rayonner
+re\u0301actif
+re\u0301agir
+re\u0301aliser
+re\u0301animer
+recevoir
+re\u0301citer
+re\u0301clamer
+re\u0301colter
+recruter
+reculer
+recycler
+re\u0301diger
+redouter
+refaire
+re\u0301flexe
+re\u0301former
+refrain
+refuge
+re\u0301galien
+re\u0301gion
+re\u0301glage
+re\u0301gulier
+re\u0301ite\u0301rer
+rejeter
+rejouer
+relatif
+relever
+relief
+remarque
+reme\u0300de
+remise
+remonter
+remplir
+remuer
+renard
+renfort
+renifler
+renoncer
+rentrer
+renvoi
+replier
+reporter
+reprise
+reptile
+requin
+re\u0301serve
+re\u0301sineux
+re\u0301soudre
+respect
+rester
+re\u0301sultat
+re\u0301tablir
+retenir
+re\u0301ticule
+retomber
+retracer
+re\u0301union
+re\u0301ussir
+revanche
+revivre
+re\u0301volte
+re\u0301vulsif
+richesse
+rideau
+rieur
+rigide
+rigoler
+rincer
+riposter
+risible
+risque
+rituel
+rival
+rivie\u0300re
+rocheux
+romance
+rompre
+ronce
+rondin
+roseau
+rosier
+rotatif
+rotor
+rotule
+rouge
+rouille
+rouleau
+routine
+royaume
+ruban
+rubis
+ruche
+ruelle
+rugueux
+ruiner
+ruisseau
+ruser
+rustique
+rythme
+sabler
+saboter
+sabre
+sacoche
+safari
+sagesse
+saisir
+salade
+salive
+salon
+saluer
+samedi
+sanction
+sanglier
+sarcasme
+sardine
+saturer
+saugrenu
+saumon
+sauter
+sauvage
+savant
+savonner
+scalpel
+scandale
+sce\u0301le\u0301rat
+sce\u0301nario
+sceptre
+sche\u0301ma
+science
+scinder
+score
+scrutin
+sculpter
+se\u0301ance
+se\u0301cable
+se\u0301cher
+secouer
+se\u0301cre\u0301ter
+se\u0301datif
+se\u0301duire
+seigneur
+se\u0301jour
+se\u0301lectif
+semaine
+sembler
+semence
+se\u0301minal
+se\u0301nateur
+sensible
+sentence
+se\u0301parer
+se\u0301quence
+serein
+sergent
+se\u0301rieux
+serrure
+se\u0301rum
+service
+se\u0301same
+se\u0301vir
+sevrage
+sextuple
+side\u0301ral
+sie\u0300cle
+sie\u0301ger
+siffler
+sigle
+signal
+silence
+silicium
+simple
+since\u0300re
+sinistre
+siphon
+sirop
+sismique
+situer
+skier
+social
+socle
+sodium
+soigneux
+soldat
+soleil
+solitude
+soluble
+sombre
+sommeil
+somnoler
+sonde
+songeur
+sonnette
+sonore
+sorcier
+sortir
+sosie
+sottise
+soucieux
+soudure
+souffle
+soulever
+soupape
+source
+soutirer
+souvenir
+spacieux
+spatial
+spe\u0301cial
+sphe\u0300re
+spiral
+stable
+station
+sternum
+stimulus
+stipuler
+strict
+studieux
+stupeur
+styliste
+sublime
+substrat
+subtil
+subvenir
+succe\u0300s
+sucre
+suffixe
+sugge\u0301rer
+suiveur
+sulfate
+superbe
+supplier
+surface
+suricate
+surmener
+surprise
+sursaut
+survie
+suspect
+syllabe
+symbole
+syme\u0301trie
+synapse
+syntaxe
+syste\u0300me
+tabac
+tablier
+tactile
+tailler
+talent
+talisman
+talonner
+tambour
+tamiser
+tangible
+tapis
+taquiner
+tarder
+tarif
+tartine
+tasse
+tatami
+tatouage
+taupe
+taureau
+taxer
+te\u0301moin
+temporel
+tenaille
+tendre
+teneur
+tenir
+tension
+terminer
+terne
+terrible
+te\u0301tine
+texte
+the\u0300me
+the\u0301orie
+the\u0301rapie
+thorax
+tibia
+tie\u0300de
+timide
+tirelire
+tiroir
+tissu
+titane
+titre
+tituber
+toboggan
+tole\u0301rant
+tomate
+tonique
+tonneau
+toponyme
+torche
+tordre
+tornade
+torpille
+torrent
+torse
+tortue
+totem
+toucher
+tournage
+tousser
+toxine
+traction
+trafic
+tragique
+trahir
+train
+trancher
+travail
+tre\u0300fle
+tremper
+tre\u0301sor
+treuil
+triage
+tribunal
+tricoter
+trilogie
+triomphe
+tripler
+triturer
+trivial
+trombone
+tronc
+tropical
+troupeau
+tuile
+tulipe
+tumulte
+tunnel
+turbine
+tuteur
+tutoyer
+tuyau
+tympan
+typhon
+typique
+tyran
+ubuesque
+ultime
+ultrason
+unanime
+unifier
+union
+unique
+unitaire
+univers
+uranium
+urbain
+urticant
+usage
+usine
+usuel
+usure
+utile
+utopie
+vacarme
+vaccin
+vagabond
+vague
+vaillant
+vaincre
+vaisseau
+valable
+valise
+vallon
+valve
+vampire
+vanille
+vapeur
+varier
+vaseux
+vassal
+vaste
+vecteur
+vedette
+ve\u0301ge\u0301tal
+ve\u0301hicule
+veinard
+ve\u0301loce
+vendredi
+ve\u0301ne\u0301rer
+venger
+venimeux
+ventouse
+verdure
+ve\u0301rin
+vernir
+verrou
+verser
+vertu
+veston
+ve\u0301te\u0301ran
+ve\u0301tuste
+vexant
+vexer
+viaduc
+viande
+victoire
+vidange
+vide\u0301o
+vignette
+vigueur
+vilain
+village
+vinaigre
+violon
+vipe\u0300re
+virement
+virtuose
+virus
+visage
+viseur
+vision
+visqueux
+visuel
+vital
+vitesse
+viticole
+vitrine
+vivace
+vivipare
+vocation
+voguer
+voile
+voisin
+voiture
+volaille
+volcan
+voltiger
+volume
+vorace
+vortex
+voter
+vouloir
+voyage
+voyelle
+wagon
+xe\u0301non
+yacht
+ze\u0300bre
+ze\u0301nith
+zeste
+zoologie`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/italian.js
+  var wordlist4 = /* @__PURE__ */ Object.freeze(`abaco
+abbaglio
+abbinato
+abete
+abisso
+abolire
+abrasivo
+abrogato
+accadere
+accenno
+accusato
+acetone
+achille
+acido
+acqua
+acre
+acrilico
+acrobata
+acuto
+adagio
+addebito
+addome
+adeguato
+aderire
+adipe
+adottare
+adulare
+affabile
+affetto
+affisso
+affranto
+aforisma
+afoso
+africano
+agave
+agente
+agevole
+aggancio
+agire
+agitare
+agonismo
+agricolo
+agrumeto
+aguzzo
+alabarda
+alato
+albatro
+alberato
+albo
+albume
+alce
+alcolico
+alettone
+alfa
+algebra
+aliante
+alibi
+alimento
+allagato
+allegro
+allievo
+allodola
+allusivo
+almeno
+alogeno
+alpaca
+alpestre
+altalena
+alterno
+alticcio
+altrove
+alunno
+alveolo
+alzare
+amalgama
+amanita
+amarena
+ambito
+ambrato
+ameba
+america
+ametista
+amico
+ammasso
+ammenda
+ammirare
+ammonito
+amore
+ampio
+ampliare
+amuleto
+anacardo
+anagrafe
+analista
+anarchia
+anatra
+anca
+ancella
+ancora
+andare
+andrea
+anello
+angelo
+angolare
+angusto
+anima
+annegare
+annidato
+anno
+annuncio
+anonimo
+anticipo
+anzi
+apatico
+apertura
+apode
+apparire
+appetito
+appoggio
+approdo
+appunto
+aprile
+arabica
+arachide
+aragosta
+araldica
+arancio
+aratura
+arazzo
+arbitro
+archivio
+ardito
+arenile
+argento
+argine
+arguto
+aria
+armonia
+arnese
+arredato
+arringa
+arrosto
+arsenico
+arso
+artefice
+arzillo
+asciutto
+ascolto
+asepsi
+asettico
+asfalto
+asino
+asola
+aspirato
+aspro
+assaggio
+asse
+assoluto
+assurdo
+asta
+astenuto
+astice
+astratto
+atavico
+ateismo
+atomico
+atono
+attesa
+attivare
+attorno
+attrito
+attuale
+ausilio
+austria
+autista
+autonomo
+autunno
+avanzato
+avere
+avvenire
+avviso
+avvolgere
+azione
+azoto
+azzimo
+azzurro
+babele
+baccano
+bacino
+baco
+badessa
+badilata
+bagnato
+baita
+balcone
+baldo
+balena
+ballata
+balzano
+bambino
+bandire
+baraonda
+barbaro
+barca
+baritono
+barlume
+barocco
+basilico
+basso
+batosta
+battuto
+baule
+bava
+bavosa
+becco
+beffa
+belgio
+belva
+benda
+benevole
+benigno
+benzina
+bere
+berlina
+beta
+bibita
+bici
+bidone
+bifido
+biga
+bilancia
+bimbo
+binocolo
+biologo
+bipede
+bipolare
+birbante
+birra
+biscotto
+bisesto
+bisnonno
+bisonte
+bisturi
+bizzarro
+blando
+blatta
+bollito
+bonifico
+bordo
+bosco
+botanico
+bottino
+bozzolo
+braccio
+bradipo
+brama
+branca
+bravura
+bretella
+brevetto
+brezza
+briglia
+brillante
+brindare
+broccolo
+brodo
+bronzina
+brullo
+bruno
+bubbone
+buca
+budino
+buffone
+buio
+bulbo
+buono
+burlone
+burrasca
+bussola
+busta
+cadetto
+caduco
+calamaro
+calcolo
+calesse
+calibro
+calmo
+caloria
+cambusa
+camerata
+camicia
+cammino
+camola
+campale
+canapa
+candela
+cane
+canino
+canotto
+cantina
+capace
+capello
+capitolo
+capogiro
+cappero
+capra
+capsula
+carapace
+carcassa
+cardo
+carisma
+carovana
+carretto
+cartolina
+casaccio
+cascata
+caserma
+caso
+cassone
+castello
+casuale
+catasta
+catena
+catrame
+cauto
+cavillo
+cedibile
+cedrata
+cefalo
+celebre
+cellulare
+cena
+cenone
+centesimo
+ceramica
+cercare
+certo
+cerume
+cervello
+cesoia
+cespo
+ceto
+chela
+chiaro
+chicca
+chiedere
+chimera
+china
+chirurgo
+chitarra
+ciao
+ciclismo
+cifrare
+cigno
+cilindro
+ciottolo
+circa
+cirrosi
+citrico
+cittadino
+ciuffo
+civetta
+civile
+classico
+clinica
+cloro
+cocco
+codardo
+codice
+coerente
+cognome
+collare
+colmato
+colore
+colposo
+coltivato
+colza
+coma
+cometa
+commando
+comodo
+computer
+comune
+conciso
+condurre
+conferma
+congelare
+coniuge
+connesso
+conoscere
+consumo
+continuo
+convegno
+coperto
+copione
+coppia
+copricapo
+corazza
+cordata
+coricato
+cornice
+corolla
+corpo
+corredo
+corsia
+cortese
+cosmico
+costante
+cottura
+covato
+cratere
+cravatta
+creato
+credere
+cremoso
+crescita
+creta
+criceto
+crinale
+crisi
+critico
+croce
+cronaca
+crostata
+cruciale
+crusca
+cucire
+cuculo
+cugino
+cullato
+cupola
+curatore
+cursore
+curvo
+cuscino
+custode
+dado
+daino
+dalmata
+damerino
+daniela
+dannoso
+danzare
+datato
+davanti
+davvero
+debutto
+decennio
+deciso
+declino
+decollo
+decreto
+dedicato
+definito
+deforme
+degno
+delegare
+delfino
+delirio
+delta
+demenza
+denotato
+dentro
+deposito
+derapata
+derivare
+deroga
+descritto
+deserto
+desiderio
+desumere
+detersivo
+devoto
+diametro
+dicembre
+diedro
+difeso
+diffuso
+digerire
+digitale
+diluvio
+dinamico
+dinnanzi
+dipinto
+diploma
+dipolo
+diradare
+dire
+dirotto
+dirupo
+disagio
+discreto
+disfare
+disgelo
+disposto
+distanza
+disumano
+dito
+divano
+divelto
+dividere
+divorato
+doblone
+docente
+doganale
+dogma
+dolce
+domato
+domenica
+dominare
+dondolo
+dono
+dormire
+dote
+dottore
+dovuto
+dozzina
+drago
+druido
+dubbio
+dubitare
+ducale
+duna
+duomo
+duplice
+duraturo
+ebano
+eccesso
+ecco
+eclissi
+economia
+edera
+edicola
+edile
+editoria
+educare
+egemonia
+egli
+egoismo
+egregio
+elaborato
+elargire
+elegante
+elencato
+eletto
+elevare
+elfico
+elica
+elmo
+elsa
+eluso
+emanato
+emblema
+emesso
+emiro
+emotivo
+emozione
+empirico
+emulo
+endemico
+enduro
+energia
+enfasi
+enoteca
+entrare
+enzima
+epatite
+epilogo
+episodio
+epocale
+eppure
+equatore
+erario
+erba
+erboso
+erede
+eremita
+erigere
+ermetico
+eroe
+erosivo
+errante
+esagono
+esame
+esanime
+esaudire
+esca
+esempio
+esercito
+esibito
+esigente
+esistere
+esito
+esofago
+esortato
+esoso
+espanso
+espresso
+essenza
+esso
+esteso
+estimare
+estonia
+estroso
+esultare
+etilico
+etnico
+etrusco
+etto
+euclideo
+europa
+evaso
+evidenza
+evitato
+evoluto
+evviva
+fabbrica
+faccenda
+fachiro
+falco
+famiglia
+fanale
+fanfara
+fango
+fantasma
+fare
+farfalla
+farinoso
+farmaco
+fascia
+fastoso
+fasullo
+faticare
+fato
+favoloso
+febbre
+fecola
+fede
+fegato
+felpa
+feltro
+femmina
+fendere
+fenomeno
+fermento
+ferro
+fertile
+fessura
+festivo
+fetta
+feudo
+fiaba
+fiducia
+fifa
+figurato
+filo
+finanza
+finestra
+finire
+fiore
+fiscale
+fisico
+fiume
+flacone
+flamenco
+flebo
+flemma
+florido
+fluente
+fluoro
+fobico
+focaccia
+focoso
+foderato
+foglio
+folata
+folclore
+folgore
+fondente
+fonetico
+fonia
+fontana
+forbito
+forchetta
+foresta
+formica
+fornaio
+foro
+fortezza
+forzare
+fosfato
+fosso
+fracasso
+frana
+frassino
+fratello
+freccetta
+frenata
+fresco
+frigo
+frollino
+fronde
+frugale
+frutta
+fucilata
+fucsia
+fuggente
+fulmine
+fulvo
+fumante
+fumetto
+fumoso
+fune
+funzione
+fuoco
+furbo
+furgone
+furore
+fuso
+futile
+gabbiano
+gaffe
+galateo
+gallina
+galoppo
+gambero
+gamma
+garanzia
+garbo
+garofano
+garzone
+gasdotto
+gasolio
+gastrico
+gatto
+gaudio
+gazebo
+gazzella
+geco
+gelatina
+gelso
+gemello
+gemmato
+gene
+genitore
+gennaio
+genotipo
+gergo
+ghepardo
+ghiaccio
+ghisa
+giallo
+gilda
+ginepro
+giocare
+gioiello
+giorno
+giove
+girato
+girone
+gittata
+giudizio
+giurato
+giusto
+globulo
+glutine
+gnomo
+gobba
+golf
+gomito
+gommone
+gonfio
+gonna
+governo
+gracile
+grado
+grafico
+grammo
+grande
+grattare
+gravoso
+grazia
+greca
+gregge
+grifone
+grigio
+grinza
+grotta
+gruppo
+guadagno
+guaio
+guanto
+guardare
+gufo
+guidare
+ibernato
+icona
+identico
+idillio
+idolo
+idra
+idrico
+idrogeno
+igiene
+ignaro
+ignorato
+ilare
+illeso
+illogico
+illudere
+imballo
+imbevuto
+imbocco
+imbuto
+immane
+immerso
+immolato
+impacco
+impeto
+impiego
+importo
+impronta
+inalare
+inarcare
+inattivo
+incanto
+incendio
+inchino
+incisivo
+incluso
+incontro
+incrocio
+incubo
+indagine
+india
+indole
+inedito
+infatti
+infilare
+inflitto
+ingaggio
+ingegno
+inglese
+ingordo
+ingrosso
+innesco
+inodore
+inoltrare
+inondato
+insano
+insetto
+insieme
+insonnia
+insulina
+intasato
+intero
+intonaco
+intuito
+inumidire
+invalido
+invece
+invito
+iperbole
+ipnotico
+ipotesi
+ippica
+iride
+irlanda
+ironico
+irrigato
+irrorare
+isolato
+isotopo
+isterico
+istituto
+istrice
+italia
+iterare
+labbro
+labirinto
+lacca
+lacerato
+lacrima
+lacuna
+laddove
+lago
+lampo
+lancetta
+lanterna
+lardoso
+larga
+laringe
+lastra
+latenza
+latino
+lattuga
+lavagna
+lavoro
+legale
+leggero
+lembo
+lentezza
+lenza
+leone
+lepre
+lesivo
+lessato
+lesto
+letterale
+leva
+levigato
+libero
+lido
+lievito
+lilla
+limatura
+limitare
+limpido
+lineare
+lingua
+liquido
+lira
+lirica
+lisca
+lite
+litigio
+livrea
+locanda
+lode
+logica
+lombare
+londra
+longevo
+loquace
+lorenzo
+loto
+lotteria
+luce
+lucidato
+lumaca
+luminoso
+lungo
+lupo
+luppolo
+lusinga
+lusso
+lutto
+macabro
+macchina
+macero
+macinato
+madama
+magico
+maglia
+magnete
+magro
+maiolica
+malafede
+malgrado
+malinteso
+malsano
+malto
+malumore
+mana
+mancia
+mandorla
+mangiare
+manifesto
+mannaro
+manovra
+mansarda
+mantide
+manubrio
+mappa
+maratona
+marcire
+maretta
+marmo
+marsupio
+maschera
+massaia
+mastino
+materasso
+matricola
+mattone
+maturo
+mazurca
+meandro
+meccanico
+mecenate
+medesimo
+meditare
+mega
+melassa
+melis
+melodia
+meninge
+meno
+mensola
+mercurio
+merenda
+merlo
+meschino
+mese
+messere
+mestolo
+metallo
+metodo
+mettere
+miagolare
+mica
+micelio
+michele
+microbo
+midollo
+miele
+migliore
+milano
+milite
+mimosa
+minerale
+mini
+minore
+mirino
+mirtillo
+miscela
+missiva
+misto
+misurare
+mitezza
+mitigare
+mitra
+mittente
+mnemonico
+modello
+modifica
+modulo
+mogano
+mogio
+mole
+molosso
+monastero
+monco
+mondina
+monetario
+monile
+monotono
+monsone
+montato
+monviso
+mora
+mordere
+morsicato
+mostro
+motivato
+motosega
+motto
+movenza
+movimento
+mozzo
+mucca
+mucosa
+muffa
+mughetto
+mugnaio
+mulatto
+mulinello
+multiplo
+mummia
+munto
+muovere
+murale
+musa
+muscolo
+musica
+mutevole
+muto
+nababbo
+nafta
+nanometro
+narciso
+narice
+narrato
+nascere
+nastrare
+naturale
+nautica
+naviglio
+nebulosa
+necrosi
+negativo
+negozio
+nemmeno
+neofita
+neretto
+nervo
+nessuno
+nettuno
+neutrale
+neve
+nevrotico
+nicchia
+ninfa
+nitido
+nobile
+nocivo
+nodo
+nome
+nomina
+nordico
+normale
+norvegese
+nostrano
+notare
+notizia
+notturno
+novella
+nucleo
+nulla
+numero
+nuovo
+nutrire
+nuvola
+nuziale
+oasi
+obbedire
+obbligo
+obelisco
+oblio
+obolo
+obsoleto
+occasione
+occhio
+occidente
+occorrere
+occultare
+ocra
+oculato
+odierno
+odorare
+offerta
+offrire
+offuscato
+oggetto
+oggi
+ognuno
+olandese
+olfatto
+oliato
+oliva
+ologramma
+oltre
+omaggio
+ombelico
+ombra
+omega
+omissione
+ondoso
+onere
+onice
+onnivoro
+onorevole
+onta
+operato
+opinione
+opposto
+oracolo
+orafo
+ordine
+orecchino
+orefice
+orfano
+organico
+origine
+orizzonte
+orma
+ormeggio
+ornativo
+orologio
+orrendo
+orribile
+ortensia
+ortica
+orzata
+orzo
+osare
+oscurare
+osmosi
+ospedale
+ospite
+ossa
+ossidare
+ostacolo
+oste
+otite
+otre
+ottagono
+ottimo
+ottobre
+ovale
+ovest
+ovino
+oviparo
+ovocito
+ovunque
+ovviare
+ozio
+pacchetto
+pace
+pacifico
+padella
+padrone
+paese
+paga
+pagina
+palazzina
+palesare
+pallido
+palo
+palude
+pandoro
+pannello
+paolo
+paonazzo
+paprica
+parabola
+parcella
+parere
+pargolo
+pari
+parlato
+parola
+partire
+parvenza
+parziale
+passivo
+pasticca
+patacca
+patologia
+pattume
+pavone
+peccato
+pedalare
+pedonale
+peggio
+peloso
+penare
+pendice
+penisola
+pennuto
+penombra
+pensare
+pentola
+pepe
+pepita
+perbene
+percorso
+perdonato
+perforare
+pergamena
+periodo
+permesso
+perno
+perplesso
+persuaso
+pertugio
+pervaso
+pesatore
+pesista
+peso
+pestifero
+petalo
+pettine
+petulante
+pezzo
+piacere
+pianta
+piattino
+piccino
+picozza
+piega
+pietra
+piffero
+pigiama
+pigolio
+pigro
+pila
+pilifero
+pillola
+pilota
+pimpante
+pineta
+pinna
+pinolo
+pioggia
+piombo
+piramide
+piretico
+pirite
+pirolisi
+pitone
+pizzico
+placebo
+planare
+plasma
+platano
+plenario
+pochezza
+poderoso
+podismo
+poesia
+poggiare
+polenta
+poligono
+pollice
+polmonite
+polpetta
+polso
+poltrona
+polvere
+pomice
+pomodoro
+ponte
+popoloso
+porfido
+poroso
+porpora
+porre
+portata
+posa
+positivo
+possesso
+postulato
+potassio
+potere
+pranzo
+prassi
+pratica
+precluso
+predica
+prefisso
+pregiato
+prelievo
+premere
+prenotare
+preparato
+presenza
+pretesto
+prevalso
+prima
+principe
+privato
+problema
+procura
+produrre
+profumo
+progetto
+prolunga
+promessa
+pronome
+proposta
+proroga
+proteso
+prova
+prudente
+prugna
+prurito
+psiche
+pubblico
+pudica
+pugilato
+pugno
+pulce
+pulito
+pulsante
+puntare
+pupazzo
+pupilla
+puro
+quadro
+qualcosa
+quasi
+querela
+quota
+raccolto
+raddoppio
+radicale
+radunato
+raffica
+ragazzo
+ragione
+ragno
+ramarro
+ramingo
+ramo
+randagio
+rantolare
+rapato
+rapina
+rappreso
+rasatura
+raschiato
+rasente
+rassegna
+rastrello
+rata
+ravveduto
+reale
+recepire
+recinto
+recluta
+recondito
+recupero
+reddito
+redimere
+regalato
+registro
+regola
+regresso
+relazione
+remare
+remoto
+renna
+replica
+reprimere
+reputare
+resa
+residente
+responso
+restauro
+rete
+retina
+retorica
+rettifica
+revocato
+riassunto
+ribadire
+ribelle
+ribrezzo
+ricarica
+ricco
+ricevere
+riciclato
+ricordo
+ricreduto
+ridicolo
+ridurre
+rifasare
+riflesso
+riforma
+rifugio
+rigare
+rigettato
+righello
+rilassato
+rilevato
+rimanere
+rimbalzo
+rimedio
+rimorchio
+rinascita
+rincaro
+rinforzo
+rinnovo
+rinomato
+rinsavito
+rintocco
+rinuncia
+rinvenire
+riparato
+ripetuto
+ripieno
+riportare
+ripresa
+ripulire
+risata
+rischio
+riserva
+risibile
+riso
+rispetto
+ristoro
+risultato
+risvolto
+ritardo
+ritegno
+ritmico
+ritrovo
+riunione
+riva
+riverso
+rivincita
+rivolto
+rizoma
+roba
+robotico
+robusto
+roccia
+roco
+rodaggio
+rodere
+roditore
+rogito
+rollio
+romantico
+rompere
+ronzio
+rosolare
+rospo
+rotante
+rotondo
+rotula
+rovescio
+rubizzo
+rubrica
+ruga
+rullino
+rumine
+rumoroso
+ruolo
+rupe
+russare
+rustico
+sabato
+sabbiare
+sabotato
+sagoma
+salasso
+saldatura
+salgemma
+salivare
+salmone
+salone
+saltare
+saluto
+salvo
+sapere
+sapido
+saporito
+saraceno
+sarcasmo
+sarto
+sassoso
+satellite
+satira
+satollo
+saturno
+savana
+savio
+saziato
+sbadiglio
+sbalzo
+sbancato
+sbarra
+sbattere
+sbavare
+sbendare
+sbirciare
+sbloccato
+sbocciato
+sbrinare
+sbruffone
+sbuffare
+scabroso
+scadenza
+scala
+scambiare
+scandalo
+scapola
+scarso
+scatenare
+scavato
+scelto
+scenico
+scettro
+scheda
+schiena
+sciarpa
+scienza
+scindere
+scippo
+sciroppo
+scivolo
+sclerare
+scodella
+scolpito
+scomparto
+sconforto
+scoprire
+scorta
+scossone
+scozzese
+scriba
+scrollare
+scrutinio
+scuderia
+scultore
+scuola
+scuro
+scusare
+sdebitare
+sdoganare
+seccatura
+secondo
+sedano
+seggiola
+segnalato
+segregato
+seguito
+selciato
+selettivo
+sella
+selvaggio
+semaforo
+sembrare
+seme
+seminato
+sempre
+senso
+sentire
+sepolto
+sequenza
+serata
+serbato
+sereno
+serio
+serpente
+serraglio
+servire
+sestina
+setola
+settimana
+sfacelo
+sfaldare
+sfamato
+sfarzoso
+sfaticato
+sfera
+sfida
+sfilato
+sfinge
+sfocato
+sfoderare
+sfogo
+sfoltire
+sforzato
+sfratto
+sfruttato
+sfuggito
+sfumare
+sfuso
+sgabello
+sgarbato
+sgonfiare
+sgorbio
+sgrassato
+sguardo
+sibilo
+siccome
+sierra
+sigla
+signore
+silenzio
+sillaba
+simbolo
+simpatico
+simulato
+sinfonia
+singolo
+sinistro
+sino
+sintesi
+sinusoide
+sipario
+sisma
+sistole
+situato
+slitta
+slogatura
+sloveno
+smarrito
+smemorato
+smentito
+smeraldo
+smilzo
+smontare
+smottato
+smussato
+snellire
+snervato
+snodo
+sobbalzo
+sobrio
+soccorso
+sociale
+sodale
+soffitto
+sogno
+soldato
+solenne
+solido
+sollazzo
+solo
+solubile
+solvente
+somatico
+somma
+sonda
+sonetto
+sonnifero
+sopire
+soppeso
+sopra
+sorgere
+sorpasso
+sorriso
+sorso
+sorteggio
+sorvolato
+sospiro
+sosta
+sottile
+spada
+spalla
+spargere
+spatola
+spavento
+spazzola
+specie
+spedire
+spegnere
+spelatura
+speranza
+spessore
+spettrale
+spezzato
+spia
+spigoloso
+spillato
+spinoso
+spirale
+splendido
+sportivo
+sposo
+spranga
+sprecare
+spronato
+spruzzo
+spuntino
+squillo
+sradicare
+srotolato
+stabile
+stacco
+staffa
+stagnare
+stampato
+stantio
+starnuto
+stasera
+statuto
+stelo
+steppa
+sterzo
+stiletto
+stima
+stirpe
+stivale
+stizzoso
+stonato
+storico
+strappo
+stregato
+stridulo
+strozzare
+strutto
+stuccare
+stufo
+stupendo
+subentro
+succoso
+sudore
+suggerito
+sugo
+sultano
+suonare
+superbo
+supporto
+surgelato
+surrogato
+sussurro
+sutura
+svagare
+svedese
+sveglio
+svelare
+svenuto
+svezia
+sviluppo
+svista
+svizzera
+svolta
+svuotare
+tabacco
+tabulato
+tacciare
+taciturno
+tale
+talismano
+tampone
+tannino
+tara
+tardivo
+targato
+tariffa
+tarpare
+tartaruga
+tasto
+tattico
+taverna
+tavolata
+tazza
+teca
+tecnico
+telefono
+temerario
+tempo
+temuto
+tendone
+tenero
+tensione
+tentacolo
+teorema
+terme
+terrazzo
+terzetto
+tesi
+tesserato
+testato
+tetro
+tettoia
+tifare
+tigella
+timbro
+tinto
+tipico
+tipografo
+tiraggio
+tiro
+titanio
+titolo
+titubante
+tizio
+tizzone
+toccare
+tollerare
+tolto
+tombola
+tomo
+tonfo
+tonsilla
+topazio
+topologia
+toppa
+torba
+tornare
+torrone
+tortora
+toscano
+tossire
+tostatura
+totano
+trabocco
+trachea
+trafila
+tragedia
+tralcio
+tramonto
+transito
+trapano
+trarre
+trasloco
+trattato
+trave
+treccia
+tremolio
+trespolo
+tributo
+tricheco
+trifoglio
+trillo
+trincea
+trio
+tristezza
+triturato
+trivella
+tromba
+trono
+troppo
+trottola
+trovare
+truccato
+tubatura
+tuffato
+tulipano
+tumulto
+tunisia
+turbare
+turchino
+tuta
+tutela
+ubicato
+uccello
+uccisore
+udire
+uditivo
+uffa
+ufficio
+uguale
+ulisse
+ultimato
+umano
+umile
+umorismo
+uncinetto
+ungere
+ungherese
+unicorno
+unificato
+unisono
+unitario
+unte
+uovo
+upupa
+uragano
+urgenza
+urlo
+usanza
+usato
+uscito
+usignolo
+usuraio
+utensile
+utilizzo
+utopia
+vacante
+vaccinato
+vagabondo
+vagliato
+valanga
+valgo
+valico
+valletta
+valoroso
+valutare
+valvola
+vampata
+vangare
+vanitoso
+vano
+vantaggio
+vanvera
+vapore
+varano
+varcato
+variante
+vasca
+vedetta
+vedova
+veduto
+vegetale
+veicolo
+velcro
+velina
+velluto
+veloce
+venato
+vendemmia
+vento
+verace
+verbale
+vergogna
+verifica
+vero
+verruca
+verticale
+vescica
+vessillo
+vestale
+veterano
+vetrina
+vetusto
+viandante
+vibrante
+vicenda
+vichingo
+vicinanza
+vidimare
+vigilia
+vigneto
+vigore
+vile
+villano
+vimini
+vincitore
+viola
+vipera
+virgola
+virologo
+virulento
+viscoso
+visione
+vispo
+vissuto
+visura
+vita
+vitello
+vittima
+vivanda
+vivido
+viziare
+voce
+voga
+volatile
+volere
+volpe
+voragine
+vulcano
+zampogna
+zanna
+zappato
+zattera
+zavorra
+zefiro
+zelante
+zelo
+zenzero
+zerbino
+zibetto
+zinco
+zircone
+zitto
+zolla
+zotico
+zucchero
+zufolo
+zulu
+zuppa`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/japanese.js
+  var wordlist5 = /* @__PURE__ */ Object.freeze(`\u3042\u3044\u3053\u304F\u3057\u3093
+\u3042\u3044\u3055\u3064
+\u3042\u3044\u305F\u3099
+\u3042\u304A\u305D\u3099\u3089
+\u3042\u304B\u3061\u3083\u3093
+\u3042\u304D\u308B
+\u3042\u3051\u304B\u3099\u305F
+\u3042\u3051\u308B
+\u3042\u3053\u304B\u3099\u308C\u308B
+\u3042\u3055\u3044
+\u3042\u3055\u3072
+\u3042\u3057\u3042\u3068
+\u3042\u3057\u3099\u308F\u3046
+\u3042\u3059\u3099\u304B\u308B
+\u3042\u3059\u3099\u304D
+\u3042\u305D\u3075\u3099
+\u3042\u305F\u3048\u308B
+\u3042\u305F\u305F\u3081\u308B
+\u3042\u305F\u308A\u307E\u3048
+\u3042\u305F\u308B
+\u3042\u3064\u3044
+\u3042\u3064\u304B\u3046
+\u3042\u3063\u3057\u3085\u304F
+\u3042\u3064\u307E\u308A
+\u3042\u3064\u3081\u308B
+\u3042\u3066\u306A
+\u3042\u3066\u306F\u307E\u308B
+\u3042\u3072\u308B
+\u3042\u3075\u3099\u3089
+\u3042\u3075\u3099\u308B
+\u3042\u3075\u308C\u308B
+\u3042\u307E\u3044
+\u3042\u307E\u3068\u3099
+\u3042\u307E\u3084\u304B\u3059
+\u3042\u307E\u308A
+\u3042\u307F\u3082\u306E
+\u3042\u3081\u308A\u304B
+\u3042\u3084\u307E\u308B
+\u3042\u3086\u3080
+\u3042\u3089\u3044\u304F\u3099\u307E
+\u3042\u3089\u3057
+\u3042\u3089\u3059\u3057\u3099
+\u3042\u3089\u305F\u3081\u308B
+\u3042\u3089\u3086\u308B
+\u3042\u3089\u308F\u3059
+\u3042\u308A\u304B\u3099\u3068\u3046
+\u3042\u308F\u305B\u308B
+\u3042\u308F\u3066\u308B
+\u3042\u3093\u3044
+\u3042\u3093\u304B\u3099\u3044
+\u3042\u3093\u3053
+\u3042\u3093\u305B\u3099\u3093
+\u3042\u3093\u3066\u3044
+\u3042\u3093\u306A\u3044
+\u3042\u3093\u307E\u308A
+\u3044\u3044\u305F\u3099\u3059
+\u3044\u304A\u3093
+\u3044\u304B\u3099\u3044
+\u3044\u304B\u3099\u304F
+\u3044\u304D\u304A\u3044
+\u3044\u304D\u306A\u308A
+\u3044\u304D\u3082\u306E
+\u3044\u304D\u308B
+\u3044\u304F\u3057\u3099
+\u3044\u304F\u3075\u3099\u3093
+\u3044\u3051\u306F\u3099\u306A
+\u3044\u3051\u3093
+\u3044\u3053\u3046
+\u3044\u3053\u304F
+\u3044\u3053\u3064
+\u3044\u3055\u307E\u3057\u3044
+\u3044\u3055\u3093
+\u3044\u3057\u304D
+\u3044\u3057\u3099\u3085\u3046
+\u3044\u3057\u3099\u3087\u3046
+\u3044\u3057\u3099\u308F\u308B
+\u3044\u3059\u3099\u307F
+\u3044\u3059\u3099\u308C
+\u3044\u305B\u3044
+\u3044\u305B\u3048\u3072\u3099
+\u3044\u305B\u304B\u3044
+\u3044\u305B\u304D
+\u3044\u305B\u3099\u3093
+\u3044\u305D\u3046\u308D\u3046
+\u3044\u305D\u304B\u3099\u3057\u3044
+\u3044\u305F\u3099\u3044
+\u3044\u305F\u3099\u304F
+\u3044\u305F\u3059\u3099\u3089
+\u3044\u305F\u307F
+\u3044\u305F\u308A\u3042
+\u3044\u3061\u304A\u3046
+\u3044\u3061\u3057\u3099
+\u3044\u3061\u3068\u3099
+\u3044\u3061\u306F\u3099
+\u3044\u3061\u3075\u3099
+\u3044\u3061\u308A\u3085\u3046
+\u3044\u3064\u304B
+\u3044\u3063\u3057\u3085\u3093
+\u3044\u3063\u305B\u3044
+\u3044\u3063\u305D\u3046
+\u3044\u3063\u305F\u3093
+\u3044\u3063\u3061
+\u3044\u3063\u3066\u3044
+\u3044\u3063\u307B\u309A\u3046
+\u3044\u3066\u3055\u3099
+\u3044\u3066\u3093
+\u3044\u3068\u3099\u3046
+\u3044\u3068\u3053
+\u3044\u306A\u3044
+\u3044\u306A\u304B
+\u3044\u306D\u3080\u308A
+\u3044\u306E\u3061
+\u3044\u306E\u308B
+\u3044\u306F\u3064
+\u3044\u306F\u3099\u308B
+\u3044\u306F\u3093
+\u3044\u3072\u3099\u304D
+\u3044\u3072\u3093
+\u3044\u3075\u304F
+\u3044\u3078\u3093
+\u3044\u307B\u3046
+\u3044\u307F\u3093
+\u3044\u3082\u3046\u3068
+\u3044\u3082\u305F\u308C
+\u3044\u3082\u308A
+\u3044\u3084\u304B\u3099\u308B
+\u3044\u3084\u3059
+\u3044\u3088\u304B\u3093
+\u3044\u3088\u304F
+\u3044\u3089\u3044
+\u3044\u3089\u3059\u3068
+\u3044\u308A\u304F\u3099\u3061
+\u3044\u308A\u3087\u3046
+\u3044\u308C\u3044
+\u3044\u308C\u3082\u306E
+\u3044\u308C\u308B
+\u3044\u308D\u3048\u3093\u3072\u309A\u3064
+\u3044\u308F\u3044
+\u3044\u308F\u3046
+\u3044\u308F\u304B\u3093
+\u3044\u308F\u306F\u3099
+\u3044\u308F\u3086\u308B
+\u3044\u3093\u3051\u3099\u3093\u307E\u3081
+\u3044\u3093\u3055\u3064
+\u3044\u3093\u3057\u3087\u3046
+\u3044\u3093\u3088\u3046
+\u3046\u3048\u304D
+\u3046\u3048\u308B
+\u3046\u304A\u3055\u3099
+\u3046\u304B\u3099\u3044
+\u3046\u304B\u3075\u3099
+\u3046\u304B\u3078\u3099\u308B
+\u3046\u304D\u308F
+\u3046\u304F\u3089\u3044\u306A
+\u3046\u304F\u308C\u308C
+\u3046\u3051\u305F\u307E\u308F\u308B
+\u3046\u3051\u3064\u3051
+\u3046\u3051\u3068\u308B
+\u3046\u3051\u3082\u3064
+\u3046\u3051\u308B
+\u3046\u3053\u3099\u304B\u3059
+\u3046\u3053\u3099\u304F
+\u3046\u3053\u3093
+\u3046\u3055\u304D\u3099
+\u3046\u3057\u306A\u3046
+\u3046\u3057\u308D\u304B\u3099\u307F
+\u3046\u3059\u3044
+\u3046\u3059\u304D\u3099
+\u3046\u3059\u304F\u3099\u3089\u3044
+\u3046\u3059\u3081\u308B
+\u3046\u305B\u3064
+\u3046\u3061\u3042\u308F\u305B
+\u3046\u3061\u304B\u3099\u308F
+\u3046\u3061\u304D
+\u3046\u3061\u3085\u3046
+\u3046\u3063\u304B\u308A
+\u3046\u3064\u304F\u3057\u3044
+\u3046\u3063\u305F\u3048\u308B
+\u3046\u3064\u308B
+\u3046\u3068\u3099\u3093
+\u3046\u306A\u304D\u3099
+\u3046\u306A\u3057\u3099
+\u3046\u306A\u3059\u3099\u304F
+\u3046\u306A\u308B
+\u3046\u306D\u308B
+\u3046\u306E\u3046
+\u3046\u3075\u3099\u3051\u3099
+\u3046\u3075\u3099\u3053\u3099\u3048
+\u3046\u307E\u308C\u308B
+\u3046\u3081\u308B
+\u3046\u3082\u3046
+\u3046\u3084\u307E\u3046
+\u3046\u3088\u304F
+\u3046\u3089\u304B\u3099\u3048\u3059
+\u3046\u3089\u304F\u3099\u3061
+\u3046\u3089\u306A\u3044
+\u3046\u308A\u3042\u3051\u3099
+\u3046\u308A\u304D\u308C
+\u3046\u308B\u3055\u3044
+\u3046\u308C\u3057\u3044
+\u3046\u308C\u3086\u304D
+\u3046\u308C\u308B
+\u3046\u308D\u3053
+\u3046\u308F\u304D
+\u3046\u308F\u3055
+\u3046\u3093\u3053\u3046
+\u3046\u3093\u3061\u3093
+\u3046\u3093\u3066\u3093
+\u3046\u3093\u3068\u3099\u3046
+\u3048\u3044\u3048\u3093
+\u3048\u3044\u304B\u3099
+\u3048\u3044\u304D\u3087\u3046
+\u3048\u3044\u3053\u3099
+\u3048\u3044\u305B\u3044
+\u3048\u3044\u3075\u3099\u3093
+\u3048\u3044\u3088\u3046
+\u3048\u3044\u308F
+\u3048\u304A\u308A
+\u3048\u304B\u3099\u304A
+\u3048\u304B\u3099\u304F
+\u3048\u304D\u305F\u3044
+\u3048\u304F\u305B\u308B
+\u3048\u3057\u3083\u304F
+\u3048\u3059\u3066
+\u3048\u3064\u3089\u3093
+\u3048\u306E\u304F\u3099
+\u3048\u307B\u3046\u307E\u304D
+\u3048\u307B\u3093
+\u3048\u307E\u304D
+\u3048\u3082\u3057\u3099
+\u3048\u3082\u306E
+\u3048\u3089\u3044
+\u3048\u3089\u3075\u3099
+\u3048\u308A\u3042
+\u3048\u3093\u3048\u3093
+\u3048\u3093\u304B\u3044
+\u3048\u3093\u304D\u3099
+\u3048\u3093\u3051\u3099\u304D
+\u3048\u3093\u3057\u3085\u3046
+\u3048\u3093\u305B\u3099\u3064
+\u3048\u3093\u305D\u304F
+\u3048\u3093\u3061\u3087\u3046
+\u3048\u3093\u3068\u3064
+\u304A\u3044\u304B\u3051\u308B
+\u304A\u3044\u3053\u3059
+\u304A\u3044\u3057\u3044
+\u304A\u3044\u3064\u304F
+\u304A\u3046\u3048\u3093
+\u304A\u3046\u3055\u307E
+\u304A\u3046\u3057\u3099
+\u304A\u3046\u305B\u3064
+\u304A\u3046\u305F\u3044
+\u304A\u3046\u3075\u304F
+\u304A\u3046\u3078\u3099\u3044
+\u304A\u3046\u3088\u3046
+\u304A\u3048\u308B
+\u304A\u304A\u3044
+\u304A\u304A\u3046
+\u304A\u304A\u3068\u3099\u304A\u308A
+\u304A\u304A\u3084
+\u304A\u304A\u3088\u305D
+\u304A\u304B\u3048\u308A
+\u304A\u304B\u3059\u3099
+\u304A\u304B\u3099\u3080
+\u304A\u304B\u308F\u308A
+\u304A\u304D\u3099\u306A\u3046
+\u304A\u304D\u308B
+\u304A\u304F\u3055\u307E
+\u304A\u304F\u3057\u3099\u3087\u3046
+\u304A\u304F\u308A\u304B\u3099\u306A
+\u304A\u304F\u308B
+\u304A\u304F\u308C\u308B
+\u304A\u3053\u3059
+\u304A\u3053\u306A\u3046
+\u304A\u3053\u308B
+\u304A\u3055\u3048\u308B
+\u304A\u3055\u306A\u3044
+\u304A\u3055\u3081\u308B
+\u304A\u3057\u3044\u308C
+\u304A\u3057\u3048\u308B
+\u304A\u3057\u3099\u304D\u3099
+\u304A\u3057\u3099\u3055\u3093
+\u304A\u3057\u3083\u308C
+\u304A\u305D\u3089\u304F
+\u304A\u305D\u308F\u308B
+\u304A\u305F\u304B\u3099\u3044
+\u304A\u305F\u304F
+\u304A\u305F\u3099\u3084\u304B
+\u304A\u3061\u3064\u304F
+\u304A\u3063\u3068
+\u304A\u3064\u308A
+\u304A\u3066\u3099\u304B\u3051
+\u304A\u3068\u3057\u3082\u306E
+\u304A\u3068\u306A\u3057\u3044
+\u304A\u3068\u3099\u308A
+\u304A\u3068\u3099\u308D\u304B\u3059
+\u304A\u306F\u3099\u3055\u3093
+\u304A\u307E\u3044\u308A
+\u304A\u3081\u3066\u3099\u3068\u3046
+\u304A\u3082\u3044\u3066\u3099
+\u304A\u3082\u3046
+\u304A\u3082\u305F\u3044
+\u304A\u3082\u3061\u3083
+\u304A\u3084\u3064
+\u304A\u3084\u3086\u3072\u3099
+\u304A\u3088\u307B\u3099\u3059
+\u304A\u3089\u3093\u305F\u3099
+\u304A\u308D\u3059
+\u304A\u3093\u304B\u3099\u304F
+\u304A\u3093\u3051\u3044
+\u304A\u3093\u3057\u3083
+\u304A\u3093\u305B\u3093
+\u304A\u3093\u305F\u3099\u3093
+\u304A\u3093\u3061\u3085\u3046
+\u304A\u3093\u3068\u3099\u3051\u3044
+\u304B\u3042\u3064
+\u304B\u3044\u304B\u3099
+\u304B\u3099\u3044\u304D
+\u304B\u3099\u3044\u3051\u3093
+\u304B\u3099\u3044\u3053\u3046
+\u304B\u3044\u3055\u3064
+\u304B\u3044\u3057\u3083
+\u304B\u3044\u3059\u3044\u3088\u304F
+\u304B\u3044\u305B\u3099\u3093
+\u304B\u3044\u305D\u3099\u3046\u3068\u3099
+\u304B\u3044\u3064\u3046
+\u304B\u3044\u3066\u3093
+\u304B\u3044\u3068\u3046
+\u304B\u3044\u3075\u304F
+\u304B\u3099\u3044\u3078\u304D
+\u304B\u3044\u307B\u3046
+\u304B\u3044\u3088\u3046
+\u304B\u3099\u3044\u3089\u3044
+\u304B\u3044\u308F
+\u304B\u3048\u308B
+\u304B\u304A\u308A
+\u304B\u304B\u3048\u308B
+\u304B\u304B\u3099\u304F
+\u304B\u304B\u3099\u3057
+\u304B\u304B\u3099\u307F
+\u304B\u304F\u3053\u3099
+\u304B\u304F\u3068\u304F
+\u304B\u3055\u3099\u308B
+\u304B\u3099\u305D\u3099\u3046
+\u304B\u305F\u3044
+\u304B\u305F\u3061
+\u304B\u3099\u3061\u3087\u3046
+\u304B\u3099\u3063\u304D\u3085\u3046
+\u304B\u3099\u3063\u3053\u3046
+\u304B\u3099\u3063\u3055\u3093
+\u304B\u3099\u3063\u3057\u3087\u3046
+\u304B\u306A\u3055\u3099\u308F\u3057
+\u304B\u306E\u3046
+\u304B\u3099\u306F\u304F
+\u304B\u3075\u3099\u304B
+\u304B\u307B\u3046
+\u304B\u307B\u3053\u3099
+\u304B\u307E\u3046
+\u304B\u307E\u307B\u3099\u3053
+\u304B\u3081\u308C\u304A\u3093
+\u304B\u3086\u3044
+\u304B\u3088\u3046\u3072\u3099
+\u304B\u3089\u3044
+\u304B\u308B\u3044
+\u304B\u308D\u3046
+\u304B\u308F\u304F
+\u304B\u308F\u3089
+\u304B\u3099\u3093\u304B
+\u304B\u3093\u3051\u3044
+\u304B\u3093\u3053\u3046
+\u304B\u3093\u3057\u3083
+\u304B\u3093\u305D\u3046
+\u304B\u3093\u305F\u3093
+\u304B\u3093\u3061
+\u304B\u3099\u3093\u306F\u3099\u308B
+\u304D\u3042\u3044
+\u304D\u3042\u3064
+\u304D\u3044\u308D
+\u304D\u3099\u3044\u3093
+\u304D\u3046\u3044
+\u304D\u3046\u3093
+\u304D\u3048\u308B
+\u304D\u304A\u3046
+\u304D\u304A\u304F
+\u304D\u304A\u3061
+\u304D\u304A\u3093
+\u304D\u304B\u3044
+\u304D\u304B\u304F
+\u304D\u304B\u3093\u3057\u3083
+\u304D\u304D\u3066
+\u304D\u304F\u306F\u3099\u308A
+\u304D\u304F\u3089\u3051\u3099
+\u304D\u3051\u3093\u305B\u3044
+\u304D\u3053\u3046
+\u304D\u3053\u3048\u308B
+\u304D\u3053\u304F
+\u304D\u3055\u3044
+\u304D\u3055\u304F
+\u304D\u3055\u307E
+\u304D\u3055\u3089\u304D\u3099
+\u304D\u3099\u3057\u3099\u304B\u304B\u3099\u304F
+\u304D\u3099\u3057\u304D
+\u304D\u3099\u3057\u3099\u305F\u3044\u3051\u3093
+\u304D\u3099\u3057\u3099\u306B\u3063\u3066\u3044
+\u304D\u3099\u3057\u3099\u3085\u3064\u3057\u3083
+\u304D\u3059\u3046
+\u304D\u305B\u3044
+\u304D\u305B\u304D
+\u304D\u305B\u3064
+\u304D\u305D\u3046
+\u304D\u305D\u3099\u304F
+\u304D\u305D\u3099\u3093
+\u304D\u305F\u3048\u308B
+\u304D\u3061\u3087\u3046
+\u304D\u3064\u3048\u3093
+\u304D\u3099\u3063\u3061\u308A
+\u304D\u3064\u3064\u304D
+\u304D\u3064\u306D
+\u304D\u3066\u3044
+\u304D\u3068\u3099\u3046
+\u304D\u3068\u3099\u304F
+\u304D\u306A\u3044
+\u304D\u306A\u304B\u3099
+\u304D\u306A\u3053
+\u304D\u306C\u3053\u3099\u3057
+\u304D\u306D\u3093
+\u304D\u306E\u3046
+\u304D\u306E\u3057\u305F
+\u304D\u306F\u304F
+\u304D\u3072\u3099\u3057\u3044
+\u304D\u3072\u3093
+\u304D\u3075\u304F
+\u304D\u3075\u3099\u3093
+\u304D\u307B\u3099\u3046
+\u304D\u307B\u3093
+\u304D\u307E\u308B
+\u304D\u307F\u3064
+\u304D\u3080\u3059\u3099\u304B\u3057\u3044
+\u304D\u3081\u308B
+\u304D\u3082\u305F\u3099\u3081\u3057
+\u304D\u3082\u3061
+\u304D\u3082\u306E
+\u304D\u3083\u304F
+\u304D\u3084\u304F
+\u304D\u3099\u3085\u3046\u306B\u304F
+\u304D\u3088\u3046
+\u304D\u3087\u3046\u308A\u3085\u3046
+\u304D\u3089\u3044
+\u304D\u3089\u304F
+\u304D\u308A\u3093
+\u304D\u308C\u3044
+\u304D\u308C\u3064
+\u304D\u308D\u304F
+\u304D\u3099\u308D\u3093
+\u304D\u308F\u3081\u308B
+\u304D\u3099\u3093\u3044\u308D
+\u304D\u3093\u304B\u304F\u3057\u3099
+\u304D\u3093\u3057\u3099\u3087
+\u304D\u3093\u3088\u3046\u3072\u3099
+\u304F\u3099\u3042\u3044
+\u304F\u3044\u3059\u3099
+\u304F\u3046\u304B\u3093
+\u304F\u3046\u304D
+\u304F\u3046\u304F\u3099\u3093
+\u304F\u3046\u3053\u3046
+\u304F\u3099\u3046\u305B\u3044
+\u304F\u3046\u305D\u3046
+\u304F\u3099\u3046\u305F\u3089
+\u304F\u3046\u3075\u304F
+\u304F\u3046\u307B\u3099
+\u304F\u304B\u3093
+\u304F\u304D\u3087\u3046
+\u304F\u3051\u3099\u3093
+\u304F\u3099\u3053\u3046
+\u304F\u3055\u3044
+\u304F\u3055\u304D
+\u304F\u3055\u306F\u3099\u306A
+\u304F\u3055\u308B
+\u304F\u3057\u3083\u307F
+\u304F\u3057\u3087\u3046
+\u304F\u3059\u306E\u304D
+\u304F\u3059\u308A\u3086\u3072\u3099
+\u304F\u305B\u3051\u3099
+\u304F\u305B\u3093
+\u304F\u3099\u305F\u3044\u3066\u304D
+\u304F\u305F\u3099\u3055\u308B
+\u304F\u305F\u3072\u3099\u308C\u308B
+\u304F\u3061\u3053\u307F
+\u304F\u3061\u3055\u304D
+\u304F\u3064\u3057\u305F
+\u304F\u3099\u3063\u3059\u308A
+\u304F\u3064\u308D\u304F\u3099
+\u304F\u3068\u3046\u3066\u3093
+\u304F\u3068\u3099\u304F
+\u304F\u306A\u3093
+\u304F\u306D\u304F\u306D
+\u304F\u306E\u3046
+\u304F\u3075\u3046
+\u304F\u307F\u3042\u308F\u305B
+\u304F\u307F\u305F\u3066\u308B
+\u304F\u3081\u308B
+\u304F\u3084\u304F\u3057\u3087
+\u304F\u3089\u3059
+\u304F\u3089\u3078\u3099\u308B
+\u304F\u308B\u307E
+\u304F\u308C\u308B
+\u304F\u308D\u3046
+\u304F\u308F\u3057\u3044
+\u304F\u3099\u3093\u304B\u3093
+\u304F\u3099\u3093\u3057\u3087\u304F
+\u304F\u3099\u3093\u305F\u3044
+\u304F\u3099\u3093\u3066
+\u3051\u3042\u306A
+\u3051\u3044\u304B\u304F
+\u3051\u3044\u3051\u3093
+\u3051\u3044\u3053
+\u3051\u3044\u3055\u3064
+\u3051\u3099\u3044\u3057\u3099\u3085\u3064
+\u3051\u3044\u305F\u3044
+\u3051\u3099\u3044\u306E\u3046\u3057\u3099\u3093
+\u3051\u3044\u308C\u304D
+\u3051\u3044\u308D
+\u3051\u304A\u3068\u3059
+\u3051\u304A\u308A\u3082\u306E
+\u3051\u3099\u304D\u304B
+\u3051\u3099\u304D\u3051\u3099\u3093
+\u3051\u3099\u304D\u305F\u3099\u3093
+\u3051\u3099\u304D\u3061\u3093
+\u3051\u3099\u304D\u3068\u3064
+\u3051\u3099\u304D\u306F
+\u3051\u3099\u304D\u3084\u304F
+\u3051\u3099\u3053\u3046
+\u3051\u3099\u3053\u304F\u3057\u3099\u3087\u3046
+\u3051\u3099\u3055\u3099\u3044
+\u3051\u3055\u304D
+\u3051\u3099\u3055\u3099\u3093
+\u3051\u3057\u304D
+\u3051\u3057\u3053\u3099\u3080
+\u3051\u3057\u3087\u3046
+\u3051\u3099\u3059\u3068
+\u3051\u305F\u306F\u3099
+\u3051\u3061\u3083\u3063\u3075\u309A
+\u3051\u3061\u3089\u3059
+\u3051\u3064\u3042\u3064
+\u3051\u3064\u3044
+\u3051\u3064\u3048\u304D
+\u3051\u3063\u3053\u3093
+\u3051\u3064\u3057\u3099\u3087
+\u3051\u3063\u305B\u304D
+\u3051\u3063\u3066\u3044
+\u3051\u3064\u307E\u3064
+\u3051\u3099\u3064\u3088\u3046\u3072\u3099
+\u3051\u3099\u3064\u308C\u3044
+\u3051\u3064\u308D\u3093
+\u3051\u3099\u3068\u3099\u304F
+\u3051\u3068\u306F\u3099\u3059
+\u3051\u3068\u308B
+\u3051\u306A\u3051\u3099
+\u3051\u306A\u3059
+\u3051\u306A\u307F
+\u3051\u306C\u304D
+\u3051\u3099\u306D\u3064
+\u3051\u306D\u3093
+\u3051\u306F\u3044
+\u3051\u3099\u3072\u3093
+\u3051\u3075\u3099\u304B\u3044
+\u3051\u3099\u307B\u3099\u304F
+\u3051\u307E\u308A
+\u3051\u307F\u304B\u308B
+\u3051\u3080\u3057
+\u3051\u3080\u308A
+\u3051\u3082\u306E
+\u3051\u3089\u3044
+\u3051\u308D\u3051\u308D
+\u3051\u308F\u3057\u3044
+\u3051\u3093\u3044
+\u3051\u3093\u3048\u3064
+\u3051\u3093\u304A
+\u3051\u3093\u304B
+\u3051\u3099\u3093\u304D
+\u3051\u3093\u3051\u3099\u3093
+\u3051\u3093\u3053\u3046
+\u3051\u3093\u3055\u304F
+\u3051\u3093\u3057\u3085\u3046
+\u3051\u3093\u3059\u3046
+\u3051\u3099\u3093\u305D\u3046
+\u3051\u3093\u3061\u304F
+\u3051\u3093\u3066\u3044
+\u3051\u3093\u3068\u3046
+\u3051\u3093\u306A\u3044
+\u3051\u3093\u306B\u3093
+\u3051\u3099\u3093\u3075\u3099\u3064
+\u3051\u3093\u307E
+\u3051\u3093\u307F\u3093
+\u3051\u3093\u3081\u3044
+\u3051\u3093\u3089\u3093
+\u3051\u3093\u308A
+\u3053\u3042\u304F\u307E
+\u3053\u3044\u306C
+\u3053\u3044\u3072\u3099\u3068
+\u3053\u3099\u3046\u3044
+\u3053\u3046\u3048\u3093
+\u3053\u3046\u304A\u3093
+\u3053\u3046\u304B\u3093
+\u3053\u3099\u3046\u304D\u3085\u3046
+\u3053\u3099\u3046\u3051\u3044
+\u3053\u3046\u3053\u3046
+\u3053\u3046\u3055\u3044
+\u3053\u3046\u3057\u3099
+\u3053\u3046\u3059\u3044
+\u3053\u3099\u3046\u305B\u3044
+\u3053\u3046\u305D\u304F
+\u3053\u3046\u305F\u3044
+\u3053\u3046\u3061\u3083
+\u3053\u3046\u3064\u3046
+\u3053\u3046\u3066\u3044
+\u3053\u3046\u3068\u3099\u3046
+\u3053\u3046\u306A\u3044
+\u3053\u3046\u306F\u3044
+\u3053\u3099\u3046\u307B\u3046
+\u3053\u3099\u3046\u307E\u3093
+\u3053\u3046\u3082\u304F
+\u3053\u3046\u308A\u3064
+\u3053\u3048\u308B
+\u3053\u304A\u308A
+\u3053\u3099\u304B\u3044
+\u3053\u3099\u304B\u3099\u3064
+\u3053\u3099\u304B\u3093
+\u3053\u304F\u3053\u3099
+\u3053\u304F\u3055\u3044
+\u3053\u304F\u3068\u3046
+\u3053\u304F\u306A\u3044
+\u3053\u304F\u306F\u304F
+\u3053\u304F\u3099\u307E
+\u3053\u3051\u3044
+\u3053\u3051\u308B
+\u3053\u3053\u306E\u304B
+\u3053\u3053\u308D
+\u3053\u3055\u3081
+\u3053\u3057\u3064
+\u3053\u3059\u3046
+\u3053\u305B\u3044
+\u3053\u305B\u304D
+\u3053\u305B\u3099\u3093
+\u3053\u305D\u305F\u3099\u3066
+\u3053\u305F\u3044
+\u3053\u305F\u3048\u308B
+\u3053\u305F\u3064
+\u3053\u3061\u3087\u3046
+\u3053\u3063\u304B
+\u3053\u3064\u3053\u3064
+\u3053\u3064\u306F\u3099\u3093
+\u3053\u3064\u3075\u3099
+\u3053\u3066\u3044
+\u3053\u3066\u3093
+\u3053\u3068\u304B\u3099\u3089
+\u3053\u3068\u3057
+\u3053\u3068\u306F\u3099
+\u3053\u3068\u308A
+\u3053\u306A\u3053\u3099\u306A
+\u3053\u306D\u3053\u306D
+\u3053\u306E\u307E\u307E
+\u3053\u306E\u307F
+\u3053\u306E\u3088
+\u3053\u3099\u306F\u3093
+\u3053\u3072\u3064\u3057\u3099
+\u3053\u3075\u3046
+\u3053\u3075\u3093
+\u3053\u307B\u3099\u308C\u308B
+\u3053\u3099\u307E\u3042\u3075\u3099\u3089
+\u3053\u307E\u304B\u3044
+\u3053\u3099\u307E\u3059\u308A
+\u3053\u307E\u3064\u306A
+\u3053\u307E\u308B
+\u3053\u3080\u304D\u3099\u3053
+\u3053\u3082\u3057\u3099
+\u3053\u3082\u3061
+\u3053\u3082\u306E
+\u3053\u3082\u3093
+\u3053\u3084\u304F
+\u3053\u3084\u307E
+\u3053\u3086\u3046
+\u3053\u3086\u3072\u3099
+\u3053\u3088\u3044
+\u3053\u3088\u3046
+\u3053\u308A\u308B
+\u3053\u308C\u304F\u3057\u3087\u3093
+\u3053\u308D\u3063\u3051
+\u3053\u308F\u3082\u3066
+\u3053\u308F\u308C\u308B
+\u3053\u3093\u3044\u3093
+\u3053\u3093\u304B\u3044
+\u3053\u3093\u304D
+\u3053\u3093\u3057\u3085\u3046
+\u3053\u3093\u3059\u3044
+\u3053\u3093\u305F\u3099\u3066
+\u3053\u3093\u3068\u3093
+\u3053\u3093\u306A\u3093
+\u3053\u3093\u3072\u3099\u306B
+\u3053\u3093\u307B\u309A\u3093
+\u3053\u3093\u307E\u3051
+\u3053\u3093\u3084
+\u3053\u3093\u308C\u3044
+\u3053\u3093\u308F\u304F
+\u3055\u3099\u3044\u3048\u304D
+\u3055\u3044\u304B\u3044
+\u3055\u3044\u304D\u3093
+\u3055\u3099\u3044\u3051\u3099\u3093
+\u3055\u3099\u3044\u3053
+\u3055\u3044\u3057\u3087
+\u3055\u3044\u305B\u3044
+\u3055\u3099\u3044\u305F\u304F
+\u3055\u3099\u3044\u3061\u3085\u3046
+\u3055\u3044\u3066\u304D
+\u3055\u3099\u3044\u308A\u3087\u3046
+\u3055\u3046\u306A
+\u3055\u304B\u3044\u3057
+\u3055\u304B\u3099\u3059
+\u3055\u304B\u306A
+\u3055\u304B\u307F\u3061
+\u3055\u304B\u3099\u308B
+\u3055\u304D\u3099\u3087\u3046
+\u3055\u304F\u3057
+\u3055\u304F\u3072\u3093
+\u3055\u304F\u3089
+\u3055\u3053\u304F
+\u3055\u3053\u3064
+\u3055\u3059\u3099\u304B\u308B
+\u3055\u3099\u305B\u304D
+\u3055\u305F\u3093
+\u3055\u3064\u3048\u3044
+\u3055\u3099\u3064\u304A\u3093
+\u3055\u3099\u3063\u304B
+\u3055\u3099\u3064\u304B\u3099\u304F
+\u3055\u3063\u304D\u3087\u304F
+\u3055\u3099\u3063\u3057
+\u3055\u3064\u3057\u3099\u3093
+\u3055\u3099\u3063\u305D\u3046
+\u3055\u3064\u305F\u306F\u3099
+\u3055\u3064\u307E\u3044\u3082
+\u3055\u3066\u3044
+\u3055\u3068\u3044\u3082
+\u3055\u3068\u3046
+\u3055\u3068\u304A\u3084
+\u3055\u3068\u3057
+\u3055\u3068\u308B
+\u3055\u306E\u3046
+\u3055\u306F\u3099\u304F
+\u3055\u3072\u3099\u3057\u3044
+\u3055\u3078\u3099\u3064
+\u3055\u307B\u3046
+\u3055\u307B\u3068\u3099
+\u3055\u307E\u3059
+\u3055\u307F\u3057\u3044
+\u3055\u307F\u305F\u3099\u308C
+\u3055\u3080\u3051
+\u3055\u3081\u308B
+\u3055\u3084\u3048\u3093\u3068\u3099\u3046
+\u3055\u3086\u3046
+\u3055\u3088\u3046
+\u3055\u3088\u304F
+\u3055\u3089\u305F\u3099
+\u3055\u3099\u308B\u305D\u306F\u3099
+\u3055\u308F\u3084\u304B
+\u3055\u308F\u308B
+\u3055\u3093\u3044\u3093
+\u3055\u3093\u304B
+\u3055\u3093\u304D\u3083\u304F
+\u3055\u3093\u3053\u3046
+\u3055\u3093\u3055\u3044
+\u3055\u3099\u3093\u3057\u3087
+\u3055\u3093\u3059\u3046
+\u3055\u3093\u305B\u3044
+\u3055\u3093\u305D
+\u3055\u3093\u3061
+\u3055\u3093\u307E
+\u3055\u3093\u307F
+\u3055\u3093\u3089\u3093
+\u3057\u3042\u3044
+\u3057\u3042\u3051\u3099
+\u3057\u3042\u3055\u3063\u3066
+\u3057\u3042\u308F\u305B
+\u3057\u3044\u304F
+\u3057\u3044\u3093
+\u3057\u3046\u3061
+\u3057\u3048\u3044
+\u3057\u304A\u3051
+\u3057\u304B\u3044
+\u3057\u304B\u304F
+\u3057\u3099\u304B\u3093
+\u3057\u3053\u3099\u3068
+\u3057\u3059\u3046
+\u3057\u3099\u305F\u3099\u3044
+\u3057\u305F\u3046\u3051
+\u3057\u305F\u304D\u3099
+\u3057\u305F\u3066
+\u3057\u305F\u307F
+\u3057\u3061\u3087\u3046
+\u3057\u3061\u308A\u3093
+\u3057\u3063\u304B\u308A
+\u3057\u3064\u3057\u3099
+\u3057\u3064\u3082\u3093
+\u3057\u3066\u3044
+\u3057\u3066\u304D
+\u3057\u3066\u3064
+\u3057\u3099\u3066\u3093
+\u3057\u3099\u3068\u3099\u3046
+\u3057\u306A\u304D\u3099\u308C
+\u3057\u306A\u3082\u306E
+\u3057\u306A\u3093
+\u3057\u306D\u307E
+\u3057\u306D\u3093
+\u3057\u306E\u304F\u3099
+\u3057\u306E\u3075\u3099
+\u3057\u306F\u3044
+\u3057\u306F\u3099\u304B\u308A
+\u3057\u306F\u3064
+\u3057\u306F\u3089\u3044
+\u3057\u306F\u3093
+\u3057\u3072\u3087\u3046
+\u3057\u3075\u304F
+\u3057\u3099\u3075\u3099\u3093
+\u3057\u3078\u3044
+\u3057\u307B\u3046
+\u3057\u307B\u3093
+\u3057\u307E\u3046
+\u3057\u307E\u308B
+\u3057\u307F\u3093
+\u3057\u3080\u3051\u308B
+\u3057\u3099\u3080\u3057\u3087
+\u3057\u3081\u3044
+\u3057\u3081\u308B
+\u3057\u3082\u3093
+\u3057\u3083\u3044\u3093
+\u3057\u3083\u3046\u3093
+\u3057\u3083\u304A\u3093
+\u3057\u3099\u3083\u304B\u3099\u3044\u3082
+\u3057\u3084\u304F\u3057\u3087
+\u3057\u3083\u304F\u307B\u3046
+\u3057\u3083\u3051\u3093
+\u3057\u3083\u3053
+\u3057\u3083\u3055\u3099\u3044
+\u3057\u3083\u3057\u3093
+\u3057\u3083\u305B\u3093
+\u3057\u3083\u305D\u3046
+\u3057\u3083\u305F\u3044
+\u3057\u3083\u3061\u3087\u3046
+\u3057\u3083\u3063\u304D\u3093
+\u3057\u3099\u3083\u307E
+\u3057\u3083\u308A\u3093
+\u3057\u3083\u308C\u3044
+\u3057\u3099\u3086\u3046
+\u3057\u3099\u3085\u3046\u3057\u3087
+\u3057\u3085\u304F\u306F\u304F
+\u3057\u3099\u3085\u3057\u3093
+\u3057\u3085\u3063\u305B\u304D
+\u3057\u3085\u307F
+\u3057\u3085\u3089\u306F\u3099
+\u3057\u3099\u3085\u3093\u306F\u3099\u3093
+\u3057\u3087\u3046\u304B\u3044
+\u3057\u3087\u304F\u305F\u304F
+\u3057\u3087\u3063\u3051\u3093
+\u3057\u3087\u3068\u3099\u3046
+\u3057\u3087\u3082\u3064
+\u3057\u3089\u305B\u308B
+\u3057\u3089\u3078\u3099\u308B
+\u3057\u3093\u304B
+\u3057\u3093\u3053\u3046
+\u3057\u3099\u3093\u3057\u3099\u3083
+\u3057\u3093\u305B\u3044\u3057\u3099
+\u3057\u3093\u3061\u304F
+\u3057\u3093\u308A\u3093
+\u3059\u3042\u3051\u3099
+\u3059\u3042\u3057
+\u3059\u3042\u306A
+\u3059\u3099\u3042\u3093
+\u3059\u3044\u3048\u3044
+\u3059\u3044\u304B
+\u3059\u3044\u3068\u3046
+\u3059\u3099\u3044\u3075\u3099\u3093
+\u3059\u3044\u3088\u3046\u3072\u3099
+\u3059\u3046\u304B\u3099\u304F
+\u3059\u3046\u3057\u3099\u3064
+\u3059\u3046\u305B\u3093
+\u3059\u304A\u3068\u3099\u308A
+\u3059\u304D\u307E
+\u3059\u304F\u3046
+\u3059\u304F\u306A\u3044
+\u3059\u3051\u308B
+\u3059\u3053\u3099\u3044
+\u3059\u3053\u3057
+\u3059\u3099\u3055\u3093
+\u3059\u3059\u3099\u3057\u3044
+\u3059\u3059\u3080
+\u3059\u3059\u3081\u308B
+\u3059\u3063\u304B\u308A
+\u3059\u3099\u3063\u3057\u308A
+\u3059\u3099\u3063\u3068
+\u3059\u3066\u304D
+\u3059\u3066\u308B
+\u3059\u306D\u308B
+\u3059\u306E\u3053
+\u3059\u306F\u305F\u3099
+\u3059\u306F\u3099\u3089\u3057\u3044
+\u3059\u3099\u3072\u3087\u3046
+\u3059\u3099\u3075\u3099\u306C\u308C
+\u3059\u3075\u3099\u308A
+\u3059\u3075\u308C
+\u3059\u3078\u3099\u3066
+\u3059\u3078\u3099\u308B
+\u3059\u3099\u307B\u3046
+\u3059\u307B\u3099\u3093
+\u3059\u307E\u3044
+\u3059\u3081\u3057
+\u3059\u3082\u3046
+\u3059\u3084\u304D
+\u3059\u3089\u3059\u3089
+\u3059\u308B\u3081
+\u3059\u308C\u3061\u304B\u3099\u3046
+\u3059\u308D\u3063\u3068
+\u3059\u308F\u308B
+\u3059\u3093\u305B\u3099\u3093
+\u3059\u3093\u307B\u309A\u3046
+\u305B\u3042\u3075\u3099\u3089
+\u305B\u3044\u304B\u3064
+\u305B\u3044\u3051\u3099\u3093
+\u305B\u3044\u3057\u3099
+\u305B\u3044\u3088\u3046
+\u305B\u304A\u3046
+\u305B\u304B\u3044\u304B\u3093
+\u305B\u304D\u306B\u3093
+\u305B\u304D\u3080
+\u305B\u304D\u3086
+\u305B\u304D\u3089\u3093\u3046\u3093
+\u305B\u3051\u3093
+\u305B\u3053\u3046
+\u305B\u3059\u3057\u3099
+\u305B\u305F\u3044
+\u305B\u305F\u3051
+\u305B\u3063\u304B\u304F
+\u305B\u3063\u304D\u3083\u304F
+\u305B\u3099\u3063\u304F
+\u305B\u3063\u3051\u3093
+\u305B\u3063\u3053\u3064
+\u305B\u3063\u3055\u305F\u304F\u307E
+\u305B\u3064\u305D\u3099\u304F
+\u305B\u3064\u305F\u3099\u3093
+\u305B\u3064\u3066\u3099\u3093
+\u305B\u3063\u306F\u309A\u3093
+\u305B\u3064\u3072\u3099
+\u305B\u3064\u3075\u3099\u3093
+\u305B\u3064\u3081\u3044
+\u305B\u3064\u308A\u3064
+\u305B\u306A\u304B
+\u305B\u306E\u3072\u3099
+\u305B\u306F\u306F\u3099
+\u305B\u3072\u3099\u308D
+\u305B\u307B\u3099\u306D
+\u305B\u307E\u3044
+\u305B\u307E\u308B
+\u305B\u3081\u308B
+\u305B\u3082\u305F\u308C
+\u305B\u308A\u3075
+\u305B\u3099\u3093\u3042\u304F
+\u305B\u3093\u3044
+\u305B\u3093\u3048\u3044
+\u305B\u3093\u304B
+\u305B\u3093\u304D\u3087
+\u305B\u3093\u304F
+\u305B\u3093\u3051\u3099\u3093
+\u305B\u3099\u3093\u3053\u3099
+\u305B\u3093\u3055\u3044
+\u305B\u3093\u3057\u3085
+\u305B\u3093\u3059\u3044
+\u305B\u3093\u305B\u3044
+\u305B\u3093\u305D\u3099
+\u305B\u3093\u305F\u304F
+\u305B\u3093\u3061\u3087\u3046
+\u305B\u3093\u3066\u3044
+\u305B\u3093\u3068\u3046
+\u305B\u3093\u306C\u304D
+\u305B\u3093\u306D\u3093
+\u305B\u3093\u306F\u309A\u3044
+\u305B\u3099\u3093\u3075\u3099
+\u305B\u3099\u3093\u307B\u309A\u3046
+\u305B\u3093\u3080
+\u305B\u3093\u3081\u3093\u3057\u3099\u3087
+\u305B\u3093\u3082\u3093
+\u305B\u3093\u3084\u304F
+\u305B\u3093\u3086\u3046
+\u305B\u3093\u3088\u3046
+\u305B\u3099\u3093\u3089
+\u305B\u3099\u3093\u308A\u3083\u304F
+\u305B\u3093\u308C\u3044
+\u305B\u3093\u308D
+\u305D\u3042\u304F
+\u305D\u3044\u3068\u3051\u3099\u308B
+\u305D\u3044\u306D
+\u305D\u3046\u304B\u3099\u3093\u304D\u3087\u3046
+\u305D\u3046\u304D
+\u305D\u3046\u3053\u3099
+\u305D\u3046\u3057\u3093
+\u305D\u3046\u305F\u3099\u3093
+\u305D\u3046\u306A\u3093
+\u305D\u3046\u3072\u3099
+\u305D\u3046\u3081\u3093
+\u305D\u3046\u308A
+\u305D\u3048\u3082\u306E
+\u305D\u3048\u3093
+\u305D\u304B\u3099\u3044
+\u305D\u3051\u3099\u304D
+\u305D\u3053\u3046
+\u305D\u3053\u305D\u3053
+\u305D\u3055\u3099\u3044
+\u305D\u3057\u306A
+\u305D\u305B\u3044
+\u305D\u305B\u3093
+\u305D\u305D\u304F\u3099
+\u305D\u305F\u3099\u3066\u308B
+\u305D\u3064\u3046
+\u305D\u3064\u3048\u3093
+\u305D\u3063\u304B\u3093
+\u305D\u3064\u304D\u3099\u3087\u3046
+\u305D\u3063\u3051\u3064
+\u305D\u3063\u3053\u3046
+\u305D\u3063\u305B\u3093
+\u305D\u3063\u3068
+\u305D\u3068\u304B\u3099\u308F
+\u305D\u3068\u3064\u3099\u3089
+\u305D\u306A\u3048\u308B
+\u305D\u306A\u305F
+\u305D\u3075\u307B\u3099
+\u305D\u307B\u3099\u304F
+\u305D\u307B\u3099\u308D
+\u305D\u307E\u3064
+\u305D\u307E\u308B
+\u305D\u3080\u304F
+\u305D\u3080\u308A\u3048
+\u305D\u3081\u308B
+\u305D\u3082\u305D\u3082
+\u305D\u3088\u304B\u305B\u3099
+\u305D\u3089\u307E\u3081
+\u305D\u308D\u3046
+\u305D\u3093\u304B\u3044
+\u305D\u3093\u3051\u3044
+\u305D\u3093\u3055\u3099\u3044
+\u305D\u3093\u3057\u3064
+\u305D\u3093\u305D\u3099\u304F
+\u305D\u3093\u3061\u3087\u3046
+\u305D\u3099\u3093\u3072\u3099
+\u305D\u3099\u3093\u3075\u3099\u3093
+\u305D\u3093\u307F\u3093
+\u305F\u3042\u3044
+\u305F\u3044\u3044\u3093
+\u305F\u3044\u3046\u3093
+\u305F\u3044\u3048\u304D
+\u305F\u3044\u304A\u3046
+\u305F\u3099\u3044\u304B\u3099\u304F
+\u305F\u3044\u304D
+\u305F\u3044\u304F\u3099\u3046
+\u305F\u3044\u3051\u3093
+\u305F\u3044\u3053
+\u305F\u3044\u3055\u3099\u3044
+\u305F\u3099\u3044\u3057\u3099\u3087\u3046\u3075\u3099
+\u305F\u3099\u3044\u3059\u304D
+\u305F\u3044\u305B\u3064
+\u305F\u3044\u305D\u3046
+\u305F\u3099\u3044\u305F\u3044
+\u305F\u3044\u3061\u3087\u3046
+\u305F\u3044\u3066\u3044
+\u305F\u3099\u3044\u3068\u3099\u3053\u308D
+\u305F\u3044\u306A\u3044
+\u305F\u3044\u306D\u3064
+\u305F\u3044\u306E\u3046
+\u305F\u3044\u306F\u3093
+\u305F\u3099\u3044\u3072\u3087\u3046
+\u305F\u3044\u3075\u3046
+\u305F\u3044\u3078\u3093
+\u305F\u3044\u307B
+\u305F\u3044\u307E\u3064\u306F\u3099\u306A
+\u305F\u3044\u307F\u3093\u304F\u3099
+\u305F\u3044\u3080
+\u305F\u3044\u3081\u3093
+\u305F\u3044\u3084\u304D
+\u305F\u3044\u3088\u3046
+\u305F\u3044\u3089
+\u305F\u3044\u308A\u3087\u304F
+\u305F\u3044\u308B
+\u305F\u3044\u308F\u3093
+\u305F\u3046\u3048
+\u305F\u3048\u308B
+\u305F\u304A\u3059
+\u305F\u304A\u308B
+\u305F\u304A\u308C\u308B
+\u305F\u304B\u3044
+\u305F\u304B\u306D
+\u305F\u304D\u3072\u3099
+\u305F\u304F\u3055\u3093
+\u305F\u3053\u304F
+\u305F\u3053\u3084\u304D
+\u305F\u3055\u3044
+\u305F\u3057\u3055\u3099\u3093
+\u305F\u3099\u3057\u3099\u3083\u308C
+\u305F\u3059\u3051\u308B
+\u305F\u3059\u3099\u3055\u308F\u308B
+\u305F\u305D\u304B\u3099\u308C
+\u305F\u305F\u304B\u3046
+\u305F\u305F\u304F
+\u305F\u305F\u3099\u3057\u3044
+\u305F\u305F\u307F
+\u305F\u3061\u306F\u3099\u306A
+\u305F\u3099\u3063\u304B\u3044
+\u305F\u3099\u3063\u304D\u3083\u304F
+\u305F\u3099\u3063\u3053
+\u305F\u3099\u3063\u3057\u3085\u3064
+\u305F\u3099\u3063\u305F\u3044
+\u305F\u3066\u308B
+\u305F\u3068\u3048\u308B
+\u305F\u306A\u306F\u3099\u305F
+\u305F\u306B\u3093
+\u305F\u306C\u304D
+\u305F\u306E\u3057\u307F
+\u305F\u306F\u3064
+\u305F\u3075\u3099\u3093
+\u305F\u3078\u3099\u308B
+\u305F\u307B\u3099\u3046
+\u305F\u307E\u3053\u3099
+\u305F\u307E\u308B
+\u305F\u3099\u3080\u308B
+\u305F\u3081\u3044\u304D
+\u305F\u3081\u3059
+\u305F\u3081\u308B
+\u305F\u3082\u3064
+\u305F\u3084\u3059\u3044
+\u305F\u3088\u308B
+\u305F\u3089\u3059
+\u305F\u308A\u304D\u307B\u3093\u304B\u3099\u3093
+\u305F\u308A\u3087\u3046
+\u305F\u308A\u308B
+\u305F\u308B\u3068
+\u305F\u308C\u308B
+\u305F\u308C\u3093\u3068
+\u305F\u308D\u3063\u3068
+\u305F\u308F\u3080\u308C\u308B
+\u305F\u3099\u3093\u3042\u3064
+\u305F\u3093\u3044
+\u305F\u3093\u304A\u3093
+\u305F\u3093\u304B
+\u305F\u3093\u304D
+\u305F\u3093\u3051\u3093
+\u305F\u3093\u3053\u3099
+\u305F\u3093\u3055\u3093
+\u305F\u3093\u3057\u3099\u3087\u3046\u3072\u3099
+\u305F\u3099\u3093\u305B\u3044
+\u305F\u3093\u305D\u304F
+\u305F\u3093\u305F\u3044
+\u305F\u3099\u3093\u3061
+\u305F\u3093\u3066\u3044
+\u305F\u3093\u3068\u3046
+\u305F\u3099\u3093\u306A
+\u305F\u3093\u306B\u3093
+\u305F\u3099\u3093\u306D\u3064
+\u305F\u3093\u306E\u3046
+\u305F\u3093\u3072\u309A\u3093
+\u305F\u3099\u3093\u307B\u3099\u3046
+\u305F\u3093\u307E\u3064
+\u305F\u3093\u3081\u3044
+\u305F\u3099\u3093\u308C\u3064
+\u305F\u3099\u3093\u308D
+\u305F\u3099\u3093\u308F
+\u3061\u3042\u3044
+\u3061\u3042\u3093
+\u3061\u3044\u304D
+\u3061\u3044\u3055\u3044
+\u3061\u3048\u3093
+\u3061\u304B\u3044
+\u3061\u304B\u3089
+\u3061\u304D\u3085\u3046
+\u3061\u304D\u3093
+\u3061\u3051\u3044\u3059\u3099
+\u3061\u3051\u3093
+\u3061\u3053\u304F
+\u3061\u3055\u3044
+\u3061\u3057\u304D
+\u3061\u3057\u308A\u3087\u3046
+\u3061\u305B\u3044
+\u3061\u305D\u3046
+\u3061\u305F\u3044
+\u3061\u305F\u3093
+\u3061\u3061\u304A\u3084
+\u3061\u3064\u3057\u3099\u3087
+\u3061\u3066\u304D
+\u3061\u3066\u3093
+\u3061\u306C\u304D
+\u3061\u306C\u308A
+\u3061\u306E\u3046
+\u3061\u3072\u3087\u3046
+\u3061\u3078\u3044\u305B\u3093
+\u3061\u307B\u3046
+\u3061\u307E\u305F
+\u3061\u307F\u3064
+\u3061\u307F\u3068\u3099\u308D
+\u3061\u3081\u3044\u3068\u3099
+\u3061\u3083\u3093\u3053\u306A\u3078\u3099
+\u3061\u3085\u3046\u3044
+\u3061\u3086\u308A\u3087\u304F
+\u3061\u3087\u3046\u3057
+\u3061\u3087\u3055\u304F\u3051\u3093
+\u3061\u3089\u3057
+\u3061\u3089\u307F
+\u3061\u308A\u304B\u3099\u307F
+\u3061\u308A\u3087\u3046
+\u3061\u308B\u3068\u3099
+\u3061\u308F\u308F
+\u3061\u3093\u305F\u3044
+\u3061\u3093\u3082\u304F
+\u3064\u3044\u304B
+\u3064\u3044\u305F\u3061
+\u3064\u3046\u304B
+\u3064\u3046\u3057\u3099\u3087\u3046
+\u3064\u3046\u306F\u3093
+\u3064\u3046\u308F
+\u3064\u304B\u3046
+\u3064\u304B\u308C\u308B
+\u3064\u304F\u306D
+\u3064\u304F\u308B
+\u3064\u3051\u306D
+\u3064\u3051\u308B
+\u3064\u3053\u3099\u3046
+\u3064\u305F\u3048\u308B
+\u3064\u3064\u3099\u304F
+\u3064\u3064\u3057\u3099
+\u3064\u3064\u3080
+\u3064\u3068\u3081\u308B
+\u3064\u306A\u304B\u3099\u308B
+\u3064\u306A\u307F
+\u3064\u306D\u3064\u3099\u306D
+\u3064\u306E\u308B
+\u3064\u3075\u3099\u3059
+\u3064\u307E\u3089\u306A\u3044
+\u3064\u307E\u308B
+\u3064\u307F\u304D
+\u3064\u3081\u305F\u3044
+\u3064\u3082\u308A
+\u3064\u3082\u308B
+\u3064\u3088\u3044
+\u3064\u308B\u307B\u3099
+\u3064\u308B\u307F\u304F
+\u3064\u308F\u3082\u306E
+\u3064\u308F\u308A
+\u3066\u3042\u3057
+\u3066\u3042\u3066
+\u3066\u3042\u307F
+\u3066\u3044\u304A\u3093
+\u3066\u3044\u304B
+\u3066\u3044\u304D
+\u3066\u3044\u3051\u3044
+\u3066\u3044\u3053\u304F
+\u3066\u3044\u3055\u3064
+\u3066\u3044\u3057
+\u3066\u3044\u305B\u3044
+\u3066\u3044\u305F\u3044
+\u3066\u3044\u3068\u3099
+\u3066\u3044\u306D\u3044
+\u3066\u3044\u3072\u3087\u3046
+\u3066\u3044\u3078\u3093
+\u3066\u3044\u307B\u3099\u3046
+\u3066\u3046\u3061
+\u3066\u304A\u304F\u308C
+\u3066\u304D\u3068\u3046
+\u3066\u304F\u3072\u3099
+\u3066\u3099\u3053\u307B\u3099\u3053
+\u3066\u3055\u304D\u3099\u3087\u3046
+\u3066\u3055\u3051\u3099
+\u3066\u3059\u308A
+\u3066\u305D\u3046
+\u3066\u3061\u304B\u3099\u3044
+\u3066\u3061\u3087\u3046
+\u3066\u3064\u304B\u3099\u304F
+\u3066\u3064\u3064\u3099\u304D
+\u3066\u3099\u3063\u306F\u309A
+\u3066\u3064\u307B\u3099\u3046
+\u3066\u3064\u3084
+\u3066\u3099\u306C\u304B\u3048
+\u3066\u306C\u304D
+\u3066\u306C\u304F\u3099\u3044
+\u3066\u306E\u3072\u3089
+\u3066\u306F\u3044
+\u3066\u3075\u3099\u304F\u308D
+\u3066\u3075\u305F\u3099
+\u3066\u307B\u3068\u3099\u304D
+\u3066\u307B\u3093
+\u3066\u307E\u3048
+\u3066\u307E\u304D\u3059\u3099\u3057
+\u3066\u307F\u3057\u3099\u304B
+\u3066\u307F\u3084\u3051\u3099
+\u3066\u3089\u3059
+\u3066\u308C\u3072\u3099
+\u3066\u308F\u3051
+\u3066\u308F\u305F\u3057
+\u3066\u3099\u3093\u3042\u3064
+\u3066\u3093\u3044\u3093
+\u3066\u3093\u304B\u3044
+\u3066\u3093\u304D
+\u3066\u3093\u304F\u3099
+\u3066\u3093\u3051\u3093
+\u3066\u3093\u3053\u3099\u304F
+\u3066\u3093\u3055\u3044
+\u3066\u3093\u3057
+\u3066\u3093\u3059\u3046
+\u3066\u3099\u3093\u3061
+\u3066\u3093\u3066\u304D
+\u3066\u3093\u3068\u3046
+\u3066\u3093\u306A\u3044
+\u3066\u3093\u3075\u309A\u3089
+\u3066\u3093\u307B\u3099\u3046\u305F\u3099\u3044
+\u3066\u3093\u3081\u3064
+\u3066\u3093\u3089\u3093\u304B\u3044
+\u3066\u3099\u3093\u308A\u3087\u304F
+\u3066\u3099\u3093\u308F
+\u3068\u3099\u3042\u3044
+\u3068\u3044\u308C
+\u3068\u3099\u3046\u304B\u3093
+\u3068\u3046\u304D\u3085\u3046
+\u3068\u3099\u3046\u304F\u3099
+\u3068\u3046\u3057
+\u3068\u3046\u3080\u304D\u3099
+\u3068\u304A\u3044
+\u3068\u304A\u304B
+\u3068\u304A\u304F
+\u3068\u304A\u3059
+\u3068\u304A\u308B
+\u3068\u304B\u3044
+\u3068\u304B\u3059
+\u3068\u304D\u304A\u308A
+\u3068\u304D\u3068\u3099\u304D
+\u3068\u304F\u3044
+\u3068\u304F\u3057\u3085\u3046
+\u3068\u304F\u3066\u3093
+\u3068\u304F\u306B
+\u3068\u304F\u3078\u3099\u3064
+\u3068\u3051\u3044
+\u3068\u3051\u308B
+\u3068\u3053\u3084
+\u3068\u3055\u304B
+\u3068\u3057\u3087\u304B\u3093
+\u3068\u305D\u3046
+\u3068\u305F\u3093
+\u3068\u3061\u3085\u3046
+\u3068\u3063\u304D\u3085\u3046
+\u3068\u3063\u304F\u3093
+\u3068\u3064\u305B\u3099\u3093
+\u3068\u3064\u306B\u3085\u3046
+\u3068\u3068\u3099\u3051\u308B
+\u3068\u3068\u306E\u3048\u308B
+\u3068\u306A\u3044
+\u3068\u306A\u3048\u308B
+\u3068\u306A\u308A
+\u3068\u306E\u3055\u307E
+\u3068\u306F\u3099\u3059
+\u3068\u3099\u3075\u3099\u304B\u3099\u308F
+\u3068\u307B\u3046
+\u3068\u307E\u308B
+\u3068\u3081\u308B
+\u3068\u3082\u305F\u3099\u3061
+\u3068\u3082\u308B
+\u3068\u3099\u3088\u3046\u3072\u3099
+\u3068\u3089\u3048\u308B
+\u3068\u3093\u304B\u3064
+\u3068\u3099\u3093\u3075\u3099\u308A
+\u306A\u3044\u304B\u304F
+\u306A\u3044\u3053\u3046
+\u306A\u3044\u3057\u3087
+\u306A\u3044\u3059
+\u306A\u3044\u305B\u3093
+\u306A\u3044\u305D\u3046
+\u306A\u304A\u3059
+\u306A\u304B\u3099\u3044
+\u306A\u304F\u3059
+\u306A\u3051\u3099\u308B
+\u306A\u3053\u3046\u3068\u3099
+\u306A\u3055\u3051
+\u306A\u305F\u3066\u3099\u3053\u3053
+\u306A\u3063\u3068\u3046
+\u306A\u3064\u3084\u3059\u307F
+\u306A\u306A\u304A\u3057
+\u306A\u306B\u3053\u3099\u3068
+\u306A\u306B\u3082\u306E
+\u306A\u306B\u308F
+\u306A\u306E\u304B
+\u306A\u3075\u305F\u3099
+\u306A\u307E\u3044\u304D
+\u306A\u307E\u3048
+\u306A\u307E\u307F
+\u306A\u307F\u305F\u3099
+\u306A\u3081\u3089\u304B
+\u306A\u3081\u308B
+\u306A\u3084\u3080
+\u306A\u3089\u3046
+\u306A\u3089\u3072\u3099
+\u306A\u3089\u3075\u3099
+\u306A\u308C\u308B
+\u306A\u308F\u3068\u3072\u3099
+\u306A\u308F\u306F\u3099\u308A
+\u306B\u3042\u3046
+\u306B\u3044\u304B\u3099\u305F
+\u306B\u3046\u3051
+\u306B\u304A\u3044
+\u306B\u304B\u3044
+\u306B\u304B\u3099\u3066
+\u306B\u304D\u3072\u3099
+\u306B\u304F\u3057\u307F
+\u306B\u304F\u307E\u3093
+\u306B\u3051\u3099\u308B
+\u306B\u3055\u3093\u304B\u305F\u3093\u305D
+\u306B\u3057\u304D
+\u306B\u305B\u3082\u306E
+\u306B\u3061\u3057\u3099\u3087\u3046
+\u306B\u3061\u3088\u3046\u3072\u3099
+\u306B\u3063\u304B
+\u306B\u3063\u304D
+\u306B\u3063\u3051\u3044
+\u306B\u3063\u3053\u3046
+\u306B\u3063\u3055\u3093
+\u306B\u3063\u3057\u3087\u304F
+\u306B\u3063\u3059\u3046
+\u306B\u3063\u305B\u304D
+\u306B\u3063\u3066\u3044
+\u306B\u306A\u3046
+\u306B\u307B\u3093
+\u306B\u307E\u3081
+\u306B\u3082\u3064
+\u306B\u3084\u308A
+\u306B\u3085\u3046\u3044\u3093
+\u306B\u308A\u3093\u3057\u3083
+\u306B\u308F\u3068\u308A
+\u306B\u3093\u3044
+\u306B\u3093\u304B
+\u306B\u3093\u304D
+\u306B\u3093\u3051\u3099\u3093
+\u306B\u3093\u3057\u304D
+\u306B\u3093\u3059\u3099\u3046
+\u306B\u3093\u305D\u3046
+\u306B\u3093\u305F\u3044
+\u306B\u3093\u3061
+\u306B\u3093\u3066\u3044
+\u306B\u3093\u306B\u304F
+\u306B\u3093\u3075\u309A
+\u306B\u3093\u307E\u308A
+\u306B\u3093\u3080
+\u306B\u3093\u3081\u3044
+\u306B\u3093\u3088\u3046
+\u306C\u3044\u304F\u304D\u3099
+\u306C\u304B\u3059
+\u306C\u304F\u3099\u3044\u3068\u308B
+\u306C\u304F\u3099\u3046
+\u306C\u304F\u3082\u308A
+\u306C\u3059\u3080
+\u306C\u307E\u3048\u3072\u3099
+\u306C\u3081\u308A
+\u306C\u3089\u3059
+\u306C\u3093\u3061\u3083\u304F
+\u306D\u3042\u3051\u3099
+\u306D\u3044\u304D
+\u306D\u3044\u308B
+\u306D\u3044\u308D
+\u306D\u304F\u3099\u305B
+\u306D\u304F\u305F\u3044
+\u306D\u304F\u3089
+\u306D\u3053\u305B\u3099
+\u306D\u3053\u3080
+\u306D\u3055\u3051\u3099
+\u306D\u3059\u3053\u3099\u3059
+\u306D\u305D\u3078\u3099\u308B
+\u306D\u305F\u3099\u3093
+\u306D\u3064\u3044
+\u306D\u3063\u3057\u3093
+\u306D\u3064\u305D\u3099\u3046
+\u306D\u3063\u305F\u3044\u304D\u3099\u3087
+\u306D\u3075\u3099\u305D\u304F
+\u306D\u3075\u305F\u3099
+\u306D\u307B\u3099\u3046
+\u306D\u307B\u308A\u306F\u307B\u308A
+\u306D\u307E\u304D
+\u306D\u307E\u308F\u3057
+\u306D\u307F\u307F
+\u306D\u3080\u3044
+\u306D\u3080\u305F\u3044
+\u306D\u3082\u3068
+\u306D\u3089\u3046
+\u306D\u308F\u3055\u3099
+\u306D\u3093\u3044\u308A
+\u306D\u3093\u304A\u3057
+\u306D\u3093\u304B\u3093
+\u306D\u3093\u304D\u3093
+\u306D\u3093\u304F\u3099
+\u306D\u3093\u3055\u3099
+\u306D\u3093\u3057
+\u306D\u3093\u3061\u3083\u304F
+\u306D\u3093\u3068\u3099
+\u306D\u3093\u3072\u309A
+\u306D\u3093\u3075\u3099\u3064
+\u306D\u3093\u307E\u3064
+\u306D\u3093\u308A\u3087\u3046
+\u306D\u3093\u308C\u3044
+\u306E\u3044\u3059\u3099
+\u306E\u304A\u3064\u3099\u307E
+\u306E\u304B\u3099\u3059
+\u306E\u304D\u306A\u307F
+\u306E\u3053\u304D\u3099\u308A
+\u306E\u3053\u3059
+\u306E\u3053\u308B
+\u306E\u305B\u308B
+\u306E\u305D\u3099\u304F
+\u306E\u305D\u3099\u3080
+\u306E\u305F\u307E\u3046
+\u306E\u3061\u307B\u3068\u3099
+\u306E\u3063\u304F
+\u306E\u306F\u3099\u3059
+\u306E\u306F\u3089
+\u306E\u3078\u3099\u308B
+\u306E\u307B\u3099\u308B
+\u306E\u307F\u3082\u306E
+\u306E\u3084\u307E
+\u306E\u3089\u3044\u306C
+\u306E\u3089\u306D\u3053
+\u306E\u308A\u3082\u306E
+\u306E\u308A\u3086\u304D
+\u306E\u308C\u3093
+\u306E\u3093\u304D
+\u306F\u3099\u3042\u3044
+\u306F\u3042\u304F
+\u306F\u3099\u3042\u3055\u3093
+\u306F\u3099\u3044\u304B
+\u306F\u3099\u3044\u304F
+\u306F\u3044\u3051\u3093
+\u306F\u3044\u3053\u3099
+\u306F\u3044\u3057\u3093
+\u306F\u3044\u3059\u3044
+\u306F\u3044\u305B\u3093
+\u306F\u3044\u305D\u3046
+\u306F\u3044\u3061
+\u306F\u3099\u3044\u306F\u3099\u3044
+\u306F\u3044\u308C\u3064
+\u306F\u3048\u308B
+\u306F\u304A\u308B
+\u306F\u304B\u3044
+\u306F\u3099\u304B\u308A
+\u306F\u304B\u308B
+\u306F\u304F\u3057\u3085
+\u306F\u3051\u3093
+\u306F\u3053\u3075\u3099
+\u306F\u3055\u307F
+\u306F\u3055\u3093
+\u306F\u3057\u3053\u3099
+\u306F\u3099\u3057\u3087
+\u306F\u3057\u308B
+\u306F\u305B\u308B
+\u306F\u309A\u305D\u3053\u3093
+\u306F\u305D\u3093
+\u306F\u305F\u3093
+\u306F\u3061\u307F\u3064
+\u306F\u3064\u304A\u3093
+\u306F\u3063\u304B\u304F
+\u306F\u3064\u3099\u304D
+\u306F\u3063\u304D\u308A
+\u306F\u3063\u304F\u3064
+\u306F\u3063\u3051\u3093
+\u306F\u3063\u3053\u3046
+\u306F\u3063\u3055\u3093
+\u306F\u3063\u3057\u3093
+\u306F\u3063\u305F\u3064
+\u306F\u3063\u3061\u3085\u3046
+\u306F\u3063\u3066\u3093
+\u306F\u3063\u3072\u309A\u3087\u3046
+\u306F\u3063\u307B\u309A\u3046
+\u306F\u306A\u3059
+\u306F\u306A\u3072\u3099
+\u306F\u306B\u304B\u3080
+\u306F\u3075\u3099\u3089\u3057
+\u306F\u307F\u304B\u3099\u304D
+\u306F\u3080\u304B\u3046
+\u306F\u3081\u3064
+\u306F\u3084\u3044
+\u306F\u3084\u3057
+\u306F\u3089\u3046
+\u306F\u308D\u3046\u3043\u3093
+\u306F\u308F\u3044
+\u306F\u3093\u3044
+\u306F\u3093\u3048\u3044
+\u306F\u3093\u304A\u3093
+\u306F\u3093\u304B\u304F
+\u306F\u3093\u304D\u3087\u3046
+\u306F\u3099\u3093\u304F\u3099\u307F
+\u306F\u3093\u3053
+\u306F\u3093\u3057\u3083
+\u306F\u3093\u3059\u3046
+\u306F\u3093\u305F\u3099\u3093
+\u306F\u309A\u3093\u3061
+\u306F\u309A\u3093\u3064
+\u306F\u3093\u3066\u3044
+\u306F\u3093\u3068\u3057
+\u306F\u3093\u306E\u3046
+\u306F\u3093\u306F\u309A
+\u306F\u3093\u3075\u3099\u3093
+\u306F\u3093\u3078\u309A\u3093
+\u306F\u3093\u307B\u3099\u3046\u304D
+\u306F\u3093\u3081\u3044
+\u306F\u3093\u3089\u3093
+\u306F\u3093\u308D\u3093
+\u3072\u3044\u304D
+\u3072\u3046\u3093
+\u3072\u3048\u308B
+\u3072\u304B\u304F
+\u3072\u304B\u308A
+\u3072\u304B\u308B
+\u3072\u304B\u3093
+\u3072\u304F\u3044
+\u3072\u3051\u3064
+\u3072\u3053\u3046\u304D
+\u3072\u3053\u304F
+\u3072\u3055\u3044
+\u3072\u3055\u3057\u3075\u3099\u308A
+\u3072\u3055\u3093
+\u3072\u3099\u3057\u3099\u3085\u3064\u304B\u3093
+\u3072\u3057\u3087
+\u3072\u305D\u304B
+\u3072\u305D\u3080
+\u3072\u305F\u3080\u304D
+\u3072\u305F\u3099\u308A
+\u3072\u305F\u308B
+\u3072\u3064\u304D\u3099
+\u3072\u3063\u3053\u3057
+\u3072\u3063\u3057
+\u3072\u3064\u3057\u3099\u3085\u3072\u3093
+\u3072\u3063\u3059
+\u3072\u3064\u305B\u3099\u3093
+\u3072\u309A\u3063\u305F\u308A
+\u3072\u309A\u3063\u3061\u308A
+\u3072\u3064\u3088\u3046
+\u3072\u3066\u3044
+\u3072\u3068\u3053\u3099\u307F
+\u3072\u306A\u307E\u3064\u308A
+\u3072\u306A\u3093
+\u3072\u306D\u308B
+\u3072\u306F\u3093
+\u3072\u3072\u3099\u304F
+\u3072\u3072\u3087\u3046
+\u3072\u307B\u3046
+\u3072\u307E\u308F\u308A
+\u3072\u307E\u3093
+\u3072\u307F\u3064
+\u3072\u3081\u3044
+\u3072\u3081\u3057\u3099\u3057
+\u3072\u3084\u3051
+\u3072\u3084\u3059
+\u3072\u3088\u3046
+\u3072\u3099\u3087\u3046\u304D
+\u3072\u3089\u304B\u3099\u306A
+\u3072\u3089\u304F
+\u3072\u308A\u3064
+\u3072\u308A\u3087\u3046
+\u3072\u308B\u307E
+\u3072\u308B\u3084\u3059\u307F
+\u3072\u308C\u3044
+\u3072\u308D\u3044
+\u3072\u308D\u3046
+\u3072\u308D\u304D
+\u3072\u308D\u3086\u304D
+\u3072\u3093\u304B\u304F
+\u3072\u3093\u3051\u3064
+\u3072\u3093\u3053\u3093
+\u3072\u3093\u3057\u3085
+\u3072\u3093\u305D\u3046
+\u3072\u309A\u3093\u3061
+\u3072\u3093\u306F\u309A\u3093
+\u3072\u3099\u3093\u307B\u3099\u3046
+\u3075\u3042\u3093
+\u3075\u3044\u3046\u3061
+\u3075\u3046\u3051\u3044
+\u3075\u3046\u305B\u3093
+\u3075\u309A\u3046\u305F\u308D\u3046
+\u3075\u3046\u3068\u3046
+\u3075\u3046\u3075
+\u3075\u3048\u308B
+\u3075\u304A\u3093
+\u3075\u304B\u3044
+\u3075\u304D\u3093
+\u3075\u304F\u3055\u3099\u3064
+\u3075\u304F\u3075\u3099\u304F\u308D
+\u3075\u3053\u3046
+\u3075\u3055\u3044
+\u3075\u3057\u304D\u3099
+\u3075\u3057\u3099\u307F
+\u3075\u3059\u307E
+\u3075\u305B\u3044
+\u3075\u305B\u304F\u3099
+\u3075\u305D\u304F
+\u3075\u3099\u305F\u306B\u304F
+\u3075\u305F\u3093
+\u3075\u3061\u3087\u3046
+\u3075\u3064\u3046
+\u3075\u3064\u304B
+\u3075\u3063\u304B\u3064
+\u3075\u3063\u304D
+\u3075\u3063\u3053\u304F
+\u3075\u3099\u3068\u3099\u3046
+\u3075\u3068\u308B
+\u3075\u3068\u3093
+\u3075\u306E\u3046
+\u3075\u306F\u3044
+\u3075\u3072\u3087\u3046
+\u3075\u3078\u3093
+\u3075\u307E\u3093
+\u3075\u307F\u3093
+\u3075\u3081\u3064
+\u3075\u3081\u3093
+\u3075\u3088\u3046
+\u3075\u308A\u3053
+\u3075\u308A\u308B
+\u3075\u308B\u3044
+\u3075\u3093\u3044\u304D
+\u3075\u3099\u3093\u304B\u3099\u304F
+\u3075\u3099\u3093\u304F\u3099
+\u3075\u3093\u3057\u3064
+\u3075\u3099\u3093\u305B\u304D
+\u3075\u3093\u305D\u3046
+\u3075\u3099\u3093\u307B\u309A\u3046
+\u3078\u3044\u3042\u3093
+\u3078\u3044\u304A\u3093
+\u3078\u3044\u304B\u3099\u3044
+\u3078\u3044\u304D
+\u3078\u3044\u3051\u3099\u3093
+\u3078\u3044\u3053\u3046
+\u3078\u3044\u3055
+\u3078\u3044\u3057\u3083
+\u3078\u3044\u305B\u3064
+\u3078\u3044\u305D
+\u3078\u3044\u305F\u304F
+\u3078\u3044\u3066\u3093
+\u3078\u3044\u306D\u3064
+\u3078\u3044\u308F
+\u3078\u304D\u304B\u3099
+\u3078\u3053\u3080
+\u3078\u3099\u306B\u3044\u308D
+\u3078\u3099\u306B\u3057\u3087\u3046\u304B\u3099
+\u3078\u3089\u3059
+\u3078\u3093\u304B\u3093
+\u3078\u3099\u3093\u304D\u3087\u3046
+\u3078\u3099\u3093\u3053\u3099\u3057
+\u3078\u3093\u3055\u3044
+\u3078\u3093\u305F\u3044
+\u3078\u3099\u3093\u308A
+\u307B\u3042\u3093
+\u307B\u3044\u304F
+\u307B\u3099\u3046\u304D\u3099\u3087
+\u307B\u3046\u3053\u304F
+\u307B\u3046\u305D\u3046
+\u307B\u3046\u307B\u3046
+\u307B\u3046\u3082\u3093
+\u307B\u3046\u308A\u3064
+\u307B\u3048\u308B
+\u307B\u304A\u3093
+\u307B\u304B\u3093
+\u307B\u304D\u3087\u3046
+\u307B\u3099\u304D\u3093
+\u307B\u304F\u308D
+\u307B\u3051\u3064
+\u307B\u3051\u3093
+\u307B\u3053\u3046
+\u307B\u3053\u308B
+\u307B\u3057\u3044
+\u307B\u3057\u3064
+\u307B\u3057\u3085
+\u307B\u3057\u3087\u3046
+\u307B\u305B\u3044
+\u307B\u305D\u3044
+\u307B\u305D\u304F
+\u307B\u305F\u3066
+\u307B\u305F\u308B
+\u307B\u309A\u3061\u3075\u3099\u304F\u308D
+\u307B\u3063\u304D\u3087\u304F
+\u307B\u3063\u3055
+\u307B\u3063\u305F\u3093
+\u307B\u3068\u3093\u3068\u3099
+\u307B\u3081\u308B
+\u307B\u3093\u3044
+\u307B\u3093\u304D
+\u307B\u3093\u3051
+\u307B\u3093\u3057\u3064
+\u307B\u3093\u3084\u304F
+\u307E\u3044\u306B\u3061
+\u307E\u304B\u3044
+\u307E\u304B\u305B\u308B
+\u307E\u304B\u3099\u308B
+\u307E\u3051\u308B
+\u307E\u3053\u3068
+\u307E\u3055\u3064
+\u307E\u3057\u3099\u3081
+\u307E\u3059\u304F
+\u307E\u305B\u3099\u308B
+\u307E\u3064\u308A
+\u307E\u3068\u3081
+\u307E\u306A\u3075\u3099
+\u307E\u306C\u3051
+\u307E\u306D\u304F
+\u307E\u307B\u3046
+\u307E\u3082\u308B
+\u307E\u3086\u3051\u3099
+\u307E\u3088\u3046
+\u307E\u308D\u3084\u304B
+\u307E\u308F\u3059
+\u307E\u308F\u308A
+\u307E\u308F\u308B
+\u307E\u3093\u304B\u3099
+\u307E\u3093\u304D\u3064
+\u307E\u3093\u305D\u3099\u304F
+\u307E\u3093\u306A\u304B
+\u307F\u3044\u3089
+\u307F\u3046\u3061
+\u307F\u3048\u308B
+\u307F\u304B\u3099\u304F
+\u307F\u304B\u305F
+\u307F\u304B\u3093
+\u307F\u3051\u3093
+\u307F\u3053\u3093
+\u307F\u3057\u3099\u304B\u3044
+\u307F\u3059\u3044
+\u307F\u3059\u3048\u308B
+\u307F\u305B\u308B
+\u307F\u3063\u304B
+\u307F\u3064\u304B\u308B
+\u307F\u3064\u3051\u308B
+\u307F\u3066\u3044
+\u307F\u3068\u3081\u308B
+\u307F\u306A\u3068
+\u307F\u306A\u307F\u304B\u3055\u3044
+\u307F\u306D\u3089\u308B
+\u307F\u306E\u3046
+\u307F\u306E\u304B\u3099\u3059
+\u307F\u307B\u3093
+\u307F\u3082\u3068
+\u307F\u3084\u3051\u3099
+\u307F\u3089\u3044
+\u307F\u308A\u3087\u304F
+\u307F\u308F\u304F
+\u307F\u3093\u304B
+\u307F\u3093\u305D\u3099\u304F
+\u3080\u3044\u304B
+\u3080\u3048\u304D
+\u3080\u3048\u3093
+\u3080\u304B\u3044
+\u3080\u304B\u3046
+\u3080\u304B\u3048
+\u3080\u304B\u3057
+\u3080\u304D\u3099\u3061\u3083
+\u3080\u3051\u308B
+\u3080\u3051\u3099\u3093
+\u3080\u3055\u307B\u3099\u308B
+\u3080\u3057\u3042\u3064\u3044
+\u3080\u3057\u306F\u3099
+\u3080\u3057\u3099\u3085\u3093
+\u3080\u3057\u308D
+\u3080\u3059\u3046
+\u3080\u3059\u3053
+\u3080\u3059\u3075\u3099
+\u3080\u3059\u3081
+\u3080\u305B\u308B
+\u3080\u305B\u3093
+\u3080\u3061\u3085\u3046
+\u3080\u306A\u3057\u3044
+\u3080\u306E\u3046
+\u3080\u3084\u307F
+\u3080\u3088\u3046
+\u3080\u3089\u3055\u304D
+\u3080\u308A\u3087\u3046
+\u3080\u308D\u3093
+\u3081\u3044\u3042\u3093
+\u3081\u3044\u3046\u3093
+\u3081\u3044\u3048\u3093
+\u3081\u3044\u304B\u304F
+\u3081\u3044\u304D\u3087\u304F
+\u3081\u3044\u3055\u3044
+\u3081\u3044\u3057
+\u3081\u3044\u305D\u3046
+\u3081\u3044\u3075\u3099\u3064
+\u3081\u3044\u308C\u3044
+\u3081\u3044\u308F\u304F
+\u3081\u304F\u3099\u307E\u308C\u308B
+\u3081\u3055\u3099\u3059
+\u3081\u3057\u305F
+\u3081\u3059\u3099\u3089\u3057\u3044
+\u3081\u305F\u3099\u3064
+\u3081\u307E\u3044
+\u3081\u3084\u3059
+\u3081\u3093\u304D\u3087
+\u3081\u3093\u305B\u304D
+\u3081\u3093\u3068\u3099\u3046
+\u3082\u3046\u3057\u3042\u3051\u3099\u308B
+\u3082\u3046\u3068\u3099\u3046\u3051\u3093
+\u3082\u3048\u308B
+\u3082\u304F\u3057
+\u3082\u304F\u3066\u304D
+\u3082\u304F\u3088\u3046\u3072\u3099
+\u3082\u3061\u308D\u3093
+\u3082\u3068\u3099\u308B
+\u3082\u3089\u3046
+\u3082\u3093\u304F
+\u3082\u3093\u305F\u3099\u3044
+\u3084\u304A\u3084
+\u3084\u3051\u308B
+\u3084\u3055\u3044
+\u3084\u3055\u3057\u3044
+\u3084\u3059\u3044
+\u3084\u3059\u305F\u308D\u3046
+\u3084\u3059\u307F
+\u3084\u305B\u308B
+\u3084\u305D\u3046
+\u3084\u305F\u3044
+\u3084\u3061\u3093
+\u3084\u3063\u3068
+\u3084\u3063\u306F\u309A\u308A
+\u3084\u3075\u3099\u308B
+\u3084\u3081\u308B
+\u3084\u3084\u3053\u3057\u3044
+\u3084\u3088\u3044
+\u3084\u308F\u3089\u304B\u3044
+\u3086\u3046\u304D
+\u3086\u3046\u3072\u3099\u3093\u304D\u3087\u304F
+\u3086\u3046\u3078\u3099
+\u3086\u3046\u3081\u3044
+\u3086\u3051\u3064
+\u3086\u3057\u3085\u3064
+\u3086\u305B\u3093
+\u3086\u305D\u3046
+\u3086\u305F\u304B
+\u3086\u3061\u3083\u304F
+\u3086\u3066\u3099\u308B
+\u3086\u306B\u3085\u3046
+\u3086\u3072\u3099\u308F
+\u3086\u3089\u3044
+\u3086\u308C\u308B
+\u3088\u3046\u3044
+\u3088\u3046\u304B
+\u3088\u3046\u304D\u3085\u3046
+\u3088\u3046\u3057\u3099
+\u3088\u3046\u3059
+\u3088\u3046\u3061\u3048\u3093
+\u3088\u304B\u305B\u3099
+\u3088\u304B\u3093
+\u3088\u304D\u3093
+\u3088\u304F\u305B\u3044
+\u3088\u304F\u307B\u3099\u3046
+\u3088\u3051\u3044
+\u3088\u3053\u3099\u308C\u308B
+\u3088\u3055\u3093
+\u3088\u3057\u3085\u3046
+\u3088\u305D\u3046
+\u3088\u305D\u304F
+\u3088\u3063\u304B
+\u3088\u3066\u3044
+\u3088\u3068\u3099\u304B\u3099\u308F\u304F
+\u3088\u306D\u3064
+\u3088\u3084\u304F
+\u3088\u3086\u3046
+\u3088\u308D\u3053\u3075\u3099
+\u3088\u308D\u3057\u3044
+\u3089\u3044\u3046
+\u3089\u304F\u304B\u3099\u304D
+\u3089\u304F\u3053\u3099
+\u3089\u304F\u3055\u3064
+\u3089\u304F\u305F\u3099
+\u3089\u3057\u3093\u306F\u3099\u3093
+\u3089\u305B\u3093
+\u3089\u305D\u3099\u304F
+\u3089\u305F\u3044
+\u3089\u3063\u304B
+\u3089\u308C\u3064
+\u308A\u3048\u304D
+\u308A\u304B\u3044
+\u308A\u304D\u3055\u304F
+\u308A\u304D\u305B\u3064
+\u308A\u304F\u304F\u3099\u3093
+\u308A\u304F\u3064
+\u308A\u3051\u3093
+\u308A\u3053\u3046
+\u308A\u305B\u3044
+\u308A\u305D\u3046
+\u308A\u305D\u304F
+\u308A\u3066\u3093
+\u308A\u306D\u3093
+\u308A\u3086\u3046
+\u308A\u3085\u3046\u304B\u3099\u304F
+\u308A\u3088\u3046
+\u308A\u3087\u3046\u308A
+\u308A\u3087\u304B\u3093
+\u308A\u3087\u304F\u3061\u3083
+\u308A\u3087\u3053\u3046
+\u308A\u308A\u304F
+\u308A\u308C\u304D
+\u308A\u308D\u3093
+\u308A\u3093\u3053\u3099
+\u308B\u3044\u3051\u3044
+\u308B\u3044\u3055\u3044
+\u308B\u3044\u3057\u3099
+\u308B\u3044\u305B\u304D
+\u308B\u3059\u306F\u3099\u3093
+\u308B\u308A\u304B\u3099\u308F\u3089
+\u308C\u3044\u304B\u3093
+\u308C\u3044\u304D\u3099
+\u308C\u3044\u305B\u3044
+\u308C\u3044\u305D\u3099\u3046\u3053
+\u308C\u3044\u3068\u3046
+\u308C\u3044\u307B\u3099\u3046
+\u308C\u304D\u3057
+\u308C\u304D\u305F\u3099\u3044
+\u308C\u3093\u3042\u3044
+\u308C\u3093\u3051\u3044
+\u308C\u3093\u3053\u3093
+\u308C\u3093\u3055\u3044
+\u308C\u3093\u3057\u3085\u3046
+\u308C\u3093\u305D\u3099\u304F
+\u308C\u3093\u3089\u304F
+\u308D\u3046\u304B
+\u308D\u3046\u3053\u3099
+\u308D\u3046\u3057\u3099\u3093
+\u308D\u3046\u305D\u304F
+\u308D\u304F\u304B\u3099
+\u308D\u3053\u3064
+\u308D\u3057\u3099\u3046\u3089
+\u308D\u3057\u3085\u3064
+\u308D\u305B\u3093
+\u308D\u3066\u3093
+\u308D\u3081\u3093
+\u308D\u308C\u3064
+\u308D\u3093\u304D\u3099
+\u308D\u3093\u306F\u309A
+\u308D\u3093\u3075\u3099\u3093
+\u308D\u3093\u308A
+\u308F\u304B\u3059
+\u308F\u304B\u3081
+\u308F\u304B\u3084\u307E
+\u308F\u304B\u308C\u308B
+\u308F\u3057\u3064
+\u308F\u3057\u3099\u307E\u3057
+\u308F\u3059\u308C\u3082\u306E
+\u308F\u3089\u3046
+\u308F\u308C\u308B`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/korean.js
+  var wordlist6 = /* @__PURE__ */ Object.freeze(`\u1100\u1161\u1100\u1167\u11A8
+\u1100\u1161\u1101\u1173\u11B7
+\u1100\u1161\u1102\u1161\u11AB
+\u1100\u1161\u1102\u1173\u11BC
+\u1100\u1161\u1103\u1173\u11A8
+\u1100\u1161\u1105\u1173\u110E\u1175\u11B7
+\u1100\u1161\u1106\u116E\u11B7
+\u1100\u1161\u1107\u1161\u11BC
+\u1100\u1161\u1109\u1161\u11BC
+\u1100\u1161\u1109\u1173\u11B7
+\u1100\u1161\u110B\u116E\u11AB\u1103\u1166
+\u1100\u1161\u110B\u1173\u11AF
+\u1100\u1161\u110B\u1175\u1103\u1173
+\u1100\u1161\u110B\u1175\u11B8
+\u1100\u1161\u110C\u1161\u11BC
+\u1100\u1161\u110C\u1165\u11BC
+\u1100\u1161\u110C\u1169\u11A8
+\u1100\u1161\u110C\u116E\u11A8
+\u1100\u1161\u11A8\u110B\u1169
+\u1100\u1161\u11A8\u110C\u1161
+\u1100\u1161\u11AB\u1100\u1167\u11A8
+\u1100\u1161\u11AB\u1107\u116E
+\u1100\u1161\u11AB\u1109\u1165\u11B8
+\u1100\u1161\u11AB\u110C\u1161\u11BC
+\u1100\u1161\u11AB\u110C\u1165\u11B8
+\u1100\u1161\u11AB\u1111\u1161\u11AB
+\u1100\u1161\u11AF\u1103\u1173\u11BC
+\u1100\u1161\u11AF\u1107\u1175
+\u1100\u1161\u11AF\u1109\u1162\u11A8
+\u1100\u1161\u11AF\u110C\u1173\u11BC
+\u1100\u1161\u11B7\u1100\u1161\u11A8
+\u1100\u1161\u11B7\u1100\u1175
+\u1100\u1161\u11B7\u1109\u1169
+\u1100\u1161\u11B7\u1109\u116E\u1109\u1165\u11BC
+\u1100\u1161\u11B7\u110C\u1161
+\u1100\u1161\u11B7\u110C\u1165\u11BC
+\u1100\u1161\u11B8\u110C\u1161\u1100\u1175
+\u1100\u1161\u11BC\u1102\u1161\u11B7
+\u1100\u1161\u11BC\u1103\u1161\u11BC
+\u1100\u1161\u11BC\u1103\u1169
+\u1100\u1161\u11BC\u1105\u1167\u11A8\u1112\u1175
+\u1100\u1161\u11BC\u1107\u1167\u11AB
+\u1100\u1161\u11BC\u1107\u116E\u11A8
+\u1100\u1161\u11BC\u1109\u1161
+\u1100\u1161\u11BC\u1109\u116E\u1105\u1163\u11BC
+\u1100\u1161\u11BC\u110B\u1161\u110C\u1175
+\u1100\u1161\u11BC\u110B\u116F\u11AB\u1103\u1169
+\u1100\u1161\u11BC\u110B\u1174
+\u1100\u1161\u11BC\u110C\u1166
+\u1100\u1161\u11BC\u110C\u1169
+\u1100\u1161\u11C0\u110B\u1175
+\u1100\u1162\u1100\u116E\u1105\u1175
+\u1100\u1162\u1102\u1161\u1105\u1175
+\u1100\u1162\u1107\u1161\u11BC
+\u1100\u1162\u1107\u1167\u11AF
+\u1100\u1162\u1109\u1165\u11AB
+\u1100\u1162\u1109\u1165\u11BC
+\u1100\u1162\u110B\u1175\u11AB
+\u1100\u1162\u11A8\u1100\u116A\u11AB\u110C\u1165\u11A8
+\u1100\u1165\u1109\u1175\u11AF
+\u1100\u1165\u110B\u1162\u11A8
+\u1100\u1165\u110B\u116E\u11AF
+\u1100\u1165\u110C\u1175\u11BA
+\u1100\u1165\u1111\u116E\u11B7
+\u1100\u1165\u11A8\u110C\u1165\u11BC
+\u1100\u1165\u11AB\u1100\u1161\u11BC
+\u1100\u1165\u11AB\u1106\u116E\u11AF
+\u1100\u1165\u11AB\u1109\u1165\u11AF
+\u1100\u1165\u11AB\u110C\u1169
+\u1100\u1165\u11AB\u110E\u116E\u11A8
+\u1100\u1165\u11AF\u110B\u1173\u11B7
+\u1100\u1165\u11B7\u1109\u1161
+\u1100\u1165\u11B7\u1110\u1169
+\u1100\u1166\u1109\u1175\u1111\u1161\u11AB
+\u1100\u1166\u110B\u1175\u11B7
+\u1100\u1167\u110B\u116E\u11AF
+\u1100\u1167\u11AB\u1112\u1162
+\u1100\u1167\u11AF\u1100\u116A
+\u1100\u1167\u11AF\u1100\u116E\u11A8
+\u1100\u1167\u11AF\u1105\u1169\u11AB
+\u1100\u1167\u11AF\u1109\u1165\u11A8
+\u1100\u1167\u11AF\u1109\u1173\u11BC
+\u1100\u1167\u11AF\u1109\u1175\u11B7
+\u1100\u1167\u11AF\u110C\u1165\u11BC
+\u1100\u1167\u11AF\u1112\u1169\u11AB
+\u1100\u1167\u11BC\u1100\u1168
+\u1100\u1167\u11BC\u1100\u1169
+\u1100\u1167\u11BC\u1100\u1175
+\u1100\u1167\u11BC\u1105\u1167\u11A8
+\u1100\u1167\u11BC\u1107\u1169\u11A8\u1100\u116E\u11BC
+\u1100\u1167\u11BC\u1107\u1175
+\u1100\u1167\u11BC\u1109\u1161\u11BC\u1103\u1169
+\u1100\u1167\u11BC\u110B\u1167\u11BC
+\u1100\u1167\u11BC\u110B\u116E
+\u1100\u1167\u11BC\u110C\u1162\u11BC
+\u1100\u1167\u11BC\u110C\u1166
+\u1100\u1167\u11BC\u110C\u116E
+\u1100\u1167\u11BC\u110E\u1161\u11AF
+\u1100\u1167\u11BC\u110E\u1175
+\u1100\u1167\u11BC\u1112\u1163\u11BC
+\u1100\u1167\u11BC\u1112\u1165\u11B7
+\u1100\u1168\u1100\u1169\u11A8
+\u1100\u1168\u1103\u1161\u11AB
+\u1100\u1168\u1105\u1161\u11AB
+\u1100\u1168\u1109\u1161\u11AB
+\u1100\u1168\u1109\u1169\u11A8
+\u1100\u1168\u110B\u1163\u11A8
+\u1100\u1168\u110C\u1165\u11AF
+\u1100\u1168\u110E\u1173\u11BC
+\u1100\u1168\u1112\u116C\u11A8
+\u1100\u1169\u1100\u1162\u11A8
+\u1100\u1169\u1100\u116E\u1105\u1167
+\u1100\u1169\u1100\u116E\u11BC
+\u1100\u1169\u1100\u1173\u11B8
+\u1100\u1169\u1103\u1173\u11BC\u1112\u1161\u11A8\u1109\u1162\u11BC
+\u1100\u1169\u1106\u116E\u1109\u1175\u11AB
+\u1100\u1169\u1106\u1175\u11AB
+\u1100\u1169\u110B\u1163\u11BC\u110B\u1175
+\u1100\u1169\u110C\u1161\u11BC
+\u1100\u1169\u110C\u1165\u11AB
+\u1100\u1169\u110C\u1175\u11B8
+\u1100\u1169\u110E\u116E\u11BA\u1100\u1161\u1105\u116E
+\u1100\u1169\u1110\u1169\u11BC
+\u1100\u1169\u1112\u1163\u11BC
+\u1100\u1169\u11A8\u1109\u1175\u11A8
+\u1100\u1169\u11AF\u1106\u1169\u11A8
+\u1100\u1169\u11AF\u110D\u1161\u1100\u1175
+\u1100\u1169\u11AF\u1111\u1173
+\u1100\u1169\u11BC\u1100\u1161\u11AB
+\u1100\u1169\u11BC\u1100\u1162
+\u1100\u1169\u11BC\u1100\u1167\u11A8
+\u1100\u1169\u11BC\u1100\u116E\u11AB
+\u1100\u1169\u11BC\u1100\u1173\u11B8
+\u1100\u1169\u11BC\u1100\u1175
+\u1100\u1169\u11BC\u1103\u1169\u11BC
+\u1100\u1169\u11BC\u1106\u116E\u110B\u116F\u11AB
+\u1100\u1169\u11BC\u1107\u116E
+\u1100\u1169\u11BC\u1109\u1161
+\u1100\u1169\u11BC\u1109\u1175\u11A8
+\u1100\u1169\u11BC\u110B\u1165\u11B8
+\u1100\u1169\u11BC\u110B\u1167\u11AB
+\u1100\u1169\u11BC\u110B\u116F\u11AB
+\u1100\u1169\u11BC\u110C\u1161\u11BC
+\u1100\u1169\u11BC\u110D\u1161
+\u1100\u1169\u11BC\u110E\u1162\u11A8
+\u1100\u1169\u11BC\u1110\u1169\u11BC
+\u1100\u1169\u11BC\u1111\u1169
+\u1100\u1169\u11BC\u1112\u1161\u11BC
+\u1100\u1169\u11BC\u1112\u1172\u110B\u1175\u11AF
+\u1100\u116A\u1106\u1169\u11A8
+\u1100\u116A\u110B\u1175\u11AF
+\u1100\u116A\u110C\u1161\u11BC
+\u1100\u116A\u110C\u1165\u11BC
+\u1100\u116A\u1112\u1161\u11A8
+\u1100\u116A\u11AB\u1100\u1162\u11A8
+\u1100\u116A\u11AB\u1100\u1168
+\u1100\u116A\u11AB\u1100\u116A\u11BC
+\u1100\u116A\u11AB\u1102\u1167\u11B7
+\u1100\u116A\u11AB\u1105\u1161\u11B7
+\u1100\u116A\u11AB\u1105\u1167\u11AB
+\u1100\u116A\u11AB\u1105\u1175
+\u1100\u116A\u11AB\u1109\u1173\u11B8
+\u1100\u116A\u11AB\u1109\u1175\u11B7
+\u1100\u116A\u11AB\u110C\u1165\u11B7
+\u1100\u116A\u11AB\u110E\u1161\u11AF
+\u1100\u116A\u11BC\u1100\u1167\u11BC
+\u1100\u116A\u11BC\u1100\u1169
+\u1100\u116A\u11BC\u110C\u1161\u11BC
+\u1100\u116A\u11BC\u110C\u116E
+\u1100\u116C\u1105\u1169\u110B\u116E\u11B7
+\u1100\u116C\u11BC\u110C\u1161\u11BC\u1112\u1175
+\u1100\u116D\u1100\u116A\u1109\u1165
+\u1100\u116D\u1106\u116E\u11AB
+\u1100\u116D\u1107\u1169\u11A8
+\u1100\u116D\u1109\u1175\u11AF
+\u1100\u116D\u110B\u1163\u11BC
+\u1100\u116D\u110B\u1172\u11A8
+\u1100\u116D\u110C\u1161\u11BC
+\u1100\u116D\u110C\u1175\u11A8
+\u1100\u116D\u1110\u1169\u11BC
+\u1100\u116D\u1112\u116A\u11AB
+\u1100\u116D\u1112\u116E\u11AB
+\u1100\u116E\u1100\u1167\u11BC
+\u1100\u116E\u1105\u1173\u11B7
+\u1100\u116E\u1106\u1165\u11BC
+\u1100\u116E\u1107\u1167\u11AF
+\u1100\u116E\u1107\u116E\u11AB
+\u1100\u116E\u1109\u1165\u11A8
+\u1100\u116E\u1109\u1165\u11BC
+\u1100\u116E\u1109\u1169\u11A8
+\u1100\u116E\u110B\u1167\u11A8
+\u1100\u116E\u110B\u1175\u11B8
+\u1100\u116E\u110E\u1165\u11BC
+\u1100\u116E\u110E\u1166\u110C\u1165\u11A8
+\u1100\u116E\u11A8\u1100\u1161
+\u1100\u116E\u11A8\u1100\u1175
+\u1100\u116E\u11A8\u1102\u1162
+\u1100\u116E\u11A8\u1105\u1175\u11B8
+\u1100\u116E\u11A8\u1106\u116E\u11AF
+\u1100\u116E\u11A8\u1106\u1175\u11AB
+\u1100\u116E\u11A8\u1109\u116E
+\u1100\u116E\u11A8\u110B\u1165
+\u1100\u116E\u11A8\u110B\u116A\u11BC
+\u1100\u116E\u11A8\u110C\u1165\u11A8
+\u1100\u116E\u11A8\u110C\u1166
+\u1100\u116E\u11A8\u1112\u116C
+\u1100\u116E\u11AB\u1103\u1162
+\u1100\u116E\u11AB\u1109\u1161
+\u1100\u116E\u11AB\u110B\u1175\u11AB
+\u1100\u116E\u11BC\u1100\u1173\u11A8\u110C\u1165\u11A8
+\u1100\u116F\u11AB\u1105\u1175
+\u1100\u116F\u11AB\u110B\u1171
+\u1100\u116F\u11AB\u1110\u116E
+\u1100\u1171\u1100\u116E\u11A8
+\u1100\u1171\u1109\u1175\u11AB
+\u1100\u1172\u110C\u1165\u11BC
+\u1100\u1172\u110E\u1175\u11A8
+\u1100\u1172\u11AB\u1112\u1167\u11BC
+\u1100\u1173\u1102\u1161\u11AF
+\u1100\u1173\u1102\u1163\u11BC
+\u1100\u1173\u1102\u1173\u11AF
+\u1100\u1173\u1105\u1165\u1102\u1161
+\u1100\u1173\u1105\u116E\u11B8
+\u1100\u1173\u1105\u1173\u11BA
+\u1100\u1173\u1105\u1175\u11B7
+\u1100\u1173\u110C\u1166\u1109\u1165\u110B\u1163
+\u1100\u1173\u1110\u1169\u1105\u1169\u11A8
+\u1100\u1173\u11A8\u1107\u1169\u11A8
+\u1100\u1173\u11A8\u1112\u1175
+\u1100\u1173\u11AB\u1100\u1165
+\u1100\u1173\u11AB\u1100\u116D
+\u1100\u1173\u11AB\u1105\u1162
+\u1100\u1173\u11AB\u1105\u1169
+\u1100\u1173\u11AB\u1106\u116E
+\u1100\u1173\u11AB\u1107\u1169\u11AB
+\u1100\u1173\u11AB\u110B\u116F\u11AB
+\u1100\u1173\u11AB\u110B\u1172\u11A8
+\u1100\u1173\u11AB\u110E\u1165
+\u1100\u1173\u11AF\u110A\u1175
+\u1100\u1173\u11AF\u110C\u1161
+\u1100\u1173\u11B7\u1100\u1161\u11BC\u1109\u1161\u11AB
+\u1100\u1173\u11B7\u1100\u1169
+\u1100\u1173\u11B7\u1102\u1167\u11AB
+\u1100\u1173\u11B7\u1106\u1166\u1103\u1161\u11AF
+\u1100\u1173\u11B7\u110B\u1162\u11A8
+\u1100\u1173\u11B7\u110B\u1167\u11AB
+\u1100\u1173\u11B7\u110B\u116D\u110B\u1175\u11AF
+\u1100\u1173\u11B7\u110C\u1175
+\u1100\u1173\u11BC\u110C\u1165\u11BC\u110C\u1165\u11A8
+\u1100\u1175\u1100\u1161\u11AB
+\u1100\u1175\u1100\u116A\u11AB
+\u1100\u1175\u1102\u1167\u11B7
+\u1100\u1175\u1102\u1173\u11BC
+\u1100\u1175\u1103\u1169\u11A8\u1100\u116D
+\u1100\u1175\u1103\u116E\u11BC
+\u1100\u1175\u1105\u1169\u11A8
+\u1100\u1175\u1105\u1173\u11B7
+\u1100\u1175\u1107\u1165\u11B8
+\u1100\u1175\u1107\u1169\u11AB
+\u1100\u1175\u1107\u116E\u11AB
+\u1100\u1175\u1108\u1173\u11B7
+\u1100\u1175\u1109\u116E\u11A8\u1109\u1161
+\u1100\u1175\u1109\u116E\u11AF
+\u1100\u1175\u110B\u1165\u11A8
+\u1100\u1175\u110B\u1165\u11B8
+\u1100\u1175\u110B\u1169\u11AB
+\u1100\u1175\u110B\u116E\u11AB
+\u1100\u1175\u110B\u116F\u11AB
+\u1100\u1175\u110C\u1165\u11A8
+\u1100\u1175\u110C\u116E\u11AB
+\u1100\u1175\u110E\u1175\u11B7
+\u1100\u1175\u1112\u1169\u11AB
+\u1100\u1175\u1112\u116C\u11A8
+\u1100\u1175\u11AB\u1100\u1173\u11B8
+\u1100\u1175\u11AB\u110C\u1161\u11BC
+\u1100\u1175\u11AF\u110B\u1175
+\u1100\u1175\u11B7\u1107\u1161\u11B8
+\u1100\u1175\u11B7\u110E\u1175
+\u1100\u1175\u11B7\u1111\u1169\u1100\u1169\u11BC\u1112\u1161\u11BC
+\u1101\u1161\u11A8\u1103\u116E\u1100\u1175
+\u1101\u1161\u11B7\u1108\u1161\u11A8
+\u1101\u1162\u1103\u1161\u11AF\u110B\u1173\u11B7
+\u1101\u1162\u1109\u1169\u1100\u1173\u11B7
+\u1101\u1165\u11B8\u110C\u1175\u11AF
+\u1101\u1169\u11A8\u1103\u1162\u1100\u1175
+\u1101\u1169\u11BE\u110B\u1175\u11C1
+\u1102\u1161\u1103\u1173\u11AF\u110B\u1175
+\u1102\u1161\u1105\u1161\u11AB\u1112\u1175
+\u1102\u1161\u1106\u1165\u110C\u1175
+\u1102\u1161\u1106\u116E\u11AF
+\u1102\u1161\u110E\u1175\u11B7\u1107\u1161\u11AB
+\u1102\u1161\u1112\u1173\u11AF
+\u1102\u1161\u11A8\u110B\u1167\u11B8
+\u1102\u1161\u11AB\u1107\u1161\u11BC
+\u1102\u1161\u11AF\u1100\u1162
+\u1102\u1161\u11AF\u110A\u1175
+\u1102\u1161\u11AF\u110D\u1161
+\u1102\u1161\u11B7\u1102\u1167
+\u1102\u1161\u11B7\u1103\u1162\u1106\u116E\u11AB
+\u1102\u1161\u11B7\u1106\u1162
+\u1102\u1161\u11B7\u1109\u1161\u11AB
+\u1102\u1161\u11B7\u110C\u1161
+\u1102\u1161\u11B7\u1111\u1167\u11AB
+\u1102\u1161\u11B7\u1112\u1161\u11A8\u1109\u1162\u11BC
+\u1102\u1161\u11BC\u1107\u1175
+\u1102\u1161\u11C0\u1106\u1161\u11AF
+\u1102\u1162\u1102\u1167\u11AB
+\u1102\u1162\u110B\u116D\u11BC
+\u1102\u1162\u110B\u1175\u11AF
+\u1102\u1162\u11B7\u1107\u1175
+\u1102\u1162\u11B7\u1109\u1162
+\u1102\u1162\u11BA\u1106\u116E\u11AF
+\u1102\u1162\u11BC\u1103\u1169\u11BC
+\u1102\u1162\u11BC\u1106\u1167\u11AB
+\u1102\u1162\u11BC\u1107\u1161\u11BC
+\u1102\u1162\u11BC\u110C\u1161\u11BC\u1100\u1169
+\u1102\u1166\u11A8\u1110\u1161\u110B\u1175
+\u1102\u1166\u11BA\u110D\u1162
+\u1102\u1169\u1103\u1169\u11BC
+\u1102\u1169\u1105\u1161\u11AB\u1109\u1162\u11A8
+\u1102\u1169\u1105\u1167\u11A8
+\u1102\u1169\u110B\u1175\u11AB
+\u1102\u1169\u11A8\u110B\u1173\u11B7
+\u1102\u1169\u11A8\u110E\u1161
+\u1102\u1169\u11A8\u1112\u116A
+\u1102\u1169\u11AB\u1105\u1175
+\u1102\u1169\u11AB\u1106\u116E\u11AB
+\u1102\u1169\u11AB\u110C\u1162\u11BC
+\u1102\u1169\u11AF\u110B\u1175
+\u1102\u1169\u11BC\u1100\u116E
+\u1102\u1169\u11BC\u1103\u1161\u11B7
+\u1102\u1169\u11BC\u1106\u1175\u11AB
+\u1102\u1169\u11BC\u1107\u116E
+\u1102\u1169\u11BC\u110B\u1165\u11B8
+\u1102\u1169\u11BC\u110C\u1161\u11BC
+\u1102\u1169\u11BC\u110E\u1169\u11AB
+\u1102\u1169\u11C1\u110B\u1175
+\u1102\u116E\u11AB\u1103\u1169\u11BC\u110C\u1161
+\u1102\u116E\u11AB\u1106\u116E\u11AF
+\u1102\u116E\u11AB\u110A\u1165\u11B8
+\u1102\u1172\u110B\u116D\u11A8
+\u1102\u1173\u1101\u1175\u11B7
+\u1102\u1173\u11A8\u1103\u1162
+\u1102\u1173\u11BC\u1103\u1169\u11BC\u110C\u1165\u11A8
+\u1102\u1173\u11BC\u1105\u1167\u11A8
+\u1103\u1161\u1107\u1161\u11BC
+\u1103\u1161\u110B\u1163\u11BC\u1109\u1165\u11BC
+\u1103\u1161\u110B\u1173\u11B7
+\u1103\u1161\u110B\u1175\u110B\u1165\u1110\u1173
+\u1103\u1161\u1112\u1162\u11BC
+\u1103\u1161\u11AB\u1100\u1168
+\u1103\u1161\u11AB\u1100\u1169\u11AF
+\u1103\u1161\u11AB\u1103\u1169\u11A8
+\u1103\u1161\u11AB\u1106\u1161\u11BA
+\u1103\u1161\u11AB\u1109\u116E\u11AB
+\u1103\u1161\u11AB\u110B\u1165
+\u1103\u1161\u11AB\u110B\u1171
+\u1103\u1161\u11AB\u110C\u1165\u11B7
+\u1103\u1161\u11AB\u110E\u1166
+\u1103\u1161\u11AB\u110E\u116E
+\u1103\u1161\u11AB\u1111\u1167\u11AB
+\u1103\u1161\u11AB\u1111\u116E\u11BC
+\u1103\u1161\u11AF\u1100\u1163\u11AF
+\u1103\u1161\u11AF\u1105\u1165
+\u1103\u1161\u11AF\u1105\u1167\u11A8
+\u1103\u1161\u11AF\u1105\u1175
+\u1103\u1161\u11B0\u1100\u1169\u1100\u1175
+\u1103\u1161\u11B7\u1103\u1161\u11BC
+\u1103\u1161\u11B7\u1107\u1162
+\u1103\u1161\u11B7\u110B\u116D
+\u1103\u1161\u11B7\u110B\u1175\u11B7
+\u1103\u1161\u11B8\u1107\u1167\u11AB
+\u1103\u1161\u11B8\u110C\u1161\u11BC
+\u1103\u1161\u11BC\u1100\u1173\u11AB
+\u1103\u1161\u11BC\u1107\u116E\u11AB\u1100\u1161\u11AB
+\u1103\u1161\u11BC\u110B\u1167\u11AB\u1112\u1175
+\u1103\u1161\u11BC\u110C\u1161\u11BC
+\u1103\u1162\u1100\u1172\u1106\u1169
+\u1103\u1162\u1102\u1161\u11BD
+\u1103\u1162\u1103\u1161\u11AB\u1112\u1175
+\u1103\u1162\u1103\u1161\u11B8
+\u1103\u1162\u1103\u1169\u1109\u1175
+\u1103\u1162\u1105\u1163\u11A8
+\u1103\u1162\u1105\u1163\u11BC
+\u1103\u1162\u1105\u1172\u11A8
+\u1103\u1162\u1106\u116E\u11AB
+\u1103\u1162\u1107\u116E\u1107\u116E\u11AB
+\u1103\u1162\u1109\u1175\u11AB
+\u1103\u1162\u110B\u1173\u11BC
+\u1103\u1162\u110C\u1161\u11BC
+\u1103\u1162\u110C\u1165\u11AB
+\u1103\u1162\u110C\u1165\u11B8
+\u1103\u1162\u110C\u116E\u11BC
+\u1103\u1162\u110E\u1162\u11A8
+\u1103\u1162\u110E\u116E\u11AF
+\u1103\u1162\u110E\u116E\u11BC
+\u1103\u1162\u1110\u1169\u11BC\u1105\u1167\u11BC
+\u1103\u1162\u1112\u1161\u11A8
+\u1103\u1162\u1112\u1161\u11AB\u1106\u1175\u11AB\u1100\u116E\u11A8
+\u1103\u1162\u1112\u1161\u11B8\u1109\u1175\u11AF
+\u1103\u1162\u1112\u1167\u11BC
+\u1103\u1165\u11BC\u110B\u1165\u1105\u1175
+\u1103\u1166\u110B\u1175\u1110\u1173
+\u1103\u1169\u1103\u1162\u110E\u1166
+\u1103\u1169\u1103\u1165\u11A8
+\u1103\u1169\u1103\u116E\u11A8
+\u1103\u1169\u1106\u1161\u11BC
+\u1103\u1169\u1109\u1165\u1100\u116A\u11AB
+\u1103\u1169\u1109\u1175\u11B7
+\u1103\u1169\u110B\u116E\u11B7
+\u1103\u1169\u110B\u1175\u11B8
+\u1103\u1169\u110C\u1161\u1100\u1175
+\u1103\u1169\u110C\u1165\u1112\u1175
+\u1103\u1169\u110C\u1165\u11AB
+\u1103\u1169\u110C\u116E\u11BC
+\u1103\u1169\u110E\u1161\u11A8
+\u1103\u1169\u11A8\u1100\u1161\u11B7
+\u1103\u1169\u11A8\u1105\u1175\u11B8
+\u1103\u1169\u11A8\u1109\u1165
+\u1103\u1169\u11A8\u110B\u1175\u11AF
+\u1103\u1169\u11A8\u110E\u1161\u11BC\u110C\u1165\u11A8
+\u1103\u1169\u11BC\u1112\u116A\u110E\u1162\u11A8
+\u1103\u1171\u11BA\u1106\u1169\u1109\u1173\u11B8
+\u1103\u1171\u11BA\u1109\u1161\u11AB
+\u1104\u1161\u11AF\u110B\u1161\u110B\u1175
+\u1106\u1161\u1102\u116E\u1105\u1161
+\u1106\u1161\u1102\u1173\u11AF
+\u1106\u1161\u1103\u1161\u11BC
+\u1106\u1161\u1105\u1161\u1110\u1169\u11AB
+\u1106\u1161\u1105\u1167\u11AB
+\u1106\u1161\u1106\u116E\u1105\u1175
+\u1106\u1161\u1109\u1161\u110C\u1175
+\u1106\u1161\u110B\u1163\u11A8
+\u1106\u1161\u110B\u116D\u1102\u1166\u110C\u1173
+\u1106\u1161\u110B\u1173\u11AF
+\u1106\u1161\u110B\u1173\u11B7
+\u1106\u1161\u110B\u1175\u110F\u1173
+\u1106\u1161\u110C\u116E\u11BC
+\u1106\u1161\u110C\u1175\u1106\u1161\u11A8
+\u1106\u1161\u110E\u1161\u11AB\u1100\u1161\u110C\u1175
+\u1106\u1161\u110E\u1161\u11AF
+\u1106\u1161\u1112\u1173\u11AB
+\u1106\u1161\u11A8\u1100\u1165\u11AF\u1105\u1175
+\u1106\u1161\u11A8\u1102\u1162
+\u1106\u1161\u11A8\u1109\u1161\u11BC
+\u1106\u1161\u11AB\u1102\u1161\u11B7
+\u1106\u1161\u11AB\u1103\u116E
+\u1106\u1161\u11AB\u1109\u1166
+\u1106\u1161\u11AB\u110B\u1163\u11A8
+\u1106\u1161\u11AB\u110B\u1175\u11AF
+\u1106\u1161\u11AB\u110C\u1165\u11B7
+\u1106\u1161\u11AB\u110C\u1169\u11A8
+\u1106\u1161\u11AB\u1112\u116A
+\u1106\u1161\u11AD\u110B\u1175
+\u1106\u1161\u11AF\u1100\u1175
+\u1106\u1161\u11AF\u110A\u1173\u11B7
+\u1106\u1161\u11AF\u1110\u116E
+\u1106\u1161\u11B7\u1103\u1162\u1105\u1169
+\u1106\u1161\u11BC\u110B\u116F\u11AB\u1100\u1167\u11BC
+\u1106\u1162\u1102\u1167\u11AB
+\u1106\u1162\u1103\u1161\u11AF
+\u1106\u1162\u1105\u1167\u11A8
+\u1106\u1162\u1107\u1165\u11AB
+\u1106\u1162\u1109\u1173\u110F\u1165\u11B7
+\u1106\u1162\u110B\u1175\u11AF
+\u1106\u1162\u110C\u1161\u11BC
+\u1106\u1162\u11A8\u110C\u116E
+\u1106\u1165\u11A8\u110B\u1175
+\u1106\u1165\u11AB\u110C\u1165
+\u1106\u1165\u11AB\u110C\u1175
+\u1106\u1165\u11AF\u1105\u1175
+\u1106\u1166\u110B\u1175\u11AF
+\u1106\u1167\u1102\u1173\u1105\u1175
+\u1106\u1167\u110E\u1175\u11AF
+\u1106\u1167\u11AB\u1103\u1161\u11B7
+\u1106\u1167\u11AF\u110E\u1175
+\u1106\u1167\u11BC\u1103\u1161\u11AB
+\u1106\u1167\u11BC\u1105\u1167\u11BC
+\u1106\u1167\u11BC\u110B\u1168
+\u1106\u1167\u11BC\u110B\u1174
+\u1106\u1167\u11BC\u110C\u1165\u11AF
+\u1106\u1167\u11BC\u110E\u1175\u11BC
+\u1106\u1167\u11BC\u1112\u1161\u11B7
+\u1106\u1169\u1100\u1173\u11B7
+\u1106\u1169\u1102\u1175\u1110\u1165
+\u1106\u1169\u1103\u1166\u11AF
+\u1106\u1169\u1103\u1173\u11AB
+\u1106\u1169\u1107\u1165\u11B7
+\u1106\u1169\u1109\u1173\u11B8
+\u1106\u1169\u110B\u1163\u11BC
+\u1106\u1169\u110B\u1175\u11B7
+\u1106\u1169\u110C\u1169\u1105\u1175
+\u1106\u1169\u110C\u1175\u11B8
+\u1106\u1169\u1110\u116E\u11BC\u110B\u1175
+\u1106\u1169\u11A8\u1100\u1165\u11AF\u110B\u1175
+\u1106\u1169\u11A8\u1105\u1169\u11A8
+\u1106\u1169\u11A8\u1109\u1161
+\u1106\u1169\u11A8\u1109\u1169\u1105\u1175
+\u1106\u1169\u11A8\u1109\u116E\u11B7
+\u1106\u1169\u11A8\u110C\u1165\u11A8
+\u1106\u1169\u11A8\u1111\u116D
+\u1106\u1169\u11AF\u1105\u1162
+\u1106\u1169\u11B7\u1106\u1162
+\u1106\u1169\u11B7\u1106\u116E\u1100\u1166
+\u1106\u1169\u11B7\u1109\u1161\u11AF
+\u1106\u1169\u11B7\u1109\u1169\u11A8
+\u1106\u1169\u11B7\u110C\u1175\u11BA
+\u1106\u1169\u11B7\u1110\u1169\u11BC
+\u1106\u1169\u11B8\u1109\u1175
+\u1106\u116E\u1100\u116A\u11AB\u1109\u1175\u11B7
+\u1106\u116E\u1100\u116E\u11BC\u1112\u116A
+\u1106\u116E\u1103\u1165\u110B\u1171
+\u1106\u116E\u1103\u1165\u11B7
+\u1106\u116E\u1105\u1173\u11C1
+\u1106\u116E\u1109\u1173\u11AB
+\u1106\u116E\u110B\u1165\u11BA
+\u1106\u116E\u110B\u1167\u11A8
+\u1106\u116E\u110B\u116D\u11BC
+\u1106\u116E\u110C\u1169\u1100\u1165\u11AB
+\u1106\u116E\u110C\u1175\u1100\u1162
+\u1106\u116E\u110E\u1165\u11A8
+\u1106\u116E\u11AB\u1100\u116E
+\u1106\u116E\u11AB\u1103\u1173\u11A8
+\u1106\u116E\u11AB\u1107\u1165\u11B8
+\u1106\u116E\u11AB\u1109\u1165
+\u1106\u116E\u11AB\u110C\u1166
+\u1106\u116E\u11AB\u1112\u1161\u11A8
+\u1106\u116E\u11AB\u1112\u116A
+\u1106\u116E\u11AF\u1100\u1161
+\u1106\u116E\u11AF\u1100\u1165\u11AB
+\u1106\u116E\u11AF\u1100\u1167\u11AF
+\u1106\u116E\u11AF\u1100\u1169\u1100\u1175
+\u1106\u116E\u11AF\u1105\u1169\u11AB
+\u1106\u116E\u11AF\u1105\u1175\u1112\u1161\u11A8
+\u1106\u116E\u11AF\u110B\u1173\u11B7
+\u1106\u116E\u11AF\u110C\u1175\u11AF
+\u1106\u116E\u11AF\u110E\u1166
+\u1106\u1175\u1100\u116E\u11A8
+\u1106\u1175\u1103\u1175\u110B\u1165
+\u1106\u1175\u1109\u1161\u110B\u1175\u11AF
+\u1106\u1175\u1109\u116E\u11AF
+\u1106\u1175\u110B\u1167\u11A8
+\u1106\u1175\u110B\u116D\u11BC\u1109\u1175\u11AF
+\u1106\u1175\u110B\u116E\u11B7
+\u1106\u1175\u110B\u1175\u11AB
+\u1106\u1175\u1110\u1175\u11BC
+\u1106\u1175\u1112\u1169\u11AB
+\u1106\u1175\u11AB\u1100\u1161\u11AB
+\u1106\u1175\u11AB\u110C\u1169\u11A8
+\u1106\u1175\u11AB\u110C\u116E
+\u1106\u1175\u11AE\u110B\u1173\u11B7
+\u1106\u1175\u11AF\u1100\u1161\u1105\u116E
+\u1106\u1175\u11AF\u1105\u1175\u1106\u1175\u1110\u1165
+\u1106\u1175\u11C0\u1107\u1161\u1103\u1161\u11A8
+\u1107\u1161\u1100\u1161\u110C\u1175
+\u1107\u1161\u1100\u116E\u1102\u1175
+\u1107\u1161\u1102\u1161\u1102\u1161
+\u1107\u1161\u1102\u1173\u11AF
+\u1107\u1161\u1103\u1161\u11A8
+\u1107\u1161\u1103\u1161\u11BA\u1100\u1161
+\u1107\u1161\u1105\u1161\u11B7
+\u1107\u1161\u110B\u1175\u1105\u1165\u1109\u1173
+\u1107\u1161\u1110\u1161\u11BC
+\u1107\u1161\u11A8\u1106\u116E\u11AF\u1100\u116A\u11AB
+\u1107\u1161\u11A8\u1109\u1161
+\u1107\u1161\u11A8\u1109\u116E
+\u1107\u1161\u11AB\u1103\u1162
+\u1107\u1161\u11AB\u1103\u1173\u1109\u1175
+\u1107\u1161\u11AB\u1106\u1161\u11AF
+\u1107\u1161\u11AB\u1107\u1161\u11AF
+\u1107\u1161\u11AB\u1109\u1165\u11BC
+\u1107\u1161\u11AB\u110B\u1173\u11BC
+\u1107\u1161\u11AB\u110C\u1161\u11BC
+\u1107\u1161\u11AB\u110C\u116E\u11A8
+\u1107\u1161\u11AB\u110C\u1175
+\u1107\u1161\u11AB\u110E\u1161\u11AB
+\u1107\u1161\u11AE\u110E\u1175\u11B7
+\u1107\u1161\u11AF\u1100\u1161\u1105\u1161\u11A8
+\u1107\u1161\u11AF\u1100\u1165\u11AF\u110B\u1173\u11B7
+\u1107\u1161\u11AF\u1100\u1167\u11AB
+\u1107\u1161\u11AF\u1103\u1161\u11AF
+\u1107\u1161\u11AF\u1105\u1166
+\u1107\u1161\u11AF\u1106\u1169\u11A8
+\u1107\u1161\u11AF\u1107\u1161\u1103\u1161\u11A8
+\u1107\u1161\u11AF\u1109\u1162\u11BC
+\u1107\u1161\u11AF\u110B\u1173\u11B7
+\u1107\u1161\u11AF\u110C\u1161\u1100\u116E\u11A8
+\u1107\u1161\u11AF\u110C\u1165\u11AB
+\u1107\u1161\u11AF\u1110\u1169\u11B8
+\u1107\u1161\u11AF\u1111\u116D
+\u1107\u1161\u11B7\u1112\u1161\u1102\u1173\u11AF
+\u1107\u1161\u11B8\u1100\u1173\u1105\u1173\u11BA
+\u1107\u1161\u11B8\u1106\u1161\u11BA
+\u1107\u1161\u11B8\u1109\u1161\u11BC
+\u1107\u1161\u11B8\u1109\u1169\u11C0
+\u1107\u1161\u11BC\u1100\u1173\u11B7
+\u1107\u1161\u11BC\u1106\u1167\u11AB
+\u1107\u1161\u11BC\u1106\u116E\u11AB
+\u1107\u1161\u11BC\u1107\u1161\u1103\u1161\u11A8
+\u1107\u1161\u11BC\u1107\u1165\u11B8
+\u1107\u1161\u11BC\u1109\u1169\u11BC
+\u1107\u1161\u11BC\u1109\u1175\u11A8
+\u1107\u1161\u11BC\u110B\u1161\u11AB
+\u1107\u1161\u11BC\u110B\u116E\u11AF
+\u1107\u1161\u11BC\u110C\u1175
+\u1107\u1161\u11BC\u1112\u1161\u11A8
+\u1107\u1161\u11BC\u1112\u1162
+\u1107\u1161\u11BC\u1112\u1163\u11BC
+\u1107\u1162\u1100\u1167\u11BC
+\u1107\u1162\u1101\u1169\u11B8
+\u1107\u1162\u1103\u1161\u11AF
+\u1107\u1162\u1103\u1173\u1106\u1175\u11AB\u1110\u1165\u11AB
+\u1107\u1162\u11A8\u1103\u116E\u1109\u1161\u11AB
+\u1107\u1162\u11A8\u1109\u1162\u11A8
+\u1107\u1162\u11A8\u1109\u1165\u11BC
+\u1107\u1162\u11A8\u110B\u1175\u11AB
+\u1107\u1162\u11A8\u110C\u1166
+\u1107\u1162\u11A8\u1112\u116A\u110C\u1165\u11B7
+\u1107\u1165\u1105\u1173\u11BA
+\u1107\u1165\u1109\u1165\u11BA
+\u1107\u1165\u1110\u1173\u11AB
+\u1107\u1165\u11AB\u1100\u1162
+\u1107\u1165\u11AB\u110B\u1167\u11A8
+\u1107\u1165\u11AB\u110C\u1175
+\u1107\u1165\u11AB\u1112\u1169
+\u1107\u1165\u11AF\u1100\u1173\u11B7
+\u1107\u1165\u11AF\u1105\u1166
+\u1107\u1165\u11AF\u110A\u1165
+\u1107\u1165\u11B7\u110B\u1171
+\u1107\u1165\u11B7\u110B\u1175\u11AB
+\u1107\u1165\u11B7\u110C\u116C
+\u1107\u1165\u11B8\u1105\u1172\u11AF
+\u1107\u1165\u11B8\u110B\u116F\u11AB
+\u1107\u1165\u11B8\u110C\u1165\u11A8
+\u1107\u1165\u11B8\u110E\u1175\u11A8
+\u1107\u1166\u110B\u1175\u110C\u1175\u11BC
+\u1107\u1166\u11AF\u1110\u1173
+\u1107\u1167\u11AB\u1100\u1167\u11BC
+\u1107\u1167\u11AB\u1103\u1169\u11BC
+\u1107\u1167\u11AB\u1106\u1167\u11BC
+\u1107\u1167\u11AB\u1109\u1175\u11AB
+\u1107\u1167\u11AB\u1112\u1169\u1109\u1161
+\u1107\u1167\u11AB\u1112\u116A
+\u1107\u1167\u11AF\u1103\u1169
+\u1107\u1167\u11AF\u1106\u1167\u11BC
+\u1107\u1167\u11AF\u110B\u1175\u11AF
+\u1107\u1167\u11BC\u1109\u1175\u11AF
+\u1107\u1167\u11BC\u110B\u1161\u1105\u1175
+\u1107\u1167\u11BC\u110B\u116F\u11AB
+\u1107\u1169\u1100\u116A\u11AB
+\u1107\u1169\u1102\u1165\u1109\u1173
+\u1107\u1169\u1105\u1161\u1109\u1162\u11A8
+\u1107\u1169\u1105\u1161\u11B7
+\u1107\u1169\u1105\u1173\u11B7
+\u1107\u1169\u1109\u1161\u11BC
+\u1107\u1169\u110B\u1161\u11AB
+\u1107\u1169\u110C\u1161\u1100\u1175
+\u1107\u1169\u110C\u1161\u11BC
+\u1107\u1169\u110C\u1165\u11AB
+\u1107\u1169\u110C\u1169\u11AB
+\u1107\u1169\u1110\u1169\u11BC
+\u1107\u1169\u1111\u1167\u11AB\u110C\u1165\u11A8
+\u1107\u1169\u1112\u1165\u11B7
+\u1107\u1169\u11A8\u1103\u1169
+\u1107\u1169\u11A8\u1109\u1161
+\u1107\u1169\u11A8\u1109\u116E\u11BC\u110B\u1161
+\u1107\u1169\u11A8\u1109\u1173\u11B8
+\u1107\u1169\u11A9\u110B\u1173\u11B7
+\u1107\u1169\u11AB\u1100\u1167\u11A8\u110C\u1165\u11A8
+\u1107\u1169\u11AB\u1105\u1162
+\u1107\u1169\u11AB\u1107\u116E
+\u1107\u1169\u11AB\u1109\u1161
+\u1107\u1169\u11AB\u1109\u1165\u11BC
+\u1107\u1169\u11AB\u110B\u1175\u11AB
+\u1107\u1169\u11AB\u110C\u1175\u11AF
+\u1107\u1169\u11AF\u1111\u1166\u11AB
+\u1107\u1169\u11BC\u1109\u1161
+\u1107\u1169\u11BC\u110C\u1175
+\u1107\u1169\u11BC\u1110\u116E
+\u1107\u116E\u1100\u1173\u11AB
+\u1107\u116E\u1101\u1173\u1105\u1165\u110B\u116E\u11B7
+\u1107\u116E\u1103\u1161\u11B7
+\u1107\u116E\u1103\u1169\u11BC\u1109\u1161\u11AB
+\u1107\u116E\u1106\u116E\u11AB
+\u1107\u116E\u1107\u116E\u11AB
+\u1107\u116E\u1109\u1161\u11AB
+\u1107\u116E\u1109\u1161\u11BC
+\u1107\u116E\u110B\u1165\u11BF
+\u1107\u116E\u110B\u1175\u11AB
+\u1107\u116E\u110C\u1161\u11A8\u110B\u116D\u11BC
+\u1107\u116E\u110C\u1161\u11BC
+\u1107\u116E\u110C\u1165\u11BC
+\u1107\u116E\u110C\u1169\u11A8
+\u1107\u116E\u110C\u1175\u1105\u1165\u11AB\u1112\u1175
+\u1107\u116E\u110E\u1175\u11AB
+\u1107\u116E\u1110\u1161\u11A8
+\u1107\u116E\u1111\u116E\u11B7
+\u1107\u116E\u1112\u116C\u110C\u1161\u11BC
+\u1107\u116E\u11A8\u1107\u116E
+\u1107\u116E\u11A8\u1112\u1161\u11AB
+\u1107\u116E\u11AB\u1102\u1169
+\u1107\u116E\u11AB\u1105\u1163\u11BC
+\u1107\u116E\u11AB\u1105\u1175
+\u1107\u116E\u11AB\u1106\u1167\u11BC
+\u1107\u116E\u11AB\u1109\u1165\u11A8
+\u1107\u116E\u11AB\u110B\u1163
+\u1107\u116E\u11AB\u110B\u1171\u1100\u1175
+\u1107\u116E\u11AB\u1111\u1175\u11AF
+\u1107\u116E\u11AB\u1112\u1169\u11BC\u1109\u1162\u11A8
+\u1107\u116E\u11AF\u1100\u1169\u1100\u1175
+\u1107\u116E\u11AF\u1100\u116A
+\u1107\u116E\u11AF\u1100\u116D
+\u1107\u116E\u11AF\u1101\u1169\u11BE
+\u1107\u116E\u11AF\u1106\u1161\u11AB
+\u1107\u116E\u11AF\u1107\u1165\u11B8
+\u1107\u116E\u11AF\u1107\u1175\u11BE
+\u1107\u116E\u11AF\u110B\u1161\u11AB
+\u1107\u116E\u11AF\u110B\u1175\u110B\u1175\u11A8
+\u1107\u116E\u11AF\u1112\u1162\u11BC
+\u1107\u1173\u1105\u1162\u11AB\u1103\u1173
+\u1107\u1175\u1100\u1173\u11A8
+\u1107\u1175\u1102\u1161\u11AB
+\u1107\u1175\u1102\u1175\u11AF
+\u1107\u1175\u1103\u116E\u11AF\u1100\u1175
+\u1107\u1175\u1103\u1175\u110B\u1169
+\u1107\u1175\u1105\u1169\u1109\u1169
+\u1107\u1175\u1106\u1161\u11AB
+\u1107\u1175\u1106\u1167\u11BC
+\u1107\u1175\u1106\u1175\u11AF
+\u1107\u1175\u1107\u1161\u1105\u1161\u11B7
+\u1107\u1175\u1107\u1175\u11B7\u1107\u1161\u11B8
+\u1107\u1175\u1109\u1161\u11BC
+\u1107\u1175\u110B\u116D\u11BC
+\u1107\u1175\u110B\u1172\u11AF
+\u1107\u1175\u110C\u116E\u11BC
+\u1107\u1175\u1110\u1161\u1106\u1175\u11AB
+\u1107\u1175\u1111\u1161\u11AB
+\u1107\u1175\u11AF\u1103\u1175\u11BC
+\u1107\u1175\u11BA\u1106\u116E\u11AF
+\u1107\u1175\u11BA\u1107\u1161\u11BC\u110B\u116E\u11AF
+\u1107\u1175\u11BA\u110C\u116E\u11AF\u1100\u1175
+\u1107\u1175\u11BE\u1101\u1161\u11AF
+\u1108\u1161\u11AF\u1100\u1161\u11AB\u1109\u1162\u11A8
+\u1108\u1161\u11AF\u1105\u1162
+\u1108\u1161\u11AF\u1105\u1175
+\u1109\u1161\u1100\u1165\u11AB
+\u1109\u1161\u1100\u1168\u110C\u1165\u11AF
+\u1109\u1161\u1102\u1161\u110B\u1175
+\u1109\u1161\u1102\u1163\u11BC
+\u1109\u1161\u1105\u1161\u11B7
+\u1109\u1161\u1105\u1161\u11BC
+\u1109\u1161\u1105\u1175\u11B8
+\u1109\u1161\u1106\u1169\u1102\u1175\u11B7
+\u1109\u1161\u1106\u116E\u11AF
+\u1109\u1161\u1107\u1161\u11BC
+\u1109\u1161\u1109\u1161\u11BC
+\u1109\u1161\u1109\u1162\u11BC\u1112\u116A\u11AF
+\u1109\u1161\u1109\u1165\u11AF
+\u1109\u1161\u1109\u1173\u11B7
+\u1109\u1161\u1109\u1175\u11AF
+\u1109\u1161\u110B\u1165\u11B8
+\u1109\u1161\u110B\u116D\u11BC
+\u1109\u1161\u110B\u116F\u11AF
+\u1109\u1161\u110C\u1161\u11BC
+\u1109\u1161\u110C\u1165\u11AB
+\u1109\u1161\u110C\u1175\u11AB
+\u1109\u1161\u110E\u1169\u11AB
+\u1109\u1161\u110E\u116E\u11AB\u1100\u1175
+\u1109\u1161\u1110\u1161\u11BC
+\u1109\u1161\u1110\u116E\u1105\u1175
+\u1109\u1161\u1112\u1173\u11AF
+\u1109\u1161\u11AB\u1100\u1175\u11AF
+\u1109\u1161\u11AB\u1107\u116E\u110B\u1175\u11AB\u1100\u116A
+\u1109\u1161\u11AB\u110B\u1165\u11B8
+\u1109\u1161\u11AB\u110E\u1162\u11A8
+\u1109\u1161\u11AF\u1105\u1175\u11B7
+\u1109\u1161\u11AF\u110B\u1175\u11AB
+\u1109\u1161\u11AF\u110D\u1161\u11A8
+\u1109\u1161\u11B7\u1100\u1168\u1110\u1161\u11BC
+\u1109\u1161\u11B7\u1100\u116E\u11A8
+\u1109\u1161\u11B7\u1109\u1175\u11B8
+\u1109\u1161\u11B7\u110B\u116F\u11AF
+\u1109\u1161\u11B7\u110E\u1169\u11AB
+\u1109\u1161\u11BC\u1100\u116A\u11AB
+\u1109\u1161\u11BC\u1100\u1173\u11B7
+\u1109\u1161\u11BC\u1103\u1162
+\u1109\u1161\u11BC\u1105\u1172
+\u1109\u1161\u11BC\u1107\u1161\u11AB\u1100\u1175
+\u1109\u1161\u11BC\u1109\u1161\u11BC
+\u1109\u1161\u11BC\u1109\u1175\u11A8
+\u1109\u1161\u11BC\u110B\u1165\u11B8
+\u1109\u1161\u11BC\u110B\u1175\u11AB
+\u1109\u1161\u11BC\u110C\u1161
+\u1109\u1161\u11BC\u110C\u1165\u11B7
+\u1109\u1161\u11BC\u110E\u1165
+\u1109\u1161\u11BC\u110E\u116E
+\u1109\u1161\u11BC\u1110\u1162
+\u1109\u1161\u11BC\u1111\u116D
+\u1109\u1161\u11BC\u1111\u116E\u11B7
+\u1109\u1161\u11BC\u1112\u116A\u11BC
+\u1109\u1162\u1107\u1167\u11A8
+\u1109\u1162\u11A8\u1101\u1161\u11AF
+\u1109\u1162\u11A8\u110B\u1167\u11AB\u1111\u1175\u11AF
+\u1109\u1162\u11BC\u1100\u1161\u11A8
+\u1109\u1162\u11BC\u1106\u1167\u11BC
+\u1109\u1162\u11BC\u1106\u116E\u11AF
+\u1109\u1162\u11BC\u1107\u1161\u11BC\u1109\u1169\u11BC
+\u1109\u1162\u11BC\u1109\u1161\u11AB
+\u1109\u1162\u11BC\u1109\u1165\u11AB
+\u1109\u1162\u11BC\u1109\u1175\u11AB
+\u1109\u1162\u11BC\u110B\u1175\u11AF
+\u1109\u1162\u11BC\u1112\u116A\u11AF
+\u1109\u1165\u1105\u1161\u11B8
+\u1109\u1165\u1105\u1173\u11AB
+\u1109\u1165\u1106\u1167\u11BC
+\u1109\u1165\u1106\u1175\u11AB
+\u1109\u1165\u1107\u1175\u1109\u1173
+\u1109\u1165\u110B\u1163\u11BC
+\u1109\u1165\u110B\u116E\u11AF
+\u1109\u1165\u110C\u1165\u11A8
+\u1109\u1165\u110C\u1165\u11B7
+\u1109\u1165\u110D\u1169\u11A8
+\u1109\u1165\u110F\u1173\u11AF
+\u1109\u1165\u11A8\u1109\u1161
+\u1109\u1165\u11A8\u110B\u1172
+\u1109\u1165\u11AB\u1100\u1165
+\u1109\u1165\u11AB\u1106\u116E\u11AF
+\u1109\u1165\u11AB\u1107\u1162
+\u1109\u1165\u11AB\u1109\u1162\u11BC
+\u1109\u1165\u11AB\u1109\u116E
+\u1109\u1165\u11AB\u110B\u116F\u11AB
+\u1109\u1165\u11AB\u110C\u1161\u11BC
+\u1109\u1165\u11AB\u110C\u1165\u11AB
+\u1109\u1165\u11AB\u1110\u1162\u11A8
+\u1109\u1165\u11AB\u1111\u116E\u11BC\u1100\u1175
+\u1109\u1165\u11AF\u1100\u1165\u110C\u1175
+\u1109\u1165\u11AF\u1102\u1161\u11AF
+\u1109\u1165\u11AF\u1105\u1165\u11BC\u1110\u1161\u11BC
+\u1109\u1165\u11AF\u1106\u1167\u11BC
+\u1109\u1165\u11AF\u1106\u116E\u11AB
+\u1109\u1165\u11AF\u1109\u1161
+\u1109\u1165\u11AF\u110B\u1161\u11A8\u1109\u1161\u11AB
+\u1109\u1165\u11AF\u110E\u1175
+\u1109\u1165\u11AF\u1110\u1161\u11BC
+\u1109\u1165\u11B8\u110A\u1175
+\u1109\u1165\u11BC\u1100\u1169\u11BC
+\u1109\u1165\u11BC\u1103\u1161\u11BC
+\u1109\u1165\u11BC\u1106\u1167\u11BC
+\u1109\u1165\u11BC\u1107\u1167\u11AF
+\u1109\u1165\u11BC\u110B\u1175\u11AB
+\u1109\u1165\u11BC\u110C\u1161\u11BC
+\u1109\u1165\u11BC\u110C\u1165\u11A8
+\u1109\u1165\u11BC\u110C\u1175\u11AF
+\u1109\u1165\u11BC\u1112\u1161\u11B7
+\u1109\u1166\u1100\u1173\u11B7
+\u1109\u1166\u1106\u1175\u1102\u1161
+\u1109\u1166\u1109\u1161\u11BC
+\u1109\u1166\u110B\u116F\u11AF
+\u1109\u1166\u110C\u1169\u11BC\u1103\u1162\u110B\u116A\u11BC
+\u1109\u1166\u1110\u1161\u11A8
+\u1109\u1166\u11AB\u1110\u1165
+\u1109\u1166\u11AB\u1110\u1175\u1106\u1175\u1110\u1165
+\u1109\u1166\u11BA\u110D\u1162
+\u1109\u1169\u1100\u1172\u1106\u1169
+\u1109\u1169\u1100\u1173\u11A8\u110C\u1165\u11A8
+\u1109\u1169\u1100\u1173\u11B7
+\u1109\u1169\u1102\u1161\u1100\u1175
+\u1109\u1169\u1102\u1167\u11AB
+\u1109\u1169\u1103\u1173\u11A8
+\u1109\u1169\u1106\u1161\u11BC
+\u1109\u1169\u1106\u116E\u11AB
+\u1109\u1169\u1109\u1165\u11AF
+\u1109\u1169\u1109\u1169\u11A8
+\u1109\u1169\u110B\u1161\u1100\u116A
+\u1109\u1169\u110B\u116D\u11BC
+\u1109\u1169\u110B\u116F\u11AB
+\u1109\u1169\u110B\u1173\u11B7
+\u1109\u1169\u110C\u116E\u11BC\u1112\u1175
+\u1109\u1169\u110C\u1175\u1111\u116E\u11B7
+\u1109\u1169\u110C\u1175\u11AF
+\u1109\u1169\u1111\u116E\u11BC
+\u1109\u1169\u1112\u1167\u11BC
+\u1109\u1169\u11A8\u1103\u1161\u11B7
+\u1109\u1169\u11A8\u1103\u1169
+\u1109\u1169\u11A8\u110B\u1169\u11BA
+\u1109\u1169\u11AB\u1100\u1161\u1105\u1161\u11A8
+\u1109\u1169\u11AB\u1100\u1175\u11AF
+\u1109\u1169\u11AB\u1102\u1167
+\u1109\u1169\u11AB\u1102\u1175\u11B7
+\u1109\u1169\u11AB\u1103\u1173\u11BC
+\u1109\u1169\u11AB\u1106\u1169\u11A8
+\u1109\u1169\u11AB\u1108\u1167\u11A8
+\u1109\u1169\u11AB\u1109\u1175\u11AF
+\u1109\u1169\u11AB\u110C\u1175\u11AF
+\u1109\u1169\u11AB\u1110\u1169\u11B8
+\u1109\u1169\u11AB\u1112\u1162
+\u1109\u1169\u11AF\u110C\u1175\u11A8\u1112\u1175
+\u1109\u1169\u11B7\u110A\u1175
+\u1109\u1169\u11BC\u110B\u1161\u110C\u1175
+\u1109\u1169\u11BC\u110B\u1175
+\u1109\u1169\u11BC\u1111\u1167\u11AB
+\u1109\u116C\u1100\u1169\u1100\u1175
+\u1109\u116D\u1111\u1175\u11BC
+\u1109\u116E\u1100\u1165\u11AB
+\u1109\u116E\u1102\u1167\u11AB
+\u1109\u116E\u1103\u1161\u11AB
+\u1109\u116E\u1103\u1169\u11BA\u1106\u116E\u11AF
+\u1109\u116E\u1103\u1169\u11BC\u110C\u1165\u11A8
+\u1109\u116E\u1106\u1167\u11AB
+\u1109\u116E\u1106\u1167\u11BC
+\u1109\u116E\u1107\u1161\u11A8
+\u1109\u116E\u1109\u1161\u11BC
+\u1109\u116E\u1109\u1165\u11A8
+\u1109\u116E\u1109\u116E\u11AF
+\u1109\u116E\u1109\u1175\u1105\u1169
+\u1109\u116E\u110B\u1165\u11B8
+\u1109\u116E\u110B\u1167\u11B7
+\u1109\u116E\u110B\u1167\u11BC
+\u1109\u116E\u110B\u1175\u11B8
+\u1109\u116E\u110C\u116E\u11AB
+\u1109\u116E\u110C\u1175\u11B8
+\u1109\u116E\u110E\u116E\u11AF
+\u1109\u116E\u110F\u1165\u11BA
+\u1109\u116E\u1111\u1175\u11AF
+\u1109\u116E\u1112\u1161\u11A8
+\u1109\u116E\u1112\u1165\u11B7\u1109\u1162\u11BC
+\u1109\u116E\u1112\u116A\u1100\u1175
+\u1109\u116E\u11A8\u1102\u1167
+\u1109\u116E\u11A8\u1109\u1169
+\u1109\u116E\u11A8\u110C\u1166
+\u1109\u116E\u11AB\u1100\u1161\u11AB
+\u1109\u116E\u11AB\u1109\u1165
+\u1109\u116E\u11AB\u1109\u116E
+\u1109\u116E\u11AB\u1109\u1175\u11A8\u1100\u1161\u11AB
+\u1109\u116E\u11AB\u110B\u1171
+\u1109\u116E\u11AE\u1100\u1161\u1105\u1161\u11A8
+\u1109\u116E\u11AF\u1107\u1167\u11BC
+\u1109\u116E\u11AF\u110C\u1175\u11B8
+\u1109\u116E\u11BA\u110C\u1161
+\u1109\u1173\u1102\u1175\u11B7
+\u1109\u1173\u1106\u116E\u11AF
+\u1109\u1173\u1109\u1173\u1105\u1169
+\u1109\u1173\u1109\u1173\u11BC
+\u1109\u1173\u110B\u1170\u1110\u1165
+\u1109\u1173\u110B\u1171\u110E\u1175
+\u1109\u1173\u110F\u1166\u110B\u1175\u1110\u1173
+\u1109\u1173\u1110\u1172\u1103\u1175\u110B\u1169
+\u1109\u1173\u1110\u1173\u1105\u1166\u1109\u1173
+\u1109\u1173\u1111\u1169\u110E\u1173
+\u1109\u1173\u11AF\u110D\u1165\u11A8
+\u1109\u1173\u11AF\u1111\u1173\u11B7
+\u1109\u1173\u11B8\u1100\u116A\u11AB
+\u1109\u1173\u11B8\u1100\u1175
+\u1109\u1173\u11BC\u1100\u1162\u11A8
+\u1109\u1173\u11BC\u1105\u1175
+\u1109\u1173\u11BC\u1107\u116E
+\u1109\u1173\u11BC\u110B\u116D\u11BC\u110E\u1161
+\u1109\u1173\u11BC\u110C\u1175\u11AB
+\u1109\u1175\u1100\u1161\u11A8
+\u1109\u1175\u1100\u1161\u11AB
+\u1109\u1175\u1100\u1169\u11AF
+\u1109\u1175\u1100\u1173\u11B7\u110E\u1175
+\u1109\u1175\u1102\u1161\u1105\u1175\u110B\u1169
+\u1109\u1175\u1103\u1162\u11A8
+\u1109\u1175\u1105\u1175\u110C\u1173
+\u1109\u1175\u1106\u1166\u11AB\u1110\u1173
+\u1109\u1175\u1106\u1175\u11AB
+\u1109\u1175\u1107\u116E\u1106\u1169
+\u1109\u1175\u1109\u1165\u11AB
+\u1109\u1175\u1109\u1165\u11AF
+\u1109\u1175\u1109\u1173\u1110\u1166\u11B7
+\u1109\u1175\u110B\u1161\u1107\u1165\u110C\u1175
+\u1109\u1175\u110B\u1165\u1106\u1165\u1102\u1175
+\u1109\u1175\u110B\u116F\u11AF
+\u1109\u1175\u110B\u1175\u11AB
+\u1109\u1175\u110B\u1175\u11AF
+\u1109\u1175\u110C\u1161\u11A8
+\u1109\u1175\u110C\u1161\u11BC
+\u1109\u1175\u110C\u1165\u11AF
+\u1109\u1175\u110C\u1165\u11B7
+\u1109\u1175\u110C\u116E\u11BC
+\u1109\u1175\u110C\u1173\u11AB
+\u1109\u1175\u110C\u1175\u11B8
+\u1109\u1175\u110E\u1165\u11BC
+\u1109\u1175\u1112\u1161\u11B8
+\u1109\u1175\u1112\u1165\u11B7
+\u1109\u1175\u11A8\u1100\u116E
+\u1109\u1175\u11A8\u1100\u1175
+\u1109\u1175\u11A8\u1103\u1161\u11BC
+\u1109\u1175\u11A8\u1105\u1163\u11BC
+\u1109\u1175\u11A8\u1105\u116D\u1111\u116E\u11B7
+\u1109\u1175\u11A8\u1106\u116E\u11AF
+\u1109\u1175\u11A8\u1108\u1161\u11BC
+\u1109\u1175\u11A8\u1109\u1161
+\u1109\u1175\u11A8\u1109\u1162\u11BC\u1112\u116A\u11AF
+\u1109\u1175\u11A8\u110E\u1169
+\u1109\u1175\u11A8\u1110\u1161\u11A8
+\u1109\u1175\u11A8\u1111\u116E\u11B7
+\u1109\u1175\u11AB\u1100\u1169
+\u1109\u1175\u11AB\u1100\u1172
+\u1109\u1175\u11AB\u1102\u1167\u11B7
+\u1109\u1175\u11AB\u1106\u116E\u11AB
+\u1109\u1175\u11AB\u1107\u1161\u11AF
+\u1109\u1175\u11AB\u1107\u1175
+\u1109\u1175\u11AB\u1109\u1161
+\u1109\u1175\u11AB\u1109\u1166
+\u1109\u1175\u11AB\u110B\u116D\u11BC
+\u1109\u1175\u11AB\u110C\u1166\u1111\u116E\u11B7
+\u1109\u1175\u11AB\u110E\u1165\u11BC
+\u1109\u1175\u11AB\u110E\u1166
+\u1109\u1175\u11AB\u1112\u116A
+\u1109\u1175\u11AF\u1100\u1161\u11B7
+\u1109\u1175\u11AF\u1102\u1162
+\u1109\u1175\u11AF\u1105\u1167\u11A8
+\u1109\u1175\u11AF\u1105\u1168
+\u1109\u1175\u11AF\u1106\u1161\u11BC
+\u1109\u1175\u11AF\u1109\u116E
+\u1109\u1175\u11AF\u1109\u1173\u11B8
+\u1109\u1175\u11AF\u1109\u1175
+\u1109\u1175\u11AF\u110C\u1161\u11BC
+\u1109\u1175\u11AF\u110C\u1165\u11BC
+\u1109\u1175\u11AF\u110C\u1175\u11AF\u110C\u1165\u11A8
+\u1109\u1175\u11AF\u110E\u1165\u11AB
+\u1109\u1175\u11AF\u110E\u1166
+\u1109\u1175\u11AF\u110F\u1165\u11BA
+\u1109\u1175\u11AF\u1110\u1162
+\u1109\u1175\u11AF\u1111\u1162
+\u1109\u1175\u11AF\u1112\u1165\u11B7
+\u1109\u1175\u11AF\u1112\u1167\u11AB
+\u1109\u1175\u11B7\u1105\u1175
+\u1109\u1175\u11B7\u1107\u116E\u1105\u1173\u11B7
+\u1109\u1175\u11B7\u1109\u1161
+\u1109\u1175\u11B7\u110C\u1161\u11BC
+\u1109\u1175\u11B7\u110C\u1165\u11BC
+\u1109\u1175\u11B7\u1111\u1161\u11AB
+\u110A\u1161\u11BC\u1103\u116E\u11BC\u110B\u1175
+\u110A\u1175\u1105\u1173\u11B7
+\u110A\u1175\u110B\u1161\u11BA
+\u110B\u1161\u1100\u1161\u110A\u1175
+\u110B\u1161\u1102\u1161\u110B\u116E\u11AB\u1109\u1165
+\u110B\u1161\u1103\u1173\u1102\u1175\u11B7
+\u110B\u1161\u1103\u1173\u11AF
+\u110B\u1161\u1109\u1171\u110B\u116E\u11B7
+\u110B\u1161\u1109\u1173\u1111\u1161\u11AF\u1110\u1173
+\u110B\u1161\u1109\u1175\u110B\u1161
+\u110B\u1161\u110B\u116E\u11AF\u1105\u1165
+\u110B\u1161\u110C\u1165\u110A\u1175
+\u110B\u1161\u110C\u116E\u11B7\u1106\u1161
+\u110B\u1161\u110C\u1175\u11A8
+\u110B\u1161\u110E\u1175\u11B7
+\u110B\u1161\u1111\u1161\u1110\u1173
+\u110B\u1161\u1111\u1173\u1105\u1175\u110F\u1161
+\u110B\u1161\u1111\u1173\u11B7
+\u110B\u1161\u1112\u1169\u11B8
+\u110B\u1161\u1112\u1173\u11AB
+\u110B\u1161\u11A8\u1100\u1175
+\u110B\u1161\u11A8\u1106\u1169\u11BC
+\u110B\u1161\u11A8\u1109\u116E
+\u110B\u1161\u11AB\u1100\u1162
+\u110B\u1161\u11AB\u1100\u1167\u11BC
+\u110B\u1161\u11AB\u1100\u116A
+\u110B\u1161\u11AB\u1102\u1162
+\u110B\u1161\u11AB\u1102\u1167\u11BC
+\u110B\u1161\u11AB\u1103\u1169\u11BC
+\u110B\u1161\u11AB\u1107\u1161\u11BC
+\u110B\u1161\u11AB\u1107\u116E
+\u110B\u1161\u11AB\u110C\u116E
+\u110B\u1161\u11AF\u1105\u116E\u1106\u1175\u1102\u1172\u11B7
+\u110B\u1161\u11AF\u110F\u1169\u110B\u1169\u11AF
+\u110B\u1161\u11B7\u1109\u1175
+\u110B\u1161\u11B7\u110F\u1165\u11BA
+\u110B\u1161\u11B8\u1105\u1167\u11A8
+\u110B\u1161\u11C1\u1102\u1161\u11AF
+\u110B\u1161\u11C1\u1106\u116E\u11AB
+\u110B\u1162\u110B\u1175\u11AB
+\u110B\u1162\u110C\u1165\u11BC
+\u110B\u1162\u11A8\u1109\u116E
+\u110B\u1162\u11AF\u1107\u1165\u11B7
+\u110B\u1163\u1100\u1161\u11AB
+\u110B\u1163\u1103\u1161\u11AB
+\u110B\u1163\u110B\u1169\u11BC
+\u110B\u1163\u11A8\u1100\u1161\u11AB
+\u110B\u1163\u11A8\u1100\u116E\u11A8
+\u110B\u1163\u11A8\u1109\u1169\u11A8
+\u110B\u1163\u11A8\u1109\u116E
+\u110B\u1163\u11A8\u110C\u1165\u11B7
+\u110B\u1163\u11A8\u1111\u116E\u11B7
+\u110B\u1163\u11A8\u1112\u1169\u11AB\u1102\u1167
+\u110B\u1163\u11BC\u1102\u1167\u11B7
+\u110B\u1163\u11BC\u1105\u1167\u11A8
+\u110B\u1163\u11BC\u1106\u1161\u11AF
+\u110B\u1163\u11BC\u1107\u1162\u110E\u116E
+\u110B\u1163\u11BC\u110C\u116E
+\u110B\u1163\u11BC\u1111\u1161
+\u110B\u1165\u1103\u116E\u11B7
+\u110B\u1165\u1105\u1167\u110B\u116E\u11B7
+\u110B\u1165\u1105\u1173\u11AB
+\u110B\u1165\u110C\u1166\u11BA\u1107\u1161\u11B7
+\u110B\u1165\u110D\u1162\u11BB\u1103\u1173\u11AB
+\u110B\u1165\u110D\u1165\u1103\u1161\u1100\u1161
+\u110B\u1165\u110D\u1165\u11AB\u110C\u1175
+\u110B\u1165\u11AB\u1102\u1175
+\u110B\u1165\u11AB\u1103\u1165\u11A8
+\u110B\u1165\u11AB\u1105\u1169\u11AB
+\u110B\u1165\u11AB\u110B\u1165
+\u110B\u1165\u11AF\u1100\u116E\u11AF
+\u110B\u1165\u11AF\u1105\u1173\u11AB
+\u110B\u1165\u11AF\u110B\u1173\u11B7
+\u110B\u1165\u11AF\u1111\u1175\u11BA
+\u110B\u1165\u11B7\u1106\u1161
+\u110B\u1165\u11B8\u1106\u116E
+\u110B\u1165\u11B8\u110C\u1169\u11BC
+\u110B\u1165\u11B8\u110E\u1166
+\u110B\u1165\u11BC\u1103\u1165\u11BC\u110B\u1175
+\u110B\u1165\u11BC\u1106\u1161\u11BC
+\u110B\u1165\u11BC\u1110\u1165\u1105\u1175
+\u110B\u1165\u11BD\u1100\u1173\u110C\u1166
+\u110B\u1166\u1102\u1165\u110C\u1175
+\u110B\u1166\u110B\u1165\u110F\u1165\u11AB
+\u110B\u1166\u11AB\u110C\u1175\u11AB
+\u110B\u1167\u1100\u1165\u11AB
+\u110B\u1167\u1100\u1169\u1109\u1162\u11BC
+\u110B\u1167\u1100\u116A\u11AB
+\u110B\u1167\u1100\u116E\u11AB
+\u110B\u1167\u1100\u116F\u11AB
+\u110B\u1167\u1103\u1162\u1109\u1162\u11BC
+\u110B\u1167\u1103\u1165\u11B2
+\u110B\u1167\u1103\u1169\u11BC\u1109\u1162\u11BC
+\u110B\u1167\u1103\u1173\u11AB
+\u110B\u1167\u1105\u1169\u11AB
+\u110B\u1167\u1105\u1173\u11B7
+\u110B\u1167\u1109\u1165\u11BA
+\u110B\u1167\u1109\u1165\u11BC
+\u110B\u1167\u110B\u116A\u11BC
+\u110B\u1167\u110B\u1175\u11AB
+\u110B\u1167\u110C\u1165\u11AB\u1112\u1175
+\u110B\u1167\u110C\u1175\u11A8\u110B\u116F\u11AB
+\u110B\u1167\u1112\u1161\u11A8\u1109\u1162\u11BC
+\u110B\u1167\u1112\u1162\u11BC
+\u110B\u1167\u11A8\u1109\u1161
+\u110B\u1167\u11A8\u1109\u1175
+\u110B\u1167\u11A8\u1112\u1161\u11AF
+\u110B\u1167\u11AB\u1100\u1167\u11AF
+\u110B\u1167\u11AB\u1100\u116E
+\u110B\u1167\u11AB\u1100\u1173\u11A8
+\u110B\u1167\u11AB\u1100\u1175
+\u110B\u1167\u11AB\u1105\u1161\u11A8
+\u110B\u1167\u11AB\u1109\u1165\u11AF
+\u110B\u1167\u11AB\u1109\u1166
+\u110B\u1167\u11AB\u1109\u1169\u11A8
+\u110B\u1167\u11AB\u1109\u1173\u11B8
+\u110B\u1167\u11AB\u110B\u1162
+\u110B\u1167\u11AB\u110B\u1168\u110B\u1175\u11AB
+\u110B\u1167\u11AB\u110B\u1175\u11AB
+\u110B\u1167\u11AB\u110C\u1161\u11BC
+\u110B\u1167\u11AB\u110C\u116E
+\u110B\u1167\u11AB\u110E\u116E\u11AF
+\u110B\u1167\u11AB\u1111\u1175\u11AF
+\u110B\u1167\u11AB\u1112\u1161\u11B8
+\u110B\u1167\u11AB\u1112\u1172
+\u110B\u1167\u11AF\u1100\u1175
+\u110B\u1167\u11AF\u1106\u1162
+\u110B\u1167\u11AF\u1109\u116C
+\u110B\u1167\u11AF\u1109\u1175\u11B7\u1112\u1175
+\u110B\u1167\u11AF\u110C\u1165\u11BC
+\u110B\u1167\u11AF\u110E\u1161
+\u110B\u1167\u11AF\u1112\u1173\u11AF
+\u110B\u1167\u11B7\u1105\u1167
+\u110B\u1167\u11B8\u1109\u1165
+\u110B\u1167\u11BC\u1100\u116E\u11A8
+\u110B\u1167\u11BC\u1102\u1161\u11B7
+\u110B\u1167\u11BC\u1109\u1161\u11BC
+\u110B\u1167\u11BC\u110B\u1163\u11BC
+\u110B\u1167\u11BC\u110B\u1167\u11A8
+\u110B\u1167\u11BC\u110B\u116E\u11BC
+\u110B\u1167\u11BC\u110B\u116F\u11AB\u1112\u1175
+\u110B\u1167\u11BC\u1112\u1161
+\u110B\u1167\u11BC\u1112\u1163\u11BC
+\u110B\u1167\u11BC\u1112\u1169\u11AB
+\u110B\u1167\u11BC\u1112\u116A
+\u110B\u1167\u11C1\u1100\u116E\u1105\u1175
+\u110B\u1167\u11C1\u1107\u1161\u11BC
+\u110B\u1167\u11C1\u110C\u1175\u11B8
+\u110B\u1168\u1100\u1161\u11B7
+\u110B\u1168\u1100\u1173\u11B7
+\u110B\u1168\u1107\u1161\u11BC
+\u110B\u1168\u1109\u1161\u11AB
+\u110B\u1168\u1109\u1161\u11BC
+\u110B\u1168\u1109\u1165\u11AB
+\u110B\u1168\u1109\u116E\u11AF
+\u110B\u1168\u1109\u1173\u11B8
+\u110B\u1168\u1109\u1175\u11A8\u110C\u1161\u11BC
+\u110B\u1168\u110B\u1163\u11A8
+\u110B\u1168\u110C\u1165\u11AB
+\u110B\u1168\u110C\u1165\u11AF
+\u110B\u1168\u110C\u1165\u11BC
+\u110B\u1168\u110F\u1165\u11AB\u1103\u1162
+\u110B\u1168\u11BA\u1102\u1161\u11AF
+\u110B\u1169\u1102\u1173\u11AF
+\u110B\u1169\u1105\u1161\u11A8
+\u110B\u1169\u1105\u1162\u11BA\u1103\u1169\u11BC\u110B\u1161\u11AB
+\u110B\u1169\u1105\u1166\u11AB\u110C\u1175
+\u110B\u1169\u1105\u1169\u110C\u1175
+\u110B\u1169\u1105\u1173\u11AB\u1107\u1161\u11AF
+\u110B\u1169\u1107\u1173\u11AB
+\u110B\u1169\u1109\u1175\u11B8
+\u110B\u1169\u110B\u1167\u11B7
+\u110B\u1169\u110B\u116F\u11AF
+\u110B\u1169\u110C\u1165\u11AB
+\u110B\u1169\u110C\u1175\u11A8
+\u110B\u1169\u110C\u1175\u11BC\u110B\u1165
+\u110B\u1169\u1111\u1166\u1105\u1161
+\u110B\u1169\u1111\u1175\u1109\u1173\u1110\u1166\u11AF
+\u110B\u1169\u1112\u1175\u1105\u1167
+\u110B\u1169\u11A8\u1109\u1161\u11BC
+\u110B\u1169\u11A8\u1109\u116E\u1109\u116E
+\u110B\u1169\u11AB\u1100\u1161\u11BD
+\u110B\u1169\u11AB\u1105\u1161\u110B\u1175\u11AB
+\u110B\u1169\u11AB\u1106\u1169\u11B7
+\u110B\u1169\u11AB\u110C\u1169\u11BC\u110B\u1175\u11AF
+\u110B\u1169\u11AB\u1110\u1169\u11BC
+\u110B\u1169\u11AF\u1100\u1161\u110B\u1173\u11AF
+\u110B\u1169\u11AF\u1105\u1175\u11B7\u1111\u1175\u11A8
+\u110B\u1169\u11AF\u1112\u1162
+\u110B\u1169\u11BA\u110E\u1161\u1105\u1175\u11B7
+\u110B\u116A\u110B\u1175\u1109\u1167\u110E\u1173
+\u110B\u116A\u110B\u1175\u11AB
+\u110B\u116A\u11AB\u1109\u1165\u11BC
+\u110B\u116A\u11AB\u110C\u1165\u11AB
+\u110B\u116A\u11BC\u1107\u1175
+\u110B\u116A\u11BC\u110C\u1161
+\u110B\u116B\u1102\u1163\u1112\u1161\u1106\u1167\u11AB
+\u110B\u116B\u11AB\u110C\u1175
+\u110B\u116C\u1100\u1161\u11BA\u110C\u1175\u11B8
+\u110B\u116C\u1100\u116E\u11A8
+\u110B\u116C\u1105\u1169\u110B\u116E\u11B7
+\u110B\u116C\u1109\u1161\u11B7\u110E\u1169\u11AB
+\u110B\u116C\u110E\u116E\u11AF
+\u110B\u116C\u110E\u1175\u11B7
+\u110B\u116C\u1112\u1161\u11AF\u1106\u1165\u1102\u1175
+\u110B\u116C\u11AB\u1107\u1161\u11AF
+\u110B\u116C\u11AB\u1109\u1169\u11AB
+\u110B\u116C\u11AB\u110D\u1169\u11A8
+\u110B\u116D\u1100\u1173\u11B7
+\u110B\u116D\u110B\u1175\u11AF
+\u110B\u116D\u110C\u1173\u11B7
+\u110B\u116D\u110E\u1165\u11BC
+\u110B\u116D\u11BC\u1100\u1175
+\u110B\u116D\u11BC\u1109\u1165
+\u110B\u116D\u11BC\u110B\u1165
+\u110B\u116E\u1109\u1161\u11AB
+\u110B\u116E\u1109\u1165\u11AB
+\u110B\u116E\u1109\u1173\u11BC
+\u110B\u116E\u110B\u1167\u11AB\u1112\u1175
+\u110B\u116E\u110C\u1165\u11BC
+\u110B\u116E\u110E\u1166\u1100\u116E\u11A8
+\u110B\u116E\u1111\u1167\u11AB
+\u110B\u116E\u11AB\u1103\u1169\u11BC
+\u110B\u116E\u11AB\u1106\u1167\u11BC
+\u110B\u116E\u11AB\u1107\u1161\u11AB
+\u110B\u116E\u11AB\u110C\u1165\u11AB
+\u110B\u116E\u11AB\u1112\u1162\u11BC
+\u110B\u116E\u11AF\u1109\u1161\u11AB
+\u110B\u116E\u11AF\u110B\u1173\u11B7
+\u110B\u116E\u11B7\u110C\u1175\u11A8\u110B\u1175\u11B7
+\u110B\u116E\u11BA\u110B\u1165\u1105\u1173\u11AB
+\u110B\u116E\u11BA\u110B\u1173\u11B7
+\u110B\u116F\u1102\u1161\u11A8
+\u110B\u116F\u11AB\u1100\u1169
+\u110B\u116F\u11AB\u1105\u1162
+\u110B\u116F\u11AB\u1109\u1165
+\u110B\u116F\u11AB\u1109\u116E\u11BC\u110B\u1175
+\u110B\u116F\u11AB\u110B\u1175\u11AB
+\u110B\u116F\u11AB\u110C\u1161\u11BC
+\u110B\u116F\u11AB\u1111\u1175\u1109\u1173
+\u110B\u116F\u11AF\u1100\u1173\u11B8
+\u110B\u116F\u11AF\u1103\u1173\u110F\u1165\u11B8
+\u110B\u116F\u11AF\u1109\u1166
+\u110B\u116F\u11AF\u110B\u116D\u110B\u1175\u11AF
+\u110B\u1170\u110B\u1175\u1110\u1165
+\u110B\u1171\u1107\u1161\u11AB
+\u110B\u1171\u1107\u1165\u11B8
+\u110B\u1171\u1109\u1165\u11BC
+\u110B\u1171\u110B\u116F\u11AB
+\u110B\u1171\u1112\u1165\u11B7
+\u110B\u1171\u1112\u1167\u11B8
+\u110B\u1171\u11BA\u1109\u1161\u1105\u1161\u11B7
+\u110B\u1172\u1102\u1161\u11AB\u1112\u1175
+\u110B\u1172\u1105\u1165\u11B8
+\u110B\u1172\u1106\u1167\u11BC
+\u110B\u1172\u1106\u116E\u11AF
+\u110B\u1172\u1109\u1161\u11AB
+\u110B\u1172\u110C\u1165\u11A8
+\u110B\u1172\u110E\u1175\u110B\u116F\u11AB
+\u110B\u1172\u1112\u1161\u11A8
+\u110B\u1172\u1112\u1162\u11BC
+\u110B\u1172\u1112\u1167\u11BC
+\u110B\u1172\u11A8\u1100\u116E\u11AB
+\u110B\u1172\u11A8\u1109\u1161\u11BC
+\u110B\u1172\u11A8\u1109\u1175\u11B8
+\u110B\u1172\u11A8\u110E\u1166
+\u110B\u1173\u11AB\u1112\u1162\u11BC
+\u110B\u1173\u11B7\u1105\u1167\u11A8
+\u110B\u1173\u11B7\u1105\u116D
+\u110B\u1173\u11B7\u1107\u1161\u11AB
+\u110B\u1173\u11B7\u1109\u1165\u11BC
+\u110B\u1173\u11B7\u1109\u1175\u11A8
+\u110B\u1173\u11B7\u110B\u1161\u11A8
+\u110B\u1173\u11B7\u110C\u116E
+\u110B\u1174\u1100\u1167\u11AB
+\u110B\u1174\u1102\u1169\u11AB
+\u110B\u1174\u1106\u116E\u11AB
+\u110B\u1174\u1107\u1169\u11A8
+\u110B\u1174\u1109\u1175\u11A8
+\u110B\u1174\u1109\u1175\u11B7
+\u110B\u1174\u110B\u116C\u1105\u1169
+\u110B\u1174\u110B\u116D\u11A8
+\u110B\u1174\u110B\u116F\u11AB
+\u110B\u1174\u1112\u1161\u11A8
+\u110B\u1175\u1100\u1165\u11BA
+\u110B\u1175\u1100\u1169\u11BA
+\u110B\u1175\u1102\u1167\u11B7
+\u110B\u1175\u1102\u1169\u11B7
+\u110B\u1175\u1103\u1161\u11AF
+\u110B\u1175\u1103\u1162\u1105\u1169
+\u110B\u1175\u1103\u1169\u11BC
+\u110B\u1175\u1105\u1165\u11C2\u1100\u1166
+\u110B\u1175\u1105\u1167\u11A8\u1109\u1165
+\u110B\u1175\u1105\u1169\u11AB\u110C\u1165\u11A8
+\u110B\u1175\u1105\u1173\u11B7
+\u110B\u1175\u1106\u1175\u11AB
+\u110B\u1175\u1107\u1161\u11AF\u1109\u1169
+\u110B\u1175\u1107\u1167\u11AF
+\u110B\u1175\u1107\u116E\u11AF
+\u110B\u1175\u1108\u1161\u11AF
+\u110B\u1175\u1109\u1161\u11BC
+\u110B\u1175\u1109\u1165\u11BC
+\u110B\u1175\u1109\u1173\u11AF
+\u110B\u1175\u110B\u1163\u1100\u1175
+\u110B\u1175\u110B\u116D\u11BC
+\u110B\u1175\u110B\u116E\u11BA
+\u110B\u1175\u110B\u116F\u11AF
+\u110B\u1175\u110B\u1173\u11A8\u1100\u1169
+\u110B\u1175\u110B\u1175\u11A8
+\u110B\u1175\u110C\u1165\u11AB
+\u110B\u1175\u110C\u116E\u11BC
+\u110B\u1175\u1110\u1173\u11AE\u1102\u1161\u11AF
+\u110B\u1175\u1110\u1173\u11AF
+\u110B\u1175\u1112\u1169\u11AB
+\u110B\u1175\u11AB\u1100\u1161\u11AB
+\u110B\u1175\u11AB\u1100\u1167\u11A8
+\u110B\u1175\u11AB\u1100\u1169\u11BC
+\u110B\u1175\u11AB\u1100\u116E
+\u110B\u1175\u11AB\u1100\u1173\u11AB
+\u110B\u1175\u11AB\u1100\u1175
+\u110B\u1175\u11AB\u1103\u1169
+\u110B\u1175\u11AB\u1105\u1172
+\u110B\u1175\u11AB\u1106\u116E\u11AF
+\u110B\u1175\u11AB\u1109\u1162\u11BC
+\u110B\u1175\u11AB\u1109\u116B
+\u110B\u1175\u11AB\u110B\u1167\u11AB
+\u110B\u1175\u11AB\u110B\u116F\u11AB
+\u110B\u1175\u11AB\u110C\u1162
+\u110B\u1175\u11AB\u110C\u1169\u11BC
+\u110B\u1175\u11AB\u110E\u1165\u11AB
+\u110B\u1175\u11AB\u110E\u1166
+\u110B\u1175\u11AB\u1110\u1165\u1102\u1166\u11BA
+\u110B\u1175\u11AB\u1112\u1161
+\u110B\u1175\u11AB\u1112\u1167\u11BC
+\u110B\u1175\u11AF\u1100\u1169\u11B8
+\u110B\u1175\u11AF\u1100\u1175
+\u110B\u1175\u11AF\u1103\u1161\u11AB
+\u110B\u1175\u11AF\u1103\u1162
+\u110B\u1175\u11AF\u1103\u1173\u11BC
+\u110B\u1175\u11AF\u1107\u1161\u11AB
+\u110B\u1175\u11AF\u1107\u1169\u11AB
+\u110B\u1175\u11AF\u1107\u116E
+\u110B\u1175\u11AF\u1109\u1161\u11BC
+\u110B\u1175\u11AF\u1109\u1162\u11BC
+\u110B\u1175\u11AF\u1109\u1169\u11AB
+\u110B\u1175\u11AF\u110B\u116D\u110B\u1175\u11AF
+\u110B\u1175\u11AF\u110B\u116F\u11AF
+\u110B\u1175\u11AF\u110C\u1165\u11BC
+\u110B\u1175\u11AF\u110C\u1169\u11BC
+\u110B\u1175\u11AF\u110C\u116E\u110B\u1175\u11AF
+\u110B\u1175\u11AF\u110D\u1175\u11A8
+\u110B\u1175\u11AF\u110E\u1166
+\u110B\u1175\u11AF\u110E\u1175
+\u110B\u1175\u11AF\u1112\u1162\u11BC
+\u110B\u1175\u11AF\u1112\u116C\u110B\u116D\u11BC
+\u110B\u1175\u11B7\u1100\u1173\u11B7
+\u110B\u1175\u11B7\u1106\u116E
+\u110B\u1175\u11B8\u1103\u1162
+\u110B\u1175\u11B8\u1105\u1167\u11A8
+\u110B\u1175\u11B8\u1106\u1161\u11BA
+\u110B\u1175\u11B8\u1109\u1161
+\u110B\u1175\u11B8\u1109\u116E\u11AF
+\u110B\u1175\u11B8\u1109\u1175
+\u110B\u1175\u11B8\u110B\u116F\u11AB
+\u110B\u1175\u11B8\u110C\u1161\u11BC
+\u110B\u1175\u11B8\u1112\u1161\u11A8
+\u110C\u1161\u1100\u1161\u110B\u116D\u11BC
+\u110C\u1161\u1100\u1167\u11A8
+\u110C\u1161\u1100\u1173\u11A8
+\u110C\u1161\u1103\u1169\u11BC
+\u110C\u1161\u1105\u1161\u11BC
+\u110C\u1161\u1107\u116E\u1109\u1175\u11B7
+\u110C\u1161\u1109\u1175\u11A8
+\u110C\u1161\u1109\u1175\u11AB
+\u110C\u1161\u110B\u1167\u11AB
+\u110C\u1161\u110B\u116F\u11AB
+\u110C\u1161\u110B\u1172\u11AF
+\u110C\u1161\u110C\u1165\u11AB\u1100\u1165
+\u110C\u1161\u110C\u1165\u11BC
+\u110C\u1161\u110C\u1169\u11AB\u1109\u1175\u11B7
+\u110C\u1161\u1111\u1161\u11AB
+\u110C\u1161\u11A8\u1100\u1161
+\u110C\u1161\u11A8\u1102\u1167\u11AB
+\u110C\u1161\u11A8\u1109\u1165\u11BC
+\u110C\u1161\u11A8\u110B\u1165\u11B8
+\u110C\u1161\u11A8\u110B\u116D\u11BC
+\u110C\u1161\u11A8\u110B\u1173\u11AB\u1104\u1161\u11AF
+\u110C\u1161\u11A8\u1111\u116E\u11B7
+\u110C\u1161\u11AB\u1103\u1175
+\u110C\u1161\u11AB\u1104\u1173\u11A8
+\u110C\u1161\u11AB\u110E\u1175
+\u110C\u1161\u11AF\u1106\u1169\u11BA
+\u110C\u1161\u11B7\u1101\u1161\u11AB
+\u110C\u1161\u11B7\u1109\u116E\u1112\u1161\u11B7
+\u110C\u1161\u11B7\u1109\u1175
+\u110C\u1161\u11B7\u110B\u1169\u11BA
+\u110C\u1161\u11B7\u110C\u1161\u1105\u1175
+\u110C\u1161\u11B8\u110C\u1175
+\u110C\u1161\u11BC\u1100\u116A\u11AB
+\u110C\u1161\u11BC\u1100\u116E\u11AB
+\u110C\u1161\u11BC\u1100\u1175\u1100\u1161\u11AB
+\u110C\u1161\u11BC\u1105\u1162
+\u110C\u1161\u11BC\u1105\u1168
+\u110C\u1161\u11BC\u1105\u1173
+\u110C\u1161\u11BC\u1106\u1161
+\u110C\u1161\u11BC\u1106\u1167\u11AB
+\u110C\u1161\u11BC\u1106\u1169
+\u110C\u1161\u11BC\u1106\u1175
+\u110C\u1161\u11BC\u1107\u1175
+\u110C\u1161\u11BC\u1109\u1161
+\u110C\u1161\u11BC\u1109\u1169
+\u110C\u1161\u11BC\u1109\u1175\u11A8
+\u110C\u1161\u11BC\u110B\u1162\u110B\u1175\u11AB
+\u110C\u1161\u11BC\u110B\u1175\u11AB
+\u110C\u1161\u11BC\u110C\u1165\u11B7
+\u110C\u1161\u11BC\u110E\u1161
+\u110C\u1161\u11BC\u1112\u1161\u11A8\u1100\u1173\u11B7
+\u110C\u1162\u1102\u1173\u11BC
+\u110C\u1162\u1108\u1161\u11AF\u1105\u1175
+\u110C\u1162\u1109\u1161\u11AB
+\u110C\u1162\u1109\u1162\u11BC
+\u110C\u1162\u110C\u1161\u11A8\u1102\u1167\u11AB
+\u110C\u1162\u110C\u1165\u11BC
+\u110C\u1162\u110E\u1162\u1100\u1175
+\u110C\u1162\u1111\u1161\u11AB
+\u110C\u1162\u1112\u1161\u11A8
+\u110C\u1162\u1112\u116A\u11AF\u110B\u116D\u11BC
+\u110C\u1165\u1100\u1165\u11BA
+\u110C\u1165\u1100\u1169\u1105\u1175
+\u110C\u1165\u1100\u1169\u11BA
+\u110C\u1165\u1102\u1167\u11A8
+\u110C\u1165\u1105\u1165\u11AB
+\u110C\u1165\u1105\u1165\u11C2\u1100\u1166
+\u110C\u1165\u1107\u1165\u11AB
+\u110C\u1165\u110B\u116E\u11AF
+\u110C\u1165\u110C\u1165\u11AF\u1105\u1169
+\u110C\u1165\u110E\u116E\u11A8
+\u110C\u1165\u11A8\u1100\u1173\u11A8
+\u110C\u1165\u11A8\u1103\u1161\u11BC\u1112\u1175
+\u110C\u1165\u11A8\u1109\u1165\u11BC
+\u110C\u1165\u11A8\u110B\u116D\u11BC
+\u110C\u1165\u11A8\u110B\u1173\u11BC
+\u110C\u1165\u11AB\u1100\u1162
+\u110C\u1165\u11AB\u1100\u1169\u11BC
+\u110C\u1165\u11AB\u1100\u1175
+\u110C\u1165\u11AB\u1103\u1161\u11AF
+\u110C\u1165\u11AB\u1105\u1161\u1103\u1169
+\u110C\u1165\u11AB\u1106\u1161\u11BC
+\u110C\u1165\u11AB\u1106\u116E\u11AB
+\u110C\u1165\u11AB\u1107\u1161\u11AB
+\u110C\u1165\u11AB\u1107\u116E
+\u110C\u1165\u11AB\u1109\u1166
+\u110C\u1165\u11AB\u1109\u1175
+\u110C\u1165\u11AB\u110B\u116D\u11BC
+\u110C\u1165\u11AB\u110C\u1161
+\u110C\u1165\u11AB\u110C\u1162\u11BC
+\u110C\u1165\u11AB\u110C\u116E
+\u110C\u1165\u11AB\u110E\u1165\u11AF
+\u110C\u1165\u11AB\u110E\u1166
+\u110C\u1165\u11AB\u1110\u1169\u11BC
+\u110C\u1165\u11AB\u1112\u1167
+\u110C\u1165\u11AB\u1112\u116E
+\u110C\u1165\u11AF\u1103\u1162
+\u110C\u1165\u11AF\u1106\u1161\u11BC
+\u110C\u1165\u11AF\u1107\u1161\u11AB
+\u110C\u1165\u11AF\u110B\u1163\u11A8
+\u110C\u1165\u11AF\u110E\u1161
+\u110C\u1165\u11B7\u1100\u1165\u11B7
+\u110C\u1165\u11B7\u1109\u116E
+\u110C\u1165\u11B7\u1109\u1175\u11B7
+\u110C\u1165\u11B7\u110B\u116F\u11AB
+\u110C\u1165\u11B7\u110C\u1165\u11B7
+\u110C\u1165\u11B7\u110E\u1161
+\u110C\u1165\u11B8\u1100\u1173\u11AB
+\u110C\u1165\u11B8\u1109\u1175
+\u110C\u1165\u11B8\u110E\u1169\u11A8
+\u110C\u1165\u11BA\u1100\u1161\u1105\u1161\u11A8
+\u110C\u1165\u11BC\u1100\u1165\u110C\u1161\u11BC
+\u110C\u1165\u11BC\u1103\u1169
+\u110C\u1165\u11BC\u1105\u1172\u110C\u1161\u11BC
+\u110C\u1165\u11BC\u1105\u1175
+\u110C\u1165\u11BC\u1106\u1161\u11AF
+\u110C\u1165\u11BC\u1106\u1167\u11AB
+\u110C\u1165\u11BC\u1106\u116E\u11AB
+\u110C\u1165\u11BC\u1107\u1161\u11AB\u1103\u1162
+\u110C\u1165\u11BC\u1107\u1169
+\u110C\u1165\u11BC\u1107\u116E
+\u110C\u1165\u11BC\u1107\u1175
+\u110C\u1165\u11BC\u1109\u1161\u11BC
+\u110C\u1165\u11BC\u1109\u1165\u11BC
+\u110C\u1165\u11BC\u110B\u1169
+\u110C\u1165\u11BC\u110B\u116F\u11AB
+\u110C\u1165\u11BC\u110C\u1161\u11BC
+\u110C\u1165\u11BC\u110C\u1175
+\u110C\u1165\u11BC\u110E\u1175
+\u110C\u1165\u11BC\u1112\u116A\u11A8\u1112\u1175
+\u110C\u1166\u1100\u1169\u11BC
+\u110C\u1166\u1100\u116A\u110C\u1165\u11B7
+\u110C\u1166\u1103\u1162\u1105\u1169
+\u110C\u1166\u1106\u1169\u11A8
+\u110C\u1166\u1107\u1161\u11AF
+\u110C\u1166\u1107\u1165\u11B8
+\u110C\u1166\u1109\u1161\u11BA\u1102\u1161\u11AF
+\u110C\u1166\u110B\u1161\u11AB
+\u110C\u1166\u110B\u1175\u11AF
+\u110C\u1166\u110C\u1161\u11A8
+\u110C\u1166\u110C\u116E\u1103\u1169
+\u110C\u1166\u110E\u116E\u11AF
+\u110C\u1166\u1111\u116E\u11B7
+\u110C\u1166\u1112\u1161\u11AB
+\u110C\u1169\u1100\u1161\u11A8
+\u110C\u1169\u1100\u1165\u11AB
+\u110C\u1169\u1100\u1173\u11B7
+\u110C\u1169\u1100\u1175\u11BC
+\u110C\u1169\u1106\u1167\u11BC
+\u110C\u1169\u1106\u1175\u1105\u116D
+\u110C\u1169\u1109\u1161\u11BC
+\u110C\u1169\u1109\u1165\u11AB
+\u110C\u1169\u110B\u116D\u11BC\u1112\u1175
+\u110C\u1169\u110C\u1165\u11AF
+\u110C\u1169\u110C\u1165\u11BC
+\u110C\u1169\u110C\u1175\u11A8
+\u110C\u1169\u11AB\u1103\u1162\u11BA\u1106\u1161\u11AF
+\u110C\u1169\u11AB\u110C\u1162
+\u110C\u1169\u11AF\u110B\u1165\u11B8
+\u110C\u1169\u11AF\u110B\u1173\u11B7
+\u110C\u1169\u11BC\u1100\u116D
+\u110C\u1169\u11BC\u1105\u1169
+\u110C\u1169\u11BC\u1105\u1172
+\u110C\u1169\u11BC\u1109\u1169\u1105\u1175
+\u110C\u1169\u11BC\u110B\u1165\u11B8\u110B\u116F\u11AB
+\u110C\u1169\u11BC\u110C\u1169\u11BC
+\u110C\u1169\u11BC\u1112\u1161\u11B8
+\u110C\u116A\u1109\u1165\u11A8
+\u110C\u116C\u110B\u1175\u11AB
+\u110C\u116E\u1100\u116A\u11AB\u110C\u1165\u11A8
+\u110C\u116E\u1105\u1173\u11B7
+\u110C\u116E\u1106\u1161\u11AF
+\u110C\u116E\u1106\u1165\u1102\u1175
+\u110C\u116E\u1106\u1165\u11A8
+\u110C\u116E\u1106\u116E\u11AB
+\u110C\u116E\u1106\u1175\u11AB
+\u110C\u116E\u1107\u1161\u11BC
+\u110C\u116E\u1107\u1167\u11AB
+\u110C\u116E\u1109\u1175\u11A8
+\u110C\u116E\u110B\u1175\u11AB
+\u110C\u116E\u110B\u1175\u11AF
+\u110C\u116E\u110C\u1161\u11BC
+\u110C\u116E\u110C\u1165\u11AB\u110C\u1161
+\u110C\u116E\u1110\u1162\u11A8
+\u110C\u116E\u11AB\u1107\u1175
+\u110C\u116E\u11AF\u1100\u1165\u1105\u1175
+\u110C\u116E\u11AF\u1100\u1175
+\u110C\u116E\u11AF\u1106\u116E\u1102\u1174
+\u110C\u116E\u11BC\u1100\u1161\u11AB
+\u110C\u116E\u11BC\u1100\u1168\u1107\u1161\u11BC\u1109\u1169\u11BC
+\u110C\u116E\u11BC\u1100\u116E\u11A8
+\u110C\u116E\u11BC\u1102\u1167\u11AB
+\u110C\u116E\u11BC\u1103\u1161\u11AB
+\u110C\u116E\u11BC\u1103\u1169\u11A8
+\u110C\u116E\u11BC\u1107\u1161\u11AB
+\u110C\u116E\u11BC\u1107\u116E
+\u110C\u116E\u11BC\u1109\u1166
+\u110C\u116E\u11BC\u1109\u1169\u1100\u1175\u110B\u1165\u11B8
+\u110C\u116E\u11BC\u1109\u116E\u11AB
+\u110C\u116E\u11BC\u110B\u1161\u11BC
+\u110C\u116E\u11BC\u110B\u116D
+\u110C\u116E\u11BC\u1112\u1161\u11A8\u1100\u116D
+\u110C\u1173\u11A8\u1109\u1165\u11A8
+\u110C\u1173\u11A8\u1109\u1175
+\u110C\u1173\u11AF\u1100\u1165\u110B\u116E\u11B7
+\u110C\u1173\u11BC\u1100\u1161
+\u110C\u1173\u11BC\u1100\u1165
+\u110C\u1173\u11BC\u1100\u116F\u11AB
+\u110C\u1173\u11BC\u1109\u1161\u11BC
+\u110C\u1173\u11BC\u1109\u1166
+\u110C\u1175\u1100\u1161\u11A8
+\u110C\u1175\u1100\u1161\u11B8
+\u110C\u1175\u1100\u1167\u11BC
+\u110C\u1175\u1100\u1173\u11A8\u1112\u1175
+\u110C\u1175\u1100\u1173\u11B7
+\u110C\u1175\u1100\u1173\u11B8
+\u110C\u1175\u1102\u1173\u11BC
+\u110C\u1175\u1105\u1173\u11B7\u1100\u1175\u11AF
+\u110C\u1175\u1105\u1175\u1109\u1161\u11AB
+\u110C\u1175\u1107\u1161\u11BC
+\u110C\u1175\u1107\u116E\u11BC
+\u110C\u1175\u1109\u1175\u11A8
+\u110C\u1175\u110B\u1167\u11A8
+\u110C\u1175\u110B\u116E\u1100\u1162
+\u110C\u1175\u110B\u116F\u11AB
+\u110C\u1175\u110C\u1165\u11A8
+\u110C\u1175\u110C\u1165\u11B7
+\u110C\u1175\u110C\u1175\u11AB
+\u110C\u1175\u110E\u116E\u11AF
+\u110C\u1175\u11A8\u1109\u1165\u11AB
+\u110C\u1175\u11A8\u110B\u1165\u11B8
+\u110C\u1175\u11A8\u110B\u116F\u11AB
+\u110C\u1175\u11A8\u110C\u1161\u11BC
+\u110C\u1175\u11AB\u1100\u1173\u11B8
+\u110C\u1175\u11AB\u1103\u1169\u11BC
+\u110C\u1175\u11AB\u1105\u1169
+\u110C\u1175\u11AB\u1105\u116D
+\u110C\u1175\u11AB\u1105\u1175
+\u110C\u1175\u11AB\u110D\u1161
+\u110C\u1175\u11AB\u110E\u1161\u11AF
+\u110C\u1175\u11AB\u110E\u116E\u11AF
+\u110C\u1175\u11AB\u1110\u1169\u11BC
+\u110C\u1175\u11AB\u1112\u1162\u11BC
+\u110C\u1175\u11AF\u1106\u116E\u11AB
+\u110C\u1175\u11AF\u1107\u1167\u11BC
+\u110C\u1175\u11AF\u1109\u1165
+\u110C\u1175\u11B7\u110C\u1161\u11A8
+\u110C\u1175\u11B8\u1103\u1161\u11AB
+\u110C\u1175\u11B8\u110B\u1161\u11AB
+\u110C\u1175\u11B8\u110C\u116E\u11BC
+\u110D\u1161\u110C\u1173\u11BC
+\u110D\u1175\u1101\u1165\u1100\u1175
+\u110E\u1161\u1102\u1161\u11B7
+\u110E\u1161\u1105\u1161\u1105\u1175
+\u110E\u1161\u1105\u1163\u11BC
+\u110E\u1161\u1105\u1175\u11B7
+\u110E\u1161\u1107\u1167\u11AF
+\u110E\u1161\u1109\u1165\u11AB
+\u110E\u1161\u110E\u1173\u11B7
+\u110E\u1161\u11A8\u1100\u1161\u11A8
+\u110E\u1161\u11AB\u1106\u116E\u11AF
+\u110E\u1161\u11AB\u1109\u1165\u11BC
+\u110E\u1161\u11B7\u1100\u1161
+\u110E\u1161\u11B7\u1100\u1175\u1105\u1173\u11B7
+\u110E\u1161\u11B7\u1109\u1162
+\u110E\u1161\u11B7\u1109\u1165\u11A8
+\u110E\u1161\u11B7\u110B\u1167
+\u110E\u1161\u11B7\u110B\u116C
+\u110E\u1161\u11B7\u110C\u1169
+\u110E\u1161\u11BA\u110C\u1161\u11AB
+\u110E\u1161\u11BC\u1100\u1161
+\u110E\u1161\u11BC\u1100\u1169
+\u110E\u1161\u11BC\u1100\u116E
+\u110E\u1161\u11BC\u1106\u116E\u11AB
+\u110E\u1161\u11BC\u1107\u1161\u11A9
+\u110E\u1161\u11BC\u110C\u1161\u11A8
+\u110E\u1161\u11BC\u110C\u1169
+\u110E\u1162\u1102\u1165\u11AF
+\u110E\u1162\u110C\u1165\u11B7
+\u110E\u1162\u11A8\u1100\u1161\u1107\u1161\u11BC
+\u110E\u1162\u11A8\u1107\u1161\u11BC
+\u110E\u1162\u11A8\u1109\u1161\u11BC
+\u110E\u1162\u11A8\u110B\u1175\u11B7
+\u110E\u1162\u11B7\u1111\u1175\u110B\u1165\u11AB
+\u110E\u1165\u1107\u1165\u11AF
+\u110E\u1165\u110B\u1173\u11B7
+\u110E\u1165\u11AB\u1100\u116E\u11A8
+\u110E\u1165\u11AB\u1103\u116E\u11BC
+\u110E\u1165\u11AB\u110C\u1161\u11BC
+\u110E\u1165\u11AB\u110C\u1162
+\u110E\u1165\u11AB\u110E\u1165\u11AB\u1112\u1175
+\u110E\u1165\u11AF\u1103\u1169
+\u110E\u1165\u11AF\u110C\u1165\u1112\u1175
+\u110E\u1165\u11AF\u1112\u1161\u11A8
+\u110E\u1165\u11BA\u1102\u1161\u11AF
+\u110E\u1165\u11BA\u110D\u1162
+\u110E\u1165\u11BC\u1102\u1167\u11AB
+\u110E\u1165\u11BC\u1107\u1161\u110C\u1175
+\u110E\u1165\u11BC\u1109\u1169
+\u110E\u1165\u11BC\u110E\u116E\u11AB
+\u110E\u1166\u1100\u1168
+\u110E\u1166\u1105\u1167\u11A8
+\u110E\u1166\u110B\u1169\u11AB
+\u110E\u1166\u110B\u1172\u11A8
+\u110E\u1166\u110C\u116E\u11BC
+\u110E\u1166\u1112\u1165\u11B7
+\u110E\u1169\u1103\u1173\u11BC\u1112\u1161\u11A8\u1109\u1162\u11BC
+\u110E\u1169\u1107\u1161\u11AB
+\u110E\u1169\u1107\u1161\u11B8
+\u110E\u1169\u1109\u1161\u11BC\u1112\u116A
+\u110E\u1169\u1109\u116E\u11AB
+\u110E\u1169\u110B\u1167\u1105\u1173\u11B7
+\u110E\u1169\u110B\u116F\u11AB
+\u110E\u1169\u110C\u1165\u1102\u1167\u11A8
+\u110E\u1169\u110C\u1165\u11B7
+\u110E\u1169\u110E\u1165\u11BC
+\u110E\u1169\u110F\u1169\u11AF\u1105\u1175\u11BA
+\u110E\u1169\u11BA\u1107\u116E\u11AF
+\u110E\u1169\u11BC\u1100\u1161\u11A8
+\u110E\u1169\u11BC\u1105\u1175
+\u110E\u1169\u11BC\u110C\u1161\u11BC
+\u110E\u116A\u11AF\u110B\u1167\u11BC
+\u110E\u116C\u1100\u1173\u11AB
+\u110E\u116C\u1109\u1161\u11BC
+\u110E\u116C\u1109\u1165\u11AB
+\u110E\u116C\u1109\u1175\u11AB
+\u110E\u116C\u110B\u1161\u11A8
+\u110E\u116C\u110C\u1169\u11BC
+\u110E\u116E\u1109\u1165\u11A8
+\u110E\u116E\u110B\u1165\u11A8
+\u110E\u116E\u110C\u1175\u11AB
+\u110E\u116E\u110E\u1165\u11AB
+\u110E\u116E\u110E\u1173\u11A8
+\u110E\u116E\u11A8\u1100\u116E
+\u110E\u116E\u11A8\u1109\u1169
+\u110E\u116E\u11A8\u110C\u1166
+\u110E\u116E\u11A8\u1112\u1161
+\u110E\u116E\u11AF\u1100\u1173\u11AB
+\u110E\u116E\u11AF\u1107\u1161\u11AF
+\u110E\u116E\u11AF\u1109\u1161\u11AB
+\u110E\u116E\u11AF\u1109\u1175\u11AB
+\u110E\u116E\u11AF\u110B\u1167\u11AB
+\u110E\u116E\u11AF\u110B\u1175\u11B8
+\u110E\u116E\u11AF\u110C\u1161\u11BC
+\u110E\u116E\u11AF\u1111\u1161\u11AB
+\u110E\u116E\u11BC\u1100\u1167\u11A8
+\u110E\u116E\u11BC\u1100\u1169
+\u110E\u116E\u11BC\u1103\u1169\u11AF
+\u110E\u116E\u11BC\u1107\u116E\u11AB\u1112\u1175
+\u110E\u116E\u11BC\u110E\u1165\u11BC\u1103\u1169
+\u110E\u1171\u110B\u1165\u11B8
+\u110E\u1171\u110C\u1175\u11A8
+\u110E\u1171\u1112\u1163\u11BC
+\u110E\u1175\u110B\u1163\u11A8
+\u110E\u1175\u11AB\u1100\u116E
+\u110E\u1175\u11AB\u110E\u1165\u11A8
+\u110E\u1175\u11AF\u1109\u1175\u11B8
+\u110E\u1175\u11AF\u110B\u116F\u11AF
+\u110E\u1175\u11AF\u1111\u1161\u11AB
+\u110E\u1175\u11B7\u1103\u1162
+\u110E\u1175\u11B7\u1106\u116E\u11A8
+\u110E\u1175\u11B7\u1109\u1175\u11AF
+\u110E\u1175\u11BA\u1109\u1169\u11AF
+\u110E\u1175\u11BC\u110E\u1161\u11AB
+\u110F\u1161\u1106\u1166\u1105\u1161
+\u110F\u1161\u110B\u116E\u11AB\u1110\u1165
+\u110F\u1161\u11AF\u1100\u116E\u11A8\u1109\u116E
+\u110F\u1162\u1105\u1175\u11A8\u1110\u1165
+\u110F\u1162\u11B7\u1111\u1165\u1109\u1173
+\u110F\u1162\u11B7\u1111\u1166\u110B\u1175\u11AB
+\u110F\u1165\u1110\u1173\u11AB
+\u110F\u1165\u11AB\u1103\u1175\u1109\u1167\u11AB
+\u110F\u1165\u11AF\u1105\u1165
+\u110F\u1165\u11B7\u1111\u1172\u1110\u1165
+\u110F\u1169\u1101\u1175\u1105\u1175
+\u110F\u1169\u1106\u1175\u1103\u1175
+\u110F\u1169\u11AB\u1109\u1165\u1110\u1173
+\u110F\u1169\u11AF\u1105\u1161
+\u110F\u1169\u11B7\u1111\u1173\u11AF\u1105\u1166\u11A8\u1109\u1173
+\u110F\u1169\u11BC\u1102\u1161\u1106\u116E\u11AF
+\u110F\u116B\u1100\u1161\u11B7
+\u110F\u116E\u1103\u1166\u1110\u1161
+\u110F\u1173\u1105\u1175\u11B7
+\u110F\u1173\u11AB\u1100\u1175\u11AF
+\u110F\u1173\u11AB\u1104\u1161\u11AF
+\u110F\u1173\u11AB\u1109\u1169\u1105\u1175
+\u110F\u1173\u11AB\u110B\u1161\u1103\u1173\u11AF
+\u110F\u1173\u11AB\u110B\u1165\u1106\u1165\u1102\u1175
+\u110F\u1173\u11AB\u110B\u1175\u11AF
+\u110F\u1173\u11AB\u110C\u1165\u11AF
+\u110F\u1173\u11AF\u1105\u1162\u1109\u1175\u11A8
+\u110F\u1173\u11AF\u1105\u1165\u11B8
+\u110F\u1175\u11AF\u1105\u1169
+\u1110\u1161\u110B\u1175\u11B8
+\u1110\u1161\u110C\u1161\u1100\u1175
+\u1110\u1161\u11A8\u1100\u116E
+\u1110\u1161\u11A8\u110C\u1161
+\u1110\u1161\u11AB\u1109\u1162\u11BC
+\u1110\u1162\u1100\u116F\u11AB\u1103\u1169
+\u1110\u1162\u110B\u1163\u11BC
+\u1110\u1162\u1111\u116E\u11BC
+\u1110\u1162\u11A8\u1109\u1175
+\u1110\u1162\u11AF\u1105\u1165\u11AB\u1110\u1173
+\u1110\u1165\u1102\u1165\u11AF
+\u1110\u1165\u1106\u1175\u1102\u1165\u11AF
+\u1110\u1166\u1102\u1175\u1109\u1173
+\u1110\u1166\u1109\u1173\u1110\u1173
+\u1110\u1166\u110B\u1175\u1107\u1173\u11AF
+\u1110\u1166\u11AF\u1105\u1166\u1107\u1175\u110C\u1165\u11AB
+\u1110\u1169\u1105\u1169\u11AB
+\u1110\u1169\u1106\u1161\u1110\u1169
+\u1110\u1169\u110B\u116D\u110B\u1175\u11AF
+\u1110\u1169\u11BC\u1100\u1168
+\u1110\u1169\u11BC\u1100\u116A
+\u1110\u1169\u11BC\u1105\u1169
+\u1110\u1169\u11BC\u1109\u1175\u11AB
+\u1110\u1169\u11BC\u110B\u1167\u11A8
+\u1110\u1169\u11BC\u110B\u1175\u11AF
+\u1110\u1169\u11BC\u110C\u1161\u11BC
+\u1110\u1169\u11BC\u110C\u1166
+\u1110\u1169\u11BC\u110C\u1173\u11BC
+\u1110\u1169\u11BC\u1112\u1161\u11B8
+\u1110\u1169\u11BC\u1112\u116A
+\u1110\u116C\u1100\u1173\u11AB
+\u1110\u116C\u110B\u116F\u11AB
+\u1110\u116C\u110C\u1175\u11A8\u1100\u1173\u11B7
+\u1110\u1171\u1100\u1175\u11B7
+\u1110\u1173\u1105\u1165\u11A8
+\u1110\u1173\u11A8\u1100\u1173\u11B8
+\u1110\u1173\u11A8\u1107\u1167\u11AF
+\u1110\u1173\u11A8\u1109\u1165\u11BC
+\u1110\u1173\u11A8\u1109\u116E
+\u1110\u1173\u11A8\u110C\u1175\u11BC
+\u1110\u1173\u11A8\u1112\u1175
+\u1110\u1173\u11AB\u1110\u1173\u11AB\u1112\u1175
+\u1110\u1175\u1109\u1167\u110E\u1173
+\u1111\u1161\u1105\u1161\u11AB\u1109\u1162\u11A8
+\u1111\u1161\u110B\u1175\u11AF
+\u1111\u1161\u110E\u116E\u11AF\u1109\u1169
+\u1111\u1161\u11AB\u1100\u1167\u11AF
+\u1111\u1161\u11AB\u1103\u1161\u11AB
+\u1111\u1161\u11AB\u1106\u1162
+\u1111\u1161\u11AB\u1109\u1161
+\u1111\u1161\u11AF\u1109\u1175\u11B8
+\u1111\u1161\u11AF\u110B\u116F\u11AF
+\u1111\u1161\u11B8\u1109\u1169\u11BC
+\u1111\u1162\u1109\u1167\u11AB
+\u1111\u1162\u11A8\u1109\u1173
+\u1111\u1162\u11A8\u1109\u1175\u1106\u1175\u11AF\u1105\u1175
+\u1111\u1162\u11AB\u1110\u1175
+\u1111\u1165\u1109\u1166\u11AB\u1110\u1173
+\u1111\u1166\u110B\u1175\u11AB\u1110\u1173
+\u1111\u1167\u11AB\u1100\u1167\u11AB
+\u1111\u1167\u11AB\u110B\u1174
+\u1111\u1167\u11AB\u110C\u1175
+\u1111\u1167\u11AB\u1112\u1175
+\u1111\u1167\u11BC\u1100\u1161
+\u1111\u1167\u11BC\u1100\u1172\u11AB
+\u1111\u1167\u11BC\u1109\u1162\u11BC
+\u1111\u1167\u11BC\u1109\u1169
+\u1111\u1167\u11BC\u110B\u1163\u11BC
+\u1111\u1167\u11BC\u110B\u1175\u11AF
+\u1111\u1167\u11BC\u1112\u116A
+\u1111\u1169\u1109\u1173\u1110\u1165
+\u1111\u1169\u110B\u1175\u11AB\u1110\u1173
+\u1111\u1169\u110C\u1161\u11BC
+\u1111\u1169\u1112\u1161\u11B7
+\u1111\u116D\u1106\u1167\u11AB
+\u1111\u116D\u110C\u1165\u11BC
+\u1111\u116D\u110C\u116E\u11AB
+\u1111\u116D\u1112\u1167\u11AB
+\u1111\u116E\u11B7\u1106\u1169\u11A8
+\u1111\u116E\u11B7\u110C\u1175\u11AF
+\u1111\u116E\u11BC\u1100\u1167\u11BC
+\u1111\u116E\u11BC\u1109\u1169\u11A8
+\u1111\u116E\u11BC\u1109\u1173\u11B8
+\u1111\u1173\u1105\u1161\u11BC\u1109\u1173
+\u1111\u1173\u1105\u1175\u11AB\u1110\u1165
+\u1111\u1173\u11AF\u1105\u1161\u1109\u1173\u1110\u1175\u11A8
+\u1111\u1175\u1100\u1169\u11AB
+\u1111\u1175\u1106\u1161\u11BC
+\u1111\u1175\u110B\u1161\u1102\u1169
+\u1111\u1175\u11AF\u1105\u1173\u11B7
+\u1111\u1175\u11AF\u1109\u116E
+\u1111\u1175\u11AF\u110B\u116D
+\u1111\u1175\u11AF\u110C\u1161
+\u1111\u1175\u11AF\u1110\u1169\u11BC
+\u1111\u1175\u11BC\u1100\u1168
+\u1112\u1161\u1102\u1173\u1102\u1175\u11B7
+\u1112\u1161\u1102\u1173\u11AF
+\u1112\u1161\u1103\u1173\u110B\u1170\u110B\u1165
+\u1112\u1161\u1105\u116E\u11BA\u1107\u1161\u11B7
+\u1112\u1161\u1107\u1161\u11AB\u1100\u1175
+\u1112\u1161\u1109\u116E\u11A8\u110C\u1175\u11B8
+\u1112\u1161\u1109\u116E\u11AB
+\u1112\u1161\u110B\u1167\u1110\u1173\u11AB
+\u1112\u1161\u110C\u1175\u1106\u1161\u11AB
+\u1112\u1161\u110E\u1165\u11AB
+\u1112\u1161\u1111\u116E\u11B7
+\u1112\u1161\u1111\u1175\u11AF
+\u1112\u1161\u11A8\u1100\u116A
+\u1112\u1161\u11A8\u1100\u116D
+\u1112\u1161\u11A8\u1100\u1173\u11B8
+\u1112\u1161\u11A8\u1100\u1175
+\u1112\u1161\u11A8\u1102\u1167\u11AB
+\u1112\u1161\u11A8\u1105\u1167\u11A8
+\u1112\u1161\u11A8\u1107\u1165\u11AB
+\u1112\u1161\u11A8\u1107\u116E\u1106\u1169
+\u1112\u1161\u11A8\u1107\u1175
+\u1112\u1161\u11A8\u1109\u1162\u11BC
+\u1112\u1161\u11A8\u1109\u116E\u11AF
+\u1112\u1161\u11A8\u1109\u1173\u11B8
+\u1112\u1161\u11A8\u110B\u116D\u11BC\u1111\u116E\u11B7
+\u1112\u1161\u11A8\u110B\u116F\u11AB
+\u1112\u1161\u11A8\u110B\u1171
+\u1112\u1161\u11A8\u110C\u1161
+\u1112\u1161\u11A8\u110C\u1165\u11B7
+\u1112\u1161\u11AB\u1100\u1168
+\u1112\u1161\u11AB\u1100\u1173\u11AF
+\u1112\u1161\u11AB\u1101\u1165\u1107\u1165\u11AB\u110B\u1166
+\u1112\u1161\u11AB\u1102\u1161\u11BD
+\u1112\u1161\u11AB\u1102\u116E\u11AB
+\u1112\u1161\u11AB\u1103\u1169\u11BC\u110B\u1161\u11AB
+\u1112\u1161\u11AB\u1104\u1162
+\u1112\u1161\u11AB\u1105\u1161\u1109\u1161\u11AB
+\u1112\u1161\u11AB\u1106\u1161\u1103\u1175
+\u1112\u1161\u11AB\u1106\u116E\u11AB
+\u1112\u1161\u11AB\u1107\u1165\u11AB
+\u1112\u1161\u11AB\u1107\u1169\u11A8
+\u1112\u1161\u11AB\u1109\u1175\u11A8
+\u1112\u1161\u11AB\u110B\u1167\u1105\u1173\u11B7
+\u1112\u1161\u11AB\u110D\u1169\u11A8
+\u1112\u1161\u11AF\u1106\u1165\u1102\u1175
+\u1112\u1161\u11AF\u110B\u1161\u1107\u1165\u110C\u1175
+\u1112\u1161\u11AF\u110B\u1175\u11AB
+\u1112\u1161\u11B7\u1101\u1166
+\u1112\u1161\u11B7\u1107\u116E\u1105\u1169
+\u1112\u1161\u11B8\u1100\u1167\u11A8
+\u1112\u1161\u11B8\u1105\u1175\u110C\u1165\u11A8
+\u1112\u1161\u11BC\u1100\u1169\u11BC
+\u1112\u1161\u11BC\u1100\u116E
+\u1112\u1161\u11BC\u1109\u1161\u11BC
+\u1112\u1161\u11BC\u110B\u1174
+\u1112\u1162\u1100\u1167\u11AF
+\u1112\u1162\u1100\u116E\u11AB
+\u1112\u1162\u1103\u1161\u11B8
+\u1112\u1162\u1103\u1161\u11BC
+\u1112\u1162\u1106\u116E\u11AF
+\u1112\u1162\u1109\u1165\u11A8
+\u1112\u1162\u1109\u1165\u11AF
+\u1112\u1162\u1109\u116E\u110B\u116D\u11A8\u110C\u1161\u11BC
+\u1112\u1162\u110B\u1161\u11AB
+\u1112\u1162\u11A8\u1109\u1175\u11B7
+\u1112\u1162\u11AB\u1103\u1173\u1107\u1162\u11A8
+\u1112\u1162\u11B7\u1107\u1165\u1100\u1165
+\u1112\u1162\u11BA\u1107\u1167\u11C0
+\u1112\u1162\u11BA\u1109\u1161\u11AF
+\u1112\u1162\u11BC\u1103\u1169\u11BC
+\u1112\u1162\u11BC\u1107\u1169\u11A8
+\u1112\u1162\u11BC\u1109\u1161
+\u1112\u1162\u11BC\u110B\u116E\u11AB
+\u1112\u1162\u11BC\u110B\u1171
+\u1112\u1163\u11BC\u1100\u1175
+\u1112\u1163\u11BC\u1109\u1161\u11BC
+\u1112\u1163\u11BC\u1109\u116E
+\u1112\u1165\u1105\u1161\u11A8
+\u1112\u1165\u110B\u116D\u11BC
+\u1112\u1166\u11AF\u1100\u1175
+\u1112\u1167\u11AB\u1100\u116A\u11AB
+\u1112\u1167\u11AB\u1100\u1173\u11B7
+\u1112\u1167\u11AB\u1103\u1162
+\u1112\u1167\u11AB\u1109\u1161\u11BC
+\u1112\u1167\u11AB\u1109\u1175\u11AF
+\u1112\u1167\u11AB\u110C\u1161\u11BC
+\u1112\u1167\u11AB\u110C\u1162
+\u1112\u1167\u11AB\u110C\u1175
+\u1112\u1167\u11AF\u110B\u1162\u11A8
+\u1112\u1167\u11B8\u1105\u1167\u11A8
+\u1112\u1167\u11BC\u1107\u116E
+\u1112\u1167\u11BC\u1109\u1161
+\u1112\u1167\u11BC\u1109\u116E
+\u1112\u1167\u11BC\u1109\u1175\u11A8
+\u1112\u1167\u11BC\u110C\u1166
+\u1112\u1167\u11BC\u1110\u1162
+\u1112\u1167\u11BC\u1111\u1167\u11AB
+\u1112\u1168\u1110\u1162\u11A8
+\u1112\u1169\u1100\u1175\u1109\u1175\u11B7
+\u1112\u1169\u1102\u1161\u11B7
+\u1112\u1169\u1105\u1161\u11BC\u110B\u1175
+\u1112\u1169\u1107\u1161\u11A8
+\u1112\u1169\u1110\u1166\u11AF
+\u1112\u1169\u1112\u1173\u11B8
+\u1112\u1169\u11A8\u1109\u1175
+\u1112\u1169\u11AF\u1105\u1169
+\u1112\u1169\u11B7\u1111\u1166\u110B\u1175\u110C\u1175
+\u1112\u1169\u11BC\u1107\u1169
+\u1112\u1169\u11BC\u1109\u116E
+\u1112\u1169\u11BC\u110E\u1161
+\u1112\u116A\u1106\u1167\u11AB
+\u1112\u116A\u1107\u116E\u11AB
+\u1112\u116A\u1109\u1161\u11AF
+\u1112\u116A\u110B\u116D\u110B\u1175\u11AF
+\u1112\u116A\u110C\u1161\u11BC
+\u1112\u116A\u1112\u1161\u11A8
+\u1112\u116A\u11A8\u1107\u1169
+\u1112\u116A\u11A8\u110B\u1175\u11AB
+\u1112\u116A\u11A8\u110C\u1161\u11BC
+\u1112\u116A\u11A8\u110C\u1165\u11BC
+\u1112\u116A\u11AB\u1100\u1161\u11B8
+\u1112\u116A\u11AB\u1100\u1167\u11BC
+\u1112\u116A\u11AB\u110B\u1167\u11BC
+\u1112\u116A\u11AB\u110B\u1172\u11AF
+\u1112\u116A\u11AB\u110C\u1161
+\u1112\u116A\u11AF\u1100\u1175
+\u1112\u116A\u11AF\u1103\u1169\u11BC
+\u1112\u116A\u11AF\u1107\u1161\u11AF\u1112\u1175
+\u1112\u116A\u11AF\u110B\u116D\u11BC
+\u1112\u116A\u11AF\u110D\u1161\u11A8
+\u1112\u116C\u1100\u1167\u11AB
+\u1112\u116C\u1100\u116A\u11AB
+\u1112\u116C\u1107\u1169\u11A8
+\u1112\u116C\u1109\u1162\u11A8
+\u1112\u116C\u110B\u116F\u11AB
+\u1112\u116C\u110C\u1161\u11BC
+\u1112\u116C\u110C\u1165\u11AB
+\u1112\u116C\u11BA\u1109\u116E
+\u1112\u116C\u11BC\u1103\u1161\u11AB\u1107\u1169\u1103\u1169
+\u1112\u116D\u110B\u1172\u11AF\u110C\u1165\u11A8
+\u1112\u116E\u1107\u1161\u11AB
+\u1112\u116E\u110E\u116E\u11BA\u1100\u1161\u1105\u116E
+\u1112\u116E\u11AB\u1105\u1167\u11AB
+\u1112\u116F\u11AF\u110A\u1175\u11AB
+\u1112\u1172\u1109\u1175\u11A8
+\u1112\u1172\u110B\u1175\u11AF
+\u1112\u1172\u11BC\u1102\u1162
+\u1112\u1173\u1105\u1173\u11B7
+\u1112\u1173\u11A8\u1107\u1162\u11A8
+\u1112\u1173\u11A8\u110B\u1175\u11AB
+\u1112\u1173\u11AB\u110C\u1165\u11A8
+\u1112\u1173\u11AB\u1112\u1175
+\u1112\u1173\u11BC\u1106\u1175
+\u1112\u1173\u11BC\u1107\u116E\u11AB
+\u1112\u1174\u1100\u1169\u11A8
+\u1112\u1174\u1106\u1161\u11BC
+\u1112\u1174\u1109\u1162\u11BC
+\u1112\u1174\u11AB\u1109\u1162\u11A8
+\u1112\u1175\u11B7\u1101\u1165\u11BA`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/portuguese.js
+  var wordlist7 = /* @__PURE__ */ Object.freeze(`abacate
+abaixo
+abalar
+abater
+abduzir
+abelha
+aberto
+abismo
+abotoar
+abranger
+abreviar
+abrigar
+abrupto
+absinto
+absoluto
+absurdo
+abutre
+acabado
+acalmar
+acampar
+acanhar
+acaso
+aceitar
+acelerar
+acenar
+acervo
+acessar
+acetona
+achatar
+acidez
+acima
+acionado
+acirrar
+aclamar
+aclive
+acolhida
+acomodar
+acoplar
+acordar
+acumular
+acusador
+adaptar
+adega
+adentro
+adepto
+adequar
+aderente
+adesivo
+adeus
+adiante
+aditivo
+adjetivo
+adjunto
+admirar
+adorar
+adquirir
+adubo
+adverso
+advogado
+aeronave
+afastar
+aferir
+afetivo
+afinador
+afivelar
+aflito
+afluente
+afrontar
+agachar
+agarrar
+agasalho
+agenciar
+agilizar
+agiota
+agitado
+agora
+agradar
+agreste
+agrupar
+aguardar
+agulha
+ajoelhar
+ajudar
+ajustar
+alameda
+alarme
+alastrar
+alavanca
+albergue
+albino
+alcatra
+aldeia
+alecrim
+alegria
+alertar
+alface
+alfinete
+algum
+alheio
+aliar
+alicate
+alienar
+alinhar
+aliviar
+almofada
+alocar
+alpiste
+alterar
+altitude
+alucinar
+alugar
+aluno
+alusivo
+alvo
+amaciar
+amador
+amarelo
+amassar
+ambas
+ambiente
+ameixa
+amenizar
+amido
+amistoso
+amizade
+amolador
+amontoar
+amoroso
+amostra
+amparar
+ampliar
+ampola
+anagrama
+analisar
+anarquia
+anatomia
+andaime
+anel
+anexo
+angular
+animar
+anjo
+anomalia
+anotado
+ansioso
+anterior
+anuidade
+anunciar
+anzol
+apagador
+apalpar
+apanhado
+apego
+apelido
+apertada
+apesar
+apetite
+apito
+aplauso
+aplicada
+apoio
+apontar
+aposta
+aprendiz
+aprovar
+aquecer
+arame
+aranha
+arara
+arcada
+ardente
+areia
+arejar
+arenito
+aresta
+argiloso
+argola
+arma
+arquivo
+arraial
+arrebate
+arriscar
+arroba
+arrumar
+arsenal
+arterial
+artigo
+arvoredo
+asfaltar
+asilado
+aspirar
+assador
+assinar
+assoalho
+assunto
+astral
+atacado
+atadura
+atalho
+atarefar
+atear
+atender
+aterro
+ateu
+atingir
+atirador
+ativo
+atoleiro
+atracar
+atrevido
+atriz
+atual
+atum
+auditor
+aumentar
+aura
+aurora
+autismo
+autoria
+autuar
+avaliar
+avante
+avaria
+avental
+avesso
+aviador
+avisar
+avulso
+axila
+azarar
+azedo
+azeite
+azulejo
+babar
+babosa
+bacalhau
+bacharel
+bacia
+bagagem
+baiano
+bailar
+baioneta
+bairro
+baixista
+bajular
+baleia
+baliza
+balsa
+banal
+bandeira
+banho
+banir
+banquete
+barato
+barbado
+baronesa
+barraca
+barulho
+baseado
+bastante
+batata
+batedor
+batida
+batom
+batucar
+baunilha
+beber
+beijo
+beirada
+beisebol
+beldade
+beleza
+belga
+beliscar
+bendito
+bengala
+benzer
+berimbau
+berlinda
+berro
+besouro
+bexiga
+bezerro
+bico
+bicudo
+bienal
+bifocal
+bifurcar
+bigorna
+bilhete
+bimestre
+bimotor
+biologia
+biombo
+biosfera
+bipolar
+birrento
+biscoito
+bisneto
+bispo
+bissexto
+bitola
+bizarro
+blindado
+bloco
+bloquear
+boato
+bobagem
+bocado
+bocejo
+bochecha
+boicotar
+bolada
+boletim
+bolha
+bolo
+bombeiro
+bonde
+boneco
+bonita
+borbulha
+borda
+boreal
+borracha
+bovino
+boxeador
+branco
+brasa
+braveza
+breu
+briga
+brilho
+brincar
+broa
+brochura
+bronzear
+broto
+bruxo
+bucha
+budismo
+bufar
+bule
+buraco
+busca
+busto
+buzina
+cabana
+cabelo
+cabide
+cabo
+cabrito
+cacau
+cacetada
+cachorro
+cacique
+cadastro
+cadeado
+cafezal
+caiaque
+caipira
+caixote
+cajado
+caju
+calafrio
+calcular
+caldeira
+calibrar
+calmante
+calota
+camada
+cambista
+camisa
+camomila
+campanha
+camuflar
+canavial
+cancelar
+caneta
+canguru
+canhoto
+canivete
+canoa
+cansado
+cantar
+canudo
+capacho
+capela
+capinar
+capotar
+capricho
+captador
+capuz
+caracol
+carbono
+cardeal
+careca
+carimbar
+carneiro
+carpete
+carreira
+cartaz
+carvalho
+casaco
+casca
+casebre
+castelo
+casulo
+catarata
+cativar
+caule
+causador
+cautelar
+cavalo
+caverna
+cebola
+cedilha
+cegonha
+celebrar
+celular
+cenoura
+censo
+centeio
+cercar
+cerrado
+certeiro
+cerveja
+cetim
+cevada
+chacota
+chaleira
+chamado
+chapada
+charme
+chatice
+chave
+chefe
+chegada
+cheiro
+cheque
+chicote
+chifre
+chinelo
+chocalho
+chover
+chumbo
+chutar
+chuva
+cicatriz
+ciclone
+cidade
+cidreira
+ciente
+cigana
+cimento
+cinto
+cinza
+ciranda
+circuito
+cirurgia
+citar
+clareza
+clero
+clicar
+clone
+clube
+coado
+coagir
+cobaia
+cobertor
+cobrar
+cocada
+coelho
+coentro
+coeso
+cogumelo
+coibir
+coifa
+coiote
+colar
+coleira
+colher
+colidir
+colmeia
+colono
+coluna
+comando
+combinar
+comentar
+comitiva
+comover
+complexo
+comum
+concha
+condor
+conectar
+confuso
+congelar
+conhecer
+conjugar
+consumir
+contrato
+convite
+cooperar
+copeiro
+copiador
+copo
+coquetel
+coragem
+cordial
+corneta
+coronha
+corporal
+correio
+cortejo
+coruja
+corvo
+cosseno
+costela
+cotonete
+couro
+couve
+covil
+cozinha
+cratera
+cravo
+creche
+credor
+creme
+crer
+crespo
+criada
+criminal
+crioulo
+crise
+criticar
+crosta
+crua
+cruzeiro
+cubano
+cueca
+cuidado
+cujo
+culatra
+culminar
+culpar
+cultura
+cumprir
+cunhado
+cupido
+curativo
+curral
+cursar
+curto
+cuspir
+custear
+cutelo
+damasco
+datar
+debater
+debitar
+deboche
+debulhar
+decalque
+decimal
+declive
+decote
+decretar
+dedal
+dedicado
+deduzir
+defesa
+defumar
+degelo
+degrau
+degustar
+deitado
+deixar
+delator
+delegado
+delinear
+delonga
+demanda
+demitir
+demolido
+dentista
+depenado
+depilar
+depois
+depressa
+depurar
+deriva
+derramar
+desafio
+desbotar
+descanso
+desenho
+desfiado
+desgaste
+desigual
+deslize
+desmamar
+desova
+despesa
+destaque
+desviar
+detalhar
+detentor
+detonar
+detrito
+deusa
+dever
+devido
+devotado
+dezena
+diagrama
+dialeto
+didata
+difuso
+digitar
+dilatado
+diluente
+diminuir
+dinastia
+dinheiro
+diocese
+direto
+discreta
+disfarce
+disparo
+disquete
+dissipar
+distante
+ditador
+diurno
+diverso
+divisor
+divulgar
+dizer
+dobrador
+dolorido
+domador
+dominado
+donativo
+donzela
+dormente
+dorsal
+dosagem
+dourado
+doutor
+drenagem
+drible
+drogaria
+duelar
+duende
+dueto
+duplo
+duquesa
+durante
+duvidoso
+eclodir
+ecoar
+ecologia
+edificar
+edital
+educado
+efeito
+efetivar
+ejetar
+elaborar
+eleger
+eleitor
+elenco
+elevador
+eliminar
+elogiar
+embargo
+embolado
+embrulho
+embutido
+emenda
+emergir
+emissor
+empatia
+empenho
+empinado
+empolgar
+emprego
+empurrar
+emulador
+encaixe
+encenado
+enchente
+encontro
+endeusar
+endossar
+enfaixar
+enfeite
+enfim
+engajado
+engenho
+englobar
+engomado
+engraxar
+enguia
+enjoar
+enlatar
+enquanto
+enraizar
+enrolado
+enrugar
+ensaio
+enseada
+ensino
+ensopado
+entanto
+enteado
+entidade
+entortar
+entrada
+entulho
+envergar
+enviado
+envolver
+enxame
+enxerto
+enxofre
+enxuto
+epiderme
+equipar
+ereto
+erguido
+errata
+erva
+ervilha
+esbanjar
+esbelto
+escama
+escola
+escrita
+escuta
+esfinge
+esfolar
+esfregar
+esfumado
+esgrima
+esmalte
+espanto
+espelho
+espiga
+esponja
+espreita
+espumar
+esquerda
+estaca
+esteira
+esticar
+estofado
+estrela
+estudo
+esvaziar
+etanol
+etiqueta
+euforia
+europeu
+evacuar
+evaporar
+evasivo
+eventual
+evidente
+evoluir
+exagero
+exalar
+examinar
+exato
+exausto
+excesso
+excitar
+exclamar
+executar
+exemplo
+exibir
+exigente
+exonerar
+expandir
+expelir
+expirar
+explanar
+exposto
+expresso
+expulsar
+externo
+extinto
+extrato
+fabricar
+fabuloso
+faceta
+facial
+fada
+fadiga
+faixa
+falar
+falta
+familiar
+fandango
+fanfarra
+fantoche
+fardado
+farelo
+farinha
+farofa
+farpa
+fartura
+fatia
+fator
+favorita
+faxina
+fazenda
+fechado
+feijoada
+feirante
+felino
+feminino
+fenda
+feno
+fera
+feriado
+ferrugem
+ferver
+festejar
+fetal
+feudal
+fiapo
+fibrose
+ficar
+ficheiro
+figurado
+fileira
+filho
+filme
+filtrar
+firmeza
+fisgada
+fissura
+fita
+fivela
+fixador
+fixo
+flacidez
+flamingo
+flanela
+flechada
+flora
+flutuar
+fluxo
+focal
+focinho
+fofocar
+fogo
+foguete
+foice
+folgado
+folheto
+forjar
+formiga
+forno
+forte
+fosco
+fossa
+fragata
+fralda
+frango
+frasco
+fraterno
+freira
+frente
+fretar
+frieza
+friso
+fritura
+fronha
+frustrar
+fruteira
+fugir
+fulano
+fuligem
+fundar
+fungo
+funil
+furador
+furioso
+futebol
+gabarito
+gabinete
+gado
+gaiato
+gaiola
+gaivota
+galega
+galho
+galinha
+galocha
+ganhar
+garagem
+garfo
+gargalo
+garimpo
+garoupa
+garrafa
+gasoduto
+gasto
+gata
+gatilho
+gaveta
+gazela
+gelado
+geleia
+gelo
+gemada
+gemer
+gemido
+generoso
+gengiva
+genial
+genoma
+genro
+geologia
+gerador
+germinar
+gesso
+gestor
+ginasta
+gincana
+gingado
+girafa
+girino
+glacial
+glicose
+global
+glorioso
+goela
+goiaba
+golfe
+golpear
+gordura
+gorjeta
+gorro
+gostoso
+goteira
+governar
+gracejo
+gradual
+grafite
+gralha
+grampo
+granada
+gratuito
+graveto
+graxa
+grego
+grelhar
+greve
+grilo
+grisalho
+gritaria
+grosso
+grotesco
+grudado
+grunhido
+gruta
+guache
+guarani
+guaxinim
+guerrear
+guiar
+guincho
+guisado
+gula
+guloso
+guru
+habitar
+harmonia
+haste
+haver
+hectare
+herdar
+heresia
+hesitar
+hiato
+hibernar
+hidratar
+hiena
+hino
+hipismo
+hipnose
+hipoteca
+hoje
+holofote
+homem
+honesto
+honrado
+hormonal
+hospedar
+humorado
+iate
+ideia
+idoso
+ignorado
+igreja
+iguana
+ileso
+ilha
+iludido
+iluminar
+ilustrar
+imagem
+imediato
+imenso
+imersivo
+iminente
+imitador
+imortal
+impacto
+impedir
+implante
+impor
+imprensa
+impune
+imunizar
+inalador
+inapto
+inativo
+incenso
+inchar
+incidir
+incluir
+incolor
+indeciso
+indireto
+indutor
+ineficaz
+inerente
+infantil
+infestar
+infinito
+inflamar
+informal
+infrator
+ingerir
+inibido
+inicial
+inimigo
+injetar
+inocente
+inodoro
+inovador
+inox
+inquieto
+inscrito
+inseto
+insistir
+inspetor
+instalar
+insulto
+intacto
+integral
+intimar
+intocado
+intriga
+invasor
+inverno
+invicto
+invocar
+iogurte
+iraniano
+ironizar
+irreal
+irritado
+isca
+isento
+isolado
+isqueiro
+italiano
+janeiro
+jangada
+janta
+jararaca
+jardim
+jarro
+jasmim
+jato
+javali
+jazida
+jejum
+joaninha
+joelhada
+jogador
+joia
+jornal
+jorrar
+jovem
+juba
+judeu
+judoca
+juiz
+julgador
+julho
+jurado
+jurista
+juro
+justa
+labareda
+laboral
+lacre
+lactante
+ladrilho
+lagarta
+lagoa
+laje
+lamber
+lamentar
+laminar
+lampejo
+lanche
+lapidar
+lapso
+laranja
+lareira
+largura
+lasanha
+lastro
+lateral
+latido
+lavanda
+lavoura
+lavrador
+laxante
+lazer
+lealdade
+lebre
+legado
+legendar
+legista
+leigo
+leiloar
+leitura
+lembrete
+leme
+lenhador
+lentilha
+leoa
+lesma
+leste
+letivo
+letreiro
+levar
+leveza
+levitar
+liberal
+libido
+liderar
+ligar
+ligeiro
+limitar
+limoeiro
+limpador
+linda
+linear
+linhagem
+liquidez
+listagem
+lisura
+litoral
+livro
+lixa
+lixeira
+locador
+locutor
+lojista
+lombo
+lona
+longe
+lontra
+lorde
+lotado
+loteria
+loucura
+lousa
+louvar
+luar
+lucidez
+lucro
+luneta
+lustre
+lutador
+luva
+macaco
+macete
+machado
+macio
+madeira
+madrinha
+magnata
+magreza
+maior
+mais
+malandro
+malha
+malote
+maluco
+mamilo
+mamoeiro
+mamute
+manada
+mancha
+mandato
+manequim
+manhoso
+manivela
+manobrar
+mansa
+manter
+manusear
+mapeado
+maquinar
+marcador
+maresia
+marfim
+margem
+marinho
+marmita
+maroto
+marquise
+marreco
+martelo
+marujo
+mascote
+masmorra
+massagem
+mastigar
+matagal
+materno
+matinal
+matutar
+maxilar
+medalha
+medida
+medusa
+megafone
+meiga
+melancia
+melhor
+membro
+memorial
+menino
+menos
+mensagem
+mental
+merecer
+mergulho
+mesada
+mesclar
+mesmo
+mesquita
+mestre
+metade
+meteoro
+metragem
+mexer
+mexicano
+micro
+migalha
+migrar
+milagre
+milenar
+milhar
+mimado
+minerar
+minhoca
+ministro
+minoria
+miolo
+mirante
+mirtilo
+misturar
+mocidade
+moderno
+modular
+moeda
+moer
+moinho
+moita
+moldura
+moleza
+molho
+molinete
+molusco
+montanha
+moqueca
+morango
+morcego
+mordomo
+morena
+mosaico
+mosquete
+mostarda
+motel
+motim
+moto
+motriz
+muda
+muito
+mulata
+mulher
+multar
+mundial
+munido
+muralha
+murcho
+muscular
+museu
+musical
+nacional
+nadador
+naja
+namoro
+narina
+narrado
+nascer
+nativa
+natureza
+navalha
+navegar
+navio
+neblina
+nebuloso
+negativa
+negociar
+negrito
+nervoso
+neta
+neural
+nevasca
+nevoeiro
+ninar
+ninho
+nitidez
+nivelar
+nobreza
+noite
+noiva
+nomear
+nominal
+nordeste
+nortear
+notar
+noticiar
+noturno
+novelo
+novilho
+novo
+nublado
+nudez
+numeral
+nupcial
+nutrir
+nuvem
+obcecado
+obedecer
+objetivo
+obrigado
+obscuro
+obstetra
+obter
+obturar
+ocidente
+ocioso
+ocorrer
+oculista
+ocupado
+ofegante
+ofensiva
+oferenda
+oficina
+ofuscado
+ogiva
+olaria
+oleoso
+olhar
+oliveira
+ombro
+omelete
+omisso
+omitir
+ondulado
+oneroso
+ontem
+opcional
+operador
+oponente
+oportuno
+oposto
+orar
+orbitar
+ordem
+ordinal
+orfanato
+orgasmo
+orgulho
+oriental
+origem
+oriundo
+orla
+ortodoxo
+orvalho
+oscilar
+ossada
+osso
+ostentar
+otimismo
+ousadia
+outono
+outubro
+ouvido
+ovelha
+ovular
+oxidar
+oxigenar
+pacato
+paciente
+pacote
+pactuar
+padaria
+padrinho
+pagar
+pagode
+painel
+pairar
+paisagem
+palavra
+palestra
+palheta
+palito
+palmada
+palpitar
+pancada
+panela
+panfleto
+panqueca
+pantanal
+papagaio
+papelada
+papiro
+parafina
+parcial
+pardal
+parede
+partida
+pasmo
+passado
+pastel
+patamar
+patente
+patinar
+patrono
+paulada
+pausar
+peculiar
+pedalar
+pedestre
+pediatra
+pedra
+pegada
+peitoral
+peixe
+pele
+pelicano
+penca
+pendurar
+peneira
+penhasco
+pensador
+pente
+perceber
+perfeito
+pergunta
+perito
+permitir
+perna
+perplexo
+persiana
+pertence
+peruca
+pescado
+pesquisa
+pessoa
+petiscar
+piada
+picado
+piedade
+pigmento
+pilastra
+pilhado
+pilotar
+pimenta
+pincel
+pinguim
+pinha
+pinote
+pintar
+pioneiro
+pipoca
+piquete
+piranha
+pires
+pirueta
+piscar
+pistola
+pitanga
+pivete
+planta
+plaqueta
+platina
+plebeu
+plumagem
+pluvial
+pneu
+poda
+poeira
+poetisa
+polegada
+policiar
+poluente
+polvilho
+pomar
+pomba
+ponderar
+pontaria
+populoso
+porta
+possuir
+postal
+pote
+poupar
+pouso
+povoar
+praia
+prancha
+prato
+praxe
+prece
+predador
+prefeito
+premiar
+prensar
+preparar
+presilha
+pretexto
+prevenir
+prezar
+primata
+princesa
+prisma
+privado
+processo
+produto
+profeta
+proibido
+projeto
+prometer
+propagar
+prosa
+protetor
+provador
+publicar
+pudim
+pular
+pulmonar
+pulseira
+punhal
+punir
+pupilo
+pureza
+puxador
+quadra
+quantia
+quarto
+quase
+quebrar
+queda
+queijo
+quente
+querido
+quimono
+quina
+quiosque
+rabanada
+rabisco
+rachar
+racionar
+radial
+raiar
+rainha
+raio
+raiva
+rajada
+ralado
+ramal
+ranger
+ranhura
+rapadura
+rapel
+rapidez
+raposa
+raquete
+raridade
+rasante
+rascunho
+rasgar
+raspador
+rasteira
+rasurar
+ratazana
+ratoeira
+realeza
+reanimar
+reaver
+rebaixar
+rebelde
+rebolar
+recado
+recente
+recheio
+recibo
+recordar
+recrutar
+recuar
+rede
+redimir
+redonda
+reduzida
+reenvio
+refinar
+refletir
+refogar
+refresco
+refugiar
+regalia
+regime
+regra
+reinado
+reitor
+rejeitar
+relativo
+remador
+remendo
+remorso
+renovado
+reparo
+repelir
+repleto
+repolho
+represa
+repudiar
+requerer
+resenha
+resfriar
+resgatar
+residir
+resolver
+respeito
+ressaca
+restante
+resumir
+retalho
+reter
+retirar
+retomada
+retratar
+revelar
+revisor
+revolta
+riacho
+rica
+rigidez
+rigoroso
+rimar
+ringue
+risada
+risco
+risonho
+robalo
+rochedo
+rodada
+rodeio
+rodovia
+roedor
+roleta
+romano
+roncar
+rosado
+roseira
+rosto
+rota
+roteiro
+rotina
+rotular
+rouco
+roupa
+roxo
+rubro
+rugido
+rugoso
+ruivo
+rumo
+rupestre
+russo
+sabor
+saciar
+sacola
+sacudir
+sadio
+safira
+saga
+sagrada
+saibro
+salada
+saleiro
+salgado
+saliva
+salpicar
+salsicha
+saltar
+salvador
+sambar
+samurai
+sanar
+sanfona
+sangue
+sanidade
+sapato
+sarda
+sargento
+sarjeta
+saturar
+saudade
+saxofone
+sazonal
+secar
+secular
+seda
+sedento
+sediado
+sedoso
+sedutor
+segmento
+segredo
+segundo
+seiva
+seleto
+selvagem
+semanal
+semente
+senador
+senhor
+sensual
+sentado
+separado
+sereia
+seringa
+serra
+servo
+setembro
+setor
+sigilo
+silhueta
+silicone
+simetria
+simpatia
+simular
+sinal
+sincero
+singular
+sinopse
+sintonia
+sirene
+siri
+situado
+soberano
+sobra
+socorro
+sogro
+soja
+solda
+soletrar
+solteiro
+sombrio
+sonata
+sondar
+sonegar
+sonhador
+sono
+soprano
+soquete
+sorrir
+sorteio
+sossego
+sotaque
+soterrar
+sovado
+sozinho
+suavizar
+subida
+submerso
+subsolo
+subtrair
+sucata
+sucesso
+suco
+sudeste
+sufixo
+sugador
+sugerir
+sujeito
+sulfato
+sumir
+suor
+superior
+suplicar
+suposto
+suprimir
+surdina
+surfista
+surpresa
+surreal
+surtir
+suspiro
+sustento
+tabela
+tablete
+tabuada
+tacho
+tagarela
+talher
+talo
+talvez
+tamanho
+tamborim
+tampa
+tangente
+tanto
+tapar
+tapioca
+tardio
+tarefa
+tarja
+tarraxa
+tatuagem
+taurino
+taxativo
+taxista
+teatral
+tecer
+tecido
+teclado
+tedioso
+teia
+teimar
+telefone
+telhado
+tempero
+tenente
+tensor
+tentar
+termal
+terno
+terreno
+tese
+tesoura
+testado
+teto
+textura
+texugo
+tiara
+tigela
+tijolo
+timbrar
+timidez
+tingido
+tinteiro
+tiragem
+titular
+toalha
+tocha
+tolerar
+tolice
+tomada
+tomilho
+tonel
+tontura
+topete
+tora
+torcido
+torneio
+torque
+torrada
+torto
+tostar
+touca
+toupeira
+toxina
+trabalho
+tracejar
+tradutor
+trafegar
+trajeto
+trama
+trancar
+trapo
+traseiro
+tratador
+travar
+treino
+tremer
+trepidar
+trevo
+triagem
+tribo
+triciclo
+tridente
+trilogia
+trindade
+triplo
+triturar
+triunfal
+trocar
+trombeta
+trova
+trunfo
+truque
+tubular
+tucano
+tudo
+tulipa
+tupi
+turbo
+turma
+turquesa
+tutelar
+tutorial
+uivar
+umbigo
+unha
+unidade
+uniforme
+urologia
+urso
+urtiga
+urubu
+usado
+usina
+usufruir
+vacina
+vadiar
+vagaroso
+vaidoso
+vala
+valente
+validade
+valores
+vantagem
+vaqueiro
+varanda
+vareta
+varrer
+vascular
+vasilha
+vassoura
+vazar
+vazio
+veado
+vedar
+vegetar
+veicular
+veleiro
+velhice
+veludo
+vencedor
+vendaval
+venerar
+ventre
+verbal
+verdade
+vereador
+vergonha
+vermelho
+verniz
+versar
+vertente
+vespa
+vestido
+vetorial
+viaduto
+viagem
+viajar
+viatura
+vibrador
+videira
+vidraria
+viela
+viga
+vigente
+vigiar
+vigorar
+vilarejo
+vinco
+vinheta
+vinil
+violeta
+virada
+virtude
+visitar
+visto
+vitral
+viveiro
+vizinho
+voador
+voar
+vogal
+volante
+voleibol
+voltagem
+volumoso
+vontade
+vulto
+vuvuzela
+xadrez
+xarope
+xeque
+xeretar
+xerife
+xingar
+zangado
+zarpar
+zebu
+zelador
+zombar
+zoologia
+zumbido`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/simplified-chinese.js
+  var wordlist8 = /* @__PURE__ */ Object.freeze(`\u7684
+\u4E00
+\u662F
+\u5728
+\u4E0D
+\u4E86
+\u6709
+\u548C
+\u4EBA
+\u8FD9
+\u4E2D
+\u5927
+\u4E3A
+\u4E0A
+\u4E2A
+\u56FD
+\u6211
+\u4EE5
+\u8981
+\u4ED6
+\u65F6
+\u6765
+\u7528
+\u4EEC
+\u751F
+\u5230
+\u4F5C
+\u5730
+\u4E8E
+\u51FA
+\u5C31
+\u5206
+\u5BF9
+\u6210
+\u4F1A
+\u53EF
+\u4E3B
+\u53D1
+\u5E74
+\u52A8
+\u540C
+\u5DE5
+\u4E5F
+\u80FD
+\u4E0B
+\u8FC7
+\u5B50
+\u8BF4
+\u4EA7
+\u79CD
+\u9762
+\u800C
+\u65B9
+\u540E
+\u591A
+\u5B9A
+\u884C
+\u5B66
+\u6CD5
+\u6240
+\u6C11
+\u5F97
+\u7ECF
+\u5341
+\u4E09
+\u4E4B
+\u8FDB
+\u7740
+\u7B49
+\u90E8
+\u5EA6
+\u5BB6
+\u7535
+\u529B
+\u91CC
+\u5982
+\u6C34
+\u5316
+\u9AD8
+\u81EA
+\u4E8C
+\u7406
+\u8D77
+\u5C0F
+\u7269
+\u73B0
+\u5B9E
+\u52A0
+\u91CF
+\u90FD
+\u4E24
+\u4F53
+\u5236
+\u673A
+\u5F53
+\u4F7F
+\u70B9
+\u4ECE
+\u4E1A
+\u672C
+\u53BB
+\u628A
+\u6027
+\u597D
+\u5E94
+\u5F00
+\u5B83
+\u5408
+\u8FD8
+\u56E0
+\u7531
+\u5176
+\u4E9B
+\u7136
+\u524D
+\u5916
+\u5929
+\u653F
+\u56DB
+\u65E5
+\u90A3
+\u793E
+\u4E49
+\u4E8B
+\u5E73
+\u5F62
+\u76F8
+\u5168
+\u8868
+\u95F4
+\u6837
+\u4E0E
+\u5173
+\u5404
+\u91CD
+\u65B0
+\u7EBF
+\u5185
+\u6570
+\u6B63
+\u5FC3
+\u53CD
+\u4F60
+\u660E
+\u770B
+\u539F
+\u53C8
+\u4E48
+\u5229
+\u6BD4
+\u6216
+\u4F46
+\u8D28
+\u6C14
+\u7B2C
+\u5411
+\u9053
+\u547D
+\u6B64
+\u53D8
+\u6761
+\u53EA
+\u6CA1
+\u7ED3
+\u89E3
+\u95EE
+\u610F
+\u5EFA
+\u6708
+\u516C
+\u65E0
+\u7CFB
+\u519B
+\u5F88
+\u60C5
+\u8005
+\u6700
+\u7ACB
+\u4EE3
+\u60F3
+\u5DF2
+\u901A
+\u5E76
+\u63D0
+\u76F4
+\u9898
+\u515A
+\u7A0B
+\u5C55
+\u4E94
+\u679C
+\u6599
+\u8C61
+\u5458
+\u9769
+\u4F4D
+\u5165
+\u5E38
+\u6587
+\u603B
+\u6B21
+\u54C1
+\u5F0F
+\u6D3B
+\u8BBE
+\u53CA
+\u7BA1
+\u7279
+\u4EF6
+\u957F
+\u6C42
+\u8001
+\u5934
+\u57FA
+\u8D44
+\u8FB9
+\u6D41
+\u8DEF
+\u7EA7
+\u5C11
+\u56FE
+\u5C71
+\u7EDF
+\u63A5
+\u77E5
+\u8F83
+\u5C06
+\u7EC4
+\u89C1
+\u8BA1
+\u522B
+\u5979
+\u624B
+\u89D2
+\u671F
+\u6839
+\u8BBA
+\u8FD0
+\u519C
+\u6307
+\u51E0
+\u4E5D
+\u533A
+\u5F3A
+\u653E
+\u51B3
+\u897F
+\u88AB
+\u5E72
+\u505A
+\u5FC5
+\u6218
+\u5148
+\u56DE
+\u5219
+\u4EFB
+\u53D6
+\u636E
+\u5904
+\u961F
+\u5357
+\u7ED9
+\u8272
+\u5149
+\u95E8
+\u5373
+\u4FDD
+\u6CBB
+\u5317
+\u9020
+\u767E
+\u89C4
+\u70ED
+\u9886
+\u4E03
+\u6D77
+\u53E3
+\u4E1C
+\u5BFC
+\u5668
+\u538B
+\u5FD7
+\u4E16
+\u91D1
+\u589E
+\u4E89
+\u6D4E
+\u9636
+\u6CB9
+\u601D
+\u672F
+\u6781
+\u4EA4
+\u53D7
+\u8054
+\u4EC0
+\u8BA4
+\u516D
+\u5171
+\u6743
+\u6536
+\u8BC1
+\u6539
+\u6E05
+\u7F8E
+\u518D
+\u91C7
+\u8F6C
+\u66F4
+\u5355
+\u98CE
+\u5207
+\u6253
+\u767D
+\u6559
+\u901F
+\u82B1
+\u5E26
+\u5B89
+\u573A
+\u8EAB
+\u8F66
+\u4F8B
+\u771F
+\u52A1
+\u5177
+\u4E07
+\u6BCF
+\u76EE
+\u81F3
+\u8FBE
+\u8D70
+\u79EF
+\u793A
+\u8BAE
+\u58F0
+\u62A5
+\u6597
+\u5B8C
+\u7C7B
+\u516B
+\u79BB
+\u534E
+\u540D
+\u786E
+\u624D
+\u79D1
+\u5F20
+\u4FE1
+\u9A6C
+\u8282
+\u8BDD
+\u7C73
+\u6574
+\u7A7A
+\u5143
+\u51B5
+\u4ECA
+\u96C6
+\u6E29
+\u4F20
+\u571F
+\u8BB8
+\u6B65
+\u7FA4
+\u5E7F
+\u77F3
+\u8BB0
+\u9700
+\u6BB5
+\u7814
+\u754C
+\u62C9
+\u6797
+\u5F8B
+\u53EB
+\u4E14
+\u7A76
+\u89C2
+\u8D8A
+\u7EC7
+\u88C5
+\u5F71
+\u7B97
+\u4F4E
+\u6301
+\u97F3
+\u4F17
+\u4E66
+\u5E03
+\u590D
+\u5BB9
+\u513F
+\u987B
+\u9645
+\u5546
+\u975E
+\u9A8C
+\u8FDE
+\u65AD
+\u6DF1
+\u96BE
+\u8FD1
+\u77FF
+\u5343
+\u5468
+\u59D4
+\u7D20
+\u6280
+\u5907
+\u534A
+\u529E
+\u9752
+\u7701
+\u5217
+\u4E60
+\u54CD
+\u7EA6
+\u652F
+\u822C
+\u53F2
+\u611F
+\u52B3
+\u4FBF
+\u56E2
+\u5F80
+\u9178
+\u5386
+\u5E02
+\u514B
+\u4F55
+\u9664
+\u6D88
+\u6784
+\u5E9C
+\u79F0
+\u592A
+\u51C6
+\u7CBE
+\u503C
+\u53F7
+\u7387
+\u65CF
+\u7EF4
+\u5212
+\u9009
+\u6807
+\u5199
+\u5B58
+\u5019
+\u6BDB
+\u4EB2
+\u5FEB
+\u6548
+\u65AF
+\u9662
+\u67E5
+\u6C5F
+\u578B
+\u773C
+\u738B
+\u6309
+\u683C
+\u517B
+\u6613
+\u7F6E
+\u6D3E
+\u5C42
+\u7247
+\u59CB
+\u5374
+\u4E13
+\u72B6
+\u80B2
+\u5382
+\u4EAC
+\u8BC6
+\u9002
+\u5C5E
+\u5706
+\u5305
+\u706B
+\u4F4F
+\u8C03
+\u6EE1
+\u53BF
+\u5C40
+\u7167
+\u53C2
+\u7EA2
+\u7EC6
+\u5F15
+\u542C
+\u8BE5
+\u94C1
+\u4EF7
+\u4E25
+\u9996
+\u5E95
+\u6DB2
+\u5B98
+\u5FB7
+\u968F
+\u75C5
+\u82CF
+\u5931
+\u5C14
+\u6B7B
+\u8BB2
+\u914D
+\u5973
+\u9EC4
+\u63A8
+\u663E
+\u8C08
+\u7F6A
+\u795E
+\u827A
+\u5462
+\u5E2D
+\u542B
+\u4F01
+\u671B
+\u5BC6
+\u6279
+\u8425
+\u9879
+\u9632
+\u4E3E
+\u7403
+\u82F1
+\u6C27
+\u52BF
+\u544A
+\u674E
+\u53F0
+\u843D
+\u6728
+\u5E2E
+\u8F6E
+\u7834
+\u4E9A
+\u5E08
+\u56F4
+\u6CE8
+\u8FDC
+\u5B57
+\u6750
+\u6392
+\u4F9B
+\u6CB3
+\u6001
+\u5C01
+\u53E6
+\u65BD
+\u51CF
+\u6811
+\u6EB6
+\u600E
+\u6B62
+\u6848
+\u8A00
+\u58EB
+\u5747
+\u6B66
+\u56FA
+\u53F6
+\u9C7C
+\u6CE2
+\u89C6
+\u4EC5
+\u8D39
+\u7D27
+\u7231
+\u5DE6
+\u7AE0
+\u65E9
+\u671D
+\u5BB3
+\u7EED
+\u8F7B
+\u670D
+\u8BD5
+\u98DF
+\u5145
+\u5175
+\u6E90
+\u5224
+\u62A4
+\u53F8
+\u8DB3
+\u67D0
+\u7EC3
+\u5DEE
+\u81F4
+\u677F
+\u7530
+\u964D
+\u9ED1
+\u72AF
+\u8D1F
+\u51FB
+\u8303
+\u7EE7
+\u5174
+\u4F3C
+\u4F59
+\u575A
+\u66F2
+\u8F93
+\u4FEE
+\u6545
+\u57CE
+\u592B
+\u591F
+\u9001
+\u7B14
+\u8239
+\u5360
+\u53F3
+\u8D22
+\u5403
+\u5BCC
+\u6625
+\u804C
+\u89C9
+\u6C49
+\u753B
+\u529F
+\u5DF4
+\u8DDF
+\u867D
+\u6742
+\u98DE
+\u68C0
+\u5438
+\u52A9
+\u5347
+\u9633
+\u4E92
+\u521D
+\u521B
+\u6297
+\u8003
+\u6295
+\u574F
+\u7B56
+\u53E4
+\u5F84
+\u6362
+\u672A
+\u8DD1
+\u7559
+\u94A2
+\u66FE
+\u7AEF
+\u8D23
+\u7AD9
+\u7B80
+\u8FF0
+\u94B1
+\u526F
+\u5C3D
+\u5E1D
+\u5C04
+\u8349
+\u51B2
+\u627F
+\u72EC
+\u4EE4
+\u9650
+\u963F
+\u5BA3
+\u73AF
+\u53CC
+\u8BF7
+\u8D85
+\u5FAE
+\u8BA9
+\u63A7
+\u5DDE
+\u826F
+\u8F74
+\u627E
+\u5426
+\u7EAA
+\u76CA
+\u4F9D
+\u4F18
+\u9876
+\u7840
+\u8F7D
+\u5012
+\u623F
+\u7A81
+\u5750
+\u7C89
+\u654C
+\u7565
+\u5BA2
+\u8881
+\u51B7
+\u80DC
+\u7EDD
+\u6790
+\u5757
+\u5242
+\u6D4B
+\u4E1D
+\u534F
+\u8BC9
+\u5FF5
+\u9648
+\u4ECD
+\u7F57
+\u76D0
+\u53CB
+\u6D0B
+\u9519
+\u82E6
+\u591C
+\u5211
+\u79FB
+\u9891
+\u9010
+\u9760
+\u6DF7
+\u6BCD
+\u77ED
+\u76AE
+\u7EC8
+\u805A
+\u6C7D
+\u6751
+\u4E91
+\u54EA
+\u65E2
+\u8DDD
+\u536B
+\u505C
+\u70C8
+\u592E
+\u5BDF
+\u70E7
+\u8FC5
+\u5883
+\u82E5
+\u5370
+\u6D32
+\u523B
+\u62EC
+\u6FC0
+\u5B54
+\u641E
+\u751A
+\u5BA4
+\u5F85
+\u6838
+\u6821
+\u6563
+\u4FB5
+\u5427
+\u7532
+\u6E38
+\u4E45
+\u83DC
+\u5473
+\u65E7
+\u6A21
+\u6E56
+\u8D27
+\u635F
+\u9884
+\u963B
+\u6BEB
+\u666E
+\u7A33
+\u4E59
+\u5988
+\u690D
+\u606F
+\u6269
+\u94F6
+\u8BED
+\u6325
+\u9152
+\u5B88
+\u62FF
+\u5E8F
+\u7EB8
+\u533B
+\u7F3A
+\u96E8
+\u5417
+\u9488
+\u5218
+\u554A
+\u6025
+\u5531
+\u8BEF
+\u8BAD
+\u613F
+\u5BA1
+\u9644
+\u83B7
+\u8336
+\u9C9C
+\u7CAE
+\u65A4
+\u5B69
+\u8131
+\u786B
+\u80A5
+\u5584
+\u9F99
+\u6F14
+\u7236
+\u6E10
+\u8840
+\u6B22
+\u68B0
+\u638C
+\u6B4C
+\u6C99
+\u521A
+\u653B
+\u8C13
+\u76FE
+\u8BA8
+\u665A
+\u7C92
+\u4E71
+\u71C3
+\u77DB
+\u4E4E
+\u6740
+\u836F
+\u5B81
+\u9C81
+\u8D35
+\u949F
+\u7164
+\u8BFB
+\u73ED
+\u4F2F
+\u9999
+\u4ECB
+\u8FEB
+\u53E5
+\u4E30
+\u57F9
+\u63E1
+\u5170
+\u62C5
+\u5F26
+\u86CB
+\u6C89
+\u5047
+\u7A7F
+\u6267
+\u7B54
+\u4E50
+\u8C01
+\u987A
+\u70DF
+\u7F29
+\u5F81
+\u8138
+\u559C
+\u677E
+\u811A
+\u56F0
+\u5F02
+\u514D
+\u80CC
+\u661F
+\u798F
+\u4E70
+\u67D3
+\u4E95
+\u6982
+\u6162
+\u6015
+\u78C1
+\u500D
+\u7956
+\u7687
+\u4FC3
+\u9759
+\u8865
+\u8BC4
+\u7FFB
+\u8089
+\u8DF5
+\u5C3C
+\u8863
+\u5BBD
+\u626C
+\u68C9
+\u5E0C
+\u4F24
+\u64CD
+\u5782
+\u79CB
+\u5B9C
+\u6C22
+\u5957
+\u7763
+\u632F
+\u67B6
+\u4EAE
+\u672B
+\u5BAA
+\u5E86
+\u7F16
+\u725B
+\u89E6
+\u6620
+\u96F7
+\u9500
+\u8BD7
+\u5EA7
+\u5C45
+\u6293
+\u88C2
+\u80DE
+\u547C
+\u5A18
+\u666F
+\u5A01
+\u7EFF
+\u6676
+\u539A
+\u76DF
+\u8861
+\u9E21
+\u5B59
+\u5EF6
+\u5371
+\u80F6
+\u5C4B
+\u4E61
+\u4E34
+\u9646
+\u987E
+\u6389
+\u5440
+\u706F
+\u5C81
+\u63AA
+\u675F
+\u8010
+\u5267
+\u7389
+\u8D75
+\u8DF3
+\u54E5
+\u5B63
+\u8BFE
+\u51EF
+\u80E1
+\u989D
+\u6B3E
+\u7ECD
+\u5377
+\u9F50
+\u4F1F
+\u84B8
+\u6B96
+\u6C38
+\u5B97
+\u82D7
+\u5DDD
+\u7089
+\u5CA9
+\u5F31
+\u96F6
+\u6768
+\u594F
+\u6CBF
+\u9732
+\u6746
+\u63A2
+\u6ED1
+\u9547
+\u996D
+\u6D53
+\u822A
+\u6000
+\u8D76
+\u5E93
+\u593A
+\u4F0A
+\u7075
+\u7A0E
+\u9014
+\u706D
+\u8D5B
+\u5F52
+\u53EC
+\u9F13
+\u64AD
+\u76D8
+\u88C1
+\u9669
+\u5EB7
+\u552F
+\u5F55
+\u83CC
+\u7EAF
+\u501F
+\u7CD6
+\u76D6
+\u6A2A
+\u7B26
+\u79C1
+\u52AA
+\u5802
+\u57DF
+\u67AA
+\u6DA6
+\u5E45
+\u54C8
+\u7ADF
+\u719F
+\u866B
+\u6CFD
+\u8111
+\u58E4
+\u78B3
+\u6B27
+\u904D
+\u4FA7
+\u5BE8
+\u6562
+\u5F7B
+\u8651
+\u659C
+\u8584
+\u5EAD
+\u7EB3
+\u5F39
+\u9972
+\u4F38
+\u6298
+\u9EA6
+\u6E7F
+\u6697
+\u8377
+\u74E6
+\u585E
+\u5E8A
+\u7B51
+\u6076
+\u6237
+\u8BBF
+\u5854
+\u5947
+\u900F
+\u6881
+\u5200
+\u65CB
+\u8FF9
+\u5361
+\u6C2F
+\u9047
+\u4EFD
+\u6BD2
+\u6CE5
+\u9000
+\u6D17
+\u6446
+\u7070
+\u5F69
+\u5356
+\u8017
+\u590F
+\u62E9
+\u5FD9
+\u94DC
+\u732E
+\u786C
+\u4E88
+\u7E41
+\u5708
+\u96EA
+\u51FD
+\u4EA6
+\u62BD
+\u7BC7
+\u9635
+\u9634
+\u4E01
+\u5C3A
+\u8FFD
+\u5806
+\u96C4
+\u8FCE
+\u6CDB
+\u7238
+\u697C
+\u907F
+\u8C0B
+\u5428
+\u91CE
+\u732A
+\u65D7
+\u7D2F
+\u504F
+\u5178
+\u9986
+\u7D22
+\u79E6
+\u8102
+\u6F6E
+\u7237
+\u8C46
+\u5FFD
+\u6258
+\u60CA
+\u5851
+\u9057
+\u6108
+\u6731
+\u66FF
+\u7EA4
+\u7C97
+\u503E
+\u5C1A
+\u75DB
+\u695A
+\u8C22
+\u594B
+\u8D2D
+\u78E8
+\u541B
+\u6C60
+\u65C1
+\u788E
+\u9AA8
+\u76D1
+\u6355
+\u5F1F
+\u66B4
+\u5272
+\u8D2F
+\u6B8A
+\u91CA
+\u8BCD
+\u4EA1
+\u58C1
+\u987F
+\u5B9D
+\u5348
+\u5C18
+\u95FB
+\u63ED
+\u70AE
+\u6B8B
+\u51AC
+\u6865
+\u5987
+\u8B66
+\u7EFC
+\u62DB
+\u5434
+\u4ED8
+\u6D6E
+\u906D
+\u5F90
+\u60A8
+\u6447
+\u8C37
+\u8D5E
+\u7BB1
+\u9694
+\u8BA2
+\u7537
+\u5439
+\u56ED
+\u7EB7
+\u5510
+\u8D25
+\u5B8B
+\u73BB
+\u5DE8
+\u8015
+\u5766
+\u8363
+\u95ED
+\u6E7E
+\u952E
+\u51E1
+\u9A7B
+\u9505
+\u6551
+\u6069
+\u5265
+\u51DD
+\u78B1
+\u9F7F
+\u622A
+\u70BC
+\u9EBB
+\u7EBA
+\u7981
+\u5E9F
+\u76DB
+\u7248
+\u7F13
+\u51C0
+\u775B
+\u660C
+\u5A5A
+\u6D89
+\u7B52
+\u5634
+\u63D2
+\u5CB8
+\u6717
+\u5E84
+\u8857
+\u85CF
+\u59D1
+\u8D38
+\u8150
+\u5974
+\u5566
+\u60EF
+\u4E58
+\u4F19
+\u6062
+\u5300
+\u7EB1
+\u624E
+\u8FA9
+\u8033
+\u5F6A
+\u81E3
+\u4EBF
+\u7483
+\u62B5
+\u8109
+\u79C0
+\u8428
+\u4FC4
+\u7F51
+\u821E
+\u5E97
+\u55B7
+\u7EB5
+\u5BF8
+\u6C57
+\u6302
+\u6D2A
+\u8D3A
+\u95EA
+\u67EC
+\u7206
+\u70EF
+\u6D25
+\u7A3B
+\u5899
+\u8F6F
+\u52C7
+\u50CF
+\u6EDA
+\u5398
+\u8499
+\u82B3
+\u80AF
+\u5761
+\u67F1
+\u8361
+\u817F
+\u4EEA
+\u65C5
+\u5C3E
+\u8F67
+\u51B0
+\u8D21
+\u767B
+\u9ECE
+\u524A
+\u94BB
+\u52D2
+\u9003
+\u969C
+\u6C28
+\u90ED
+\u5CF0
+\u5E01
+\u6E2F
+\u4F0F
+\u8F68
+\u4EA9
+\u6BD5
+\u64E6
+\u83AB
+\u523A
+\u6D6A
+\u79D8
+\u63F4
+\u682A
+\u5065
+\u552E
+\u80A1
+\u5C9B
+\u7518
+\u6CE1
+\u7761
+\u7AE5
+\u94F8
+\u6C64
+\u9600
+\u4F11
+\u6C47
+\u820D
+\u7267
+\u7ED5
+\u70B8
+\u54F2
+\u78F7
+\u7EE9
+\u670B
+\u6DE1
+\u5C16
+\u542F
+\u9677
+\u67F4
+\u5448
+\u5F92
+\u989C
+\u6CEA
+\u7A0D
+\u5FD8
+\u6CF5
+\u84DD
+\u62D6
+\u6D1E
+\u6388
+\u955C
+\u8F9B
+\u58EE
+\u950B
+\u8D2B
+\u865A
+\u5F2F
+\u6469
+\u6CF0
+\u5E7C
+\u5EF7
+\u5C0A
+\u7A97
+\u7EB2
+\u5F04
+\u96B6
+\u7591
+\u6C0F
+\u5BAB
+\u59D0
+\u9707
+\u745E
+\u602A
+\u5C24
+\u7434
+\u5FAA
+\u63CF
+\u819C
+\u8FDD
+\u5939
+\u8170
+\u7F18
+\u73E0
+\u7A77
+\u68EE
+\u679D
+\u7AF9
+\u6C9F
+\u50AC
+\u7EF3
+\u5FC6
+\u90A6
+\u5269
+\u5E78
+\u6D46
+\u680F
+\u62E5
+\u7259
+\u8D2E
+\u793C
+\u6EE4
+\u94A0
+\u7EB9
+\u7F62
+\u62CD
+\u54B1
+\u558A
+\u8896
+\u57C3
+\u52E4
+\u7F5A
+\u7126
+\u6F5C
+\u4F0D
+\u58A8
+\u6B32
+\u7F1D
+\u59D3
+\u520A
+\u9971
+\u4EFF
+\u5956
+\u94DD
+\u9B3C
+\u4E3D
+\u8DE8
+\u9ED8
+\u6316
+\u94FE
+\u626B
+\u559D
+\u888B
+\u70AD
+\u6C61
+\u5E55
+\u8BF8
+\u5F27
+\u52B1
+\u6885
+\u5976
+\u6D01
+\u707E
+\u821F
+\u9274
+\u82EF
+\u8BBC
+\u62B1
+\u6BC1
+\u61C2
+\u5BD2
+\u667A
+\u57D4
+\u5BC4
+\u5C4A
+\u8DC3
+\u6E21
+\u6311
+\u4E39
+\u8270
+\u8D1D
+\u78B0
+\u62D4
+\u7239
+\u6234
+\u7801
+\u68A6
+\u82BD
+\u7194
+\u8D64
+\u6E14
+\u54ED
+\u656C
+\u9897
+\u5954
+\u94C5
+\u4EF2
+\u864E
+\u7A00
+\u59B9
+\u4E4F
+\u73CD
+\u7533
+\u684C
+\u9075
+\u5141
+\u9686
+\u87BA
+\u4ED3
+\u9B4F
+\u9510
+\u6653
+\u6C2E
+\u517C
+\u9690
+\u788D
+\u8D6B
+\u62E8
+\u5FE0
+\u8083
+\u7F38
+\u7275
+\u62A2
+\u535A
+\u5DE7
+\u58F3
+\u5144
+\u675C
+\u8BAF
+\u8BDA
+\u78A7
+\u7965
+\u67EF
+\u9875
+\u5DE1
+\u77E9
+\u60B2
+\u704C
+\u9F84
+\u4F26
+\u7968
+\u5BFB
+\u6842
+\u94FA
+\u5723
+\u6050
+\u6070
+\u90D1
+\u8DA3
+\u62AC
+\u8352
+\u817E
+\u8D34
+\u67D4
+\u6EF4
+\u731B
+\u9614
+\u8F86
+\u59BB
+\u586B
+\u64A4
+\u50A8
+\u7B7E
+\u95F9
+\u6270
+\u7D2B
+\u7802
+\u9012
+\u620F
+\u540A
+\u9676
+\u4F10
+\u5582
+\u7597
+\u74F6
+\u5A46
+\u629A
+\u81C2
+\u6478
+\u5FCD
+\u867E
+\u8721
+\u90BB
+\u80F8
+\u5DE9
+\u6324
+\u5076
+\u5F03
+\u69FD
+\u52B2
+\u4E73
+\u9093
+\u5409
+\u4EC1
+\u70C2
+\u7816
+\u79DF
+\u4E4C
+\u8230
+\u4F34
+\u74DC
+\u6D45
+\u4E19
+\u6682
+\u71E5
+\u6A61
+\u67F3
+\u8FF7
+\u6696
+\u724C
+\u79E7
+\u80C6
+\u8BE6
+\u7C27
+\u8E0F
+\u74F7
+\u8C31
+\u5446
+\u5BBE
+\u7CCA
+\u6D1B
+\u8F89
+\u6124
+\u7ADE
+\u9699
+\u6012
+\u7C98
+\u4E43
+\u7EEA
+\u80A9
+\u7C4D
+\u654F
+\u6D82
+\u7199
+\u7686
+\u4FA6
+\u60AC
+\u6398
+\u4EAB
+\u7EA0
+\u9192
+\u72C2
+\u9501
+\u6DC0
+\u6068
+\u7272
+\u9738
+\u722C
+\u8D4F
+\u9006
+\u73A9
+\u9675
+\u795D
+\u79D2
+\u6D59
+\u8C8C
+\u5F79
+\u5F7C
+\u6089
+\u9E2D
+\u8D8B
+\u51E4
+\u6668
+\u755C
+\u8F88
+\u79E9
+\u5375
+\u7F72
+\u68AF
+\u708E
+\u6EE9
+\u68CB
+\u9A71
+\u7B5B
+\u5CE1
+\u5192
+\u5565
+\u5BFF
+\u8BD1
+\u6D78
+\u6CC9
+\u5E3D
+\u8FDF
+\u7845
+\u7586
+\u8D37
+\u6F0F
+\u7A3F
+\u51A0
+\u5AE9
+\u80C1
+\u82AF
+\u7262
+\u53DB
+\u8680
+\u5965
+\u9E23
+\u5CAD
+\u7F8A
+\u51ED
+\u4E32
+\u5858
+\u7ED8
+\u9175
+\u878D
+\u76C6
+\u9521
+\u5E99
+\u7B79
+\u51BB
+\u8F85
+\u6444
+\u88AD
+\u7B4B
+\u62D2
+\u50DA
+\u65F1
+\u94BE
+\u9E1F
+\u6F06
+\u6C88
+\u7709
+\u758F
+\u6DFB
+\u68D2
+\u7A57
+\u785D
+\u97E9
+\u903C
+\u626D
+\u4FA8
+\u51C9
+\u633A
+\u7897
+\u683D
+\u7092
+\u676F
+\u60A3
+\u998F
+\u529D
+\u8C6A
+\u8FBD
+\u52C3
+\u9E3F
+\u65E6
+\u540F
+\u62DC
+\u72D7
+\u57CB
+\u8F8A
+\u63A9
+\u996E
+\u642C
+\u9A82
+\u8F9E
+\u52FE
+\u6263
+\u4F30
+\u848B
+\u7ED2
+\u96FE
+\u4E08
+\u6735
+\u59C6
+\u62DF
+\u5B87
+\u8F91
+\u9655
+\u96D5
+\u507F
+\u84C4
+\u5D07
+\u526A
+\u5021
+\u5385
+\u54AC
+\u9A76
+\u85AF
+\u5237
+\u65A5
+\u756A
+\u8D4B
+\u5949
+\u4F5B
+\u6D47
+\u6F2B
+\u66FC
+\u6247
+\u9499
+\u6843
+\u6276
+\u4ED4
+\u8FD4
+\u4FD7
+\u4E8F
+\u8154
+\u978B
+\u68F1
+\u8986
+\u6846
+\u6084
+\u53D4
+\u649E
+\u9A97
+\u52D8
+\u65FA
+\u6CB8
+\u5B64
+\u5410
+\u5B5F
+\u6E20
+\u5C48
+\u75BE
+\u5999
+\u60DC
+\u4EF0
+\u72E0
+\u80C0
+\u8C10
+\u629B
+\u9709
+\u6851
+\u5C97
+\u561B
+\u8870
+\u76D7
+\u6E17
+\u810F
+\u8D56
+\u6D8C
+\u751C
+\u66F9
+\u9605
+\u808C
+\u54E9
+\u5389
+\u70C3
+\u7EAC
+\u6BC5
+\u6628
+\u4F2A
+\u75C7
+\u716E
+\u53F9
+\u9489
+\u642D
+\u830E
+\u7B3C
+\u9177
+\u5077
+\u5F13
+\u9525
+\u6052
+\u6770
+\u5751
+\u9F3B
+\u7FFC
+\u7EB6
+\u53D9
+\u72F1
+\u902E
+\u7F50
+\u7EDC
+\u68DA
+\u6291
+\u81A8
+\u852C
+\u5BFA
+\u9AA4
+\u7A46
+\u51B6
+\u67AF
+\u518C
+\u5C38
+\u51F8
+\u7EC5
+\u576F
+\u727A
+\u7130
+\u8F70
+\u6B23
+\u664B
+\u7626
+\u5FA1
+\u952D
+\u9526
+\u4E27
+\u65EC
+\u953B
+\u5784
+\u641C
+\u6251
+\u9080
+\u4EAD
+\u916F
+\u8FC8
+\u8212
+\u8106
+\u9176
+\u95F2
+\u5FE7
+\u915A
+\u987D
+\u7FBD
+\u6DA8
+\u5378
+\u4ED7
+\u966A
+\u8F9F
+\u60E9
+\u676D
+\u59DA
+\u809A
+\u6349
+\u98D8
+\u6F02
+\u6606
+\u6B3A
+\u543E
+\u90CE
+\u70F7
+\u6C41
+\u5475
+\u9970
+\u8427
+\u96C5
+\u90AE
+\u8FC1
+\u71D5
+\u6492
+\u59FB
+\u8D74
+\u5BB4
+\u70E6
+\u503A
+\u5E10
+\u6591
+\u94C3
+\u65E8
+\u9187
+\u8463
+\u997C
+\u96CF
+\u59FF
+\u62CC
+\u5085
+\u8179
+\u59A5
+\u63C9
+\u8D24
+\u62C6
+\u6B6A
+\u8461
+\u80FA
+\u4E22
+\u6D69
+\u5FBD
+\u6602
+\u57AB
+\u6321
+\u89C8
+\u8D2A
+\u6170
+\u7F34
+\u6C6A
+\u614C
+\u51AF
+\u8BFA
+\u59DC
+\u8C0A
+\u51F6
+\u52A3
+\u8BEC
+\u8000
+\u660F
+\u8EBA
+\u76C8
+\u9A91
+\u4E54
+\u6EAA
+\u4E1B
+\u5362
+\u62B9
+\u95F7
+\u54A8
+\u522E
+\u9A7E
+\u7F06
+\u609F
+\u6458
+\u94D2
+\u63B7
+\u9887
+\u5E7B
+\u67C4
+\u60E0
+\u60E8
+\u4F73
+\u4EC7
+\u814A
+\u7A9D
+\u6DA4
+\u5251
+\u77A7
+\u5821
+\u6CFC
+\u8471
+\u7F69
+\u970D
+\u635E
+\u80CE
+\u82CD
+\u6EE8
+\u4FE9
+\u6345
+\u6E58
+\u780D
+\u971E
+\u90B5
+\u8404
+\u75AF
+\u6DEE
+\u9042
+\u718A
+\u7CAA
+\u70D8
+\u5BBF
+\u6863
+\u6208
+\u9A73
+\u5AC2
+\u88D5
+\u5F99
+\u7BAD
+\u6350
+\u80A0
+\u6491
+\u6652
+\u8FA8
+\u6BBF
+\u83B2
+\u644A
+\u6405
+\u9171
+\u5C4F
+\u75AB
+\u54C0
+\u8521
+\u5835
+\u6CAB
+\u76B1
+\u7545
+\u53E0
+\u9601
+\u83B1
+\u6572
+\u8F96
+\u94A9
+\u75D5
+\u575D
+\u5DF7
+\u997F
+\u7978
+\u4E18
+\u7384
+\u6E9C
+\u66F0
+\u903B
+\u5F6D
+\u5C1D
+\u537F
+\u59A8
+\u8247
+\u541E
+\u97E6
+\u6028
+\u77EE
+\u6B47`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/spanish.js
+  var wordlist9 = /* @__PURE__ */ Object.freeze(`a\u0301baco
+abdomen
+abeja
+abierto
+abogado
+abono
+aborto
+abrazo
+abrir
+abuelo
+abuso
+acabar
+academia
+acceso
+accio\u0301n
+aceite
+acelga
+acento
+aceptar
+a\u0301cido
+aclarar
+acne\u0301
+acoger
+acoso
+activo
+acto
+actriz
+actuar
+acudir
+acuerdo
+acusar
+adicto
+admitir
+adoptar
+adorno
+aduana
+adulto
+ae\u0301reo
+afectar
+aficio\u0301n
+afinar
+afirmar
+a\u0301gil
+agitar
+agoni\u0301a
+agosto
+agotar
+agregar
+agrio
+agua
+agudo
+a\u0301guila
+aguja
+ahogo
+ahorro
+aire
+aislar
+ajedrez
+ajeno
+ajuste
+alacra\u0301n
+alambre
+alarma
+alba
+a\u0301lbum
+alcalde
+aldea
+alegre
+alejar
+alerta
+aleta
+alfiler
+alga
+algodo\u0301n
+aliado
+aliento
+alivio
+alma
+almeja
+almi\u0301bar
+altar
+alteza
+altivo
+alto
+altura
+alumno
+alzar
+amable
+amante
+amapola
+amargo
+amasar
+a\u0301mbar
+a\u0301mbito
+ameno
+amigo
+amistad
+amor
+amparo
+amplio
+ancho
+anciano
+ancla
+andar
+ande\u0301n
+anemia
+a\u0301ngulo
+anillo
+a\u0301nimo
+ani\u0301s
+anotar
+antena
+antiguo
+antojo
+anual
+anular
+anuncio
+an\u0303adir
+an\u0303ejo
+an\u0303o
+apagar
+aparato
+apetito
+apio
+aplicar
+apodo
+aporte
+apoyo
+aprender
+aprobar
+apuesta
+apuro
+arado
+aran\u0303a
+arar
+a\u0301rbitro
+a\u0301rbol
+arbusto
+archivo
+arco
+arder
+ardilla
+arduo
+a\u0301rea
+a\u0301rido
+aries
+armoni\u0301a
+arne\u0301s
+aroma
+arpa
+arpo\u0301n
+arreglo
+arroz
+arruga
+arte
+artista
+asa
+asado
+asalto
+ascenso
+asegurar
+aseo
+asesor
+asiento
+asilo
+asistir
+asno
+asombro
+a\u0301spero
+astilla
+astro
+astuto
+asumir
+asunto
+atajo
+ataque
+atar
+atento
+ateo
+a\u0301tico
+atleta
+a\u0301tomo
+atraer
+atroz
+atu\u0301n
+audaz
+audio
+auge
+aula
+aumento
+ausente
+autor
+aval
+avance
+avaro
+ave
+avellana
+avena
+avestruz
+avio\u0301n
+aviso
+ayer
+ayuda
+ayuno
+azafra\u0301n
+azar
+azote
+azu\u0301car
+azufre
+azul
+baba
+babor
+bache
+bahi\u0301a
+baile
+bajar
+balanza
+balco\u0301n
+balde
+bambu\u0301
+banco
+banda
+ban\u0303o
+barba
+barco
+barniz
+barro
+ba\u0301scula
+basto\u0301n
+basura
+batalla
+bateri\u0301a
+batir
+batuta
+bau\u0301l
+bazar
+bebe\u0301
+bebida
+bello
+besar
+beso
+bestia
+bicho
+bien
+bingo
+blanco
+bloque
+blusa
+boa
+bobina
+bobo
+boca
+bocina
+boda
+bodega
+boina
+bola
+bolero
+bolsa
+bomba
+bondad
+bonito
+bono
+bonsa\u0301i
+borde
+borrar
+bosque
+bote
+boti\u0301n
+bo\u0301veda
+bozal
+bravo
+brazo
+brecha
+breve
+brillo
+brinco
+brisa
+broca
+broma
+bronce
+brote
+bruja
+brusco
+bruto
+buceo
+bucle
+bueno
+buey
+bufanda
+bufo\u0301n
+bu\u0301ho
+buitre
+bulto
+burbuja
+burla
+burro
+buscar
+butaca
+buzo\u0301n
+caballo
+cabeza
+cabina
+cabra
+cacao
+cada\u0301ver
+cadena
+caer
+cafe\u0301
+cai\u0301da
+caima\u0301n
+caja
+cajo\u0301n
+cal
+calamar
+calcio
+caldo
+calidad
+calle
+calma
+calor
+calvo
+cama
+cambio
+camello
+camino
+campo
+ca\u0301ncer
+candil
+canela
+canguro
+canica
+canto
+can\u0303a
+can\u0303o\u0301n
+caoba
+caos
+capaz
+capita\u0301n
+capote
+captar
+capucha
+cara
+carbo\u0301n
+ca\u0301rcel
+careta
+carga
+carin\u0303o
+carne
+carpeta
+carro
+carta
+casa
+casco
+casero
+caspa
+castor
+catorce
+catre
+caudal
+causa
+cazo
+cebolla
+ceder
+cedro
+celda
+ce\u0301lebre
+celoso
+ce\u0301lula
+cemento
+ceniza
+centro
+cerca
+cerdo
+cereza
+cero
+cerrar
+certeza
+ce\u0301sped
+cetro
+chacal
+chaleco
+champu\u0301
+chancla
+chapa
+charla
+chico
+chiste
+chivo
+choque
+choza
+chuleta
+chupar
+ciclo\u0301n
+ciego
+cielo
+cien
+cierto
+cifra
+cigarro
+cima
+cinco
+cine
+cinta
+cipre\u0301s
+circo
+ciruela
+cisne
+cita
+ciudad
+clamor
+clan
+claro
+clase
+clave
+cliente
+clima
+cli\u0301nica
+cobre
+coccio\u0301n
+cochino
+cocina
+coco
+co\u0301digo
+codo
+cofre
+coger
+cohete
+coji\u0301n
+cojo
+cola
+colcha
+colegio
+colgar
+colina
+collar
+colmo
+columna
+combate
+comer
+comida
+co\u0301modo
+compra
+conde
+conejo
+conga
+conocer
+consejo
+contar
+copa
+copia
+corazo\u0301n
+corbata
+corcho
+cordo\u0301n
+corona
+correr
+coser
+cosmos
+costa
+cra\u0301neo
+cra\u0301ter
+crear
+crecer
+crei\u0301do
+crema
+cri\u0301a
+crimen
+cripta
+crisis
+cromo
+cro\u0301nica
+croqueta
+crudo
+cruz
+cuadro
+cuarto
+cuatro
+cubo
+cubrir
+cuchara
+cuello
+cuento
+cuerda
+cuesta
+cueva
+cuidar
+culebra
+culpa
+culto
+cumbre
+cumplir
+cuna
+cuneta
+cuota
+cupo\u0301n
+cu\u0301pula
+curar
+curioso
+curso
+curva
+cutis
+dama
+danza
+dar
+dardo
+da\u0301til
+deber
+de\u0301bil
+de\u0301cada
+decir
+dedo
+defensa
+definir
+dejar
+delfi\u0301n
+delgado
+delito
+demora
+denso
+dental
+deporte
+derecho
+derrota
+desayuno
+deseo
+desfile
+desnudo
+destino
+desvi\u0301o
+detalle
+detener
+deuda
+di\u0301a
+diablo
+diadema
+diamante
+diana
+diario
+dibujo
+dictar
+diente
+dieta
+diez
+difi\u0301cil
+digno
+dilema
+diluir
+dinero
+directo
+dirigir
+disco
+disen\u0303o
+disfraz
+diva
+divino
+doble
+doce
+dolor
+domingo
+don
+donar
+dorado
+dormir
+dorso
+dos
+dosis
+drago\u0301n
+droga
+ducha
+duda
+duelo
+duen\u0303o
+dulce
+du\u0301o
+duque
+durar
+dureza
+duro
+e\u0301bano
+ebrio
+echar
+eco
+ecuador
+edad
+edicio\u0301n
+edificio
+editor
+educar
+efecto
+eficaz
+eje
+ejemplo
+elefante
+elegir
+elemento
+elevar
+elipse
+e\u0301lite
+elixir
+elogio
+eludir
+embudo
+emitir
+emocio\u0301n
+empate
+empen\u0303o
+empleo
+empresa
+enano
+encargo
+enchufe
+enci\u0301a
+enemigo
+enero
+enfado
+enfermo
+engan\u0303o
+enigma
+enlace
+enorme
+enredo
+ensayo
+ensen\u0303ar
+entero
+entrar
+envase
+envi\u0301o
+e\u0301poca
+equipo
+erizo
+escala
+escena
+escolar
+escribir
+escudo
+esencia
+esfera
+esfuerzo
+espada
+espejo
+espi\u0301a
+esposa
+espuma
+esqui\u0301
+estar
+este
+estilo
+estufa
+etapa
+eterno
+e\u0301tica
+etnia
+evadir
+evaluar
+evento
+evitar
+exacto
+examen
+exceso
+excusa
+exento
+exigir
+exilio
+existir
+e\u0301xito
+experto
+explicar
+exponer
+extremo
+fa\u0301brica
+fa\u0301bula
+fachada
+fa\u0301cil
+factor
+faena
+faja
+falda
+fallo
+falso
+faltar
+fama
+familia
+famoso
+farao\u0301n
+farmacia
+farol
+farsa
+fase
+fatiga
+fauna
+favor
+fax
+febrero
+fecha
+feliz
+feo
+feria
+feroz
+fe\u0301rtil
+fervor
+festi\u0301n
+fiable
+fianza
+fiar
+fibra
+ficcio\u0301n
+ficha
+fideo
+fiebre
+fiel
+fiera
+fiesta
+figura
+fijar
+fijo
+fila
+filete
+filial
+filtro
+fin
+finca
+fingir
+finito
+firma
+flaco
+flauta
+flecha
+flor
+flota
+fluir
+flujo
+flu\u0301or
+fobia
+foca
+fogata
+fogo\u0301n
+folio
+folleto
+fondo
+forma
+forro
+fortuna
+forzar
+fosa
+foto
+fracaso
+fra\u0301gil
+franja
+frase
+fraude
+frei\u0301r
+freno
+fresa
+fri\u0301o
+frito
+fruta
+fuego
+fuente
+fuerza
+fuga
+fumar
+funcio\u0301n
+funda
+furgo\u0301n
+furia
+fusil
+fu\u0301tbol
+futuro
+gacela
+gafas
+gaita
+gajo
+gala
+galeri\u0301a
+gallo
+gamba
+ganar
+gancho
+ganga
+ganso
+garaje
+garza
+gasolina
+gastar
+gato
+gavila\u0301n
+gemelo
+gemir
+gen
+ge\u0301nero
+genio
+gente
+geranio
+gerente
+germen
+gesto
+gigante
+gimnasio
+girar
+giro
+glaciar
+globo
+gloria
+gol
+golfo
+goloso
+golpe
+goma
+gordo
+gorila
+gorra
+gota
+goteo
+gozar
+grada
+gra\u0301fico
+grano
+grasa
+gratis
+grave
+grieta
+grillo
+gripe
+gris
+grito
+grosor
+gru\u0301a
+grueso
+grumo
+grupo
+guante
+guapo
+guardia
+guerra
+gui\u0301a
+guin\u0303o
+guion
+guiso
+guitarra
+gusano
+gustar
+haber
+ha\u0301bil
+hablar
+hacer
+hacha
+hada
+hallar
+hamaca
+harina
+haz
+hazan\u0303a
+hebilla
+hebra
+hecho
+helado
+helio
+hembra
+herir
+hermano
+he\u0301roe
+hervir
+hielo
+hierro
+hi\u0301gado
+higiene
+hijo
+himno
+historia
+hocico
+hogar
+hoguera
+hoja
+hombre
+hongo
+honor
+honra
+hora
+hormiga
+horno
+hostil
+hoyo
+hueco
+huelga
+huerta
+hueso
+huevo
+huida
+huir
+humano
+hu\u0301medo
+humilde
+humo
+hundir
+huraca\u0301n
+hurto
+icono
+ideal
+idioma
+i\u0301dolo
+iglesia
+iglu\u0301
+igual
+ilegal
+ilusio\u0301n
+imagen
+ima\u0301n
+imitar
+impar
+imperio
+imponer
+impulso
+incapaz
+i\u0301ndice
+inerte
+infiel
+informe
+ingenio
+inicio
+inmenso
+inmune
+innato
+insecto
+instante
+intere\u0301s
+i\u0301ntimo
+intuir
+inu\u0301til
+invierno
+ira
+iris
+ironi\u0301a
+isla
+islote
+jabali\u0301
+jabo\u0301n
+jamo\u0301n
+jarabe
+jardi\u0301n
+jarra
+jaula
+jazmi\u0301n
+jefe
+jeringa
+jinete
+jornada
+joroba
+joven
+joya
+juerga
+jueves
+juez
+jugador
+jugo
+juguete
+juicio
+junco
+jungla
+junio
+juntar
+ju\u0301piter
+jurar
+justo
+juvenil
+juzgar
+kilo
+koala
+labio
+lacio
+lacra
+lado
+ladro\u0301n
+lagarto
+la\u0301grima
+laguna
+laico
+lamer
+la\u0301mina
+la\u0301mpara
+lana
+lancha
+langosta
+lanza
+la\u0301piz
+largo
+larva
+la\u0301stima
+lata
+la\u0301tex
+latir
+laurel
+lavar
+lazo
+leal
+leccio\u0301n
+leche
+lector
+leer
+legio\u0301n
+legumbre
+lejano
+lengua
+lento
+len\u0303a
+leo\u0301n
+leopardo
+lesio\u0301n
+letal
+letra
+leve
+leyenda
+libertad
+libro
+licor
+li\u0301der
+lidiar
+lienzo
+liga
+ligero
+lima
+li\u0301mite
+limo\u0301n
+limpio
+lince
+lindo
+li\u0301nea
+lingote
+lino
+linterna
+li\u0301quido
+liso
+lista
+litera
+litio
+litro
+llaga
+llama
+llanto
+llave
+llegar
+llenar
+llevar
+llorar
+llover
+lluvia
+lobo
+locio\u0301n
+loco
+locura
+lo\u0301gica
+logro
+lombriz
+lomo
+lonja
+lote
+lucha
+lucir
+lugar
+lujo
+luna
+lunes
+lupa
+lustro
+luto
+luz
+maceta
+macho
+madera
+madre
+maduro
+maestro
+mafia
+magia
+mago
+mai\u0301z
+maldad
+maleta
+malla
+malo
+mama\u0301
+mambo
+mamut
+manco
+mando
+manejar
+manga
+maniqui\u0301
+manjar
+mano
+manso
+manta
+man\u0303ana
+mapa
+ma\u0301quina
+mar
+marco
+marea
+marfil
+margen
+marido
+ma\u0301rmol
+marro\u0301n
+martes
+marzo
+masa
+ma\u0301scara
+masivo
+matar
+materia
+matiz
+matriz
+ma\u0301ximo
+mayor
+mazorca
+mecha
+medalla
+medio
+me\u0301dula
+mejilla
+mejor
+melena
+melo\u0301n
+memoria
+menor
+mensaje
+mente
+menu\u0301
+mercado
+merengue
+me\u0301rito
+mes
+meso\u0301n
+meta
+meter
+me\u0301todo
+metro
+mezcla
+miedo
+miel
+miembro
+miga
+mil
+milagro
+militar
+millo\u0301n
+mimo
+mina
+minero
+mi\u0301nimo
+minuto
+miope
+mirar
+misa
+miseria
+misil
+mismo
+mitad
+mito
+mochila
+mocio\u0301n
+moda
+modelo
+moho
+mojar
+molde
+moler
+molino
+momento
+momia
+monarca
+moneda
+monja
+monto
+mon\u0303o
+morada
+morder
+moreno
+morir
+morro
+morsa
+mortal
+mosca
+mostrar
+motivo
+mover
+mo\u0301vil
+mozo
+mucho
+mudar
+mueble
+muela
+muerte
+muestra
+mugre
+mujer
+mula
+muleta
+multa
+mundo
+mun\u0303eca
+mural
+muro
+mu\u0301sculo
+museo
+musgo
+mu\u0301sica
+muslo
+na\u0301car
+nacio\u0301n
+nadar
+naipe
+naranja
+nariz
+narrar
+nasal
+natal
+nativo
+natural
+na\u0301usea
+naval
+nave
+navidad
+necio
+ne\u0301ctar
+negar
+negocio
+negro
+neo\u0301n
+nervio
+neto
+neutro
+nevar
+nevera
+nicho
+nido
+niebla
+nieto
+nin\u0303ez
+nin\u0303o
+ni\u0301tido
+nivel
+nobleza
+noche
+no\u0301mina
+noria
+norma
+norte
+nota
+noticia
+novato
+novela
+novio
+nube
+nuca
+nu\u0301cleo
+nudillo
+nudo
+nuera
+nueve
+nuez
+nulo
+nu\u0301mero
+nutria
+oasis
+obeso
+obispo
+objeto
+obra
+obrero
+observar
+obtener
+obvio
+oca
+ocaso
+oce\u0301ano
+ochenta
+ocho
+ocio
+ocre
+octavo
+octubre
+oculto
+ocupar
+ocurrir
+odiar
+odio
+odisea
+oeste
+ofensa
+oferta
+oficio
+ofrecer
+ogro
+oi\u0301do
+oi\u0301r
+ojo
+ola
+oleada
+olfato
+olivo
+olla
+olmo
+olor
+olvido
+ombligo
+onda
+onza
+opaco
+opcio\u0301n
+o\u0301pera
+opinar
+oponer
+optar
+o\u0301ptica
+opuesto
+oracio\u0301n
+orador
+oral
+o\u0301rbita
+orca
+orden
+oreja
+o\u0301rgano
+orgi\u0301a
+orgullo
+oriente
+origen
+orilla
+oro
+orquesta
+oruga
+osadi\u0301a
+oscuro
+osezno
+oso
+ostra
+oton\u0303o
+otro
+oveja
+o\u0301vulo
+o\u0301xido
+oxi\u0301geno
+oyente
+ozono
+pacto
+padre
+paella
+pa\u0301gina
+pago
+pai\u0301s
+pa\u0301jaro
+palabra
+palco
+paleta
+pa\u0301lido
+palma
+paloma
+palpar
+pan
+panal
+pa\u0301nico
+pantera
+pan\u0303uelo
+papa\u0301
+papel
+papilla
+paquete
+parar
+parcela
+pared
+parir
+paro
+pa\u0301rpado
+parque
+pa\u0301rrafo
+parte
+pasar
+paseo
+pasio\u0301n
+paso
+pasta
+pata
+patio
+patria
+pausa
+pauta
+pavo
+payaso
+peato\u0301n
+pecado
+pecera
+pecho
+pedal
+pedir
+pegar
+peine
+pelar
+peldan\u0303o
+pelea
+peligro
+pellejo
+pelo
+peluca
+pena
+pensar
+pen\u0303o\u0301n
+peo\u0301n
+peor
+pepino
+pequen\u0303o
+pera
+percha
+perder
+pereza
+perfil
+perico
+perla
+permiso
+perro
+persona
+pesa
+pesca
+pe\u0301simo
+pestan\u0303a
+pe\u0301talo
+petro\u0301leo
+pez
+pezun\u0303a
+picar
+picho\u0301n
+pie
+piedra
+pierna
+pieza
+pijama
+pilar
+piloto
+pimienta
+pino
+pintor
+pinza
+pin\u0303a
+piojo
+pipa
+pirata
+pisar
+piscina
+piso
+pista
+pito\u0301n
+pizca
+placa
+plan
+plata
+playa
+plaza
+pleito
+pleno
+plomo
+pluma
+plural
+pobre
+poco
+poder
+podio
+poema
+poesi\u0301a
+poeta
+polen
+polici\u0301a
+pollo
+polvo
+pomada
+pomelo
+pomo
+pompa
+poner
+porcio\u0301n
+portal
+posada
+poseer
+posible
+poste
+potencia
+potro
+pozo
+prado
+precoz
+pregunta
+premio
+prensa
+preso
+previo
+primo
+pri\u0301ncipe
+prisio\u0301n
+privar
+proa
+probar
+proceso
+producto
+proeza
+profesor
+programa
+prole
+promesa
+pronto
+propio
+pro\u0301ximo
+prueba
+pu\u0301blico
+puchero
+pudor
+pueblo
+puerta
+puesto
+pulga
+pulir
+pulmo\u0301n
+pulpo
+pulso
+puma
+punto
+pun\u0303al
+pun\u0303o
+pupa
+pupila
+pure\u0301
+quedar
+queja
+quemar
+querer
+queso
+quieto
+qui\u0301mica
+quince
+quitar
+ra\u0301bano
+rabia
+rabo
+racio\u0301n
+radical
+rai\u0301z
+rama
+rampa
+rancho
+rango
+rapaz
+ra\u0301pido
+rapto
+rasgo
+raspa
+rato
+rayo
+raza
+razo\u0301n
+reaccio\u0301n
+realidad
+reban\u0303o
+rebote
+recaer
+receta
+rechazo
+recoger
+recreo
+recto
+recurso
+red
+redondo
+reducir
+reflejo
+reforma
+refra\u0301n
+refugio
+regalo
+regir
+regla
+regreso
+rehe\u0301n
+reino
+rei\u0301r
+reja
+relato
+relevo
+relieve
+relleno
+reloj
+remar
+remedio
+remo
+rencor
+rendir
+renta
+reparto
+repetir
+reposo
+reptil
+res
+rescate
+resina
+respeto
+resto
+resumen
+retiro
+retorno
+retrato
+reunir
+reve\u0301s
+revista
+rey
+rezar
+rico
+riego
+rienda
+riesgo
+rifa
+ri\u0301gido
+rigor
+rinco\u0301n
+rin\u0303o\u0301n
+ri\u0301o
+riqueza
+risa
+ritmo
+rito
+rizo
+roble
+roce
+rociar
+rodar
+rodeo
+rodilla
+roer
+rojizo
+rojo
+romero
+romper
+ron
+ronco
+ronda
+ropa
+ropero
+rosa
+rosca
+rostro
+rotar
+rubi\u0301
+rubor
+rudo
+rueda
+rugir
+ruido
+ruina
+ruleta
+rulo
+rumbo
+rumor
+ruptura
+ruta
+rutina
+sa\u0301bado
+saber
+sabio
+sable
+sacar
+sagaz
+sagrado
+sala
+saldo
+salero
+salir
+salmo\u0301n
+salo\u0301n
+salsa
+salto
+salud
+salvar
+samba
+sancio\u0301n
+sandi\u0301a
+sanear
+sangre
+sanidad
+sano
+santo
+sapo
+saque
+sardina
+sarte\u0301n
+sastre
+sata\u0301n
+sauna
+saxofo\u0301n
+seccio\u0301n
+seco
+secreto
+secta
+sed
+seguir
+seis
+sello
+selva
+semana
+semilla
+senda
+sensor
+sen\u0303al
+sen\u0303or
+separar
+sepia
+sequi\u0301a
+ser
+serie
+sermo\u0301n
+servir
+sesenta
+sesio\u0301n
+seta
+setenta
+severo
+sexo
+sexto
+sidra
+siesta
+siete
+siglo
+signo
+si\u0301laba
+silbar
+silencio
+silla
+si\u0301mbolo
+simio
+sirena
+sistema
+sitio
+situar
+sobre
+socio
+sodio
+sol
+solapa
+soldado
+soledad
+so\u0301lido
+soltar
+solucio\u0301n
+sombra
+sondeo
+sonido
+sonoro
+sonrisa
+sopa
+soplar
+soporte
+sordo
+sorpresa
+sorteo
+soste\u0301n
+so\u0301tano
+suave
+subir
+suceso
+sudor
+suegra
+suelo
+suen\u0303o
+suerte
+sufrir
+sujeto
+sulta\u0301n
+sumar
+superar
+suplir
+suponer
+supremo
+sur
+surco
+suren\u0303o
+surgir
+susto
+sutil
+tabaco
+tabique
+tabla
+tabu\u0301
+taco
+tacto
+tajo
+talar
+talco
+talento
+talla
+talo\u0301n
+taman\u0303o
+tambor
+tango
+tanque
+tapa
+tapete
+tapia
+tapo\u0301n
+taquilla
+tarde
+tarea
+tarifa
+tarjeta
+tarot
+tarro
+tarta
+tatuaje
+tauro
+taza
+tazo\u0301n
+teatro
+techo
+tecla
+te\u0301cnica
+tejado
+tejer
+tejido
+tela
+tele\u0301fono
+tema
+temor
+templo
+tenaz
+tender
+tener
+tenis
+tenso
+teori\u0301a
+terapia
+terco
+te\u0301rmino
+ternura
+terror
+tesis
+tesoro
+testigo
+tetera
+texto
+tez
+tibio
+tiburo\u0301n
+tiempo
+tienda
+tierra
+tieso
+tigre
+tijera
+tilde
+timbre
+ti\u0301mido
+timo
+tinta
+ti\u0301o
+ti\u0301pico
+tipo
+tira
+tiro\u0301n
+tita\u0301n
+ti\u0301tere
+ti\u0301tulo
+tiza
+toalla
+tobillo
+tocar
+tocino
+todo
+toga
+toldo
+tomar
+tono
+tonto
+topar
+tope
+toque
+to\u0301rax
+torero
+tormenta
+torneo
+toro
+torpedo
+torre
+torso
+tortuga
+tos
+tosco
+toser
+to\u0301xico
+trabajo
+tractor
+traer
+tra\u0301fico
+trago
+traje
+tramo
+trance
+trato
+trauma
+trazar
+tre\u0301bol
+tregua
+treinta
+tren
+trepar
+tres
+tribu
+trigo
+tripa
+triste
+triunfo
+trofeo
+trompa
+tronco
+tropa
+trote
+trozo
+truco
+trueno
+trufa
+tuberi\u0301a
+tubo
+tuerto
+tumba
+tumor
+tu\u0301nel
+tu\u0301nica
+turbina
+turismo
+turno
+tutor
+ubicar
+u\u0301lcera
+umbral
+unidad
+unir
+universo
+uno
+untar
+un\u0303a
+urbano
+urbe
+urgente
+urna
+usar
+usuario
+u\u0301til
+utopi\u0301a
+uva
+vaca
+vaci\u0301o
+vacuna
+vagar
+vago
+vaina
+vajilla
+vale
+va\u0301lido
+valle
+valor
+va\u0301lvula
+vampiro
+vara
+variar
+varo\u0301n
+vaso
+vecino
+vector
+vehi\u0301culo
+veinte
+vejez
+vela
+velero
+veloz
+vena
+vencer
+venda
+veneno
+vengar
+venir
+venta
+venus
+ver
+verano
+verbo
+verde
+vereda
+verja
+verso
+verter
+vi\u0301a
+viaje
+vibrar
+vicio
+vi\u0301ctima
+vida
+vi\u0301deo
+vidrio
+viejo
+viernes
+vigor
+vil
+villa
+vinagre
+vino
+vin\u0303edo
+violi\u0301n
+viral
+virgo
+virtud
+visor
+vi\u0301spera
+vista
+vitamina
+viudo
+vivaz
+vivero
+vivir
+vivo
+volca\u0301n
+volumen
+volver
+voraz
+votar
+voto
+voz
+vuelo
+vulgar
+yacer
+yate
+yegua
+yema
+yerno
+yeso
+yodo
+yoga
+yogur
+zafiro
+zanja
+zapato
+zarza
+zona
+zorro
+zumo
+zurdo`.split("\n"));
+
+  // node_modules/@scure/bip39/wordlists/traditional-chinese.js
+  var wordlist10 = /* @__PURE__ */ Object.freeze(`\u7684
+\u4E00
+\u662F
+\u5728
+\u4E0D
+\u4E86
+\u6709
+\u548C
+\u4EBA
+\u9019
+\u4E2D
+\u5927
+\u70BA
+\u4E0A
+\u500B
+\u570B
+\u6211
+\u4EE5
+\u8981
+\u4ED6
+\u6642
+\u4F86
+\u7528
+\u5011
+\u751F
+\u5230
+\u4F5C
+\u5730
+\u65BC
+\u51FA
+\u5C31
+\u5206
+\u5C0D
+\u6210
+\u6703
+\u53EF
+\u4E3B
+\u767C
+\u5E74
+\u52D5
+\u540C
+\u5DE5
+\u4E5F
+\u80FD
+\u4E0B
+\u904E
+\u5B50
+\u8AAA
+\u7522
+\u7A2E
+\u9762
+\u800C
+\u65B9
+\u5F8C
+\u591A
+\u5B9A
+\u884C
+\u5B78
+\u6CD5
+\u6240
+\u6C11
+\u5F97
+\u7D93
+\u5341
+\u4E09
+\u4E4B
+\u9032
+\u8457
+\u7B49
+\u90E8
+\u5EA6
+\u5BB6
+\u96FB
+\u529B
+\u88E1
+\u5982
+\u6C34
+\u5316
+\u9AD8
+\u81EA
+\u4E8C
+\u7406
+\u8D77
+\u5C0F
+\u7269
+\u73FE
+\u5BE6
+\u52A0
+\u91CF
+\u90FD
+\u5169
+\u9AD4
+\u5236
+\u6A5F
+\u7576
+\u4F7F
+\u9EDE
+\u5F9E
+\u696D
+\u672C
+\u53BB
+\u628A
+\u6027
+\u597D
+\u61C9
+\u958B
+\u5B83
+\u5408
+\u9084
+\u56E0
+\u7531
+\u5176
+\u4E9B
+\u7136
+\u524D
+\u5916
+\u5929
+\u653F
+\u56DB
+\u65E5
+\u90A3
+\u793E
+\u7FA9
+\u4E8B
+\u5E73
+\u5F62
+\u76F8
+\u5168
+\u8868
+\u9593
+\u6A23
+\u8207
+\u95DC
+\u5404
+\u91CD
+\u65B0
+\u7DDA
+\u5167
+\u6578
+\u6B63
+\u5FC3
+\u53CD
+\u4F60
+\u660E
+\u770B
+\u539F
+\u53C8
+\u9EBC
+\u5229
+\u6BD4
+\u6216
+\u4F46
+\u8CEA
+\u6C23
+\u7B2C
+\u5411
+\u9053
+\u547D
+\u6B64
+\u8B8A
+\u689D
+\u53EA
+\u6C92
+\u7D50
+\u89E3
+\u554F
+\u610F
+\u5EFA
+\u6708
+\u516C
+\u7121
+\u7CFB
+\u8ECD
+\u5F88
+\u60C5
+\u8005
+\u6700
+\u7ACB
+\u4EE3
+\u60F3
+\u5DF2
+\u901A
+\u4E26
+\u63D0
+\u76F4
+\u984C
+\u9EE8
+\u7A0B
+\u5C55
+\u4E94
+\u679C
+\u6599
+\u8C61
+\u54E1
+\u9769
+\u4F4D
+\u5165
+\u5E38
+\u6587
+\u7E3D
+\u6B21
+\u54C1
+\u5F0F
+\u6D3B
+\u8A2D
+\u53CA
+\u7BA1
+\u7279
+\u4EF6
+\u9577
+\u6C42
+\u8001
+\u982D
+\u57FA
+\u8CC7
+\u908A
+\u6D41
+\u8DEF
+\u7D1A
+\u5C11
+\u5716
+\u5C71
+\u7D71
+\u63A5
+\u77E5
+\u8F03
+\u5C07
+\u7D44
+\u898B
+\u8A08
+\u5225
+\u5979
+\u624B
+\u89D2
+\u671F
+\u6839
+\u8AD6
+\u904B
+\u8FB2
+\u6307
+\u5E7E
+\u4E5D
+\u5340
+\u5F37
+\u653E
+\u6C7A
+\u897F
+\u88AB
+\u5E79
+\u505A
+\u5FC5
+\u6230
+\u5148
+\u56DE
+\u5247
+\u4EFB
+\u53D6
+\u64DA
+\u8655
+\u968A
+\u5357
+\u7D66
+\u8272
+\u5149
+\u9580
+\u5373
+\u4FDD
+\u6CBB
+\u5317
+\u9020
+\u767E
+\u898F
+\u71B1
+\u9818
+\u4E03
+\u6D77
+\u53E3
+\u6771
+\u5C0E
+\u5668
+\u58D3
+\u5FD7
+\u4E16
+\u91D1
+\u589E
+\u722D
+\u6FDF
+\u968E
+\u6CB9
+\u601D
+\u8853
+\u6975
+\u4EA4
+\u53D7
+\u806F
+\u4EC0
+\u8A8D
+\u516D
+\u5171
+\u6B0A
+\u6536
+\u8B49
+\u6539
+\u6E05
+\u7F8E
+\u518D
+\u63A1
+\u8F49
+\u66F4
+\u55AE
+\u98A8
+\u5207
+\u6253
+\u767D
+\u6559
+\u901F
+\u82B1
+\u5E36
+\u5B89
+\u5834
+\u8EAB
+\u8ECA
+\u4F8B
+\u771F
+\u52D9
+\u5177
+\u842C
+\u6BCF
+\u76EE
+\u81F3
+\u9054
+\u8D70
+\u7A4D
+\u793A
+\u8B70
+\u8072
+\u5831
+\u9B25
+\u5B8C
+\u985E
+\u516B
+\u96E2
+\u83EF
+\u540D
+\u78BA
+\u624D
+\u79D1
+\u5F35
+\u4FE1
+\u99AC
+\u7BC0
+\u8A71
+\u7C73
+\u6574
+\u7A7A
+\u5143
+\u6CC1
+\u4ECA
+\u96C6
+\u6EAB
+\u50B3
+\u571F
+\u8A31
+\u6B65
+\u7FA4
+\u5EE3
+\u77F3
+\u8A18
+\u9700
+\u6BB5
+\u7814
+\u754C
+\u62C9
+\u6797
+\u5F8B
+\u53EB
+\u4E14
+\u7A76
+\u89C0
+\u8D8A
+\u7E54
+\u88DD
+\u5F71
+\u7B97
+\u4F4E
+\u6301
+\u97F3
+\u773E
+\u66F8
+\u5E03
+\u590D
+\u5BB9
+\u5152
+\u9808
+\u969B
+\u5546
+\u975E
+\u9A57
+\u9023
+\u65B7
+\u6DF1
+\u96E3
+\u8FD1
+\u7926
+\u5343
+\u9031
+\u59D4
+\u7D20
+\u6280
+\u5099
+\u534A
+\u8FA6
+\u9752
+\u7701
+\u5217
+\u7FD2
+\u97FF
+\u7D04
+\u652F
+\u822C
+\u53F2
+\u611F
+\u52DE
+\u4FBF
+\u5718
+\u5F80
+\u9178
+\u6B77
+\u5E02
+\u514B
+\u4F55
+\u9664
+\u6D88
+\u69CB
+\u5E9C
+\u7A31
+\u592A
+\u6E96
+\u7CBE
+\u503C
+\u865F
+\u7387
+\u65CF
+\u7DAD
+\u5283
+\u9078
+\u6A19
+\u5BEB
+\u5B58
+\u5019
+\u6BDB
+\u89AA
+\u5FEB
+\u6548
+\u65AF
+\u9662
+\u67E5
+\u6C5F
+\u578B
+\u773C
+\u738B
+\u6309
+\u683C
+\u990A
+\u6613
+\u7F6E
+\u6D3E
+\u5C64
+\u7247
+\u59CB
+\u537B
+\u5C08
+\u72C0
+\u80B2
+\u5EE0
+\u4EAC
+\u8B58
+\u9069
+\u5C6C
+\u5713
+\u5305
+\u706B
+\u4F4F
+\u8ABF
+\u6EFF
+\u7E23
+\u5C40
+\u7167
+\u53C3
+\u7D05
+\u7D30
+\u5F15
+\u807D
+\u8A72
+\u9435
+\u50F9
+\u56B4
+\u9996
+\u5E95
+\u6DB2
+\u5B98
+\u5FB7
+\u96A8
+\u75C5
+\u8607
+\u5931
+\u723E
+\u6B7B
+\u8B1B
+\u914D
+\u5973
+\u9EC3
+\u63A8
+\u986F
+\u8AC7
+\u7F6A
+\u795E
+\u85DD
+\u5462
+\u5E2D
+\u542B
+\u4F01
+\u671B
+\u5BC6
+\u6279
+\u71DF
+\u9805
+\u9632
+\u8209
+\u7403
+\u82F1
+\u6C27
+\u52E2
+\u544A
+\u674E
+\u53F0
+\u843D
+\u6728
+\u5E6B
+\u8F2A
+\u7834
+\u4E9E
+\u5E2B
+\u570D
+\u6CE8
+\u9060
+\u5B57
+\u6750
+\u6392
+\u4F9B
+\u6CB3
+\u614B
+\u5C01
+\u53E6
+\u65BD
+\u6E1B
+\u6A39
+\u6EB6
+\u600E
+\u6B62
+\u6848
+\u8A00
+\u58EB
+\u5747
+\u6B66
+\u56FA
+\u8449
+\u9B5A
+\u6CE2
+\u8996
+\u50C5
+\u8CBB
+\u7DCA
+\u611B
+\u5DE6
+\u7AE0
+\u65E9
+\u671D
+\u5BB3
+\u7E8C
+\u8F15
+\u670D
+\u8A66
+\u98DF
+\u5145
+\u5175
+\u6E90
+\u5224
+\u8B77
+\u53F8
+\u8DB3
+\u67D0
+\u7DF4
+\u5DEE
+\u81F4
+\u677F
+\u7530
+\u964D
+\u9ED1
+\u72AF
+\u8CA0
+\u64CA
+\u8303
+\u7E7C
+\u8208
+\u4F3C
+\u9918
+\u5805
+\u66F2
+\u8F38
+\u4FEE
+\u6545
+\u57CE
+\u592B
+\u5920
+\u9001
+\u7B46
+\u8239
+\u4F54
+\u53F3
+\u8CA1
+\u5403
+\u5BCC
+\u6625
+\u8077
+\u89BA
+\u6F22
+\u756B
+\u529F
+\u5DF4
+\u8DDF
+\u96D6
+\u96DC
+\u98DB
+\u6AA2
+\u5438
+\u52A9
+\u6607
+\u967D
+\u4E92
+\u521D
+\u5275
+\u6297
+\u8003
+\u6295
+\u58DE
+\u7B56
+\u53E4
+\u5F91
+\u63DB
+\u672A
+\u8DD1
+\u7559
+\u92FC
+\u66FE
+\u7AEF
+\u8CAC
+\u7AD9
+\u7C21
+\u8FF0
+\u9322
+\u526F
+\u76E1
+\u5E1D
+\u5C04
+\u8349
+\u885D
+\u627F
+\u7368
+\u4EE4
+\u9650
+\u963F
+\u5BA3
+\u74B0
+\u96D9
+\u8ACB
+\u8D85
+\u5FAE
+\u8B93
+\u63A7
+\u5DDE
+\u826F
+\u8EF8
+\u627E
+\u5426
+\u7D00
+\u76CA
+\u4F9D
+\u512A
+\u9802
+\u790E
+\u8F09
+\u5012
+\u623F
+\u7A81
+\u5750
+\u7C89
+\u6575
+\u7565
+\u5BA2
+\u8881
+\u51B7
+\u52DD
+\u7D55
+\u6790
+\u584A
+\u5291
+\u6E2C
+\u7D72
+\u5354
+\u8A34
+\u5FF5
+\u9673
+\u4ECD
+\u7F85
+\u9E7D
+\u53CB
+\u6D0B
+\u932F
+\u82E6
+\u591C
+\u5211
+\u79FB
+\u983B
+\u9010
+\u9760
+\u6DF7
+\u6BCD
+\u77ED
+\u76AE
+\u7D42
+\u805A
+\u6C7D
+\u6751
+\u96F2
+\u54EA
+\u65E2
+\u8DDD
+\u885B
+\u505C
+\u70C8
+\u592E
+\u5BDF
+\u71D2
+\u8FC5
+\u5883
+\u82E5
+\u5370
+\u6D32
+\u523B
+\u62EC
+\u6FC0
+\u5B54
+\u641E
+\u751A
+\u5BA4
+\u5F85
+\u6838
+\u6821
+\u6563
+\u4FB5
+\u5427
+\u7532
+\u904A
+\u4E45
+\u83DC
+\u5473
+\u820A
+\u6A21
+\u6E56
+\u8CA8
+\u640D
+\u9810
+\u963B
+\u6BEB
+\u666E
+\u7A69
+\u4E59
+\u5ABD
+\u690D
+\u606F
+\u64F4
+\u9280
+\u8A9E
+\u63EE
+\u9152
+\u5B88
+\u62FF
+\u5E8F
+\u7D19
+\u91AB
+\u7F3A
+\u96E8
+\u55CE
+\u91DD
+\u5289
+\u554A
+\u6025
+\u5531
+\u8AA4
+\u8A13
+\u9858
+\u5BE9
+\u9644
+\u7372
+\u8336
+\u9BAE
+\u7CE7
+\u65A4
+\u5B69
+\u812B
+\u786B
+\u80A5
+\u5584
+\u9F8D
+\u6F14
+\u7236
+\u6F38
+\u8840
+\u6B61
+\u68B0
+\u638C
+\u6B4C
+\u6C99
+\u525B
+\u653B
+\u8B02
+\u76FE
+\u8A0E
+\u665A
+\u7C92
+\u4E82
+\u71C3
+\u77DB
+\u4E4E
+\u6BBA
+\u85E5
+\u5BE7
+\u9B6F
+\u8CB4
+\u9418
+\u7164
+\u8B80
+\u73ED
+\u4F2F
+\u9999
+\u4ECB
+\u8FEB
+\u53E5
+\u8C50
+\u57F9
+\u63E1
+\u862D
+\u64D4
+\u5F26
+\u86CB
+\u6C89
+\u5047
+\u7A7F
+\u57F7
+\u7B54
+\u6A02
+\u8AB0
+\u9806
+\u7159
+\u7E2E
+\u5FB5
+\u81C9
+\u559C
+\u677E
+\u8173
+\u56F0
+\u7570
+\u514D
+\u80CC
+\u661F
+\u798F
+\u8CB7
+\u67D3
+\u4E95
+\u6982
+\u6162
+\u6015
+\u78C1
+\u500D
+\u7956
+\u7687
+\u4FC3
+\u975C
+\u88DC
+\u8A55
+\u7FFB
+\u8089
+\u8E10
+\u5C3C
+\u8863
+\u5BEC
+\u63DA
+\u68C9
+\u5E0C
+\u50B7
+\u64CD
+\u5782
+\u79CB
+\u5B9C
+\u6C2B
+\u5957
+\u7763
+\u632F
+\u67B6
+\u4EAE
+\u672B
+\u61B2
+\u6176
+\u7DE8
+\u725B
+\u89F8
+\u6620
+\u96F7
+\u92B7
+\u8A69
+\u5EA7
+\u5C45
+\u6293
+\u88C2
+\u80DE
+\u547C
+\u5A18
+\u666F
+\u5A01
+\u7DA0
+\u6676
+\u539A
+\u76DF
+\u8861
+\u96DE
+\u5B6B
+\u5EF6
+\u5371
+\u81A0
+\u5C4B
+\u9109
+\u81E8
+\u9678
+\u9867
+\u6389
+\u5440
+\u71C8
+\u6B72
+\u63AA
+\u675F
+\u8010
+\u5287
+\u7389
+\u8D99
+\u8DF3
+\u54E5
+\u5B63
+\u8AB2
+\u51F1
+\u80E1
+\u984D
+\u6B3E
+\u7D39
+\u5377
+\u9F4A
+\u5049
+\u84B8
+\u6B96
+\u6C38
+\u5B97
+\u82D7
+\u5DDD
+\u7210
+\u5CA9
+\u5F31
+\u96F6
+\u694A
+\u594F
+\u6CBF
+\u9732
+\u687F
+\u63A2
+\u6ED1
+\u93AE
+\u98EF
+\u6FC3
+\u822A
+\u61F7
+\u8D95
+\u5EAB
+\u596A
+\u4F0A
+\u9748
+\u7A05
+\u9014
+\u6EC5
+\u8CFD
+\u6B78
+\u53EC
+\u9F13
+\u64AD
+\u76E4
+\u88C1
+\u96AA
+\u5EB7
+\u552F
+\u9304
+\u83CC
+\u7D14
+\u501F
+\u7CD6
+\u84CB
+\u6A6B
+\u7B26
+\u79C1
+\u52AA
+\u5802
+\u57DF
+\u69CD
+\u6F64
+\u5E45
+\u54C8
+\u7ADF
+\u719F
+\u87F2
+\u6FA4
+\u8166
+\u58E4
+\u78B3
+\u6B50
+\u904D
+\u5074
+\u5BE8
+\u6562
+\u5FB9
+\u616E
+\u659C
+\u8584
+\u5EAD
+\u7D0D
+\u5F48
+\u98FC
+\u4F38
+\u6298
+\u9EA5
+\u6FD5
+\u6697
+\u8377
+\u74E6
+\u585E
+\u5E8A
+\u7BC9
+\u60E1
+\u6236
+\u8A2A
+\u5854
+\u5947
+\u900F
+\u6881
+\u5200
+\u65CB
+\u8DE1
+\u5361
+\u6C2F
+\u9047
+\u4EFD
+\u6BD2
+\u6CE5
+\u9000
+\u6D17
+\u64FA
+\u7070
+\u5F69
+\u8CE3
+\u8017
+\u590F
+\u64C7
+\u5FD9
+\u9285
+\u737B
+\u786C
+\u4E88
+\u7E41
+\u5708
+\u96EA
+\u51FD
+\u4EA6
+\u62BD
+\u7BC7
+\u9663
+\u9670
+\u4E01
+\u5C3A
+\u8FFD
+\u5806
+\u96C4
+\u8FCE
+\u6CDB
+\u7238
+\u6A13
+\u907F
+\u8B00
+\u5678
+\u91CE
+\u8C6C
+\u65D7
+\u7D2F
+\u504F
+\u5178
+\u9928
+\u7D22
+\u79E6
+\u8102
+\u6F6E
+\u723A
+\u8C46
+\u5FFD
+\u6258
+\u9A5A
+\u5851
+\u907A
+\u6108
+\u6731
+\u66FF
+\u7E96
+\u7C97
+\u50BE
+\u5C1A
+\u75DB
+\u695A
+\u8B1D
+\u596E
+\u8CFC
+\u78E8
+\u541B
+\u6C60
+\u65C1
+\u788E
+\u9AA8
+\u76E3
+\u6355
+\u5F1F
+\u66B4
+\u5272
+\u8CAB
+\u6B8A
+\u91CB
+\u8A5E
+\u4EA1
+\u58C1
+\u9813
+\u5BF6
+\u5348
+\u5875
+\u805E
+\u63ED
+\u70AE
+\u6B98
+\u51AC
+\u6A4B
+\u5A66
+\u8B66
+\u7D9C
+\u62DB
+\u5433
+\u4ED8
+\u6D6E
+\u906D
+\u5F90
+\u60A8
+\u6416
+\u8C37
+\u8D0A
+\u7BB1
+\u9694
+\u8A02
+\u7537
+\u5439
+\u5712
+\u7D1B
+\u5510
+\u6557
+\u5B8B
+\u73BB
+\u5DE8
+\u8015
+\u5766
+\u69AE
+\u9589
+\u7063
+\u9375
+\u51E1
+\u99D0
+\u934B
+\u6551
+\u6069
+\u525D
+\u51DD
+\u9E7C
+\u9F52
+\u622A
+\u7149
+\u9EBB
+\u7D21
+\u7981
+\u5EE2
+\u76DB
+\u7248
+\u7DE9
+\u6DE8
+\u775B
+\u660C
+\u5A5A
+\u6D89
+\u7B52
+\u5634
+\u63D2
+\u5CB8
+\u6717
+\u838A
+\u8857
+\u85CF
+\u59D1
+\u8CBF
+\u8150
+\u5974
+\u5566
+\u6163
+\u4E58
+\u5925
+\u6062
+\u52FB
+\u7D17
+\u624E
+\u8FAF
+\u8033
+\u5F6A
+\u81E3
+\u5104
+\u7483
+\u62B5
+\u8108
+\u79C0
+\u85A9
+\u4FC4
+\u7DB2
+\u821E
+\u5E97
+\u5674
+\u7E31
+\u5BF8
+\u6C57
+\u639B
+\u6D2A
+\u8CC0
+\u9583
+\u67EC
+\u7206
+\u70EF
+\u6D25
+\u7A3B
+\u7246
+\u8EDF
+\u52C7
+\u50CF
+\u6EFE
+\u5398
+\u8499
+\u82B3
+\u80AF
+\u5761
+\u67F1
+\u76EA
+\u817F
+\u5100
+\u65C5
+\u5C3E
+\u8ECB
+\u51B0
+\u8CA2
+\u767B
+\u9ECE
+\u524A
+\u947D
+\u52D2
+\u9003
+\u969C
+\u6C28
+\u90ED
+\u5CF0
+\u5E63
+\u6E2F
+\u4F0F
+\u8ECC
+\u755D
+\u7562
+\u64E6
+\u83AB
+\u523A
+\u6D6A
+\u79D8
+\u63F4
+\u682A
+\u5065
+\u552E
+\u80A1
+\u5CF6
+\u7518
+\u6CE1
+\u7761
+\u7AE5
+\u9444
+\u6E6F
+\u95A5
+\u4F11
+\u532F
+\u820D
+\u7267
+\u7E5E
+\u70B8
+\u54F2
+\u78F7
+\u7E3E
+\u670B
+\u6DE1
+\u5C16
+\u555F
+\u9677
+\u67F4
+\u5448
+\u5F92
+\u984F
+\u6DDA
+\u7A0D
+\u5FD8
+\u6CF5
+\u85CD
+\u62D6
+\u6D1E
+\u6388
+\u93E1
+\u8F9B
+\u58EF
+\u92D2
+\u8CA7
+\u865B
+\u5F4E
+\u6469
+\u6CF0
+\u5E7C
+\u5EF7
+\u5C0A
+\u7A97
+\u7DB1
+\u5F04
+\u96B8
+\u7591
+\u6C0F
+\u5BAE
+\u59D0
+\u9707
+\u745E
+\u602A
+\u5C24
+\u7434
+\u5FAA
+\u63CF
+\u819C
+\u9055
+\u593E
+\u8170
+\u7DE3
+\u73E0
+\u7AAE
+\u68EE
+\u679D
+\u7AF9
+\u6E9D
+\u50AC
+\u7E69
+\u61B6
+\u90A6
+\u5269
+\u5E78
+\u6F3F
+\u6B04
+\u64C1
+\u7259
+\u8CAF
+\u79AE
+\u6FFE
+\u9209
+\u7D0B
+\u7F77
+\u62CD
+\u54B1
+\u558A
+\u8896
+\u57C3
+\u52E4
+\u7F70
+\u7126
+\u6F5B
+\u4F0D
+\u58A8
+\u6B32
+\u7E2B
+\u59D3
+\u520A
+\u98FD
+\u4EFF
+\u734E
+\u92C1
+\u9B3C
+\u9E97
+\u8DE8
+\u9ED8
+\u6316
+\u93C8
+\u6383
+\u559D
+\u888B
+\u70AD
+\u6C61
+\u5E55
+\u8AF8
+\u5F27
+\u52F5
+\u6885
+\u5976
+\u6F54
+\u707D
+\u821F
+\u9451
+\u82EF
+\u8A1F
+\u62B1
+\u6BC0
+\u61C2
+\u5BD2
+\u667A
+\u57D4
+\u5BC4
+\u5C46
+\u8E8D
+\u6E21
+\u6311
+\u4E39
+\u8271
+\u8C9D
+\u78B0
+\u62D4
+\u7239
+\u6234
+\u78BC
+\u5922
+\u82BD
+\u7194
+\u8D64
+\u6F01
+\u54ED
+\u656C
+\u9846
+\u5954
+\u925B
+\u4EF2
+\u864E
+\u7A00
+\u59B9
+\u4E4F
+\u73CD
+\u7533
+\u684C
+\u9075
+\u5141
+\u9686
+\u87BA
+\u5009
+\u9B4F
+\u92B3
+\u66C9
+\u6C2E
+\u517C
+\u96B1
+\u7919
+\u8D6B
+\u64A5
+\u5FE0
+\u8085
+\u7F38
+\u727D
+\u6436
+\u535A
+\u5DE7
+\u6BBC
+\u5144
+\u675C
+\u8A0A
+\u8AA0
+\u78A7
+\u7965
+\u67EF
+\u9801
+\u5DE1
+\u77E9
+\u60B2
+\u704C
+\u9F61
+\u502B
+\u7968
+\u5C0B
+\u6842
+\u92EA
+\u8056
+\u6050
+\u6070
+\u912D
+\u8DA3
+\u62AC
+\u8352
+\u9A30
+\u8CBC
+\u67D4
+\u6EF4
+\u731B
+\u95CA
+\u8F1B
+\u59BB
+\u586B
+\u64A4
+\u5132
+\u7C3D
+\u9B27
+\u64FE
+\u7D2B
+\u7802
+\u905E
+\u6232
+\u540A
+\u9676
+\u4F10
+\u9935
+\u7642
+\u74F6
+\u5A46
+\u64AB
+\u81C2
+\u6478
+\u5FCD
+\u8766
+\u881F
+\u9130
+\u80F8
+\u978F
+\u64E0
+\u5076
+\u68C4
+\u69FD
+\u52C1
+\u4E73
+\u9127
+\u5409
+\u4EC1
+\u721B
+\u78DA
+\u79DF
+\u70CF
+\u8266
+\u4F34
+\u74DC
+\u6DFA
+\u4E19
+\u66AB
+\u71E5
+\u6A61
+\u67F3
+\u8FF7
+\u6696
+\u724C
+\u79E7
+\u81BD
+\u8A73
+\u7C27
+\u8E0F
+\u74F7
+\u8B5C
+\u5446
+\u8CD3
+\u7CCA
+\u6D1B
+\u8F1D
+\u61A4
+\u7AF6
+\u9699
+\u6012
+\u7C98
+\u4E43
+\u7DD2
+\u80A9
+\u7C4D
+\u654F
+\u5857
+\u7199
+\u7686
+\u5075
+\u61F8
+\u6398
+\u4EAB
+\u7CFE
+\u9192
+\u72C2
+\u9396
+\u6DC0
+\u6068
+\u7272
+\u9738
+\u722C
+\u8CDE
+\u9006
+\u73A9
+\u9675
+\u795D
+\u79D2
+\u6D59
+\u8C8C
+\u5F79
+\u5F7C
+\u6089
+\u9D28
+\u8DA8
+\u9CF3
+\u6668
+\u755C
+\u8F29
+\u79E9
+\u5375
+\u7F72
+\u68AF
+\u708E
+\u7058
+\u68CB
+\u9A45
+\u7BE9
+\u5CFD
+\u5192
+\u5565
+\u58FD
+\u8B6F
+\u6D78
+\u6CC9
+\u5E3D
+\u9072
+\u77FD
+\u7586
+\u8CB8
+\u6F0F
+\u7A3F
+\u51A0
+\u5AE9
+\u8105
+\u82AF
+\u7262
+\u53DB
+\u8755
+\u5967
+\u9CF4
+\u5DBA
+\u7F8A
+\u6191
+\u4E32
+\u5858
+\u7E6A
+\u9175
+\u878D
+\u76C6
+\u932B
+\u5EDF
+\u7C4C
+\u51CD
+\u8F14
+\u651D
+\u8972
+\u7B4B
+\u62D2
+\u50DA
+\u65F1
+\u9240
+\u9CE5
+\u6F06
+\u6C88
+\u7709
+\u758F
+\u6DFB
+\u68D2
+\u7A57
+\u785D
+\u97D3
+\u903C
+\u626D
+\u50D1
+\u6DBC
+\u633A
+\u7897
+\u683D
+\u7092
+\u676F
+\u60A3
+\u993E
+\u52F8
+\u8C6A
+\u907C
+\u52C3
+\u9D3B
+\u65E6
+\u540F
+\u62DC
+\u72D7
+\u57CB
+\u8F25
+\u63A9
+\u98F2
+\u642C
+\u7F75
+\u8FAD
+\u52FE
+\u6263
+\u4F30
+\u8523
+\u7D68
+\u9727
+\u4E08
+\u6735
+\u59C6
+\u64EC
+\u5B87
+\u8F2F
+\u965D
+\u96D5
+\u511F
+\u84C4
+\u5D07
+\u526A
+\u5021
+\u5EF3
+\u54AC
+\u99DB
+\u85AF
+\u5237
+\u65A5
+\u756A
+\u8CE6
+\u5949
+\u4F5B
+\u6F86
+\u6F2B
+\u66FC
+\u6247
+\u9223
+\u6843
+\u6276
+\u4ED4
+\u8FD4
+\u4FD7
+\u8667
+\u8154
+\u978B
+\u68F1
+\u8986
+\u6846
+\u6084
+\u53D4
+\u649E
+\u9A19
+\u52D8
+\u65FA
+\u6CB8
+\u5B64
+\u5410
+\u5B5F
+\u6E20
+\u5C48
+\u75BE
+\u5999
+\u60DC
+\u4EF0
+\u72E0
+\u8139
+\u8AE7
+\u62CB
+\u9EF4
+\u6851
+\u5D17
+\u561B
+\u8870
+\u76DC
+\u6EF2
+\u81DF
+\u8CF4
+\u6E67
+\u751C
+\u66F9
+\u95B1
+\u808C
+\u54E9
+\u53B2
+\u70F4
+\u7DEF
+\u6BC5
+\u6628
+\u507D
+\u75C7
+\u716E
+\u5606
+\u91D8
+\u642D
+\u8396
+\u7C60
+\u9177
+\u5077
+\u5F13
+\u9310
+\u6046
+\u5091
+\u5751
+\u9F3B
+\u7FFC
+\u7DB8
+\u6558
+\u7344
+\u902E
+\u7F50
+\u7D61
+\u68DA
+\u6291
+\u81A8
+\u852C
+\u5BFA
+\u9A5F
+\u7A46
+\u51B6
+\u67AF
+\u518A
+\u5C4D
+\u51F8
+\u7D33
+\u576F
+\u72A7
+\u7130
+\u8F5F
+\u6B23
+\u6649
+\u7626
+\u79A6
+\u9320
+\u9326
+\u55AA
+\u65EC
+\u935B
+\u58DF
+\u641C
+\u64B2
+\u9080
+\u4EAD
+\u916F
+\u9081
+\u8212
+\u8106
+\u9176
+\u9592
+\u6182
+\u915A
+\u9811
+\u7FBD
+\u6F32
+\u5378
+\u4ED7
+\u966A
+\u95E2
+\u61F2
+\u676D
+\u59DA
+\u809A
+\u6349
+\u98C4
+\u6F02
+\u6606
+\u6B3A
+\u543E
+\u90CE
+\u70F7
+\u6C41
+\u5475
+\u98FE
+\u856D
+\u96C5
+\u90F5
+\u9077
+\u71D5
+\u6492
+\u59FB
+\u8D74
+\u5BB4
+\u7169
+\u50B5
+\u5E33
+\u6591
+\u9234
+\u65E8
+\u9187
+\u8463
+\u9905
+\u96DB
+\u59FF
+\u62CC
+\u5085
+\u8179
+\u59A5
+\u63C9
+\u8CE2
+\u62C6
+\u6B6A
+\u8461
+\u80FA
+\u4E1F
+\u6D69
+\u5FBD
+\u6602
+\u588A
+\u64CB
+\u89BD
+\u8CAA
+\u6170
+\u7E73
+\u6C6A
+\u614C
+\u99AE
+\u8AFE
+\u59DC
+\u8ABC
+\u5147
+\u52A3
+\u8AA3
+\u8000
+\u660F
+\u8EBA
+\u76C8
+\u9A0E
+\u55AC
+\u6EAA
+\u53E2
+\u76E7
+\u62B9
+\u60B6
+\u8AEE
+\u522E
+\u99D5
+\u7E9C
+\u609F
+\u6458
+\u927A
+\u64F2
+\u9817
+\u5E7B
+\u67C4
+\u60E0
+\u6158
+\u4F73
+\u4EC7
+\u81D8
+\u7AA9
+\u6ECC
+\u528D
+\u77A7
+\u5821
+\u6F51
+\u8525
+\u7F69
+\u970D
+\u6488
+\u80CE
+\u84BC
+\u6FF1
+\u5006
+\u6345
+\u6E58
+\u780D
+\u971E
+\u90B5
+\u8404
+\u760B
+\u6DEE
+\u9042
+\u718A
+\u7CDE
+\u70D8
+\u5BBF
+\u6A94
+\u6208
+\u99C1
+\u5AC2
+\u88D5
+\u5F99
+\u7BAD
+\u6350
+\u8178
+\u6490
+\u66EC
+\u8FA8
+\u6BBF
+\u84EE
+\u6524
+\u652A
+\u91AC
+\u5C4F
+\u75AB
+\u54C0
+\u8521
+\u5835
+\u6CAB
+\u76BA
+\u66A2
+\u758A
+\u95A3
+\u840A
+\u6572
+\u8F44
+\u9264
+\u75D5
+\u58E9
+\u5DF7
+\u9913
+\u798D
+\u4E18
+\u7384
+\u6E9C
+\u66F0
+\u908F
+\u5F6D
+\u5617
+\u537F
+\u59A8
+\u8247
+\u541E
+\u97CB
+\u6028
+\u77EE
+\u6B47`.split("\n"));
+
   // node_modules/@noble/curves/abstract/edwards.js
   /*! noble-curves - MIT License (c) 2022 Paul Miller (paulmillr.com) */
   var _0n6 = /* @__PURE__ */ BigInt(0);
@@ -6330,15 +25037,15 @@ zoo`.split("\n"));
       abytes2(key, lengths.secretKey, "secretKey");
       const hashed = abytes2(hash(key), 2 * len, "hashedSecretKey");
       const head = adjustScalarBytes2(hashed.slice(0, len));
-      const prefix = hashed.slice(len, 2 * len);
+      const prefix2 = hashed.slice(len, 2 * len);
       const scalar2 = modN_LE(head);
-      return { head, prefix, scalar: scalar2 };
+      return { head, prefix: prefix2, scalar: scalar2 };
     }
     function getExtendedPublicKey(secretKey) {
-      const { head, prefix, scalar: scalar2 } = getPrivateScalar(secretKey);
+      const { head, prefix: prefix2, scalar: scalar2 } = getPrivateScalar(secretKey);
       const point = BASE.multiply(scalar2);
       const pointBytes = point.toBytes();
-      return { head, prefix, scalar: scalar2, point, pointBytes };
+      return { head, prefix: prefix2, scalar: scalar2, point, pointBytes };
     }
     function getPublicKey(secretKey) {
       return getExtendedPublicKey(secretKey).pointBytes;
@@ -6352,8 +25059,8 @@ zoo`.split("\n"));
       msg = copyBytes(abytes2(msg, void 0, "message"));
       if (prehash)
         msg = prehash(msg);
-      const { prefix, scalar: scalar2, pointBytes } = getExtendedPublicKey(secretKey);
-      const r = hashDomainToScalar(options.context, prefix, msg);
+      const { prefix: prefix2, scalar: scalar2, pointBytes } = getExtendedPublicKey(secretKey);
+      const r = hashDomainToScalar(options.context, prefix2, msg);
       const R = BASE.multiply(r).toBytes();
       const k = hashDomainToScalar(options.context, R, pointBytes, msg);
       const s = Fn2.create(r + k * scalar2);
@@ -8374,13 +27081,19594 @@ zoo`.split("\n"));
     "zoom"
   ];
 
+  // mymonero-languages.json
+  var mymonero_languages_default = {
+    chinese_simplified: {
+      prefix: 1,
+      words: [
+        "\u7684",
+        "\u4E00",
+        "\u662F",
+        "\u5728",
+        "\u4E0D",
+        "\u4E86",
+        "\u6709",
+        "\u548C",
+        "\u4EBA",
+        "\u8FD9",
+        "\u4E2D",
+        "\u5927",
+        "\u4E3A",
+        "\u4E0A",
+        "\u4E2A",
+        "\u56FD",
+        "\u6211",
+        "\u4EE5",
+        "\u8981",
+        "\u4ED6",
+        "\u65F6",
+        "\u6765",
+        "\u7528",
+        "\u4EEC",
+        "\u751F",
+        "\u5230",
+        "\u4F5C",
+        "\u5730",
+        "\u4E8E",
+        "\u51FA",
+        "\u5C31",
+        "\u5206",
+        "\u5BF9",
+        "\u6210",
+        "\u4F1A",
+        "\u53EF",
+        "\u4E3B",
+        "\u53D1",
+        "\u5E74",
+        "\u52A8",
+        "\u540C",
+        "\u5DE5",
+        "\u4E5F",
+        "\u80FD",
+        "\u4E0B",
+        "\u8FC7",
+        "\u5B50",
+        "\u8BF4",
+        "\u4EA7",
+        "\u79CD",
+        "\u9762",
+        "\u800C",
+        "\u65B9",
+        "\u540E",
+        "\u591A",
+        "\u5B9A",
+        "\u884C",
+        "\u5B66",
+        "\u6CD5",
+        "\u6240",
+        "\u6C11",
+        "\u5F97",
+        "\u7ECF",
+        "\u5341",
+        "\u4E09",
+        "\u4E4B",
+        "\u8FDB",
+        "\u7740",
+        "\u7B49",
+        "\u90E8",
+        "\u5EA6",
+        "\u5BB6",
+        "\u7535",
+        "\u529B",
+        "\u91CC",
+        "\u5982",
+        "\u6C34",
+        "\u5316",
+        "\u9AD8",
+        "\u81EA",
+        "\u4E8C",
+        "\u7406",
+        "\u8D77",
+        "\u5C0F",
+        "\u7269",
+        "\u73B0",
+        "\u5B9E",
+        "\u52A0",
+        "\u91CF",
+        "\u90FD",
+        "\u4E24",
+        "\u4F53",
+        "\u5236",
+        "\u673A",
+        "\u5F53",
+        "\u4F7F",
+        "\u70B9",
+        "\u4ECE",
+        "\u4E1A",
+        "\u672C",
+        "\u53BB",
+        "\u628A",
+        "\u6027",
+        "\u597D",
+        "\u5E94",
+        "\u5F00",
+        "\u5B83",
+        "\u5408",
+        "\u8FD8",
+        "\u56E0",
+        "\u7531",
+        "\u5176",
+        "\u4E9B",
+        "\u7136",
+        "\u524D",
+        "\u5916",
+        "\u5929",
+        "\u653F",
+        "\u56DB",
+        "\u65E5",
+        "\u90A3",
+        "\u793E",
+        "\u4E49",
+        "\u4E8B",
+        "\u5E73",
+        "\u5F62",
+        "\u76F8",
+        "\u5168",
+        "\u8868",
+        "\u95F4",
+        "\u6837",
+        "\u4E0E",
+        "\u5173",
+        "\u5404",
+        "\u91CD",
+        "\u65B0",
+        "\u7EBF",
+        "\u5185",
+        "\u6570",
+        "\u6B63",
+        "\u5FC3",
+        "\u53CD",
+        "\u4F60",
+        "\u660E",
+        "\u770B",
+        "\u539F",
+        "\u53C8",
+        "\u4E48",
+        "\u5229",
+        "\u6BD4",
+        "\u6216",
+        "\u4F46",
+        "\u8D28",
+        "\u6C14",
+        "\u7B2C",
+        "\u5411",
+        "\u9053",
+        "\u547D",
+        "\u6B64",
+        "\u53D8",
+        "\u6761",
+        "\u53EA",
+        "\u6CA1",
+        "\u7ED3",
+        "\u89E3",
+        "\u95EE",
+        "\u610F",
+        "\u5EFA",
+        "\u6708",
+        "\u516C",
+        "\u65E0",
+        "\u7CFB",
+        "\u519B",
+        "\u5F88",
+        "\u60C5",
+        "\u8005",
+        "\u6700",
+        "\u7ACB",
+        "\u4EE3",
+        "\u60F3",
+        "\u5DF2",
+        "\u901A",
+        "\u5E76",
+        "\u63D0",
+        "\u76F4",
+        "\u9898",
+        "\u515A",
+        "\u7A0B",
+        "\u5C55",
+        "\u4E94",
+        "\u679C",
+        "\u6599",
+        "\u8C61",
+        "\u5458",
+        "\u9769",
+        "\u4F4D",
+        "\u5165",
+        "\u5E38",
+        "\u6587",
+        "\u603B",
+        "\u6B21",
+        "\u54C1",
+        "\u5F0F",
+        "\u6D3B",
+        "\u8BBE",
+        "\u53CA",
+        "\u7BA1",
+        "\u7279",
+        "\u4EF6",
+        "\u957F",
+        "\u6C42",
+        "\u8001",
+        "\u5934",
+        "\u57FA",
+        "\u8D44",
+        "\u8FB9",
+        "\u6D41",
+        "\u8DEF",
+        "\u7EA7",
+        "\u5C11",
+        "\u56FE",
+        "\u5C71",
+        "\u7EDF",
+        "\u63A5",
+        "\u77E5",
+        "\u8F83",
+        "\u5C06",
+        "\u7EC4",
+        "\u89C1",
+        "\u8BA1",
+        "\u522B",
+        "\u5979",
+        "\u624B",
+        "\u89D2",
+        "\u671F",
+        "\u6839",
+        "\u8BBA",
+        "\u8FD0",
+        "\u519C",
+        "\u6307",
+        "\u51E0",
+        "\u4E5D",
+        "\u533A",
+        "\u5F3A",
+        "\u653E",
+        "\u51B3",
+        "\u897F",
+        "\u88AB",
+        "\u5E72",
+        "\u505A",
+        "\u5FC5",
+        "\u6218",
+        "\u5148",
+        "\u56DE",
+        "\u5219",
+        "\u4EFB",
+        "\u53D6",
+        "\u636E",
+        "\u5904",
+        "\u961F",
+        "\u5357",
+        "\u7ED9",
+        "\u8272",
+        "\u5149",
+        "\u95E8",
+        "\u5373",
+        "\u4FDD",
+        "\u6CBB",
+        "\u5317",
+        "\u9020",
+        "\u767E",
+        "\u89C4",
+        "\u70ED",
+        "\u9886",
+        "\u4E03",
+        "\u6D77",
+        "\u53E3",
+        "\u4E1C",
+        "\u5BFC",
+        "\u5668",
+        "\u538B",
+        "\u5FD7",
+        "\u4E16",
+        "\u91D1",
+        "\u589E",
+        "\u4E89",
+        "\u6D4E",
+        "\u9636",
+        "\u6CB9",
+        "\u601D",
+        "\u672F",
+        "\u6781",
+        "\u4EA4",
+        "\u53D7",
+        "\u8054",
+        "\u4EC0",
+        "\u8BA4",
+        "\u516D",
+        "\u5171",
+        "\u6743",
+        "\u6536",
+        "\u8BC1",
+        "\u6539",
+        "\u6E05",
+        "\u7F8E",
+        "\u518D",
+        "\u91C7",
+        "\u8F6C",
+        "\u66F4",
+        "\u5355",
+        "\u98CE",
+        "\u5207",
+        "\u6253",
+        "\u767D",
+        "\u6559",
+        "\u901F",
+        "\u82B1",
+        "\u5E26",
+        "\u5B89",
+        "\u573A",
+        "\u8EAB",
+        "\u8F66",
+        "\u4F8B",
+        "\u771F",
+        "\u52A1",
+        "\u5177",
+        "\u4E07",
+        "\u6BCF",
+        "\u76EE",
+        "\u81F3",
+        "\u8FBE",
+        "\u8D70",
+        "\u79EF",
+        "\u793A",
+        "\u8BAE",
+        "\u58F0",
+        "\u62A5",
+        "\u6597",
+        "\u5B8C",
+        "\u7C7B",
+        "\u516B",
+        "\u79BB",
+        "\u534E",
+        "\u540D",
+        "\u786E",
+        "\u624D",
+        "\u79D1",
+        "\u5F20",
+        "\u4FE1",
+        "\u9A6C",
+        "\u8282",
+        "\u8BDD",
+        "\u7C73",
+        "\u6574",
+        "\u7A7A",
+        "\u5143",
+        "\u51B5",
+        "\u4ECA",
+        "\u96C6",
+        "\u6E29",
+        "\u4F20",
+        "\u571F",
+        "\u8BB8",
+        "\u6B65",
+        "\u7FA4",
+        "\u5E7F",
+        "\u77F3",
+        "\u8BB0",
+        "\u9700",
+        "\u6BB5",
+        "\u7814",
+        "\u754C",
+        "\u62C9",
+        "\u6797",
+        "\u5F8B",
+        "\u53EB",
+        "\u4E14",
+        "\u7A76",
+        "\u89C2",
+        "\u8D8A",
+        "\u7EC7",
+        "\u88C5",
+        "\u5F71",
+        "\u7B97",
+        "\u4F4E",
+        "\u6301",
+        "\u97F3",
+        "\u4F17",
+        "\u4E66",
+        "\u5E03",
+        "\u590D",
+        "\u5BB9",
+        "\u513F",
+        "\u987B",
+        "\u9645",
+        "\u5546",
+        "\u975E",
+        "\u9A8C",
+        "\u8FDE",
+        "\u65AD",
+        "\u6DF1",
+        "\u96BE",
+        "\u8FD1",
+        "\u77FF",
+        "\u5343",
+        "\u5468",
+        "\u59D4",
+        "\u7D20",
+        "\u6280",
+        "\u5907",
+        "\u534A",
+        "\u529E",
+        "\u9752",
+        "\u7701",
+        "\u5217",
+        "\u4E60",
+        "\u54CD",
+        "\u7EA6",
+        "\u652F",
+        "\u822C",
+        "\u53F2",
+        "\u611F",
+        "\u52B3",
+        "\u4FBF",
+        "\u56E2",
+        "\u5F80",
+        "\u9178",
+        "\u5386",
+        "\u5E02",
+        "\u514B",
+        "\u4F55",
+        "\u9664",
+        "\u6D88",
+        "\u6784",
+        "\u5E9C",
+        "\u79F0",
+        "\u592A",
+        "\u51C6",
+        "\u7CBE",
+        "\u503C",
+        "\u53F7",
+        "\u7387",
+        "\u65CF",
+        "\u7EF4",
+        "\u5212",
+        "\u9009",
+        "\u6807",
+        "\u5199",
+        "\u5B58",
+        "\u5019",
+        "\u6BDB",
+        "\u4EB2",
+        "\u5FEB",
+        "\u6548",
+        "\u65AF",
+        "\u9662",
+        "\u67E5",
+        "\u6C5F",
+        "\u578B",
+        "\u773C",
+        "\u738B",
+        "\u6309",
+        "\u683C",
+        "\u517B",
+        "\u6613",
+        "\u7F6E",
+        "\u6D3E",
+        "\u5C42",
+        "\u7247",
+        "\u59CB",
+        "\u5374",
+        "\u4E13",
+        "\u72B6",
+        "\u80B2",
+        "\u5382",
+        "\u4EAC",
+        "\u8BC6",
+        "\u9002",
+        "\u5C5E",
+        "\u5706",
+        "\u5305",
+        "\u706B",
+        "\u4F4F",
+        "\u8C03",
+        "\u6EE1",
+        "\u53BF",
+        "\u5C40",
+        "\u7167",
+        "\u53C2",
+        "\u7EA2",
+        "\u7EC6",
+        "\u5F15",
+        "\u542C",
+        "\u8BE5",
+        "\u94C1",
+        "\u4EF7",
+        "\u4E25",
+        "\u9996",
+        "\u5E95",
+        "\u6DB2",
+        "\u5B98",
+        "\u5FB7",
+        "\u968F",
+        "\u75C5",
+        "\u82CF",
+        "\u5931",
+        "\u5C14",
+        "\u6B7B",
+        "\u8BB2",
+        "\u914D",
+        "\u5973",
+        "\u9EC4",
+        "\u63A8",
+        "\u663E",
+        "\u8C08",
+        "\u7F6A",
+        "\u795E",
+        "\u827A",
+        "\u5462",
+        "\u5E2D",
+        "\u542B",
+        "\u4F01",
+        "\u671B",
+        "\u5BC6",
+        "\u6279",
+        "\u8425",
+        "\u9879",
+        "\u9632",
+        "\u4E3E",
+        "\u7403",
+        "\u82F1",
+        "\u6C27",
+        "\u52BF",
+        "\u544A",
+        "\u674E",
+        "\u53F0",
+        "\u843D",
+        "\u6728",
+        "\u5E2E",
+        "\u8F6E",
+        "\u7834",
+        "\u4E9A",
+        "\u5E08",
+        "\u56F4",
+        "\u6CE8",
+        "\u8FDC",
+        "\u5B57",
+        "\u6750",
+        "\u6392",
+        "\u4F9B",
+        "\u6CB3",
+        "\u6001",
+        "\u5C01",
+        "\u53E6",
+        "\u65BD",
+        "\u51CF",
+        "\u6811",
+        "\u6EB6",
+        "\u600E",
+        "\u6B62",
+        "\u6848",
+        "\u8A00",
+        "\u58EB",
+        "\u5747",
+        "\u6B66",
+        "\u56FA",
+        "\u53F6",
+        "\u9C7C",
+        "\u6CE2",
+        "\u89C6",
+        "\u4EC5",
+        "\u8D39",
+        "\u7D27",
+        "\u7231",
+        "\u5DE6",
+        "\u7AE0",
+        "\u65E9",
+        "\u671D",
+        "\u5BB3",
+        "\u7EED",
+        "\u8F7B",
+        "\u670D",
+        "\u8BD5",
+        "\u98DF",
+        "\u5145",
+        "\u5175",
+        "\u6E90",
+        "\u5224",
+        "\u62A4",
+        "\u53F8",
+        "\u8DB3",
+        "\u67D0",
+        "\u7EC3",
+        "\u5DEE",
+        "\u81F4",
+        "\u677F",
+        "\u7530",
+        "\u964D",
+        "\u9ED1",
+        "\u72AF",
+        "\u8D1F",
+        "\u51FB",
+        "\u8303",
+        "\u7EE7",
+        "\u5174",
+        "\u4F3C",
+        "\u4F59",
+        "\u575A",
+        "\u66F2",
+        "\u8F93",
+        "\u4FEE",
+        "\u6545",
+        "\u57CE",
+        "\u592B",
+        "\u591F",
+        "\u9001",
+        "\u7B14",
+        "\u8239",
+        "\u5360",
+        "\u53F3",
+        "\u8D22",
+        "\u5403",
+        "\u5BCC",
+        "\u6625",
+        "\u804C",
+        "\u89C9",
+        "\u6C49",
+        "\u753B",
+        "\u529F",
+        "\u5DF4",
+        "\u8DDF",
+        "\u867D",
+        "\u6742",
+        "\u98DE",
+        "\u68C0",
+        "\u5438",
+        "\u52A9",
+        "\u5347",
+        "\u9633",
+        "\u4E92",
+        "\u521D",
+        "\u521B",
+        "\u6297",
+        "\u8003",
+        "\u6295",
+        "\u574F",
+        "\u7B56",
+        "\u53E4",
+        "\u5F84",
+        "\u6362",
+        "\u672A",
+        "\u8DD1",
+        "\u7559",
+        "\u94A2",
+        "\u66FE",
+        "\u7AEF",
+        "\u8D23",
+        "\u7AD9",
+        "\u7B80",
+        "\u8FF0",
+        "\u94B1",
+        "\u526F",
+        "\u5C3D",
+        "\u5E1D",
+        "\u5C04",
+        "\u8349",
+        "\u51B2",
+        "\u627F",
+        "\u72EC",
+        "\u4EE4",
+        "\u9650",
+        "\u963F",
+        "\u5BA3",
+        "\u73AF",
+        "\u53CC",
+        "\u8BF7",
+        "\u8D85",
+        "\u5FAE",
+        "\u8BA9",
+        "\u63A7",
+        "\u5DDE",
+        "\u826F",
+        "\u8F74",
+        "\u627E",
+        "\u5426",
+        "\u7EAA",
+        "\u76CA",
+        "\u4F9D",
+        "\u4F18",
+        "\u9876",
+        "\u7840",
+        "\u8F7D",
+        "\u5012",
+        "\u623F",
+        "\u7A81",
+        "\u5750",
+        "\u7C89",
+        "\u654C",
+        "\u7565",
+        "\u5BA2",
+        "\u8881",
+        "\u51B7",
+        "\u80DC",
+        "\u7EDD",
+        "\u6790",
+        "\u5757",
+        "\u5242",
+        "\u6D4B",
+        "\u4E1D",
+        "\u534F",
+        "\u8BC9",
+        "\u5FF5",
+        "\u9648",
+        "\u4ECD",
+        "\u7F57",
+        "\u76D0",
+        "\u53CB",
+        "\u6D0B",
+        "\u9519",
+        "\u82E6",
+        "\u591C",
+        "\u5211",
+        "\u79FB",
+        "\u9891",
+        "\u9010",
+        "\u9760",
+        "\u6DF7",
+        "\u6BCD",
+        "\u77ED",
+        "\u76AE",
+        "\u7EC8",
+        "\u805A",
+        "\u6C7D",
+        "\u6751",
+        "\u4E91",
+        "\u54EA",
+        "\u65E2",
+        "\u8DDD",
+        "\u536B",
+        "\u505C",
+        "\u70C8",
+        "\u592E",
+        "\u5BDF",
+        "\u70E7",
+        "\u8FC5",
+        "\u5883",
+        "\u82E5",
+        "\u5370",
+        "\u6D32",
+        "\u523B",
+        "\u62EC",
+        "\u6FC0",
+        "\u5B54",
+        "\u641E",
+        "\u751A",
+        "\u5BA4",
+        "\u5F85",
+        "\u6838",
+        "\u6821",
+        "\u6563",
+        "\u4FB5",
+        "\u5427",
+        "\u7532",
+        "\u6E38",
+        "\u4E45",
+        "\u83DC",
+        "\u5473",
+        "\u65E7",
+        "\u6A21",
+        "\u6E56",
+        "\u8D27",
+        "\u635F",
+        "\u9884",
+        "\u963B",
+        "\u6BEB",
+        "\u666E",
+        "\u7A33",
+        "\u4E59",
+        "\u5988",
+        "\u690D",
+        "\u606F",
+        "\u6269",
+        "\u94F6",
+        "\u8BED",
+        "\u6325",
+        "\u9152",
+        "\u5B88",
+        "\u62FF",
+        "\u5E8F",
+        "\u7EB8",
+        "\u533B",
+        "\u7F3A",
+        "\u96E8",
+        "\u5417",
+        "\u9488",
+        "\u5218",
+        "\u554A",
+        "\u6025",
+        "\u5531",
+        "\u8BEF",
+        "\u8BAD",
+        "\u613F",
+        "\u5BA1",
+        "\u9644",
+        "\u83B7",
+        "\u8336",
+        "\u9C9C",
+        "\u7CAE",
+        "\u65A4",
+        "\u5B69",
+        "\u8131",
+        "\u786B",
+        "\u80A5",
+        "\u5584",
+        "\u9F99",
+        "\u6F14",
+        "\u7236",
+        "\u6E10",
+        "\u8840",
+        "\u6B22",
+        "\u68B0",
+        "\u638C",
+        "\u6B4C",
+        "\u6C99",
+        "\u521A",
+        "\u653B",
+        "\u8C13",
+        "\u76FE",
+        "\u8BA8",
+        "\u665A",
+        "\u7C92",
+        "\u4E71",
+        "\u71C3",
+        "\u77DB",
+        "\u4E4E",
+        "\u6740",
+        "\u836F",
+        "\u5B81",
+        "\u9C81",
+        "\u8D35",
+        "\u949F",
+        "\u7164",
+        "\u8BFB",
+        "\u73ED",
+        "\u4F2F",
+        "\u9999",
+        "\u4ECB",
+        "\u8FEB",
+        "\u53E5",
+        "\u4E30",
+        "\u57F9",
+        "\u63E1",
+        "\u5170",
+        "\u62C5",
+        "\u5F26",
+        "\u86CB",
+        "\u6C89",
+        "\u5047",
+        "\u7A7F",
+        "\u6267",
+        "\u7B54",
+        "\u4E50",
+        "\u8C01",
+        "\u987A",
+        "\u70DF",
+        "\u7F29",
+        "\u5F81",
+        "\u8138",
+        "\u559C",
+        "\u677E",
+        "\u811A",
+        "\u56F0",
+        "\u5F02",
+        "\u514D",
+        "\u80CC",
+        "\u661F",
+        "\u798F",
+        "\u4E70",
+        "\u67D3",
+        "\u4E95",
+        "\u6982",
+        "\u6162",
+        "\u6015",
+        "\u78C1",
+        "\u500D",
+        "\u7956",
+        "\u7687",
+        "\u4FC3",
+        "\u9759",
+        "\u8865",
+        "\u8BC4",
+        "\u7FFB",
+        "\u8089",
+        "\u8DF5",
+        "\u5C3C",
+        "\u8863",
+        "\u5BBD",
+        "\u626C",
+        "\u68C9",
+        "\u5E0C",
+        "\u4F24",
+        "\u64CD",
+        "\u5782",
+        "\u79CB",
+        "\u5B9C",
+        "\u6C22",
+        "\u5957",
+        "\u7763",
+        "\u632F",
+        "\u67B6",
+        "\u4EAE",
+        "\u672B",
+        "\u5BAA",
+        "\u5E86",
+        "\u7F16",
+        "\u725B",
+        "\u89E6",
+        "\u6620",
+        "\u96F7",
+        "\u9500",
+        "\u8BD7",
+        "\u5EA7",
+        "\u5C45",
+        "\u6293",
+        "\u88C2",
+        "\u80DE",
+        "\u547C",
+        "\u5A18",
+        "\u666F",
+        "\u5A01",
+        "\u7EFF",
+        "\u6676",
+        "\u539A",
+        "\u76DF",
+        "\u8861",
+        "\u9E21",
+        "\u5B59",
+        "\u5EF6",
+        "\u5371",
+        "\u80F6",
+        "\u5C4B",
+        "\u4E61",
+        "\u4E34",
+        "\u9646",
+        "\u987E",
+        "\u6389",
+        "\u5440",
+        "\u706F",
+        "\u5C81",
+        "\u63AA",
+        "\u675F",
+        "\u8010",
+        "\u5267",
+        "\u7389",
+        "\u8D75",
+        "\u8DF3",
+        "\u54E5",
+        "\u5B63",
+        "\u8BFE",
+        "\u51EF",
+        "\u80E1",
+        "\u989D",
+        "\u6B3E",
+        "\u7ECD",
+        "\u5377",
+        "\u9F50",
+        "\u4F1F",
+        "\u84B8",
+        "\u6B96",
+        "\u6C38",
+        "\u5B97",
+        "\u82D7",
+        "\u5DDD",
+        "\u7089",
+        "\u5CA9",
+        "\u5F31",
+        "\u96F6",
+        "\u6768",
+        "\u594F",
+        "\u6CBF",
+        "\u9732",
+        "\u6746",
+        "\u63A2",
+        "\u6ED1",
+        "\u9547",
+        "\u996D",
+        "\u6D53",
+        "\u822A",
+        "\u6000",
+        "\u8D76",
+        "\u5E93",
+        "\u593A",
+        "\u4F0A",
+        "\u7075",
+        "\u7A0E",
+        "\u9014",
+        "\u706D",
+        "\u8D5B",
+        "\u5F52",
+        "\u53EC",
+        "\u9F13",
+        "\u64AD",
+        "\u76D8",
+        "\u88C1",
+        "\u9669",
+        "\u5EB7",
+        "\u552F",
+        "\u5F55",
+        "\u83CC",
+        "\u7EAF",
+        "\u501F",
+        "\u7CD6",
+        "\u76D6",
+        "\u6A2A",
+        "\u7B26",
+        "\u79C1",
+        "\u52AA",
+        "\u5802",
+        "\u57DF",
+        "\u67AA",
+        "\u6DA6",
+        "\u5E45",
+        "\u54C8",
+        "\u7ADF",
+        "\u719F",
+        "\u866B",
+        "\u6CFD",
+        "\u8111",
+        "\u58E4",
+        "\u78B3",
+        "\u6B27",
+        "\u904D",
+        "\u4FA7",
+        "\u5BE8",
+        "\u6562",
+        "\u5F7B",
+        "\u8651",
+        "\u659C",
+        "\u8584",
+        "\u5EAD",
+        "\u7EB3",
+        "\u5F39",
+        "\u9972",
+        "\u4F38",
+        "\u6298",
+        "\u9EA6",
+        "\u6E7F",
+        "\u6697",
+        "\u8377",
+        "\u74E6",
+        "\u585E",
+        "\u5E8A",
+        "\u7B51",
+        "\u6076",
+        "\u6237",
+        "\u8BBF",
+        "\u5854",
+        "\u5947",
+        "\u900F",
+        "\u6881",
+        "\u5200",
+        "\u65CB",
+        "\u8FF9",
+        "\u5361",
+        "\u6C2F",
+        "\u9047",
+        "\u4EFD",
+        "\u6BD2",
+        "\u6CE5",
+        "\u9000",
+        "\u6D17",
+        "\u6446",
+        "\u7070",
+        "\u5F69",
+        "\u5356",
+        "\u8017",
+        "\u590F",
+        "\u62E9",
+        "\u5FD9",
+        "\u94DC",
+        "\u732E",
+        "\u786C",
+        "\u4E88",
+        "\u7E41",
+        "\u5708",
+        "\u96EA",
+        "\u51FD",
+        "\u4EA6",
+        "\u62BD",
+        "\u7BC7",
+        "\u9635",
+        "\u9634",
+        "\u4E01",
+        "\u5C3A",
+        "\u8FFD",
+        "\u5806",
+        "\u96C4",
+        "\u8FCE",
+        "\u6CDB",
+        "\u7238",
+        "\u697C",
+        "\u907F",
+        "\u8C0B",
+        "\u5428",
+        "\u91CE",
+        "\u732A",
+        "\u65D7",
+        "\u7D2F",
+        "\u504F",
+        "\u5178",
+        "\u9986",
+        "\u7D22",
+        "\u79E6",
+        "\u8102",
+        "\u6F6E",
+        "\u7237",
+        "\u8C46",
+        "\u5FFD",
+        "\u6258",
+        "\u60CA",
+        "\u5851",
+        "\u9057",
+        "\u6108",
+        "\u6731",
+        "\u66FF",
+        "\u7EA4",
+        "\u7C97",
+        "\u503E",
+        "\u5C1A",
+        "\u75DB",
+        "\u695A",
+        "\u8C22",
+        "\u594B",
+        "\u8D2D",
+        "\u78E8",
+        "\u541B",
+        "\u6C60",
+        "\u65C1",
+        "\u788E",
+        "\u9AA8",
+        "\u76D1",
+        "\u6355",
+        "\u5F1F",
+        "\u66B4",
+        "\u5272",
+        "\u8D2F",
+        "\u6B8A",
+        "\u91CA",
+        "\u8BCD",
+        "\u4EA1",
+        "\u58C1",
+        "\u987F",
+        "\u5B9D",
+        "\u5348",
+        "\u5C18",
+        "\u95FB",
+        "\u63ED",
+        "\u70AE",
+        "\u6B8B",
+        "\u51AC",
+        "\u6865",
+        "\u5987",
+        "\u8B66",
+        "\u7EFC",
+        "\u62DB",
+        "\u5434",
+        "\u4ED8",
+        "\u6D6E",
+        "\u906D",
+        "\u5F90",
+        "\u60A8",
+        "\u6447",
+        "\u8C37",
+        "\u8D5E",
+        "\u7BB1",
+        "\u9694",
+        "\u8BA2",
+        "\u7537",
+        "\u5439",
+        "\u56ED",
+        "\u7EB7",
+        "\u5510",
+        "\u8D25",
+        "\u5B8B",
+        "\u73BB",
+        "\u5DE8",
+        "\u8015",
+        "\u5766",
+        "\u8363",
+        "\u95ED",
+        "\u6E7E",
+        "\u952E",
+        "\u51E1",
+        "\u9A7B",
+        "\u9505",
+        "\u6551",
+        "\u6069",
+        "\u5265",
+        "\u51DD",
+        "\u78B1",
+        "\u9F7F",
+        "\u622A",
+        "\u70BC",
+        "\u9EBB",
+        "\u7EBA",
+        "\u7981",
+        "\u5E9F",
+        "\u76DB",
+        "\u7248",
+        "\u7F13",
+        "\u51C0",
+        "\u775B",
+        "\u660C",
+        "\u5A5A",
+        "\u6D89",
+        "\u7B52",
+        "\u5634",
+        "\u63D2",
+        "\u5CB8",
+        "\u6717",
+        "\u5E84",
+        "\u8857",
+        "\u85CF",
+        "\u59D1",
+        "\u8D38",
+        "\u8150",
+        "\u5974",
+        "\u5566",
+        "\u60EF",
+        "\u4E58",
+        "\u4F19",
+        "\u6062",
+        "\u5300",
+        "\u7EB1",
+        "\u624E",
+        "\u8FA9",
+        "\u8033",
+        "\u5F6A",
+        "\u81E3",
+        "\u4EBF",
+        "\u7483",
+        "\u62B5",
+        "\u8109",
+        "\u79C0",
+        "\u8428",
+        "\u4FC4",
+        "\u7F51",
+        "\u821E",
+        "\u5E97",
+        "\u55B7",
+        "\u7EB5",
+        "\u5BF8",
+        "\u6C57",
+        "\u6302",
+        "\u6D2A",
+        "\u8D3A",
+        "\u95EA",
+        "\u67EC",
+        "\u7206",
+        "\u70EF",
+        "\u6D25",
+        "\u7A3B",
+        "\u5899",
+        "\u8F6F",
+        "\u52C7",
+        "\u50CF",
+        "\u6EDA",
+        "\u5398",
+        "\u8499",
+        "\u82B3",
+        "\u80AF",
+        "\u5761",
+        "\u67F1",
+        "\u8361",
+        "\u817F",
+        "\u4EEA",
+        "\u65C5",
+        "\u5C3E",
+        "\u8F67",
+        "\u51B0",
+        "\u8D21",
+        "\u767B",
+        "\u9ECE",
+        "\u524A",
+        "\u94BB",
+        "\u52D2",
+        "\u9003",
+        "\u969C",
+        "\u6C28",
+        "\u90ED",
+        "\u5CF0",
+        "\u5E01",
+        "\u6E2F",
+        "\u4F0F",
+        "\u8F68",
+        "\u4EA9",
+        "\u6BD5",
+        "\u64E6",
+        "\u83AB",
+        "\u523A",
+        "\u6D6A",
+        "\u79D8",
+        "\u63F4",
+        "\u682A",
+        "\u5065",
+        "\u552E",
+        "\u80A1",
+        "\u5C9B",
+        "\u7518",
+        "\u6CE1",
+        "\u7761",
+        "\u7AE5",
+        "\u94F8",
+        "\u6C64",
+        "\u9600",
+        "\u4F11",
+        "\u6C47",
+        "\u820D",
+        "\u7267",
+        "\u7ED5",
+        "\u70B8",
+        "\u54F2",
+        "\u78F7",
+        "\u7EE9",
+        "\u670B",
+        "\u6DE1",
+        "\u5C16",
+        "\u542F",
+        "\u9677",
+        "\u67F4",
+        "\u5448",
+        "\u5F92",
+        "\u989C",
+        "\u6CEA",
+        "\u7A0D",
+        "\u5FD8",
+        "\u6CF5",
+        "\u84DD",
+        "\u62D6",
+        "\u6D1E",
+        "\u6388",
+        "\u955C",
+        "\u8F9B",
+        "\u58EE",
+        "\u950B",
+        "\u8D2B",
+        "\u865A",
+        "\u5F2F",
+        "\u6469",
+        "\u6CF0",
+        "\u5E7C",
+        "\u5EF7",
+        "\u5C0A",
+        "\u7A97",
+        "\u7EB2",
+        "\u5F04",
+        "\u96B6",
+        "\u7591",
+        "\u6C0F",
+        "\u5BAB",
+        "\u59D0",
+        "\u9707",
+        "\u745E",
+        "\u602A",
+        "\u5C24",
+        "\u7434",
+        "\u5FAA",
+        "\u63CF",
+        "\u819C",
+        "\u8FDD",
+        "\u5939",
+        "\u8170",
+        "\u7F18",
+        "\u73E0",
+        "\u7A77",
+        "\u68EE",
+        "\u679D",
+        "\u7AF9",
+        "\u6C9F",
+        "\u50AC",
+        "\u7EF3",
+        "\u5FC6",
+        "\u90A6",
+        "\u5269",
+        "\u5E78",
+        "\u6D46",
+        "\u680F",
+        "\u62E5",
+        "\u7259",
+        "\u8D2E",
+        "\u793C",
+        "\u6EE4",
+        "\u94A0",
+        "\u7EB9",
+        "\u7F62",
+        "\u62CD",
+        "\u54B1",
+        "\u558A",
+        "\u8896",
+        "\u57C3",
+        "\u52E4",
+        "\u7F5A",
+        "\u7126",
+        "\u6F5C",
+        "\u4F0D",
+        "\u58A8",
+        "\u6B32",
+        "\u7F1D",
+        "\u59D3",
+        "\u520A",
+        "\u9971",
+        "\u4EFF",
+        "\u5956",
+        "\u94DD",
+        "\u9B3C",
+        "\u4E3D",
+        "\u8DE8",
+        "\u9ED8",
+        "\u6316",
+        "\u94FE",
+        "\u626B",
+        "\u559D",
+        "\u888B",
+        "\u70AD",
+        "\u6C61",
+        "\u5E55",
+        "\u8BF8",
+        "\u5F27",
+        "\u52B1",
+        "\u6885",
+        "\u5976",
+        "\u6D01",
+        "\u707E",
+        "\u821F",
+        "\u9274",
+        "\u82EF",
+        "\u8BBC",
+        "\u62B1",
+        "\u6BC1",
+        "\u61C2",
+        "\u5BD2",
+        "\u667A",
+        "\u57D4",
+        "\u5BC4",
+        "\u5C4A",
+        "\u8DC3",
+        "\u6E21",
+        "\u6311",
+        "\u4E39",
+        "\u8270",
+        "\u8D1D",
+        "\u78B0",
+        "\u62D4",
+        "\u7239",
+        "\u6234",
+        "\u7801",
+        "\u68A6",
+        "\u82BD",
+        "\u7194",
+        "\u8D64",
+        "\u6E14",
+        "\u54ED",
+        "\u656C",
+        "\u9897",
+        "\u5954",
+        "\u94C5",
+        "\u4EF2",
+        "\u864E",
+        "\u7A00",
+        "\u59B9",
+        "\u4E4F",
+        "\u73CD",
+        "\u7533",
+        "\u684C",
+        "\u9075",
+        "\u5141",
+        "\u9686",
+        "\u87BA",
+        "\u4ED3",
+        "\u9B4F",
+        "\u9510",
+        "\u6653",
+        "\u6C2E",
+        "\u517C",
+        "\u9690",
+        "\u788D",
+        "\u8D6B",
+        "\u62E8",
+        "\u5FE0",
+        "\u8083",
+        "\u7F38",
+        "\u7275",
+        "\u62A2",
+        "\u535A",
+        "\u5DE7",
+        "\u58F3",
+        "\u5144",
+        "\u675C",
+        "\u8BAF",
+        "\u8BDA",
+        "\u78A7",
+        "\u7965",
+        "\u67EF",
+        "\u9875",
+        "\u5DE1",
+        "\u77E9",
+        "\u60B2",
+        "\u704C",
+        "\u9F84",
+        "\u4F26",
+        "\u7968",
+        "\u5BFB",
+        "\u6842",
+        "\u94FA",
+        "\u5723",
+        "\u6050",
+        "\u6070",
+        "\u90D1",
+        "\u8DA3",
+        "\u62AC",
+        "\u8352",
+        "\u817E",
+        "\u8D34",
+        "\u67D4",
+        "\u6EF4",
+        "\u731B",
+        "\u9614",
+        "\u8F86",
+        "\u59BB",
+        "\u586B",
+        "\u64A4",
+        "\u50A8",
+        "\u7B7E",
+        "\u95F9",
+        "\u6270",
+        "\u7D2B",
+        "\u7802",
+        "\u9012",
+        "\u620F",
+        "\u540A",
+        "\u9676",
+        "\u4F10",
+        "\u5582",
+        "\u7597",
+        "\u74F6",
+        "\u5A46",
+        "\u629A",
+        "\u81C2",
+        "\u6478",
+        "\u5FCD",
+        "\u867E",
+        "\u8721",
+        "\u90BB",
+        "\u80F8",
+        "\u5DE9",
+        "\u6324",
+        "\u5076",
+        "\u5F03",
+        "\u69FD",
+        "\u52B2",
+        "\u4E73",
+        "\u9093",
+        "\u5409",
+        "\u4EC1",
+        "\u70C2",
+        "\u7816",
+        "\u79DF",
+        "\u4E4C",
+        "\u8230",
+        "\u4F34",
+        "\u74DC",
+        "\u6D45",
+        "\u4E19",
+        "\u6682",
+        "\u71E5",
+        "\u6A61",
+        "\u67F3",
+        "\u8FF7",
+        "\u6696",
+        "\u724C",
+        "\u79E7",
+        "\u80C6",
+        "\u8BE6",
+        "\u7C27",
+        "\u8E0F",
+        "\u74F7",
+        "\u8C31",
+        "\u5446",
+        "\u5BBE",
+        "\u7CCA",
+        "\u6D1B",
+        "\u8F89",
+        "\u6124",
+        "\u7ADE",
+        "\u9699",
+        "\u6012",
+        "\u7C98",
+        "\u4E43",
+        "\u7EEA",
+        "\u80A9",
+        "\u7C4D",
+        "\u654F",
+        "\u6D82",
+        "\u7199",
+        "\u7686",
+        "\u4FA6",
+        "\u60AC",
+        "\u6398",
+        "\u4EAB",
+        "\u7EA0",
+        "\u9192",
+        "\u72C2",
+        "\u9501",
+        "\u6DC0",
+        "\u6068",
+        "\u7272",
+        "\u9738",
+        "\u722C",
+        "\u8D4F",
+        "\u9006",
+        "\u73A9",
+        "\u9675",
+        "\u795D",
+        "\u79D2",
+        "\u6D59",
+        "\u8C8C"
+      ]
+    },
+    dutch: {
+      prefix: 4,
+      words: [
+        "aalglad",
+        "aalscholver",
+        "aambeeld",
+        "aangeef",
+        "aanlandig",
+        "aanvaard",
+        "aanwakker",
+        "aapmens",
+        "aarten",
+        "abdicatie",
+        "abnormaal",
+        "abrikoos",
+        "accu",
+        "acuut",
+        "adjudant",
+        "admiraal",
+        "advies",
+        "afbidding",
+        "afdracht",
+        "affaire",
+        "affiche",
+        "afgang",
+        "afkick",
+        "afknap",
+        "aflees",
+        "afmijner",
+        "afname",
+        "afpreekt",
+        "afrader",
+        "afspeel",
+        "aftocht",
+        "aftrek",
+        "afzijdig",
+        "ahornboom",
+        "aktetas",
+        "akzo",
+        "alchemist",
+        "alcohol",
+        "aldaar",
+        "alexander",
+        "alfabet",
+        "alfredo",
+        "alice",
+        "alikruik",
+        "allrisk",
+        "altsax",
+        "alufolie",
+        "alziend",
+        "amai",
+        "ambacht",
+        "ambieer",
+        "amina",
+        "amnestie",
+        "amok",
+        "ampul",
+        "amuzikaal",
+        "angela",
+        "aniek",
+        "antje",
+        "antwerpen",
+        "anya",
+        "aorta",
+        "apache",
+        "apekool",
+        "appelaar",
+        "arganolie",
+        "argeloos",
+        "armoede",
+        "arrenslee",
+        "artritis",
+        "arubaan",
+        "asbak",
+        "ascii",
+        "asgrauw",
+        "asjes",
+        "asml",
+        "aspunt",
+        "asurn",
+        "asveld",
+        "aterling",
+        "atomair",
+        "atrium",
+        "atsma",
+        "atypisch",
+        "auping",
+        "aura",
+        "avifauna",
+        "axiaal",
+        "azoriaan",
+        "azteek",
+        "azuur",
+        "bachelor",
+        "badderen",
+        "badhotel",
+        "badmantel",
+        "badsteden",
+        "balie",
+        "ballans",
+        "balvers",
+        "bamibal",
+        "banneling",
+        "barracuda",
+        "basaal",
+        "batelaan",
+        "batje",
+        "beambte",
+        "bedlamp",
+        "bedwelmd",
+        "befaamd",
+        "begierd",
+        "begraaf",
+        "behield",
+        "beijaard",
+        "bejaagd",
+        "bekaaid",
+        "beks",
+        "bektas",
+        "belaad",
+        "belboei",
+        "belderbos",
+        "beloerd",
+        "beluchten",
+        "bemiddeld",
+        "benadeeld",
+        "benijd",
+        "berechten",
+        "beroemd",
+        "besef",
+        "besseling",
+        "best",
+        "betichten",
+        "bevind",
+        "bevochten",
+        "bevraagd",
+        "bewust",
+        "bidplaats",
+        "biefstuk",
+        "biemans",
+        "biezen",
+        "bijbaan",
+        "bijeenkom",
+        "bijfiguur",
+        "bijkaart",
+        "bijlage",
+        "bijpaard",
+        "bijtgaar",
+        "bijweg",
+        "bimmel",
+        "binck",
+        "bint",
+        "biobak",
+        "biotisch",
+        "biseks",
+        "bistro",
+        "bitter",
+        "bitumen",
+        "bizar",
+        "blad",
+        "bleken",
+        "blender",
+        "bleu",
+        "blief",
+        "blijven",
+        "blozen",
+        "bock",
+        "boef",
+        "boei",
+        "boks",
+        "bolder",
+        "bolus",
+        "bolvormig",
+        "bomaanval",
+        "bombarde",
+        "bomma",
+        "bomtapijt",
+        "bookmaker",
+        "boos",
+        "borg",
+        "bosbes",
+        "boshuizen",
+        "bosloop",
+        "botanicus",
+        "bougie",
+        "bovag",
+        "boxspring",
+        "braad",
+        "brasem",
+        "brevet",
+        "brigade",
+        "brinckman",
+        "bruid",
+        "budget",
+        "buffel",
+        "buks",
+        "bulgaar",
+        "buma",
+        "butaan",
+        "butler",
+        "buuf",
+        "cactus",
+        "cafeetje",
+        "camcorder",
+        "cannabis",
+        "canyon",
+        "capoeira",
+        "capsule",
+        "carkit",
+        "casanova",
+        "catalaan",
+        "ceintuur",
+        "celdeling",
+        "celplasma",
+        "cement",
+        "censeren",
+        "ceramisch",
+        "cerberus",
+        "cerebraal",
+        "cesium",
+        "cirkel",
+        "citeer",
+        "civiel",
+        "claxon",
+        "clenbuterol",
+        "clicheren",
+        "clijsen",
+        "coalitie",
+        "coassistentschap",
+        "coaxiaal",
+        "codetaal",
+        "cofinanciering",
+        "cognac",
+        "coltrui",
+        "comfort",
+        "commandant",
+        "condensaat",
+        "confectie",
+        "conifeer",
+        "convector",
+        "copier",
+        "corfu",
+        "correct",
+        "coup",
+        "couvert",
+        "creatie",
+        "credit",
+        "crematie",
+        "cricket",
+        "croupier",
+        "cruciaal",
+        "cruijff",
+        "cuisine",
+        "culemborg",
+        "culinair",
+        "curve",
+        "cyrano",
+        "dactylus",
+        "dading",
+        "dagblind",
+        "dagje",
+        "daglicht",
+        "dagprijs",
+        "dagranden",
+        "dakdekker",
+        "dakpark",
+        "dakterras",
+        "dalgrond",
+        "dambord",
+        "damkat",
+        "damlengte",
+        "damman",
+        "danenberg",
+        "debbie",
+        "decibel",
+        "defect",
+        "deformeer",
+        "degelijk",
+        "degradant",
+        "dejonghe",
+        "dekken",
+        "deppen",
+        "derek",
+        "derf",
+        "derhalve",
+        "detineren",
+        "devalueer",
+        "diaken",
+        "dicht",
+        "dictaat",
+        "dief",
+        "digitaal",
+        "dijbreuk",
+        "dijkmans",
+        "dimbaar",
+        "dinsdag",
+        "diode",
+        "dirigeer",
+        "disbalans",
+        "dobermann",
+        "doenbaar",
+        "doerak",
+        "dogma",
+        "dokhaven",
+        "dokwerker",
+        "doling",
+        "dolphijn",
+        "dolven",
+        "dombo",
+        "dooraderd",
+        "dopeling",
+        "doping",
+        "draderig",
+        "drama",
+        "drenkbak",
+        "dreumes",
+        "drol",
+        "drug",
+        "duaal",
+        "dublin",
+        "duplicaat",
+        "durven",
+        "dusdanig",
+        "dutchbat",
+        "dutje",
+        "dutten",
+        "duur",
+        "duwwerk",
+        "dwaal",
+        "dweil",
+        "dwing",
+        "dyslexie",
+        "ecostroom",
+        "ecotaks",
+        "educatie",
+        "eeckhout",
+        "eede",
+        "eemland",
+        "eencellig",
+        "eeneiig",
+        "eenruiter",
+        "eenwinter",
+        "eerenberg",
+        "eerrover",
+        "eersel",
+        "eetmaal",
+        "efteling",
+        "egaal",
+        "egtberts",
+        "eickhoff",
+        "eidooier",
+        "eiland",
+        "eind",
+        "eisden",
+        "ekster",
+        "elburg",
+        "elevatie",
+        "elfkoppig",
+        "elfrink",
+        "elftal",
+        "elimineer",
+        "elleboog",
+        "elma",
+        "elodie",
+        "elsa",
+        "embleem",
+        "embolie",
+        "emoe",
+        "emonds",
+        "emplooi",
+        "enduro",
+        "enfin",
+        "engageer",
+        "entourage",
+        "entstof",
+        "epileer",
+        "episch",
+        "eppo",
+        "erasmus",
+        "erboven",
+        "erebaan",
+        "erelijst",
+        "ereronden",
+        "ereteken",
+        "erfhuis",
+        "erfwet",
+        "erger",
+        "erica",
+        "ermitage",
+        "erna",
+        "ernie",
+        "erts",
+        "ertussen",
+        "eruitzien",
+        "ervaar",
+        "erven",
+        "erwt",
+        "esbeek",
+        "escort",
+        "esdoorn",
+        "essing",
+        "etage",
+        "eter",
+        "ethanol",
+        "ethicus",
+        "etholoog",
+        "eufonisch",
+        "eurocent",
+        "evacuatie",
+        "exact",
+        "examen",
+        "executant",
+        "exen",
+        "exit",
+        "exogeen",
+        "exotherm",
+        "expeditie",
+        "expletief",
+        "expres",
+        "extase",
+        "extinctie",
+        "faal",
+        "faam",
+        "fabel",
+        "facultair",
+        "fakir",
+        "fakkel",
+        "faliekant",
+        "fallisch",
+        "famke",
+        "fanclub",
+        "fase",
+        "fatsoen",
+        "fauna",
+        "federaal",
+        "feedback",
+        "feest",
+        "feilbaar",
+        "feitelijk",
+        "felblauw",
+        "figurante",
+        "fiod",
+        "fitheid",
+        "fixeer",
+        "flap",
+        "fleece",
+        "fleur",
+        "flexibel",
+        "flits",
+        "flos",
+        "flow",
+        "fluweel",
+        "foezelen",
+        "fokkelman",
+        "fokpaard",
+        "fokvee",
+        "folder",
+        "follikel",
+        "folmer",
+        "folteraar",
+        "fooi",
+        "foolen",
+        "forfait",
+        "forint",
+        "formule",
+        "fornuis",
+        "fosfaat",
+        "foxtrot",
+        "foyer",
+        "fragiel",
+        "frater",
+        "freak",
+        "freddie",
+        "fregat",
+        "freon",
+        "frijnen",
+        "fructose",
+        "frunniken",
+        "fuiven",
+        "funshop",
+        "furieus",
+        "fysica",
+        "gadget",
+        "galder",
+        "galei",
+        "galg",
+        "galvlieg",
+        "galzuur",
+        "ganesh",
+        "gaswet",
+        "gaza",
+        "gazelle",
+        "geaaid",
+        "gebiecht",
+        "gebufferd",
+        "gedijd",
+        "geef",
+        "geflanst",
+        "gefreesd",
+        "gegaan",
+        "gegijzeld",
+        "gegniffel",
+        "gegraaid",
+        "gehikt",
+        "gehobbeld",
+        "gehucht",
+        "geiser",
+        "geiten",
+        "gekaakt",
+        "gekheid",
+        "gekijf",
+        "gekmakend",
+        "gekocht",
+        "gekskap",
+        "gekte",
+        "gelubberd",
+        "gemiddeld",
+        "geordend",
+        "gepoederd",
+        "gepuft",
+        "gerda",
+        "gerijpt",
+        "geseald",
+        "geshockt",
+        "gesierd",
+        "geslaagd",
+        "gesnaaid",
+        "getracht",
+        "getwijfel",
+        "geuit",
+        "gevecht",
+        "gevlagd",
+        "gewicht",
+        "gezaagd",
+        "gezocht",
+        "ghanees",
+        "giebelen",
+        "giechel",
+        "giepmans",
+        "gips",
+        "giraal",
+        "gistachtig",
+        "gitaar",
+        "glaasje",
+        "gletsjer",
+        "gleuf",
+        "glibberen",
+        "glijbaan",
+        "gloren",
+        "gluipen",
+        "gluren",
+        "gluur",
+        "gnoe",
+        "goddelijk",
+        "godgans",
+        "godschalk",
+        "godzalig",
+        "goeierd",
+        "gogme",
+        "goklustig",
+        "gokwereld",
+        "gonggrijp",
+        "gonje",
+        "goor",
+        "grabbel",
+        "graf",
+        "graveer",
+        "grif",
+        "grolleman",
+        "grom",
+        "groosman",
+        "grubben",
+        "gruijs",
+        "grut",
+        "guacamole",
+        "guido",
+        "guppy",
+        "haazen",
+        "hachelijk",
+        "haex",
+        "haiku",
+        "hakhout",
+        "hakken",
+        "hanegem",
+        "hans",
+        "hanteer",
+        "harrie",
+        "hazebroek",
+        "hedonist",
+        "heil",
+        "heineken",
+        "hekhuis",
+        "hekman",
+        "helbig",
+        "helga",
+        "helwegen",
+        "hengelaar",
+        "herkansen",
+        "hermafrodiet",
+        "hertaald",
+        "hiaat",
+        "hikspoors",
+        "hitachi",
+        "hitparade",
+        "hobo",
+        "hoeve",
+        "holocaust",
+        "hond",
+        "honnepon",
+        "hoogacht",
+        "hotelbed",
+        "hufter",
+        "hugo",
+        "huilbier",
+        "hulk",
+        "humus",
+        "huwbaar",
+        "huwelijk",
+        "hype",
+        "iconisch",
+        "idema",
+        "ideogram",
+        "idolaat",
+        "ietje",
+        "ijker",
+        "ijkheid",
+        "ijklijn",
+        "ijkmaat",
+        "ijkwezen",
+        "ijmuiden",
+        "ijsbox",
+        "ijsdag",
+        "ijselijk",
+        "ijskoud",
+        "ilse",
+        "immuun",
+        "impliceer",
+        "impuls",
+        "inbijten",
+        "inbuigen",
+        "indijken",
+        "induceer",
+        "indy",
+        "infecteer",
+        "inhaak",
+        "inkijk",
+        "inluiden",
+        "inmijnen",
+        "inoefenen",
+        "inpolder",
+        "inrijden",
+        "inslaan",
+        "invitatie",
+        "inwaaien",
+        "ionisch",
+        "isaac",
+        "isolatie",
+        "isotherm",
+        "isra",
+        "italiaan",
+        "ivoor",
+        "jacobs",
+        "jakob",
+        "jammen",
+        "jampot",
+        "jarig",
+        "jehova",
+        "jenever",
+        "jezus",
+        "joana",
+        "jobdienst",
+        "josua",
+        "joule",
+        "juich",
+        "jurk",
+        "juut",
+        "kaas",
+        "kabelaar",
+        "kabinet",
+        "kagenaar",
+        "kajuit",
+        "kalebas",
+        "kalm",
+        "kanjer",
+        "kapucijn",
+        "karregat",
+        "kart",
+        "katvanger",
+        "katwijk",
+        "kegelaar",
+        "keiachtig",
+        "keizer",
+        "kenletter",
+        "kerdijk",
+        "keus",
+        "kevlar",
+        "kezen",
+        "kickback",
+        "kieviet",
+        "kijken",
+        "kikvors",
+        "kilheid",
+        "kilobit",
+        "kilsdonk",
+        "kipschnitzel",
+        "kissebis",
+        "klad",
+        "klagelijk",
+        "klak",
+        "klapbaar",
+        "klaver",
+        "klene",
+        "klets",
+        "klijnhout",
+        "klit",
+        "klok",
+        "klonen",
+        "klotefilm",
+        "kluif",
+        "klumper",
+        "klus",
+        "knabbel",
+        "knagen",
+        "knaven",
+        "kneedbaar",
+        "knmi",
+        "knul",
+        "knus",
+        "kokhals",
+        "komiek",
+        "komkommer",
+        "kompaan",
+        "komrij",
+        "komvormig",
+        "koning",
+        "kopbal",
+        "kopklep",
+        "kopnagel",
+        "koppejan",
+        "koptekst",
+        "kopwand",
+        "koraal",
+        "kosmisch",
+        "kostbaar",
+        "kram",
+        "kraneveld",
+        "kras",
+        "kreling",
+        "krengen",
+        "kribbe",
+        "krik",
+        "kruid",
+        "krulbol",
+        "kuijper",
+        "kuipbank",
+        "kuit",
+        "kuiven",
+        "kutsmoes",
+        "kuub",
+        "kwak",
+        "kwatong",
+        "kwetsbaar",
+        "kwezelaar",
+        "kwijnen",
+        "kwik",
+        "kwinkslag",
+        "kwitantie",
+        "lading",
+        "lakbeits",
+        "lakken",
+        "laklaag",
+        "lakmoes",
+        "lakwijk",
+        "lamheid",
+        "lamp",
+        "lamsbout",
+        "lapmiddel",
+        "larve",
+        "laser",
+        "latijn",
+        "latuw",
+        "lawaai",
+        "laxeerpil",
+        "lebberen",
+        "ledeboer",
+        "leefbaar",
+        "leeman",
+        "lefdoekje",
+        "lefhebber",
+        "legboor",
+        "legsel",
+        "leguaan",
+        "leiplaat",
+        "lekdicht",
+        "lekrijden",
+        "leksteen",
+        "lenen",
+        "leraar",
+        "lesbienne",
+        "leugenaar",
+        "leut",
+        "lexicaal",
+        "lezing",
+        "lieten",
+        "liggeld",
+        "lijdzaam",
+        "lijk",
+        "lijmstang",
+        "lijnschip",
+        "likdoorn",
+        "likken",
+        "liksteen",
+        "limburg",
+        "link",
+        "linoleum",
+        "lipbloem",
+        "lipman",
+        "lispelen",
+        "lissabon",
+        "litanie",
+        "liturgie",
+        "lochem",
+        "loempia",
+        "loesje",
+        "logheid",
+        "lonen",
+        "lonneke",
+        "loom",
+        "loos",
+        "losbaar",
+        "loslaten",
+        "losplaats",
+        "loting",
+        "lotnummer",
+        "lots",
+        "louie",
+        "lourdes",
+        "louter",
+        "lowbudget",
+        "luijten",
+        "luikenaar",
+        "luilak",
+        "luipaard",
+        "luizenbos",
+        "lulkoek",
+        "lumen",
+        "lunzen",
+        "lurven",
+        "lutjeboer",
+        "luttel",
+        "lutz",
+        "luuk",
+        "luwte",
+        "luyendijk",
+        "lyceum",
+        "lynx",
+        "maakbaar",
+        "magdalena",
+        "malheid",
+        "manchet",
+        "manfred",
+        "manhaftig",
+        "mank",
+        "mantel",
+        "marion",
+        "marxist",
+        "masmeijer",
+        "massaal",
+        "matsen",
+        "matverf",
+        "matze",
+        "maude",
+        "mayonaise",
+        "mechanica",
+        "meifeest",
+        "melodie",
+        "meppelink",
+        "midvoor",
+        "midweeks",
+        "midzomer",
+        "miezel",
+        "mijnraad",
+        "minus",
+        "mirck",
+        "mirte",
+        "mispakken",
+        "misraden",
+        "miswassen",
+        "mitella",
+        "moker",
+        "molecule",
+        "mombakkes",
+        "moonen",
+        "mopperaar",
+        "moraal",
+        "morgana",
+        "mormel",
+        "mosselaar",
+        "motregen",
+        "mouw",
+        "mufheid",
+        "mutueel",
+        "muzelman",
+        "naaidoos",
+        "naald",
+        "nadeel",
+        "nadruk",
+        "nagy",
+        "nahon",
+        "naima",
+        "nairobi",
+        "napalm",
+        "napels",
+        "napijn",
+        "napoleon",
+        "narigheid",
+        "narratief",
+        "naseizoen",
+        "nasibal",
+        "navigatie",
+        "nawijn",
+        "negatief",
+        "nekletsel",
+        "nekwervel",
+        "neolatijn",
+        "neonataal",
+        "neptunus",
+        "nerd",
+        "nest",
+        "neuzelaar",
+        "nihiliste",
+        "nijenhuis",
+        "nijging",
+        "nijhoff",
+        "nijl",
+        "nijptang",
+        "nippel",
+        "nokkenas",
+        "noordam",
+        "noren",
+        "normaal",
+        "nottelman",
+        "notulant",
+        "nout",
+        "nuance",
+        "nuchter",
+        "nudorp",
+        "nulde",
+        "nullijn",
+        "nulmeting",
+        "nunspeet",
+        "nylon",
+        "obelisk",
+        "object",
+        "oblie",
+        "obsceen",
+        "occlusie",
+        "oceaan",
+        "ochtend",
+        "ockhuizen",
+        "oerdom",
+        "oergezond",
+        "oerlaag",
+        "oester",
+        "okhuijsen",
+        "olifant",
+        "olijfboer",
+        "omaans",
+        "ombudsman",
+        "omdat",
+        "omdijken",
+        "omdoen",
+        "omgebouwd",
+        "omkeer",
+        "omkomen",
+        "ommegaand",
+        "ommuren",
+        "omroep",
+        "omruil",
+        "omslaan",
+        "omsmeden",
+        "omvaar",
+        "onaardig",
+        "onedel",
+        "onenig",
+        "onheilig",
+        "onrecht",
+        "onroerend",
+        "ontcijfer",
+        "onthaal",
+        "ontvallen",
+        "ontzadeld",
+        "onzacht",
+        "onzin",
+        "onzuiver",
+        "oogappel",
+        "ooibos",
+        "ooievaar",
+        "ooit",
+        "oorarts",
+        "oorhanger",
+        "oorijzer",
+        "oorklep",
+        "oorschelp",
+        "oorworm",
+        "oorzaak",
+        "opdagen",
+        "opdien",
+        "opdweilen",
+        "opel",
+        "opgebaard",
+        "opinie",
+        "opjutten",
+        "opkijken",
+        "opklaar",
+        "opkuisen",
+        "opkwam",
+        "opnaaien",
+        "opossum",
+        "opsieren",
+        "opsmeer",
+        "optreden",
+        "opvijzel",
+        "opvlammen",
+        "opwind",
+        "oraal",
+        "orchidee",
+        "orkest",
+        "ossuarium",
+        "ostendorf",
+        "oublie",
+        "oudachtig",
+        "oudbakken",
+        "oudnoors",
+        "oudshoorn",
+        "oudtante",
+        "oven",
+        "over",
+        "oxidant",
+        "pablo",
+        "pacht",
+        "paktafel",
+        "pakzadel",
+        "paljas",
+        "panharing",
+        "papfles",
+        "paprika",
+        "parochie",
+        "paus",
+        "pauze",
+        "paviljoen",
+        "peek",
+        "pegel",
+        "peigeren",
+        "pekela",
+        "pendant",
+        "penibel",
+        "pepmiddel",
+        "peptalk",
+        "periferie",
+        "perron",
+        "pessarium",
+        "peter",
+        "petfles",
+        "petgat",
+        "peuk",
+        "pfeifer",
+        "picknick",
+        "pief",
+        "pieneman",
+        "pijlkruid",
+        "pijnacker",
+        "pijpelink",
+        "pikdonker",
+        "pikeer",
+        "pilaar",
+        "pionier",
+        "pipet",
+        "piscine",
+        "pissebed",
+        "pitchen",
+        "pixel",
+        "plamuren",
+        "plan",
+        "plausibel",
+        "plegen",
+        "plempen",
+        "pleonasme",
+        "plezant",
+        "podoloog",
+        "pofmouw",
+        "pokdalig",
+        "ponywagen",
+        "popachtig",
+        "popidool",
+        "porren",
+        "positie",
+        "potten",
+        "pralen",
+        "prezen",
+        "prijzen",
+        "privaat",
+        "proef",
+        "prooi",
+        "prozawerk",
+        "pruik",
+        "prul",
+        "publiceer",
+        "puck",
+        "puilen",
+        "pukkelig",
+        "pulveren",
+        "pupil",
+        "puppy",
+        "purmerend",
+        "pustjens",
+        "putemmer",
+        "puzzelaar",
+        "queenie",
+        "quiche",
+        "raam",
+        "raar",
+        "raat",
+        "raes",
+        "ralf",
+        "rally",
+        "ramona",
+        "ramselaar",
+        "ranonkel",
+        "rapen",
+        "rapunzel",
+        "rarekiek",
+        "rarigheid",
+        "rattenhol",
+        "ravage",
+        "reactie",
+        "recreant",
+        "redacteur",
+        "redster",
+        "reewild",
+        "regie",
+        "reijnders",
+        "rein",
+        "replica",
+        "revanche",
+        "rigide",
+        "rijbaan",
+        "rijdansen",
+        "rijgen",
+        "rijkdom",
+        "rijles",
+        "rijnwijn",
+        "rijpma",
+        "rijstafel",
+        "rijtaak",
+        "rijzwepen",
+        "rioleer",
+        "ripdeal",
+        "riphagen",
+        "riskant",
+        "rits",
+        "rivaal",
+        "robbedoes",
+        "robot",
+        "rockact",
+        "rodijk",
+        "rogier",
+        "rohypnol",
+        "rollaag",
+        "rolpaal",
+        "roltafel",
+        "roof",
+        "roon",
+        "roppen",
+        "rosbief",
+        "rosharig",
+        "rosielle",
+        "rotan",
+        "rotleven",
+        "rotten",
+        "rotvaart",
+        "royaal",
+        "royeer",
+        "rubato",
+        "ruby",
+        "ruche",
+        "rudge",
+        "ruggetje",
+        "rugnummer",
+        "rugpijn",
+        "rugtitel",
+        "rugzak",
+        "ruilbaar",
+        "ruis",
+        "ruit",
+        "rukwind",
+        "rulijs",
+        "rumoeren",
+        "rumsdorp",
+        "rumtaart",
+        "runnen",
+        "russchen",
+        "ruwkruid",
+        "saboteer",
+        "saksisch",
+        "salade",
+        "salpeter",
+        "sambabal",
+        "samsam",
+        "satelliet",
+        "satineer",
+        "saus",
+        "scampi",
+        "scarabee",
+        "scenario",
+        "schobben",
+        "schubben",
+        "scout",
+        "secessie",
+        "secondair",
+        "seculair",
+        "sediment",
+        "seeland",
+        "settelen",
+        "setwinst",
+        "sheriff",
+        "shiatsu",
+        "siciliaan",
+        "sidderaal",
+        "sigma",
+        "sijben",
+        "silvana",
+        "simkaart",
+        "sinds",
+        "situatie",
+        "sjaak",
+        "sjardijn",
+        "sjezen",
+        "sjor",
+        "skinhead",
+        "skylab",
+        "slamixen",
+        "sleijpen",
+        "slijkerig",
+        "slordig",
+        "slowaak",
+        "sluieren",
+        "smadelijk",
+        "smiecht",
+        "smoel",
+        "smos",
+        "smukken",
+        "snackcar",
+        "snavel",
+        "sneaker",
+        "sneu",
+        "snijdbaar",
+        "snit",
+        "snorder",
+        "soapbox",
+        "soetekouw",
+        "soigneren",
+        "sojaboon",
+        "solo",
+        "solvabel",
+        "somber",
+        "sommatie",
+        "soort",
+        "soppen",
+        "sopraan",
+        "soundbar",
+        "spanen",
+        "spawater",
+        "spijgat",
+        "spinaal",
+        "spionage",
+        "spiraal",
+        "spleet",
+        "splijt",
+        "spoed",
+        "sporen",
+        "spul",
+        "spuug",
+        "spuw",
+        "stalen",
+        "standaard",
+        "star",
+        "stefan",
+        "stencil",
+        "stijf",
+        "stil",
+        "stip",
+        "stopdas",
+        "stoten",
+        "stoven",
+        "straat",
+        "strobbe",
+        "strubbel",
+        "stucadoor",
+        "stuif",
+        "stukadoor",
+        "subhoofd",
+        "subregent",
+        "sudoku",
+        "sukade",
+        "sulfaat",
+        "surinaams",
+        "suus",
+        "syfilis",
+        "symboliek",
+        "sympathie",
+        "synagoge",
+        "synchroon",
+        "synergie",
+        "systeem",
+        "taanderij",
+        "tabak",
+        "tachtig",
+        "tackelen",
+        "taiwanees",
+        "talman",
+        "tamheid",
+        "tangaslip",
+        "taps",
+        "tarkan",
+        "tarwe",
+        "tasman",
+        "tatjana",
+        "taxameter",
+        "teil",
+        "teisman",
+        "telbaar",
+        "telco",
+        "telganger",
+        "telstar",
+        "tenant",
+        "tepel",
+        "terzet",
+        "testament",
+        "ticket",
+        "tiesinga",
+        "tijdelijk",
+        "tika",
+        "tiksel",
+        "tilleman",
+        "timbaal",
+        "tinsteen",
+        "tiplijn",
+        "tippelaar",
+        "tjirpen",
+        "toezeggen",
+        "tolbaas",
+        "tolgeld",
+        "tolhek",
+        "tolo",
+        "tolpoort",
+        "toltarief",
+        "tolvrij",
+        "tomaat",
+        "tondeuse",
+        "toog",
+        "tooi",
+        "toonbaar",
+        "toos",
+        "topclub",
+        "toppen",
+        "toptalent",
+        "topvrouw",
+        "toque",
+        "torment",
+        "tornado",
+        "tosti",
+        "totdat",
+        "toucheer",
+        "toulouse",
+        "tournedos",
+        "tout",
+        "trabant",
+        "tragedie",
+        "trailer",
+        "traject",
+        "traktaat",
+        "trauma",
+        "tray",
+        "trechter",
+        "tred",
+        "tref",
+        "treur",
+        "troebel",
+        "tros",
+        "trucage",
+        "truffel",
+        "tsaar",
+        "tucht",
+        "tuenter",
+        "tuitelig",
+        "tukje",
+        "tuktuk",
+        "tulp",
+        "tuma",
+        "tureluurs",
+        "twijfel",
+        "twitteren",
+        "tyfoon",
+        "typograaf",
+        "ugandees",
+        "uiachtig",
+        "uier",
+        "uisnipper",
+        "ultiem",
+        "unitair",
+        "uranium",
+        "urbaan",
+        "urendag",
+        "ursula",
+        "uurcirkel",
+        "uurglas",
+        "uzelf",
+        "vaat",
+        "vakantie",
+        "vakleraar",
+        "valbijl",
+        "valpartij",
+        "valreep",
+        "valuatie",
+        "vanmiddag",
+        "vanonder",
+        "varaan",
+        "varken",
+        "vaten",
+        "veenbes",
+        "veeteler",
+        "velgrem",
+        "vellekoop",
+        "velvet",
+        "veneberg",
+        "venlo",
+        "vent",
+        "venusberg",
+        "venw",
+        "veredeld",
+        "verf",
+        "verhaaf",
+        "vermaak",
+        "vernaaid",
+        "verraad",
+        "vers",
+        "veruit",
+        "verzaagd",
+        "vetachtig",
+        "vetlok",
+        "vetmesten",
+        "veto",
+        "vetrek",
+        "vetstaart",
+        "vetten",
+        "veurink",
+        "viaduct",
+        "vibrafoon",
+        "vicariaat",
+        "vieux",
+        "vieveen",
+        "vijfvoud",
+        "villa",
+        "vilt",
+        "vimmetje",
+        "vindbaar",
+        "vips",
+        "virtueel",
+        "visdieven",
+        "visee",
+        "visie",
+        "vlaag",
+        "vleugel",
+        "vmbo",
+        "vocht",
+        "voesenek",
+        "voicemail",
+        "voip",
+        "volg",
+        "vork",
+        "vorselaar",
+        "voyeur",
+        "vracht",
+        "vrekkig",
+        "vreten",
+        "vrije",
+        "vrozen",
+        "vrucht",
+        "vucht",
+        "vugt",
+        "vulkaan",
+        "vulmiddel",
+        "vulva",
+        "vuren",
+        "waas",
+        "wacht",
+        "wadvogel",
+        "wafel",
+        "waffel",
+        "walhalla",
+        "walnoot",
+        "walraven",
+        "wals",
+        "walvis",
+        "wandaad",
+        "wanen",
+        "wanmolen",
+        "want",
+        "warklomp",
+        "warm",
+        "wasachtig",
+        "wasteil",
+        "watt",
+        "webhandel",
+        "weblog",
+        "webpagina",
+        "webzine",
+        "wedereis",
+        "wedstrijd",
+        "weeda",
+        "weert",
+        "wegmaaien",
+        "wegscheer",
+        "wekelijks",
+        "wekken",
+        "wekroep",
+        "wektoon",
+        "weldaad",
+        "welwater",
+        "wendbaar",
+        "wenkbrauw",
+        "wens",
+        "wentelaar",
+        "wervel",
+        "wesseling",
+        "wetboek",
+        "wetmatig",
+        "whirlpool",
+        "wijbrands",
+        "wijdbeens",
+        "wijk",
+        "wijnbes",
+        "wijting",
+        "wild",
+        "wimpelen",
+        "wingebied",
+        "winplaats",
+        "winter",
+        "winzucht",
+        "wipstaart",
+        "wisgerhof",
+        "withaar",
+        "witmaker",
+        "wokkel",
+        "wolf",
+        "wonenden",
+        "woning",
+        "worden",
+        "worp",
+        "wortel",
+        "wrat",
+        "wrijf",
+        "wringen",
+        "yoghurt",
+        "ypsilon",
+        "zaaijer",
+        "zaak",
+        "zacharias",
+        "zakelijk",
+        "zakkam",
+        "zakwater",
+        "zalf",
+        "zalig",
+        "zaniken",
+        "zebracode",
+        "zeeblauw",
+        "zeef",
+        "zeegaand",
+        "zeeuw",
+        "zege",
+        "zegje",
+        "zeil",
+        "zesbaans",
+        "zesenhalf",
+        "zeskantig",
+        "zesmaal",
+        "zetbaas",
+        "zetpil",
+        "zeulen",
+        "ziezo",
+        "zigzag",
+        "zijaltaar",
+        "zijbeuk",
+        "zijlijn",
+        "zijmuur",
+        "zijn",
+        "zijwaarts",
+        "zijzelf",
+        "zilt",
+        "zimmerman",
+        "zinledig",
+        "zinnelijk",
+        "zionist",
+        "zitdag",
+        "zitruimte",
+        "zitzak",
+        "zoal",
+        "zodoende",
+        "zoekbots",
+        "zoem",
+        "zoiets",
+        "zojuist",
+        "zondaar",
+        "zotskap",
+        "zottebol",
+        "zucht",
+        "zuivel",
+        "zulk",
+        "zult",
+        "zuster",
+        "zuur",
+        "zweedijk",
+        "zwendel",
+        "zwepen",
+        "zwiep",
+        "zwijmel",
+        "zworen"
+      ]
+    },
+    french: {
+      prefix: 4,
+      words: [
+        "abandon",
+        "abattre",
+        "aboi",
+        "abolir",
+        "aborder",
+        "abri",
+        "absence",
+        "absolu",
+        "abuser",
+        "acacia",
+        "acajou",
+        "accent",
+        "accord",
+        "accrocher",
+        "accuser",
+        "acerbe",
+        "achat",
+        "acheter",
+        "acide",
+        "acier",
+        "acquis",
+        "acte",
+        "action",
+        "adage",
+        "adepte",
+        "adieu",
+        "admettre",
+        "admis",
+        "adorer",
+        "adresser",
+        "aduler",
+        "affaire",
+        "affirmer",
+        "afin",
+        "agacer",
+        "agent",
+        "agir",
+        "agiter",
+        "agonie",
+        "agrafe",
+        "agrume",
+        "aider",
+        "aigle",
+        "aigre",
+        "aile",
+        "ailleurs",
+        "aimant",
+        "aimer",
+        "ainsi",
+        "aise",
+        "ajouter",
+        "alarme",
+        "album",
+        "alcool",
+        "alerte",
+        "algue",
+        "alibi",
+        "aller",
+        "allumer",
+        "alors",
+        "amande",
+        "amener",
+        "amie",
+        "amorcer",
+        "amour",
+        "ample",
+        "amuser",
+        "ananas",
+        "ancien",
+        "anglais",
+        "angoisse",
+        "animal",
+        "anneau",
+        "annoncer",
+        "apercevoir",
+        "apparence",
+        "appel",
+        "apporter",
+        "apprendre",
+        "appuyer",
+        "arbre",
+        "arcade",
+        "arceau",
+        "arche",
+        "ardeur",
+        "argent",
+        "argile",
+        "aride",
+        "arme",
+        "armure",
+        "arracher",
+        "arriver",
+        "article",
+        "asile",
+        "aspect",
+        "assaut",
+        "assez",
+        "assister",
+        "assurer",
+        "astre",
+        "astuce",
+        "atlas",
+        "atroce",
+        "attacher",
+        "attente",
+        "attirer",
+        "aube",
+        "aucun",
+        "audace",
+        "auparavant",
+        "auquel",
+        "aurore",
+        "aussi",
+        "autant",
+        "auteur",
+        "autoroute",
+        "autre",
+        "aval",
+        "avant",
+        "avec",
+        "avenir",
+        "averse",
+        "aveu",
+        "avide",
+        "avion",
+        "avis",
+        "avoir",
+        "avouer",
+        "avril",
+        "azote",
+        "azur",
+        "badge",
+        "bagage",
+        "bague",
+        "bain",
+        "baisser",
+        "balai",
+        "balcon",
+        "balise",
+        "balle",
+        "bambou",
+        "banane",
+        "banc",
+        "bandage",
+        "banjo",
+        "banlieue",
+        "bannir",
+        "banque",
+        "baobab",
+        "barbe",
+        "barque",
+        "barrer",
+        "bassine",
+        "bataille",
+        "bateau",
+        "battre",
+        "baver",
+        "bavoir",
+        "bazar",
+        "beau",
+        "beige",
+        "berger",
+        "besoin",
+        "beurre",
+        "biais",
+        "biceps",
+        "bidule",
+        "bien",
+        "bijou",
+        "bilan",
+        "billet",
+        "blanc",
+        "blason",
+        "bleu",
+        "bloc",
+        "blond",
+        "bocal",
+        "boire",
+        "boiserie",
+        "boiter",
+        "bonbon",
+        "bondir",
+        "bonheur",
+        "bordure",
+        "borgne",
+        "borner",
+        "bosse",
+        "bouche",
+        "bouder",
+        "bouger",
+        "boule",
+        "bourse",
+        "bout",
+        "boxe",
+        "brader",
+        "braise",
+        "branche",
+        "braquer",
+        "bras",
+        "brave",
+        "brebis",
+        "brevet",
+        "brider",
+        "briller",
+        "brin",
+        "brique",
+        "briser",
+        "broche",
+        "broder",
+        "bronze",
+        "brosser",
+        "brouter",
+        "bruit",
+        "brute",
+        "budget",
+        "buffet",
+        "bulle",
+        "bureau",
+        "buriner",
+        "buste",
+        "buter",
+        "butiner",
+        "cabas",
+        "cabinet",
+        "cabri",
+        "cacao",
+        "cacher",
+        "cadeau",
+        "cadre",
+        "cage",
+        "caisse",
+        "caler",
+        "calme",
+        "camarade",
+        "camion",
+        "campagne",
+        "canal",
+        "canif",
+        "capable",
+        "capot",
+        "carat",
+        "caresser",
+        "carie",
+        "carpe",
+        "cartel",
+        "casier",
+        "casque",
+        "casserole",
+        "cause",
+        "cavale",
+        "cave",
+        "ceci",
+        "cela",
+        "celui",
+        "cendre",
+        "cent",
+        "cependant",
+        "cercle",
+        "cerise",
+        "cerner",
+        "certes",
+        "cerveau",
+        "cesser",
+        "chacun",
+        "chair",
+        "chaleur",
+        "chamois",
+        "chanson",
+        "chaque",
+        "charge",
+        "chasse",
+        "chat",
+        "chaud",
+        "chef",
+        "chemin",
+        "cheveu",
+        "chez",
+        "chicane",
+        "chien",
+        "chiffre",
+        "chiner",
+        "chiot",
+        "chlore",
+        "choc",
+        "choix",
+        "chose",
+        "chou",
+        "chute",
+        "cibler",
+        "cidre",
+        "ciel",
+        "cigale",
+        "cinq",
+        "cintre",
+        "cirage",
+        "cirque",
+        "ciseau",
+        "citation",
+        "citer",
+        "citron",
+        "civet",
+        "clairon",
+        "clan",
+        "classe",
+        "clavier",
+        "clef",
+        "climat",
+        "cloche",
+        "cloner",
+        "clore",
+        "clos",
+        "clou",
+        "club",
+        "cobra",
+        "cocon",
+        "coiffer",
+        "coin",
+        "colline",
+        "colon",
+        "combat",
+        "comme",
+        "compte",
+        "conclure",
+        "conduire",
+        "confier",
+        "connu",
+        "conseil",
+        "contre",
+        "convenir",
+        "copier",
+        "cordial",
+        "cornet",
+        "corps",
+        "cosmos",
+        "coton",
+        "couche",
+        "coude",
+        "couler",
+        "coupure",
+        "cour",
+        "couteau",
+        "couvrir",
+        "crabe",
+        "crainte",
+        "crampe",
+        "cran",
+        "creuser",
+        "crever",
+        "crier",
+        "crime",
+        "crin",
+        "crise",
+        "crochet",
+        "croix",
+        "cruel",
+        "cuisine",
+        "cuite",
+        "culot",
+        "culte",
+        "cumul",
+        "cure",
+        "curieux",
+        "cuve",
+        "dame",
+        "danger",
+        "dans",
+        "davantage",
+        "debout",
+        "dedans",
+        "dehors",
+        "delta",
+        "demain",
+        "demeurer",
+        "demi",
+        "dense",
+        "dent",
+        "depuis",
+        "dernier",
+        "descendre",
+        "dessus",
+        "destin",
+        "dette",
+        "deuil",
+        "deux",
+        "devant",
+        "devenir",
+        "devin",
+        "devoir",
+        "dicton",
+        "dieu",
+        "difficile",
+        "digestion",
+        "digue",
+        "diluer",
+        "dimanche",
+        "dinde",
+        "diode",
+        "dire",
+        "diriger",
+        "discours",
+        "disposer",
+        "distance",
+        "divan",
+        "divers",
+        "docile",
+        "docteur",
+        "dodu",
+        "dogme",
+        "doigt",
+        "dominer",
+        "donation",
+        "donjon",
+        "donner",
+        "dopage",
+        "dorer",
+        "dormir",
+        "doseur",
+        "douane",
+        "double",
+        "douche",
+        "douleur",
+        "doute",
+        "doux",
+        "douzaine",
+        "draguer",
+        "drame",
+        "drap",
+        "dresser",
+        "droit",
+        "duel",
+        "dune",
+        "duper",
+        "durant",
+        "durcir",
+        "durer",
+        "eaux",
+        "effacer",
+        "effet",
+        "effort",
+        "effrayant",
+        "elle",
+        "embrasser",
+        "emmener",
+        "emparer",
+        "empire",
+        "employer",
+        "emporter",
+        "enclos",
+        "encore",
+        "endive",
+        "endormir",
+        "endroit",
+        "enduit",
+        "enfant",
+        "enfermer",
+        "enfin",
+        "enfler",
+        "enfoncer",
+        "enfuir",
+        "engager",
+        "engin",
+        "enjeu",
+        "enlever",
+        "ennemi",
+        "ennui",
+        "ensemble",
+        "ensuite",
+        "entamer",
+        "entendre",
+        "entier",
+        "entourer",
+        "entre",
+        "envelopper",
+        "envie",
+        "envoyer",
+        "erreur",
+        "escalier",
+        "espace",
+        "espoir",
+        "esprit",
+        "essai",
+        "essor",
+        "essuyer",
+        "estimer",
+        "exact",
+        "examiner",
+        "excuse",
+        "exemple",
+        "exiger",
+        "exil",
+        "exister",
+        "exode",
+        "expliquer",
+        "exposer",
+        "exprimer",
+        "extase",
+        "fable",
+        "facette",
+        "facile",
+        "fade",
+        "faible",
+        "faim",
+        "faire",
+        "fait",
+        "falloir",
+        "famille",
+        "faner",
+        "farce",
+        "farine",
+        "fatigue",
+        "faucon",
+        "faune",
+        "faute",
+        "faux",
+        "faveur",
+        "favori",
+        "faxer",
+        "feinter",
+        "femme",
+        "fendre",
+        "fente",
+        "ferme",
+        "festin",
+        "feuille",
+        "feutre",
+        "fiable",
+        "fibre",
+        "ficher",
+        "fier",
+        "figer",
+        "figure",
+        "filet",
+        "fille",
+        "filmer",
+        "fils",
+        "filtre",
+        "final",
+        "finesse",
+        "finir",
+        "fiole",
+        "firme",
+        "fixe",
+        "flacon",
+        "flair",
+        "flamme",
+        "flan",
+        "flaque",
+        "fleur",
+        "flocon",
+        "flore",
+        "flot",
+        "flou",
+        "fluide",
+        "fluor",
+        "flux",
+        "focus",
+        "foin",
+        "foire",
+        "foison",
+        "folie",
+        "fonction",
+        "fondre",
+        "fonte",
+        "force",
+        "forer",
+        "forger",
+        "forme",
+        "fort",
+        "fosse",
+        "fouet",
+        "fouine",
+        "foule",
+        "four",
+        "foyer",
+        "frais",
+        "franc",
+        "frapper",
+        "freiner",
+        "frimer",
+        "friser",
+        "frite",
+        "froid",
+        "froncer",
+        "fruit",
+        "fugue",
+        "fuir",
+        "fuite",
+        "fumer",
+        "fureur",
+        "furieux",
+        "fuser",
+        "fusil",
+        "futile",
+        "futur",
+        "gagner",
+        "gain",
+        "gala",
+        "galet",
+        "galop",
+        "gamme",
+        "gant",
+        "garage",
+        "garde",
+        "garer",
+        "gauche",
+        "gaufre",
+        "gaule",
+        "gaver",
+        "gazon",
+        "geler",
+        "genou",
+        "genre",
+        "gens",
+        "gercer",
+        "germer",
+        "geste",
+        "gibier",
+        "gicler",
+        "gilet",
+        "girafe",
+        "givre",
+        "glace",
+        "glisser",
+        "globe",
+        "gloire",
+        "gluant",
+        "gober",
+        "golf",
+        "gommer",
+        "gorge",
+        "gosier",
+        "goutte",
+        "grain",
+        "gramme",
+        "grand",
+        "gras",
+        "grave",
+        "gredin",
+        "griffure",
+        "griller",
+        "gris",
+        "gronder",
+        "gros",
+        "grotte",
+        "groupe",
+        "grue",
+        "guerrier",
+        "guetter",
+        "guider",
+        "guise",
+        "habiter",
+        "hache",
+        "haie",
+        "haine",
+        "halte",
+        "hamac",
+        "hanche",
+        "hangar",
+        "hanter",
+        "haras",
+        "hareng",
+        "harpe",
+        "hasard",
+        "hausse",
+        "haut",
+        "havre",
+        "herbe",
+        "heure",
+        "hibou",
+        "hier",
+        "histoire",
+        "hiver",
+        "hochet",
+        "homme",
+        "honneur",
+        "honte",
+        "horde",
+        "horizon",
+        "hormone",
+        "houle",
+        "housse",
+        "hublot",
+        "huile",
+        "huit",
+        "humain",
+        "humble",
+        "humide",
+        "humour",
+        "hurler",
+        "idole",
+        "igloo",
+        "ignorer",
+        "illusion",
+        "image",
+        "immense",
+        "immobile",
+        "imposer",
+        "impression",
+        "incapable",
+        "inconnu",
+        "index",
+        "indiquer",
+        "infime",
+        "injure",
+        "inox",
+        "inspirer",
+        "instant",
+        "intention",
+        "intime",
+        "inutile",
+        "inventer",
+        "inviter",
+        "iode",
+        "iris",
+        "issue",
+        "ivre",
+        "jade",
+        "jadis",
+        "jamais",
+        "jambe",
+        "janvier",
+        "jardin",
+        "jauge",
+        "jaunisse",
+        "jeter",
+        "jeton",
+        "jeudi",
+        "jeune",
+        "joie",
+        "joindre",
+        "joli",
+        "joueur",
+        "journal",
+        "judo",
+        "juge",
+        "juillet",
+        "juin",
+        "jument",
+        "jungle",
+        "jupe",
+        "jupon",
+        "jurer",
+        "juron",
+        "jury",
+        "jusque",
+        "juste",
+        "kayak",
+        "ketchup",
+        "kilo",
+        "kiwi",
+        "koala",
+        "label",
+        "lacet",
+        "lacune",
+        "laine",
+        "laisse",
+        "lait",
+        "lame",
+        "lancer",
+        "lande",
+        "laque",
+        "lard",
+        "largeur",
+        "larme",
+        "larve",
+        "lasso",
+        "laver",
+        "lendemain",
+        "lentement",
+        "lequel",
+        "lettre",
+        "leur",
+        "lever",
+        "levure",
+        "liane",
+        "libre",
+        "lien",
+        "lier",
+        "lieutenant",
+        "ligne",
+        "ligoter",
+        "liguer",
+        "limace",
+        "limer",
+        "limite",
+        "lingot",
+        "lion",
+        "lire",
+        "lisser",
+        "litre",
+        "livre",
+        "lobe",
+        "local",
+        "logis",
+        "loin",
+        "loisir",
+        "long",
+        "loque",
+        "lors",
+        "lotus",
+        "louer",
+        "loup",
+        "lourd",
+        "louve",
+        "loyer",
+        "lubie",
+        "lucide",
+        "lueur",
+        "luge",
+        "luire",
+        "lundi",
+        "lune",
+        "lustre",
+        "lutin",
+        "lutte",
+        "luxe",
+        "machine",
+        "madame",
+        "magie",
+        "magnifique",
+        "magot",
+        "maigre",
+        "main",
+        "mairie",
+        "maison",
+        "malade",
+        "malheur",
+        "malin",
+        "manche",
+        "manger",
+        "manier",
+        "manoir",
+        "manquer",
+        "marche",
+        "mardi",
+        "marge",
+        "mariage",
+        "marquer",
+        "mars",
+        "masque",
+        "masse",
+        "matin",
+        "mauvais",
+        "meilleur",
+        "melon",
+        "membre",
+        "menacer",
+        "mener",
+        "mensonge",
+        "mentir",
+        "menu",
+        "merci",
+        "merlu",
+        "mesure",
+        "mettre",
+        "meuble",
+        "meunier",
+        "meute",
+        "miche",
+        "micro",
+        "midi",
+        "miel",
+        "miette",
+        "mieux",
+        "milieu",
+        "mille",
+        "mimer",
+        "mince",
+        "mineur",
+        "ministre",
+        "minute",
+        "mirage",
+        "miroir",
+        "miser",
+        "mite",
+        "mixte",
+        "mobile",
+        "mode",
+        "module",
+        "moins",
+        "mois",
+        "moment",
+        "momie",
+        "monde",
+        "monsieur",
+        "monter",
+        "moquer",
+        "moral",
+        "morceau",
+        "mordre",
+        "morose",
+        "morse",
+        "mortier",
+        "morue",
+        "motif",
+        "motte",
+        "moudre",
+        "moule",
+        "mourir",
+        "mousse",
+        "mouton",
+        "mouvement",
+        "moyen",
+        "muer",
+        "muette",
+        "mugir",
+        "muguet",
+        "mulot",
+        "multiple",
+        "munir",
+        "muret",
+        "muse",
+        "musique",
+        "muter",
+        "nacre",
+        "nager",
+        "nain",
+        "naissance",
+        "narine",
+        "narrer",
+        "naseau",
+        "nasse",
+        "nation",
+        "nature",
+        "naval",
+        "navet",
+        "naviguer",
+        "navrer",
+        "neige",
+        "nerf",
+        "nerveux",
+        "neuf",
+        "neutre",
+        "neuve",
+        "neveu",
+        "niche",
+        "nier",
+        "niveau",
+        "noble",
+        "noce",
+        "nocif",
+        "noir",
+        "nomade",
+        "nombre",
+        "nommer",
+        "nord",
+        "norme",
+        "notaire",
+        "notice",
+        "notre",
+        "nouer",
+        "nougat",
+        "nourrir",
+        "nous",
+        "nouveau",
+        "novice",
+        "noyade",
+        "noyer",
+        "nuage",
+        "nuance",
+        "nuire",
+        "nuit",
+        "nulle",
+        "nuque",
+        "oasis",
+        "objet",
+        "obliger",
+        "obscur",
+        "observer",
+        "obtenir",
+        "obus",
+        "occasion",
+        "occuper",
+        "ocre",
+        "octet",
+        "odeur",
+        "odorat",
+        "offense",
+        "officier",
+        "offrir",
+        "ogive",
+        "oiseau",
+        "olive",
+        "ombre",
+        "onctueux",
+        "onduler",
+        "ongle",
+        "onze",
+        "opter",
+        "option",
+        "orageux",
+        "oral",
+        "orange",
+        "orbite",
+        "ordinaire",
+        "ordre",
+        "oreille",
+        "organe",
+        "orgie",
+        "orgueil",
+        "orient",
+        "origan",
+        "orner",
+        "orteil",
+        "ortie",
+        "oser",
+        "osselet",
+        "otage",
+        "otarie",
+        "ouate",
+        "oublier",
+        "ouest",
+        "ours",
+        "outil",
+        "outre",
+        "ouvert",
+        "ouvrir",
+        "ovale",
+        "ozone",
+        "pacte",
+        "page",
+        "paille",
+        "pain",
+        "paire",
+        "paix",
+        "palace",
+        "palissade",
+        "palmier",
+        "palpiter",
+        "panda",
+        "panneau",
+        "papa",
+        "papier",
+        "paquet",
+        "parc",
+        "pardi",
+        "parfois",
+        "parler",
+        "parmi",
+        "parole",
+        "partir",
+        "parvenir",
+        "passer",
+        "pastel",
+        "patin",
+        "patron",
+        "paume",
+        "pause",
+        "pauvre",
+        "paver",
+        "pavot",
+        "payer",
+        "pays",
+        "peau",
+        "peigne",
+        "peinture",
+        "pelage",
+        "pelote",
+        "pencher",
+        "pendre",
+        "penser",
+        "pente",
+        "percer",
+        "perdu",
+        "perle",
+        "permettre",
+        "personne",
+        "perte",
+        "peser",
+        "pesticide",
+        "petit",
+        "peuple",
+        "peur",
+        "phase",
+        "photo",
+        "phrase",
+        "piano",
+        "pied",
+        "pierre",
+        "pieu",
+        "pile",
+        "pilier",
+        "pilote",
+        "pilule",
+        "piment",
+        "pincer",
+        "pinson",
+        "pinte",
+        "pion",
+        "piquer",
+        "pirate",
+        "pire",
+        "piste",
+        "piton",
+        "pitre",
+        "pivot",
+        "pizza",
+        "placer",
+        "plage",
+        "plaire",
+        "plan",
+        "plaque",
+        "plat",
+        "plein",
+        "pleurer",
+        "pliage",
+        "plier",
+        "plonger",
+        "plot",
+        "pluie",
+        "plume",
+        "plus",
+        "pneu",
+        "poche",
+        "podium",
+        "poids",
+        "poil",
+        "point",
+        "poire",
+        "poison",
+        "poitrine",
+        "poivre",
+        "police",
+        "pollen",
+        "pomme",
+        "pompier",
+        "poncer",
+        "pondre",
+        "pont",
+        "portion",
+        "poser",
+        "position",
+        "possible",
+        "poste",
+        "potage",
+        "potin",
+        "pouce",
+        "poudre",
+        "poulet",
+        "poumon",
+        "poupe",
+        "pour",
+        "pousser",
+        "poutre",
+        "pouvoir",
+        "prairie",
+        "premier",
+        "prendre",
+        "presque",
+        "preuve",
+        "prier",
+        "primeur",
+        "prince",
+        "prison",
+        "priver",
+        "prix",
+        "prochain",
+        "produire",
+        "profond",
+        "proie",
+        "projet",
+        "promener",
+        "prononcer",
+        "propre",
+        "prose",
+        "prouver",
+        "prune",
+        "public",
+        "puce",
+        "pudeur",
+        "puiser",
+        "pull",
+        "pulpe",
+        "puma",
+        "punir",
+        "purge",
+        "putois",
+        "quand",
+        "quartier",
+        "quasi",
+        "quatre",
+        "quel",
+        "question",
+        "queue",
+        "quiche",
+        "quille",
+        "quinze",
+        "quitter",
+        "quoi",
+        "rabais",
+        "raboter",
+        "race",
+        "racheter",
+        "racine",
+        "racler",
+        "raconter",
+        "radar",
+        "radio",
+        "rafale",
+        "rage",
+        "ragot",
+        "raideur",
+        "raie",
+        "rail",
+        "raison",
+        "ramasser",
+        "ramener",
+        "rampe",
+        "rance",
+        "rang",
+        "rapace",
+        "rapide",
+        "rapport",
+        "rarement",
+        "rasage",
+        "raser",
+        "rasoir",
+        "rassurer",
+        "rater",
+        "ratio",
+        "rature",
+        "ravage",
+        "ravir",
+        "rayer",
+        "rayon",
+        "rebond",
+        "recevoir",
+        "recherche",
+        "record",
+        "reculer",
+        "redevenir",
+        "refuser",
+        "regard",
+        "regretter",
+        "rein",
+        "rejeter",
+        "rejoindre",
+        "relation",
+        "relever",
+        "religion",
+        "remarquer",
+        "remettre",
+        "remise",
+        "remonter",
+        "remplir",
+        "remuer",
+        "rencontre",
+        "rendre",
+        "renier",
+        "renoncer",
+        "rentrer",
+        "renverser",
+        "repas",
+        "repli",
+        "reposer",
+        "reproche",
+        "requin",
+        "respect",
+        "ressembler",
+        "reste",
+        "retard",
+        "retenir",
+        "retirer",
+        "retour",
+        "retrouver",
+        "revenir",
+        "revoir",
+        "revue",
+        "rhume",
+        "ricaner",
+        "riche",
+        "rideau",
+        "ridicule",
+        "rien",
+        "rigide",
+        "rincer",
+        "rire",
+        "risquer",
+        "rituel",
+        "rivage",
+        "rive",
+        "robe",
+        "robot",
+        "robuste",
+        "rocade",
+        "roche",
+        "rodeur",
+        "rogner",
+        "roman",
+        "rompre",
+        "ronce",
+        "rondeur",
+        "ronger",
+        "roque",
+        "rose",
+        "rosir",
+        "rotation",
+        "rotule",
+        "roue",
+        "rouge",
+        "rouler",
+        "route",
+        "ruban",
+        "rubis",
+        "ruche",
+        "rude",
+        "ruelle",
+        "ruer",
+        "rugby",
+        "rugir",
+        "ruine",
+        "rumeur",
+        "rural",
+        "ruse",
+        "rustre",
+        "sable",
+        "sabot",
+        "sabre",
+        "sacre",
+        "sage",
+        "saint",
+        "saisir",
+        "salade",
+        "salive",
+        "salle",
+        "salon",
+        "salto",
+        "salut",
+        "salve",
+        "samba",
+        "sandale",
+        "sanguin",
+        "sapin",
+        "sarcasme",
+        "satisfaire",
+        "sauce",
+        "sauf",
+        "sauge",
+        "saule",
+        "sauna",
+        "sauter",
+        "sauver",
+        "savoir",
+        "science",
+        "scoop",
+        "score",
+        "second",
+        "secret",
+        "secte",
+        "seigneur",
+        "sein",
+        "seize",
+        "selle",
+        "selon",
+        "semaine",
+        "sembler",
+        "semer",
+        "semis",
+        "sensuel",
+        "sentir",
+        "sept",
+        "serpe",
+        "serrer",
+        "sertir",
+        "service",
+        "seuil",
+        "seulement",
+        "short",
+        "sien",
+        "sigle",
+        "signal",
+        "silence",
+        "silo",
+        "simple",
+        "singe",
+        "sinon",
+        "sinus",
+        "sioux",
+        "sirop",
+        "site",
+        "situation",
+        "skier",
+        "snob",
+        "sobre",
+        "social",
+        "socle",
+        "sodium",
+        "soigner",
+        "soir",
+        "soixante",
+        "soja",
+        "solaire",
+        "soldat",
+        "soleil",
+        "solide",
+        "solo",
+        "solvant",
+        "sombre",
+        "somme",
+        "somnoler",
+        "sondage",
+        "songeur",
+        "sonner",
+        "sorte",
+        "sosie",
+        "sottise",
+        "souci",
+        "soudain",
+        "souffrir",
+        "souhaiter",
+        "soulever",
+        "soumettre",
+        "soupe",
+        "sourd",
+        "soustraire",
+        "soutenir",
+        "souvent",
+        "soyeux",
+        "spectacle",
+        "sport",
+        "stade",
+        "stagiaire",
+        "stand",
+        "star",
+        "statue",
+        "stock",
+        "stop",
+        "store",
+        "style",
+        "suave",
+        "subir",
+        "sucre",
+        "suer",
+        "suffire",
+        "suie",
+        "suite",
+        "suivre",
+        "sujet",
+        "sulfite",
+        "supposer",
+        "surf",
+        "surprendre",
+        "surtout",
+        "surveiller",
+        "tabac",
+        "table",
+        "tabou",
+        "tache",
+        "tacler",
+        "tacot",
+        "tact",
+        "taie",
+        "taille",
+        "taire",
+        "talon",
+        "talus",
+        "tandis",
+        "tango",
+        "tanin",
+        "tant",
+        "taper",
+        "tapis",
+        "tard",
+        "tarif",
+        "tarot",
+        "tarte",
+        "tasse",
+        "taureau",
+        "taux",
+        "taverne",
+        "taxer",
+        "taxi",
+        "tellement",
+        "temple",
+        "tendre",
+        "tenir",
+        "tenter",
+        "tenu",
+        "terme",
+        "ternir",
+        "terre",
+        "test",
+        "texte",
+        "thym",
+        "tibia",
+        "tiers",
+        "tige",
+        "tipi",
+        "tique",
+        "tirer",
+        "tissu",
+        "titre",
+        "toast",
+        "toge",
+        "toile",
+        "toiser",
+        "toiture",
+        "tomber",
+        "tome",
+        "tonne",
+        "tonte",
+        "toque",
+        "torse",
+        "tortue",
+        "totem",
+        "toucher",
+        "toujours",
+        "tour",
+        "tousser",
+        "tout",
+        "toux",
+        "trace",
+        "train",
+        "trame",
+        "tranquille",
+        "travail",
+        "trembler",
+        "trente",
+        "tribu",
+        "trier",
+        "trio",
+        "tripe",
+        "triste",
+        "troc",
+        "trois",
+        "tromper",
+        "tronc",
+        "trop",
+        "trotter",
+        "trouer",
+        "truc",
+        "truite",
+        "tuba",
+        "tuer",
+        "tuile",
+        "turbo",
+        "tutu",
+        "tuyau",
+        "type",
+        "union",
+        "unique",
+        "unir",
+        "unisson",
+        "untel",
+        "urne",
+        "usage",
+        "user",
+        "usiner",
+        "usure",
+        "utile",
+        "vache",
+        "vague",
+        "vaincre",
+        "valeur",
+        "valoir",
+        "valser",
+        "valve",
+        "vampire",
+        "vaseux",
+        "vaste",
+        "veau",
+        "veille",
+        "veine",
+        "velours",
+        "velu",
+        "vendre",
+        "venir",
+        "vent",
+        "venue",
+        "verbe",
+        "verdict",
+        "version",
+        "vertige",
+        "verve",
+        "veste",
+        "veto",
+        "vexer",
+        "vice",
+        "victime",
+        "vide",
+        "vieil",
+        "vieux",
+        "vigie",
+        "vigne",
+        "ville",
+        "vingt",
+        "violent",
+        "virer",
+        "virus",
+        "visage",
+        "viser",
+        "visite",
+        "visuel",
+        "vitamine",
+        "vitrine",
+        "vivant",
+        "vivre",
+        "vocal",
+        "vodka",
+        "vogue",
+        "voici",
+        "voile",
+        "voir",
+        "voisin",
+        "voiture",
+        "volaille",
+        "volcan",
+        "voler",
+        "volt",
+        "votant",
+        "votre",
+        "vouer",
+        "vouloir",
+        "vous",
+        "voyage",
+        "voyou",
+        "vrac",
+        "vrai",
+        "yacht",
+        "yeti",
+        "yeux",
+        "yoga",
+        "zeste",
+        "zinc",
+        "zone",
+        "zoom"
+      ]
+    },
+    spanish: {
+      prefix: 4,
+      words: [
+        "\xE1baco",
+        "abdomen",
+        "abeja",
+        "abierto",
+        "abogado",
+        "abono",
+        "aborto",
+        "abrazo",
+        "abrir",
+        "abuelo",
+        "abuso",
+        "acabar",
+        "academia",
+        "acceso",
+        "acci\xF3n",
+        "aceite",
+        "acelga",
+        "acento",
+        "aceptar",
+        "\xE1cido",
+        "aclarar",
+        "acn\xE9",
+        "acoger",
+        "acoso",
+        "activo",
+        "acto",
+        "actriz",
+        "actuar",
+        "acudir",
+        "acuerdo",
+        "acusar",
+        "adicto",
+        "admitir",
+        "adoptar",
+        "adorno",
+        "aduana",
+        "adulto",
+        "a\xE9reo",
+        "afectar",
+        "afici\xF3n",
+        "afinar",
+        "afirmar",
+        "\xE1gil",
+        "agitar",
+        "agon\xEDa",
+        "agosto",
+        "agotar",
+        "agregar",
+        "agrio",
+        "agua",
+        "agudo",
+        "\xE1guila",
+        "aguja",
+        "ahogo",
+        "ahorro",
+        "aire",
+        "aislar",
+        "ajedrez",
+        "ajeno",
+        "ajuste",
+        "alacr\xE1n",
+        "alambre",
+        "alarma",
+        "alba",
+        "\xE1lbum",
+        "alcalde",
+        "aldea",
+        "alegre",
+        "alejar",
+        "alerta",
+        "aleta",
+        "alfiler",
+        "alga",
+        "algod\xF3n",
+        "aliado",
+        "aliento",
+        "alivio",
+        "alma",
+        "almeja",
+        "alm\xEDbar",
+        "altar",
+        "alteza",
+        "altivo",
+        "alto",
+        "altura",
+        "alumno",
+        "alzar",
+        "amable",
+        "amante",
+        "amapola",
+        "amargo",
+        "amasar",
+        "\xE1mbar",
+        "\xE1mbito",
+        "ameno",
+        "amigo",
+        "amistad",
+        "amor",
+        "amparo",
+        "amplio",
+        "ancho",
+        "anciano",
+        "ancla",
+        "andar",
+        "and\xE9n",
+        "anemia",
+        "\xE1ngulo",
+        "anillo",
+        "\xE1nimo",
+        "an\xEDs",
+        "anotar",
+        "antena",
+        "antiguo",
+        "antojo",
+        "anual",
+        "anular",
+        "anuncio",
+        "a\xF1adir",
+        "a\xF1ejo",
+        "a\xF1o",
+        "apagar",
+        "aparato",
+        "apetito",
+        "apio",
+        "aplicar",
+        "apodo",
+        "aporte",
+        "apoyo",
+        "aprender",
+        "aprobar",
+        "apuesta",
+        "apuro",
+        "arado",
+        "ara\xF1a",
+        "arar",
+        "\xE1rbitro",
+        "\xE1rbol",
+        "arbusto",
+        "archivo",
+        "arco",
+        "arder",
+        "ardilla",
+        "arduo",
+        "\xE1rea",
+        "\xE1rido",
+        "aries",
+        "armon\xEDa",
+        "arn\xE9s",
+        "aroma",
+        "arpa",
+        "arp\xF3n",
+        "arreglo",
+        "arroz",
+        "arruga",
+        "arte",
+        "artista",
+        "asa",
+        "asado",
+        "asalto",
+        "ascenso",
+        "asegurar",
+        "aseo",
+        "asesor",
+        "asiento",
+        "asilo",
+        "asistir",
+        "asno",
+        "asombro",
+        "\xE1spero",
+        "astilla",
+        "astro",
+        "astuto",
+        "asumir",
+        "asunto",
+        "atajo",
+        "ataque",
+        "atar",
+        "atento",
+        "ateo",
+        "\xE1tico",
+        "atleta",
+        "\xE1tomo",
+        "atraer",
+        "atroz",
+        "at\xFAn",
+        "audaz",
+        "audio",
+        "auge",
+        "aula",
+        "aumento",
+        "ausente",
+        "autor",
+        "aval",
+        "avance",
+        "avaro",
+        "ave",
+        "avellana",
+        "avena",
+        "avestruz",
+        "avi\xF3n",
+        "aviso",
+        "ayer",
+        "ayuda",
+        "ayuno",
+        "azafr\xE1n",
+        "azar",
+        "azote",
+        "az\xFAcar",
+        "azufre",
+        "azul",
+        "baba",
+        "babor",
+        "bache",
+        "bah\xEDa",
+        "baile",
+        "bajar",
+        "balanza",
+        "balc\xF3n",
+        "balde",
+        "bamb\xFA",
+        "banco",
+        "banda",
+        "ba\xF1o",
+        "barba",
+        "barco",
+        "barniz",
+        "barro",
+        "b\xE1scula",
+        "bast\xF3n",
+        "basura",
+        "batalla",
+        "bater\xEDa",
+        "batir",
+        "batuta",
+        "ba\xFAl",
+        "bazar",
+        "beb\xE9",
+        "bebida",
+        "bello",
+        "besar",
+        "beso",
+        "bestia",
+        "bicho",
+        "bien",
+        "bingo",
+        "blanco",
+        "bloque",
+        "blusa",
+        "boa",
+        "bobina",
+        "bobo",
+        "boca",
+        "bocina",
+        "boda",
+        "bodega",
+        "boina",
+        "bola",
+        "bolero",
+        "bolsa",
+        "bomba",
+        "bondad",
+        "bonito",
+        "bono",
+        "bons\xE1i",
+        "borde",
+        "borrar",
+        "bosque",
+        "bote",
+        "bot\xEDn",
+        "b\xF3veda",
+        "bozal",
+        "bravo",
+        "brazo",
+        "brecha",
+        "breve",
+        "brillo",
+        "brinco",
+        "brisa",
+        "broca",
+        "broma",
+        "bronce",
+        "brote",
+        "bruja",
+        "brusco",
+        "bruto",
+        "buceo",
+        "bucle",
+        "bueno",
+        "buey",
+        "bufanda",
+        "buf\xF3n",
+        "b\xFAho",
+        "buitre",
+        "bulto",
+        "burbuja",
+        "burla",
+        "burro",
+        "buscar",
+        "butaca",
+        "buz\xF3n",
+        "caballo",
+        "cabeza",
+        "cabina",
+        "cabra",
+        "cacao",
+        "cad\xE1ver",
+        "cadena",
+        "caer",
+        "caf\xE9",
+        "ca\xEDda",
+        "caim\xE1n",
+        "caja",
+        "caj\xF3n",
+        "cal",
+        "calamar",
+        "calcio",
+        "caldo",
+        "calidad",
+        "calle",
+        "calma",
+        "calor",
+        "calvo",
+        "cama",
+        "cambio",
+        "camello",
+        "camino",
+        "campo",
+        "c\xE1ncer",
+        "candil",
+        "canela",
+        "canguro",
+        "canica",
+        "canto",
+        "ca\xF1a",
+        "ca\xF1\xF3n",
+        "caoba",
+        "caos",
+        "capaz",
+        "capit\xE1n",
+        "capote",
+        "captar",
+        "capucha",
+        "cara",
+        "carb\xF3n",
+        "c\xE1rcel",
+        "careta",
+        "carga",
+        "cari\xF1o",
+        "carne",
+        "carpeta",
+        "carro",
+        "carta",
+        "casa",
+        "casco",
+        "casero",
+        "caspa",
+        "castor",
+        "catorce",
+        "catre",
+        "caudal",
+        "causa",
+        "cazo",
+        "cebolla",
+        "ceder",
+        "cedro",
+        "celda",
+        "c\xE9lebre",
+        "celoso",
+        "c\xE9lula",
+        "cemento",
+        "ceniza",
+        "centro",
+        "cerca",
+        "cerdo",
+        "cereza",
+        "cero",
+        "cerrar",
+        "certeza",
+        "c\xE9sped",
+        "cetro",
+        "chacal",
+        "chaleco",
+        "champ\xFA",
+        "chancla",
+        "chapa",
+        "charla",
+        "chico",
+        "chiste",
+        "chivo",
+        "choque",
+        "choza",
+        "chuleta",
+        "chupar",
+        "cicl\xF3n",
+        "ciego",
+        "cielo",
+        "cien",
+        "cierto",
+        "cifra",
+        "cigarro",
+        "cima",
+        "cinco",
+        "cine",
+        "cinta",
+        "cipr\xE9s",
+        "circo",
+        "ciruela",
+        "cisne",
+        "cita",
+        "ciudad",
+        "clamor",
+        "clan",
+        "claro",
+        "clase",
+        "clave",
+        "cliente",
+        "clima",
+        "cl\xEDnica",
+        "cobre",
+        "cocci\xF3n",
+        "cochino",
+        "cocina",
+        "coco",
+        "c\xF3digo",
+        "codo",
+        "cofre",
+        "coger",
+        "cohete",
+        "coj\xEDn",
+        "cojo",
+        "cola",
+        "colcha",
+        "colegio",
+        "colgar",
+        "colina",
+        "collar",
+        "colmo",
+        "columna",
+        "combate",
+        "comer",
+        "comida",
+        "c\xF3modo",
+        "compra",
+        "conde",
+        "conejo",
+        "conga",
+        "conocer",
+        "consejo",
+        "contar",
+        "copa",
+        "copia",
+        "coraz\xF3n",
+        "corbata",
+        "corcho",
+        "cord\xF3n",
+        "corona",
+        "correr",
+        "coser",
+        "cosmos",
+        "costa",
+        "cr\xE1neo",
+        "cr\xE1ter",
+        "crear",
+        "crecer",
+        "cre\xEDdo",
+        "crema",
+        "cr\xEDa",
+        "crimen",
+        "cripta",
+        "crisis",
+        "cromo",
+        "cr\xF3nica",
+        "croqueta",
+        "crudo",
+        "cruz",
+        "cuadro",
+        "cuarto",
+        "cuatro",
+        "cubo",
+        "cubrir",
+        "cuchara",
+        "cuello",
+        "cuento",
+        "cuerda",
+        "cuesta",
+        "cueva",
+        "cuidar",
+        "culebra",
+        "culpa",
+        "culto",
+        "cumbre",
+        "cumplir",
+        "cuna",
+        "cuneta",
+        "cuota",
+        "cup\xF3n",
+        "c\xFApula",
+        "curar",
+        "curioso",
+        "curso",
+        "curva",
+        "cutis",
+        "dama",
+        "danza",
+        "dar",
+        "dardo",
+        "d\xE1til",
+        "deber",
+        "d\xE9bil",
+        "d\xE9cada",
+        "decir",
+        "dedo",
+        "defensa",
+        "definir",
+        "dejar",
+        "delf\xEDn",
+        "delgado",
+        "delito",
+        "demora",
+        "denso",
+        "dental",
+        "deporte",
+        "derecho",
+        "derrota",
+        "desayuno",
+        "deseo",
+        "desfile",
+        "desnudo",
+        "destino",
+        "desv\xEDo",
+        "detalle",
+        "detener",
+        "deuda",
+        "d\xEDa",
+        "diablo",
+        "diadema",
+        "diamante",
+        "diana",
+        "diario",
+        "dibujo",
+        "dictar",
+        "diente",
+        "dieta",
+        "diez",
+        "dif\xEDcil",
+        "digno",
+        "dilema",
+        "diluir",
+        "dinero",
+        "directo",
+        "dirigir",
+        "disco",
+        "dise\xF1o",
+        "disfraz",
+        "diva",
+        "divino",
+        "doble",
+        "doce",
+        "dolor",
+        "domingo",
+        "don",
+        "donar",
+        "dorado",
+        "dormir",
+        "dorso",
+        "dos",
+        "dosis",
+        "drag\xF3n",
+        "droga",
+        "ducha",
+        "duda",
+        "duelo",
+        "due\xF1o",
+        "dulce",
+        "d\xFAo",
+        "duque",
+        "durar",
+        "dureza",
+        "duro",
+        "\xE9bano",
+        "ebrio",
+        "echar",
+        "eco",
+        "ecuador",
+        "edad",
+        "edici\xF3n",
+        "edificio",
+        "editor",
+        "educar",
+        "efecto",
+        "eficaz",
+        "eje",
+        "ejemplo",
+        "elefante",
+        "elegir",
+        "elemento",
+        "elevar",
+        "elipse",
+        "\xE9lite",
+        "elixir",
+        "elogio",
+        "eludir",
+        "embudo",
+        "emitir",
+        "emoci\xF3n",
+        "empate",
+        "empe\xF1o",
+        "empleo",
+        "empresa",
+        "enano",
+        "encargo",
+        "enchufe",
+        "enc\xEDa",
+        "enemigo",
+        "enero",
+        "enfado",
+        "enfermo",
+        "enga\xF1o",
+        "enigma",
+        "enlace",
+        "enorme",
+        "enredo",
+        "ensayo",
+        "ense\xF1ar",
+        "entero",
+        "entrar",
+        "envase",
+        "env\xEDo",
+        "\xE9poca",
+        "equipo",
+        "erizo",
+        "escala",
+        "escena",
+        "escolar",
+        "escribir",
+        "escudo",
+        "esencia",
+        "esfera",
+        "esfuerzo",
+        "espada",
+        "espejo",
+        "esp\xEDa",
+        "esposa",
+        "espuma",
+        "esqu\xED",
+        "estar",
+        "este",
+        "estilo",
+        "estufa",
+        "etapa",
+        "eterno",
+        "\xE9tica",
+        "etnia",
+        "evadir",
+        "evaluar",
+        "evento",
+        "evitar",
+        "exacto",
+        "examen",
+        "exceso",
+        "excusa",
+        "exento",
+        "exigir",
+        "exilio",
+        "existir",
+        "\xE9xito",
+        "experto",
+        "explicar",
+        "exponer",
+        "extremo",
+        "f\xE1brica",
+        "f\xE1bula",
+        "fachada",
+        "f\xE1cil",
+        "factor",
+        "faena",
+        "faja",
+        "falda",
+        "fallo",
+        "falso",
+        "faltar",
+        "fama",
+        "familia",
+        "famoso",
+        "fara\xF3n",
+        "farmacia",
+        "farol",
+        "farsa",
+        "fase",
+        "fatiga",
+        "fauna",
+        "favor",
+        "fax",
+        "febrero",
+        "fecha",
+        "feliz",
+        "feo",
+        "feria",
+        "feroz",
+        "f\xE9rtil",
+        "fervor",
+        "fest\xEDn",
+        "fiable",
+        "fianza",
+        "fiar",
+        "fibra",
+        "ficci\xF3n",
+        "ficha",
+        "fideo",
+        "fiebre",
+        "fiel",
+        "fiera",
+        "fiesta",
+        "figura",
+        "fijar",
+        "fijo",
+        "fila",
+        "filete",
+        "filial",
+        "filtro",
+        "fin",
+        "finca",
+        "fingir",
+        "finito",
+        "firma",
+        "flaco",
+        "flauta",
+        "flecha",
+        "flor",
+        "flota",
+        "fluir",
+        "flujo",
+        "fl\xFAor",
+        "fobia",
+        "foca",
+        "fogata",
+        "fog\xF3n",
+        "folio",
+        "folleto",
+        "fondo",
+        "forma",
+        "forro",
+        "fortuna",
+        "forzar",
+        "fosa",
+        "foto",
+        "fracaso",
+        "fr\xE1gil",
+        "franja",
+        "frase",
+        "fraude",
+        "fre\xEDr",
+        "freno",
+        "fresa",
+        "fr\xEDo",
+        "frito",
+        "fruta",
+        "fuego",
+        "fuente",
+        "fuerza",
+        "fuga",
+        "fumar",
+        "funci\xF3n",
+        "funda",
+        "furg\xF3n",
+        "furia",
+        "fusil",
+        "f\xFAtbol",
+        "futuro",
+        "gacela",
+        "gafas",
+        "gaita",
+        "gajo",
+        "gala",
+        "galer\xEDa",
+        "gallo",
+        "gamba",
+        "ganar",
+        "gancho",
+        "ganga",
+        "ganso",
+        "garaje",
+        "garza",
+        "gasolina",
+        "gastar",
+        "gato",
+        "gavil\xE1n",
+        "gemelo",
+        "gemir",
+        "gen",
+        "g\xE9nero",
+        "genio",
+        "gente",
+        "geranio",
+        "gerente",
+        "germen",
+        "gesto",
+        "gigante",
+        "gimnasio",
+        "girar",
+        "giro",
+        "glaciar",
+        "globo",
+        "gloria",
+        "gol",
+        "golfo",
+        "goloso",
+        "golpe",
+        "goma",
+        "gordo",
+        "gorila",
+        "gorra",
+        "gota",
+        "goteo",
+        "gozar",
+        "grada",
+        "gr\xE1fico",
+        "grano",
+        "grasa",
+        "gratis",
+        "grave",
+        "grieta",
+        "grillo",
+        "gripe",
+        "gris",
+        "grito",
+        "grosor",
+        "gr\xFAa",
+        "grueso",
+        "grumo",
+        "grupo",
+        "guante",
+        "guapo",
+        "guardia",
+        "guerra",
+        "gu\xEDa",
+        "gui\xF1o",
+        "guion",
+        "guiso",
+        "guitarra",
+        "gusano",
+        "gustar",
+        "haber",
+        "h\xE1bil",
+        "hablar",
+        "hacer",
+        "hacha",
+        "hada",
+        "hallar",
+        "hamaca",
+        "harina",
+        "haz",
+        "haza\xF1a",
+        "hebilla",
+        "hebra",
+        "hecho",
+        "helado",
+        "helio",
+        "hembra",
+        "herir",
+        "hermano",
+        "h\xE9roe",
+        "hervir",
+        "hielo",
+        "hierro",
+        "h\xEDgado",
+        "higiene",
+        "hijo",
+        "himno",
+        "historia",
+        "hocico",
+        "hogar",
+        "hoguera",
+        "hoja",
+        "hombre",
+        "hongo",
+        "honor",
+        "honra",
+        "hora",
+        "hormiga",
+        "horno",
+        "hostil",
+        "hoyo",
+        "hueco",
+        "huelga",
+        "huerta",
+        "hueso",
+        "huevo",
+        "huida",
+        "huir",
+        "humano",
+        "h\xFAmedo",
+        "humilde",
+        "humo",
+        "hundir",
+        "hurac\xE1n",
+        "hurto",
+        "icono",
+        "ideal",
+        "idioma",
+        "\xEDdolo",
+        "iglesia",
+        "igl\xFA",
+        "igual",
+        "ilegal",
+        "ilusi\xF3n",
+        "imagen",
+        "im\xE1n",
+        "imitar",
+        "impar",
+        "imperio",
+        "imponer",
+        "impulso",
+        "incapaz",
+        "\xEDndice",
+        "inerte",
+        "infiel",
+        "informe",
+        "ingenio",
+        "inicio",
+        "inmenso",
+        "inmune",
+        "innato",
+        "insecto",
+        "instante",
+        "inter\xE9s",
+        "\xEDntimo",
+        "intuir",
+        "in\xFAtil",
+        "invierno",
+        "ira",
+        "iris",
+        "iron\xEDa",
+        "isla",
+        "islote",
+        "jabal\xED",
+        "jab\xF3n",
+        "jam\xF3n",
+        "jarabe",
+        "jard\xEDn",
+        "jarra",
+        "jaula",
+        "jazm\xEDn",
+        "jefe",
+        "jeringa",
+        "jinete",
+        "jornada",
+        "joroba",
+        "joven",
+        "joya",
+        "juerga",
+        "jueves",
+        "juez",
+        "jugador",
+        "jugo",
+        "juguete",
+        "juicio",
+        "junco",
+        "jungla",
+        "junio",
+        "juntar",
+        "j\xFApiter",
+        "jurar",
+        "justo",
+        "juvenil",
+        "juzgar",
+        "kilo",
+        "koala",
+        "labio",
+        "lacio",
+        "lacra",
+        "lado",
+        "ladr\xF3n",
+        "lagarto",
+        "l\xE1grima",
+        "laguna",
+        "laico",
+        "lamer",
+        "l\xE1mina",
+        "l\xE1mpara",
+        "lana",
+        "lancha",
+        "langosta",
+        "lanza",
+        "l\xE1piz",
+        "largo",
+        "larva",
+        "l\xE1stima",
+        "lata",
+        "l\xE1tex",
+        "latir",
+        "laurel",
+        "lavar",
+        "lazo",
+        "leal",
+        "lecci\xF3n",
+        "leche",
+        "lector",
+        "leer",
+        "legi\xF3n",
+        "legumbre",
+        "lejano",
+        "lengua",
+        "lento",
+        "le\xF1a",
+        "le\xF3n",
+        "leopardo",
+        "lesi\xF3n",
+        "letal",
+        "letra",
+        "leve",
+        "leyenda",
+        "libertad",
+        "libro",
+        "licor",
+        "l\xEDder",
+        "lidiar",
+        "lienzo",
+        "liga",
+        "ligero",
+        "lima",
+        "l\xEDmite",
+        "lim\xF3n",
+        "limpio",
+        "lince",
+        "lindo",
+        "l\xEDnea",
+        "lingote",
+        "lino",
+        "linterna",
+        "l\xEDquido",
+        "liso",
+        "lista",
+        "litera",
+        "litio",
+        "litro",
+        "llaga",
+        "llama",
+        "llanto",
+        "llave",
+        "llegar",
+        "llenar",
+        "llevar",
+        "llorar",
+        "llover",
+        "lluvia",
+        "lobo",
+        "loci\xF3n",
+        "loco",
+        "locura",
+        "l\xF3gica",
+        "logro",
+        "lombriz",
+        "lomo",
+        "lonja",
+        "lote",
+        "lucha",
+        "lucir",
+        "lugar",
+        "lujo",
+        "luna",
+        "lunes",
+        "lupa",
+        "lustro",
+        "luto",
+        "luz",
+        "maceta",
+        "macho",
+        "madera",
+        "madre",
+        "maduro",
+        "maestro",
+        "mafia",
+        "magia",
+        "mago",
+        "ma\xEDz",
+        "maldad",
+        "maleta",
+        "malla",
+        "malo",
+        "mam\xE1",
+        "mambo",
+        "mamut",
+        "manco",
+        "mando",
+        "manejar",
+        "manga",
+        "maniqu\xED",
+        "manjar",
+        "mano",
+        "manso",
+        "manta",
+        "ma\xF1ana",
+        "mapa",
+        "m\xE1quina",
+        "mar",
+        "marco",
+        "marea",
+        "marfil",
+        "margen",
+        "marido",
+        "m\xE1rmol",
+        "marr\xF3n",
+        "martes",
+        "marzo",
+        "masa",
+        "m\xE1scara",
+        "masivo",
+        "matar",
+        "materia",
+        "matiz",
+        "matriz",
+        "m\xE1ximo",
+        "mayor",
+        "mazorca",
+        "mecha",
+        "medalla",
+        "medio",
+        "m\xE9dula",
+        "mejilla",
+        "mejor",
+        "melena",
+        "mel\xF3n",
+        "memoria",
+        "menor",
+        "mensaje",
+        "mente",
+        "men\xFA",
+        "mercado",
+        "merengue",
+        "m\xE9rito",
+        "mes",
+        "mes\xF3n",
+        "meta",
+        "meter",
+        "m\xE9todo",
+        "metro",
+        "mezcla",
+        "miedo",
+        "miel",
+        "miembro",
+        "miga",
+        "mil",
+        "milagro",
+        "militar",
+        "mill\xF3n",
+        "mimo",
+        "mina",
+        "minero",
+        "m\xEDnimo",
+        "minuto",
+        "miope",
+        "mirar",
+        "misa",
+        "miseria",
+        "misil",
+        "mismo",
+        "mitad",
+        "mito",
+        "mochila",
+        "moci\xF3n",
+        "moda",
+        "modelo",
+        "moho",
+        "mojar",
+        "molde",
+        "moler",
+        "molino",
+        "momento",
+        "momia",
+        "monarca",
+        "moneda",
+        "monja",
+        "monto",
+        "mo\xF1o",
+        "morada",
+        "morder",
+        "moreno",
+        "morir",
+        "morro",
+        "morsa",
+        "mortal",
+        "mosca",
+        "mostrar",
+        "motivo",
+        "mover",
+        "m\xF3vil",
+        "mozo",
+        "mucho",
+        "mudar",
+        "mueble",
+        "muela",
+        "muerte",
+        "muestra",
+        "mugre",
+        "mujer",
+        "mula",
+        "muleta",
+        "multa",
+        "mundo",
+        "mu\xF1eca",
+        "mural",
+        "muro",
+        "m\xFAsculo",
+        "museo",
+        "musgo",
+        "m\xFAsica",
+        "muslo",
+        "n\xE1car",
+        "naci\xF3n",
+        "nadar",
+        "naipe",
+        "naranja",
+        "nariz",
+        "narrar",
+        "nasal",
+        "natal",
+        "nativo",
+        "natural",
+        "n\xE1usea",
+        "naval",
+        "nave",
+        "navidad",
+        "necio",
+        "n\xE9ctar",
+        "negar",
+        "negocio",
+        "negro",
+        "ne\xF3n",
+        "nervio",
+        "neto",
+        "neutro",
+        "nevar",
+        "nevera",
+        "nicho",
+        "nido",
+        "niebla",
+        "nieto",
+        "ni\xF1ez",
+        "ni\xF1o",
+        "n\xEDtido",
+        "nivel",
+        "nobleza",
+        "noche",
+        "n\xF3mina",
+        "noria",
+        "norma",
+        "norte",
+        "nota",
+        "noticia",
+        "novato",
+        "novela",
+        "novio",
+        "nube",
+        "nuca",
+        "n\xFAcleo",
+        "nudillo",
+        "nudo",
+        "nuera",
+        "nueve",
+        "nuez",
+        "nulo",
+        "n\xFAmero",
+        "nutria",
+        "oasis",
+        "obeso",
+        "obispo",
+        "objeto",
+        "obra",
+        "obrero",
+        "observar",
+        "obtener",
+        "obvio",
+        "oca",
+        "ocaso",
+        "oc\xE9ano",
+        "ochenta",
+        "ocho",
+        "ocio",
+        "ocre",
+        "octavo",
+        "octubre",
+        "oculto",
+        "ocupar",
+        "ocurrir",
+        "odiar",
+        "odio",
+        "odisea",
+        "oeste",
+        "ofensa",
+        "oferta",
+        "oficio",
+        "ofrecer",
+        "ogro",
+        "o\xEDdo",
+        "o\xEDr",
+        "ojo",
+        "ola",
+        "oleada",
+        "olfato",
+        "olivo",
+        "olla",
+        "olmo",
+        "olor",
+        "olvido",
+        "ombligo",
+        "onda",
+        "onza",
+        "opaco",
+        "opci\xF3n",
+        "\xF3pera",
+        "opinar",
+        "oponer",
+        "optar",
+        "\xF3ptica",
+        "opuesto",
+        "oraci\xF3n",
+        "orador",
+        "oral",
+        "\xF3rbita",
+        "orca",
+        "orden",
+        "oreja",
+        "\xF3rgano",
+        "org\xEDa",
+        "orgullo",
+        "oriente",
+        "origen",
+        "orilla",
+        "oro",
+        "orquesta",
+        "oruga",
+        "osad\xEDa",
+        "oscuro",
+        "osezno",
+        "oso",
+        "ostra",
+        "oto\xF1o",
+        "otro",
+        "oveja",
+        "\xF3vulo",
+        "\xF3xido",
+        "ox\xEDgeno",
+        "oyente",
+        "ozono",
+        "pacto",
+        "padre",
+        "paella",
+        "p\xE1gina",
+        "pago",
+        "pa\xEDs",
+        "p\xE1jaro",
+        "palabra",
+        "palco",
+        "paleta",
+        "p\xE1lido",
+        "palma",
+        "paloma",
+        "palpar",
+        "pan",
+        "panal",
+        "p\xE1nico",
+        "pantera",
+        "pa\xF1uelo",
+        "pap\xE1",
+        "papel",
+        "papilla",
+        "paquete",
+        "parar",
+        "parcela",
+        "pared",
+        "parir",
+        "paro",
+        "p\xE1rpado",
+        "parque",
+        "p\xE1rrafo",
+        "parte",
+        "pasar",
+        "paseo",
+        "pasi\xF3n",
+        "paso",
+        "pasta",
+        "pata",
+        "patio",
+        "patria",
+        "pausa",
+        "pauta",
+        "pavo",
+        "payaso",
+        "peat\xF3n",
+        "pecado",
+        "pecera",
+        "pecho",
+        "pedal",
+        "pedir",
+        "pegar",
+        "peine",
+        "pelar",
+        "pelda\xF1o",
+        "pelea",
+        "peligro",
+        "pellejo",
+        "pelo",
+        "peluca",
+        "pena",
+        "pensar",
+        "pe\xF1\xF3n",
+        "pe\xF3n",
+        "peor",
+        "pepino",
+        "peque\xF1o",
+        "pera",
+        "percha",
+        "perder",
+        "pereza",
+        "perfil",
+        "perico",
+        "perla",
+        "permiso",
+        "perro",
+        "persona",
+        "pesa",
+        "pesca",
+        "p\xE9simo",
+        "pesta\xF1a",
+        "p\xE9talo",
+        "petr\xF3leo",
+        "pez",
+        "pezu\xF1a",
+        "picar",
+        "pich\xF3n",
+        "pie",
+        "piedra",
+        "pierna",
+        "pieza",
+        "pijama",
+        "pilar",
+        "piloto",
+        "pimienta",
+        "pino",
+        "pintor",
+        "pinza",
+        "pi\xF1a",
+        "piojo",
+        "pipa",
+        "pirata",
+        "pisar",
+        "piscina",
+        "piso",
+        "pista",
+        "pit\xF3n",
+        "pizca",
+        "placa",
+        "plan",
+        "plata",
+        "playa",
+        "plaza",
+        "pleito",
+        "pleno",
+        "plomo",
+        "pluma",
+        "plural",
+        "pobre",
+        "poco",
+        "poder",
+        "podio",
+        "poema",
+        "poes\xEDa",
+        "poeta",
+        "polen",
+        "polic\xEDa",
+        "pollo",
+        "polvo",
+        "pomada",
+        "pomelo",
+        "pomo",
+        "pompa",
+        "poner",
+        "porci\xF3n",
+        "portal",
+        "posada",
+        "poseer",
+        "posible",
+        "poste",
+        "potencia",
+        "potro",
+        "pozo",
+        "prado",
+        "precoz",
+        "pregunta",
+        "premio",
+        "prensa",
+        "preso",
+        "previo",
+        "primo",
+        "pr\xEDncipe",
+        "prisi\xF3n",
+        "privar",
+        "proa",
+        "probar",
+        "proceso",
+        "producto",
+        "proeza",
+        "profesor",
+        "programa",
+        "prole",
+        "promesa",
+        "pronto",
+        "propio",
+        "pr\xF3ximo",
+        "prueba",
+        "p\xFAblico",
+        "puchero",
+        "pudor",
+        "pueblo",
+        "puerta",
+        "puesto",
+        "pulga",
+        "pulir",
+        "pulm\xF3n",
+        "pulpo",
+        "pulso",
+        "puma",
+        "punto",
+        "pu\xF1al",
+        "pu\xF1o",
+        "pupa",
+        "pupila",
+        "pur\xE9",
+        "quedar",
+        "queja",
+        "quemar",
+        "querer",
+        "queso",
+        "quieto",
+        "qu\xEDmica",
+        "quince",
+        "quitar",
+        "r\xE1bano",
+        "rabia",
+        "rabo",
+        "raci\xF3n",
+        "radical",
+        "ra\xEDz",
+        "rama",
+        "rampa",
+        "rancho",
+        "rango",
+        "rapaz",
+        "r\xE1pido",
+        "rapto",
+        "rasgo",
+        "raspa",
+        "rato",
+        "rayo",
+        "raza",
+        "raz\xF3n",
+        "reacci\xF3n",
+        "realidad",
+        "reba\xF1o",
+        "rebote",
+        "recaer",
+        "receta",
+        "rechazo",
+        "recoger",
+        "recreo",
+        "recto",
+        "recurso",
+        "red",
+        "redondo",
+        "reducir",
+        "reflejo",
+        "reforma",
+        "refr\xE1n",
+        "refugio",
+        "regalo",
+        "regir",
+        "regla",
+        "regreso",
+        "reh\xE9n",
+        "reino",
+        "re\xEDr",
+        "reja",
+        "relato",
+        "relevo",
+        "relieve",
+        "relleno",
+        "reloj",
+        "remar",
+        "remedio",
+        "remo",
+        "rencor",
+        "rendir",
+        "renta",
+        "reparto",
+        "repetir",
+        "reposo",
+        "reptil",
+        "res",
+        "rescate",
+        "resina",
+        "respeto",
+        "resto",
+        "resumen",
+        "retiro",
+        "retorno",
+        "retrato",
+        "reunir",
+        "rev\xE9s",
+        "revista",
+        "rey",
+        "rezar",
+        "rico",
+        "riego",
+        "rienda",
+        "riesgo",
+        "rifa",
+        "r\xEDgido",
+        "rigor",
+        "rinc\xF3n",
+        "ri\xF1\xF3n",
+        "r\xEDo",
+        "riqueza",
+        "risa",
+        "ritmo",
+        "rito"
+      ]
+    },
+    german: {
+      prefix: 4,
+      words: [
+        "Abakus",
+        "Abart",
+        "abbilden",
+        "Abbruch",
+        "Abdrift",
+        "Abendrot",
+        "Abfahrt",
+        "abfeuern",
+        "Abflug",
+        "abfragen",
+        "Abglanz",
+        "abh\xE4rten",
+        "abheben",
+        "Abhilfe",
+        "Abitur",
+        "Abkehr",
+        "Ablauf",
+        "ablecken",
+        "Abl\xF6sung",
+        "Abnehmer",
+        "abnutzen",
+        "Abonnent",
+        "Abrasion",
+        "Abrede",
+        "abr\xFCsten",
+        "Absicht",
+        "Absprung",
+        "Abstand",
+        "absuchen",
+        "Abteil",
+        "Abundanz",
+        "abwarten",
+        "Abwurf",
+        "Abzug",
+        "Achse",
+        "Achtung",
+        "Acker",
+        "Aderlass",
+        "Adler",
+        "Admiral",
+        "Adresse",
+        "Affe",
+        "Affront",
+        "Afrika",
+        "Aggregat",
+        "Agilit\xE4t",
+        "\xE4hneln",
+        "Ahnung",
+        "Ahorn",
+        "Akazie",
+        "Akkord",
+        "Akrobat",
+        "Aktfoto",
+        "Aktivist",
+        "Albatros",
+        "Alchimie",
+        "Alemanne",
+        "Alibi",
+        "Alkohol",
+        "Allee",
+        "All\xFCre",
+        "Almosen",
+        "Almweide",
+        "Aloe",
+        "Alpaka",
+        "Alpental",
+        "Alphabet",
+        "Alpinist",
+        "Alraune",
+        "Altbier",
+        "Alter",
+        "Altfl\xF6te",
+        "Altruist",
+        "Alublech",
+        "Aludose",
+        "Amateur",
+        "Amazonas",
+        "Ameise",
+        "Amnesie",
+        "Amok",
+        "Ampel",
+        "Amphibie",
+        "Ampulle",
+        "Amsel",
+        "Amulett",
+        "Anakonda",
+        "Analogie",
+        "Ananas",
+        "Anarchie",
+        "Anatomie",
+        "Anbau",
+        "Anbeginn",
+        "anbieten",
+        "Anblick",
+        "\xE4ndern",
+        "andocken",
+        "Andrang",
+        "anecken",
+        "Anflug",
+        "Anfrage",
+        "Anf\xFChrer",
+        "Angebot",
+        "Angler",
+        "Anhalter",
+        "Anh\xF6he",
+        "Animator",
+        "Anis",
+        "Anker",
+        "ankleben",
+        "Ankunft",
+        "Anlage",
+        "anlocken",
+        "Anmut",
+        "Annahme",
+        "Anomalie",
+        "Anonymus",
+        "Anorak",
+        "anpeilen",
+        "Anrecht",
+        "Anruf",
+        "Ansage",
+        "Anschein",
+        "Ansicht",
+        "Ansporn",
+        "Anteil",
+        "Antlitz",
+        "Antrag",
+        "Antwort",
+        "Anwohner",
+        "Aorta",
+        "Apfel",
+        "Appetit",
+        "Applaus",
+        "Aquarium",
+        "Arbeit",
+        "Arche",
+        "Argument",
+        "Arktis",
+        "Armband",
+        "Aroma",
+        "Asche",
+        "Askese",
+        "Asphalt",
+        "Asteroid",
+        "\xC4sthetik",
+        "Astronom",
+        "Atelier",
+        "Athlet",
+        "Atlantik",
+        "Atmung",
+        "Audienz",
+        "aufatmen",
+        "Auffahrt",
+        "aufholen",
+        "aufregen",
+        "Aufsatz",
+        "Auftritt",
+        "Aufwand",
+        "Augapfel",
+        "Auktion",
+        "Ausbruch",
+        "Ausflug",
+        "Ausgabe",
+        "Aushilfe",
+        "Ausland",
+        "Ausnahme",
+        "Aussage",
+        "Autobahn",
+        "Avocado",
+        "Axthieb",
+        "Bach",
+        "backen",
+        "Badesee",
+        "Bahnhof",
+        "Balance",
+        "Balkon",
+        "Ballett",
+        "Balsam",
+        "Banane",
+        "Bandage",
+        "Bankett",
+        "Barbar",
+        "Barde",
+        "Barett",
+        "Bargeld",
+        "Barkasse",
+        "Barriere",
+        "Bart",
+        "Bass",
+        "Bastler",
+        "Batterie",
+        "Bauch",
+        "Bauer",
+        "Bauholz",
+        "Baujahr",
+        "Baum",
+        "Baustahl",
+        "Bauteil",
+        "Bauweise",
+        "Bazar",
+        "beachten",
+        "Beatmung",
+        "beben",
+        "Becher",
+        "Becken",
+        "bedanken",
+        "beeilen",
+        "beenden",
+        "Beere",
+        "befinden",
+        "Befreier",
+        "Begabung",
+        "Begierde",
+        "begr\xFC\xDFen",
+        "Beiboot",
+        "Beichte",
+        "Beifall",
+        "Beigabe",
+        "Beil",
+        "Beispiel",
+        "Beitrag",
+        "beizen",
+        "bekommen",
+        "beladen",
+        "Beleg",
+        "bellen",
+        "belohnen",
+        "Bemalung",
+        "Bengel",
+        "Benutzer",
+        "Benzin",
+        "beraten",
+        "Bereich",
+        "Bergluft",
+        "Bericht",
+        "Bescheid",
+        "Besitz",
+        "besorgen",
+        "Bestand",
+        "Besuch",
+        "betanken",
+        "beten",
+        "bet\xF6ren",
+        "Bett",
+        "Beule",
+        "Beute",
+        "Bewegung",
+        "bewirken",
+        "Bewohner",
+        "bezahlen",
+        "Bezug",
+        "biegen",
+        "Biene",
+        "Bierzelt",
+        "bieten",
+        "Bikini",
+        "Bildung",
+        "Billard",
+        "binden",
+        "Biobauer",
+        "Biologe",
+        "Bionik",
+        "Biotop",
+        "Birke",
+        "Bison",
+        "Bitte",
+        "Biwak",
+        "Bizeps",
+        "blasen",
+        "Blatt",
+        "Blauwal",
+        "Blende",
+        "Blick",
+        "Blitz",
+        "Blockade",
+        "Bl\xF6delei",
+        "Blondine",
+        "Blues",
+        "Blume",
+        "Blut",
+        "Bodensee",
+        "Bogen",
+        "Boje",
+        "Bollwerk",
+        "Bonbon",
+        "Bonus",
+        "Boot",
+        "Bordarzt",
+        "B\xF6rse",
+        "B\xF6schung",
+        "Boudoir",
+        "Boxkampf",
+        "Boykott",
+        "Brahms",
+        "Brandung",
+        "Brauerei",
+        "Brecher",
+        "Breitaxt",
+        "Bremse",
+        "brennen",
+        "Brett",
+        "Brief",
+        "Brigade",
+        "Brillanz",
+        "bringen",
+        "brodeln",
+        "Brosche",
+        "Br\xF6tchen",
+        "Br\xFCcke",
+        "Brunnen",
+        "Br\xFCste",
+        "Brutofen",
+        "Buch",
+        "B\xFCffel",
+        "Bugwelle",
+        "B\xFChne",
+        "Buletten",
+        "Bullauge",
+        "Bumerang",
+        "bummeln",
+        "Buntglas",
+        "B\xFCrde",
+        "Burgherr",
+        "Bursche",
+        "Busen",
+        "Buslinie",
+        "Bussard",
+        "Butangas",
+        "Butter",
+        "Cabrio",
+        "campen",
+        "Captain",
+        "Cartoon",
+        "Cello",
+        "Chalet",
+        "Charisma",
+        "Chefarzt",
+        "Chiffon",
+        "Chipsatz",
+        "Chirurg",
+        "Chor",
+        "Chronik",
+        "Chuzpe",
+        "Clubhaus",
+        "Cockpit",
+        "Codewort",
+        "Cognac",
+        "Coladose",
+        "Computer",
+        "Coupon",
+        "Cousin",
+        "Cracking",
+        "Crash",
+        "Curry",
+        "Dach",
+        "Dackel",
+        "daddeln",
+        "daliegen",
+        "Dame",
+        "Dammbau",
+        "D\xE4mon",
+        "Dampflok",
+        "Dank",
+        "Darm",
+        "Datei",
+        "Datsche",
+        "Datteln",
+        "Datum",
+        "Dauer",
+        "Daunen",
+        "Deckel",
+        "Decoder",
+        "Defekt",
+        "Degen",
+        "Dehnung",
+        "Deiche",
+        "Dekade",
+        "Dekor",
+        "Delfin",
+        "Demut",
+        "denken",
+        "Deponie",
+        "Design",
+        "Desktop",
+        "Dessert",
+        "Detail",
+        "Detektiv",
+        "Dezibel",
+        "Diadem",
+        "Diagnose",
+        "Dialekt",
+        "Diamant",
+        "Dichter",
+        "Dickicht",
+        "Diesel",
+        "Diktat",
+        "Diplom",
+        "Direktor",
+        "Dirne",
+        "Diskurs",
+        "Distanz",
+        "Docht",
+        "Dohle",
+        "Dolch",
+        "Dom\xE4ne",
+        "Donner",
+        "Dorade",
+        "Dorf",
+        "D\xF6rrobst",
+        "Dorsch",
+        "Dossier",
+        "Dozent",
+        "Drachen",
+        "Draht",
+        "Drama",
+        "Drang",
+        "Drehbuch",
+        "Dreieck",
+        "Dressur",
+        "Drittel",
+        "Drossel",
+        "Druck",
+        "Duell",
+        "Duft",
+        "D\xFCne",
+        "D\xFCnung",
+        "d\xFCrfen",
+        "Duschbad",
+        "D\xFCsenjet",
+        "Dynamik",
+        "Ebbe",
+        "Echolot",
+        "Echse",
+        "Eckball",
+        "Edding",
+        "Edelwei\xDF",
+        "Eden",
+        "Edition",
+        "Efeu",
+        "Effekte",
+        "Egoismus",
+        "Ehre",
+        "Eiablage",
+        "Eiche",
+        "Eidechse",
+        "Eidotter",
+        "Eierkopf",
+        "Eigelb",
+        "Eiland",
+        "Eilbote",
+        "Eimer",
+        "einatmen",
+        "Einband",
+        "Eindruck",
+        "Einfall",
+        "Eingang",
+        "Einkauf",
+        "einladen",
+        "Ein\xF6de",
+        "Einrad",
+        "Eintopf",
+        "Einwurf",
+        "Einzug",
+        "Eisb\xE4r",
+        "Eisen",
+        "Eish\xF6hle",
+        "Eismeer",
+        "Eiwei\xDF",
+        "Ekstase",
+        "Elan",
+        "Elch",
+        "Elefant",
+        "Eleganz",
+        "Element",
+        "Elfe",
+        "Elite",
+        "Elixier",
+        "Ellbogen",
+        "Eloquenz",
+        "Emigrant",
+        "Emission",
+        "Emotion",
+        "Empathie",
+        "Empfang",
+        "Endzeit",
+        "Energie",
+        "Engpass",
+        "Enkel",
+        "Enklave",
+        "Ente",
+        "entheben",
+        "Entit\xE4t",
+        "entladen",
+        "Entwurf",
+        "Episode",
+        "Epoche",
+        "erachten",
+        "Erbauer",
+        "erbl\xFChen",
+        "Erdbeere",
+        "Erde",
+        "Erdgas",
+        "Erdkunde",
+        "Erdnuss",
+        "Erd\xF6l",
+        "Erdteil",
+        "Ereignis",
+        "Eremit",
+        "erfahren",
+        "Erfolg",
+        "erfreuen",
+        "erf\xFCllen",
+        "Ergebnis",
+        "erhitzen",
+        "erkalten",
+        "erkennen",
+        "erleben",
+        "Erl\xF6sung",
+        "ern\xE4hren",
+        "erneuern",
+        "Ernte",
+        "Eroberer",
+        "er\xF6ffnen",
+        "Erosion",
+        "Erotik",
+        "Erpel",
+        "erraten",
+        "Erreger",
+        "err\xF6ten",
+        "Ersatz",
+        "Erstflug",
+        "Ertrag",
+        "Eruption",
+        "erwarten",
+        "erwidern",
+        "Erzbau",
+        "Erzeuger",
+        "erziehen",
+        "Esel",
+        "Eskimo",
+        "Eskorte",
+        "Espe",
+        "Espresso",
+        "essen",
+        "Etage",
+        "Etappe",
+        "Etat",
+        "Ethik",
+        "Etikett",
+        "Et\xFCde",
+        "Eule",
+        "Euphorie",
+        "Europa",
+        "Everest",
+        "Examen",
+        "Exil",
+        "Exodus",
+        "Extrakt",
+        "Fabel",
+        "Fabrik",
+        "Fachmann",
+        "Fackel",
+        "Faden",
+        "Fagott",
+        "Fahne",
+        "Faible",
+        "Fairness",
+        "Fakt",
+        "Fakult\xE4t",
+        "Falke",
+        "Fallobst",
+        "F\xE4lscher",
+        "Faltboot",
+        "Familie",
+        "Fanclub",
+        "Fanfare",
+        "Fangarm",
+        "Fantasie",
+        "Farbe",
+        "Farmhaus",
+        "Farn",
+        "Fasan",
+        "Faser",
+        "Fassung",
+        "fasten",
+        "Faulheit",
+        "Fauna",
+        "Faust",
+        "Favorit",
+        "Faxger\xE4t",
+        "Fazit",
+        "fechten",
+        "Federboa",
+        "Fehler",
+        "Feier",
+        "Feige",
+        "feilen",
+        "Feinripp",
+        "Feldbett",
+        "Felge",
+        "Fellpony",
+        "Felswand",
+        "Ferien",
+        "Ferkel",
+        "Fernweh",
+        "Ferse",
+        "Fest",
+        "Fettnapf",
+        "Feuer",
+        "Fiasko",
+        "Fichte",
+        "Fiktion",
+        "Film",
+        "Filter",
+        "Filz",
+        "Finanzen",
+        "Findling",
+        "Finger",
+        "Fink",
+        "Finnwal",
+        "Fisch",
+        "Fitness",
+        "Fixpunkt",
+        "Fixstern",
+        "Fjord",
+        "Flachbau",
+        "Flagge",
+        "Flamenco",
+        "Flanke",
+        "Flasche",
+        "Flaute",
+        "Fleck",
+        "Flegel",
+        "flehen",
+        "Fleisch",
+        "fliegen",
+        "Flinte",
+        "Flirt",
+        "Flocke",
+        "Floh",
+        "Floskel",
+        "Flo\xDF",
+        "Fl\xF6te",
+        "Flugzeug",
+        "Flunder",
+        "Flusstal",
+        "Flutung",
+        "Fockmast",
+        "Fohlen",
+        "F\xF6hnlage",
+        "Fokus",
+        "folgen",
+        "Foliant",
+        "Folklore",
+        "Font\xE4ne",
+        "F\xF6rde",
+        "Forelle",
+        "Format",
+        "Forscher",
+        "Fortgang",
+        "Forum",
+        "Fotograf",
+        "Frachter",
+        "Fragment",
+        "Fraktion",
+        "fr\xE4sen",
+        "Frauenpo",
+        "Freak",
+        "Fregatte",
+        "Freiheit",
+        "Freude",
+        "Frieden",
+        "Frohsinn",
+        "Frosch",
+        "Frucht",
+        "Fr\xFChjahr",
+        "Fuchs",
+        "F\xFCgung",
+        "f\xFChlen",
+        "F\xFCller",
+        "Fundb\xFCro",
+        "Funkboje",
+        "Funzel",
+        "Furnier",
+        "F\xFCrsorge",
+        "Fusel",
+        "Fu\xDFbad",
+        "Futteral",
+        "Gabelung",
+        "gackern",
+        "Gage",
+        "g\xE4hnen",
+        "Galaxie",
+        "Galeere",
+        "Galopp",
+        "Gameboy",
+        "Gamsbart",
+        "Gandhi",
+        "Gang",
+        "Garage",
+        "Gardine",
+        "Gark\xFCche",
+        "Garten",
+        "Gasthaus",
+        "Gattung",
+        "gaukeln",
+        "Gazelle",
+        "Geb\xE4ck",
+        "Gebirge",
+        "Gebr\xE4u",
+        "Geburt",
+        "Gedanke",
+        "Gedeck",
+        "Gedicht",
+        "Gefahr",
+        "Gefieder",
+        "Gefl\xFCgel",
+        "Gef\xFChl",
+        "Gegend",
+        "Gehirn",
+        "Geh\xF6ft",
+        "Gehweg",
+        "Geige",
+        "Geist",
+        "Gelage",
+        "Geld",
+        "Gelenk",
+        "Gel\xFCbde",
+        "Gem\xE4lde",
+        "Gemeinde",
+        "Gem\xFCse",
+        "genesen",
+        "Genuss",
+        "Gep\xE4ck",
+        "Geranie",
+        "Gericht",
+        "Germane",
+        "Geruch",
+        "Gesang",
+        "Geschenk",
+        "Gesetz",
+        "Gesindel",
+        "Ges\xF6ff",
+        "Gespan",
+        "Gestade",
+        "Gesuch",
+        "Getier",
+        "Getr\xE4nk",
+        "Get\xFCmmel",
+        "Gewand",
+        "Geweih",
+        "Gewitter",
+        "Gew\xF6lbe",
+        "Geysir",
+        "Giftzahn",
+        "Gipfel",
+        "Giraffe",
+        "Gitarre",
+        "gl\xE4nzen",
+        "Glasauge",
+        "Glatze",
+        "Gleis",
+        "Globus",
+        "Gl\xFCck",
+        "gl\xFChen",
+        "Glutofen",
+        "Goldzahn",
+        "Gondel",
+        "g\xF6nnen",
+        "Gottheit",
+        "graben",
+        "Grafik",
+        "Grashalm",
+        "Graugans",
+        "greifen",
+        "Grenze",
+        "grillen",
+        "Groschen",
+        "Grotte",
+        "Grube",
+        "Gr\xFCnalge",
+        "Gruppe",
+        "gruseln",
+        "Gulasch",
+        "Gummib\xE4r",
+        "Gurgel",
+        "G\xFCrtel",
+        "G\xFCterzug",
+        "Haarband",
+        "Habicht",
+        "hacken",
+        "hadern",
+        "Hafen",
+        "Hagel",
+        "H\xE4hnchen",
+        "Haifisch",
+        "Haken",
+        "Halbaffe",
+        "Halsader",
+        "halten",
+        "Halunke",
+        "Handbuch",
+        "Hanf",
+        "Harfe",
+        "Harnisch",
+        "h\xE4rten",
+        "Harz",
+        "Hasenohr",
+        "Haube",
+        "hauchen",
+        "Haupt",
+        "Haut",
+        "Havarie",
+        "Hebamme",
+        "hecheln",
+        "Heck",
+        "Hedonist",
+        "Heiler",
+        "Heimat",
+        "Heizung",
+        "Hektik",
+        "Held",
+        "helfen",
+        "Helium",
+        "Hemd",
+        "hemmen",
+        "Hengst",
+        "Herd",
+        "Hering",
+        "Herkunft",
+        "Hermelin",
+        "Herrchen",
+        "Herzdame",
+        "Heulboje",
+        "Hexe",
+        "Hilfe",
+        "Himbeere",
+        "Himmel",
+        "Hingabe",
+        "hinh\xF6ren",
+        "Hinweis",
+        "Hirsch",
+        "Hirte",
+        "Hitzkopf",
+        "Hobel",
+        "Hochform",
+        "Hocker",
+        "hoffen",
+        "Hofhund",
+        "Hofnarr",
+        "H\xF6henzug",
+        "Hohlraum",
+        "H\xF6lle",
+        "Holzboot",
+        "Honig",
+        "Honorar",
+        "horchen",
+        "H\xF6rprobe",
+        "H\xF6schen",
+        "Hotel",
+        "Hubraum",
+        "Hufeisen",
+        "H\xFCgel",
+        "huldigen",
+        "H\xFClle",
+        "Humbug",
+        "Hummer",
+        "Humor",
+        "Hund",
+        "Hunger",
+        "Hupe",
+        "H\xFCrde",
+        "Hurrikan",
+        "Hydrant",
+        "Hypnose",
+        "Ibis",
+        "Idee",
+        "Idiot",
+        "Igel",
+        "Illusion",
+        "Imitat",
+        "impfen",
+        "Import",
+        "Inferno",
+        "Ingwer",
+        "Inhalte",
+        "Inland",
+        "Insekt",
+        "Ironie",
+        "Irrfahrt",
+        "Irrtum",
+        "Isolator",
+        "Istwert",
+        "Jacke",
+        "Jade",
+        "Jagdhund",
+        "J\xE4ger",
+        "Jaguar",
+        "Jahr",
+        "J\xE4hzorn",
+        "Jazzfest",
+        "Jetpilot",
+        "jobben",
+        "Jochbein",
+        "jodeln",
+        "Jodsalz",
+        "Jolle",
+        "Journal",
+        "Jubel",
+        "Junge",
+        "Junimond",
+        "Jupiter",
+        "Jutesack",
+        "Juwel",
+        "Kabarett",
+        "Kabine",
+        "Kabuff",
+        "K\xE4fer",
+        "Kaffee",
+        "Kahlkopf",
+        "Kaimauer",
+        "Kaj\xFCte",
+        "Kaktus",
+        "Kaliber",
+        "Kaltluft",
+        "Kamel",
+        "k\xE4mmen",
+        "Kampagne",
+        "Kanal",
+        "K\xE4nguru",
+        "Kanister",
+        "Kanone",
+        "Kante",
+        "Kanu",
+        "kapern",
+        "Kapit\xE4n",
+        "Kapuze",
+        "Karneval",
+        "Karotte",
+        "K\xE4sebrot",
+        "Kasper",
+        "Kastanie",
+        "Katalog",
+        "Kathode",
+        "Katze",
+        "kaufen",
+        "Kaugummi",
+        "Kauz",
+        "Kehle",
+        "Keilerei",
+        "Keksdose",
+        "Kellner",
+        "Keramik",
+        "Kerze",
+        "Kessel",
+        "Kette",
+        "keuchen",
+        "kichern",
+        "Kielboot",
+        "Kindheit",
+        "Kinnbart",
+        "Kinosaal",
+        "Kiosk",
+        "Kissen",
+        "Klammer",
+        "Klang",
+        "Klapprad",
+        "Klartext",
+        "kleben",
+        "Klee",
+        "Kleinod",
+        "Klima",
+        "Klingel",
+        "Klippe",
+        "Klischee",
+        "Kloster",
+        "Klugheit",
+        "Kl\xFCngel",
+        "kneten",
+        "Knie",
+        "Kn\xF6chel",
+        "kn\xFCpfen",
+        "Kobold",
+        "Kochbuch",
+        "Kohlrabi",
+        "Koje",
+        "Kokos\xF6l",
+        "Kolibri",
+        "Kolumne",
+        "Komb\xFCse",
+        "Komiker",
+        "kommen",
+        "Konto",
+        "Konzept",
+        "Kopfkino",
+        "Kordhose",
+        "Korken",
+        "Korsett",
+        "Kosename",
+        "Krabbe",
+        "Krach",
+        "Kraft",
+        "Kr\xE4he",
+        "Kralle",
+        "Krapfen",
+        "Krater",
+        "kraulen",
+        "Kreuz",
+        "Krokodil",
+        "Kr\xF6te",
+        "Kugel",
+        "Kuhhirt",
+        "K\xFChnheit",
+        "K\xFCnstler",
+        "Kurort",
+        "Kurve",
+        "Kurzfilm",
+        "kuscheln",
+        "k\xFCssen",
+        "Kutter",
+        "Labor",
+        "lachen",
+        "Lackaffe",
+        "Ladeluke",
+        "Lagune",
+        "Laib",
+        "Lakritze",
+        "Lammfell",
+        "Land",
+        "Langmut",
+        "Lappalie",
+        "Last",
+        "Laterne",
+        "Latzhose",
+        "Laubs\xE4ge",
+        "laufen",
+        "Laune",
+        "Lausbub",
+        "Lavasee",
+        "Leben",
+        "Leder",
+        "Leerlauf",
+        "Lehm",
+        "Lehrer",
+        "leihen",
+        "Lekt\xFCre",
+        "Lenker",
+        "Lerche",
+        "Leseecke",
+        "Leuchter",
+        "Lexikon",
+        "Libelle",
+        "Libido",
+        "Licht",
+        "Liebe",
+        "liefern",
+        "Liftboy",
+        "Limonade",
+        "Lineal",
+        "Linoleum",
+        "List",
+        "Liveband",
+        "Lobrede",
+        "locken",
+        "L\xF6ffel",
+        "Logbuch",
+        "Logik",
+        "Lohn",
+        "Loipe",
+        "Lokal",
+        "Lorbeer",
+        "L\xF6sung",
+        "l\xF6ten",
+        "Lottofee",
+        "L\xF6we",
+        "Luchs",
+        "Luder",
+        "Luftpost",
+        "Luke",
+        "L\xFCmmel",
+        "Lunge",
+        "lutschen",
+        "Luxus",
+        "Macht",
+        "Magazin",
+        "Magier",
+        "Magnet",
+        "m\xE4hen",
+        "Mahlzeit",
+        "Mahnmal",
+        "Maibaum",
+        "Maisbrei",
+        "Makel",
+        "malen",
+        "Mammut",
+        "Manik\xFCre",
+        "Mantel",
+        "Marathon",
+        "Marder",
+        "Marine",
+        "Marke",
+        "Marmor",
+        "M\xE4rzluft",
+        "Maske",
+        "Ma\xDFanzug",
+        "Ma\xDFkrug",
+        "Mastkorb",
+        "Material",
+        "Matratze",
+        "Mauerbau",
+        "Maulkorb",
+        "M\xE4uschen",
+        "M\xE4zen",
+        "Medium",
+        "Meinung",
+        "melden",
+        "Melodie",
+        "Mensch",
+        "Merkmal",
+        "Messe",
+        "Metall",
+        "Meteor",
+        "Methode",
+        "Metzger",
+        "Mieze",
+        "Milchkuh",
+        "Mimose",
+        "Minirock",
+        "Minute",
+        "mischen",
+        "Missetat",
+        "mitgehen",
+        "Mittag",
+        "Mixtape",
+        "M\xF6bel",
+        "Modul",
+        "m\xF6gen",
+        "M\xF6hre",
+        "Molch",
+        "Moment",
+        "Monat",
+        "Mondflug",
+        "Monitor",
+        "Monokini",
+        "Monster",
+        "Monument",
+        "Moorhuhn",
+        "Moos",
+        "M\xF6pse",
+        "Moral",
+        "M\xF6rtel",
+        "Motiv",
+        "Motorrad",
+        "M\xF6we",
+        "M\xFChe",
+        "Mulatte",
+        "M\xFCller",
+        "Mumie",
+        "Mund",
+        "M\xFCnze",
+        "Muschel",
+        "Muster",
+        "Mythos",
+        "Nabel",
+        "Nachtzug",
+        "Nackedei",
+        "Nagel",
+        "N\xE4he",
+        "N\xE4hnadel",
+        "Namen",
+        "Narbe",
+        "Narwal",
+        "Nasenb\xE4r",
+        "Natur",
+        "Nebel",
+        "necken",
+        "Neffe",
+        "Neigung",
+        "Nektar",
+        "Nenner",
+        "Neptun",
+        "Nerz",
+        "Nessel",
+        "Nestbau",
+        "Netz",
+        "Neubau",
+        "Neuerung",
+        "Neugier",
+        "nicken",
+        "Niere",
+        "Nilpferd",
+        "nisten",
+        "Nocke",
+        "Nomade",
+        "Nordmeer",
+        "Notdurft",
+        "Notstand",
+        "Notwehr",
+        "Nudismus",
+        "Nuss",
+        "Nutzhanf",
+        "Oase",
+        "Obdach",
+        "Oberarzt",
+        "Objekt",
+        "Oboe",
+        "Obsthain",
+        "Ochse",
+        "Odyssee",
+        "Ofenholz",
+        "\xF6ffnen",
+        "Ohnmacht",
+        "Ohrfeige",
+        "Ohrwurm",
+        "\xD6kologie",
+        "Oktave",
+        "\xD6lberg",
+        "Olive",
+        "\xD6lkrise",
+        "Omelett",
+        "Onkel",
+        "Oper",
+        "Optiker",
+        "Orange",
+        "Orchidee",
+        "ordnen",
+        "Orgasmus",
+        "Orkan",
+        "Ortskern",
+        "Ortung",
+        "Ostasien",
+        "Ozean",
+        "Paarlauf",
+        "Packeis",
+        "paddeln",
+        "Paket",
+        "Palast",
+        "Pandab\xE4r",
+        "Panik",
+        "Panorama",
+        "Panther",
+        "Papagei",
+        "Papier",
+        "Paprika",
+        "Paradies",
+        "Parka",
+        "Parodie",
+        "Partner",
+        "Passant",
+        "Patent",
+        "Patzer",
+        "Pause",
+        "Pavian",
+        "Pedal",
+        "Pegel",
+        "peilen",
+        "Perle",
+        "Person",
+        "Pfad",
+        "Pfau",
+        "Pferd",
+        "Pfleger",
+        "Physik",
+        "Pier",
+        "Pilotwal",
+        "Pinzette",
+        "Piste",
+        "Plakat",
+        "Plankton",
+        "Platin",
+        "Plombe",
+        "pl\xFCndern",
+        "Pobacke",
+        "Pokal",
+        "polieren",
+        "Popmusik",
+        "Portr\xE4t",
+        "Posaune",
+        "Postamt",
+        "Pottwal",
+        "Pracht",
+        "Pranke",
+        "Preis",
+        "Primat",
+        "Prinzip",
+        "Protest",
+        "Proviant",
+        "Pr\xFCfung",
+        "Pubert\xE4t",
+        "Pudding",
+        "Pullover",
+        "Pulsader",
+        "Punkt",
+        "Pute",
+        "Putsch",
+        "Puzzle",
+        "Python",
+        "quaken",
+        "Qualle",
+        "Quark",
+        "Quellsee",
+        "Querkopf",
+        "Quitte",
+        "Quote",
+        "Rabauke",
+        "Rache",
+        "Radclub",
+        "Radhose",
+        "Radio",
+        "Radtour",
+        "Rahmen",
+        "Rampe",
+        "Randlage",
+        "Ranzen",
+        "Raps\xF6l",
+        "Raserei",
+        "rasten",
+        "Rasur",
+        "R\xE4tsel",
+        "Raubtier",
+        "Raumzeit",
+        "Rausch",
+        "Reaktor",
+        "Realit\xE4t",
+        "Rebell",
+        "Rede",
+        "Reetdach",
+        "Regatta",
+        "Regen",
+        "Rehkitz",
+        "Reifen",
+        "Reim",
+        "Reise",
+        "Reizung",
+        "Rekord",
+        "Relevanz",
+        "Rennboot",
+        "Respekt",
+        "Restm\xFCll",
+        "retten",
+        "Reue",
+        "Revolte",
+        "Rhetorik",
+        "Rhythmus",
+        "Richtung",
+        "Riegel",
+        "Rindvieh",
+        "Rippchen",
+        "Ritter",
+        "Robbe",
+        "Roboter",
+        "Rockband",
+        "Rohdaten",
+        "Roller",
+        "Roman",
+        "r\xF6ntgen",
+        "Rose",
+        "Rosskur",
+        "Rost",
+        "Rotahorn",
+        "Rotglut",
+        "Rotznase",
+        "Rubrik",
+        "R\xFCckweg",
+        "Rufmord",
+        "Ruhe",
+        "Ruine",
+        "Rumpf",
+        "Runde",
+        "R\xFCstung",
+        "r\xFCtteln",
+        "Saalt\xFCr",
+        "Saatguts",
+        "S\xE4bel",
+        "Sachbuch",
+        "Sack",
+        "Saft",
+        "sagen",
+        "Sahneeis",
+        "Salat",
+        "Salbe",
+        "Salz",
+        "Sammlung",
+        "Samt",
+        "Sandbank",
+        "Sanftmut",
+        "Sardine",
+        "Satire",
+        "Sattel",
+        "Satzbau",
+        "Sauerei",
+        "Saum",
+        "S\xE4ure",
+        "Schall",
+        "Scheitel",
+        "Schiff",
+        "Schlager",
+        "Schmied",
+        "Schnee",
+        "Scholle",
+        "Schrank",
+        "Schulbus",
+        "Schwan",
+        "Seeadler",
+        "Seefahrt",
+        "Seehund",
+        "Seeufer",
+        "segeln",
+        "Sehnerv",
+        "Seide",
+        "Seilzug",
+        "Senf",
+        "Sessel",
+        "Seufzer",
+        "Sexgott",
+        "Sichtung",
+        "Signal",
+        "Silber",
+        "singen",
+        "Sinn",
+        "Sirup",
+        "Sitzbank",
+        "Skandal",
+        "Skikurs",
+        "Skipper",
+        "Skizze",
+        "Smaragd",
+        "Socke",
+        "Sohn",
+        "Sommer",
+        "Songtext",
+        "Sorte",
+        "Spagat",
+        "Spannung",
+        "Spargel",
+        "Specht",
+        "Speise\xF6l",
+        "Spiegel",
+        "Sport",
+        "sp\xFClen",
+        "Stadtbus",
+        "Stall",
+        "St\xE4rke",
+        "Stativ",
+        "staunen",
+        "Stern",
+        "Stiftung",
+        "Stollen",
+        "Str\xF6mung",
+        "Sturm",
+        "Substanz",
+        "S\xFCdalpen",
+        "Sumpf",
+        "surfen",
+        "Tabak",
+        "Tafel",
+        "Tagebau",
+        "takeln",
+        "Taktung",
+        "Talsohle",
+        "Tand",
+        "Tanzb\xE4r",
+        "Tapir",
+        "Tarantel",
+        "Tarnname",
+        "Tasse",
+        "Tatnacht",
+        "Tatsache",
+        "Tatze",
+        "Taube",
+        "tauchen",
+        "Taufpate",
+        "Taumel",
+        "Teelicht",
+        "Teich",
+        "teilen",
+        "Tempo",
+        "Tenor",
+        "Terrasse",
+        "Testflug",
+        "Theater",
+        "Thermik",
+        "ticken",
+        "Tiefflug",
+        "Tierart",
+        "Tigerhai",
+        "Tinte",
+        "Tischler",
+        "toben",
+        "Toleranz",
+        "T\xF6lpel",
+        "Tonband",
+        "Topf",
+        "Topmodel",
+        "Torbogen",
+        "Torlinie",
+        "Torte",
+        "Tourist",
+        "Tragesel",
+        "trampeln",
+        "Trapez",
+        "Traum",
+        "treffen",
+        "Trennung",
+        "Treue",
+        "Trick",
+        "trimmen",
+        "Tr\xF6del",
+        "Trost",
+        "Trumpf",
+        "t\xFCfteln",
+        "Turban",
+        "Turm",
+        "\xDCbermut",
+        "Ufer",
+        "Uhrwerk",
+        "umarmen",
+        "Umbau",
+        "Umfeld",
+        "Umgang",
+        "Umsturz",
+        "Unart",
+        "Unfug",
+        "Unimog",
+        "Unruhe",
+        "Unwucht",
+        "Uranerz",
+        "Urlaub",
+        "Urmensch",
+        "Utopie",
+        "Vakuum",
+        "Valuta",
+        "Vandale",
+        "Vase",
+        "Vektor",
+        "Ventil",
+        "Verb",
+        "Verdeck",
+        "Verfall",
+        "Vergaser",
+        "verhexen",
+        "Verlag",
+        "Vers",
+        "Vesper",
+        "Vieh",
+        "Viereck",
+        "Vinyl",
+        "Virus",
+        "Vitrine",
+        "Vollblut",
+        "Vorbote",
+        "Vorrat",
+        "Vorsicht",
+        "Vulkan",
+        "Wachstum",
+        "Wade",
+        "Wagemut",
+        "Wahlen",
+        "Wahrheit",
+        "Wald",
+        "Walhai",
+        "Wallach",
+        "Walnuss",
+        "Walzer",
+        "wandeln",
+        "Wanze",
+        "w\xE4rmen",
+        "Warnruf",
+        "W\xE4sche",
+        "Wasser",
+        "Weberei",
+        "wechseln",
+        "Wegegeld",
+        "wehren",
+        "Weiher",
+        "Weinglas",
+        "Wei\xDFbier",
+        "Weitwurf",
+        "Welle",
+        "Weltall",
+        "Werkbank",
+        "Werwolf",
+        "Wetter",
+        "wiehern",
+        "Wildgans",
+        "Wind",
+        "Wohl",
+        "Wohnort",
+        "Wolf",
+        "Wollust",
+        "Wortlaut",
+        "Wrack",
+        "Wunder",
+        "Wurfaxt",
+        "Wurst",
+        "Yacht",
+        "Yeti",
+        "Zacke",
+        "Zahl",
+        "z\xE4hmen",
+        "Zahnfee",
+        "Z\xE4pfchen",
+        "Zaster",
+        "Zaumzeug",
+        "Zebra",
+        "zeigen",
+        "Zeitlupe",
+        "Zellkern",
+        "Zeltdach",
+        "Zensor",
+        "Zerfall",
+        "Zeug",
+        "Ziege",
+        "Zielfoto",
+        "Zimteis",
+        "Zobel",
+        "Zollhund",
+        "Zombie",
+        "Z\xF6pfe",
+        "Zucht",
+        "Zufahrt",
+        "Zugfahrt",
+        "Zugvogel",
+        "Z\xFCndung",
+        "Zweck",
+        "Zyklop"
+      ]
+    },
+    italian: {
+      prefix: 4,
+      words: [
+        "abbinare",
+        "abbonato",
+        "abisso",
+        "abitare",
+        "abominio",
+        "accadere",
+        "accesso",
+        "acciaio",
+        "accordo",
+        "accumulo",
+        "acido",
+        "acqua",
+        "acrobata",
+        "acustico",
+        "adattare",
+        "addetto",
+        "addio",
+        "addome",
+        "adeguato",
+        "aderire",
+        "adorare",
+        "adottare",
+        "adozione",
+        "adulto",
+        "aereo",
+        "aerobica",
+        "affare",
+        "affetto",
+        "affidare",
+        "affogato",
+        "affronto",
+        "africano",
+        "afrodite",
+        "agenzia",
+        "aggancio",
+        "aggeggio",
+        "aggiunta",
+        "agio",
+        "agire",
+        "agitare",
+        "aglio",
+        "agnello",
+        "agosto",
+        "aiutare",
+        "albero",
+        "albo",
+        "alce",
+        "alchimia",
+        "alcool",
+        "alfabeto",
+        "algebra",
+        "alimento",
+        "allarme",
+        "alleanza",
+        "allievo",
+        "alloggio",
+        "alluce",
+        "alpi",
+        "alterare",
+        "altro",
+        "aluminio",
+        "amante",
+        "amarezza",
+        "ambiente",
+        "ambrosia",
+        "america",
+        "amico",
+        "ammalare",
+        "ammirare",
+        "amnesia",
+        "amnistia",
+        "amore",
+        "ampliare",
+        "amputare",
+        "analisi",
+        "anamnesi",
+        "ananas",
+        "anarchia",
+        "anatra",
+        "anca",
+        "ancorato",
+        "andare",
+        "androide",
+        "aneddoto",
+        "anello",
+        "angelo",
+        "angolino",
+        "anguilla",
+        "anidride",
+        "anima",
+        "annegare",
+        "anno",
+        "annuncio",
+        "anomalia",
+        "antenna",
+        "anticipo",
+        "aperto",
+        "apostolo",
+        "appalto",
+        "appello",
+        "appiglio",
+        "applauso",
+        "appoggio",
+        "appurare",
+        "aprile",
+        "aquila",
+        "arabo",
+        "arachidi",
+        "aragosta",
+        "arancia",
+        "arbitrio",
+        "archivio",
+        "arco",
+        "argento",
+        "argilla",
+        "aria",
+        "ariete",
+        "arma",
+        "armonia",
+        "aroma",
+        "arrivare",
+        "arrosto",
+        "arsenale",
+        "arte",
+        "artiglio",
+        "asfalto",
+        "asfissia",
+        "asino",
+        "asparagi",
+        "aspirina",
+        "assalire",
+        "assegno",
+        "assolto",
+        "assurdo",
+        "asta",
+        "astratto",
+        "atlante",
+        "atletica",
+        "atomo",
+        "atropina",
+        "attacco",
+        "attesa",
+        "attico",
+        "atto",
+        "attrarre",
+        "auguri",
+        "aula",
+        "aumento",
+        "aurora",
+        "auspicio",
+        "autista",
+        "auto",
+        "autunno",
+        "avanzare",
+        "avarizia",
+        "avere",
+        "aviatore",
+        "avido",
+        "avorio",
+        "avvenire",
+        "avviso",
+        "avvocato",
+        "azienda",
+        "azione",
+        "azzardo",
+        "azzurro",
+        "babbuino",
+        "bacio",
+        "badante",
+        "baffi",
+        "bagaglio",
+        "bagliore",
+        "bagno",
+        "balcone",
+        "balena",
+        "ballare",
+        "balordo",
+        "balsamo",
+        "bambola",
+        "bancomat",
+        "banda",
+        "barato",
+        "barba",
+        "barista",
+        "barriera",
+        "basette",
+        "basilico",
+        "bassista",
+        "bastare",
+        "battello",
+        "bavaglio",
+        "beccare",
+        "beduino",
+        "bellezza",
+        "bene",
+        "benzina",
+        "berretto",
+        "bestia",
+        "bevitore",
+        "bianco",
+        "bibbia",
+        "biberon",
+        "bibita",
+        "bici",
+        "bidone",
+        "bilancia",
+        "biliardo",
+        "binario",
+        "binocolo",
+        "biologia",
+        "biondina",
+        "biopsia",
+        "biossido",
+        "birbante",
+        "birra",
+        "biscotto",
+        "bisogno",
+        "bistecca",
+        "bivio",
+        "blindare",
+        "bloccare",
+        "bocca",
+        "bollire",
+        "bombola",
+        "bonifico",
+        "borghese",
+        "borsa",
+        "bottino",
+        "botulino",
+        "braccio",
+        "bradipo",
+        "branco",
+        "bravo",
+        "bresaola",
+        "bretelle",
+        "brevetto",
+        "briciola",
+        "brigante",
+        "brillare",
+        "brindare",
+        "brivido",
+        "broccoli",
+        "brontolo",
+        "bruciare",
+        "brufolo",
+        "bucare",
+        "buddista",
+        "budino",
+        "bufera",
+        "buffo",
+        "bugiardo",
+        "buio",
+        "buono",
+        "burrone",
+        "bussola",
+        "bustina",
+        "buttare",
+        "cabernet",
+        "cabina",
+        "cacao",
+        "cacciare",
+        "cactus",
+        "cadavere",
+        "caffe",
+        "calamari",
+        "calcio",
+        "caldaia",
+        "calmare",
+        "calunnia",
+        "calvario",
+        "calzone",
+        "cambiare",
+        "camera",
+        "camion",
+        "cammello",
+        "campana",
+        "canarino",
+        "cancello",
+        "candore",
+        "cane",
+        "canguro",
+        "cannone",
+        "canoa",
+        "cantare",
+        "canzone",
+        "caos",
+        "capanna",
+        "capello",
+        "capire",
+        "capo",
+        "capperi",
+        "capra",
+        "capsula",
+        "caraffa",
+        "carbone",
+        "carciofo",
+        "cardigan",
+        "carenza",
+        "caricare",
+        "carota",
+        "carrello",
+        "carta",
+        "casa",
+        "cascare",
+        "caserma",
+        "cashmere",
+        "casino",
+        "cassetta",
+        "castello",
+        "catalogo",
+        "catena",
+        "catorcio",
+        "cattivo",
+        "causa",
+        "cauzione",
+        "cavallo",
+        "caverna",
+        "caviglia",
+        "cavo",
+        "cazzotto",
+        "celibato",
+        "cemento",
+        "cenare",
+        "centrale",
+        "ceramica",
+        "cercare",
+        "ceretta",
+        "cerniera",
+        "certezza",
+        "cervello",
+        "cessione",
+        "cestino",
+        "cetriolo",
+        "chiave",
+        "chiedere",
+        "chilo",
+        "chimera",
+        "chiodo",
+        "chirurgo",
+        "chitarra",
+        "chiudere",
+        "ciabatta",
+        "ciao",
+        "cibo",
+        "ciccia",
+        "cicerone",
+        "ciclone",
+        "cicogna",
+        "cielo",
+        "cifra",
+        "cigno",
+        "ciliegia",
+        "cimitero",
+        "cinema",
+        "cinque",
+        "cintura",
+        "ciondolo",
+        "ciotola",
+        "cipolla",
+        "cippato",
+        "circuito",
+        "cisterna",
+        "citofono",
+        "ciuccio",
+        "civetta",
+        "civico",
+        "clausola",
+        "cliente",
+        "clima",
+        "clinica",
+        "cobra",
+        "coccole",
+        "cocktail",
+        "cocomero",
+        "codice",
+        "coesione",
+        "cogliere",
+        "cognome",
+        "colla",
+        "colomba",
+        "colpire",
+        "coltello",
+        "comando",
+        "comitato",
+        "commedia",
+        "comodino",
+        "compagna",
+        "comune",
+        "concerto",
+        "condotto",
+        "conforto",
+        "congiura",
+        "coniglio",
+        "consegna",
+        "conto",
+        "convegno",
+        "coperta",
+        "copia",
+        "coprire",
+        "corazza",
+        "corda",
+        "corleone",
+        "cornice",
+        "corona",
+        "corpo",
+        "corrente",
+        "corsa",
+        "cortesia",
+        "corvo",
+        "coso",
+        "costume",
+        "cotone",
+        "cottura",
+        "cozza",
+        "crampo",
+        "cratere",
+        "cravatta",
+        "creare",
+        "credere",
+        "crema",
+        "crescere",
+        "crimine",
+        "criterio",
+        "croce",
+        "crollare",
+        "cronaca",
+        "crostata",
+        "croupier",
+        "cubetto",
+        "cucciolo",
+        "cucina",
+        "cultura",
+        "cuoco",
+        "cuore",
+        "cupido",
+        "cupola",
+        "cura",
+        "curva",
+        "cuscino",
+        "custode",
+        "danzare",
+        "data",
+        "decennio",
+        "decidere",
+        "decollo",
+        "dedicare",
+        "dedurre",
+        "definire",
+        "delegare",
+        "delfino",
+        "delitto",
+        "demone",
+        "dentista",
+        "denuncia",
+        "deposito",
+        "derivare",
+        "deserto",
+        "designer",
+        "destino",
+        "detonare",
+        "dettagli",
+        "diagnosi",
+        "dialogo",
+        "diamante",
+        "diario",
+        "diavolo",
+        "dicembre",
+        "difesa",
+        "digerire",
+        "digitare",
+        "diluvio",
+        "dinamica",
+        "dipinto",
+        "diploma",
+        "diramare",
+        "dire",
+        "dirigere",
+        "dirupo",
+        "discesa",
+        "disdetta",
+        "disegno",
+        "disporre",
+        "dissenso",
+        "distacco",
+        "dito",
+        "ditta",
+        "diva",
+        "divenire",
+        "dividere",
+        "divorare",
+        "docente",
+        "dolcetto",
+        "dolore",
+        "domatore",
+        "domenica",
+        "dominare",
+        "donatore",
+        "donna",
+        "dorato",
+        "dormire",
+        "dorso",
+        "dosaggio",
+        "dottore",
+        "dovere",
+        "download",
+        "dragone",
+        "dramma",
+        "dubbio",
+        "dubitare",
+        "duetto",
+        "durata",
+        "ebbrezza",
+        "eccesso",
+        "eccitare",
+        "eclissi",
+        "economia",
+        "edera",
+        "edificio",
+        "editore",
+        "edizione",
+        "educare",
+        "effetto",
+        "egitto",
+        "egiziano",
+        "elastico",
+        "elefante",
+        "eleggere",
+        "elemento",
+        "elenco",
+        "elezione",
+        "elmetto",
+        "elogio",
+        "embrione",
+        "emergere",
+        "emettere",
+        "eminenza",
+        "emisfero",
+        "emozione",
+        "empatia",
+        "energia",
+        "enfasi",
+        "enigma",
+        "entrare",
+        "enzima",
+        "epidemia",
+        "epilogo",
+        "episodio",
+        "epoca",
+        "equivoco",
+        "erba",
+        "erede",
+        "eroe",
+        "erotico",
+        "errore",
+        "eruzione",
+        "esaltare",
+        "esame",
+        "esaudire",
+        "eseguire",
+        "esempio",
+        "esigere",
+        "esistere",
+        "esito",
+        "esperto",
+        "espresso",
+        "essere",
+        "estasi",
+        "esterno",
+        "estrarre",
+        "eterno",
+        "etica",
+        "euforico",
+        "europa",
+        "evacuare",
+        "evasione",
+        "evento",
+        "evidenza",
+        "evitare",
+        "evolvere",
+        "fabbrica",
+        "facciata",
+        "fagiano",
+        "fagotto",
+        "falco",
+        "fame",
+        "famiglia",
+        "fanale",
+        "fango",
+        "fantasia",
+        "farfalla",
+        "farmacia",
+        "faro",
+        "fase",
+        "fastidio",
+        "faticare",
+        "fatto",
+        "favola",
+        "febbre",
+        "femmina",
+        "femore",
+        "fenomeno",
+        "fermata",
+        "feromoni",
+        "ferrari",
+        "fessura",
+        "festa",
+        "fiaba",
+        "fiamma",
+        "fianco",
+        "fiat",
+        "fibbia",
+        "fidare",
+        "fieno",
+        "figa",
+        "figlio",
+        "figura",
+        "filetto",
+        "filmato",
+        "filosofo",
+        "filtrare",
+        "finanza",
+        "finestra",
+        "fingere",
+        "finire",
+        "finta",
+        "finzione",
+        "fiocco",
+        "fioraio",
+        "firewall",
+        "firmare",
+        "fisico",
+        "fissare",
+        "fittizio",
+        "fiume",
+        "flacone",
+        "flagello",
+        "flirtare",
+        "flusso",
+        "focaccia",
+        "foglio",
+        "fognario",
+        "follia",
+        "fonderia",
+        "fontana",
+        "forbici",
+        "forcella",
+        "foresta",
+        "forgiare",
+        "formare",
+        "fornace",
+        "foro",
+        "fortuna",
+        "forzare",
+        "fosforo",
+        "fotoni",
+        "fracasso",
+        "fragola",
+        "frantumi",
+        "fratello",
+        "frazione",
+        "freccia",
+        "freddo",
+        "frenare",
+        "fresco",
+        "friggere",
+        "frittata",
+        "frivolo",
+        "frizione",
+        "fronte",
+        "frullato",
+        "frumento",
+        "frusta",
+        "frutto",
+        "fucile",
+        "fuggire",
+        "fulmine",
+        "fumare",
+        "funzione",
+        "fuoco",
+        "furbizia",
+        "furgone",
+        "furia",
+        "furore",
+        "fusibile",
+        "fuso",
+        "futuro",
+        "gabbiano",
+        "galassia",
+        "gallina",
+        "gamba",
+        "gancio",
+        "garanzia",
+        "garofano",
+        "gasolio",
+        "gatto",
+        "gazebo",
+        "gazzetta",
+        "gelato",
+        "gemelli",
+        "generare",
+        "genitori",
+        "gennaio",
+        "geologia",
+        "germania",
+        "gestire",
+        "gettare",
+        "ghepardo",
+        "ghiaccio",
+        "giaccone",
+        "giaguaro",
+        "giallo",
+        "giappone",
+        "giardino",
+        "gigante",
+        "gioco",
+        "gioiello",
+        "giorno",
+        "giovane",
+        "giraffa",
+        "giudizio",
+        "giurare",
+        "giusto",
+        "globo",
+        "gloria",
+        "glucosio",
+        "gnocca",
+        "gocciola",
+        "godere",
+        "gomito",
+        "gomma",
+        "gonfiare",
+        "gorilla",
+        "governo",
+        "gradire",
+        "graffiti",
+        "granchio",
+        "grappolo",
+        "grasso",
+        "grattare",
+        "gridare",
+        "grissino",
+        "grondaia",
+        "grugnito",
+        "gruppo",
+        "guadagno",
+        "guaio",
+        "guancia",
+        "guardare",
+        "gufo",
+        "guidare",
+        "guscio",
+        "gusto",
+        "icona",
+        "idea",
+        "identico",
+        "idolo",
+        "idoneo",
+        "idrante",
+        "idrogeno",
+        "igiene",
+        "ignoto",
+        "imbarco",
+        "immagine",
+        "immobile",
+        "imparare",
+        "impedire",
+        "impianto",
+        "importo",
+        "impresa",
+        "impulso",
+        "incanto",
+        "incendio",
+        "incidere",
+        "incontro",
+        "incrocia",
+        "incubo",
+        "indagare",
+        "indice",
+        "indotto",
+        "infanzia",
+        "inferno",
+        "infinito",
+        "infranto",
+        "ingerire",
+        "inglese",
+        "ingoiare",
+        "ingresso",
+        "iniziare",
+        "innesco",
+        "insalata",
+        "inserire",
+        "insicuro",
+        "insonnia",
+        "insulto",
+        "interno",
+        "introiti",
+        "invasori",
+        "inverno",
+        "invito",
+        "invocare",
+        "ipnosi",
+        "ipocrita",
+        "ipotesi",
+        "ironia",
+        "irrigare",
+        "iscritto",
+        "isola",
+        "ispirare",
+        "isterico",
+        "istinto",
+        "istruire",
+        "italiano",
+        "jazz",
+        "labbra",
+        "labrador",
+        "ladro",
+        "lago",
+        "lamento",
+        "lampone",
+        "lancetta",
+        "lanterna",
+        "lapide",
+        "larva",
+        "lasagne",
+        "lasciare",
+        "lastra",
+        "latte",
+        "laurea",
+        "lavagna",
+        "lavorare",
+        "leccare",
+        "legare",
+        "leggere",
+        "lenzuolo",
+        "leone",
+        "lepre",
+        "letargo",
+        "lettera",
+        "levare",
+        "levitare",
+        "lezione",
+        "liberare",
+        "libidine",
+        "libro",
+        "licenza",
+        "lievito",
+        "limite",
+        "lince",
+        "lingua",
+        "liquore",
+        "lire",
+        "listino",
+        "litigare",
+        "litro",
+        "locale",
+        "lottare",
+        "lucciola",
+        "lucidare",
+        "luglio",
+        "luna",
+        "macchina",
+        "madama",
+        "madre",
+        "maestro",
+        "maggio",
+        "magico",
+        "maglione",
+        "magnolia",
+        "mago",
+        "maialino",
+        "maionese",
+        "malattia",
+        "male",
+        "malloppo",
+        "mancare",
+        "mandorla",
+        "mangiare",
+        "manico",
+        "manopola",
+        "mansarda",
+        "mantello",
+        "manubrio",
+        "manzo",
+        "mappa",
+        "mare",
+        "margine",
+        "marinaio",
+        "marmotta",
+        "marocco",
+        "martello",
+        "marzo",
+        "maschera",
+        "matrice",
+        "maturare",
+        "mazzetta",
+        "meandri",
+        "medaglia",
+        "medico",
+        "medusa",
+        "megafono",
+        "melone",
+        "membrana",
+        "menta",
+        "mercato",
+        "meritare",
+        "merluzzo",
+        "mese",
+        "mestiere",
+        "metafora",
+        "meteo",
+        "metodo",
+        "mettere",
+        "miele",
+        "miglio",
+        "miliardo",
+        "mimetica",
+        "minatore",
+        "minuto",
+        "miracolo",
+        "mirtillo",
+        "missile",
+        "mistero",
+        "misura",
+        "mito",
+        "mobile",
+        "moda",
+        "moderare",
+        "moglie",
+        "molecola",
+        "molle",
+        "momento",
+        "moneta",
+        "mongolia",
+        "monologo",
+        "montagna",
+        "morale",
+        "morbillo",
+        "mordere",
+        "mosaico",
+        "mosca",
+        "mostro",
+        "motivare",
+        "moto",
+        "mulino",
+        "mulo",
+        "muovere",
+        "muraglia",
+        "muscolo",
+        "museo",
+        "musica",
+        "mutande",
+        "nascere",
+        "nastro",
+        "natale",
+        "natura",
+        "nave",
+        "navigare",
+        "negare",
+        "negozio",
+        "nemico",
+        "nero",
+        "nervo",
+        "nessuno",
+        "nettare",
+        "neutroni",
+        "neve",
+        "nevicare",
+        "nicotina",
+        "nido",
+        "nipote",
+        "nocciola",
+        "noleggio",
+        "nome",
+        "nonno",
+        "norvegia",
+        "notare",
+        "notizia",
+        "nove",
+        "nucleo",
+        "nuda",
+        "nuotare",
+        "nutrire",
+        "obbligo",
+        "occhio",
+        "occupare",
+        "oceano",
+        "odissea",
+        "odore",
+        "offerta",
+        "officina",
+        "offrire",
+        "oggetto",
+        "oggi",
+        "olfatto",
+        "olio",
+        "oliva",
+        "ombelico",
+        "ombrello",
+        "omuncolo",
+        "ondata",
+        "onore",
+        "opera",
+        "opinione",
+        "opuscolo",
+        "opzione",
+        "orario",
+        "orbita",
+        "orchidea",
+        "ordine",
+        "orecchio",
+        "orgasmo",
+        "orgoglio",
+        "origine",
+        "orologio",
+        "oroscopo",
+        "orso",
+        "oscurare",
+        "ospedale",
+        "ospite",
+        "ossigeno",
+        "ostacolo",
+        "ostriche",
+        "ottenere",
+        "ottimo",
+        "ottobre",
+        "ovest",
+        "pacco",
+        "pace",
+        "pacifico",
+        "padella",
+        "pagare",
+        "pagina",
+        "pagnotta",
+        "palazzo",
+        "palestra",
+        "palpebre",
+        "pancetta",
+        "panfilo",
+        "panino",
+        "pannello",
+        "panorama",
+        "papa",
+        "paperino",
+        "paradiso",
+        "parcella",
+        "parente",
+        "parlare",
+        "parodia",
+        "parrucca",
+        "partire",
+        "passare",
+        "pasta",
+        "patata",
+        "patente",
+        "patogeno",
+        "patriota",
+        "pausa",
+        "pazienza",
+        "peccare",
+        "pecora",
+        "pedalare",
+        "pelare",
+        "pena",
+        "pendenza",
+        "penisola",
+        "pennello",
+        "pensare",
+        "pentirsi",
+        "percorso",
+        "perdono",
+        "perfetto",
+        "perizoma",
+        "perla",
+        "permesso",
+        "persona",
+        "pesare",
+        "pesce",
+        "peso",
+        "petardo",
+        "petrolio",
+        "pezzo",
+        "piacere",
+        "pianeta",
+        "piastra",
+        "piatto",
+        "piazza",
+        "piccolo",
+        "piede",
+        "piegare",
+        "pietra",
+        "pigiama",
+        "pigliare",
+        "pigrizia",
+        "pilastro",
+        "pilota",
+        "pinguino",
+        "pioggia",
+        "piombo",
+        "pionieri",
+        "piovra",
+        "pipa",
+        "pirata",
+        "pirolisi",
+        "piscina",
+        "pisolino",
+        "pista",
+        "pitone",
+        "piumino",
+        "pizza",
+        "plastica",
+        "platino",
+        "poesia",
+        "poiana",
+        "polaroid",
+        "polenta",
+        "polimero",
+        "pollo",
+        "polmone",
+        "polpetta",
+        "poltrona",
+        "pomodoro",
+        "pompa",
+        "popolo",
+        "porco",
+        "porta",
+        "porzione",
+        "possesso",
+        "postino",
+        "potassio",
+        "potere",
+        "poverino",
+        "pranzo",
+        "prato",
+        "prefisso",
+        "prelievo",
+        "premio",
+        "prendere",
+        "prestare",
+        "pretesa",
+        "prezzo",
+        "primario",
+        "privacy",
+        "problema",
+        "processo",
+        "prodotto",
+        "profeta",
+        "progetto",
+        "promessa",
+        "pronto",
+        "proposta",
+        "proroga",
+        "prossimo",
+        "proteina",
+        "prova",
+        "prudenza",
+        "pubblico",
+        "pudore",
+        "pugilato",
+        "pulire",
+        "pulsante",
+        "puntare",
+        "pupazzo",
+        "puzzle",
+        "quaderno",
+        "qualcuno",
+        "quarzo",
+        "quercia",
+        "quintale",
+        "rabbia",
+        "racconto",
+        "radice",
+        "raffica",
+        "ragazza",
+        "ragione",
+        "rammento",
+        "ramo",
+        "rana",
+        "randagio",
+        "rapace",
+        "rapinare",
+        "rapporto",
+        "rasatura",
+        "ravioli",
+        "reagire",
+        "realista",
+        "reattore",
+        "reazione",
+        "recitare",
+        "recluso",
+        "record",
+        "recupero",
+        "redigere",
+        "regalare",
+        "regina",
+        "regola",
+        "relatore",
+        "reliquia",
+        "remare",
+        "rendere",
+        "reparto",
+        "resina",
+        "resto",
+        "rete",
+        "retorica",
+        "rettile",
+        "revocare",
+        "riaprire",
+        "ribadire",
+        "ribelle",
+        "ricambio",
+        "ricetta",
+        "richiamo",
+        "ricordo",
+        "ridurre",
+        "riempire",
+        "riferire",
+        "riflesso",
+        "righello",
+        "rilancio",
+        "rilevare",
+        "rilievo",
+        "rimanere",
+        "rimborso",
+        "rinforzo",
+        "rinuncia",
+        "riparo",
+        "ripetere",
+        "riposare",
+        "ripulire",
+        "risalita",
+        "riscatto",
+        "riserva",
+        "riso",
+        "rispetto",
+        "ritaglio",
+        "ritmo",
+        "ritorno",
+        "ritratto",
+        "rituale",
+        "riunione",
+        "riuscire",
+        "riva",
+        "robotica",
+        "rondine",
+        "rosa",
+        "rospo",
+        "rosso",
+        "rotonda",
+        "rotta",
+        "roulotte",
+        "rubare",
+        "rubrica",
+        "ruffiano",
+        "rumore",
+        "ruota",
+        "ruscello",
+        "sabbia",
+        "sacco",
+        "saggio",
+        "sale",
+        "salire",
+        "salmone",
+        "salto",
+        "salutare",
+        "salvia",
+        "sangue",
+        "sanzioni",
+        "sapere",
+        "sapienza",
+        "sarcasmo",
+        "sardine",
+        "sartoria",
+        "sbalzo",
+        "sbarcare",
+        "sberla",
+        "sborsare",
+        "scadenza",
+        "scafo",
+        "scala",
+        "scambio",
+        "scappare",
+        "scarpa",
+        "scatola",
+        "scelta",
+        "scena",
+        "sceriffo",
+        "scheggia",
+        "schiuma",
+        "sciarpa",
+        "scienza",
+        "scimmia",
+        "sciopero",
+        "scivolo",
+        "sclerare",
+        "scolpire",
+        "sconto",
+        "scopa",
+        "scordare",
+        "scossa",
+        "scrivere",
+        "scrupolo",
+        "scuderia",
+        "scultore",
+        "scuola",
+        "scusare",
+        "sdraiare",
+        "secolo",
+        "sedativo",
+        "sedere",
+        "sedia",
+        "segare",
+        "segreto",
+        "seguire",
+        "semaforo",
+        "seme",
+        "senape",
+        "seno",
+        "sentiero",
+        "separare",
+        "sepolcro",
+        "sequenza",
+        "serata",
+        "serpente",
+        "servizio",
+        "sesso",
+        "seta",
+        "settore",
+        "sfamare",
+        "sfera",
+        "sfidare",
+        "sfiorare",
+        "sfogare",
+        "sgabello",
+        "sicuro",
+        "siepe",
+        "sigaro",
+        "silenzio",
+        "silicone",
+        "simbiosi",
+        "simpatia",
+        "simulare",
+        "sinapsi",
+        "sindrome",
+        "sinergia",
+        "sinonimo",
+        "sintonia",
+        "sirena",
+        "siringa",
+        "sistema",
+        "sito",
+        "smalto",
+        "smentire",
+        "smontare",
+        "soccorso",
+        "socio",
+        "soffitto",
+        "software",
+        "soggetto",
+        "sogliola",
+        "sognare",
+        "soldi",
+        "sole",
+        "sollievo",
+        "solo",
+        "sommario",
+        "sondare",
+        "sonno",
+        "sorpresa",
+        "sorriso",
+        "sospiro",
+        "sostegno",
+        "sovrano",
+        "spaccare",
+        "spada",
+        "spagnolo",
+        "spalla",
+        "sparire",
+        "spavento",
+        "spazio",
+        "specchio",
+        "spedire",
+        "spegnere",
+        "spendere",
+        "speranza",
+        "spessore",
+        "spezzare",
+        "spiaggia",
+        "spiccare",
+        "spiegare",
+        "spiffero",
+        "spingere",
+        "sponda",
+        "sporcare",
+        "spostare",
+        "spremuta",
+        "spugna",
+        "spumante",
+        "spuntare",
+        "squadra",
+        "squillo",
+        "staccare",
+        "stadio",
+        "stagione",
+        "stallone",
+        "stampa",
+        "stancare",
+        "starnuto",
+        "statura",
+        "stella",
+        "stendere",
+        "sterzo",
+        "stilista",
+        "stimolo",
+        "stinco",
+        "stiva",
+        "stoffa",
+        "storia",
+        "strada",
+        "stregone",
+        "striscia",
+        "studiare",
+        "stufa",
+        "stupendo",
+        "subire",
+        "successo",
+        "sudare",
+        "suono",
+        "superare",
+        "supporto",
+        "surfista",
+        "sussurro",
+        "svelto",
+        "svenire",
+        "sviluppo",
+        "svolta",
+        "svuotare",
+        "tabacco",
+        "tabella",
+        "tabu",
+        "tacchino",
+        "tacere",
+        "taglio",
+        "talento",
+        "tangente",
+        "tappeto",
+        "tartufo",
+        "tassello",
+        "tastiera",
+        "tavolo",
+        "tazza",
+        "teatro",
+        "tedesco",
+        "telaio",
+        "telefono",
+        "tema",
+        "temere",
+        "tempo",
+        "tendenza",
+        "tenebre",
+        "tensione",
+        "tentare",
+        "teologia",
+        "teorema",
+        "termica",
+        "terrazzo",
+        "teschio",
+        "tesi",
+        "tesoro",
+        "tessera",
+        "testa",
+        "thriller",
+        "tifoso",
+        "tigre",
+        "timbrare",
+        "timido",
+        "tinta",
+        "tirare",
+        "tisana",
+        "titano",
+        "titolo",
+        "toccare",
+        "togliere",
+        "topolino",
+        "torcia",
+        "torrente",
+        "tovaglia",
+        "traffico",
+        "tragitto",
+        "training",
+        "tramonto",
+        "transito",
+        "trapezio",
+        "trasloco",
+        "trattore",
+        "trazione",
+        "treccia",
+        "tregua",
+        "treno",
+        "triciclo",
+        "tridente",
+        "trilogia",
+        "tromba",
+        "troncare",
+        "trota",
+        "trovare",
+        "trucco",
+        "tubo",
+        "tulipano",
+        "tumulto",
+        "tunisia",
+        "tuono",
+        "turista",
+        "tuta",
+        "tutelare",
+        "tutore",
+        "ubriaco",
+        "uccello",
+        "udienza",
+        "udito",
+        "uffa",
+        "umanoide",
+        "umore",
+        "unghia",
+        "unguento",
+        "unicorno",
+        "unione",
+        "universo",
+        "uomo",
+        "uragano",
+        "uranio",
+        "urlare",
+        "uscire",
+        "utente",
+        "utilizzo",
+        "vacanza",
+        "vacca",
+        "vaglio",
+        "vagonata",
+        "valle",
+        "valore",
+        "valutare",
+        "valvola",
+        "vampiro",
+        "vaniglia",
+        "vanto",
+        "vapore",
+        "variante",
+        "vasca",
+        "vaselina",
+        "vassoio",
+        "vedere",
+        "vegetale",
+        "veglia",
+        "veicolo",
+        "vela",
+        "veleno",
+        "velivolo",
+        "velluto",
+        "vendere",
+        "venerare",
+        "venire",
+        "vento",
+        "veranda",
+        "verbo",
+        "verdura",
+        "vergine",
+        "verifica",
+        "vernice",
+        "vero",
+        "verruca",
+        "versare",
+        "vertebra",
+        "vescica",
+        "vespaio",
+        "vestito",
+        "vesuvio",
+        "veterano",
+        "vetro",
+        "vetta",
+        "viadotto",
+        "viaggio",
+        "vibrare",
+        "vicenda",
+        "vichingo",
+        "vietare",
+        "vigilare",
+        "vigneto",
+        "villa",
+        "vincere",
+        "violino",
+        "vipera",
+        "virgola",
+        "virtuoso",
+        "visita",
+        "vita",
+        "vitello",
+        "vittima",
+        "vivavoce",
+        "vivere",
+        "viziato",
+        "voglia",
+        "volare",
+        "volpe",
+        "volto",
+        "volume",
+        "vongole",
+        "voragine",
+        "vortice",
+        "votare",
+        "vulcano",
+        "vuotare",
+        "zabaione",
+        "zaffiro",
+        "zainetto",
+        "zampa",
+        "zanzara",
+        "zattera",
+        "zavorra",
+        "zenzero",
+        "zero",
+        "zingaro",
+        "zittire",
+        "zoccolo",
+        "zolfo",
+        "zombie",
+        "zucchero"
+      ]
+    },
+    portuguese: {
+      prefix: 4,
+      words: [
+        "abaular",
+        "abdominal",
+        "abeto",
+        "abissinio",
+        "abjeto",
+        "ablucao",
+        "abnegar",
+        "abotoar",
+        "abrutalhar",
+        "absurdo",
+        "abutre",
+        "acautelar",
+        "accessorios",
+        "acetona",
+        "achocolatado",
+        "acirrar",
+        "acne",
+        "acovardar",
+        "acrostico",
+        "actinomicete",
+        "acustico",
+        "adaptavel",
+        "adeus",
+        "adivinho",
+        "adjunto",
+        "admoestar",
+        "adnominal",
+        "adotivo",
+        "adquirir",
+        "adriatico",
+        "adsorcao",
+        "adutora",
+        "advogar",
+        "aerossol",
+        "afazeres",
+        "afetuoso",
+        "afixo",
+        "afluir",
+        "afortunar",
+        "afrouxar",
+        "aftosa",
+        "afunilar",
+        "agentes",
+        "agito",
+        "aglutinar",
+        "aiatola",
+        "aimore",
+        "aino",
+        "aipo",
+        "airoso",
+        "ajeitar",
+        "ajoelhar",
+        "ajudante",
+        "ajuste",
+        "alazao",
+        "albumina",
+        "alcunha",
+        "alegria",
+        "alexandre",
+        "alforriar",
+        "alguns",
+        "alhures",
+        "alivio",
+        "almoxarife",
+        "alotropico",
+        "alpiste",
+        "alquimista",
+        "alsaciano",
+        "altura",
+        "aluviao",
+        "alvura",
+        "amazonico",
+        "ambulatorio",
+        "ametodico",
+        "amizades",
+        "amniotico",
+        "amovivel",
+        "amurada",
+        "anatomico",
+        "ancorar",
+        "anexo",
+        "anfora",
+        "aniversario",
+        "anjo",
+        "anotar",
+        "ansioso",
+        "anturio",
+        "anuviar",
+        "anverso",
+        "anzol",
+        "aonde",
+        "apaziguar",
+        "apito",
+        "aplicavel",
+        "apoteotico",
+        "aprimorar",
+        "aprumo",
+        "apto",
+        "apuros",
+        "aquoso",
+        "arauto",
+        "arbusto",
+        "arduo",
+        "aresta",
+        "arfar",
+        "arguto",
+        "aritmetico",
+        "arlequim",
+        "armisticio",
+        "aromatizar",
+        "arpoar",
+        "arquivo",
+        "arrumar",
+        "arsenio",
+        "arturiano",
+        "aruaque",
+        "arvores",
+        "asbesto",
+        "ascorbico",
+        "aspirina",
+        "asqueroso",
+        "assustar",
+        "astuto",
+        "atazanar",
+        "ativo",
+        "atletismo",
+        "atmosferico",
+        "atormentar",
+        "atroz",
+        "aturdir",
+        "audivel",
+        "auferir",
+        "augusto",
+        "aula",
+        "aumento",
+        "aurora",
+        "autuar",
+        "avatar",
+        "avexar",
+        "avizinhar",
+        "avolumar",
+        "avulso",
+        "axiomatico",
+        "azerbaijano",
+        "azimute",
+        "azoto",
+        "azulejo",
+        "bacteriologista",
+        "badulaque",
+        "baforada",
+        "baixote",
+        "bajular",
+        "balzaquiana",
+        "bambuzal",
+        "banzo",
+        "baoba",
+        "baqueta",
+        "barulho",
+        "bastonete",
+        "batuta",
+        "bauxita",
+        "bavaro",
+        "bazuca",
+        "bcrepuscular",
+        "beato",
+        "beduino",
+        "begonia",
+        "behaviorista",
+        "beisebol",
+        "belzebu",
+        "bemol",
+        "benzido",
+        "beocio",
+        "bequer",
+        "berro",
+        "besuntar",
+        "betume",
+        "bexiga",
+        "bezerro",
+        "biatlon",
+        "biboca",
+        "bicuspide",
+        "bidirecional",
+        "bienio",
+        "bifurcar",
+        "bigorna",
+        "bijuteria",
+        "bimotor",
+        "binormal",
+        "bioxido",
+        "bipolarizacao",
+        "biquini",
+        "birutice",
+        "bisturi",
+        "bituca",
+        "biunivoco",
+        "bivalve",
+        "bizarro",
+        "blasfemo",
+        "blenorreia",
+        "blindar",
+        "bloqueio",
+        "blusao",
+        "boazuda",
+        "bofete",
+        "bojudo",
+        "bolso",
+        "bombordo",
+        "bonzo",
+        "botina",
+        "boquiaberto",
+        "bostoniano",
+        "botulismo",
+        "bourbon",
+        "bovino",
+        "boximane",
+        "bravura",
+        "brevidade",
+        "britar",
+        "broxar",
+        "bruno",
+        "bruxuleio",
+        "bubonico",
+        "bucolico",
+        "buda",
+        "budista",
+        "bueiro",
+        "buffer",
+        "bugre",
+        "bujao",
+        "bumerangue",
+        "burundines",
+        "busto",
+        "butique",
+        "buzios",
+        "caatinga",
+        "cabuqui",
+        "cacunda",
+        "cafuzo",
+        "cajueiro",
+        "camurca",
+        "canudo",
+        "caquizeiro",
+        "carvoeiro",
+        "casulo",
+        "catuaba",
+        "cauterizar",
+        "cebolinha",
+        "cedula",
+        "ceifeiro",
+        "celulose",
+        "cerzir",
+        "cesto",
+        "cetro",
+        "ceus",
+        "cevar",
+        "chavena",
+        "cheroqui",
+        "chita",
+        "chovido",
+        "chuvoso",
+        "ciatico",
+        "cibernetico",
+        "cicuta",
+        "cidreira",
+        "cientistas",
+        "cifrar",
+        "cigarro",
+        "cilio",
+        "cimo",
+        "cinzento",
+        "cioso",
+        "cipriota",
+        "cirurgico",
+        "cisto",
+        "citrico",
+        "ciumento",
+        "civismo",
+        "clavicula",
+        "clero",
+        "clitoris",
+        "cluster",
+        "coaxial",
+        "cobrir",
+        "cocota",
+        "codorniz",
+        "coexistir",
+        "cogumelo",
+        "coito",
+        "colusao",
+        "compaixao",
+        "comutativo",
+        "contentamento",
+        "convulsivo",
+        "coordenativa",
+        "coquetel",
+        "correto",
+        "corvo",
+        "costureiro",
+        "cotovia",
+        "covil",
+        "cozinheiro",
+        "cretino",
+        "cristo",
+        "crivo",
+        "crotalo",
+        "cruzes",
+        "cubo",
+        "cucuia",
+        "cueiro",
+        "cuidar",
+        "cujo",
+        "cultural",
+        "cunilingua",
+        "cupula",
+        "curvo",
+        "custoso",
+        "cutucar",
+        "czarismo",
+        "dablio",
+        "dacota",
+        "dados",
+        "daguerreotipo",
+        "daiquiri",
+        "daltonismo",
+        "damista",
+        "dantesco",
+        "daquilo",
+        "darwinista",
+        "dasein",
+        "dativo",
+        "deao",
+        "debutantes",
+        "decurso",
+        "deduzir",
+        "defunto",
+        "degustar",
+        "dejeto",
+        "deltoide",
+        "demover",
+        "denunciar",
+        "deputado",
+        "deque",
+        "dervixe",
+        "desvirtuar",
+        "deturpar",
+        "deuteronomio",
+        "devoto",
+        "dextrose",
+        "dezoito",
+        "diatribe",
+        "dicotomico",
+        "didatico",
+        "dietista",
+        "difuso",
+        "digressao",
+        "diluvio",
+        "diminuto",
+        "dinheiro",
+        "dinossauro",
+        "dioxido",
+        "diplomatico",
+        "dique",
+        "dirimivel",
+        "disturbio",
+        "diurno",
+        "divulgar",
+        "dizivel",
+        "doar",
+        "dobro",
+        "docura",
+        "dodoi",
+        "doer",
+        "dogue",
+        "doloso",
+        "domo",
+        "donzela",
+        "doping",
+        "dorsal",
+        "dossie",
+        "dote",
+        "doutro",
+        "doze",
+        "dravidico",
+        "dreno",
+        "driver",
+        "dropes",
+        "druso",
+        "dubnio",
+        "ducto",
+        "dueto",
+        "dulija",
+        "dundum",
+        "duodeno",
+        "duquesa",
+        "durou",
+        "duvidoso",
+        "duzia",
+        "ebano",
+        "ebrio",
+        "eburneo",
+        "echarpe",
+        "eclusa",
+        "ecossistema",
+        "ectoplasma",
+        "ecumenismo",
+        "eczema",
+        "eden",
+        "editorial",
+        "edredom",
+        "edulcorar",
+        "efetuar",
+        "efigie",
+        "efluvio",
+        "egiptologo",
+        "egresso",
+        "egua",
+        "einsteiniano",
+        "eira",
+        "eivar",
+        "eixos",
+        "ejetar",
+        "elastomero",
+        "eldorado",
+        "elixir",
+        "elmo",
+        "eloquente",
+        "elucidativo",
+        "emaranhar",
+        "embutir",
+        "emerito",
+        "emfa",
+        "emitir",
+        "emotivo",
+        "empuxo",
+        "emulsao",
+        "enamorar",
+        "encurvar",
+        "enduro",
+        "enevoar",
+        "enfurnar",
+        "enguico",
+        "enho",
+        "enigmista",
+        "enlutar",
+        "enormidade",
+        "enpreendimento",
+        "enquanto",
+        "enriquecer",
+        "enrugar",
+        "entusiastico",
+        "enunciar",
+        "envolvimento",
+        "enxuto",
+        "enzimatico",
+        "eolico",
+        "epiteto",
+        "epoxi",
+        "epura",
+        "equivoco",
+        "erario",
+        "erbio",
+        "ereto",
+        "erguido",
+        "erisipela",
+        "ermo",
+        "erotizar",
+        "erros",
+        "erupcao",
+        "ervilha",
+        "esburacar",
+        "escutar",
+        "esfuziante",
+        "esguio",
+        "esloveno",
+        "esmurrar",
+        "esoterismo",
+        "esperanca",
+        "espirito",
+        "espurio",
+        "essencialmente",
+        "esturricar",
+        "esvoacar",
+        "etario",
+        "eterno",
+        "etiquetar",
+        "etnologo",
+        "etos",
+        "etrusco",
+        "euclidiano",
+        "euforico",
+        "eugenico",
+        "eunuco",
+        "europio",
+        "eustaquio",
+        "eutanasia",
+        "evasivo",
+        "eventualidade",
+        "evitavel",
+        "evoluir",
+        "exaustor",
+        "excursionista",
+        "exercito",
+        "exfoliado",
+        "exito",
+        "exotico",
+        "expurgo",
+        "exsudar",
+        "extrusora",
+        "exumar",
+        "fabuloso",
+        "facultativo",
+        "fado",
+        "fagulha",
+        "faixas",
+        "fajuto",
+        "faltoso",
+        "famoso",
+        "fanzine",
+        "fapesp",
+        "faquir",
+        "fartura",
+        "fastio",
+        "faturista",
+        "fausto",
+        "favorito",
+        "faxineira",
+        "fazer",
+        "fealdade",
+        "febril",
+        "fecundo",
+        "fedorento",
+        "feerico",
+        "feixe",
+        "felicidade",
+        "felpudo",
+        "feltro",
+        "femur",
+        "fenotipo",
+        "fervura",
+        "festivo",
+        "feto",
+        "feudo",
+        "fevereiro",
+        "fezinha",
+        "fiasco",
+        "fibra",
+        "ficticio",
+        "fiduciario",
+        "fiesp",
+        "fifa",
+        "figurino",
+        "fijiano",
+        "filtro",
+        "finura",
+        "fiorde",
+        "fiquei",
+        "firula",
+        "fissurar",
+        "fitoteca",
+        "fivela",
+        "fixo",
+        "flavio",
+        "flexor",
+        "flibusteiro",
+        "flotilha",
+        "fluxograma",
+        "fobos",
+        "foco",
+        "fofura",
+        "foguista",
+        "foie",
+        "foliculo",
+        "fominha",
+        "fonte",
+        "forum",
+        "fosso",
+        "fotossintese",
+        "foxtrote",
+        "fraudulento",
+        "frevo",
+        "frivolo",
+        "frouxo",
+        "frutose",
+        "fuba",
+        "fucsia",
+        "fugitivo",
+        "fuinha",
+        "fujao",
+        "fulustreco",
+        "fumo",
+        "funileiro",
+        "furunculo",
+        "fustigar",
+        "futurologo",
+        "fuxico",
+        "fuzue",
+        "gabriel",
+        "gado",
+        "gaelico",
+        "gafieira",
+        "gaguejo",
+        "gaivota",
+        "gajo",
+        "galvanoplastico",
+        "gamo",
+        "ganso",
+        "garrucha",
+        "gastronomo",
+        "gatuno",
+        "gaussiano",
+        "gaviao",
+        "gaxeta",
+        "gazeteiro",
+        "gear",
+        "geiser",
+        "geminiano",
+        "generoso",
+        "genuino",
+        "geossinclinal",
+        "gerundio",
+        "gestual",
+        "getulista",
+        "gibi",
+        "gigolo",
+        "gilete",
+        "ginseng",
+        "giroscopio",
+        "glaucio",
+        "glacial",
+        "gleba",
+        "glifo",
+        "glote",
+        "glutonia",
+        "gnostico",
+        "goela",
+        "gogo",
+        "goitaca",
+        "golpista",
+        "gomo",
+        "gonzo",
+        "gorro",
+        "gostou",
+        "goticula",
+        "gourmet",
+        "governo",
+        "gozo",
+        "graxo",
+        "grevista",
+        "grito",
+        "grotesco",
+        "gruta",
+        "guaxinim",
+        "gude",
+        "gueto",
+        "guizo",
+        "guloso",
+        "gume",
+        "guru",
+        "gustativo",
+        "grelhado",
+        "gutural",
+        "habitue",
+        "haitiano",
+        "halterofilista",
+        "hamburguer",
+        "hanseniase",
+        "happening",
+        "harpista",
+        "hastear",
+        "haveres",
+        "hebreu",
+        "hectometro",
+        "hedonista",
+        "hegira",
+        "helena",
+        "helminto",
+        "hemorroidas",
+        "henrique",
+        "heptassilabo",
+        "hertziano",
+        "hesitar",
+        "heterossexual",
+        "heuristico",
+        "hexagono",
+        "hiato",
+        "hibrido",
+        "hidrostatico",
+        "hieroglifo",
+        "hifenizar",
+        "higienizar",
+        "hilario",
+        "himen",
+        "hino",
+        "hippie",
+        "hirsuto",
+        "historiografia",
+        "hitlerista",
+        "hodometro",
+        "hoje",
+        "holograma",
+        "homus",
+        "honroso",
+        "hoquei",
+        "horto",
+        "hostilizar",
+        "hotentote",
+        "huguenote",
+        "humilde",
+        "huno",
+        "hurra",
+        "hutu",
+        "iaia",
+        "ialorixa",
+        "iambico",
+        "iansa",
+        "iaque",
+        "iara",
+        "iatista",
+        "iberico",
+        "ibis",
+        "icar",
+        "iceberg",
+        "icosagono",
+        "idade",
+        "ideologo",
+        "idiotice",
+        "idoso",
+        "iemenita",
+        "iene",
+        "igarape",
+        "iglu",
+        "ignorar",
+        "igreja",
+        "iguaria",
+        "iidiche",
+        "ilativo",
+        "iletrado",
+        "ilharga",
+        "ilimitado",
+        "ilogismo",
+        "ilustrissimo",
+        "imaturo",
+        "imbuzeiro",
+        "imerso",
+        "imitavel",
+        "imovel",
+        "imputar",
+        "imutavel",
+        "inaveriguavel",
+        "incutir",
+        "induzir",
+        "inextricavel",
+        "infusao",
+        "ingua",
+        "inhame",
+        "iniquo",
+        "injusto",
+        "inning",
+        "inoxidavel",
+        "inquisitorial",
+        "insustentavel",
+        "intumescimento",
+        "inutilizavel",
+        "invulneravel",
+        "inzoneiro",
+        "iodo",
+        "iogurte",
+        "ioio",
+        "ionosfera",
+        "ioruba",
+        "iota",
+        "ipsilon",
+        "irascivel",
+        "iris",
+        "irlandes",
+        "irmaos",
+        "iroques",
+        "irrupcao",
+        "isca",
+        "isento",
+        "islandes",
+        "isotopo",
+        "isqueiro",
+        "israelita",
+        "isso",
+        "isto",
+        "iterbio",
+        "itinerario",
+        "itrio",
+        "iuane",
+        "iugoslavo",
+        "jabuticabeira",
+        "jacutinga",
+        "jade",
+        "jagunco",
+        "jainista",
+        "jaleco",
+        "jambo",
+        "jantarada",
+        "japones",
+        "jaqueta",
+        "jarro",
+        "jasmim",
+        "jato",
+        "jaula",
+        "javel",
+        "jazz",
+        "jegue",
+        "jeitoso",
+        "jejum",
+        "jenipapo",
+        "jeova",
+        "jequitiba",
+        "jersei",
+        "jesus",
+        "jetom",
+        "jiboia",
+        "jihad",
+        "jilo",
+        "jingle",
+        "jipe",
+        "jocoso",
+        "joelho",
+        "joguete",
+        "joio",
+        "jojoba",
+        "jorro",
+        "jota",
+        "joule",
+        "joviano",
+        "jubiloso",
+        "judoca",
+        "jugular",
+        "juizo",
+        "jujuba",
+        "juliano",
+        "jumento",
+        "junto",
+        "jururu",
+        "justo",
+        "juta",
+        "juventude",
+        "labutar",
+        "laguna",
+        "laico",
+        "lajota",
+        "lanterninha",
+        "lapso",
+        "laquear",
+        "lastro",
+        "lauto",
+        "lavrar",
+        "laxativo",
+        "lazer",
+        "leasing",
+        "lebre",
+        "lecionar",
+        "ledo",
+        "leguminoso",
+        "leitura",
+        "lele",
+        "lemure",
+        "lento",
+        "leonardo",
+        "leopardo",
+        "lepton",
+        "leque",
+        "leste",
+        "letreiro",
+        "leucocito",
+        "levitico",
+        "lexicologo",
+        "lhama",
+        "lhufas",
+        "liame",
+        "licoroso",
+        "lidocaina",
+        "liliputiano",
+        "limusine",
+        "linotipo",
+        "lipoproteina",
+        "liquidos",
+        "lirismo",
+        "lisura",
+        "liturgico",
+        "livros",
+        "lixo",
+        "lobulo",
+        "locutor",
+        "lodo",
+        "logro",
+        "lojista",
+        "lombriga",
+        "lontra",
+        "loop",
+        "loquaz",
+        "lorota",
+        "losango",
+        "lotus",
+        "louvor",
+        "luar",
+        "lubrificavel",
+        "lucros",
+        "lugubre",
+        "luis",
+        "luminoso",
+        "luneta",
+        "lustroso",
+        "luto",
+        "luvas",
+        "luxuriante",
+        "luzeiro",
+        "maduro",
+        "maestro",
+        "mafioso",
+        "magro",
+        "maiuscula",
+        "majoritario",
+        "malvisto",
+        "mamute",
+        "manutencao",
+        "mapoteca",
+        "maquinista",
+        "marzipa",
+        "masturbar",
+        "matuto",
+        "mausoleu",
+        "mavioso",
+        "maxixe",
+        "mazurca",
+        "meandro",
+        "mecha",
+        "medusa",
+        "mefistofelico",
+        "megera",
+        "meirinho",
+        "melro",
+        "memorizar",
+        "menu",
+        "mequetrefe",
+        "mertiolate",
+        "mestria",
+        "metroviario",
+        "mexilhao",
+        "mezanino",
+        "miau",
+        "microssegundo",
+        "midia",
+        "migratorio",
+        "mimosa",
+        "minuto",
+        "miosotis",
+        "mirtilo",
+        "misturar",
+        "mitzvah",
+        "miudos",
+        "mixuruca",
+        "mnemonico",
+        "moagem",
+        "mobilizar",
+        "modulo",
+        "moer",
+        "mofo",
+        "mogno",
+        "moita",
+        "molusco",
+        "monumento",
+        "moqueca",
+        "morubixaba",
+        "mostruario",
+        "motriz",
+        "mouse",
+        "movivel",
+        "mozarela",
+        "muarra",
+        "muculmano",
+        "mudo",
+        "mugir",
+        "muitos",
+        "mumunha",
+        "munir",
+        "muon",
+        "muquira",
+        "murros",
+        "musselina",
+        "nacoes",
+        "nado",
+        "naftalina",
+        "nago",
+        "naipe",
+        "naja",
+        "nalgum",
+        "namoro",
+        "nanquim",
+        "napolitano",
+        "naquilo",
+        "nascimento",
+        "nautilo",
+        "navios",
+        "nazista",
+        "nebuloso",
+        "nectarina",
+        "nefrologo",
+        "negus",
+        "nelore",
+        "nenufar",
+        "nepotismo",
+        "nervura",
+        "neste",
+        "netuno",
+        "neutron",
+        "nevoeiro",
+        "newtoniano",
+        "nexo",
+        "nhenhenhem",
+        "nhoque",
+        "nigeriano",
+        "niilista",
+        "ninho",
+        "niobio",
+        "niponico",
+        "niquelar",
+        "nirvana",
+        "nisto",
+        "nitroglicerina",
+        "nivoso",
+        "nobreza",
+        "nocivo",
+        "noel",
+        "nogueira",
+        "noivo",
+        "nojo",
+        "nominativo",
+        "nonuplo",
+        "noruegues",
+        "nostalgico",
+        "noturno",
+        "nouveau",
+        "nuanca",
+        "nublar",
+        "nucleotideo",
+        "nudista",
+        "nulo",
+        "numismatico",
+        "nunquinha",
+        "nupcias",
+        "nutritivo",
+        "nuvens",
+        "oasis",
+        "obcecar",
+        "obeso",
+        "obituario",
+        "objetos",
+        "oblongo",
+        "obnoxio",
+        "obrigatorio",
+        "obstruir",
+        "obtuso",
+        "obus",
+        "obvio",
+        "ocaso",
+        "occipital",
+        "oceanografo",
+        "ocioso",
+        "oclusivo",
+        "ocorrer",
+        "ocre",
+        "octogono",
+        "odalisca",
+        "odisseia",
+        "odorifico",
+        "oersted",
+        "oeste",
+        "ofertar",
+        "ofidio",
+        "oftalmologo",
+        "ogiva",
+        "ogum",
+        "oigale",
+        "oitavo",
+        "oitocentos",
+        "ojeriza",
+        "olaria",
+        "oleoso",
+        "olfato",
+        "olhos",
+        "oliveira",
+        "olmo",
+        "olor",
+        "olvidavel",
+        "ombudsman",
+        "omeleteira",
+        "omitir",
+        "omoplata",
+        "onanismo",
+        "ondular",
+        "oneroso",
+        "onomatopeico",
+        "ontologico",
+        "onus",
+        "onze",
+        "opalescente",
+        "opcional",
+        "operistico",
+        "opio",
+        "oposto",
+        "oprobrio",
+        "optometrista",
+        "opusculo",
+        "oratorio",
+        "orbital",
+        "orcar",
+        "orfao",
+        "orixa",
+        "orla",
+        "ornitologo",
+        "orquidea",
+        "ortorrombico",
+        "orvalho",
+        "osculo",
+        "osmotico",
+        "ossudo",
+        "ostrogodo",
+        "otario",
+        "otite",
+        "ouro",
+        "ousar",
+        "outubro",
+        "ouvir",
+        "ovario",
+        "overnight",
+        "oviparo",
+        "ovni",
+        "ovoviviparo",
+        "ovulo",
+        "oxala",
+        "oxente",
+        "oxiuro",
+        "oxossi",
+        "ozonizar",
+        "paciente",
+        "pactuar",
+        "padronizar",
+        "paete",
+        "pagodeiro",
+        "paixao",
+        "pajem",
+        "paludismo",
+        "pampas",
+        "panturrilha",
+        "papudo",
+        "paquistanes",
+        "pastoso",
+        "patua",
+        "paulo",
+        "pauzinhos",
+        "pavoroso",
+        "paxa",
+        "pazes",
+        "peao",
+        "pecuniario",
+        "pedunculo",
+        "pegaso",
+        "peixinho",
+        "pejorativo",
+        "pelvis",
+        "penuria",
+        "pequno",
+        "petunia",
+        "pezada",
+        "piauiense",
+        "pictorico",
+        "pierro",
+        "pigmeu",
+        "pijama",
+        "pilulas",
+        "pimpolho",
+        "pintura",
+        "piorar",
+        "pipocar",
+        "piqueteiro",
+        "pirulito",
+        "pistoleiro",
+        "pituitaria",
+        "pivotar",
+        "pixote",
+        "pizzaria",
+        "plistoceno",
+        "plotar",
+        "pluviometrico",
+        "pneumonico",
+        "poco",
+        "podridao",
+        "poetisa",
+        "pogrom",
+        "pois",
+        "polvorosa",
+        "pomposo",
+        "ponderado",
+        "pontudo",
+        "populoso",
+        "poquer",
+        "porvir",
+        "posudo",
+        "potro",
+        "pouso",
+        "povoar",
+        "prazo",
+        "prezar",
+        "privilegios",
+        "proximo",
+        "prussiano",
+        "pseudopode",
+        "psoriase",
+        "pterossauros",
+        "ptialina",
+        "ptolemaico",
+        "pudor",
+        "pueril",
+        "pufe",
+        "pugilista",
+        "puir",
+        "pujante",
+        "pulverizar",
+        "pumba",
+        "punk",
+        "purulento",
+        "pustula",
+        "putsch",
+        "puxe",
+        "quatrocentos",
+        "quetzal",
+        "quixotesco",
+        "quotizavel",
+        "rabujice",
+        "racista",
+        "radonio",
+        "rafia",
+        "ragu",
+        "rajado",
+        "ralo",
+        "rampeiro",
+        "ranzinza",
+        "raptor",
+        "raquitismo",
+        "raro",
+        "rasurar",
+        "ratoeira",
+        "ravioli",
+        "razoavel",
+        "reavivar",
+        "rebuscar",
+        "recusavel",
+        "reduzivel",
+        "reexposicao",
+        "refutavel",
+        "regurgitar",
+        "reivindicavel",
+        "rejuvenescimento",
+        "relva",
+        "remuneravel",
+        "renunciar",
+        "reorientar",
+        "repuxo",
+        "requisito",
+        "resumo",
+        "returno",
+        "reutilizar",
+        "revolvido",
+        "rezonear",
+        "riacho",
+        "ribossomo",
+        "ricota",
+        "ridiculo",
+        "rifle",
+        "rigoroso",
+        "rijo",
+        "rimel",
+        "rins",
+        "rios",
+        "riqueza",
+        "respeito",
+        "rissole",
+        "ritualistico",
+        "rivalizar",
+        "rixa",
+        "robusto",
+        "rococo",
+        "rodoviario",
+        "roer",
+        "rogo",
+        "rojao",
+        "rolo",
+        "rompimento",
+        "ronronar",
+        "roqueiro",
+        "rorqual",
+        "rosto",
+        "rotundo",
+        "rouxinol",
+        "roxo",
+        "royal",
+        "ruas",
+        "rucula",
+        "rudimentos",
+        "ruela",
+        "rufo",
+        "rugoso",
+        "ruivo",
+        "rule",
+        "rumoroso",
+        "runico",
+        "ruptura",
+        "rural",
+        "rustico",
+        "rutilar",
+        "saariano",
+        "sabujo",
+        "sacudir",
+        "sadomasoquista",
+        "safra",
+        "sagui",
+        "sais",
+        "samurai",
+        "santuario",
+        "sapo",
+        "saquear",
+        "sartriano",
+        "saturno",
+        "saude",
+        "sauva",
+        "saveiro",
+        "saxofonista",
+        "sazonal",
+        "scherzo",
+        "script",
+        "seara",
+        "seborreia",
+        "secura",
+        "seduzir",
+        "sefardim",
+        "seguro",
+        "seja",
+        "selvas",
+        "sempre",
+        "senzala",
+        "sepultura",
+        "sequoia",
+        "sestercio",
+        "setuplo",
+        "seus",
+        "seviciar",
+        "sezonismo",
+        "shalom",
+        "siames",
+        "sibilante",
+        "sicrano",
+        "sidra",
+        "sifilitico",
+        "signos",
+        "silvo",
+        "simultaneo",
+        "sinusite",
+        "sionista",
+        "sirio",
+        "sisudo",
+        "situar",
+        "sivan",
+        "slide",
+        "slogan",
+        "soar",
+        "sobrio",
+        "socratico",
+        "sodomizar",
+        "soerguer",
+        "software",
+        "sogro",
+        "soja",
+        "solver",
+        "somente",
+        "sonso",
+        "sopro",
+        "soquete",
+        "sorveteiro",
+        "sossego",
+        "soturno",
+        "sousafone",
+        "sovinice",
+        "sozinho",
+        "suavizar",
+        "subverter",
+        "sucursal",
+        "sudoriparo",
+        "sufragio",
+        "sugestoes",
+        "suite",
+        "sujo",
+        "sultao",
+        "sumula",
+        "suntuoso",
+        "suor",
+        "supurar",
+        "suruba",
+        "susto",
+        "suturar",
+        "suvenir",
+        "tabuleta",
+        "taco",
+        "tadjique",
+        "tafeta",
+        "tagarelice",
+        "taitiano",
+        "talvez",
+        "tampouco",
+        "tanzaniano",
+        "taoista",
+        "tapume",
+        "taquion",
+        "tarugo",
+        "tascar",
+        "tatuar",
+        "tautologico",
+        "tavola",
+        "taxionomista",
+        "tchecoslovaco",
+        "teatrologo",
+        "tectonismo",
+        "tedioso",
+        "teflon",
+        "tegumento",
+        "teixo",
+        "telurio",
+        "temporas",
+        "tenue",
+        "teosofico",
+        "tepido",
+        "tequila",
+        "terrorista",
+        "testosterona",
+        "tetrico",
+        "teutonico",
+        "teve",
+        "texugo",
+        "tiara",
+        "tibia",
+        "tiete",
+        "tifoide",
+        "tigresa",
+        "tijolo",
+        "tilintar",
+        "timpano",
+        "tintureiro",
+        "tiquete",
+        "tiroteio",
+        "tisico",
+        "titulos",
+        "tive",
+        "toar",
+        "toboga",
+        "tofu",
+        "togoles",
+        "toicinho",
+        "tolueno",
+        "tomografo",
+        "tontura",
+        "toponimo",
+        "toquio",
+        "torvelinho",
+        "tostar",
+        "toto",
+        "touro",
+        "toxina",
+        "trazer",
+        "trezentos",
+        "trivialidade",
+        "trovoar",
+        "truta",
+        "tuaregue",
+        "tubular",
+        "tucano",
+        "tudo",
+        "tufo",
+        "tuiste",
+        "tulipa",
+        "tumultuoso",
+        "tunisino",
+        "tupiniquim",
+        "turvo",
+        "tutu",
+        "ucraniano",
+        "udenista",
+        "ufanista",
+        "ufologo",
+        "ugaritico",
+        "uiste",
+        "uivo",
+        "ulceroso",
+        "ulema",
+        "ultravioleta",
+        "umbilical",
+        "umero",
+        "umido",
+        "umlaut",
+        "unanimidade",
+        "unesco",
+        "ungulado",
+        "unheiro",
+        "univoco",
+        "untuoso",
+        "urano",
+        "urbano",
+        "urdir",
+        "uretra",
+        "urgente",
+        "urinol",
+        "urna",
+        "urologo",
+        "urro",
+        "ursulina",
+        "urtiga",
+        "urupe",
+        "usavel",
+        "usbeque",
+        "usei",
+        "usineiro",
+        "usurpar",
+        "utero",
+        "utilizar",
+        "utopico",
+        "uvular",
+        "uxoricidio",
+        "vacuo",
+        "vadio",
+        "vaguear",
+        "vaivem",
+        "valvula",
+        "vampiro",
+        "vantajoso",
+        "vaporoso",
+        "vaquinha",
+        "varziano",
+        "vasto",
+        "vaticinio",
+        "vaudeville",
+        "vazio",
+        "veado",
+        "vedico",
+        "veemente",
+        "vegetativo",
+        "veio",
+        "veja",
+        "veludo",
+        "venusiano",
+        "verdade",
+        "verve",
+        "vestuario",
+        "vetusto",
+        "vexatorio",
+        "vezes",
+        "viavel",
+        "vibratorio",
+        "victor",
+        "vicunha",
+        "vidros",
+        "vietnamita",
+        "vigoroso",
+        "vilipendiar",
+        "vime",
+        "vintem",
+        "violoncelo",
+        "viquingue",
+        "virus",
+        "visualizar",
+        "vituperio",
+        "viuvo",
+        "vivo",
+        "vizir",
+        "voar",
+        "vociferar",
+        "vodu",
+        "vogar",
+        "voile",
+        "volver",
+        "vomito",
+        "vontade",
+        "vortice",
+        "vosso",
+        "voto",
+        "vovozinha",
+        "voyeuse",
+        "vozes",
+        "vulva",
+        "vupt",
+        "western",
+        "xadrez",
+        "xale",
+        "xampu",
+        "xango",
+        "xarope",
+        "xaual",
+        "xavante",
+        "xaxim",
+        "xenonio",
+        "xepa",
+        "xerox",
+        "xicara",
+        "xifopago",
+        "xiita",
+        "xilogravura",
+        "xinxim",
+        "xistoso",
+        "xixi",
+        "xodo",
+        "xogum",
+        "xucro",
+        "zabumba",
+        "zagueiro",
+        "zambiano",
+        "zanzar",
+        "zarpar",
+        "zebu",
+        "zefiro",
+        "zeloso",
+        "zenite",
+        "zumbi"
+      ]
+    },
+    japanese: {
+      prefix: 3,
+      words: [
+        "\u3042\u3044\u3053\u304F\u3057\u3093",
+        "\u3042\u3044\u3055\u3064",
+        "\u3042\u3044\u3060",
+        "\u3042\u304A\u305E\u3089",
+        "\u3042\u304B\u3061\u3083\u3093",
+        "\u3042\u304D\u308B",
+        "\u3042\u3051\u304C\u305F",
+        "\u3042\u3051\u308B",
+        "\u3042\u3053\u304C\u308C\u308B",
+        "\u3042\u3055\u3044",
+        "\u3042\u3055\u3072",
+        "\u3042\u3057\u3042\u3068",
+        "\u3042\u3058\u308F\u3046",
+        "\u3042\u305A\u304B\u308B",
+        "\u3042\u305A\u304D",
+        "\u3042\u305D\u3076",
+        "\u3042\u305F\u3048\u308B",
+        "\u3042\u305F\u305F\u3081\u308B",
+        "\u3042\u305F\u308A\u307E\u3048",
+        "\u3042\u305F\u308B",
+        "\u3042\u3064\u3044",
+        "\u3042\u3064\u304B\u3046",
+        "\u3042\u3063\u3057\u3085\u304F",
+        "\u3042\u3064\u307E\u308A",
+        "\u3042\u3064\u3081\u308B",
+        "\u3042\u3066\u306A",
+        "\u3042\u3066\u306F\u307E\u308B",
+        "\u3042\u3072\u308B",
+        "\u3042\u3076\u3089",
+        "\u3042\u3076\u308B",
+        "\u3042\u3075\u308C\u308B",
+        "\u3042\u307E\u3044",
+        "\u3042\u307E\u3069",
+        "\u3042\u307E\u3084\u304B\u3059",
+        "\u3042\u307E\u308A",
+        "\u3042\u307F\u3082\u306E",
+        "\u3042\u3081\u308A\u304B",
+        "\u3042\u3084\u307E\u308B",
+        "\u3042\u3086\u3080",
+        "\u3042\u3089\u3044\u3050\u307E",
+        "\u3042\u3089\u3057",
+        "\u3042\u3089\u3059\u3058",
+        "\u3042\u3089\u305F\u3081\u308B",
+        "\u3042\u3089\u3086\u308B",
+        "\u3042\u3089\u308F\u3059",
+        "\u3042\u308A\u304C\u3068\u3046",
+        "\u3042\u308F\u305B\u308B",
+        "\u3042\u308F\u3066\u308B",
+        "\u3042\u3093\u3044",
+        "\u3042\u3093\u304C\u3044",
+        "\u3042\u3093\u3053",
+        "\u3042\u3093\u305C\u3093",
+        "\u3042\u3093\u3066\u3044",
+        "\u3042\u3093\u306A\u3044",
+        "\u3042\u3093\u307E\u308A",
+        "\u3044\u3044\u3060\u3059",
+        "\u3044\u304A\u3093",
+        "\u3044\u304C\u3044",
+        "\u3044\u304C\u304F",
+        "\u3044\u304D\u304A\u3044",
+        "\u3044\u304D\u306A\u308A",
+        "\u3044\u304D\u3082\u306E",
+        "\u3044\u304D\u308B",
+        "\u3044\u304F\u3058",
+        "\u3044\u304F\u3076\u3093",
+        "\u3044\u3051\u3070\u306A",
+        "\u3044\u3051\u3093",
+        "\u3044\u3053\u3046",
+        "\u3044\u3053\u304F",
+        "\u3044\u3053\u3064",
+        "\u3044\u3055\u307E\u3057\u3044",
+        "\u3044\u3055\u3093",
+        "\u3044\u3057\u304D",
+        "\u3044\u3058\u3085\u3046",
+        "\u3044\u3058\u3087\u3046",
+        "\u3044\u3058\u308F\u308B",
+        "\u3044\u305A\u307F",
+        "\u3044\u305A\u308C",
+        "\u3044\u305B\u3044",
+        "\u3044\u305B\u3048\u3073",
+        "\u3044\u305B\u304B\u3044",
+        "\u3044\u305B\u304D",
+        "\u3044\u305C\u3093",
+        "\u3044\u305D\u3046\u308D\u3046",
+        "\u3044\u305D\u304C\u3057\u3044",
+        "\u3044\u3060\u3044",
+        "\u3044\u3060\u304F",
+        "\u3044\u305F\u305A\u3089",
+        "\u3044\u305F\u307F",
+        "\u3044\u305F\u308A\u3042",
+        "\u3044\u3061\u304A\u3046",
+        "\u3044\u3061\u3058",
+        "\u3044\u3061\u3069",
+        "\u3044\u3061\u3070",
+        "\u3044\u3061\u3076",
+        "\u3044\u3061\u308A\u3085\u3046",
+        "\u3044\u3064\u304B",
+        "\u3044\u3063\u3057\u3085\u3093",
+        "\u3044\u3063\u305B\u3044",
+        "\u3044\u3063\u305D\u3046",
+        "\u3044\u3063\u305F\u3093",
+        "\u3044\u3063\u3061",
+        "\u3044\u3063\u3066\u3044",
+        "\u3044\u3063\u307D\u3046",
+        "\u3044\u3066\u3056",
+        "\u3044\u3066\u3093",
+        "\u3044\u3069\u3046",
+        "\u3044\u3068\u3053",
+        "\u3044\u306A\u3044",
+        "\u3044\u306A\u304B",
+        "\u3044\u306D\u3080\u308A",
+        "\u3044\u306E\u3061",
+        "\u3044\u306E\u308B",
+        "\u3044\u306F\u3064",
+        "\u3044\u3070\u308B",
+        "\u3044\u306F\u3093",
+        "\u3044\u3073\u304D",
+        "\u3044\u3072\u3093",
+        "\u3044\u3075\u304F",
+        "\u3044\u3078\u3093",
+        "\u3044\u307B\u3046",
+        "\u3044\u307F\u3093",
+        "\u3044\u3082\u3046\u3068",
+        "\u3044\u3082\u305F\u308C",
+        "\u3044\u3082\u308A",
+        "\u3044\u3084\u304C\u308B",
+        "\u3044\u3084\u3059",
+        "\u3044\u3088\u304B\u3093",
+        "\u3044\u3088\u304F",
+        "\u3044\u3089\u3044",
+        "\u3044\u3089\u3059\u3068",
+        "\u3044\u308A\u3050\u3061",
+        "\u3044\u308A\u3087\u3046",
+        "\u3044\u308C\u3044",
+        "\u3044\u308C\u3082\u306E",
+        "\u3044\u308C\u308B",
+        "\u3044\u308D\u3048\u3093\u3074\u3064",
+        "\u3044\u308F\u3044",
+        "\u3044\u308F\u3046",
+        "\u3044\u308F\u304B\u3093",
+        "\u3044\u308F\u3070",
+        "\u3044\u308F\u3086\u308B",
+        "\u3044\u3093\u3052\u3093\u307E\u3081",
+        "\u3044\u3093\u3055\u3064",
+        "\u3044\u3093\u3057\u3087\u3046",
+        "\u3044\u3093\u3088\u3046",
+        "\u3046\u3048\u304D",
+        "\u3046\u3048\u308B",
+        "\u3046\u304A\u3056",
+        "\u3046\u304C\u3044",
+        "\u3046\u304B\u3076",
+        "\u3046\u304B\u3079\u308B",
+        "\u3046\u304D\u308F",
+        "\u3046\u304F\u3089\u3044\u306A",
+        "\u3046\u304F\u308C\u308C",
+        "\u3046\u3051\u305F\u307E\u308F\u308B",
+        "\u3046\u3051\u3064\u3051",
+        "\u3046\u3051\u3068\u308B",
+        "\u3046\u3051\u3082\u3064",
+        "\u3046\u3051\u308B",
+        "\u3046\u3054\u304B\u3059",
+        "\u3046\u3054\u304F",
+        "\u3046\u3053\u3093",
+        "\u3046\u3055\u304E",
+        "\u3046\u3057\u306A\u3046",
+        "\u3046\u3057\u308D\u304C\u307F",
+        "\u3046\u3059\u3044",
+        "\u3046\u3059\u304E",
+        "\u3046\u3059\u3050\u3089\u3044",
+        "\u3046\u3059\u3081\u308B",
+        "\u3046\u305B\u3064",
+        "\u3046\u3061\u3042\u308F\u305B",
+        "\u3046\u3061\u304C\u308F",
+        "\u3046\u3061\u304D",
+        "\u3046\u3061\u3085\u3046",
+        "\u3046\u3063\u304B\u308A",
+        "\u3046\u3064\u304F\u3057\u3044",
+        "\u3046\u3063\u305F\u3048\u308B",
+        "\u3046\u3064\u308B",
+        "\u3046\u3069\u3093",
+        "\u3046\u306A\u304E",
+        "\u3046\u306A\u3058",
+        "\u3046\u306A\u305A\u304F",
+        "\u3046\u306A\u308B",
+        "\u3046\u306D\u308B",
+        "\u3046\u306E\u3046",
+        "\u3046\u3076\u3052",
+        "\u3046\u3076\u3054\u3048",
+        "\u3046\u307E\u308C\u308B",
+        "\u3046\u3081\u308B",
+        "\u3046\u3082\u3046",
+        "\u3046\u3084\u307E\u3046",
+        "\u3046\u3088\u304F",
+        "\u3046\u3089\u304C\u3048\u3059",
+        "\u3046\u3089\u3050\u3061",
+        "\u3046\u3089\u306A\u3044",
+        "\u3046\u308A\u3042\u3052",
+        "\u3046\u308A\u304D\u308C",
+        "\u3046\u308B\u3055\u3044",
+        "\u3046\u308C\u3057\u3044",
+        "\u3046\u308C\u3086\u304D",
+        "\u3046\u308C\u308B",
+        "\u3046\u308D\u3053",
+        "\u3046\u308F\u304D",
+        "\u3046\u308F\u3055",
+        "\u3046\u3093\u3053\u3046",
+        "\u3046\u3093\u3061\u3093",
+        "\u3046\u3093\u3066\u3093",
+        "\u3046\u3093\u3069\u3046",
+        "\u3048\u3044\u3048\u3093",
+        "\u3048\u3044\u304C",
+        "\u3048\u3044\u304D\u3087\u3046",
+        "\u3048\u3044\u3054",
+        "\u3048\u3044\u305B\u3044",
+        "\u3048\u3044\u3076\u3093",
+        "\u3048\u3044\u3088\u3046",
+        "\u3048\u3044\u308F",
+        "\u3048\u304A\u308A",
+        "\u3048\u304C\u304A",
+        "\u3048\u304C\u304F",
+        "\u3048\u304D\u305F\u3044",
+        "\u3048\u304F\u305B\u308B",
+        "\u3048\u3057\u3083\u304F",
+        "\u3048\u3059\u3066",
+        "\u3048\u3064\u3089\u3093",
+        "\u3048\u306E\u3050",
+        "\u3048\u307B\u3046\u307E\u304D",
+        "\u3048\u307B\u3093",
+        "\u3048\u307E\u304D",
+        "\u3048\u3082\u3058",
+        "\u3048\u3082\u306E",
+        "\u3048\u3089\u3044",
+        "\u3048\u3089\u3076",
+        "\u3048\u308A\u3042",
+        "\u3048\u3093\u3048\u3093",
+        "\u3048\u3093\u304B\u3044",
+        "\u3048\u3093\u304E",
+        "\u3048\u3093\u3052\u304D",
+        "\u3048\u3093\u3057\u3085\u3046",
+        "\u3048\u3093\u305C\u3064",
+        "\u3048\u3093\u305D\u304F",
+        "\u3048\u3093\u3061\u3087\u3046",
+        "\u3048\u3093\u3068\u3064",
+        "\u304A\u3044\u304B\u3051\u308B",
+        "\u304A\u3044\u3053\u3059",
+        "\u304A\u3044\u3057\u3044",
+        "\u304A\u3044\u3064\u304F",
+        "\u304A\u3046\u3048\u3093",
+        "\u304A\u3046\u3055\u307E",
+        "\u304A\u3046\u3058",
+        "\u304A\u3046\u305B\u3064",
+        "\u304A\u3046\u305F\u3044",
+        "\u304A\u3046\u3075\u304F",
+        "\u304A\u3046\u3079\u3044",
+        "\u304A\u3046\u3088\u3046",
+        "\u304A\u3048\u308B",
+        "\u304A\u304A\u3044",
+        "\u304A\u304A\u3046",
+        "\u304A\u304A\u3069\u304A\u308A",
+        "\u304A\u304A\u3084",
+        "\u304A\u304A\u3088\u305D",
+        "\u304A\u304B\u3048\u308A",
+        "\u304A\u304B\u305A",
+        "\u304A\u304C\u3080",
+        "\u304A\u304B\u308F\u308A",
+        "\u304A\u304E\u306A\u3046",
+        "\u304A\u304D\u308B",
+        "\u304A\u304F\u3055\u307E",
+        "\u304A\u304F\u3058\u3087\u3046",
+        "\u304A\u304F\u308A\u304C\u306A",
+        "\u304A\u304F\u308B",
+        "\u304A\u304F\u308C\u308B",
+        "\u304A\u3053\u3059",
+        "\u304A\u3053\u306A\u3046",
+        "\u304A\u3053\u308B",
+        "\u304A\u3055\u3048\u308B",
+        "\u304A\u3055\u306A\u3044",
+        "\u304A\u3055\u3081\u308B",
+        "\u304A\u3057\u3044\u308C",
+        "\u304A\u3057\u3048\u308B",
+        "\u304A\u3058\u304E",
+        "\u304A\u3058\u3055\u3093",
+        "\u304A\u3057\u3083\u308C",
+        "\u304A\u305D\u3089\u304F",
+        "\u304A\u305D\u308F\u308B",
+        "\u304A\u305F\u304C\u3044",
+        "\u304A\u305F\u304F",
+        "\u304A\u3060\u3084\u304B",
+        "\u304A\u3061\u3064\u304F",
+        "\u304A\u3063\u3068",
+        "\u304A\u3064\u308A",
+        "\u304A\u3067\u304B\u3051",
+        "\u304A\u3068\u3057\u3082\u306E",
+        "\u304A\u3068\u306A\u3057\u3044",
+        "\u304A\u3069\u308A",
+        "\u304A\u3069\u308D\u304B\u3059",
+        "\u304A\u3070\u3055\u3093",
+        "\u304A\u307E\u3044\u308A",
+        "\u304A\u3081\u3067\u3068\u3046",
+        "\u304A\u3082\u3044\u3067",
+        "\u304A\u3082\u3046",
+        "\u304A\u3082\u305F\u3044",
+        "\u304A\u3082\u3061\u3083",
+        "\u304A\u3084\u3064",
+        "\u304A\u3084\u3086\u3073",
+        "\u304A\u3088\u307C\u3059",
+        "\u304A\u3089\u3093\u3060",
+        "\u304A\u308D\u3059",
+        "\u304A\u3093\u304C\u304F",
+        "\u304A\u3093\u3051\u3044",
+        "\u304A\u3093\u3057\u3083",
+        "\u304A\u3093\u305B\u3093",
+        "\u304A\u3093\u3060\u3093",
+        "\u304A\u3093\u3061\u3085\u3046",
+        "\u304A\u3093\u3069\u3051\u3044",
+        "\u304B\u3042\u3064",
+        "\u304B\u3044\u304C",
+        "\u304C\u3044\u304D",
+        "\u304C\u3044\u3051\u3093",
+        "\u304C\u3044\u3053\u3046",
+        "\u304B\u3044\u3055\u3064",
+        "\u304B\u3044\u3057\u3083",
+        "\u304B\u3044\u3059\u3044\u3088\u304F",
+        "\u304B\u3044\u305C\u3093",
+        "\u304B\u3044\u305E\u3046\u3069",
+        "\u304B\u3044\u3064\u3046",
+        "\u304B\u3044\u3066\u3093",
+        "\u304B\u3044\u3068\u3046",
+        "\u304B\u3044\u3075\u304F",
+        "\u304C\u3044\u3078\u304D",
+        "\u304B\u3044\u307B\u3046",
+        "\u304B\u3044\u3088\u3046",
+        "\u304C\u3044\u3089\u3044",
+        "\u304B\u3044\u308F",
+        "\u304B\u3048\u308B",
+        "\u304B\u304A\u308A",
+        "\u304B\u304B\u3048\u308B",
+        "\u304B\u304C\u304F",
+        "\u304B\u304C\u3057",
+        "\u304B\u304C\u307F",
+        "\u304B\u304F\u3054",
+        "\u304B\u304F\u3068\u304F",
+        "\u304B\u3056\u308B",
+        "\u304C\u305E\u3046",
+        "\u304B\u305F\u3044",
+        "\u304B\u305F\u3061",
+        "\u304C\u3061\u3087\u3046",
+        "\u304C\u3063\u304D\u3085\u3046",
+        "\u304C\u3063\u3053\u3046",
+        "\u304C\u3063\u3055\u3093",
+        "\u304C\u3063\u3057\u3087\u3046",
+        "\u304B\u306A\u3056\u308F\u3057",
+        "\u304B\u306E\u3046",
+        "\u304C\u306F\u304F",
+        "\u304B\u3076\u304B",
+        "\u304B\u307B\u3046",
+        "\u304B\u307B\u3054",
+        "\u304B\u307E\u3046",
+        "\u304B\u307E\u307C\u3053",
+        "\u304B\u3081\u308C\u304A\u3093",
+        "\u304B\u3086\u3044",
+        "\u304B\u3088\u3046\u3073",
+        "\u304B\u3089\u3044",
+        "\u304B\u308B\u3044",
+        "\u304B\u308D\u3046",
+        "\u304B\u308F\u304F",
+        "\u304B\u308F\u3089",
+        "\u304C\u3093\u304B",
+        "\u304B\u3093\u3051\u3044",
+        "\u304B\u3093\u3053\u3046",
+        "\u304B\u3093\u3057\u3083",
+        "\u304B\u3093\u305D\u3046",
+        "\u304B\u3093\u305F\u3093",
+        "\u304B\u3093\u3061",
+        "\u304C\u3093\u3070\u308B",
+        "\u304D\u3042\u3044",
+        "\u304D\u3042\u3064",
+        "\u304D\u3044\u308D",
+        "\u304E\u3044\u3093",
+        "\u304D\u3046\u3044",
+        "\u304D\u3046\u3093",
+        "\u304D\u3048\u308B",
+        "\u304D\u304A\u3046",
+        "\u304D\u304A\u304F",
+        "\u304D\u304A\u3061",
+        "\u304D\u304A\u3093",
+        "\u304D\u304B\u3044",
+        "\u304D\u304B\u304F",
+        "\u304D\u304B\u3093\u3057\u3083",
+        "\u304D\u304D\u3066",
+        "\u304D\u304F\u3070\u308A",
+        "\u304D\u304F\u3089\u3052",
+        "\u304D\u3051\u3093\u305B\u3044",
+        "\u304D\u3053\u3046",
+        "\u304D\u3053\u3048\u308B",
+        "\u304D\u3053\u304F",
+        "\u304D\u3055\u3044",
+        "\u304D\u3055\u304F",
+        "\u304D\u3055\u307E",
+        "\u304D\u3055\u3089\u304E",
+        "\u304E\u3058\u304B\u304C\u304F",
+        "\u304E\u3057\u304D",
+        "\u304E\u3058\u305F\u3044\u3051\u3093",
+        "\u304E\u3058\u306B\u3063\u3066\u3044",
+        "\u304E\u3058\u3085\u3064\u3057\u3083",
+        "\u304D\u3059\u3046",
+        "\u304D\u305B\u3044",
+        "\u304D\u305B\u304D",
+        "\u304D\u305B\u3064",
+        "\u304D\u305D\u3046",
+        "\u304D\u305E\u304F",
+        "\u304D\u305E\u3093",
+        "\u304D\u305F\u3048\u308B",
+        "\u304D\u3061\u3087\u3046",
+        "\u304D\u3064\u3048\u3093",
+        "\u304E\u3063\u3061\u308A",
+        "\u304D\u3064\u3064\u304D",
+        "\u304D\u3064\u306D",
+        "\u304D\u3066\u3044",
+        "\u304D\u3069\u3046",
+        "\u304D\u3069\u304F",
+        "\u304D\u306A\u3044",
+        "\u304D\u306A\u304C",
+        "\u304D\u306A\u3053",
+        "\u304D\u306C\u3054\u3057",
+        "\u304D\u306D\u3093",
+        "\u304D\u306E\u3046",
+        "\u304D\u306E\u3057\u305F",
+        "\u304D\u306F\u304F",
+        "\u304D\u3073\u3057\u3044",
+        "\u304D\u3072\u3093",
+        "\u304D\u3075\u304F",
+        "\u304D\u3076\u3093",
+        "\u304D\u307C\u3046",
+        "\u304D\u307B\u3093",
+        "\u304D\u307E\u308B",
+        "\u304D\u307F\u3064",
+        "\u304D\u3080\u305A\u304B\u3057\u3044",
+        "\u304D\u3081\u308B",
+        "\u304D\u3082\u3060\u3081\u3057",
+        "\u304D\u3082\u3061",
+        "\u304D\u3082\u306E",
+        "\u304D\u3083\u304F",
+        "\u304D\u3084\u304F",
+        "\u304E\u3085\u3046\u306B\u304F",
+        "\u304D\u3088\u3046",
+        "\u304D\u3087\u3046\u308A\u3085\u3046",
+        "\u304D\u3089\u3044",
+        "\u304D\u3089\u304F",
+        "\u304D\u308A\u3093",
+        "\u304D\u308C\u3044",
+        "\u304D\u308C\u3064",
+        "\u304D\u308D\u304F",
+        "\u304E\u308D\u3093",
+        "\u304D\u308F\u3081\u308B",
+        "\u304E\u3093\u3044\u308D",
+        "\u304D\u3093\u304B\u304F\u3058",
+        "\u304D\u3093\u3058\u3087",
+        "\u304D\u3093\u3088\u3046\u3073",
+        "\u3050\u3042\u3044",
+        "\u304F\u3044\u305A",
+        "\u304F\u3046\u304B\u3093",
+        "\u304F\u3046\u304D",
+        "\u304F\u3046\u3050\u3093",
+        "\u304F\u3046\u3053\u3046",
+        "\u3050\u3046\u305B\u3044",
+        "\u304F\u3046\u305D\u3046",
+        "\u3050\u3046\u305F\u3089",
+        "\u304F\u3046\u3075\u304F",
+        "\u304F\u3046\u307C",
+        "\u304F\u304B\u3093",
+        "\u304F\u304D\u3087\u3046",
+        "\u304F\u3052\u3093",
+        "\u3050\u3053\u3046",
+        "\u304F\u3055\u3044",
+        "\u304F\u3055\u304D",
+        "\u304F\u3055\u3070\u306A",
+        "\u304F\u3055\u308B",
+        "\u304F\u3057\u3083\u307F",
+        "\u304F\u3057\u3087\u3046",
+        "\u304F\u3059\u306E\u304D",
+        "\u304F\u3059\u308A\u3086\u3073",
+        "\u304F\u305B\u3052",
+        "\u304F\u305B\u3093",
+        "\u3050\u305F\u3044\u3066\u304D",
+        "\u304F\u3060\u3055\u308B",
+        "\u304F\u305F\u3073\u308C\u308B",
+        "\u304F\u3061\u3053\u307F",
+        "\u304F\u3061\u3055\u304D",
+        "\u304F\u3064\u3057\u305F",
+        "\u3050\u3063\u3059\u308A",
+        "\u304F\u3064\u308D\u3050",
+        "\u304F\u3068\u3046\u3066\u3093",
+        "\u304F\u3069\u304F",
+        "\u304F\u306A\u3093",
+        "\u304F\u306D\u304F\u306D",
+        "\u304F\u306E\u3046",
+        "\u304F\u3075\u3046",
+        "\u304F\u307F\u3042\u308F\u305B",
+        "\u304F\u307F\u305F\u3066\u308B",
+        "\u304F\u3081\u308B",
+        "\u304F\u3084\u304F\u3057\u3087",
+        "\u304F\u3089\u3059",
+        "\u304F\u3089\u3079\u308B",
+        "\u304F\u308B\u307E",
+        "\u304F\u308C\u308B",
+        "\u304F\u308D\u3046",
+        "\u304F\u308F\u3057\u3044",
+        "\u3050\u3093\u304B\u3093",
+        "\u3050\u3093\u3057\u3087\u304F",
+        "\u3050\u3093\u305F\u3044",
+        "\u3050\u3093\u3066",
+        "\u3051\u3042\u306A",
+        "\u3051\u3044\u304B\u304F",
+        "\u3051\u3044\u3051\u3093",
+        "\u3051\u3044\u3053",
+        "\u3051\u3044\u3055\u3064",
+        "\u3052\u3044\u3058\u3085\u3064",
+        "\u3051\u3044\u305F\u3044",
+        "\u3052\u3044\u306E\u3046\u3058\u3093",
+        "\u3051\u3044\u308C\u304D",
+        "\u3051\u3044\u308D",
+        "\u3051\u304A\u3068\u3059",
+        "\u3051\u304A\u308A\u3082\u306E",
+        "\u3052\u304D\u304B",
+        "\u3052\u304D\u3052\u3093",
+        "\u3052\u304D\u3060\u3093",
+        "\u3052\u304D\u3061\u3093",
+        "\u3052\u304D\u3068\u3064",
+        "\u3052\u304D\u306F",
+        "\u3052\u304D\u3084\u304F",
+        "\u3052\u3053\u3046",
+        "\u3052\u3053\u304F\u3058\u3087\u3046",
+        "\u3052\u3056\u3044",
+        "\u3051\u3055\u304D",
+        "\u3052\u3056\u3093",
+        "\u3051\u3057\u304D",
+        "\u3051\u3057\u3054\u3080",
+        "\u3051\u3057\u3087\u3046",
+        "\u3052\u3059\u3068",
+        "\u3051\u305F\u3070",
+        "\u3051\u3061\u3083\u3063\u3077",
+        "\u3051\u3061\u3089\u3059",
+        "\u3051\u3064\u3042\u3064",
+        "\u3051\u3064\u3044",
+        "\u3051\u3064\u3048\u304D",
+        "\u3051\u3063\u3053\u3093",
+        "\u3051\u3064\u3058\u3087",
+        "\u3051\u3063\u305B\u304D",
+        "\u3051\u3063\u3066\u3044",
+        "\u3051\u3064\u307E\u3064",
+        "\u3052\u3064\u3088\u3046\u3073",
+        "\u3052\u3064\u308C\u3044",
+        "\u3051\u3064\u308D\u3093",
+        "\u3052\u3069\u304F",
+        "\u3051\u3068\u3070\u3059",
+        "\u3051\u3068\u308B",
+        "\u3051\u306A\u3052",
+        "\u3051\u306A\u3059",
+        "\u3051\u306A\u307F",
+        "\u3051\u306C\u304D",
+        "\u3052\u306D\u3064",
+        "\u3051\u306D\u3093",
+        "\u3051\u306F\u3044",
+        "\u3052\u3072\u3093",
+        "\u3051\u3076\u304B\u3044",
+        "\u3052\u307C\u304F",
+        "\u3051\u307E\u308A",
+        "\u3051\u307F\u304B\u308B",
+        "\u3051\u3080\u3057",
+        "\u3051\u3080\u308A",
+        "\u3051\u3082\u306E",
+        "\u3051\u3089\u3044",
+        "\u3051\u308D\u3051\u308D",
+        "\u3051\u308F\u3057\u3044",
+        "\u3051\u3093\u3044",
+        "\u3051\u3093\u3048\u3064",
+        "\u3051\u3093\u304A",
+        "\u3051\u3093\u304B",
+        "\u3052\u3093\u304D",
+        "\u3051\u3093\u3052\u3093",
+        "\u3051\u3093\u3053\u3046",
+        "\u3051\u3093\u3055\u304F",
+        "\u3051\u3093\u3057\u3085\u3046",
+        "\u3051\u3093\u3059\u3046",
+        "\u3052\u3093\u305D\u3046",
+        "\u3051\u3093\u3061\u304F",
+        "\u3051\u3093\u3066\u3044",
+        "\u3051\u3093\u3068\u3046",
+        "\u3051\u3093\u306A\u3044",
+        "\u3051\u3093\u306B\u3093",
+        "\u3052\u3093\u3076\u3064",
+        "\u3051\u3093\u307E",
+        "\u3051\u3093\u307F\u3093",
+        "\u3051\u3093\u3081\u3044",
+        "\u3051\u3093\u3089\u3093",
+        "\u3051\u3093\u308A",
+        "\u3053\u3042\u304F\u307E",
+        "\u3053\u3044\u306C",
+        "\u3053\u3044\u3073\u3068",
+        "\u3054\u3046\u3044",
+        "\u3053\u3046\u3048\u3093",
+        "\u3053\u3046\u304A\u3093",
+        "\u3053\u3046\u304B\u3093",
+        "\u3054\u3046\u304D\u3085\u3046",
+        "\u3054\u3046\u3051\u3044",
+        "\u3053\u3046\u3053\u3046",
+        "\u3053\u3046\u3055\u3044",
+        "\u3053\u3046\u3058",
+        "\u3053\u3046\u3059\u3044",
+        "\u3054\u3046\u305B\u3044",
+        "\u3053\u3046\u305D\u304F",
+        "\u3053\u3046\u305F\u3044",
+        "\u3053\u3046\u3061\u3083",
+        "\u3053\u3046\u3064\u3046",
+        "\u3053\u3046\u3066\u3044",
+        "\u3053\u3046\u3069\u3046",
+        "\u3053\u3046\u306A\u3044",
+        "\u3053\u3046\u306F\u3044",
+        "\u3054\u3046\u307B\u3046",
+        "\u3054\u3046\u307E\u3093",
+        "\u3053\u3046\u3082\u304F",
+        "\u3053\u3046\u308A\u3064",
+        "\u3053\u3048\u308B",
+        "\u3053\u304A\u308A",
+        "\u3054\u304B\u3044",
+        "\u3054\u304C\u3064",
+        "\u3054\u304B\u3093",
+        "\u3053\u304F\u3054",
+        "\u3053\u304F\u3055\u3044",
+        "\u3053\u304F\u3068\u3046",
+        "\u3053\u304F\u306A\u3044",
+        "\u3053\u304F\u306F\u304F",
+        "\u3053\u3050\u307E",
+        "\u3053\u3051\u3044",
+        "\u3053\u3051\u308B",
+        "\u3053\u3053\u306E\u304B",
+        "\u3053\u3053\u308D",
+        "\u3053\u3055\u3081",
+        "\u3053\u3057\u3064",
+        "\u3053\u3059\u3046",
+        "\u3053\u305B\u3044",
+        "\u3053\u305B\u304D",
+        "\u3053\u305C\u3093",
+        "\u3053\u305D\u3060\u3066",
+        "\u3053\u305F\u3044",
+        "\u3053\u305F\u3048\u308B",
+        "\u3053\u305F\u3064",
+        "\u3053\u3061\u3087\u3046",
+        "\u3053\u3063\u304B",
+        "\u3053\u3064\u3053\u3064",
+        "\u3053\u3064\u3070\u3093",
+        "\u3053\u3064\u3076",
+        "\u3053\u3066\u3044",
+        "\u3053\u3066\u3093",
+        "\u3053\u3068\u304C\u3089",
+        "\u3053\u3068\u3057",
+        "\u3053\u3068\u3070",
+        "\u3053\u3068\u308A",
+        "\u3053\u306A\u3054\u306A",
+        "\u3053\u306D\u3053\u306D",
+        "\u3053\u306E\u307E\u307E",
+        "\u3053\u306E\u307F",
+        "\u3053\u306E\u3088",
+        "\u3054\u306F\u3093",
+        "\u3053\u3072\u3064\u3058",
+        "\u3053\u3075\u3046",
+        "\u3053\u3075\u3093",
+        "\u3053\u307C\u308C\u308B",
+        "\u3054\u307E\u3042\u3076\u3089",
+        "\u3053\u307E\u304B\u3044",
+        "\u3054\u307E\u3059\u308A",
+        "\u3053\u307E\u3064\u306A",
+        "\u3053\u307E\u308B",
+        "\u3053\u3080\u304E\u3053",
+        "\u3053\u3082\u3058",
+        "\u3053\u3082\u3061",
+        "\u3053\u3082\u306E",
+        "\u3053\u3082\u3093",
+        "\u3053\u3084\u304F",
+        "\u3053\u3084\u307E",
+        "\u3053\u3086\u3046",
+        "\u3053\u3086\u3073",
+        "\u3053\u3088\u3044",
+        "\u3053\u3088\u3046",
+        "\u3053\u308A\u308B",
+        "\u3053\u308C\u304F\u3057\u3087\u3093",
+        "\u3053\u308D\u3063\u3051",
+        "\u3053\u308F\u3082\u3066",
+        "\u3053\u308F\u308C\u308B",
+        "\u3053\u3093\u3044\u3093",
+        "\u3053\u3093\u304B\u3044",
+        "\u3053\u3093\u304D",
+        "\u3053\u3093\u3057\u3085\u3046",
+        "\u3053\u3093\u3059\u3044",
+        "\u3053\u3093\u3060\u3066",
+        "\u3053\u3093\u3068\u3093",
+        "\u3053\u3093\u306A\u3093",
+        "\u3053\u3093\u3073\u306B",
+        "\u3053\u3093\u307D\u3093",
+        "\u3053\u3093\u307E\u3051",
+        "\u3053\u3093\u3084",
+        "\u3053\u3093\u308C\u3044",
+        "\u3053\u3093\u308F\u304F",
+        "\u3056\u3044\u3048\u304D",
+        "\u3055\u3044\u304B\u3044",
+        "\u3055\u3044\u304D\u3093",
+        "\u3056\u3044\u3052\u3093",
+        "\u3056\u3044\u3053",
+        "\u3055\u3044\u3057\u3087",
+        "\u3055\u3044\u305B\u3044",
+        "\u3056\u3044\u305F\u304F",
+        "\u3056\u3044\u3061\u3085\u3046",
+        "\u3055\u3044\u3066\u304D",
+        "\u3056\u3044\u308A\u3087\u3046",
+        "\u3055\u3046\u306A",
+        "\u3055\u304B\u3044\u3057",
+        "\u3055\u304C\u3059",
+        "\u3055\u304B\u306A",
+        "\u3055\u304B\u307F\u3061",
+        "\u3055\u304C\u308B",
+        "\u3055\u304E\u3087\u3046",
+        "\u3055\u304F\u3057",
+        "\u3055\u304F\u3072\u3093",
+        "\u3055\u304F\u3089",
+        "\u3055\u3053\u304F",
+        "\u3055\u3053\u3064",
+        "\u3055\u305A\u304B\u308B",
+        "\u3056\u305B\u304D",
+        "\u3055\u305F\u3093",
+        "\u3055\u3064\u3048\u3044",
+        "\u3056\u3064\u304A\u3093",
+        "\u3056\u3063\u304B",
+        "\u3056\u3064\u304C\u304F",
+        "\u3055\u3063\u304D\u3087\u304F",
+        "\u3056\u3063\u3057",
+        "\u3055\u3064\u3058\u3093",
+        "\u3056\u3063\u305D\u3046",
+        "\u3055\u3064\u305F\u3070",
+        "\u3055\u3064\u307E\u3044\u3082",
+        "\u3055\u3066\u3044",
+        "\u3055\u3068\u3044\u3082",
+        "\u3055\u3068\u3046",
+        "\u3055\u3068\u304A\u3084",
+        "\u3055\u3068\u3057",
+        "\u3055\u3068\u308B",
+        "\u3055\u306E\u3046",
+        "\u3055\u3070\u304F",
+        "\u3055\u3073\u3057\u3044",
+        "\u3055\u3079\u3064",
+        "\u3055\u307B\u3046",
+        "\u3055\u307B\u3069",
+        "\u3055\u307E\u3059",
+        "\u3055\u307F\u3057\u3044",
+        "\u3055\u307F\u3060\u308C",
+        "\u3055\u3080\u3051",
+        "\u3055\u3081\u308B",
+        "\u3055\u3084\u3048\u3093\u3069\u3046",
+        "\u3055\u3086\u3046",
+        "\u3055\u3088\u3046",
+        "\u3055\u3088\u304F",
+        "\u3055\u3089\u3060",
+        "\u3056\u308B\u305D\u3070",
+        "\u3055\u308F\u3084\u304B",
+        "\u3055\u308F\u308B",
+        "\u3055\u3093\u3044\u3093",
+        "\u3055\u3093\u304B",
+        "\u3055\u3093\u304D\u3083\u304F",
+        "\u3055\u3093\u3053\u3046",
+        "\u3055\u3093\u3055\u3044",
+        "\u3056\u3093\u3057\u3087",
+        "\u3055\u3093\u3059\u3046",
+        "\u3055\u3093\u305B\u3044",
+        "\u3055\u3093\u305D",
+        "\u3055\u3093\u3061",
+        "\u3055\u3093\u307E",
+        "\u3055\u3093\u307F",
+        "\u3055\u3093\u3089\u3093",
+        "\u3057\u3042\u3044",
+        "\u3057\u3042\u3052",
+        "\u3057\u3042\u3055\u3063\u3066",
+        "\u3057\u3042\u308F\u305B",
+        "\u3057\u3044\u304F",
+        "\u3057\u3044\u3093",
+        "\u3057\u3046\u3061",
+        "\u3057\u3048\u3044",
+        "\u3057\u304A\u3051",
+        "\u3057\u304B\u3044",
+        "\u3057\u304B\u304F",
+        "\u3058\u304B\u3093",
+        "\u3057\u3054\u3068",
+        "\u3057\u3059\u3046",
+        "\u3058\u3060\u3044",
+        "\u3057\u305F\u3046\u3051",
+        "\u3057\u305F\u304E",
+        "\u3057\u305F\u3066",
+        "\u3057\u305F\u307F",
+        "\u3057\u3061\u3087\u3046",
+        "\u3057\u3061\u308A\u3093",
+        "\u3057\u3063\u304B\u308A",
+        "\u3057\u3064\u3058",
+        "\u3057\u3064\u3082\u3093",
+        "\u3057\u3066\u3044",
+        "\u3057\u3066\u304D",
+        "\u3057\u3066\u3064",
+        "\u3058\u3066\u3093",
+        "\u3058\u3069\u3046",
+        "\u3057\u306A\u304E\u308C",
+        "\u3057\u306A\u3082\u306E",
+        "\u3057\u306A\u3093",
+        "\u3057\u306D\u307E",
+        "\u3057\u306D\u3093",
+        "\u3057\u306E\u3050",
+        "\u3057\u306E\u3076",
+        "\u3057\u306F\u3044",
+        "\u3057\u3070\u304B\u308A",
+        "\u3057\u306F\u3064",
+        "\u3057\u306F\u3089\u3044",
+        "\u3057\u306F\u3093",
+        "\u3057\u3072\u3087\u3046",
+        "\u3057\u3075\u304F",
+        "\u3058\u3076\u3093",
+        "\u3057\u3078\u3044",
+        "\u3057\u307B\u3046",
+        "\u3057\u307B\u3093",
+        "\u3057\u307E\u3046",
+        "\u3057\u307E\u308B",
+        "\u3057\u307F\u3093",
+        "\u3057\u3080\u3051\u308B",
+        "\u3058\u3080\u3057\u3087",
+        "\u3057\u3081\u3044",
+        "\u3057\u3081\u308B",
+        "\u3057\u3082\u3093",
+        "\u3057\u3083\u3044\u3093",
+        "\u3057\u3083\u3046\u3093",
+        "\u3057\u3083\u304A\u3093",
+        "\u3058\u3083\u304C\u3044\u3082",
+        "\u3057\u3084\u304F\u3057\u3087",
+        "\u3057\u3083\u304F\u307B\u3046",
+        "\u3057\u3083\u3051\u3093",
+        "\u3057\u3083\u3053",
+        "\u3057\u3083\u3056\u3044",
+        "\u3057\u3083\u3057\u3093",
+        "\u3057\u3083\u305B\u3093",
+        "\u3057\u3083\u305D\u3046",
+        "\u3057\u3083\u305F\u3044",
+        "\u3057\u3083\u3061\u3087\u3046",
+        "\u3057\u3083\u3063\u304D\u3093",
+        "\u3058\u3083\u307E",
+        "\u3057\u3083\u308A\u3093",
+        "\u3057\u3083\u308C\u3044",
+        "\u3058\u3086\u3046",
+        "\u3058\u3085\u3046\u3057\u3087",
+        "\u3057\u3085\u304F\u306F\u304F",
+        "\u3058\u3085\u3057\u3093",
+        "\u3057\u3085\u3063\u305B\u304D",
+        "\u3057\u3085\u307F",
+        "\u3057\u3085\u3089\u3070",
+        "\u3058\u3085\u3093\u3070\u3093",
+        "\u3057\u3087\u3046\u304B\u3044",
+        "\u3057\u3087\u304F\u305F\u304F",
+        "\u3057\u3087\u3063\u3051\u3093",
+        "\u3057\u3087\u3069\u3046",
+        "\u3057\u3087\u3082\u3064",
+        "\u3057\u3089\u305B\u308B",
+        "\u3057\u3089\u3079\u308B",
+        "\u3057\u3093\u304B",
+        "\u3057\u3093\u3053\u3046",
+        "\u3058\u3093\u3058\u3083",
+        "\u3057\u3093\u305B\u3044\u3058",
+        "\u3057\u3093\u3061\u304F",
+        "\u3057\u3093\u308A\u3093",
+        "\u3059\u3042\u3052",
+        "\u3059\u3042\u3057",
+        "\u3059\u3042\u306A",
+        "\u305A\u3042\u3093",
+        "\u3059\u3044\u3048\u3044",
+        "\u3059\u3044\u304B",
+        "\u3059\u3044\u3068\u3046",
+        "\u305A\u3044\u3076\u3093",
+        "\u3059\u3044\u3088\u3046\u3073",
+        "\u3059\u3046\u304C\u304F",
+        "\u3059\u3046\u3058\u3064",
+        "\u3059\u3046\u305B\u3093",
+        "\u3059\u304A\u3069\u308A",
+        "\u3059\u304D\u307E",
+        "\u3059\u304F\u3046",
+        "\u3059\u304F\u306A\u3044",
+        "\u3059\u3051\u308B",
+        "\u3059\u3054\u3044",
+        "\u3059\u3053\u3057",
+        "\u305A\u3055\u3093",
+        "\u3059\u305A\u3057\u3044",
+        "\u3059\u3059\u3080",
+        "\u3059\u3059\u3081\u308B",
+        "\u3059\u3063\u304B\u308A",
+        "\u305A\u3063\u3057\u308A",
+        "\u305A\u3063\u3068",
+        "\u3059\u3066\u304D",
+        "\u3059\u3066\u308B",
+        "\u3059\u306D\u308B",
+        "\u3059\u306E\u3053",
+        "\u3059\u306F\u3060",
+        "\u3059\u3070\u3089\u3057\u3044",
+        "\u305A\u3072\u3087\u3046",
+        "\u305A\u3076\u306C\u308C",
+        "\u3059\u3076\u308A",
+        "\u3059\u3075\u308C",
+        "\u3059\u3079\u3066",
+        "\u3059\u3079\u308B",
+        "\u305A\u307B\u3046",
+        "\u3059\u307C\u3093",
+        "\u3059\u307E\u3044",
+        "\u3059\u3081\u3057",
+        "\u3059\u3082\u3046",
+        "\u3059\u3084\u304D",
+        "\u3059\u3089\u3059\u3089",
+        "\u3059\u308B\u3081",
+        "\u3059\u308C\u3061\u304C\u3046",
+        "\u3059\u308D\u3063\u3068",
+        "\u3059\u308F\u308B",
+        "\u3059\u3093\u305C\u3093",
+        "\u3059\u3093\u307D\u3046",
+        "\u305B\u3042\u3076\u3089",
+        "\u305B\u3044\u304B\u3064",
+        "\u305B\u3044\u3052\u3093",
+        "\u305B\u3044\u3058",
+        "\u305B\u3044\u3088\u3046",
+        "\u305B\u304A\u3046",
+        "\u305B\u304B\u3044\u304B\u3093",
+        "\u305B\u304D\u306B\u3093",
+        "\u305B\u304D\u3080",
+        "\u305B\u304D\u3086",
+        "\u305B\u304D\u3089\u3093\u3046\u3093",
+        "\u305B\u3051\u3093",
+        "\u305B\u3053\u3046",
+        "\u305B\u3059\u3058",
+        "\u305B\u305F\u3044",
+        "\u305B\u305F\u3051",
+        "\u305B\u3063\u304B\u304F",
+        "\u305B\u3063\u304D\u3083\u304F",
+        "\u305C\u3063\u304F",
+        "\u305B\u3063\u3051\u3093",
+        "\u305B\u3063\u3053\u3064",
+        "\u305B\u3063\u3055\u305F\u304F\u307E",
+        "\u305B\u3064\u305E\u304F",
+        "\u305B\u3064\u3060\u3093",
+        "\u305B\u3064\u3067\u3093",
+        "\u305B\u3063\u3071\u3093",
+        "\u305B\u3064\u3073",
+        "\u305B\u3064\u3076\u3093",
+        "\u305B\u3064\u3081\u3044",
+        "\u305B\u3064\u308A\u3064",
+        "\u305B\u306A\u304B",
+        "\u305B\u306E\u3073",
+        "\u305B\u306F\u3070",
+        "\u305B\u3073\u308D",
+        "\u305B\u307C\u306D",
+        "\u305B\u307E\u3044",
+        "\u305B\u307E\u308B",
+        "\u305B\u3081\u308B",
+        "\u305B\u3082\u305F\u308C",
+        "\u305B\u308A\u3075",
+        "\u305C\u3093\u3042\u304F",
+        "\u305B\u3093\u3044",
+        "\u305B\u3093\u3048\u3044",
+        "\u305B\u3093\u304B",
+        "\u305B\u3093\u304D\u3087",
+        "\u305B\u3093\u304F",
+        "\u305B\u3093\u3052\u3093",
+        "\u305C\u3093\u3054",
+        "\u305B\u3093\u3055\u3044",
+        "\u305B\u3093\u3057\u3085",
+        "\u305B\u3093\u3059\u3044",
+        "\u305B\u3093\u305B\u3044",
+        "\u305B\u3093\u305E",
+        "\u305B\u3093\u305F\u304F",
+        "\u305B\u3093\u3061\u3087\u3046",
+        "\u305B\u3093\u3066\u3044",
+        "\u305B\u3093\u3068\u3046",
+        "\u305B\u3093\u306C\u304D",
+        "\u305B\u3093\u306D\u3093",
+        "\u305B\u3093\u3071\u3044",
+        "\u305C\u3093\u3076",
+        "\u305C\u3093\u307D\u3046",
+        "\u305B\u3093\u3080",
+        "\u305B\u3093\u3081\u3093\u3058\u3087",
+        "\u305B\u3093\u3082\u3093",
+        "\u305B\u3093\u3084\u304F",
+        "\u305B\u3093\u3086\u3046",
+        "\u305B\u3093\u3088\u3046",
+        "\u305C\u3093\u3089",
+        "\u305C\u3093\u308A\u3083\u304F",
+        "\u305B\u3093\u308C\u3044",
+        "\u305B\u3093\u308D",
+        "\u305D\u3042\u304F",
+        "\u305D\u3044\u3068\u3052\u308B",
+        "\u305D\u3044\u306D",
+        "\u305D\u3046\u304C\u3093\u304D\u3087\u3046",
+        "\u305D\u3046\u304D",
+        "\u305D\u3046\u3054",
+        "\u305D\u3046\u3057\u3093",
+        "\u305D\u3046\u3060\u3093",
+        "\u305D\u3046\u306A\u3093",
+        "\u305D\u3046\u3073",
+        "\u305D\u3046\u3081\u3093",
+        "\u305D\u3046\u308A",
+        "\u305D\u3048\u3082\u306E",
+        "\u305D\u3048\u3093",
+        "\u305D\u304C\u3044",
+        "\u305D\u3052\u304D",
+        "\u305D\u3053\u3046",
+        "\u305D\u3053\u305D\u3053",
+        "\u305D\u3056\u3044",
+        "\u305D\u3057\u306A",
+        "\u305D\u305B\u3044",
+        "\u305D\u305B\u3093",
+        "\u305D\u305D\u3050",
+        "\u305D\u3060\u3066\u308B",
+        "\u305D\u3064\u3046",
+        "\u305D\u3064\u3048\u3093",
+        "\u305D\u3063\u304B\u3093",
+        "\u305D\u3064\u304E\u3087\u3046",
+        "\u305D\u3063\u3051\u3064",
+        "\u305D\u3063\u3053\u3046",
+        "\u305D\u3063\u305B\u3093",
+        "\u305D\u3063\u3068",
+        "\u305D\u3068\u304C\u308F",
+        "\u305D\u3068\u3065\u3089",
+        "\u305D\u306A\u3048\u308B",
+        "\u305D\u306A\u305F",
+        "\u305D\u3075\u307C",
+        "\u305D\u307C\u304F",
+        "\u305D\u307C\u308D",
+        "\u305D\u307E\u3064",
+        "\u305D\u307E\u308B",
+        "\u305D\u3080\u304F",
+        "\u305D\u3080\u308A\u3048",
+        "\u305D\u3081\u308B",
+        "\u305D\u3082\u305D\u3082",
+        "\u305D\u3088\u304B\u305C",
+        "\u305D\u3089\u307E\u3081",
+        "\u305D\u308D\u3046",
+        "\u305D\u3093\u304B\u3044",
+        "\u305D\u3093\u3051\u3044",
+        "\u305D\u3093\u3056\u3044",
+        "\u305D\u3093\u3057\u3064",
+        "\u305D\u3093\u305E\u304F",
+        "\u305D\u3093\u3061\u3087\u3046",
+        "\u305E\u3093\u3073",
+        "\u305E\u3093\u3076\u3093",
+        "\u305D\u3093\u307F\u3093",
+        "\u305F\u3042\u3044",
+        "\u305F\u3044\u3044\u3093",
+        "\u305F\u3044\u3046\u3093",
+        "\u305F\u3044\u3048\u304D",
+        "\u305F\u3044\u304A\u3046",
+        "\u3060\u3044\u304C\u304F",
+        "\u305F\u3044\u304D",
+        "\u305F\u3044\u3050\u3046",
+        "\u305F\u3044\u3051\u3093",
+        "\u305F\u3044\u3053",
+        "\u305F\u3044\u3056\u3044",
+        "\u3060\u3044\u3058\u3087\u3046\u3076",
+        "\u3060\u3044\u3059\u304D",
+        "\u305F\u3044\u305B\u3064",
+        "\u305F\u3044\u305D\u3046",
+        "\u3060\u3044\u305F\u3044",
+        "\u305F\u3044\u3061\u3087\u3046",
+        "\u305F\u3044\u3066\u3044",
+        "\u3060\u3044\u3069\u3053\u308D",
+        "\u305F\u3044\u306A\u3044",
+        "\u305F\u3044\u306D\u3064",
+        "\u305F\u3044\u306E\u3046",
+        "\u305F\u3044\u306F\u3093",
+        "\u3060\u3044\u3072\u3087\u3046",
+        "\u305F\u3044\u3075\u3046",
+        "\u305F\u3044\u3078\u3093",
+        "\u305F\u3044\u307B",
+        "\u305F\u3044\u307E\u3064\u3070\u306A",
+        "\u305F\u3044\u307F\u3093\u3050",
+        "\u305F\u3044\u3080",
+        "\u305F\u3044\u3081\u3093",
+        "\u305F\u3044\u3084\u304D",
+        "\u305F\u3044\u3088\u3046",
+        "\u305F\u3044\u3089",
+        "\u305F\u3044\u308A\u3087\u304F",
+        "\u305F\u3044\u308B",
+        "\u305F\u3044\u308F\u3093",
+        "\u305F\u3046\u3048",
+        "\u305F\u3048\u308B",
+        "\u305F\u304A\u3059",
+        "\u305F\u304A\u308B",
+        "\u305F\u304A\u308C\u308B",
+        "\u305F\u304B\u3044",
+        "\u305F\u304B\u306D",
+        "\u305F\u304D\u3073",
+        "\u305F\u304F\u3055\u3093",
+        "\u305F\u3053\u304F",
+        "\u305F\u3053\u3084\u304D",
+        "\u305F\u3055\u3044",
+        "\u305F\u3057\u3056\u3093",
+        "\u3060\u3058\u3083\u308C",
+        "\u305F\u3059\u3051\u308B",
+        "\u305F\u305A\u3055\u308F\u308B",
+        "\u305F\u305D\u304C\u308C",
+        "\u305F\u305F\u304B\u3046",
+        "\u305F\u305F\u304F",
+        "\u305F\u3060\u3057\u3044",
+        "\u305F\u305F\u307F",
+        "\u305F\u3061\u3070\u306A",
+        "\u3060\u3063\u304B\u3044",
+        "\u3060\u3063\u304D\u3083\u304F",
+        "\u3060\u3063\u3053",
+        "\u3060\u3063\u3057\u3085\u3064",
+        "\u3060\u3063\u305F\u3044",
+        "\u305F\u3066\u308B",
+        "\u305F\u3068\u3048\u308B",
+        "\u305F\u306A\u3070\u305F",
+        "\u305F\u306B\u3093",
+        "\u305F\u306C\u304D",
+        "\u305F\u306E\u3057\u307F",
+        "\u305F\u306F\u3064",
+        "\u305F\u3076\u3093",
+        "\u305F\u3079\u308B",
+        "\u305F\u307C\u3046",
+        "\u305F\u307E\u3054",
+        "\u305F\u307E\u308B",
+        "\u3060\u3080\u308B",
+        "\u305F\u3081\u3044\u304D",
+        "\u305F\u3081\u3059",
+        "\u305F\u3081\u308B",
+        "\u305F\u3082\u3064",
+        "\u305F\u3084\u3059\u3044",
+        "\u305F\u3088\u308B",
+        "\u305F\u3089\u3059",
+        "\u305F\u308A\u304D\u307B\u3093\u304C\u3093",
+        "\u305F\u308A\u3087\u3046",
+        "\u305F\u308A\u308B",
+        "\u305F\u308B\u3068",
+        "\u305F\u308C\u308B",
+        "\u305F\u308C\u3093\u3068",
+        "\u305F\u308D\u3063\u3068",
+        "\u305F\u308F\u3080\u308C\u308B",
+        "\u3060\u3093\u3042\u3064",
+        "\u305F\u3093\u3044",
+        "\u305F\u3093\u304A\u3093",
+        "\u305F\u3093\u304B",
+        "\u305F\u3093\u304D",
+        "\u305F\u3093\u3051\u3093",
+        "\u305F\u3093\u3054",
+        "\u305F\u3093\u3055\u3093",
+        "\u305F\u3093\u3058\u3087\u3046\u3073",
+        "\u3060\u3093\u305B\u3044",
+        "\u305F\u3093\u305D\u304F",
+        "\u305F\u3093\u305F\u3044",
+        "\u3060\u3093\u3061",
+        "\u305F\u3093\u3066\u3044",
+        "\u305F\u3093\u3068\u3046",
+        "\u3060\u3093\u306A",
+        "\u305F\u3093\u306B\u3093",
+        "\u3060\u3093\u306D\u3064",
+        "\u305F\u3093\u306E\u3046",
+        "\u305F\u3093\u3074\u3093",
+        "\u3060\u3093\u307C\u3046",
+        "\u305F\u3093\u307E\u3064",
+        "\u305F\u3093\u3081\u3044",
+        "\u3060\u3093\u308C\u3064",
+        "\u3060\u3093\u308D",
+        "\u3060\u3093\u308F",
+        "\u3061\u3042\u3044",
+        "\u3061\u3042\u3093",
+        "\u3061\u3044\u304D",
+        "\u3061\u3044\u3055\u3044",
+        "\u3061\u3048\u3093",
+        "\u3061\u304B\u3044",
+        "\u3061\u304B\u3089",
+        "\u3061\u304D\u3085\u3046",
+        "\u3061\u304D\u3093",
+        "\u3061\u3051\u3044\u305A",
+        "\u3061\u3051\u3093",
+        "\u3061\u3053\u304F",
+        "\u3061\u3055\u3044",
+        "\u3061\u3057\u304D",
+        "\u3061\u3057\u308A\u3087\u3046",
+        "\u3061\u305B\u3044",
+        "\u3061\u305D\u3046",
+        "\u3061\u305F\u3044",
+        "\u3061\u305F\u3093",
+        "\u3061\u3061\u304A\u3084",
+        "\u3061\u3064\u3058\u3087",
+        "\u3061\u3066\u304D",
+        "\u3061\u3066\u3093",
+        "\u3061\u306C\u304D",
+        "\u3061\u306C\u308A",
+        "\u3061\u306E\u3046",
+        "\u3061\u3072\u3087\u3046",
+        "\u3061\u3078\u3044\u305B\u3093",
+        "\u3061\u307B\u3046",
+        "\u3061\u307E\u305F",
+        "\u3061\u307F\u3064",
+        "\u3061\u307F\u3069\u308D",
+        "\u3061\u3081\u3044\u3069",
+        "\u3061\u3083\u3093\u3053\u306A\u3079",
+        "\u3061\u3085\u3046\u3044",
+        "\u3061\u3086\u308A\u3087\u304F",
+        "\u3061\u3087\u3046\u3057",
+        "\u3061\u3087\u3055\u304F\u3051\u3093",
+        "\u3061\u3089\u3057",
+        "\u3061\u3089\u307F",
+        "\u3061\u308A\u304C\u307F",
+        "\u3061\u308A\u3087\u3046",
+        "\u3061\u308B\u3069",
+        "\u3061\u308F\u308F",
+        "\u3061\u3093\u305F\u3044",
+        "\u3061\u3093\u3082\u304F",
+        "\u3064\u3044\u304B",
+        "\u3064\u3044\u305F\u3061",
+        "\u3064\u3046\u304B",
+        "\u3064\u3046\u3058\u3087\u3046",
+        "\u3064\u3046\u306F\u3093",
+        "\u3064\u3046\u308F",
+        "\u3064\u304B\u3046",
+        "\u3064\u304B\u308C\u308B",
+        "\u3064\u304F\u306D",
+        "\u3064\u304F\u308B",
+        "\u3064\u3051\u306D",
+        "\u3064\u3051\u308B",
+        "\u3064\u3054\u3046",
+        "\u3064\u305F\u3048\u308B",
+        "\u3064\u3065\u304F",
+        "\u3064\u3064\u3058",
+        "\u3064\u3064\u3080",
+        "\u3064\u3068\u3081\u308B",
+        "\u3064\u306A\u304C\u308B",
+        "\u3064\u306A\u307F",
+        "\u3064\u306D\u3065\u306D",
+        "\u3064\u306E\u308B",
+        "\u3064\u3076\u3059",
+        "\u3064\u307E\u3089\u306A\u3044",
+        "\u3064\u307E\u308B",
+        "\u3064\u307F\u304D",
+        "\u3064\u3081\u305F\u3044",
+        "\u3064\u3082\u308A",
+        "\u3064\u3082\u308B",
+        "\u3064\u3088\u3044",
+        "\u3064\u308B\u307C",
+        "\u3064\u308B\u307F\u304F",
+        "\u3064\u308F\u3082\u306E",
+        "\u3064\u308F\u308A",
+        "\u3066\u3042\u3057",
+        "\u3066\u3042\u3066",
+        "\u3066\u3042\u307F",
+        "\u3066\u3044\u304A\u3093",
+        "\u3066\u3044\u304B",
+        "\u3066\u3044\u304D",
+        "\u3066\u3044\u3051\u3044",
+        "\u3066\u3044\u3053\u304F",
+        "\u3066\u3044\u3055\u3064",
+        "\u3066\u3044\u3057",
+        "\u3066\u3044\u305B\u3044",
+        "\u3066\u3044\u305F\u3044",
+        "\u3066\u3044\u3069",
+        "\u3066\u3044\u306D\u3044",
+        "\u3066\u3044\u3072\u3087\u3046",
+        "\u3066\u3044\u3078\u3093",
+        "\u3066\u3044\u307C\u3046",
+        "\u3066\u3046\u3061",
+        "\u3066\u304A\u304F\u308C",
+        "\u3066\u304D\u3068\u3046",
+        "\u3066\u304F\u3073",
+        "\u3067\u3053\u307C\u3053",
+        "\u3066\u3055\u304E\u3087\u3046",
+        "\u3066\u3055\u3052",
+        "\u3066\u3059\u308A",
+        "\u3066\u305D\u3046",
+        "\u3066\u3061\u304C\u3044",
+        "\u3066\u3061\u3087\u3046",
+        "\u3066\u3064\u304C\u304F",
+        "\u3066\u3064\u3065\u304D",
+        "\u3067\u3063\u3071",
+        "\u3066\u3064\u307C\u3046",
+        "\u3066\u3064\u3084",
+        "\u3067\u306C\u304B\u3048",
+        "\u3066\u306C\u304D",
+        "\u3066\u306C\u3050\u3044",
+        "\u3066\u306E\u3072\u3089",
+        "\u3066\u306F\u3044",
+        "\u3066\u3076\u304F\u308D",
+        "\u3066\u3075\u3060",
+        "\u3066\u307B\u3069\u304D",
+        "\u3066\u307B\u3093",
+        "\u3066\u307E\u3048",
+        "\u3066\u307E\u304D\u305A\u3057",
+        "\u3066\u307F\u3058\u304B",
+        "\u3066\u307F\u3084\u3052",
+        "\u3066\u3089\u3059",
+        "\u3066\u308C\u3073",
+        "\u3066\u308F\u3051",
+        "\u3066\u308F\u305F\u3057",
+        "\u3067\u3093\u3042\u3064",
+        "\u3066\u3093\u3044\u3093",
+        "\u3066\u3093\u304B\u3044",
+        "\u3066\u3093\u304D",
+        "\u3066\u3093\u3050",
+        "\u3066\u3093\u3051\u3093",
+        "\u3066\u3093\u3054\u304F",
+        "\u3066\u3093\u3055\u3044",
+        "\u3066\u3093\u3057",
+        "\u3066\u3093\u3059\u3046",
+        "\u3067\u3093\u3061",
+        "\u3066\u3093\u3066\u304D",
+        "\u3066\u3093\u3068\u3046",
+        "\u3066\u3093\u306A\u3044",
+        "\u3066\u3093\u3077\u3089",
+        "\u3066\u3093\u307C\u3046\u3060\u3044",
+        "\u3066\u3093\u3081\u3064",
+        "\u3066\u3093\u3089\u3093\u304B\u3044",
+        "\u3067\u3093\u308A\u3087\u304F",
+        "\u3067\u3093\u308F",
+        "\u3069\u3042\u3044",
+        "\u3068\u3044\u308C",
+        "\u3069\u3046\u304B\u3093",
+        "\u3068\u3046\u304D\u3085\u3046",
+        "\u3069\u3046\u3050",
+        "\u3068\u3046\u3057",
+        "\u3068\u3046\u3080\u304E",
+        "\u3068\u304A\u3044",
+        "\u3068\u304A\u304B",
+        "\u3068\u304A\u304F",
+        "\u3068\u304A\u3059",
+        "\u3068\u304A\u308B",
+        "\u3068\u304B\u3044",
+        "\u3068\u304B\u3059",
+        "\u3068\u304D\u304A\u308A",
+        "\u3068\u304D\u3069\u304D",
+        "\u3068\u304F\u3044",
+        "\u3068\u304F\u3057\u3085\u3046",
+        "\u3068\u304F\u3066\u3093",
+        "\u3068\u304F\u306B",
+        "\u3068\u304F\u3079\u3064",
+        "\u3068\u3051\u3044",
+        "\u3068\u3051\u308B",
+        "\u3068\u3053\u3084",
+        "\u3068\u3055\u304B",
+        "\u3068\u3057\u3087\u304B\u3093",
+        "\u3068\u305D\u3046",
+        "\u3068\u305F\u3093",
+        "\u3068\u3061\u3085\u3046",
+        "\u3068\u3063\u304D\u3085\u3046",
+        "\u3068\u3063\u304F\u3093",
+        "\u3068\u3064\u305C\u3093",
+        "\u3068\u3064\u306B\u3085\u3046",
+        "\u3068\u3069\u3051\u308B",
+        "\u3068\u3068\u306E\u3048\u308B",
+        "\u3068\u306A\u3044",
+        "\u3068\u306A\u3048\u308B",
+        "\u3068\u306A\u308A",
+        "\u3068\u306E\u3055\u307E",
+        "\u3068\u3070\u3059",
+        "\u3069\u3076\u304C\u308F",
+        "\u3068\u307B\u3046",
+        "\u3068\u307E\u308B",
+        "\u3068\u3081\u308B",
+        "\u3068\u3082\u3060\u3061",
+        "\u3068\u3082\u308B",
+        "\u3069\u3088\u3046\u3073",
+        "\u3068\u3089\u3048\u308B",
+        "\u3068\u3093\u304B\u3064",
+        "\u3069\u3093\u3076\u308A",
+        "\u306A\u3044\u304B\u304F",
+        "\u306A\u3044\u3053\u3046",
+        "\u306A\u3044\u3057\u3087",
+        "\u306A\u3044\u3059",
+        "\u306A\u3044\u305B\u3093",
+        "\u306A\u3044\u305D\u3046",
+        "\u306A\u304A\u3059",
+        "\u306A\u304C\u3044",
+        "\u306A\u304F\u3059",
+        "\u306A\u3052\u308B",
+        "\u306A\u3053\u3046\u3069",
+        "\u306A\u3055\u3051",
+        "\u306A\u305F\u3067\u3053\u3053",
+        "\u306A\u3063\u3068\u3046",
+        "\u306A\u3064\u3084\u3059\u307F",
+        "\u306A\u306A\u304A\u3057",
+        "\u306A\u306B\u3054\u3068",
+        "\u306A\u306B\u3082\u306E",
+        "\u306A\u306B\u308F",
+        "\u306A\u306E\u304B",
+        "\u306A\u3075\u3060",
+        "\u306A\u307E\u3044\u304D",
+        "\u306A\u307E\u3048",
+        "\u306A\u307E\u307F",
+        "\u306A\u307F\u3060",
+        "\u306A\u3081\u3089\u304B",
+        "\u306A\u3081\u308B",
+        "\u306A\u3084\u3080",
+        "\u306A\u3089\u3046",
+        "\u306A\u3089\u3073",
+        "\u306A\u3089\u3076",
+        "\u306A\u308C\u308B",
+        "\u306A\u308F\u3068\u3073",
+        "\u306A\u308F\u3070\u308A",
+        "\u306B\u3042\u3046",
+        "\u306B\u3044\u304C\u305F",
+        "\u306B\u3046\u3051",
+        "\u306B\u304A\u3044",
+        "\u306B\u304B\u3044",
+        "\u306B\u304C\u3066",
+        "\u306B\u304D\u3073",
+        "\u306B\u304F\u3057\u307F",
+        "\u306B\u304F\u307E\u3093",
+        "\u306B\u3052\u308B",
+        "\u306B\u3055\u3093\u304B\u305F\u3093\u305D",
+        "\u306B\u3057\u304D",
+        "\u306B\u305B\u3082\u306E",
+        "\u306B\u3061\u3058\u3087\u3046",
+        "\u306B\u3061\u3088\u3046\u3073",
+        "\u306B\u3063\u304B",
+        "\u306B\u3063\u304D",
+        "\u306B\u3063\u3051\u3044",
+        "\u306B\u3063\u3053\u3046",
+        "\u306B\u3063\u3055\u3093",
+        "\u306B\u3063\u3057\u3087\u304F",
+        "\u306B\u3063\u3059\u3046",
+        "\u306B\u3063\u305B\u304D",
+        "\u306B\u3063\u3066\u3044",
+        "\u306B\u306A\u3046",
+        "\u306B\u307B\u3093",
+        "\u306B\u307E\u3081",
+        "\u306B\u3082\u3064",
+        "\u306B\u3084\u308A",
+        "\u306B\u3085\u3046\u3044\u3093",
+        "\u306B\u308A\u3093\u3057\u3083",
+        "\u306B\u308F\u3068\u308A",
+        "\u306B\u3093\u3044",
+        "\u306B\u3093\u304B",
+        "\u306B\u3093\u304D",
+        "\u306B\u3093\u3052\u3093",
+        "\u306B\u3093\u3057\u304D",
+        "\u306B\u3093\u305A\u3046",
+        "\u306B\u3093\u305D\u3046",
+        "\u306B\u3093\u305F\u3044",
+        "\u306B\u3093\u3061",
+        "\u306B\u3093\u3066\u3044",
+        "\u306B\u3093\u306B\u304F",
+        "\u306B\u3093\u3077",
+        "\u306B\u3093\u307E\u308A",
+        "\u306B\u3093\u3080",
+        "\u306B\u3093\u3081\u3044",
+        "\u306B\u3093\u3088\u3046",
+        "\u306C\u3044\u304F\u304E",
+        "\u306C\u304B\u3059",
+        "\u306C\u3050\u3044\u3068\u308B",
+        "\u306C\u3050\u3046",
+        "\u306C\u304F\u3082\u308A",
+        "\u306C\u3059\u3080",
+        "\u306C\u307E\u3048\u3073",
+        "\u306C\u3081\u308A",
+        "\u306C\u3089\u3059",
+        "\u306C\u3093\u3061\u3083\u304F",
+        "\u306D\u3042\u3052",
+        "\u306D\u3044\u304D",
+        "\u306D\u3044\u308B",
+        "\u306D\u3044\u308D",
+        "\u306D\u3050\u305B",
+        "\u306D\u304F\u305F\u3044",
+        "\u306D\u304F\u3089",
+        "\u306D\u3053\u305C",
+        "\u306D\u3053\u3080",
+        "\u306D\u3055\u3052",
+        "\u306D\u3059\u3054\u3059",
+        "\u306D\u305D\u3079\u308B",
+        "\u306D\u3060\u3093",
+        "\u306D\u3064\u3044",
+        "\u306D\u3063\u3057\u3093",
+        "\u306D\u3064\u305E\u3046",
+        "\u306D\u3063\u305F\u3044\u304E\u3087",
+        "\u306D\u3076\u305D\u304F",
+        "\u306D\u3075\u3060",
+        "\u306D\u307C\u3046",
+        "\u306D\u307B\u308A\u306F\u307B\u308A",
+        "\u306D\u307E\u304D",
+        "\u306D\u307E\u308F\u3057",
+        "\u306D\u307F\u307F",
+        "\u306D\u3080\u3044",
+        "\u306D\u3080\u305F\u3044",
+        "\u306D\u3082\u3068",
+        "\u306D\u3089\u3046",
+        "\u306D\u308F\u3056",
+        "\u306D\u3093\u3044\u308A",
+        "\u306D\u3093\u304A\u3057",
+        "\u306D\u3093\u304B\u3093",
+        "\u306D\u3093\u304D\u3093",
+        "\u306D\u3093\u3050",
+        "\u306D\u3093\u3056",
+        "\u306D\u3093\u3057",
+        "\u306D\u3093\u3061\u3083\u304F",
+        "\u306D\u3093\u3069",
+        "\u306D\u3093\u3074",
+        "\u306D\u3093\u3076\u3064",
+        "\u306D\u3093\u307E\u3064",
+        "\u306D\u3093\u308A\u3087\u3046",
+        "\u306D\u3093\u308C\u3044",
+        "\u306E\u3044\u305A",
+        "\u306E\u304A\u3065\u307E",
+        "\u306E\u304C\u3059",
+        "\u306E\u304D\u306A\u307F",
+        "\u306E\u3053\u304E\u308A",
+        "\u306E\u3053\u3059",
+        "\u306E\u3053\u308B",
+        "\u306E\u305B\u308B",
+        "\u306E\u305E\u304F",
+        "\u306E\u305E\u3080",
+        "\u306E\u305F\u307E\u3046",
+        "\u306E\u3061\u307B\u3069",
+        "\u306E\u3063\u304F",
+        "\u306E\u3070\u3059",
+        "\u306E\u306F\u3089",
+        "\u306E\u3079\u308B",
+        "\u306E\u307C\u308B",
+        "\u306E\u307F\u3082\u306E",
+        "\u306E\u3084\u307E",
+        "\u306E\u3089\u3044\u306C",
+        "\u306E\u3089\u306D\u3053",
+        "\u306E\u308A\u3082\u306E",
+        "\u306E\u308A\u3086\u304D",
+        "\u306E\u308C\u3093",
+        "\u306E\u3093\u304D",
+        "\u3070\u3042\u3044",
+        "\u306F\u3042\u304F",
+        "\u3070\u3042\u3055\u3093",
+        "\u3070\u3044\u304B",
+        "\u3070\u3044\u304F",
+        "\u306F\u3044\u3051\u3093",
+        "\u306F\u3044\u3054",
+        "\u306F\u3044\u3057\u3093",
+        "\u306F\u3044\u3059\u3044",
+        "\u306F\u3044\u305B\u3093",
+        "\u306F\u3044\u305D\u3046",
+        "\u306F\u3044\u3061",
+        "\u3070\u3044\u3070\u3044",
+        "\u306F\u3044\u308C\u3064",
+        "\u306F\u3048\u308B",
+        "\u306F\u304A\u308B",
+        "\u306F\u304B\u3044",
+        "\u3070\u304B\u308A",
+        "\u306F\u304B\u308B",
+        "\u306F\u304F\u3057\u3085",
+        "\u306F\u3051\u3093",
+        "\u306F\u3053\u3076",
+        "\u306F\u3055\u307F",
+        "\u306F\u3055\u3093",
+        "\u306F\u3057\u3054",
+        "\u3070\u3057\u3087",
+        "\u306F\u3057\u308B",
+        "\u306F\u305B\u308B",
+        "\u3071\u305D\u3053\u3093",
+        "\u306F\u305D\u3093",
+        "\u306F\u305F\u3093",
+        "\u306F\u3061\u307F\u3064",
+        "\u306F\u3064\u304A\u3093",
+        "\u306F\u3063\u304B\u304F",
+        "\u306F\u3065\u304D",
+        "\u306F\u3063\u304D\u308A",
+        "\u306F\u3063\u304F\u3064",
+        "\u306F\u3063\u3051\u3093",
+        "\u306F\u3063\u3053\u3046",
+        "\u306F\u3063\u3055\u3093",
+        "\u306F\u3063\u3057\u3093",
+        "\u306F\u3063\u305F\u3064",
+        "\u306F\u3063\u3061\u3085\u3046",
+        "\u306F\u3063\u3066\u3093",
+        "\u306F\u3063\u3074\u3087\u3046",
+        "\u306F\u3063\u307D\u3046",
+        "\u306F\u306A\u3059",
+        "\u306F\u306A\u3073",
+        "\u306F\u306B\u304B\u3080",
+        "\u306F\u3076\u3089\u3057",
+        "\u306F\u307F\u304C\u304D",
+        "\u306F\u3080\u304B\u3046",
+        "\u306F\u3081\u3064",
+        "\u306F\u3084\u3044",
+        "\u306F\u3084\u3057",
+        "\u306F\u3089\u3046",
+        "\u306F\u308D\u3046\u3043\u3093",
+        "\u306F\u308F\u3044",
+        "\u306F\u3093\u3044",
+        "\u306F\u3093\u3048\u3044",
+        "\u306F\u3093\u304A\u3093",
+        "\u306F\u3093\u304B\u304F",
+        "\u306F\u3093\u304D\u3087\u3046",
+        "\u3070\u3093\u3050\u307F",
+        "\u306F\u3093\u3053",
+        "\u306F\u3093\u3057\u3083",
+        "\u306F\u3093\u3059\u3046",
+        "\u306F\u3093\u3060\u3093",
+        "\u3071\u3093\u3061",
+        "\u3071\u3093\u3064",
+        "\u306F\u3093\u3066\u3044",
+        "\u306F\u3093\u3068\u3057",
+        "\u306F\u3093\u306E\u3046",
+        "\u306F\u3093\u3071",
+        "\u306F\u3093\u3076\u3093",
+        "\u306F\u3093\u307A\u3093",
+        "\u306F\u3093\u307C\u3046\u304D",
+        "\u306F\u3093\u3081\u3044",
+        "\u306F\u3093\u3089\u3093",
+        "\u306F\u3093\u308D\u3093",
+        "\u3072\u3044\u304D",
+        "\u3072\u3046\u3093",
+        "\u3072\u3048\u308B",
+        "\u3072\u304B\u304F",
+        "\u3072\u304B\u308A",
+        "\u3072\u304B\u308B",
+        "\u3072\u304B\u3093",
+        "\u3072\u304F\u3044",
+        "\u3072\u3051\u3064",
+        "\u3072\u3053\u3046\u304D",
+        "\u3072\u3053\u304F",
+        "\u3072\u3055\u3044",
+        "\u3072\u3055\u3057\u3076\u308A",
+        "\u3072\u3055\u3093",
+        "\u3073\u3058\u3085\u3064\u304B\u3093",
+        "\u3072\u3057\u3087"
+      ]
+    },
+    russian: {
+      prefix: 4,
+      words: [
+        "\u0430\u0431\u0430\u0436\u0443\u0440",
+        "\u0430\u0431\u0437\u0430\u0446",
+        "\u0430\u0431\u043E\u043D\u0435\u043D\u0442",
+        "\u0430\u0431\u0440\u0438\u043A\u043E\u0441",
+        "\u0430\u0431\u0441\u0443\u0440\u0434",
+        "\u0430\u0432\u0430\u043D\u0433\u0430\u0440\u0434",
+        "\u0430\u0432\u0433\u0443\u0441\u0442",
+        "\u0430\u0432\u0438\u0430\u0446\u0438\u044F",
+        "\u0430\u0432\u043E\u0441\u044C\u043A\u0430",
+        "\u0430\u0432\u0442\u043E\u0440",
+        "\u0430\u0433\u0430\u0442",
+        "\u0430\u0433\u0435\u043D\u0442",
+        "\u0430\u0433\u0438\u0442\u0430\u0442\u043E\u0440",
+        "\u0430\u0433\u043D\u0435\u0446",
+        "\u0430\u0433\u043E\u043D\u0438\u044F",
+        "\u0430\u0433\u0440\u0435\u0433\u0430\u0442",
+        "\u0430\u0434\u0432\u043E\u043A\u0430\u0442",
+        "\u0430\u0434\u043C\u0438\u0440\u0430\u043B",
+        "\u0430\u0434\u0440\u0435\u0441",
+        "\u0430\u0436\u0438\u043E\u0442\u0430\u0436",
+        "\u0430\u0437\u0430\u0440\u0442",
+        "\u0430\u0437\u0431\u0443\u043A\u0430",
+        "\u0430\u0437\u043E\u0442",
+        "\u0430\u0438\u0441\u0442",
+        "\u0430\u0439\u0441\u0431\u0435\u0440\u0433",
+        "\u0430\u043A\u0430\u0434\u0435\u043C\u0438\u044F",
+        "\u0430\u043A\u0432\u0430\u0440\u0438\u0443\u043C",
+        "\u0430\u043A\u043A\u043E\u0440\u0434",
+        "\u0430\u043A\u0440\u043E\u0431\u0430\u0442",
+        "\u0430\u043A\u0441\u0438\u043E\u043C\u0430",
+        "\u0430\u043A\u0442\u0435\u0440",
+        "\u0430\u043A\u0443\u043B\u0430",
+        "\u0430\u043A\u0446\u0438\u044F",
+        "\u0430\u043B\u0433\u043E\u0440\u0438\u0442\u043C",
+        "\u0430\u043B\u0435\u0431\u0430\u0440\u0434\u0430",
+        "\u0430\u043B\u043B\u0435\u044F",
+        "\u0430\u043B\u043C\u0430\u0437",
+        "\u0430\u043B\u0442\u0430\u0440\u044C",
+        "\u0430\u043B\u0444\u0430\u0432\u0438\u0442",
+        "\u0430\u043B\u0445\u0438\u043C\u0438\u043A",
+        "\u0430\u043B\u044B\u0439",
+        "\u0430\u043B\u044C\u0431\u043E\u043C",
+        "\u0430\u043B\u044E\u043C\u0438\u043D\u0438\u0439",
+        "\u0430\u043C\u0431\u0430\u0440",
+        "\u0430\u043C\u0435\u0442\u0438\u0441\u0442",
+        "\u0430\u043C\u043D\u0435\u0437\u0438\u044F",
+        "\u0430\u043C\u043F\u0443\u043B\u0430",
+        "\u0430\u043C\u0444\u043E\u0440\u0430",
+        "\u0430\u043D\u0430\u043B\u0438\u0437",
+        "\u0430\u043D\u0433\u0435\u043B",
+        "\u0430\u043D\u0435\u043A\u0434\u043E\u0442",
+        "\u0430\u043D\u0438\u043C\u0430\u0446\u0438\u044F",
+        "\u0430\u043D\u043A\u0435\u0442\u0430",
+        "\u0430\u043D\u043E\u043C\u0430\u043B\u0438\u044F",
+        "\u0430\u043D\u0441\u0430\u043C\u0431\u043B\u044C",
+        "\u0430\u043D\u0442\u0435\u043D\u043D\u0430",
+        "\u0430\u043F\u0430\u0442\u0438\u044F",
+        "\u0430\u043F\u0435\u043B\u044C\u0441\u0438\u043D",
+        "\u0430\u043F\u043E\u0444\u0435\u043E\u0437",
+        "\u0430\u043F\u043F\u0430\u0440\u0430\u0442",
+        "\u0430\u043F\u0440\u0435\u043B\u044C",
+        "\u0430\u043F\u0442\u0435\u043A\u0430",
+        "\u0430\u0440\u0430\u0431\u0441\u043A\u0438\u0439",
+        "\u0430\u0440\u0431\u0443\u0437",
+        "\u0430\u0440\u0433\u0443\u043C\u0435\u043D\u0442",
+        "\u0430\u0440\u0435\u0441\u0442",
+        "\u0430\u0440\u0438\u044F",
+        "\u0430\u0440\u043A\u0430",
+        "\u0430\u0440\u043C\u0438\u044F",
+        "\u0430\u0440\u043E\u043C\u0430\u0442",
+        "\u0430\u0440\u0441\u0435\u043D\u0430\u043B",
+        "\u0430\u0440\u0442\u0438\u0441\u0442",
+        "\u0430\u0440\u0445\u0438\u0432",
+        "\u0430\u0440\u0448\u0438\u043D",
+        "\u0430\u0441\u0431\u0435\u0441\u0442",
+        "\u0430\u0441\u043A\u0435\u0442\u0438\u0437\u043C",
+        "\u0430\u0441\u043F\u0435\u043A\u0442",
+        "\u0430\u0441\u0441\u043E\u0440\u0442\u0438",
+        "\u0430\u0441\u0442\u0440\u043E\u043D\u043E\u043C",
+        "\u0430\u0441\u0444\u0430\u043B\u044C\u0442",
+        "\u0430\u0442\u0430\u043A\u0430",
+        "\u0430\u0442\u0435\u043B\u044C\u0435",
+        "\u0430\u0442\u043B\u0430\u0441",
+        "\u0430\u0442\u043E\u043C",
+        "\u0430\u0442\u0440\u0438\u0431\u0443\u0442",
+        "\u0430\u0443\u0434\u0438\u0442\u043E\u0440",
+        "\u0430\u0443\u043A\u0446\u0438\u043E\u043D",
+        "\u0430\u0443\u0440\u0430",
+        "\u0430\u0444\u0435\u0440\u0430",
+        "\u0430\u0444\u0438\u0448\u0430",
+        "\u0430\u0445\u0438\u043D\u0435\u044F",
+        "\u0430\u0446\u0435\u0442\u043E\u043D",
+        "\u0430\u044D\u0440\u043E\u043F\u043E\u0440\u0442",
+        "\u0431\u0430\u0431\u0443\u0448\u043A\u0430",
+        "\u0431\u0430\u0433\u0430\u0436",
+        "\u0431\u0430\u0434\u044C\u044F",
+        "\u0431\u0430\u0437\u0430",
+        "\u0431\u0430\u043A\u043B\u0430\u0436\u0430\u043D",
+        "\u0431\u0430\u043B\u043A\u043E\u043D",
+        "\u0431\u0430\u043C\u043F\u0435\u0440",
+        "\u0431\u0430\u043D\u043A",
+        "\u0431\u0430\u0440\u043E\u043D",
+        "\u0431\u0430\u0441\u0441\u0435\u0439\u043D",
+        "\u0431\u0430\u0442\u0430\u0440\u0435\u044F",
+        "\u0431\u0430\u0445\u0440\u043E\u043C\u0430",
+        "\u0431\u0430\u0448\u043D\u044F",
+        "\u0431\u0430\u044F\u043D",
+        "\u0431\u0435\u0433\u0441\u0442\u0432\u043E",
+        "\u0431\u0435\u0434\u0440\u043E",
+        "\u0431\u0435\u0437\u0434\u043D\u0430",
+        "\u0431\u0435\u043A\u043E\u043D",
+        "\u0431\u0435\u043B\u044B\u0439",
+        "\u0431\u0435\u043D\u0437\u0438\u043D",
+        "\u0431\u0435\u0440\u0435\u0433",
+        "\u0431\u0435\u0441\u0435\u0434\u0430",
+        "\u0431\u0435\u0442\u043E\u043D\u043D\u044B\u0439",
+        "\u0431\u0438\u0430\u0442\u043B\u043E\u043D",
+        "\u0431\u0438\u0431\u043B\u0438\u044F",
+        "\u0431\u0438\u0432\u0435\u043D\u044C",
+        "\u0431\u0438\u0433\u0443\u0434\u0438",
+        "\u0431\u0438\u0434\u043E\u043D",
+        "\u0431\u0438\u0437\u043D\u0435\u0441",
+        "\u0431\u0438\u043A\u0438\u043D\u0438",
+        "\u0431\u0438\u043B\u0435\u0442",
+        "\u0431\u0438\u043D\u043E\u043A\u043B\u044C",
+        "\u0431\u0438\u043E\u043B\u043E\u0433\u0438\u044F",
+        "\u0431\u0438\u0440\u0436\u0430",
+        "\u0431\u0438\u0441\u0435\u0440",
+        "\u0431\u0438\u0442\u0432\u0430",
+        "\u0431\u0438\u0446\u0435\u043F\u0441",
+        "\u0431\u043B\u0430\u0433\u043E",
+        "\u0431\u043B\u0435\u0434\u043D\u044B\u0439",
+        "\u0431\u043B\u0438\u0437\u043A\u0438\u0439",
+        "\u0431\u043B\u043E\u043A",
+        "\u0431\u043B\u0443\u0436\u0434\u0430\u0442\u044C",
+        "\u0431\u043B\u044E\u0434\u043E",
+        "\u0431\u043B\u044F\u0445\u0430",
+        "\u0431\u043E\u0431\u0435\u0440",
+        "\u0431\u043E\u0433\u0430\u0442\u044B\u0439",
+        "\u0431\u043E\u0434\u0440\u044B\u0439",
+        "\u0431\u043E\u0435\u0432\u043E\u0439",
+        "\u0431\u043E\u043A\u0430\u043B",
+        "\u0431\u043E\u043B\u044C\u0448\u043E\u0439",
+        "\u0431\u043E\u0440\u044C\u0431\u0430",
+        "\u0431\u043E\u0441\u043E\u0439",
+        "\u0431\u043E\u0442\u0438\u043D\u043E\u043A",
+        "\u0431\u043E\u0446\u043C\u0430\u043D",
+        "\u0431\u043E\u0447\u043A\u0430",
+        "\u0431\u043E\u044F\u0440\u0438\u043D",
+        "\u0431\u0440\u0430\u0442\u044C",
+        "\u0431\u0440\u0435\u0432\u043D\u043E",
+        "\u0431\u0440\u0438\u0433\u0430\u0434\u0430",
+        "\u0431\u0440\u043E\u0441\u0430\u0442\u044C",
+        "\u0431\u0440\u044B\u0437\u0433\u0438",
+        "\u0431\u0440\u044E\u043A\u0438",
+        "\u0431\u0443\u0431\u043B\u0438\u043A",
+        "\u0431\u0443\u0433\u043E\u0440",
+        "\u0431\u0443\u0434\u0443\u0449\u0435\u0435",
+        "\u0431\u0443\u043A\u0432\u0430",
+        "\u0431\u0443\u043B\u044C\u0432\u0430\u0440",
+        "\u0431\u0443\u043C\u0430\u0433\u0430",
+        "\u0431\u0443\u043D\u0442",
+        "\u0431\u0443\u0440\u043D\u044B\u0439",
+        "\u0431\u0443\u0441\u044B",
+        "\u0431\u0443\u0442\u044B\u043B\u043A\u0430",
+        "\u0431\u0443\u0444\u0435\u0442",
+        "\u0431\u0443\u0445\u0442\u0430",
+        "\u0431\u0443\u0448\u043B\u0430\u0442",
+        "\u0431\u044B\u0432\u0430\u043B\u044B\u0439",
+        "\u0431\u044B\u043B\u044C",
+        "\u0431\u044B\u0441\u0442\u0440\u044B\u0439",
+        "\u0431\u044B\u0442\u044C",
+        "\u0431\u044E\u0434\u0436\u0435\u0442",
+        "\u0431\u044E\u0440\u043E",
+        "\u0431\u044E\u0441\u0442",
+        "\u0432\u0430\u0433\u043E\u043D",
+        "\u0432\u0430\u0436\u043D\u044B\u0439",
+        "\u0432\u0430\u0437\u0430",
+        "\u0432\u0430\u043A\u0446\u0438\u043D\u0430",
+        "\u0432\u0430\u043B\u044E\u0442\u0430",
+        "\u0432\u0430\u043C\u043F\u0438\u0440",
+        "\u0432\u0430\u043D\u043D\u0430\u044F",
+        "\u0432\u0430\u0440\u0438\u0430\u043D\u0442",
+        "\u0432\u0430\u0441\u0441\u0430\u043B",
+        "\u0432\u0430\u0442\u0430",
+        "\u0432\u0430\u0444\u043B\u044F",
+        "\u0432\u0430\u0445\u0442\u0430",
+        "\u0432\u0434\u043E\u0432\u0430",
+        "\u0432\u0434\u044B\u0445\u0430\u0442\u044C",
+        "\u0432\u0435\u0434\u0443\u0449\u0438\u0439",
+        "\u0432\u0435\u0435\u0440",
+        "\u0432\u0435\u0436\u043B\u0438\u0432\u044B\u0439",
+        "\u0432\u0435\u0437\u0442\u0438",
+        "\u0432\u0435\u043A\u043E",
+        "\u0432\u0435\u043B\u0438\u043A\u0438\u0439",
+        "\u0432\u0435\u043D\u0430",
+        "\u0432\u0435\u0440\u0438\u0442\u044C",
+        "\u0432\u0435\u0441\u0435\u043B\u044B\u0439",
+        "\u0432\u0435\u0442\u0435\u0440",
+        "\u0432\u0435\u0447\u0435\u0440",
+        "\u0432\u0435\u0448\u0430\u0442\u044C",
+        "\u0432\u0435\u0449\u044C",
+        "\u0432\u0435\u044F\u043D\u0438\u0435",
+        "\u0432\u0437\u0430\u0438\u043C\u043D\u044B\u0439",
+        "\u0432\u0437\u0431\u0443\u0447\u043A\u0430",
+        "\u0432\u0437\u0432\u043E\u0434",
+        "\u0432\u0437\u0433\u043B\u044F\u0434",
+        "\u0432\u0437\u0434\u044B\u0445\u0430\u0442\u044C",
+        "\u0432\u0437\u043B\u0435\u0442\u0430\u0442\u044C",
+        "\u0432\u0437\u043C\u0430\u0445",
+        "\u0432\u0437\u043D\u043E\u0441",
+        "\u0432\u0437\u043E\u0440",
+        "\u0432\u0437\u0440\u044B\u0432",
+        "\u0432\u0437\u044B\u0432\u0430\u0442\u044C",
+        "\u0432\u0437\u044F\u0442\u043A\u0430",
+        "\u0432\u0438\u0431\u0440\u0430\u0446\u0438\u044F",
+        "\u0432\u0438\u0437\u0438\u0442",
+        "\u0432\u0438\u043B\u043A\u0430",
+        "\u0432\u0438\u043D\u043E",
+        "\u0432\u0438\u0440\u0443\u0441",
+        "\u0432\u0438\u0441\u0435\u0442\u044C",
+        "\u0432\u0438\u0442\u0440\u0438\u043D\u0430",
+        "\u0432\u0438\u0445\u0440\u044C",
+        "\u0432\u0438\u0448\u043D\u0435\u0432\u044B\u0439",
+        "\u0432\u043A\u043B\u044E\u0447\u0430\u0442\u044C",
+        "\u0432\u043A\u0443\u0441",
+        "\u0432\u043B\u0430\u0441\u0442\u044C",
+        "\u0432\u043B\u0435\u0447\u044C",
+        "\u0432\u043B\u0438\u044F\u043D\u0438\u0435",
+        "\u0432\u043B\u044E\u0431\u043B\u044F\u0442\u044C",
+        "\u0432\u043D\u0435\u0448\u043D\u0438\u0439",
+        "\u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435",
+        "\u0432\u043D\u0443\u043A",
+        "\u0432\u043D\u044F\u0442\u043D\u044B\u0439",
+        "\u0432\u043E\u0434\u0430",
+        "\u0432\u043E\u0435\u0432\u0430\u0442\u044C",
+        "\u0432\u043E\u0436\u0434\u044C",
+        "\u0432\u043E\u0437\u0434\u0443\u0445",
+        "\u0432\u043E\u0439\u0442\u0438",
+        "\u0432\u043E\u043A\u0437\u0430\u043B",
+        "\u0432\u043E\u043B\u043E\u0441",
+        "\u0432\u043E\u043F\u0440\u043E\u0441",
+        "\u0432\u043E\u0440\u043E\u0442\u0430",
+        "\u0432\u043E\u0441\u0442\u043E\u043A",
+        "\u0432\u043F\u0430\u0434\u0430\u0442\u044C",
+        "\u0432\u043F\u0443\u0441\u043A\u0430\u0442\u044C",
+        "\u0432\u0440\u0430\u0447",
+        "\u0432\u0440\u0435\u043C\u044F",
+        "\u0432\u0440\u0443\u0447\u0430\u0442\u044C",
+        "\u0432\u0441\u0430\u0434\u043D\u0438\u043A",
+        "\u0432\u0441\u0435\u043E\u0431\u0449\u0438\u0439",
+        "\u0432\u0441\u043F\u044B\u0448\u043A\u0430",
+        "\u0432\u0441\u0442\u0440\u0435\u0447\u0430",
+        "\u0432\u0442\u043E\u0440\u043D\u0438\u043A",
+        "\u0432\u0443\u043B\u043A\u0430\u043D",
+        "\u0432\u0443\u0440\u0434\u0430\u043B\u0430\u043A",
+        "\u0432\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u0432\u044A\u0435\u0437\u0434",
+        "\u0432\u044B\u0431\u043E\u0440",
+        "\u0432\u044B\u0432\u043E\u0434",
+        "\u0432\u044B\u0433\u043E\u0434\u043D\u044B\u0439",
+        "\u0432\u044B\u0434\u0435\u043B\u044F\u0442\u044C",
+        "\u0432\u044B\u0435\u0437\u0436\u0430\u0442\u044C",
+        "\u0432\u044B\u0436\u0438\u0432\u0430\u0442\u044C",
+        "\u0432\u044B\u0437\u044B\u0432\u0430\u0442\u044C",
+        "\u0432\u044B\u0438\u0433\u0440\u044B\u0448",
+        "\u0432\u044B\u043B\u0435\u0437\u0430\u0442\u044C",
+        "\u0432\u044B\u043D\u043E\u0441\u0438\u0442\u044C",
+        "\u0432\u044B\u043F\u0438\u0432\u0430\u0442\u044C",
+        "\u0432\u044B\u0441\u043E\u043A\u0438\u0439",
+        "\u0432\u044B\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u0432\u044B\u0447\u0435\u0442",
+        "\u0432\u044B\u0448\u043A\u0430",
+        "\u0432\u044B\u044F\u0441\u043D\u044F\u0442\u044C",
+        "\u0432\u044F\u0437\u0430\u0442\u044C",
+        "\u0432\u044F\u043B\u044B\u0439",
+        "\u0433\u0430\u0432\u0430\u043D\u044C",
+        "\u0433\u0430\u0434\u0430\u0442\u044C",
+        "\u0433\u0430\u0437\u0435\u0442\u0430",
+        "\u0433\u0430\u0438\u0448\u043D\u0438\u043A",
+        "\u0433\u0430\u043B\u0441\u0442\u0443\u043A",
+        "\u0433\u0430\u043C\u043C\u0430",
+        "\u0433\u0430\u0440\u0430\u043D\u0442\u0438\u044F",
+        "\u0433\u0430\u0441\u0442\u0440\u043E\u043B\u0438",
+        "\u0433\u0432\u0430\u0440\u0434\u0438\u044F",
+        "\u0433\u0432\u043E\u0437\u0434\u044C",
+        "\u0433\u0435\u043A\u0442\u0430\u0440",
+        "\u0433\u0435\u043B\u044C",
+        "\u0433\u0435\u043D\u0435\u0440\u0430\u043B",
+        "\u0433\u0435\u043E\u043B\u043E\u0433",
+        "\u0433\u0435\u0440\u043E\u0439",
+        "\u0433\u0435\u0448\u0435\u0444\u0442",
+        "\u0433\u0438\u0431\u0435\u043B\u044C",
+        "\u0433\u0438\u0433\u0430\u043D\u0442",
+        "\u0433\u0438\u043B\u044C\u0437\u0430",
+        "\u0433\u0438\u043C\u043D",
+        "\u0433\u0438\u043F\u043E\u0442\u0435\u0437\u0430",
+        "\u0433\u0438\u0442\u0430\u0440\u0430",
+        "\u0433\u043B\u0430\u0437",
+        "\u0433\u043B\u0438\u043D\u0430",
+        "\u0433\u043B\u043E\u0442\u043E\u043A",
+        "\u0433\u043B\u0443\u0431\u043E\u043A\u0438\u0439",
+        "\u0433\u043B\u044B\u0431\u0430",
+        "\u0433\u043B\u044F\u0434\u0435\u0442\u044C",
+        "\u0433\u043D\u0430\u0442\u044C",
+        "\u0433\u043D\u0435\u0432",
+        "\u0433\u043D\u0438\u0442\u044C",
+        "\u0433\u043D\u043E\u043C",
+        "\u0433\u043D\u0443\u0442\u044C",
+        "\u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C",
+        "\u0433\u043E\u0434\u043E\u0432\u043E\u0439",
+        "\u0433\u043E\u043B\u043E\u0432\u0430",
+        "\u0433\u043E\u043D\u043A\u0430",
+        "\u0433\u043E\u0440\u043E\u0434",
+        "\u0433\u043E\u0441\u0442\u044C",
+        "\u0433\u043E\u0442\u043E\u0432\u044B\u0439",
+        "\u0433\u0440\u0430\u043D\u0438\u0446\u0430",
+        "\u0433\u0440\u0435\u0445",
+        "\u0433\u0440\u0438\u0431",
+        "\u0433\u0440\u043E\u043C\u043A\u0438\u0439",
+        "\u0433\u0440\u0443\u043F\u043F\u0430",
+        "\u0433\u0440\u044B\u0437\u0442\u044C",
+        "\u0433\u0440\u044F\u0437\u043D\u044B\u0439",
+        "\u0433\u0443\u0431\u0430",
+        "\u0433\u0443\u0434\u0435\u0442\u044C",
+        "\u0433\u0443\u043B\u044F\u0442\u044C",
+        "\u0433\u0443\u043C\u0430\u043D\u043D\u044B\u0439",
+        "\u0433\u0443\u0441\u0442\u043E\u0439",
+        "\u0433\u0443\u0449\u0430",
+        "\u0434\u0430\u0432\u0430\u0442\u044C",
+        "\u0434\u0430\u043B\u0435\u043A\u0438\u0439",
+        "\u0434\u0430\u043C\u0430",
+        "\u0434\u0430\u043D\u043D\u044B\u0435",
+        "\u0434\u0430\u0440\u0438\u0442\u044C",
+        "\u0434\u0430\u0442\u044C",
+        "\u0434\u0430\u0447\u0430",
+        "\u0434\u0432\u0435\u0440\u044C",
+        "\u0434\u0432\u0438\u0436\u0435\u043D\u0438\u0435",
+        "\u0434\u0432\u043E\u0440",
+        "\u0434\u0435\u0431\u044E\u0442",
+        "\u0434\u0435\u0432\u0443\u0448\u043A\u0430",
+        "\u0434\u0435\u0434\u0443\u0448\u043A\u0430",
+        "\u0434\u0435\u0436\u0443\u0440\u043D\u044B\u0439",
+        "\u0434\u0435\u0437\u0435\u0440\u0442\u0438\u0440",
+        "\u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435",
+        "\u0434\u0435\u043A\u0430\u0431\u0440\u044C",
+        "\u0434\u0435\u043B\u043E",
+        "\u0434\u0435\u043C\u043E\u043A\u0440\u0430\u0442",
+        "\u0434\u0435\u043D\u044C",
+        "\u0434\u0435\u043F\u0443\u0442\u0430\u0442",
+        "\u0434\u0435\u0440\u0436\u0430\u0442\u044C",
+        "\u0434\u0435\u0441\u044F\u0442\u043E\u043A",
+        "\u0434\u0435\u0442\u0441\u043A\u0438\u0439",
+        "\u0434\u0435\u0444\u0438\u0446\u0438\u0442",
+        "\u0434\u0435\u0448\u0435\u0432\u044B\u0439",
+        "\u0434\u0435\u044F\u0442\u0435\u043B\u044C",
+        "\u0434\u0436\u0430\u0437",
+        "\u0434\u0436\u0438\u043D\u0441\u044B",
+        "\u0434\u0436\u0443\u043D\u0433\u043B\u0438",
+        "\u0434\u0438\u0430\u043B\u043E\u0433",
+        "\u0434\u0438\u0432\u0430\u043D",
+        "\u0434\u0438\u0435\u0442\u0430",
+        "\u0434\u0438\u0437\u0430\u0439\u043D",
+        "\u0434\u0438\u043A\u0438\u0439",
+        "\u0434\u0438\u043D\u0430\u043C\u0438\u043A\u0430",
+        "\u0434\u0438\u043F\u043B\u043E\u043C",
+        "\u0434\u0438\u0440\u0435\u043A\u0442\u043E\u0440",
+        "\u0434\u0438\u0441\u043A",
+        "\u0434\u0438\u0442\u044F",
+        "\u0434\u0438\u0447\u044C",
+        "\u0434\u043B\u0438\u043D\u043D\u044B\u0439",
+        "\u0434\u043D\u0435\u0432\u043D\u0438\u043A",
+        "\u0434\u043E\u0431\u0440\u044B\u0439",
+        "\u0434\u043E\u0432\u0435\u0440\u0438\u0435",
+        "\u0434\u043E\u0433\u043E\u0432\u043E\u0440",
+        "\u0434\u043E\u0436\u0434\u044C",
+        "\u0434\u043E\u0437\u0430",
+        "\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442",
+        "\u0434\u043E\u043B\u0436\u0435\u043D",
+        "\u0434\u043E\u043C\u0430\u0448\u043D\u0438\u0439",
+        "\u0434\u043E\u043F\u0440\u043E\u0441",
+        "\u0434\u043E\u0440\u043E\u0433\u0430",
+        "\u0434\u043E\u0445\u043E\u0434",
+        "\u0434\u043E\u0446\u0435\u043D\u0442",
+        "\u0434\u043E\u0447\u044C",
+        "\u0434\u043E\u0449\u0430\u0442\u044B\u0439",
+        "\u0434\u0440\u0430\u043A\u0430",
+        "\u0434\u0440\u0435\u0432\u043D\u0438\u0439",
+        "\u0434\u0440\u043E\u0436\u0430\u0442\u044C",
+        "\u0434\u0440\u0443\u0433",
+        "\u0434\u0440\u044F\u043D\u044C",
+        "\u0434\u0443\u0431\u043E\u0432\u044B\u0439",
+        "\u0434\u0443\u0433\u0430",
+        "\u0434\u0443\u0434\u043A\u0430",
+        "\u0434\u0443\u043A\u0430\u0442",
+        "\u0434\u0443\u043B\u043E",
+        "\u0434\u0443\u043C\u0430\u0442\u044C",
+        "\u0434\u0443\u043F\u043B\u043E",
+        "\u0434\u0443\u0440\u0430\u043A",
+        "\u0434\u0443\u0442\u044C",
+        "\u0434\u0443\u0445\u0438",
+        "\u0434\u0443\u0448\u0430",
+        "\u0434\u0443\u044D\u0442",
+        "\u0434\u044B\u043C\u0438\u0442\u044C",
+        "\u0434\u044B\u043D\u044F",
+        "\u0434\u044B\u0440\u0430",
+        "\u0434\u044B\u0445\u0430\u043D\u044C\u0435",
+        "\u0434\u044B\u0448\u0430\u0442\u044C",
+        "\u0434\u044C\u044F\u0432\u043E\u043B",
+        "\u0434\u044E\u0436\u0438\u043D\u0430",
+        "\u0434\u044E\u0439\u043C",
+        "\u0434\u044E\u043D\u0430",
+        "\u0434\u044F\u0434\u044F",
+        "\u0434\u044F\u0442\u0435\u043B",
+        "\u0435\u0433\u0435\u0440\u044C",
+        "\u0435\u0434\u0438\u043D\u044B\u0439",
+        "\u0435\u0434\u043A\u0438\u0439",
+        "\u0435\u0436\u0435\u0432\u0438\u043A\u0430",
+        "\u0435\u0436\u0438\u043A",
+        "\u0435\u0437\u0434\u0430",
+        "\u0435\u043B\u043A\u0430",
+        "\u0435\u043C\u043A\u043E\u0441\u0442\u044C",
+        "\u0435\u0440\u0443\u043D\u0434\u0430",
+        "\u0435\u0445\u0430\u0442\u044C",
+        "\u0436\u0430\u0434\u043D\u044B\u0439",
+        "\u0436\u0430\u0436\u0434\u0430",
+        "\u0436\u0430\u043B\u0435\u0442\u044C",
+        "\u0436\u0430\u043D\u0440",
+        "\u0436\u0430\u0440\u0430",
+        "\u0436\u0430\u0442\u044C",
+        "\u0436\u0433\u0443\u0447\u0438\u0439",
+        "\u0436\u0434\u0430\u0442\u044C",
+        "\u0436\u0435\u0432\u0430\u0442\u044C",
+        "\u0436\u0435\u043B\u0430\u043D\u0438\u0435",
+        "\u0436\u0435\u043C\u0447\u0443\u0433",
+        "\u0436\u0435\u043D\u0449\u0438\u043D\u0430",
+        "\u0436\u0435\u0440\u0442\u0432\u0430",
+        "\u0436\u0435\u0441\u0442\u043A\u0438\u0439",
+        "\u0436\u0435\u0447\u044C",
+        "\u0436\u0438\u0432\u043E\u0439",
+        "\u0436\u0438\u0434\u043A\u043E\u0441\u0442\u044C",
+        "\u0436\u0438\u0437\u043D\u044C",
+        "\u0436\u0438\u043B\u044C\u0435",
+        "\u0436\u0438\u0440\u043D\u044B\u0439",
+        "\u0436\u0438\u0442\u0435\u043B\u044C",
+        "\u0436\u0443\u0440\u043D\u0430\u043B",
+        "\u0436\u044E\u0440\u0438",
+        "\u0437\u0430\u0431\u044B\u0432\u0430\u0442\u044C",
+        "\u0437\u0430\u0432\u043E\u0434",
+        "\u0437\u0430\u0433\u0430\u0434\u043A\u0430",
+        "\u0437\u0430\u0434\u0430\u0447\u0430",
+        "\u0437\u0430\u0436\u0435\u0447\u044C",
+        "\u0437\u0430\u0439\u0442\u0438",
+        "\u0437\u0430\u043A\u043E\u043D",
+        "\u0437\u0430\u043C\u0435\u0447\u0430\u0442\u044C",
+        "\u0437\u0430\u043D\u0438\u043C\u0430\u0442\u044C",
+        "\u0437\u0430\u043F\u0430\u0434\u043D\u044B\u0439",
+        "\u0437\u0430\u0440\u043F\u043B\u0430\u0442\u0430",
+        "\u0437\u0430\u0441\u044B\u043F\u0430\u0442\u044C",
+        "\u0437\u0430\u0442\u0440\u0430\u0442\u0430",
+        "\u0437\u0430\u0445\u0432\u0430\u0442",
+        "\u0437\u0430\u0446\u0435\u043F\u043A\u0430",
+        "\u0437\u0430\u0447\u0435\u0442",
+        "\u0437\u0430\u0449\u0438\u0442\u0430",
+        "\u0437\u0430\u044F\u0432\u043A\u0430",
+        "\u0437\u0432\u0430\u0442\u044C",
+        "\u0437\u0432\u0435\u0437\u0434\u0430",
+        "\u0437\u0432\u043E\u043D\u0438\u0442\u044C",
+        "\u0437\u0432\u0443\u043A",
+        "\u0437\u0434\u0430\u043D\u0438\u0435",
+        "\u0437\u0434\u0435\u0448\u043D\u0438\u0439",
+        "\u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435",
+        "\u0437\u0435\u0431\u0440\u0430",
+        "\u0437\u0435\u0432\u0430\u0442\u044C",
+        "\u0437\u0435\u043B\u0435\u043D\u044B\u0439",
+        "\u0437\u0435\u043C\u043B\u044F",
+        "\u0437\u0435\u043D\u0438\u0442",
+        "\u0437\u0435\u0440\u043A\u0430\u043B\u043E",
+        "\u0437\u0435\u0444\u0438\u0440",
+        "\u0437\u0438\u0433\u0437\u0430\u0433",
+        "\u0437\u0438\u043C\u0430",
+        "\u0437\u0438\u044F\u0442\u044C",
+        "\u0437\u043B\u0430\u043A",
+        "\u0437\u043B\u043E\u0439",
+        "\u0437\u043C\u0435\u044F",
+        "\u0437\u043D\u0430\u0442\u044C",
+        "\u0437\u043D\u043E\u0439",
+        "\u0437\u043E\u0434\u0447\u0438\u0439",
+        "\u0437\u043E\u043B\u043E\u0442\u043E\u0439",
+        "\u0437\u043E\u043C\u0431\u0438",
+        "\u0437\u043E\u043D\u0430",
+        "\u0437\u043E\u043E\u043F\u0430\u0440\u043A",
+        "\u0437\u043E\u0440\u043A\u0438\u0439",
+        "\u0437\u0440\u0430\u0447\u043E\u043A",
+        "\u0437\u0440\u0435\u043D\u0438\u0435",
+        "\u0437\u0440\u0438\u0442\u0435\u043B\u044C",
+        "\u0437\u0443\u0431\u043D\u043E\u0439",
+        "\u0437\u044B\u0431\u043A\u0438\u0439",
+        "\u0437\u044F\u0442\u044C",
+        "\u0438\u0433\u043B\u0430",
+        "\u0438\u0433\u043E\u043B\u043A\u0430",
+        "\u0438\u0433\u0440\u0430\u0442\u044C",
+        "\u0438\u0434\u0435\u044F",
+        "\u0438\u0434\u0438\u043E\u0442",
+        "\u0438\u0434\u043E\u043B",
+        "\u0438\u0434\u0442\u0438",
+        "\u0438\u0435\u0440\u0430\u0440\u0445\u0438\u044F",
+        "\u0438\u0437\u0431\u0440\u0430\u0442\u044C",
+        "\u0438\u0437\u0432\u0435\u0441\u0442\u0438\u0435",
+        "\u0438\u0437\u0433\u043E\u043D\u044F\u0442\u044C",
+        "\u0438\u0437\u0434\u0430\u043D\u0438\u0435",
+        "\u0438\u0437\u043B\u0430\u0433\u0430\u0442\u044C",
+        "\u0438\u0437\u043C\u0435\u043D\u044F\u0442\u044C",
+        "\u0438\u0437\u043D\u043E\u0441",
+        "\u0438\u0437\u043E\u043B\u044F\u0446\u0438\u044F",
+        "\u0438\u0437\u0440\u044F\u0434\u043D\u044B\u0439",
+        "\u0438\u0437\u0443\u0447\u0430\u0442\u044C",
+        "\u0438\u0437\u044B\u043C\u0430\u0442\u044C",
+        "\u0438\u0437\u044F\u0449\u043D\u044B\u0439",
+        "\u0438\u043A\u043E\u043D\u0430",
+        "\u0438\u043A\u0440\u0430",
+        "\u0438\u043B\u043B\u044E\u0437\u0438\u044F",
+        "\u0438\u043C\u0431\u0438\u0440\u044C",
+        "\u0438\u043C\u0435\u0442\u044C",
+        "\u0438\u043C\u0438\u0434\u0436",
+        "\u0438\u043C\u043C\u0443\u043D\u043D\u044B\u0439",
+        "\u0438\u043C\u043F\u0435\u0440\u0438\u044F",
+        "\u0438\u043D\u0432\u0435\u0441\u0442\u043E\u0440",
+        "\u0438\u043D\u0434\u0438\u0432\u0438\u0434",
+        "\u0438\u043D\u0435\u0440\u0446\u0438\u044F",
+        "\u0438\u043D\u0436\u0435\u043D\u0435\u0440",
+        "\u0438\u043D\u043E\u043C\u0430\u0440\u043A\u0430",
+        "\u0438\u043D\u0441\u0442\u0438\u0442\u0443\u0442",
+        "\u0438\u043D\u0442\u0435\u0440\u0435\u0441",
+        "\u0438\u043D\u0444\u0435\u043A\u0446\u0438\u044F",
+        "\u0438\u043D\u0446\u0438\u0434\u0435\u043D\u0442",
+        "\u0438\u043F\u043F\u043E\u0434\u0440\u043E\u043C",
+        "\u0438\u0440\u0438\u0441",
+        "\u0438\u0440\u043E\u043D\u0438\u044F",
+        "\u0438\u0441\u043A\u0430\u0442\u044C",
+        "\u0438\u0441\u0442\u043E\u0440\u0438\u044F",
+        "\u0438\u0441\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u0438\u0441\u0447\u0435\u0437\u0430\u0442\u044C",
+        "\u0438\u0442\u043E\u0433",
+        "\u0438\u044E\u043B\u044C",
+        "\u0438\u044E\u043D\u044C",
+        "\u043A\u0430\u0431\u0438\u043D\u0435\u0442",
+        "\u043A\u0430\u0432\u0430\u043B\u0435\u0440",
+        "\u043A\u0430\u0434\u0440",
+        "\u043A\u0430\u0437\u0430\u0440\u043C\u0430",
+        "\u043A\u0430\u0439\u0444",
+        "\u043A\u0430\u043A\u0442\u0443\u0441",
+        "\u043A\u0430\u043B\u0438\u0442\u043A\u0430",
+        "\u043A\u0430\u043C\u0435\u043D\u044C",
+        "\u043A\u0430\u043D\u0430\u043B",
+        "\u043A\u0430\u043F\u0438\u0442\u0430\u043D",
+        "\u043A\u0430\u0440\u0442\u0438\u043D\u0430",
+        "\u043A\u0430\u0441\u0441\u0430",
+        "\u043A\u0430\u0442\u0435\u0440",
+        "\u043A\u0430\u0444\u0435",
+        "\u043A\u0430\u0447\u0435\u0441\u0442\u0432\u043E",
+        "\u043A\u0430\u0448\u0430",
+        "\u043A\u0430\u044E\u0442\u0430",
+        "\u043A\u0432\u0430\u0440\u0442\u0438\u0440\u0430",
+        "\u043A\u0432\u0438\u043D\u0442\u0435\u0442",
+        "\u043A\u0432\u043E\u0442\u0430",
+        "\u043A\u0435\u0434\u0440",
+        "\u043A\u0435\u043A\u0441",
+        "\u043A\u0435\u043D\u0433\u0443\u0440\u0443",
+        "\u043A\u0435\u043F\u043A\u0430",
+        "\u043A\u0435\u0440\u043E\u0441\u0438\u043D",
+        "\u043A\u0435\u0442\u0447\u0443\u043F",
+        "\u043A\u0435\u0444\u0438\u0440",
+        "\u043A\u0438\u0431\u0438\u0442\u043A\u0430",
+        "\u043A\u0438\u0432\u043D\u0443\u0442\u044C",
+        "\u043A\u0438\u0434\u0430\u0442\u044C",
+        "\u043A\u0438\u043B\u043E\u043C\u0435\u0442\u0440",
+        "\u043A\u0438\u043D\u043E",
+        "\u043A\u0438\u043E\u0441\u043A",
+        "\u043A\u0438\u043F\u0435\u0442\u044C",
+        "\u043A\u0438\u0440\u043F\u0438\u0447",
+        "\u043A\u0438\u0441\u0442\u044C",
+        "\u043A\u0438\u0442\u0430\u0435\u0446",
+        "\u043A\u043B\u0430\u0441\u0441",
+        "\u043A\u043B\u0435\u0442\u043A\u0430",
+        "\u043A\u043B\u0438\u0435\u043D\u0442",
+        "\u043A\u043B\u043E\u0443\u043D",
+        "\u043A\u043B\u0443\u0431",
+        "\u043A\u043B\u044B\u043A",
+        "\u043A\u043B\u044E\u0447",
+        "\u043A\u043B\u044F\u0442\u0432\u0430",
+        "\u043A\u043D\u0438\u0433\u0430",
+        "\u043A\u043D\u043E\u043F\u043A\u0430",
+        "\u043A\u043D\u0443\u0442",
+        "\u043A\u043D\u044F\u0437\u044C",
+        "\u043A\u043E\u0431\u0443\u0440\u0430",
+        "\u043A\u043E\u0432\u0435\u0440",
+        "\u043A\u043E\u0433\u043E\u0442\u044C",
+        "\u043A\u043E\u0434\u0435\u043A\u0441",
+        "\u043A\u043E\u0436\u0430",
+        "\u043A\u043E\u0437\u0435\u043B",
+        "\u043A\u043E\u0439\u043A\u0430",
+        "\u043A\u043E\u043A\u0442\u0435\u0439\u043B\u044C",
+        "\u043A\u043E\u043B\u0435\u043D\u043E",
+        "\u043A\u043E\u043C\u043F\u0430\u043D\u0438\u044F",
+        "\u043A\u043E\u043D\u0435\u0446",
+        "\u043A\u043E\u043F\u0435\u0439\u043A\u0430",
+        "\u043A\u043E\u0440\u043E\u0442\u043A\u0438\u0439",
+        "\u043A\u043E\u0441\u0442\u044E\u043C",
+        "\u043A\u043E\u0442\u0435\u043B",
+        "\u043A\u043E\u0444\u0435",
+        "\u043A\u043E\u0448\u043A\u0430",
+        "\u043A\u0440\u0430\u0441\u043D\u044B\u0439",
+        "\u043A\u0440\u0435\u0441\u043B\u043E",
+        "\u043A\u0440\u0438\u0447\u0430\u0442\u044C",
+        "\u043A\u0440\u043E\u0432\u044C",
+        "\u043A\u0440\u0443\u043F\u043D\u044B\u0439",
+        "\u043A\u0440\u044B\u0448\u0430",
+        "\u043A\u0440\u044E\u0447\u043E\u043A",
+        "\u043A\u0443\u0431\u043E\u043A",
+        "\u043A\u0443\u0432\u0448\u0438\u043D",
+        "\u043A\u0443\u0434\u0440\u044F\u0432\u044B\u0439",
+        "\u043A\u0443\u0437\u043E\u0432",
+        "\u043A\u0443\u043A\u043B\u0430",
+        "\u043A\u0443\u043B\u044C\u0442\u0443\u0440\u0430",
+        "\u043A\u0443\u043C\u0438\u0440",
+        "\u043A\u0443\u043F\u0438\u0442\u044C",
+        "\u043A\u0443\u0440\u0441",
+        "\u043A\u0443\u0441\u043E\u043A",
+        "\u043A\u0443\u0445\u043D\u044F",
+        "\u043A\u0443\u0447\u0430",
+        "\u043A\u0443\u0448\u0430\u0442\u044C",
+        "\u043A\u044E\u0432\u0435\u0442",
+        "\u043B\u0430\u0431\u0438\u0440\u0438\u043D\u0442",
+        "\u043B\u0430\u0432\u043A\u0430",
+        "\u043B\u0430\u0433\u0435\u0440\u044C",
+        "\u043B\u0430\u0434\u043E\u043D\u044C",
+        "\u043B\u0430\u0437\u0435\u0440\u043D\u044B\u0439",
+        "\u043B\u0430\u0439\u043D\u0435\u0440",
+        "\u043B\u0430\u043A\u0435\u0439",
+        "\u043B\u0430\u043C\u043F\u0430",
+        "\u043B\u0430\u043D\u0434\u0448\u0430\u0444\u0442",
+        "\u043B\u0430\u043F\u0430",
+        "\u043B\u0430\u0440\u0435\u043A",
+        "\u043B\u0430\u0441\u043A\u043E\u0432\u044B\u0439",
+        "\u043B\u0430\u0443\u0440\u0435\u0430\u0442",
+        "\u043B\u0430\u0447\u0443\u0433\u0430",
+        "\u043B\u0430\u044F\u0442\u044C",
+        "\u043B\u0433\u0430\u0442\u044C",
+        "\u043B\u0435\u0431\u0435\u0434\u044C",
+        "\u043B\u0435\u0432\u044B\u0439",
+        "\u043B\u0435\u0433\u043A\u0438\u0439",
+        "\u043B\u0435\u0434\u044F\u043D\u043E\u0439",
+        "\u043B\u0435\u0436\u0430\u0442\u044C",
+        "\u043B\u0435\u043A\u0446\u0438\u044F",
+        "\u043B\u0435\u043D\u0442\u0430",
+        "\u043B\u0435\u043F\u0435\u0441\u0442\u043E\u043A",
+        "\u043B\u0435\u0441\u043D\u043E\u0439",
+        "\u043B\u0435\u0442\u043E",
+        "\u043B\u0435\u0447\u044C",
+        "\u043B\u0435\u0448\u0438\u0439",
+        "\u043B\u0436\u0438\u0432\u044B\u0439",
+        "\u043B\u0438\u0431\u0435\u0440\u0430\u043B",
+        "\u043B\u0438\u0432\u0435\u043D\u044C",
+        "\u043B\u0438\u0433\u0430",
+        "\u043B\u0438\u0434\u0435\u0440",
+        "\u043B\u0438\u043A\u043E\u0432\u0430\u0442\u044C",
+        "\u043B\u0438\u043B\u043E\u0432\u044B\u0439",
+        "\u043B\u0438\u043C\u043E\u043D",
+        "\u043B\u0438\u043D\u0438\u044F",
+        "\u043B\u0438\u043F\u0430",
+        "\u043B\u0438\u0440\u0438\u043A\u0430",
+        "\u043B\u0438\u0441\u0442",
+        "\u043B\u0438\u0442\u0440",
+        "\u043B\u0438\u0444\u0442",
+        "\u043B\u0438\u0445\u043E\u0439",
+        "\u043B\u0438\u0446\u043E",
+        "\u043B\u0438\u0447\u043D\u044B\u0439",
+        "\u043B\u0438\u0448\u043D\u0438\u0439",
+        "\u043B\u043E\u0431\u043E\u0432\u043E\u0439",
+        "\u043B\u043E\u0432\u0438\u0442\u044C",
+        "\u043B\u043E\u0433\u0438\u043A\u0430",
+        "\u043B\u043E\u0434\u043A\u0430",
+        "\u043B\u043E\u0436\u043A\u0430",
+        "\u043B\u043E\u0437\u0443\u043D\u0433",
+        "\u043B\u043E\u043A\u043E\u0442\u044C",
+        "\u043B\u043E\u043C\u0430\u0442\u044C",
+        "\u043B\u043E\u043D\u043E",
+        "\u043B\u043E\u043F\u0430\u0442\u0430",
+        "\u043B\u043E\u0440\u0434",
+        "\u043B\u043E\u0441\u044C",
+        "\u043B\u043E\u0442\u043E\u043A",
+        "\u043B\u043E\u0445\u043C\u0430\u0442\u044B\u0439",
+        "\u043B\u043E\u0448\u0430\u0434\u044C",
+        "\u043B\u0443\u0436\u0430",
+        "\u043B\u0443\u043A\u0430\u0432\u044B\u0439",
+        "\u043B\u0443\u043D\u0430",
+        "\u043B\u0443\u043F\u0438\u0442\u044C",
+        "\u043B\u0443\u0447\u0448\u0438\u0439",
+        "\u043B\u044B\u0436\u043D\u044B\u0439",
+        "\u043B\u044B\u0441\u044B\u0439",
+        "\u043B\u044C\u0432\u0438\u043D\u044B\u0439",
+        "\u043B\u044C\u0433\u043E\u0442\u0430",
+        "\u043B\u044C\u0434\u0438\u043D\u0430",
+        "\u043B\u044E\u0431\u0438\u0442\u044C",
+        "\u043B\u044E\u0434\u0441\u043A\u043E\u0439",
+        "\u043B\u044E\u0441\u0442\u0440\u0430",
+        "\u043B\u044E\u0442\u044B\u0439",
+        "\u043B\u044F\u0433\u0443\u0448\u043A\u0430",
+        "\u043C\u0430\u0433\u0430\u0437\u0438\u043D",
+        "\u043C\u0430\u0434\u0430\u043C",
+        "\u043C\u0430\u0437\u0430\u0442\u044C",
+        "\u043C\u0430\u0439\u043E\u0440",
+        "\u043C\u0430\u043A\u0441\u0438\u043C\u0443\u043C",
+        "\u043C\u0430\u043B\u044C\u0447\u0438\u043A",
+        "\u043C\u0430\u043D\u0435\u0440\u0430",
+        "\u043C\u0430\u0440\u0442",
+        "\u043C\u0430\u0441\u0441\u0430",
+        "\u043C\u0430\u0442\u044C",
+        "\u043C\u0430\u0444\u0438\u044F",
+        "\u043C\u0430\u0445\u0430\u0442\u044C",
+        "\u043C\u0430\u0447\u0442\u0430",
+        "\u043C\u0430\u0448\u0438\u043D\u0430",
+        "\u043C\u0430\u044D\u0441\u0442\u0440\u043E",
+        "\u043C\u0430\u044F\u043A",
+        "\u043C\u0433\u043B\u0430",
+        "\u043C\u0435\u0431\u0435\u043B\u044C",
+        "\u043C\u0435\u0434\u0432\u0435\u0434\u044C",
+        "\u043C\u0435\u043B\u043A\u0438\u0439",
+        "\u043C\u0435\u043C\u0443\u0430\u0440\u044B",
+        "\u043C\u0435\u043D\u044F\u0442\u044C",
+        "\u043C\u0435\u0440\u0430",
+        "\u043C\u0435\u0441\u0442\u043E",
+        "\u043C\u0435\u0442\u043E\u0434",
+        "\u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C",
+        "\u043C\u0435\u0447\u0442\u0430\u0442\u044C",
+        "\u043C\u0435\u0448\u0430\u0442\u044C",
+        "\u043C\u0438\u0433\u0440\u0430\u0446\u0438\u044F",
+        "\u043C\u0438\u0437\u0438\u043D\u0435\u0446",
+        "\u043C\u0438\u043A\u0440\u043E\u0444\u043E\u043D",
+        "\u043C\u0438\u043B\u043B\u0438\u043E\u043D",
+        "\u043C\u0438\u043D\u0443\u0442\u0430",
+        "\u043C\u0438\u0440\u043E\u0432\u043E\u0439",
+        "\u043C\u0438\u0441\u0441\u0438\u044F",
+        "\u043C\u0438\u0442\u0438\u043D\u0433",
+        "\u043C\u0438\u0448\u0435\u043D\u044C",
+        "\u043C\u043B\u0430\u0434\u0448\u0438\u0439",
+        "\u043C\u043D\u0435\u043D\u0438\u0435",
+        "\u043C\u043D\u0438\u043C\u044B\u0439",
+        "\u043C\u043E\u0433\u0438\u043B\u0430",
+        "\u043C\u043E\u0434\u0435\u043B\u044C",
+        "\u043C\u043E\u0437\u0433",
+        "\u043C\u043E\u0439\u043A\u0430",
+        "\u043C\u043E\u043A\u0440\u044B\u0439",
+        "\u043C\u043E\u043B\u043E\u0434\u043E\u0439",
+        "\u043C\u043E\u043C\u0435\u043D\u0442",
+        "\u043C\u043E\u043D\u0430\u0445",
+        "\u043C\u043E\u0440\u0435",
+        "\u043C\u043E\u0441\u0442",
+        "\u043C\u043E\u0442\u043E\u0440",
+        "\u043C\u043E\u0445\u043D\u0430\u0442\u044B\u0439",
+        "\u043C\u043E\u0447\u044C",
+        "\u043C\u043E\u0448\u0435\u043D\u043D\u0438\u043A",
+        "\u043C\u043E\u0449\u043D\u044B\u0439",
+        "\u043C\u0440\u0430\u0447\u043D\u044B\u0439",
+        "\u043C\u0441\u0442\u0438\u0442\u044C",
+        "\u043C\u0443\u0434\u0440\u044B\u0439",
+        "\u043C\u0443\u0436\u0447\u0438\u043D\u0430",
+        "\u043C\u0443\u0437\u044B\u043A\u0430",
+        "\u043C\u0443\u043A\u0430",
+        "\u043C\u0443\u043C\u0438\u044F",
+        "\u043C\u0443\u043D\u0434\u0438\u0440",
+        "\u043C\u0443\u0440\u0430\u0432\u0435\u0439",
+        "\u043C\u0443\u0441\u043E\u0440",
+        "\u043C\u0443\u0442\u043D\u044B\u0439",
+        "\u043C\u0443\u0444\u0442\u0430",
+        "\u043C\u0443\u0445\u0430",
+        "\u043C\u0443\u0447\u0438\u0442\u044C",
+        "\u043C\u0443\u0448\u043A\u0435\u0442\u0435\u0440",
+        "\u043C\u044B\u043B\u043E",
+        "\u043C\u044B\u0441\u043B\u044C",
+        "\u043C\u044B\u0442\u044C",
+        "\u043C\u044B\u0447\u0430\u0442\u044C",
+        "\u043C\u044B\u0448\u044C",
+        "\u043C\u044D\u0442\u0440",
+        "\u043C\u044E\u0437\u0438\u043A\u043B",
+        "\u043C\u044F\u0433\u043A\u0438\u0439",
+        "\u043C\u044F\u043A\u0438\u0448",
+        "\u043C\u044F\u0441\u043E",
+        "\u043C\u044F\u0442\u044B\u0439",
+        "\u043C\u044F\u0447\u0438\u043A",
+        "\u043D\u0430\u0431\u043E\u0440",
+        "\u043D\u0430\u0432\u044B\u043A",
+        "\u043D\u0430\u0433\u0440\u0443\u0437\u043A\u0430",
+        "\u043D\u0430\u0434\u0435\u0436\u0434\u0430",
+        "\u043D\u0430\u0435\u043C\u043D\u044B\u0439",
+        "\u043D\u0430\u0436\u0430\u0442\u044C",
+        "\u043D\u0430\u0437\u044B\u0432\u0430\u0442\u044C",
+        "\u043D\u0430\u0438\u0432\u043D\u044B\u0439",
+        "\u043D\u0430\u043A\u0440\u044B\u0442\u044C",
+        "\u043D\u0430\u043B\u043E\u0433",
+        "\u043D\u0430\u043C\u0435\u0440\u0435\u043D",
+        "\u043D\u0430\u043D\u043E\u0441\u0438\u0442\u044C",
+        "\u043D\u0430\u043F\u0438\u0441\u0430\u0442\u044C",
+        "\u043D\u0430\u0440\u043E\u0434",
+        "\u043D\u0430\u0442\u0443\u0440\u0430",
+        "\u043D\u0430\u0443\u043A\u0430",
+        "\u043D\u0430\u0446\u0438\u044F",
+        "\u043D\u0430\u0447\u0430\u0442\u044C",
+        "\u043D\u0435\u0431\u043E",
+        "\u043D\u0435\u0432\u0435\u0441\u0442\u0430",
+        "\u043D\u0435\u0433\u043E\u0434\u044F\u0439",
+        "\u043D\u0435\u0434\u0435\u043B\u044F",
+        "\u043D\u0435\u0436\u043D\u044B\u0439",
+        "\u043D\u0435\u0437\u043D\u0430\u043D\u0438\u0435",
+        "\u043D\u0435\u043B\u0435\u043F\u044B\u0439",
+        "\u043D\u0435\u043C\u0430\u043B\u044B\u0439",
+        "\u043D\u0435\u043F\u0440\u0430\u0432\u0434\u0430",
+        "\u043D\u0435\u0440\u0432\u043D\u044B\u0439",
+        "\u043D\u0435\u0441\u0442\u0438",
+        "\u043D\u0435\u0444\u0442\u044C",
+        "\u043D\u0435\u0445\u0432\u0430\u0442\u043A\u0430",
+        "\u043D\u0435\u0447\u0438\u0441\u0442\u044B\u0439",
+        "\u043D\u0435\u044F\u0441\u043D\u044B\u0439",
+        "\u043D\u0438\u0432\u0430",
+        "\u043D\u0438\u0436\u043D\u0438\u0439",
+        "\u043D\u0438\u0437\u043A\u0438\u0439",
+        "\u043D\u0438\u043A\u0435\u043B\u044C",
+        "\u043D\u0438\u0440\u0432\u0430\u043D\u0430",
+        "\u043D\u0438\u0442\u044C",
+        "\u043D\u0438\u0447\u044C\u044F",
+        "\u043D\u0438\u0448\u0430",
+        "\u043D\u0438\u0449\u0438\u0439",
+        "\u043D\u043E\u0432\u044B\u0439",
+        "\u043D\u043E\u0433\u0430",
+        "\u043D\u043E\u0436\u043D\u0438\u0446\u044B",
+        "\u043D\u043E\u0437\u0434\u0440\u044F",
+        "\u043D\u043E\u043B\u044C",
+        "\u043D\u043E\u043C\u0435\u0440",
+        "\u043D\u043E\u0440\u043C\u0430",
+        "\u043D\u043E\u0442\u0430",
+        "\u043D\u043E\u0447\u044C",
+        "\u043D\u043E\u0448\u0430",
+        "\u043D\u043E\u044F\u0431\u0440\u044C",
+        "\u043D\u0440\u0430\u0432",
+        "\u043D\u0443\u0436\u043D\u044B\u0439",
+        "\u043D\u0443\u0442\u0440\u043E",
+        "\u043D\u044B\u043D\u0435\u0448\u043D\u0438\u0439",
+        "\u043D\u044B\u0440\u043D\u0443\u0442\u044C",
+        "\u043D\u044B\u0442\u044C",
+        "\u043D\u044E\u0430\u043D\u0441",
+        "\u043D\u044E\u0445\u0430\u0442\u044C",
+        "\u043D\u044F\u043D\u044F",
+        "\u043E\u0430\u0437\u0438\u0441",
+        "\u043E\u0431\u0430\u044F\u043D\u0438\u0435",
+        "\u043E\u0431\u0432\u0438\u043D\u044F\u0442\u044C",
+        "\u043E\u0431\u0433\u043E\u043D\u044F\u0442\u044C",
+        "\u043E\u0431\u0435\u0449\u0430\u0442\u044C",
+        "\u043E\u0431\u0436\u0438\u0433\u0430\u0442\u044C",
+        "\u043E\u0431\u0437\u043E\u0440",
+        "\u043E\u0431\u0438\u0434\u0430",
+        "\u043E\u0431\u043B\u0430\u0441\u0442\u044C",
+        "\u043E\u0431\u043C\u0435\u043D",
+        "\u043E\u0431\u043D\u0438\u043C\u0430\u0442\u044C",
+        "\u043E\u0431\u043E\u0440\u043E\u043D\u0430",
+        "\u043E\u0431\u0440\u0430\u0437",
+        "\u043E\u0431\u0443\u0447\u0435\u043D\u0438\u0435",
+        "\u043E\u0431\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u043E\u0431\u0448\u0438\u0440\u043D\u044B\u0439",
+        "\u043E\u0431\u0449\u0438\u0439",
+        "\u043E\u0431\u044A\u0435\u043A\u0442",
+        "\u043E\u0431\u044B\u0447\u043D\u044B\u0439",
+        "\u043E\u0431\u044F\u0437\u0430\u0442\u044C",
+        "\u043E\u0432\u0430\u043B\u044C\u043D\u044B\u0439",
+        "\u043E\u0432\u0435\u0441",
+        "\u043E\u0432\u043E\u0449\u0438",
+        "\u043E\u0432\u0440\u0430\u0433",
+        "\u043E\u0432\u0446\u0430",
+        "\u043E\u0432\u0447\u0430\u0440\u043A\u0430",
+        "\u043E\u0433\u043D\u0435\u043D\u043D\u044B\u0439",
+        "\u043E\u0433\u043E\u043D\u044C",
+        "\u043E\u0433\u0440\u043E\u043C\u043D\u044B\u0439",
+        "\u043E\u0433\u0443\u0440\u0435\u0446",
+        "\u043E\u0434\u0435\u0436\u0434\u0430",
+        "\u043E\u0434\u0438\u043D\u043E\u043A\u0438\u0439",
+        "\u043E\u0434\u043E\u0431\u0440\u0438\u0442\u044C",
+        "\u043E\u0436\u0438\u0434\u0430\u0442\u044C",
+        "\u043E\u0436\u043E\u0433",
+        "\u043E\u0437\u0430\u0440\u0435\u043D\u0438\u0435",
+        "\u043E\u0437\u0435\u0440\u043E",
+        "\u043E\u0437\u043D\u0430\u0447\u0430\u0442\u044C",
+        "\u043E\u043A\u0430\u0437\u0430\u0442\u044C",
+        "\u043E\u043A\u0435\u0430\u043D",
+        "\u043E\u043A\u043B\u0430\u0434",
+        "\u043E\u043A\u043D\u043E",
+        "\u043E\u043A\u0440\u0443\u0433",
+        "\u043E\u043A\u0442\u044F\u0431\u0440\u044C",
+        "\u043E\u043A\u0443\u0440\u043E\u043A",
+        "\u043E\u043B\u0435\u043D\u044C",
+        "\u043E\u043F\u0430\u0441\u043D\u044B\u0439",
+        "\u043E\u043F\u0435\u0440\u0430\u0446\u0438\u044F",
+        "\u043E\u043F\u0438\u0441\u0430\u0442\u044C",
+        "\u043E\u043F\u043B\u0430\u0442\u0430",
+        "\u043E\u043F\u043E\u0440\u0430",
+        "\u043E\u043F\u043F\u043E\u043D\u0435\u043D\u0442",
+        "\u043E\u043F\u0440\u043E\u0441",
+        "\u043E\u043F\u0442\u0438\u043C\u0438\u0437\u043C",
+        "\u043E\u043F\u0443\u0441\u043A\u0430\u0442\u044C",
+        "\u043E\u043F\u044B\u0442",
+        "\u043E\u0440\u0430\u0442\u044C",
+        "\u043E\u0440\u0431\u0438\u0442\u0430",
+        "\u043E\u0440\u0433\u0430\u043D",
+        "\u043E\u0440\u0434\u0435\u043D",
+        "\u043E\u0440\u0435\u043B",
+        "\u043E\u0440\u0438\u0433\u0438\u043D\u0430\u043B",
+        "\u043E\u0440\u043A\u0435\u0441\u0442\u0440",
+        "\u043E\u0440\u043D\u0430\u043C\u0435\u043D\u0442",
+        "\u043E\u0440\u0443\u0436\u0438\u0435",
+        "\u043E\u0441\u0430\u0434\u043E\u043A",
+        "\u043E\u0441\u0432\u0435\u0449\u0430\u0442\u044C",
+        "\u043E\u0441\u0435\u043D\u044C",
+        "\u043E\u0441\u0438\u043D\u0430",
+        "\u043E\u0441\u043A\u043E\u043B\u043E\u043A",
+        "\u043E\u0441\u043C\u043E\u0442\u0440",
+        "\u043E\u0441\u043D\u043E\u0432\u043D\u043E\u0439",
+        "\u043E\u0441\u043E\u0431\u044B\u0439",
+        "\u043E\u0441\u0443\u0436\u0434\u0430\u0442\u044C",
+        "\u043E\u0442\u0431\u043E\u0440",
+        "\u043E\u0442\u0432\u0435\u0447\u0430\u0442\u044C",
+        "\u043E\u0442\u0434\u0430\u0442\u044C",
+        "\u043E\u0442\u0435\u0446",
+        "\u043E\u0442\u0437\u044B\u0432",
+        "\u043E\u0442\u043A\u0440\u044B\u0442\u0438\u0435",
+        "\u043E\u0442\u043C\u0435\u0447\u0430\u0442\u044C",
+        "\u043E\u0442\u043D\u043E\u0441\u0438\u0442\u044C",
+        "\u043E\u0442\u043F\u0443\u0441\u043A",
+        "\u043E\u0442\u0440\u0430\u0441\u043B\u044C",
+        "\u043E\u0442\u0441\u0442\u0430\u0432\u043A\u0430",
+        "\u043E\u0442\u0442\u0435\u043D\u043E\u043A",
+        "\u043E\u0442\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u043E\u0442\u0447\u0435\u0442",
+        "\u043E\u0442\u044A\u0435\u0437\u0434",
+        "\u043E\u0444\u0438\u0446\u0435\u0440",
+        "\u043E\u0445\u0430\u043F\u043A\u0430",
+        "\u043E\u0445\u043E\u0442\u0430",
+        "\u043E\u0445\u0440\u0430\u043D\u0430",
+        "\u043E\u0446\u0435\u043D\u043A\u0430",
+        "\u043E\u0447\u0430\u0433",
+        "\u043E\u0447\u0435\u0440\u0435\u0434\u044C",
+        "\u043E\u0447\u0438\u0449\u0430\u0442\u044C",
+        "\u043E\u0447\u043A\u0438",
+        "\u043E\u0448\u0435\u0439\u043D\u0438\u043A",
+        "\u043E\u0448\u0438\u0431\u043A\u0430",
+        "\u043E\u0449\u0443\u0449\u0435\u043D\u0438\u0435",
+        "\u043F\u0430\u0432\u0438\u043B\u044C\u043E\u043D",
+        "\u043F\u0430\u0434\u0430\u0442\u044C",
+        "\u043F\u0430\u0435\u043A",
+        "\u043F\u0430\u043A\u0435\u0442",
+        "\u043F\u0430\u043B\u0435\u0446",
+        "\u043F\u0430\u043C\u044F\u0442\u044C",
+        "\u043F\u0430\u043D\u0435\u043B\u044C",
+        "\u043F\u0430\u043F\u043A\u0430",
+        "\u043F\u0430\u0440\u0442\u0438\u044F",
+        "\u043F\u0430\u0441\u043F\u043E\u0440\u0442",
+        "\u043F\u0430\u0442\u0440\u043E\u043D",
+        "\u043F\u0430\u0443\u0437\u0430",
+        "\u043F\u0430\u0444\u043E\u0441",
+        "\u043F\u0430\u0445\u043D\u0443\u0442\u044C",
+        "\u043F\u0430\u0446\u0438\u0435\u043D\u0442",
+        "\u043F\u0430\u0447\u043A\u0430",
+        "\u043F\u0430\u0448\u043D\u044F",
+        "\u043F\u0435\u0432\u0435\u0446",
+        "\u043F\u0435\u0434\u0430\u0433\u043E\u0433",
+        "\u043F\u0435\u0439\u0437\u0430\u0436",
+        "\u043F\u0435\u043B\u044C\u043C\u0435\u043D\u044C",
+        "\u043F\u0435\u043D\u0441\u0438\u044F",
+        "\u043F\u0435\u043F\u0435\u043B",
+        "\u043F\u0435\u0440\u0438\u043E\u0434",
+        "\u043F\u0435\u0441\u043D\u044F",
+        "\u043F\u0435\u0442\u043B\u044F",
+        "\u043F\u0435\u0445\u043E\u0442\u0430",
+        "\u043F\u0435\u0447\u0430\u0442\u044C",
+        "\u043F\u0435\u0448\u0435\u0445\u043E\u0434",
+        "\u043F\u0435\u0449\u0435\u0440\u0430",
+        "\u043F\u0438\u0430\u043D\u0438\u0441\u0442",
+        "\u043F\u0438\u0432\u043E",
+        "\u043F\u0438\u0434\u0436\u0430\u043A",
+        "\u043F\u0438\u043A\u043E\u0432\u044B\u0439",
+        "\u043F\u0438\u043B\u043E\u0442",
+        "\u043F\u0438\u043E\u043D\u0435\u0440",
+        "\u043F\u0438\u0440\u043E\u0433",
+        "\u043F\u0438\u0441\u0430\u0442\u044C",
+        "\u043F\u0438\u0442\u044C",
+        "\u043F\u0438\u0446\u0446\u0430",
+        "\u043F\u0438\u0448\u0443\u0449\u0438\u0439",
+        "\u043F\u0438\u0449\u0430",
+        "\u043F\u043B\u0430\u043D",
+        "\u043F\u043B\u0435\u0447\u043E",
+        "\u043F\u043B\u0438\u0442\u0430",
+        "\u043F\u043B\u043E\u0445\u043E\u0439",
+        "\u043F\u043B\u044B\u0442\u044C",
+        "\u043F\u043B\u044E\u0441",
+        "\u043F\u043B\u044F\u0436",
+        "\u043F\u043E\u0431\u0435\u0434\u0430",
+        "\u043F\u043E\u0432\u043E\u0434",
+        "\u043F\u043E\u0433\u043E\u0434\u0430",
+        "\u043F\u043E\u0434\u0443\u043C\u0430\u0442\u044C",
+        "\u043F\u043E\u0435\u0445\u0430\u0442\u044C",
+        "\u043F\u043E\u0436\u0438\u043C\u0430\u0442\u044C",
+        "\u043F\u043E\u0437\u0438\u0446\u0438\u044F",
+        "\u043F\u043E\u0438\u0441\u043A",
+        "\u043F\u043E\u043A\u043E\u0439",
+        "\u043F\u043E\u043B\u0443\u0447\u0430\u0442\u044C",
+        "\u043F\u043E\u043C\u043D\u0438\u0442\u044C",
+        "\u043F\u043E\u043D\u0438",
+        "\u043F\u043E\u043E\u0449\u0440\u044F\u0442\u044C",
+        "\u043F\u043E\u043F\u0430\u0434\u0430\u0442\u044C",
+        "\u043F\u043E\u0440\u044F\u0434\u043E\u043A",
+        "\u043F\u043E\u0441\u0442",
+        "\u043F\u043E\u0442\u043E\u043A",
+        "\u043F\u043E\u0445\u043E\u0436\u0438\u0439",
+        "\u043F\u043E\u0446\u0435\u043B\u0443\u0439",
+        "\u043F\u043E\u0447\u0432\u0430",
+        "\u043F\u043E\u0449\u0435\u0447\u0438\u043D\u0430",
+        "\u043F\u043E\u044D\u0442",
+        "\u043F\u043E\u044F\u0441\u043D\u0438\u0442\u044C",
+        "\u043F\u0440\u0430\u0432\u043E",
+        "\u043F\u0440\u0435\u0434\u043C\u0435\u0442",
+        "\u043F\u0440\u043E\u0431\u043B\u0435\u043C\u0430",
+        "\u043F\u0440\u0443\u0434",
+        "\u043F\u0440\u044B\u0433\u0430\u0442\u044C",
+        "\u043F\u0440\u044F\u043C\u043E\u0439",
+        "\u043F\u0441\u0438\u0445\u043E\u043B\u043E\u0433",
+        "\u043F\u0442\u0438\u0446\u0430",
+        "\u043F\u0443\u0431\u043B\u0438\u043A\u0430",
+        "\u043F\u0443\u0433\u0430\u0442\u044C",
+        "\u043F\u0443\u0434\u0440\u0430",
+        "\u043F\u0443\u0437\u044B\u0440\u044C",
+        "\u043F\u0443\u043B\u044F",
+        "\u043F\u0443\u043D\u043A\u0442",
+        "\u043F\u0443\u0440\u0433\u0430",
+        "\u043F\u0443\u0441\u0442\u043E\u0439",
+        "\u043F\u0443\u0442\u044C",
+        "\u043F\u0443\u0445\u043B\u044B\u0439",
+        "\u043F\u0443\u0447\u043E\u043A",
+        "\u043F\u0443\u0448\u0438\u0441\u0442\u044B\u0439",
+        "\u043F\u0447\u0435\u043B\u0430",
+        "\u043F\u0448\u0435\u043D\u0438\u0446\u0430",
+        "\u043F\u044B\u043B\u044C",
+        "\u043F\u044B\u0442\u043A\u0430",
+        "\u043F\u044B\u0445\u0442\u0435\u0442\u044C",
+        "\u043F\u044B\u0448\u043D\u044B\u0439",
+        "\u043F\u044C\u0435\u0441\u0430",
+        "\u043F\u044C\u044F\u043D\u044B\u0439",
+        "\u043F\u044F\u0442\u043D\u043E",
+        "\u0440\u0430\u0431\u043E\u0442\u0430",
+        "\u0440\u0430\u0432\u043D\u044B\u0439",
+        "\u0440\u0430\u0434\u043E\u0441\u0442\u044C",
+        "\u0440\u0430\u0437\u0432\u0438\u0442\u0438\u0435",
+        "\u0440\u0430\u0439\u043E\u043D",
+        "\u0440\u0430\u043A\u0435\u0442\u0430",
+        "\u0440\u0430\u043C\u043A\u0430",
+        "\u0440\u0430\u043D\u043D\u0438\u0439",
+        "\u0440\u0430\u043F\u043E\u0440\u0442",
+        "\u0440\u0430\u0441\u0441\u043A\u0430\u0437",
+        "\u0440\u0430\u0443\u043D\u0434",
+        "\u0440\u0430\u0446\u0438\u044F",
+        "\u0440\u0432\u0430\u0442\u044C",
+        "\u0440\u0435\u0430\u043B\u044C\u043D\u044B\u0439",
+        "\u0440\u0435\u0431\u0435\u043D\u043E\u043A",
+        "\u0440\u0435\u0432\u0435\u0442\u044C",
+        "\u0440\u0435\u0433\u0438\u043E\u043D",
+        "\u0440\u0435\u0434\u0430\u043A\u0446\u0438\u044F",
+        "\u0440\u0435\u0435\u0441\u0442\u0440",
+        "\u0440\u0435\u0436\u0438\u043C",
+        "\u0440\u0435\u0437\u043A\u0438\u0439",
+        "\u0440\u0435\u0439\u0442\u0438\u043D\u0433",
+        "\u0440\u0435\u043A\u0430",
+        "\u0440\u0435\u043B\u0438\u0433\u0438\u044F",
+        "\u0440\u0435\u043C\u043E\u043D\u0442",
+        "\u0440\u0435\u043D\u0442\u0430",
+        "\u0440\u0435\u043F\u043B\u0438\u043A\u0430",
+        "\u0440\u0435\u0441\u0443\u0440\u0441",
+        "\u0440\u0435\u0444\u043E\u0440\u043C\u0430",
+        "\u0440\u0435\u0446\u0435\u043F\u0442",
+        "\u0440\u0435\u0447\u044C",
+        "\u0440\u0435\u0448\u0435\u043D\u0438\u0435",
+        "\u0440\u0436\u0430\u0432\u044B\u0439",
+        "\u0440\u0438\u0441\u0443\u043D\u043E\u043A",
+        "\u0440\u0438\u0442\u043C",
+        "\u0440\u0438\u0444\u043C\u0430",
+        "\u0440\u043E\u0431\u043A\u0438\u0439",
+        "\u0440\u043E\u0432\u043D\u044B\u0439",
+        "\u0440\u043E\u0433\u0430\u0442\u044B\u0439",
+        "\u0440\u043E\u0434\u0438\u0442\u0435\u043B\u044C",
+        "\u0440\u043E\u0436\u0434\u0435\u043D\u0438\u0435",
+        "\u0440\u043E\u0437\u043E\u0432\u044B\u0439",
+        "\u0440\u043E\u043A\u043E\u0432\u043E\u0439",
+        "\u0440\u043E\u043B\u044C",
+        "\u0440\u043E\u043C\u0430\u043D",
+        "\u0440\u043E\u043D\u044F\u0442\u044C",
+        "\u0440\u043E\u0441\u0442",
+        "\u0440\u043E\u0442\u0430",
+        "\u0440\u043E\u0449\u0430",
+        "\u0440\u043E\u044F\u043B\u044C",
+        "\u0440\u0443\u0431\u043B\u044C",
+        "\u0440\u0443\u0433\u0430\u0442\u044C",
+        "\u0440\u0443\u0434\u0430",
+        "\u0440\u0443\u0436\u044C\u0435",
+        "\u0440\u0443\u0438\u043D\u044B",
+        "\u0440\u0443\u043A\u0430",
+        "\u0440\u0443\u043B\u044C",
+        "\u0440\u0443\u043C\u044F\u043D\u044B\u0439",
+        "\u0440\u0443\u0441\u0441\u043A\u0438\u0439",
+        "\u0440\u0443\u0447\u043A\u0430",
+        "\u0440\u044B\u0431\u0430",
+        "\u0440\u044B\u0432\u043E\u043A",
+        "\u0440\u044B\u0434\u0430\u0442\u044C",
+        "\u0440\u044B\u0436\u0438\u0439",
+        "\u0440\u044B\u043D\u043E\u043A",
+        "\u0440\u044B\u0441\u044C",
+        "\u0440\u044B\u0442\u044C",
+        "\u0440\u044B\u0445\u043B\u044B\u0439",
+        "\u0440\u044B\u0446\u0430\u0440\u044C",
+        "\u0440\u044B\u0447\u0430\u0433",
+        "\u0440\u044E\u043A\u0437\u0430\u043A",
+        "\u0440\u044E\u043C\u043A\u0430",
+        "\u0440\u044F\u0431\u043E\u0439",
+        "\u0440\u044F\u0434\u043E\u0432\u043E\u0439",
+        "\u0441\u0430\u0431\u043B\u044F",
+        "\u0441\u0430\u0434\u043E\u0432\u044B\u0439",
+        "\u0441\u0430\u0436\u0430\u0442\u044C",
+        "\u0441\u0430\u043B\u043E\u043D",
+        "\u0441\u0430\u043C\u043E\u043B\u0435\u0442",
+        "\u0441\u0430\u043D\u0438",
+        "\u0441\u0430\u043F\u043E\u0433",
+        "\u0441\u0430\u0440\u0430\u0439",
+        "\u0441\u0430\u0442\u0438\u0440\u0430",
+        "\u0441\u0430\u0443\u043D\u0430",
+        "\u0441\u0430\u0445\u0430\u0440",
+        "\u0441\u0431\u0435\u0433\u0430\u0442\u044C",
+        "\u0441\u0431\u0438\u0432\u0430\u0442\u044C",
+        "\u0441\u0431\u043E\u0440",
+        "\u0441\u0431\u044B\u0442",
+        "\u0441\u0432\u0430\u0434\u044C\u0431\u0430",
+        "\u0441\u0432\u0435\u0442",
+        "\u0441\u0432\u0438\u0434\u0430\u043D\u0438\u0435",
+        "\u0441\u0432\u043E\u0431\u043E\u0434\u0430",
+        "\u0441\u0432\u044F\u0437\u044C",
+        "\u0441\u0433\u043E\u0440\u0430\u0442\u044C",
+        "\u0441\u0434\u0432\u0438\u0433\u0430\u0442\u044C",
+        "\u0441\u0435\u0430\u043D\u0441",
+        "\u0441\u0435\u0432\u0435\u0440\u043D\u044B\u0439",
+        "\u0441\u0435\u0433\u043C\u0435\u043D\u0442",
+        "\u0441\u0435\u0434\u043E\u0439",
+        "\u0441\u0435\u0437\u043E\u043D",
+        "\u0441\u0435\u0439\u0444",
+        "\u0441\u0435\u043A\u0443\u043D\u0434\u0430",
+        "\u0441\u0435\u043B\u044C\u0441\u043A\u0438\u0439",
+        "\u0441\u0435\u043C\u044C\u044F",
+        "\u0441\u0435\u043D\u0442\u044F\u0431\u0440\u044C",
+        "\u0441\u0435\u0440\u0434\u0446\u0435",
+        "\u0441\u0435\u0442\u044C",
+        "\u0441\u0435\u0447\u0435\u043D\u0438\u0435",
+        "\u0441\u0435\u044F\u0442\u044C",
+        "\u0441\u0438\u0433\u043D\u0430\u043B",
+        "\u0441\u0438\u0434\u0435\u0442\u044C",
+        "\u0441\u0438\u0437\u044B\u0439",
+        "\u0441\u0438\u043B\u0430",
+        "\u0441\u0438\u043C\u0432\u043E\u043B",
+        "\u0441\u0438\u043D\u0438\u0439",
+        "\u0441\u0438\u0440\u043E\u0442\u0430",
+        "\u0441\u0438\u0441\u0442\u0435\u043C\u0430",
+        "\u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F",
+        "\u0441\u0438\u044F\u0442\u044C",
+        "\u0441\u043A\u0430\u0437\u0430\u0442\u044C",
+        "\u0441\u043A\u0432\u0430\u0436\u0438\u043D\u0430",
+        "\u0441\u043A\u0435\u043B\u0435\u0442",
+        "\u0441\u043A\u0438\u0434\u043A\u0430",
+        "\u0441\u043A\u043B\u0430\u0434",
+        "\u0441\u043A\u043E\u0440\u044B\u0439",
+        "\u0441\u043A\u0440\u044B\u0432\u0430\u0442\u044C",
+        "\u0441\u043A\u0443\u0447\u043D\u044B\u0439",
+        "\u0441\u043B\u0430\u0432\u0430",
+        "\u0441\u043B\u0435\u0437\u0430",
+        "\u0441\u043B\u0438\u044F\u043D\u0438\u0435",
+        "\u0441\u043B\u043E\u0432\u043E",
+        "\u0441\u043B\u0443\u0447\u0430\u0439",
+        "\u0441\u043B\u044B\u0448\u0430\u0442\u044C",
+        "\u0441\u043B\u044E\u043D\u0430",
+        "\u0441\u043C\u0435\u0445",
+        "\u0441\u043C\u0438\u0440\u0435\u043D\u0438\u0435",
+        "\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C",
+        "\u0441\u043C\u0443\u0442\u043D\u044B\u0439",
+        "\u0441\u043C\u044B\u0441\u043B",
+        "\u0441\u043C\u044F\u0442\u0435\u043D\u0438\u0435",
+        "\u0441\u043D\u0430\u0440\u044F\u0434",
+        "\u0441\u043D\u0435\u0433",
+        "\u0441\u043D\u0438\u0436\u0435\u043D\u0438\u0435",
+        "\u0441\u043D\u043E\u0441\u0438\u0442\u044C",
+        "\u0441\u043D\u044F\u0442\u044C",
+        "\u0441\u043E\u0431\u044B\u0442\u0438\u0435",
+        "\u0441\u043E\u0432\u0435\u0442",
+        "\u0441\u043E\u0433\u043B\u0430\u0441\u0438\u0435",
+        "\u0441\u043E\u0436\u0430\u043B\u0435\u0442\u044C",
+        "\u0441\u043E\u0439\u0442\u0438",
+        "\u0441\u043E\u043A\u043E\u043B",
+        "\u0441\u043E\u043B\u043D\u0446\u0435",
+        "\u0441\u043E\u043C\u043D\u0435\u043D\u0438\u0435",
+        "\u0441\u043E\u043D\u043D\u044B\u0439",
+        "\u0441\u043E\u043E\u0431\u0449\u0430\u0442\u044C",
+        "\u0441\u043E\u043F\u0435\u0440\u043D\u0438\u043A",
+        "\u0441\u043E\u0440\u0442",
+        "\u0441\u043E\u0441\u0442\u0430\u0432",
+        "\u0441\u043E\u0442\u043D\u044F",
+        "\u0441\u043E\u0443\u0441",
+        "\u0441\u043E\u0446\u0438\u043E\u043B\u043E\u0433",
+        "\u0441\u043E\u0447\u0438\u043D\u044F\u0442\u044C",
+        "\u0441\u043E\u044E\u0437",
+        "\u0441\u043F\u0430\u0442\u044C",
+        "\u0441\u043F\u0435\u0448\u0438\u0442\u044C",
+        "\u0441\u043F\u0438\u043D\u0430",
+        "\u0441\u043F\u043B\u043E\u0448\u043D\u043E\u0439",
+        "\u0441\u043F\u043E\u0441\u043E\u0431",
+        "\u0441\u043F\u0443\u0442\u043D\u0438\u043A",
+        "\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043E",
+        "\u0441\u0440\u043E\u043A",
+        "\u0441\u0440\u044B\u0432\u0430\u0442\u044C",
+        "\u0441\u0442\u0430\u0442\u044C",
+        "\u0441\u0442\u0432\u043E\u043B",
+        "\u0441\u0442\u0435\u043D\u0430",
+        "\u0441\u0442\u0438\u0445\u0438",
+        "\u0441\u0442\u043E\u0440\u043E\u043D\u0430",
+        "\u0441\u0442\u0440\u0430\u043D\u0430",
+        "\u0441\u0442\u0443\u0434\u0435\u043D\u0442",
+        "\u0441\u0442\u044B\u0434",
+        "\u0441\u0443\u0431\u044A\u0435\u043A\u0442",
+        "\u0441\u0443\u0432\u0435\u043D\u0438\u0440",
+        "\u0441\u0443\u0433\u0440\u043E\u0431",
+        "\u0441\u0443\u0434\u044C\u0431\u0430",
+        "\u0441\u0443\u0435\u0442\u0430",
+        "\u0441\u0443\u0436\u0434\u0435\u043D\u0438\u0435",
+        "\u0441\u0443\u043A\u043D\u043E",
+        "\u0441\u0443\u043B\u0438\u0442\u044C",
+        "\u0441\u0443\u043C\u043C\u0430",
+        "\u0441\u0443\u043D\u0443\u0442\u044C",
+        "\u0441\u0443\u043F\u0440\u0443\u0433",
+        "\u0441\u0443\u0440\u043E\u0432\u044B\u0439",
+        "\u0441\u0443\u0441\u0442\u0430\u0432",
+        "\u0441\u0443\u0442\u044C",
+        "\u0441\u0443\u0445\u043E\u0439",
+        "\u0441\u0443\u0448\u0430",
+        "\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E",
+        "\u0441\u0444\u0435\u0440\u0430",
+        "\u0441\u0445\u0435\u043C\u0430",
+        "\u0441\u0446\u0435\u043D\u0430",
+        "\u0441\u0447\u0430\u0441\u0442\u044C\u0435",
+        "\u0441\u0447\u0435\u0442",
+        "\u0441\u0447\u0438\u0442\u0430\u0442\u044C",
+        "\u0441\u0448\u0438\u0432\u0430\u0442\u044C",
+        "\u0441\u044A\u0435\u0437\u0434",
+        "\u0441\u044B\u043D\u043E\u043A",
+        "\u0441\u044B\u043F\u0430\u0442\u044C",
+        "\u0441\u044B\u0440\u044C\u0435",
+        "\u0441\u044B\u0442\u044B\u0439",
+        "\u0441\u044B\u0449\u0438\u043A",
+        "\u0441\u044E\u0436\u0435\u0442",
+        "\u0441\u044E\u0440\u043F\u0440\u0438\u0437",
+        "\u0442\u0430\u0431\u043B\u0438\u0446\u0430",
+        "\u0442\u0430\u0435\u0436\u043D\u044B\u0439",
+        "\u0442\u0430\u0438\u043D\u0441\u0442\u0432\u043E",
+        "\u0442\u0430\u0439\u043D\u0430",
+        "\u0442\u0430\u043A\u0441\u0438",
+        "\u0442\u0430\u043B\u0430\u043D\u0442",
+        "\u0442\u0430\u043C\u043E\u0436\u043D\u044F",
+        "\u0442\u0430\u043D\u0435\u0446",
+        "\u0442\u0430\u0440\u0435\u043B\u043A\u0430",
+        "\u0442\u0430\u0441\u043A\u0430\u0442\u044C",
+        "\u0442\u0430\u0445\u0442\u0430",
+        "\u0442\u0430\u0447\u043A\u0430",
+        "\u0442\u0430\u044F\u0442\u044C",
+        "\u0442\u0432\u0430\u0440\u044C",
+        "\u0442\u0432\u0435\u0440\u0434\u044B\u0439",
+        "\u0442\u0432\u043E\u0440\u0438\u0442\u044C",
+        "\u0442\u0435\u0430\u0442\u0440",
+        "\u0442\u0435\u0437\u0438\u0441",
+        "\u0442\u0435\u043A\u0441\u0442",
+        "\u0442\u0435\u043B\u043E",
+        "\u0442\u0435\u043C\u0430",
+        "\u0442\u0435\u043D\u044C",
+        "\u0442\u0435\u043E\u0440\u0438\u044F",
+        "\u0442\u0435\u043F\u043B\u044B\u0439",
+        "\u0442\u0435\u0440\u044F\u0442\u044C",
+        "\u0442\u0435\u0441\u043D\u044B\u0439",
+        "\u0442\u0435\u0442\u044F",
+        "\u0442\u0435\u0445\u043D\u0438\u043A\u0430",
+        "\u0442\u0435\u0447\u0435\u043D\u0438\u0435",
+        "\u0442\u0438\u0433\u0440",
+        "\u0442\u0438\u043F\u0438\u0447\u043D\u044B\u0439",
+        "\u0442\u0438\u0440\u0430\u0436",
+        "\u0442\u0438\u0442\u0443\u043B",
+        "\u0442\u0438\u0445\u0438\u0439",
+        "\u0442\u0438\u0448\u0438\u043D\u0430",
+        "\u0442\u043A\u0430\u043D\u044C",
+        "\u0442\u043E\u0432\u0430\u0440\u0438\u0449",
+        "\u0442\u043E\u043B\u043F\u0430",
+        "\u0442\u043E\u043D\u043A\u0438\u0439",
+        "\u0442\u043E\u043F\u043B\u0438\u0432\u043E",
+        "\u0442\u043E\u0440\u0433\u043E\u0432\u043B\u044F",
+        "\u0442\u043E\u0441\u043A\u0430",
+        "\u0442\u043E\u0447\u043A\u0430",
+        "\u0442\u043E\u0449\u0438\u0439",
+        "\u0442\u0440\u0430\u0434\u0438\u0446\u0438\u044F",
+        "\u0442\u0440\u0435\u0432\u043E\u0433\u0430",
+        "\u0442\u0440\u0438\u0431\u0443\u043D\u0430",
+        "\u0442\u0440\u043E\u0433\u0430\u0442\u044C",
+        "\u0442\u0440\u0443\u0434",
+        "\u0442\u0440\u044E\u043A",
+        "\u0442\u0440\u044F\u043F\u043A\u0430",
+        "\u0442\u0443\u0430\u043B\u0435\u0442",
+        "\u0442\u0443\u0433\u043E\u0439",
+        "\u0442\u0443\u043B\u043E\u0432\u0438\u0449\u0435",
+        "\u0442\u0443\u043C\u0430\u043D",
+        "\u0442\u0443\u043D\u0434\u0440\u0430",
+        "\u0442\u0443\u043F\u043E\u0439",
+        "\u0442\u0443\u0440\u043D\u0438\u0440",
+        "\u0442\u0443\u0441\u043A\u043B\u044B\u0439",
+        "\u0442\u0443\u0444\u043B\u044F",
+        "\u0442\u0443\u0447\u0430",
+        "\u0442\u0443\u0448\u0430",
+        "\u0442\u044B\u043A\u0430\u0442\u044C",
+        "\u0442\u044B\u0441\u044F\u0447\u0430",
+        "\u0442\u044C\u043C\u0430",
+        "\u0442\u044E\u043B\u044C\u043F\u0430\u043D",
+        "\u0442\u044E\u0440\u044C\u043C\u0430",
+        "\u0442\u044F\u0433\u0430",
+        "\u0442\u044F\u0436\u0435\u043B\u044B\u0439",
+        "\u0442\u044F\u043D\u0443\u0442\u044C",
+        "\u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044C",
+        "\u0443\u0431\u0438\u0440\u0430\u0442\u044C",
+        "\u0443\u0431\u043E\u0433\u0438\u0439",
+        "\u0443\u0431\u044B\u0442\u043E\u043A",
+        "\u0443\u0432\u0430\u0436\u0435\u043D\u0438\u0435",
+        "\u0443\u0432\u0435\u0440\u044F\u0442\u044C",
+        "\u0443\u0432\u043B\u0435\u043A\u0430\u0442\u044C",
+        "\u0443\u0433\u043D\u0430\u0442\u044C",
+        "\u0443\u0433\u043E\u043B",
+        "\u0443\u0433\u0440\u043E\u0437\u0430",
+        "\u0443\u0434\u0430\u0440",
+        "\u0443\u0434\u0438\u0432\u043B\u044F\u0442\u044C",
+        "\u0443\u0434\u043E\u0431\u043D\u044B\u0439",
+        "\u0443\u0435\u0437\u0434",
+        "\u0443\u0436\u0430\u0441",
+        "\u0443\u0436\u0438\u043D",
+        "\u0443\u0437\u0435\u043B",
+        "\u0443\u0437\u043A\u0438\u0439",
+        "\u0443\u0437\u043D\u0430\u0432\u0430\u0442\u044C",
+        "\u0443\u0437\u043E\u0440",
+        "\u0443\u0439\u043C\u0430",
+        "\u0443\u043A\u043B\u043E\u043D",
+        "\u0443\u043A\u043E\u043B",
+        "\u0443\u043A\u0441\u0443\u0441",
+        "\u0443\u043B\u0435\u0442\u0430\u0442\u044C",
+        "\u0443\u043B\u0438\u0446\u0430",
+        "\u0443\u043B\u0443\u0447\u0448\u0430\u0442\u044C",
+        "\u0443\u043B\u044B\u0431\u043A\u0430",
+        "\u0443\u043C\u0435\u0442\u044C",
+        "\u0443\u043C\u0438\u043B\u0435\u043D\u0438\u0435",
+        "\u0443\u043C\u043D\u044B\u0439",
+        "\u0443\u043C\u043E\u043B\u044F\u0442\u044C",
+        "\u0443\u043C\u044B\u0441\u0435\u043B",
+        "\u0443\u043D\u0438\u0436\u0430\u0442\u044C",
+        "\u0443\u043D\u043E\u0441\u0438\u0442\u044C",
+        "\u0443\u043D\u044B\u043D\u0438\u0435",
+        "\u0443\u043F\u0430\u0441\u0442\u044C",
+        "\u0443\u043F\u043B\u0430\u0442\u0430",
+        "\u0443\u043F\u043E\u0440",
+        "\u0443\u043F\u0440\u0435\u043A\u0430\u0442\u044C",
+        "\u0443\u043F\u0443\u0441\u043A\u0430\u0442\u044C",
+        "\u0443\u0440\u0430\u043D",
+        "\u0443\u0440\u043D\u0430",
+        "\u0443\u0440\u043E\u0432\u0435\u043D\u044C",
+        "\u0443\u0441\u0430\u0434\u044C\u0431\u0430",
+        "\u0443\u0441\u0435\u0440\u0434\u0438\u0435",
+        "\u0443\u0441\u0438\u043B\u0438\u0435",
+        "\u0443\u0441\u043A\u043E\u0440\u044F\u0442\u044C",
+        "\u0443\u0441\u043B\u043E\u0432\u0438\u0435",
+        "\u0443\u0441\u043C\u0435\u0448\u043A\u0430",
+        "\u0443\u0441\u043D\u0443\u0442\u044C",
+        "\u0443\u0441\u043F\u0435\u0442\u044C",
+        "\u0443\u0441\u044B\u043F\u0430\u0442\u044C",
+        "\u0443\u0442\u0435\u0448\u0430\u0442\u044C",
+        "\u0443\u0442\u043A\u0430",
+        "\u0443\u0442\u043E\u0447\u043D\u044F\u0442\u044C",
+        "\u0443\u0442\u0440\u043E",
+        "\u0443\u0442\u044E\u0433",
+        "\u0443\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u0443\u0446\u0435\u043B\u0435\u0442\u044C",
+        "\u0443\u0447\u0430\u0441\u0442\u0438\u0435",
+        "\u0443\u0447\u0435\u043D\u044B\u0439",
+        "\u0443\u0447\u0438\u0442\u0435\u043B\u044C",
+        "\u0443\u0448\u043A\u043E",
+        "\u0443\u0449\u0435\u0440\u0431",
+        "\u0443\u044E\u0442\u043D\u044B\u0439",
+        "\u0443\u044F\u0441\u043D\u044F\u0442\u044C",
+        "\u0444\u0430\u0431\u0440\u0438\u043A\u0430",
+        "\u0444\u0430\u0432\u043E\u0440\u0438\u0442",
+        "\u0444\u0430\u0437\u0430",
+        "\u0444\u0430\u0439\u043B",
+        "\u0444\u0430\u043A\u0442",
+        "\u0444\u0430\u043C\u0438\u043B\u0438\u044F",
+        "\u0444\u0430\u043D\u0442\u0430\u0437\u0438\u044F",
+        "\u0444\u0430\u0440\u0430",
+        "\u0444\u0430\u0441\u0430\u0434",
+        "\u0444\u0435\u0432\u0440\u0430\u043B\u044C",
+        "\u0444\u0435\u043B\u044C\u0434\u0448\u0435\u0440",
+        "\u0444\u0435\u043D\u043E\u043C\u0435\u043D",
+        "\u0444\u0435\u0440\u043C\u0430",
+        "\u0444\u0438\u0433\u0443\u0440\u0430",
+        "\u0444\u0438\u0437\u0438\u043A\u0430",
+        "\u0444\u0438\u043B\u044C\u043C",
+        "\u0444\u0438\u043D\u0430\u043B",
+        "\u0444\u0438\u0440\u043C\u0430",
+        "\u0444\u0438\u0448\u043A\u0430",
+        "\u0444\u043B\u0430\u0433",
+        "\u0444\u043B\u0435\u0439\u0442\u0430",
+        "\u0444\u043B\u043E\u0442",
+        "\u0444\u043E\u043A\u0443\u0441",
+        "\u0444\u043E\u043B\u044C\u043A\u043B\u043E\u0440",
+        "\u0444\u043E\u043D\u0434",
+        "\u0444\u043E\u0440\u043C\u0430",
+        "\u0444\u043E\u0442\u043E",
+        "\u0444\u0440\u0430\u0437\u0430",
+        "\u0444\u0440\u0435\u0441\u043A\u0430",
+        "\u0444\u0440\u043E\u043D\u0442",
+        "\u0444\u0440\u0443\u043A\u0442",
+        "\u0444\u0443\u043D\u043A\u0446\u0438\u044F",
+        "\u0444\u0443\u0440\u0430\u0436\u043A\u0430",
+        "\u0444\u0443\u0442\u0431\u043E\u043B",
+        "\u0444\u044B\u0440\u043A\u0430\u0442\u044C",
+        "\u0445\u0430\u043B\u0430\u0442",
+        "\u0445\u0430\u043C\u0441\u0442\u0432\u043E",
+        "\u0445\u0430\u043E\u0441",
+        "\u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440",
+        "\u0445\u0430\u0442\u0430",
+        "\u0445\u0432\u0430\u0442\u0430\u0442\u044C",
+        "\u0445\u0432\u043E\u0441\u0442",
+        "\u0445\u0438\u0436\u0438\u043D\u0430",
+        "\u0445\u0438\u043B\u044B\u0439",
+        "\u0445\u0438\u043C\u0438\u044F",
+        "\u0445\u0438\u0440\u0443\u0440\u0433",
+        "\u0445\u0438\u0442\u0440\u044B\u0439",
+        "\u0445\u0438\u0449\u043D\u0438\u043A",
+        "\u0445\u043B\u0430\u043C",
+        "\u0445\u043B\u0435\u0431",
+        "\u0445\u043B\u043E\u043F\u0430\u0442\u044C",
+        "\u0445\u043C\u0443\u0440\u044B\u0439",
+        "\u0445\u043E\u0434\u0438\u0442\u044C",
+        "\u0445\u043E\u0437\u044F\u0438\u043D",
+        "\u0445\u043E\u043A\u043A\u0435\u0439",
+        "\u0445\u043E\u043B\u043E\u0434\u043D\u044B\u0439",
+        "\u0445\u043E\u0440\u043E\u0448\u0438\u0439",
+        "\u0445\u043E\u0442\u0435\u0442\u044C",
+        "\u0445\u043E\u0445\u043E\u0442\u0430\u0442\u044C",
+        "\u0445\u0440\u0430\u043C",
+        "\u0445\u0440\u0435\u043D",
+        "\u0445\u0440\u0438\u043F\u043B\u044B\u0439",
+        "\u0445\u0440\u043E\u043D\u0438\u043A\u0430",
+        "\u0445\u0440\u0443\u043F\u043A\u0438\u0439",
+        "\u0445\u0443\u0434\u043E\u0436\u043D\u0438\u043A",
+        "\u0445\u0443\u043B\u0438\u0433\u0430\u043D",
+        "\u0445\u0443\u0442\u043E\u0440",
+        "\u0446\u0430\u0440\u044C",
+        "\u0446\u0432\u0435\u0442",
+        "\u0446\u0435\u043B\u044C",
+        "\u0446\u0435\u043C\u0435\u043D\u0442",
+        "\u0446\u0435\u043D\u0442\u0440",
+        "\u0446\u0435\u043F\u044C",
+        "\u0446\u0435\u0440\u043A\u043E\u0432\u044C",
+        "\u0446\u0438\u043A\u043B",
+        "\u0446\u0438\u043B\u0438\u043D\u0434\u0440",
+        "\u0446\u0438\u043D\u0438\u0447\u043D\u044B\u0439",
+        "\u0446\u0438\u0440\u043A",
+        "\u0446\u0438\u0441\u0442\u0435\u0440\u043D\u0430",
+        "\u0446\u0438\u0442\u0430\u0442\u0430",
+        "\u0446\u0438\u0444\u0440\u0430",
+        "\u0446\u044B\u043F\u043B\u0435\u043D\u043E\u043A",
+        "\u0447\u0430\u0434\u043E",
+        "\u0447\u0430\u0439\u043D\u0438\u043A",
+        "\u0447\u0430\u0441\u0442\u044C",
+        "\u0447\u0430\u0448\u043A\u0430",
+        "\u0447\u0435\u043B\u043E\u0432\u0435\u043A",
+        "\u0447\u0435\u043C\u043E\u0434\u0430\u043D",
+        "\u0447\u0435\u043F\u0443\u0445\u0430",
+        "\u0447\u0435\u0440\u043D\u044B\u0439",
+        "\u0447\u0435\u0441\u0442\u044C",
+        "\u0447\u0435\u0442\u043A\u0438\u0439",
+        "\u0447\u0435\u0445\u043E\u043B",
+        "\u0447\u0438\u043D\u043E\u0432\u043D\u0438\u043A",
+        "\u0447\u0438\u0441\u043B\u043E",
+        "\u0447\u0438\u0442\u0430\u0442\u044C",
+        "\u0447\u043B\u0435\u043D\u0441\u0442\u0432\u043E",
+        "\u0447\u0440\u0435\u0432\u0430\u0442\u044B\u0439",
+        "\u0447\u0442\u0435\u043D\u0438\u0435",
+        "\u0447\u0443\u0432\u0441\u0442\u0432\u043E",
+        "\u0447\u0443\u0433\u0443\u043D\u043D\u044B\u0439",
+        "\u0447\u0443\u0434\u043E",
+        "\u0447\u0443\u0436\u043E\u0439",
+        "\u0447\u0443\u043A\u0447\u0430",
+        "\u0447\u0443\u043B\u043E\u043A",
+        "\u0447\u0443\u043C\u0430",
+        "\u0447\u0443\u0442\u043A\u0438\u0439",
+        "\u0447\u0443\u0447\u0435\u043B\u043E",
+        "\u0447\u0443\u0448\u044C",
+        "\u0448\u0430\u0431\u043B\u043E\u043D",
+        "\u0448\u0430\u0433\u0430\u0442\u044C",
+        "\u0448\u0430\u0439\u043A\u0430",
+        "\u0448\u0430\u043A\u0430\u043B",
+        "\u0448\u0430\u043B\u0430\u0448",
+        "\u0448\u0430\u043C\u043F\u0443\u043D\u044C",
+        "\u0448\u0430\u043D\u0441",
+        "\u0448\u0430\u043F\u043A\u0430",
+        "\u0448\u0430\u0440\u0438\u043A",
+        "\u0448\u0430\u0441\u0441\u0438",
+        "\u0448\u0430\u0442\u0435\u0440",
+        "\u0448\u0430\u0445\u0442\u0430",
+        "\u0448\u0430\u0448\u043B\u044B\u043A",
+        "\u0448\u0432\u0435\u0439\u043D\u044B\u0439",
+        "\u0448\u0432\u044B\u0440\u044F\u0442\u044C",
+        "\u0448\u0435\u0432\u0435\u043B\u0438\u0442\u044C",
+        "\u0448\u0435\u0434\u0435\u0432\u0440",
+        "\u0448\u0435\u0439\u043A\u0430",
+        "\u0448\u0435\u043B\u043A\u043E\u0432\u044B\u0439",
+        "\u0448\u0435\u043F\u0442\u0430\u0442\u044C",
+        "\u0448\u0435\u0440\u0441\u0442\u044C",
+        "\u0448\u0435\u0441\u0442\u0435\u0440\u043A\u0430",
+        "\u0448\u0438\u043A\u0430\u0440\u043D\u044B\u0439",
+        "\u0448\u0438\u043D\u0435\u043B\u044C",
+        "\u0448\u0438\u043F\u0435\u0442\u044C",
+        "\u0448\u0438\u0440\u043E\u043A\u0438\u0439",
+        "\u0448\u0438\u0442\u044C",
+        "\u0448\u0438\u0448\u043A\u0430",
+        "\u0448\u043A\u0430\u0444",
+        "\u0448\u043A\u043E\u043B\u0430",
+        "\u0448\u043A\u0443\u0440\u0430",
+        "\u0448\u043B\u0430\u043D\u0433",
+        "\u0448\u043B\u0435\u043C",
+        "\u0448\u043B\u044E\u043F\u043A\u0430",
+        "\u0448\u043B\u044F\u043F\u0430",
+        "\u0448\u043D\u0443\u0440",
+        "\u0448\u043E\u043A\u043E\u043B\u0430\u0434",
+        "\u0448\u043E\u0440\u043E\u0445",
+        "\u0448\u043E\u0441\u0441\u0435",
+        "\u0448\u043E\u0444\u0435\u0440",
+        "\u0448\u043F\u0430\u0433\u0430",
+        "\u0448\u043F\u0438\u043E\u043D",
+        "\u0448\u043F\u0440\u0438\u0446",
+        "\u0448\u0440\u0430\u043C",
+        "\u0448\u0440\u0438\u0444\u0442",
+        "\u0448\u0442\u0430\u0431",
+        "\u0448\u0442\u043E\u0440\u0430",
+        "\u0448\u0442\u0440\u0430\u0444",
+        "\u0448\u0442\u0443\u043A\u0430",
+        "\u0448\u0442\u044B\u043A",
+        "\u0448\u0443\u0431\u0430",
+        "\u0448\u0443\u043C\u0435\u0442\u044C",
+        "\u0448\u0443\u0440\u0448\u0430\u0442\u044C",
+        "\u0448\u0443\u0442\u043A\u0430",
+        "\u0449\u0430\u0434\u0438\u0442\u044C",
+        "\u0449\u0435\u0434\u0440\u044B\u0439",
+        "\u0449\u0435\u043A\u0430",
+        "\u0449\u0435\u043B\u044C",
+        "\u0449\u0435\u043D\u043E\u043A",
+        "\u0449\u0435\u043F\u043A\u0430",
+        "\u0449\u0435\u0442\u043A\u0430",
+        "\u0449\u0443\u043A\u0430",
+        "\u044D\u0432\u043E\u043B\u044E\u0446\u0438\u044F",
+        "\u044D\u0433\u043E\u0438\u0437\u043C",
+        "\u044D\u043A\u0437\u0430\u043C\u0435\u043D",
+        "\u044D\u043A\u0438\u043F\u0430\u0436",
+        "\u044D\u043A\u043E\u043D\u043E\u043C\u0438\u044F",
+        "\u044D\u043A\u0440\u0430\u043D",
+        "\u044D\u043A\u0441\u043F\u0435\u0440\u0442",
+        "\u044D\u043B\u0435\u043C\u0435\u043D\u0442",
+        "\u044D\u043B\u0438\u0442\u0430",
+        "\u044D\u043C\u0431\u043B\u0435\u043C\u0430",
+        "\u044D\u043C\u0438\u0433\u0440\u0430\u043D\u0442",
+        "\u044D\u043C\u043E\u0446\u0438\u044F",
+        "\u044D\u043D\u0435\u0440\u0433\u0438\u044F",
+        "\u044D\u043F\u0438\u0437\u043E\u0434",
+        "\u044D\u043F\u043E\u0445\u0430",
+        "\u044D\u0441\u043A\u0438\u0437",
+        "\u044D\u0441\u0441\u0435",
+        "\u044D\u0441\u0442\u0440\u0430\u0434\u0430",
+        "\u044D\u0442\u0430\u043F",
+        "\u044D\u0442\u0438\u043A\u0430",
+        "\u044D\u0442\u044E\u0434",
+        "\u044D\u0444\u0438\u0440",
+        "\u044D\u0444\u0444\u0435\u043A\u0442",
+        "\u044D\u0448\u0435\u043B\u043E\u043D",
+        "\u044E\u0431\u0438\u043B\u0435\u0439",
+        "\u044E\u0431\u043A\u0430",
+        "\u044E\u0436\u043D\u044B\u0439",
+        "\u044E\u043C\u043E\u0440",
+        "\u044E\u043D\u043E\u0448\u0430",
+        "\u044E\u0440\u0438\u0441\u0442",
+        "\u044F\u0431\u043B\u043E\u043A\u043E",
+        "\u044F\u0432\u043B\u0435\u043D\u0438\u0435",
+        "\u044F\u0433\u043E\u0434\u0430",
+        "\u044F\u0434\u0435\u0440\u043D\u044B\u0439",
+        "\u044F\u0434\u043E\u0432\u0438\u0442\u044B\u0439",
+        "\u044F\u0434\u0440\u043E",
+        "\u044F\u0437\u0432\u0430",
+        "\u044F\u0437\u044B\u043A",
+        "\u044F\u0439\u0446\u043E",
+        "\u044F\u043A\u043E\u0440\u044C",
+        "\u044F\u043D\u0432\u0430\u0440\u044C",
+        "\u044F\u043F\u043E\u043D\u0435\u0446",
+        "\u044F\u0440\u043A\u0438\u0439",
+        "\u044F\u0440\u043C\u0430\u0440\u043A\u0430",
+        "\u044F\u0440\u043E\u0441\u0442\u044C",
+        "\u044F\u0440\u0443\u0441",
+        "\u044F\u0441\u043D\u044B\u0439",
+        "\u044F\u0445\u0442\u0430",
+        "\u044F\u0447\u0435\u0439\u043A\u0430",
+        "\u044F\u0449\u0438\u043A"
+      ]
+    },
+    esperanto: {
+      prefix: 4,
+      words: [
+        "abako",
+        "abdiki",
+        "abelo",
+        "abituriento",
+        "ablativo",
+        "abnorma",
+        "abonantoj",
+        "abrikoto",
+        "absoluta",
+        "abunda",
+        "acetono",
+        "acida",
+        "adapti",
+        "adekvata",
+        "adheri",
+        "adicii",
+        "adjektivo",
+        "administri",
+        "adolesko",
+        "adreso",
+        "adstringa",
+        "adulto",
+        "advokato",
+        "adzo",
+        "aeroplano",
+        "aferulo",
+        "afgana",
+        "afiksi",
+        "aflaba",
+        "aforismo",
+        "afranki",
+        "aftozo",
+        "afusto",
+        "agavo",
+        "agento",
+        "agiti",
+        "aglo",
+        "agmaniero",
+        "agnoski",
+        "agordo",
+        "agrabla",
+        "agtipo",
+        "agutio",
+        "aikido",
+        "ailanto",
+        "aina",
+        "ajatolo",
+        "ajgenvaloro",
+        "ajlobulbo",
+        "ajnlitera",
+        "ajuto",
+        "ajzi",
+        "akademio",
+        "akcepti",
+        "akeo",
+        "akiri",
+        "aklamado",
+        "akmeo",
+        "akno",
+        "akompani",
+        "akrobato",
+        "akselo",
+        "aktiva",
+        "akurata",
+        "akvofalo",
+        "alarmo",
+        "albumo",
+        "alcedo",
+        "aldoni",
+        "aleo",
+        "alfabeto",
+        "algo",
+        "alhasti",
+        "aligatoro",
+        "alkoholo",
+        "almozo",
+        "alnomo",
+        "alojo",
+        "alpinisto",
+        "alrigardi",
+        "alskribi",
+        "alta",
+        "alumeto",
+        "alveni",
+        "alzaca",
+        "amaso",
+        "ambasado",
+        "amdeklaro",
+        "amebo",
+        "amfibio",
+        "amhara",
+        "amiko",
+        "amkanto",
+        "amletero",
+        "amnestio",
+        "amoranto",
+        "amplekso",
+        "amrakonto",
+        "amsterdama",
+        "amuzi",
+        "ananaso",
+        "androido",
+        "anekdoto",
+        "anfrakto",
+        "angulo",
+        "anheli",
+        "animo",
+        "anjono",
+        "ankro",
+        "anonci",
+        "anpriskribo",
+        "ansero",
+        "antikva",
+        "anuitato",
+        "aorto",
+        "aparta",
+        "aperti",
+        "apika",
+        "aplikado",
+        "apneo",
+        "apogi",
+        "aprobi",
+        "apsido",
+        "apterigo",
+        "apudesto",
+        "araneo",
+        "arbo",
+        "ardeco",
+        "aresti",
+        "argilo",
+        "aristokrato",
+        "arko",
+        "arlekeno",
+        "armi",
+        "arniko",
+        "aromo",
+        "arpio",
+        "arsenalo",
+        "artisto",
+        "aruba",
+        "arvorto",
+        "asaio",
+        "asbesto",
+        "ascendi",
+        "asekuri",
+        "asfalto",
+        "asisti",
+        "askalono",
+        "asocio",
+        "aspekti",
+        "astro",
+        "asulo",
+        "atakonto",
+        "atendi",
+        "atingi",
+        "atleto",
+        "atmosfero",
+        "atomo",
+        "atropino",
+        "atuto",
+        "avataro",
+        "aventuro",
+        "aviadilo",
+        "avokado",
+        "azaleo",
+        "azbuko",
+        "azenino",
+        "azilpetanto",
+        "azoto",
+        "azteka",
+        "babili",
+        "bacilo",
+        "badmintono",
+        "bagatelo",
+        "bahama",
+        "bajoneto",
+        "baki",
+        "balai",
+        "bambuo",
+        "bani",
+        "baobabo",
+        "bapti",
+        "baro",
+        "bastono",
+        "batilo",
+        "bavara",
+        "bazalto",
+        "beata",
+        "bebofono",
+        "bedo",
+        "begonio",
+        "behaviorismo",
+        "bejlo",
+        "bekero",
+        "belarto",
+        "bemolo",
+        "benko",
+        "bereto",
+        "besto",
+        "betulo",
+        "bevelo",
+        "bezoni",
+        "biaso",
+        "biblioteko",
+        "biciklo",
+        "bidaro",
+        "bieno",
+        "bifsteko",
+        "bigamiulo",
+        "bijekcio",
+        "bikino",
+        "bildo",
+        "bimetalismo",
+        "bindi",
+        "biografio",
+        "birdo",
+        "biskvito",
+        "bitlibro",
+        "bivako",
+        "bizara",
+        "bjalistoka",
+        "blanka",
+        "bleki",
+        "blinda",
+        "blovi",
+        "blua",
+        "boato",
+        "bobsledo",
+        "bocvanano",
+        "bodisatvo",
+        "bofratino",
+        "bogefratoj",
+        "bohema",
+        "boji",
+        "bokalo",
+        "boli",
+        "bombono",
+        "bona",
+        "bopatrino",
+        "bordo",
+        "bosko",
+        "botelo",
+        "bovido",
+        "brakpleno",
+        "bretaro",
+        "brikmuro",
+        "broso",
+        "brulema",
+        "bubalo",
+        "buctrapi",
+        "budo",
+        "bufedo",
+        "bugio",
+        "bujabeso",
+        "buklo",
+        "buldozo",
+        "bumerango",
+        "bunta",
+        "burokrataro",
+        "busbileto",
+        "butero",
+        "buzuko",
+        "caro",
+        "cebo",
+        "ceceo",
+        "cedro",
+        "cefalo",
+        "cejana",
+        "cekumo",
+        "celebri",
+        "cemento",
+        "cent",
+        "cepo",
+        "certa",
+        "cetera",
+        "cezio",
+        "ciano",
+        "cibeto",
+        "cico",
+        "cidro",
+        "cifero",
+        "cigaredo",
+        "ciklo",
+        "cilindro",
+        "cimbalo",
+        "cinamo",
+        "cipreso",
+        "cirkonstanco",
+        "cisterno",
+        "citrono",
+        "ciumi",
+        "civilizado",
+        "colo",
+        "congo",
+        "cunamo",
+        "cvana",
+        "dabi",
+        "daco",
+        "dadaismo",
+        "dafodilo",
+        "dago",
+        "daimio",
+        "dajmono",
+        "daktilo",
+        "dalio",
+        "damo",
+        "danki",
+        "darmo",
+        "datumoj",
+        "dazipo",
+        "deadmoni",
+        "debeto",
+        "decidi",
+        "dedukti",
+        "deerigi",
+        "defendi",
+        "degeli",
+        "dehaki",
+        "deirpunkto",
+        "deklaracio",
+        "delikata",
+        "demandi",
+        "dento",
+        "dependi",
+        "derivi",
+        "desegni",
+        "detrui",
+        "devi",
+        "deziri",
+        "dialogo",
+        "dicentro",
+        "didaktika",
+        "dieto",
+        "diferenci",
+        "digesti",
+        "diino",
+        "dikfingro",
+        "diligenta",
+        "dimensio",
+        "dinamo",
+        "diodo",
+        "diplomo",
+        "direkte",
+        "diskuti",
+        "diurno",
+        "diversa",
+        "dizajno",
+        "dobrogitaro",
+        "docento",
+        "dogano",
+        "dojeno",
+        "doktoro",
+        "dolori",
+        "domego",
+        "donaci",
+        "dopado",
+        "dormi",
+        "dosierujo",
+        "dotita",
+        "dozeno",
+        "drato",
+        "dresi",
+        "drinki",
+        "droni",
+        "druido",
+        "duaranga",
+        "dubi",
+        "ducent",
+        "dudek",
+        "duelo",
+        "dufoje",
+        "dugongo",
+        "duhufa",
+        "duilo",
+        "dujare",
+        "dukato",
+        "duloka",
+        "dumtempe",
+        "dungi",
+        "duobla",
+        "dupiedulo",
+        "dura",
+        "dusenca",
+        "dutaga",
+        "duuma",
+        "duvalvuloj",
+        "duzo",
+        "ebena",
+        "eblecoj",
+        "ebono",
+        "ebria",
+        "eburo",
+        "ecaro",
+        "ecigi",
+        "ecoj",
+        "edelvejso",
+        "editoro",
+        "edro",
+        "eduki",
+        "edzino",
+        "efektiva",
+        "efiki",
+        "efloreski",
+        "egala",
+        "egeco",
+        "egiptologo",
+        "eglefino",
+        "egoista",
+        "egreto",
+        "ejakuli",
+        "ejlo",
+        "ekarto",
+        "ekbruligi",
+        "ekceli",
+        "ekde",
+        "ekesti",
+        "ekfirmao",
+        "ekgliti",
+        "ekhavi",
+        "ekipi",
+        "ekkapti",
+        "eklezio",
+        "ekmalsati",
+        "ekonomio",
+        "ekpluvi",
+        "ekrano",
+        "ekster",
+        "ektiri",
+        "ekumeno",
+        "ekvilibro",
+        "ekzemplo",
+        "elasta",
+        "elbalai",
+        "elcento",
+        "eldoni",
+        "elektro",
+        "elfari",
+        "elgliti",
+        "elhaki",
+        "elipso",
+        "elkovi",
+        "ellasi",
+        "elmeti",
+        "elnutri",
+        "elokventa",
+        "elparoli",
+        "elrevigi",
+        "elstari",
+        "elteni",
+        "eluzita",
+        "elvoki",
+        "elzasa",
+        "emajlo",
+        "embaraso",
+        "emerito",
+        "emfazo",
+        "eminenta",
+        "emocio",
+        "empiria",
+        "emulsio",
+        "enarkivigi",
+        "enboteligi",
+        "enciklopedio",
+        "endorfino",
+        "energio",
+        "enfermi",
+        "engluti",
+        "enhavo",
+        "enigmo",
+        "enjekcio",
+        "enketi",
+        "enlanda",
+        "enmeti",
+        "enorma",
+        "enplanti",
+        "enradiki",
+        "enspezo",
+        "entrepreni",
+        "enui",
+        "envolvi",
+        "enzimo",
+        "eono",
+        "eosto",
+        "epitafo",
+        "epoko",
+        "epriskribebla",
+        "epsilono",
+        "erari",
+        "erbio",
+        "erco",
+        "erekti",
+        "ergonomia",
+        "erikejo",
+        "ermito",
+        "erotika",
+        "erpilo",
+        "erupcio",
+        "esameno",
+        "escepti",
+        "esenco",
+        "eskapi",
+        "esotera",
+        "esperi",
+        "estonto",
+        "etapo",
+        "etendi",
+        "etfingro",
+        "etikedo",
+        "etlitero",
+        "etmakleristo",
+        "etnika",
+        "etoso",
+        "etradio",
+        "etskala",
+        "etullernejo",
+        "evakui",
+        "evento",
+        "eviti",
+        "evolui",
+        "ezoko",
+        "fabriko",
+        "facila",
+        "fadeno",
+        "fagoto",
+        "fajro",
+        "fakto",
+        "fali",
+        "familio",
+        "fanatiko",
+        "farbo",
+        "fasko",
+        "fatala",
+        "favora",
+        "fazeolo",
+        "febro",
+        "federacio",
+        "feino",
+        "fekunda",
+        "felo",
+        "femuro",
+        "fenestro",
+        "fermi",
+        "festi",
+        "fetora",
+        "fezo",
+        "fiasko",
+        "fibro",
+        "fidela",
+        "fiera",
+        "fifama",
+        "figuro",
+        "fiherbo",
+        "fiinsekto",
+        "fiksa",
+        "filmo",
+        "fimensa",
+        "finalo",
+        "fiolo",
+        "fiparoli",
+        "firmao",
+        "fisko",
+        "fitingo",
+        "fiuzanto",
+        "fivorto",
+        "fiziko",
+        "fjordo",
+        "flago",
+        "flegi",
+        "flirti",
+        "floro",
+        "flugi",
+        "fobio",
+        "foceno",
+        "foirejo",
+        "fojfoje",
+        "fokuso",
+        "folio",
+        "fomenti",
+        "fonto",
+        "formulo",
+        "fosforo",
+        "fotografi",
+        "fratino",
+        "fremda",
+        "friti",
+        "frosto",
+        "frua",
+        "ftizo",
+        "fuelo",
+        "fugo",
+        "fuksia",
+        "fulmilo",
+        "fumanto",
+        "fundamento",
+        "fuorto",
+        "furioza",
+        "fusilo",
+        "futbalo",
+        "fuzio",
+        "gabardino",
+        "gado",
+        "gaela",
+        "gafo",
+        "gagato",
+        "gaja",
+        "gaki",
+        "galanta",
+        "gamao",
+        "ganto",
+        "gapulo",
+        "gardi",
+        "gasto",
+        "gavio",
+        "gazeto",
+        "geamantoj",
+        "gebani",
+        "geedzeco",
+        "gefratoj",
+        "geheno",
+        "gejsero",
+        "geko",
+        "gelateno",
+        "gemisto",
+        "geniulo",
+        "geografio",
+        "gepardo",
+        "geranio",
+        "gestolingvo",
+        "geto",
+        "geumo",
+        "gibono",
+        "giganta",
+        "gildo",
+        "gimnastiko",
+        "ginekologo",
+        "gipsi",
+        "girlando",
+        "gistfungo",
+        "gitaro",
+        "glazuro",
+        "glebo",
+        "gliti",
+        "globo",
+        "gluti",
+        "gnafalio",
+        "gnejso",
+        "gnomo",
+        "gnuo",
+        "gobio",
+        "godetio",
+        "goeleto",
+        "gojo",
+        "golfludejo",
+        "gombo",
+        "gondolo",
+        "gorilo",
+        "gospelo",
+        "gotika",
+        "granda",
+        "greno",
+        "griza",
+        "groto",
+        "grupo",
+        "guano",
+        "gubernatoro",
+        "gudrotuko",
+        "gufo",
+        "gujavo",
+        "guldeno",
+        "gumi",
+        "gupio",
+        "guruo",
+        "gusto",
+        "guto",
+        "guvernistino",
+        "gvardio",
+        "gverilo",
+        "gvidanto",
+        "habitato",
+        "hadito",
+        "hafnio",
+        "hagiografio",
+        "haitiano",
+        "hajlo",
+        "hakbloko",
+        "halti",
+        "hamstro",
+        "hangaro",
+        "hapalo",
+        "haro",
+        "hasta",
+        "hati",
+        "havebla",
+        "hazardo",
+        "hebrea",
+        "hedero",
+        "hegemonio",
+        "hejmo",
+        "hektaro",
+        "helpi",
+        "hemisfero",
+        "heni",
+        "hepato",
+        "herbo",
+        "hesa",
+        "heterogena",
+        "heziti",
+        "hiacinto",
+        "hibrida",
+        "hidrogeno",
+        "hieroglifo",
+        "higieno",
+        "hihii",
+        "hilumo",
+        "himno",
+        "hindino",
+        "hiperteksto",
+        "hirundo",
+        "historio",
+        "hobio",
+        "hojli",
+        "hokeo",
+        "hologramo",
+        "homido",
+        "honesta",
+        "hopi",
+        "horizonto",
+        "hospitalo",
+        "hotelo",
+        "huadi",
+        "hubo",
+        "hufumo",
+        "hugenoto",
+        "hukero",
+        "huligano",
+        "humana",
+        "hundo",
+        "huoj",
+        "hupilo",
+        "hurai",
+        "husaro",
+        "hutuo",
+        "huzo",
+        "iafoje",
+        "iagrade",
+        "iamaniere",
+        "iarelate",
+        "iaspeca",
+        "ibekso",
+        "ibiso",
+        "idaro",
+        "ideala",
+        "idiomo",
+        "idolo",
+        "iele",
+        "igluo",
+        "ignori",
+        "iguamo",
+        "igvano",
+        "ikono",
+        "iksodo",
+        "ikto",
+        "iliaflanke",
+        "ilkomputilo",
+        "ilobreto",
+        "ilremedo",
+        "ilumini",
+        "imagi",
+        "imitado",
+        "imperio",
+        "imuna",
+        "incidento",
+        "industrio",
+        "inerta",
+        "infano",
+        "ingenra",
+        "inhali",
+        "iniciati",
+        "injekti",
+        "inklino",
+        "inokuli",
+        "insekto",
+        "inteligenta",
+        "inundi",
+        "inviti",
+        "ioma",
+        "ionosfero",
+        "iperito",
+        "ipomeo",
+        "irana",
+        "irejo",
+        "irigacio",
+        "ironio",
+        "isato",
+        "islamo",
+        "istempo",
+        "itinero",
+        "itrio",
+        "iuloke",
+        "iumaniere",
+        "iutempe",
+        "izolita",
+        "jado",
+        "jaguaro",
+        "jakto",
+        "jama",
+        "januaro",
+        "japano",
+        "jarringo",
+        "jazo",
+        "jenoj",
+        "jesulo",
+        "jetavio",
+        "jezuito",
+        "jodli",
+        "joviala",
+        "juano",
+        "jubileo",
+        "judismo",
+        "jufto",
+        "juki",
+        "julio",
+        "juneca",
+        "jupo",
+        "juristo",
+        "juste",
+        "juvelo",
+        "kabineto",
+        "kadrato",
+        "kafo",
+        "kahelo",
+        "kajako",
+        "kakao",
+        "kalkuli",
+        "kampo",
+        "kanti",
+        "kapitalo",
+        "karaktero",
+        "kaserolo",
+        "katapulto",
+        "kaverna",
+        "kazino",
+        "kebabo",
+        "kefiro",
+        "keglo",
+        "kejlo",
+        "kekso",
+        "kelka",
+        "kemio",
+        "kerno",
+        "kesto",
+        "kiamaniere",
+        "kibuco",
+        "kidnapi",
+        "kielo",
+        "kikero",
+        "kilogramo",
+        "kimono",
+        "kinejo",
+        "kiosko",
+        "kirurgo",
+        "kisi",
+        "kitelo",
+        "kivio",
+        "klavaro",
+        "klerulo",
+        "klini",
+        "klopodi",
+        "klubo",
+        "knabo",
+        "knedi",
+        "koalo",
+        "kobalto",
+        "kodigi",
+        "kofro",
+        "kohera",
+        "koincidi",
+        "kojoto",
+        "kokoso",
+        "koloro",
+        "komenci",
+        "kontrakto",
+        "kopio",
+        "korekte",
+        "kosti",
+        "kotono",
+        "kovri",
+        "krajono",
+        "kredi",
+        "krii",
+        "krom",
+        "kruco",
+        "ksantino",
+        "ksenono",
+        "ksilofono",
+        "ksosa",
+        "kubuto",
+        "kudri",
+        "kuglo",
+        "kuiri",
+        "kuko",
+        "kulero",
+        "kumuluso",
+        "kuneco",
+        "kupro",
+        "kuri",
+        "kuseno",
+        "kutimo",
+        "kuvo",
+        "kuzino",
+        "kvalito",
+        "kverko",
+        "kvin",
+        "kvoto",
+        "labori",
+        "laculo",
+        "ladbotelo",
+        "lafo",
+        "laguno",
+        "laikino",
+        "laktobovino",
+        "lampolumo",
+        "landkarto",
+        "laosa",
+        "lapono",
+        "larmoguto",
+        "lastjare",
+        "latitudo",
+        "lavejo",
+        "lazanjo",
+        "leciono",
+        "ledosako",
+        "leganto",
+        "lekcio",
+        "lemura",
+        "lentuga",
+        "leopardo",
+        "leporo",
+        "lerni",
+        "lesivo",
+        "letero",
+        "levilo",
+        "lezi",
+        "liano",
+        "libera",
+        "liceo",
+        "lieno",
+        "lifto",
+        "ligilo",
+        "likvoro",
+        "lila",
+        "limono",
+        "lingvo",
+        "lipo",
+        "lirika",
+        "listo",
+        "literatura",
+        "liveri",
+        "lobio",
+        "logika",
+        "lojala",
+        "lokalo",
+        "longa",
+        "lordo",
+        "lotado",
+        "loza",
+        "luanto",
+        "lubriki",
+        "lucida",
+        "ludema",
+        "luigi",
+        "lukso",
+        "luli",
+        "lumbilda",
+        "lunde",
+        "lupago",
+        "lustro",
+        "lutilo",
+        "luzerno",
+        "maato",
+        "maceri",
+        "madono",
+        "mafiano",
+        "magazeno",
+        "mahometano",
+        "maizo",
+        "majstro",
+        "maketo",
+        "malgranda",
+        "mamo",
+        "mandareno",
+        "maorio",
+        "mapigi",
+        "marini",
+        "masko",
+        "mateno",
+        "mazuto",
+        "meandro",
+        "meblo",
+        "mecenato",
+        "medialo",
+        "mefito",
+        "megafono",
+        "mejlo",
+        "mekanika",
+        "melodia",
+        "membro",
+        "mendi",
+        "mergi",
+        "mespilo",
+        "metoda",
+        "mevo",
+        "mezuri",
+        "miaflanke",
+        "micelio",
+        "mielo",
+        "migdalo",
+        "mikrofilmo",
+        "militi",
+        "mimiko",
+        "mineralo",
+        "miopa",
+        "miri",
+        "mistera",
+        "mitralo",
+        "mizeri",
+        "mjelo",
+        "mnemoniko",
+        "mobilizi",
+        "mocio",
+        "moderna",
+        "mohajro",
+        "mokadi",
+        "molaro",
+        "momento",
+        "monero",
+        "mopso",
+        "mordi",
+        "moskito",
+        "motoro",
+        "movimento",
+        "mozaiko",
+        "mueli",
+        "mukozo",
+        "muldi",
+        "mumio",
+        "munti",
+        "muro",
+        "muskolo",
+        "mutacio",
+        "muzikisto",
+        "nabo",
+        "nacio",
+        "nadlo",
+        "nafto",
+        "naiva",
+        "najbaro",
+        "nanometro",
+        "napo",
+        "narciso",
+        "naski",
+        "naturo",
+        "navigi",
+        "naztruo",
+        "neatendite",
+        "nebulo",
+        "necesa",
+        "nedankinde",
+        "neebla",
+        "nefari",
+        "negoco",
+        "nehavi",
+        "neimagebla",
+        "nektaro",
+        "nelonga",
+        "nematura",
+        "nenia",
+        "neordinara",
+        "nepra",
+        "nervuro",
+        "nesto",
+        "nete",
+        "neulo",
+        "nevino",
+        "nifo",
+        "nigra",
+        "nihilisto",
+        "nikotino",
+        "nilono",
+        "nimfeo",
+        "nitrogeno",
+        "nivelo",
+        "nobla",
+        "nocio",
+        "nodozo",
+        "nokto",
+        "nomkarto",
+        "norda",
+        "nostalgio",
+        "notbloko",
+        "novico",
+        "nuanco",
+        "nuboza",
+        "nuda",
+        "nugato",
+        "nuklea",
+        "nuligi",
+        "numero",
+        "nuntempe",
+        "nupto",
+        "nura",
+        "nutri",
+        "oazo",
+        "obei",
+        "objekto",
+        "oblikva",
+        "obolo",
+        "observi",
+        "obtuza",
+        "obuso",
+        "oceano",
+        "odekolono",
+        "odori",
+        "oferti",
+        "oficiala",
+        "ofsajdo",
+        "ofte",
+        "ogivo",
+        "ogro",
+        "ojstredoj",
+        "okaze",
+        "okcidenta",
+        "okro",
+        "oksido",
+        "oktobro",
+        "okulo",
+        "oldulo",
+        "oleo",
+        "olivo",
+        "omaro",
+        "ombro",
+        "omego",
+        "omikrono",
+        "omleto",
+        "omnibuso",
+        "onagro",
+        "ondo",
+        "oneco",
+        "onidire",
+        "onklino",
+        "onlajna",
+        "onomatopeo",
+        "ontologio",
+        "opaka",
+        "operacii",
+        "opinii",
+        "oportuna",
+        "opresi",
+        "optimisto",
+        "oratoro",
+        "orbito",
+        "ordinara",
+        "orelo",
+        "orfino",
+        "organizi",
+        "orienta",
+        "orkestro",
+        "orlo",
+        "orminejo",
+        "ornami",
+        "ortangulo",
+        "orumi",
+        "oscedi",
+        "osmozo",
+        "ostocerbo",
+        "ovalo",
+        "ovingo",
+        "ovoblanko",
+        "ovri",
+        "ovulado",
+        "ozono",
+        "pacama",
+        "padeli",
+        "pafilo",
+        "pagigi",
+        "pajlo",
+        "paketo",
+        "palaco",
+        "pampelmo",
+        "pantalono",
+        "papero",
+        "paroli",
+        "pasejo",
+        "patro",
+        "pavimo",
+        "peco",
+        "pedalo",
+        "peklita",
+        "pelikano",
+        "pensiono",
+        "peplomo",
+        "pesilo",
+        "petanto",
+        "pezoforto",
+        "piano",
+        "picejo",
+        "piede",
+        "pigmento",
+        "pikema",
+        "pilkoludo",
+        "pimento",
+        "pinglo",
+        "pioniro",
+        "pipromento",
+        "pirato",
+        "pistolo",
+        "pitoreska",
+        "piulo",
+        "pivoti",
+        "pizango",
+        "planko",
+        "plektita",
+        "plibonigi",
+        "ploradi",
+        "plurlingva",
+        "pobo",
+        "podio",
+        "poeto",
+        "pogranda",
+        "pohora",
+        "pokalo",
+        "politekniko",
+        "pomarbo",
+        "ponevosto",
+        "populara",
+        "porcelana",
+        "postkompreno",
+        "poteto",
+        "poviga",
+        "pozitiva",
+        "prapatroj",
+        "precize",
+        "pridemandi",
+        "probable",
+        "pruntanto",
+        "psalmo",
+        "psikologio",
+        "psoriazo",
+        "pterido",
+        "publiko",
+        "pudro",
+        "pufo",
+        "pugnobato",
+        "pulovero",
+        "pumpi",
+        "punkto",
+        "pupo",
+        "pureo",
+        "puso",
+        "putrema",
+        "puzlo",
+        "rabate",
+        "racionala",
+        "radiko",
+        "rafinado",
+        "raguo",
+        "rajto",
+        "rakonti",
+        "ralio",
+        "rampi",
+        "rando",
+        "rapida",
+        "rastruma",
+        "ratifiki",
+        "raviolo",
+        "razeno",
+        "reakcio",
+        "rebildo",
+        "recepto",
+        "redakti",
+        "reenigi",
+        "reformi",
+        "regiono",
+        "rehavi",
+        "reinspekti",
+        "rejesi",
+        "reklamo",
+        "relativa",
+        "rememori",
+        "renkonti",
+        "reorganizado",
+        "reprezenti",
+        "respondi",
+        "retumilo",
+        "reuzebla",
+        "revidi",
+        "rezulti",
+        "rialo",
+        "ribeli",
+        "ricevi",
+        "ridiga",
+        "rifuginto",
+        "rigardi",
+        "rikolti",
+        "rilati",
+        "rimarki",
+        "rinocero",
+        "ripozi",
+        "riski",
+        "ritmo",
+        "rivero",
+        "rizokampo",
+        "roboto",
+        "rododendro",
+        "rojo",
+        "rokmuziko",
+        "rolvorto",
+        "romantika",
+        "ronroni",
+        "rosino",
+        "rotondo",
+        "rovero",
+        "rozeto",
+        "rubando",
+        "rudimenta",
+        "rufa",
+        "rugbeo",
+        "ruino",
+        "ruleto",
+        "rumoro",
+        "runo",
+        "rupio",
+        "rura",
+        "rustimuna",
+        "ruzulo",
+        "sabato",
+        "sadismo",
+        "safario",
+        "sagaca",
+        "sakfluto",
+        "salti",
+        "samtage",
+        "sandalo",
+        "sapejo",
+        "sarongo",
+        "satelito",
+        "savano",
+        "sbiro",
+        "sciado",
+        "seanco",
+        "sebo",
+        "sedativo",
+        "segligno",
+        "sekretario",
+        "selektiva",
+        "semajno",
+        "senpeza",
+        "separeo",
+        "servilo",
+        "sesangulo",
+        "setli",
+        "seurigi",
+        "severa",
+        "sezono",
+        "sfagno",
+        "sfero",
+        "sfinkso",
+        "siatempe",
+        "siblado",
+        "sidejo",
+        "siesto",
+        "sifono",
+        "signalo",
+        "siklo",
+        "silenti",
+        "simpla",
+        "sinjoro",
+        "siropo",
+        "sistemo",
+        "situacio",
+        "siverto",
+        "sizifa",
+        "skatolo",
+        "skemo",
+        "skianto",
+        "sklavo",
+        "skorpio",
+        "skribisto",
+        "skulpti",
+        "skvamo",
+        "slango",
+        "sledeto",
+        "sliparo",
+        "smeraldo",
+        "smirgi",
+        "smokingo",
+        "smuto",
+        "snoba",
+        "snufegi",
+        "sobra",
+        "sociano",
+        "sodakvo",
+        "sofo",
+        "soifi",
+        "sojlo",
+        "soklo",
+        "soldato",
+        "somero",
+        "sonilo",
+        "sopiri",
+        "sorto",
+        "soulo",
+        "soveto",
+        "sparkado",
+        "speciala",
+        "spiri",
+        "splito",
+        "sporto",
+        "sprita",
+        "spuro",
+        "stabila",
+        "stelfiguro",
+        "stimulo",
+        "stomako",
+        "strato",
+        "studanto",
+        "subgrupo",
+        "suden",
+        "suferanta",
+        "sugesti",
+        "suito",
+        "sukero",
+        "sulko",
+        "sume",
+        "sunlumo",
+        "super",
+        "surskribeto",
+        "suspekti",
+        "suturo",
+        "svati",
+        "svenfali",
+        "svingi",
+        "svopo",
+        "tabako",
+        "taglumo",
+        "tajloro",
+        "taksimetro",
+        "talento",
+        "tamen",
+        "tanko",
+        "taoismo",
+        "tapioko",
+        "tarifo",
+        "tasko",
+        "tatui",
+        "taverno",
+        "teatro",
+        "tedlaboro",
+        "tegmento",
+        "tehoro",
+        "teknika",
+        "telefono",
+        "tempo",
+        "tenisejo",
+        "teorie",
+        "teraso",
+        "testudo",
+        "tetablo",
+        "teujo",
+        "tezo",
+        "tialo",
+        "tibio",
+        "tielnomata",
+        "tifono",
+        "tigro",
+        "tikli",
+        "timida",
+        "tinkturo",
+        "tiom",
+        "tiparo",
+        "tirkesto",
+        "titolo",
+        "tiutempe",
+        "tizano",
+        "tobogano",
+        "tofeo",
+        "togo",
+        "toksa",
+        "tolerema",
+        "tombolo",
+        "tondri",
+        "topografio",
+        "tordeti",
+        "tosti",
+        "totalo",
+        "traduko",
+        "tredi",
+        "triangulo",
+        "tropika",
+        "trumpeto",
+        "tualeto",
+        "tubisto",
+        "tufgrebo",
+        "tuja",
+        "tukano",
+        "tulipo",
+        "tumulto",
+        "tunelo",
+        "turisto",
+        "tusi",
+        "tutmonda",
+        "tvisto",
+        "udono",
+        "uesto",
+        "ukazo",
+        "ukelelo",
+        "ulcero",
+        "ulmo",
+        "ultimato",
+        "ululi",
+        "umbiliko",
+        "unco",
+        "ungego",
+        "uniformo",
+        "unkti",
+        "unukolora",
+        "uragano",
+        "urbano",
+        "uretro",
+        "urino",
+        "ursido",
+        "uskleco",
+        "usonigi",
+        "utero",
+        "utila",
+        "utopia",
+        "uverturo",
+        "uzadi",
+        "uzeblo",
+        "uzino",
+        "uzkutimo",
+        "uzofini",
+        "uzurpi",
+        "uzvaloro",
+        "vadejo",
+        "vafleto",
+        "vagono",
+        "vahabismo",
+        "vajco",
+        "vakcino",
+        "valoro",
+        "vampiro",
+        "vangharoj",
+        "vaporo",
+        "varma",
+        "vasta",
+        "vato",
+        "vazaro",
+        "veaspekta",
+        "vedismo",
+        "vegetalo",
+        "vehiklo",
+        "vejno",
+        "vekita",
+        "velstango",
+        "vemieno",
+        "vendi",
+        "vepro",
+        "verando",
+        "vespero",
+        "veturi",
+        "veziko",
+        "viando",
+        "vibri",
+        "vico",
+        "videbla",
+        "vifio",
+        "vigla",
+        "viktimo",
+        "vila",
+        "vimeno",
+        "vintro",
+        "violo",
+        "vippuno",
+        "virtuala",
+        "viskoza",
+        "vitro",
+        "viveca",
+        "viziti",
+        "vobli",
+        "vodko",
+        "vojeto",
+        "vokegi",
+        "volbo",
+        "vomema",
+        "vono",
+        "vortaro",
+        "vosto",
+        "voti",
+        "vrako",
+        "vringi",
+        "vualo",
+        "vulkano",
+        "vundo",
+        "vuvuzelo",
+        "zamenhofa",
+        "zapi",
+        "zebro",
+        "zefiro",
+        "zeloto",
+        "zenismo",
+        "zeolito",
+        "zepelino",
+        "zeto",
+        "zigzagi",
+        "zinko",
+        "zipo",
+        "zirkonio",
+        "zodiako",
+        "zoeto",
+        "zombio",
+        "zono",
+        "zoologio",
+        "zorgi",
+        "zukino",
+        "zumilo"
+      ]
+    },
+    lojban: {
+      prefix: 4,
+      words: [
+        "backi",
+        "bacru",
+        "badna",
+        "badri",
+        "bajra",
+        "bakfu",
+        "bakni",
+        "bakri",
+        "baktu",
+        "balji",
+        "balni",
+        "balre",
+        "balvi",
+        "bambu",
+        "bancu",
+        "bandu",
+        "banfi",
+        "bangu",
+        "banli",
+        "banro",
+        "banxa",
+        "banzu",
+        "bapli",
+        "barda",
+        "bargu",
+        "barja",
+        "barna",
+        "bartu",
+        "basfa",
+        "basna",
+        "basti",
+        "batci",
+        "batke",
+        "bavmi",
+        "baxso",
+        "bebna",
+        "bekpi",
+        "bemro",
+        "bende",
+        "bengo",
+        "benji",
+        "benre",
+        "benzo",
+        "bergu",
+        "bersa",
+        "berti",
+        "besna",
+        "besto",
+        "betfu",
+        "betri",
+        "bevri",
+        "bidju",
+        "bifce",
+        "bikla",
+        "bilga",
+        "bilma",
+        "bilni",
+        "bindo",
+        "binra",
+        "binxo",
+        "birje",
+        "birka",
+        "birti",
+        "bisli",
+        "bitmu",
+        "bitni",
+        "blabi",
+        "blaci",
+        "blanu",
+        "bliku",
+        "bloti",
+        "bolci",
+        "bongu",
+        "boske",
+        "botpi",
+        "boxfo",
+        "boxna",
+        "bradi",
+        "brano",
+        "bratu",
+        "brazo",
+        "bredi",
+        "bridi",
+        "brife",
+        "briju",
+        "brito",
+        "brivo",
+        "broda",
+        "bruna",
+        "budjo",
+        "bukpu",
+        "bumru",
+        "bunda",
+        "bunre",
+        "burcu",
+        "burna",
+        "cabna",
+        "cabra",
+        "cacra",
+        "cadga",
+        "cadzu",
+        "cafne",
+        "cagna",
+        "cakla",
+        "calku",
+        "calse",
+        "canci",
+        "cando",
+        "cange",
+        "canja",
+        "canko",
+        "canlu",
+        "canpa",
+        "canre",
+        "canti",
+        "carce",
+        "carfu",
+        "carmi",
+        "carna",
+        "cartu",
+        "carvi",
+        "casnu",
+        "catke",
+        "catlu",
+        "catni",
+        "catra",
+        "caxno",
+        "cecla",
+        "cecmu",
+        "cedra",
+        "cenba",
+        "censa",
+        "centi",
+        "cerda",
+        "cerni",
+        "certu",
+        "cevni",
+        "cfale",
+        "cfari",
+        "cfika",
+        "cfila",
+        "cfine",
+        "cfipu",
+        "ciblu",
+        "cicna",
+        "cidja",
+        "cidni",
+        "cidro",
+        "cifnu",
+        "cigla",
+        "cikna",
+        "cikre",
+        "ciksi",
+        "cilce",
+        "cilfu",
+        "cilmo",
+        "cilre",
+        "cilta",
+        "cimde",
+        "cimni",
+        "cinba",
+        "cindu",
+        "cinfo",
+        "cinje",
+        "cinki",
+        "cinla",
+        "cinmo",
+        "cinri",
+        "cinse",
+        "cinta",
+        "cinza",
+        "cipni",
+        "cipra",
+        "cirko",
+        "cirla",
+        "ciska",
+        "cisma",
+        "cisni",
+        "ciste",
+        "citka",
+        "citno",
+        "citri",
+        "citsi",
+        "civla",
+        "cizra",
+        "ckabu",
+        "ckafi",
+        "ckaji",
+        "ckana",
+        "ckape",
+        "ckasu",
+        "ckeji",
+        "ckiku",
+        "ckilu",
+        "ckini",
+        "ckire",
+        "ckule",
+        "ckunu",
+        "cladu",
+        "clani",
+        "claxu",
+        "cletu",
+        "clika",
+        "clinu",
+        "clira",
+        "clite",
+        "cliva",
+        "clupa",
+        "cmaci",
+        "cmalu",
+        "cmana",
+        "cmavo",
+        "cmene",
+        "cmeta",
+        "cmevo",
+        "cmila",
+        "cmima",
+        "cmoni",
+        "cnano",
+        "cnebo",
+        "cnemu",
+        "cnici",
+        "cnino",
+        "cnisa",
+        "cnita",
+        "cokcu",
+        "condi",
+        "conka",
+        "corci",
+        "cortu",
+        "cpacu",
+        "cpana",
+        "cpare",
+        "cpedu",
+        "cpina",
+        "cradi",
+        "crane",
+        "creka",
+        "crepu",
+        "cribe",
+        "crida",
+        "crino",
+        "cripu",
+        "crisa",
+        "critu",
+        "ctaru",
+        "ctebi",
+        "cteki",
+        "ctile",
+        "ctino",
+        "ctuca",
+        "cukla",
+        "cukre",
+        "cukta",
+        "culno",
+        "cumki",
+        "cumla",
+        "cunmi",
+        "cunso",
+        "cuntu",
+        "cupra",
+        "curmi",
+        "curnu",
+        "curve",
+        "cusku",
+        "cusna",
+        "cutci",
+        "cutne",
+        "cuxna",
+        "dacru",
+        "dacti",
+        "dadjo",
+        "dakfu",
+        "dakli",
+        "damba",
+        "damri",
+        "dandu",
+        "danfu",
+        "danlu",
+        "danmo",
+        "danre",
+        "dansu",
+        "danti",
+        "daplu",
+        "dapma",
+        "darca",
+        "dargu",
+        "darlu",
+        "darno",
+        "darsi",
+        "darxi",
+        "daski",
+        "dasni",
+        "daspo",
+        "dasri",
+        "datka",
+        "datni",
+        "datro",
+        "decti",
+        "degji",
+        "dejni",
+        "dekpu",
+        "dekto",
+        "delno",
+        "dembi",
+        "denci",
+        "denmi",
+        "denpa",
+        "dertu",
+        "derxi",
+        "desku",
+        "detri",
+        "dicma",
+        "dicra",
+        "didni",
+        "digno",
+        "dikca",
+        "diklo",
+        "dikni",
+        "dilcu",
+        "dilma",
+        "dilnu",
+        "dimna",
+        "dindi",
+        "dinju",
+        "dinko",
+        "dinso",
+        "dirba",
+        "dirce",
+        "dirgo",
+        "disko",
+        "ditcu",
+        "divzi",
+        "dizlo",
+        "djacu",
+        "djedi",
+        "djica",
+        "djine",
+        "djuno",
+        "donri",
+        "dotco",
+        "draci",
+        "drani",
+        "drata",
+        "drudi",
+        "dugri",
+        "dukse",
+        "dukti",
+        "dunda",
+        "dunja",
+        "dunku",
+        "dunli",
+        "dunra",
+        "dutso",
+        "dzena",
+        "dzipo",
+        "facki",
+        "fadni",
+        "fagri",
+        "falnu",
+        "famti",
+        "fancu",
+        "fange",
+        "fanmo",
+        "fanri",
+        "fanta",
+        "fanva",
+        "fanza",
+        "fapro",
+        "farka",
+        "farlu",
+        "farna",
+        "farvi",
+        "fasnu",
+        "fatci",
+        "fatne",
+        "fatri",
+        "febvi",
+        "fegli",
+        "femti",
+        "fendi",
+        "fengu",
+        "fenki",
+        "fenra",
+        "fenso",
+        "fepni",
+        "fepri",
+        "ferti",
+        "festi",
+        "fetsi",
+        "figre",
+        "filso",
+        "finpe",
+        "finti",
+        "firca",
+        "fisli",
+        "fizbu",
+        "flaci",
+        "flalu",
+        "flani",
+        "flecu",
+        "flese",
+        "fliba",
+        "flira",
+        "foldi",
+        "fonmo",
+        "fonxa",
+        "forca",
+        "forse",
+        "fraso",
+        "frati",
+        "fraxu",
+        "frica",
+        "friko",
+        "frili",
+        "frinu",
+        "friti",
+        "frumu",
+        "fukpi",
+        "fulta",
+        "funca",
+        "fusra",
+        "fuzme",
+        "gacri",
+        "gadri",
+        "galfi",
+        "galtu",
+        "galxe",
+        "ganlo",
+        "ganra",
+        "ganse",
+        "ganti",
+        "ganxo",
+        "ganzu",
+        "gapci",
+        "gapru",
+        "garna",
+        "gasnu",
+        "gaspo",
+        "gasta",
+        "genja",
+        "gento",
+        "genxu",
+        "gerku",
+        "gerna",
+        "gidva",
+        "gigdo",
+        "ginka",
+        "girzu",
+        "gismu",
+        "glare",
+        "gleki",
+        "gletu",
+        "glico",
+        "glife",
+        "glosa",
+        "gluta",
+        "gocti",
+        "gomsi",
+        "gotro",
+        "gradu",
+        "grafu",
+        "grake",
+        "grana",
+        "grasu",
+        "grava",
+        "greku",
+        "grusi",
+        "grute",
+        "gubni",
+        "gugde",
+        "gugle",
+        "gumri",
+        "gundi",
+        "gunka",
+        "gunma",
+        "gunro",
+        "gunse",
+        "gunta",
+        "gurni",
+        "guska",
+        "gusni",
+        "gusta",
+        "gutci",
+        "gutra",
+        "guzme",
+        "jabre",
+        "jadni",
+        "jakne",
+        "jalge",
+        "jalna",
+        "jalra",
+        "jamfu",
+        "jamna",
+        "janbe",
+        "janco",
+        "janli",
+        "jansu",
+        "janta",
+        "jarbu",
+        "jarco",
+        "jarki",
+        "jaspu",
+        "jatna",
+        "javni",
+        "jbama",
+        "jbari",
+        "jbena",
+        "jbera",
+        "jbini",
+        "jdari",
+        "jdice",
+        "jdika",
+        "jdima",
+        "jdini",
+        "jduli",
+        "jecta",
+        "jeftu",
+        "jegvo",
+        "jelca",
+        "jemna",
+        "jenca",
+        "jendu",
+        "jenmi",
+        "jensi",
+        "jerna",
+        "jersi",
+        "jerxo",
+        "jesni",
+        "jetce",
+        "jetnu",
+        "jgalu",
+        "jganu",
+        "jgari",
+        "jgena",
+        "jgina",
+        "jgira",
+        "jgita",
+        "jibni",
+        "jibri",
+        "jicla",
+        "jicmu",
+        "jijnu",
+        "jikca",
+        "jikfi",
+        "jikni",
+        "jikru",
+        "jilka",
+        "jilra",
+        "jimca",
+        "jimpe",
+        "jimte",
+        "jinci",
+        "jinda",
+        "jinga",
+        "jinku",
+        "jinme",
+        "jinru",
+        "jinsa",
+        "jinto",
+        "jinvi",
+        "jinzi",
+        "jipci",
+        "jipno",
+        "jirna",
+        "jisra",
+        "jitfa",
+        "jitro",
+        "jivbu",
+        "jivna",
+        "jmaji",
+        "jmifa",
+        "jmina",
+        "jmive",
+        "jonse",
+        "jordo",
+        "jorne",
+        "jubme",
+        "judri",
+        "jufra",
+        "jukni",
+        "jukpa",
+        "julne",
+        "julro",
+        "jundi",
+        "jungo",
+        "junla",
+        "junri",
+        "junta",
+        "jurme",
+        "jursa",
+        "jutsi",
+        "juxre",
+        "jvinu",
+        "jviso",
+        "kabri",
+        "kacma",
+        "kadno",
+        "kafke",
+        "kagni",
+        "kajde",
+        "kajna",
+        "kakne",
+        "kakpa",
+        "kalci",
+        "kalri",
+        "kalsa",
+        "kalte",
+        "kamju",
+        "kamni",
+        "kampu",
+        "kamre",
+        "kanba",
+        "kancu",
+        "kandi",
+        "kanji",
+        "kanla",
+        "kanpe",
+        "kanro",
+        "kansa",
+        "kantu",
+        "kanxe",
+        "karbi",
+        "karce",
+        "karda",
+        "kargu",
+        "karli",
+        "karni",
+        "katci",
+        "katna",
+        "kavbu",
+        "kazra",
+        "kecti",
+        "kekli",
+        "kelci",
+        "kelvo",
+        "kenka",
+        "kenra",
+        "kensa",
+        "kerfa",
+        "kerlo",
+        "kesri",
+        "ketco",
+        "ketsu",
+        "kevna",
+        "kibro",
+        "kicne",
+        "kijno",
+        "kilto",
+        "kinda",
+        "kinli",
+        "kisto",
+        "klaji",
+        "klaku",
+        "klama",
+        "klani",
+        "klesi",
+        "kliki",
+        "klina",
+        "kliru",
+        "kliti",
+        "klupe",
+        "kluza",
+        "kobli",
+        "kogno",
+        "kojna",
+        "kokso",
+        "kolme",
+        "komcu",
+        "konju",
+        "korbi",
+        "korcu",
+        "korka",
+        "korvo",
+        "kosmu",
+        "kosta",
+        "krali",
+        "kramu",
+        "krasi",
+        "krati",
+        "krefu",
+        "krici",
+        "krili",
+        "krinu",
+        "krixa",
+        "kruca",
+        "kruji",
+        "kruvi",
+        "kubli",
+        "kucli",
+        "kufra",
+        "kukte",
+        "kulnu",
+        "kumfa",
+        "kumte",
+        "kunra",
+        "kunti",
+        "kurfa",
+        "kurji",
+        "kurki",
+        "kuspe",
+        "kusru",
+        "labno",
+        "lacni",
+        "lacpu",
+        "lacri",
+        "ladru",
+        "lafti",
+        "lakne",
+        "lakse",
+        "laldo",
+        "lalxu",
+        "lamji",
+        "lanbi",
+        "lanci",
+        "landa",
+        "lanka",
+        "lanli",
+        "lanme",
+        "lante",
+        "lanxe",
+        "lanzu",
+        "larcu",
+        "larva",
+        "lasna",
+        "lastu",
+        "latmo",
+        "latna",
+        "lazni",
+        "lebna",
+        "lelxe",
+        "lenga",
+        "lenjo",
+        "lenku",
+        "lerci",
+        "lerfu",
+        "libjo",
+        "lidne",
+        "lifri",
+        "lijda",
+        "limfa",
+        "limna",
+        "lince",
+        "lindi",
+        "linga",
+        "linji",
+        "linsi",
+        "linto",
+        "lisri",
+        "liste",
+        "litce",
+        "litki",
+        "litru",
+        "livga",
+        "livla",
+        "logji",
+        "loglo",
+        "lojbo",
+        "loldi",
+        "lorxu",
+        "lubno",
+        "lujvo",
+        "luksi",
+        "lumci",
+        "lunbe",
+        "lunra",
+        "lunsa",
+        "luska",
+        "lusto",
+        "mabla",
+        "mabru",
+        "macnu",
+        "majga",
+        "makcu",
+        "makfa",
+        "maksi",
+        "malsi",
+        "mamta",
+        "manci",
+        "manfo",
+        "mango",
+        "manku",
+        "manri",
+        "mansa",
+        "manti",
+        "mapku",
+        "mapni",
+        "mapra",
+        "mapti",
+        "marbi",
+        "marce",
+        "marde",
+        "margu",
+        "marji",
+        "marna",
+        "marxa",
+        "masno",
+        "masti",
+        "matci",
+        "matli",
+        "matne",
+        "matra",
+        "mavji",
+        "maxri",
+        "mebri",
+        "megdo",
+        "mekso",
+        "melbi",
+        "meljo",
+        "melmi",
+        "menli",
+        "menre",
+        "mensi",
+        "mentu",
+        "merko",
+        "merli",
+        "metfo",
+        "mexno",
+        "midju",
+        "mifra",
+        "mikce",
+        "mikri",
+        "milti",
+        "milxe",
+        "minde",
+        "minji",
+        "minli",
+        "minra",
+        "mintu",
+        "mipri",
+        "mirli",
+        "misno",
+        "misro",
+        "mitre",
+        "mixre",
+        "mlana",
+        "mlatu",
+        "mleca",
+        "mledi",
+        "mluni",
+        "mogle",
+        "mokca",
+        "moklu",
+        "molki",
+        "molro",
+        "morji",
+        "morko",
+        "morna",
+        "morsi",
+        "mosra",
+        "mraji",
+        "mrilu",
+        "mruli",
+        "mucti",
+        "mudri",
+        "mugle",
+        "mukti",
+        "mulno",
+        "munje",
+        "mupli",
+        "murse",
+        "murta",
+        "muslo",
+        "mutce",
+        "muvdu",
+        "muzga",
+        "nabmi",
+        "nakni",
+        "nalci",
+        "namcu",
+        "nanba",
+        "nanca",
+        "nandu",
+        "nanla",
+        "nanmu",
+        "nanvi",
+        "narge",
+        "narju",
+        "natfe",
+        "natmi",
+        "natsi",
+        "navni",
+        "naxle",
+        "nazbi",
+        "nejni",
+        "nelci",
+        "nenri",
+        "nerde",
+        "nibli",
+        "nicfa",
+        "nicte",
+        "nikle",
+        "nilce",
+        "nimre",
+        "ninja",
+        "ninmu",
+        "nirna",
+        "nitcu",
+        "nivji",
+        "nixli",
+        "nobli",
+        "norgo",
+        "notci",
+        "nudle",
+        "nukni",
+        "nunmu",
+        "nupre",
+        "nurma",
+        "nusna",
+        "nutka",
+        "nutli",
+        "nuzba",
+        "nuzlo",
+        "pacna",
+        "pagbu",
+        "pagre",
+        "pajni",
+        "palci",
+        "palku",
+        "palma",
+        "palne",
+        "palpi",
+        "palta",
+        "pambe",
+        "pamga",
+        "panci",
+        "pandi",
+        "panje",
+        "panka",
+        "panlo",
+        "panpi",
+        "panra",
+        "pante",
+        "panzi",
+        "papri",
+        "parbi",
+        "pardu",
+        "parji",
+        "pastu",
+        "patfu",
+        "patlu",
+        "patxu",
+        "paznu",
+        "pelji",
+        "pelxu",
+        "pemci",
+        "penbi",
+        "pencu",
+        "pendo",
+        "penmi",
+        "pensi",
+        "pentu",
+        "perli",
+        "pesxu",
+        "petso",
+        "pevna",
+        "pezli",
+        "picti",
+        "pijne",
+        "pikci",
+        "pikta",
+        "pilda",
+        "pilji",
+        "pilka",
+        "pilno",
+        "pimlu",
+        "pinca",
+        "pindi",
+        "pinfu",
+        "pinji",
+        "pinka",
+        "pinsi",
+        "pinta",
+        "pinxe",
+        "pipno",
+        "pixra",
+        "plana",
+        "platu",
+        "pleji",
+        "plibu",
+        "plini",
+        "plipe",
+        "plise",
+        "plita",
+        "plixa",
+        "pluja",
+        "pluka",
+        "pluta",
+        "pocli",
+        "polje",
+        "polno",
+        "ponjo",
+        "ponse",
+        "poplu",
+        "porpi",
+        "porsi",
+        "porto",
+        "prali",
+        "prami",
+        "prane",
+        "preja",
+        "prenu",
+        "preri",
+        "preti",
+        "prije",
+        "prina",
+        "pritu",
+        "proga",
+        "prosa",
+        "pruce",
+        "pruni",
+        "pruri",
+        "pruxi",
+        "pulce",
+        "pulji",
+        "pulni",
+        "punji",
+        "punli",
+        "pupsu",
+        "purci",
+        "purdi",
+        "purmo",
+        "racli",
+        "ractu",
+        "radno",
+        "rafsi",
+        "ragbi",
+        "ragve",
+        "rakle",
+        "rakso",
+        "raktu",
+        "ralci",
+        "ralju",
+        "ralte",
+        "randa",
+        "rango",
+        "ranji",
+        "ranmi",
+        "ransu",
+        "ranti",
+        "ranxi",
+        "rapli",
+        "rarna",
+        "ratcu",
+        "ratni",
+        "rebla",
+        "rectu",
+        "rekto",
+        "remna",
+        "renro",
+        "renvi",
+        "respa",
+        "rexsa",
+        "ricfu",
+        "rigni",
+        "rijno",
+        "rilti",
+        "rimni",
+        "rinci",
+        "rindo",
+        "rinju",
+        "rinka",
+        "rinsa",
+        "rirci",
+        "rirni",
+        "rirxe",
+        "rismi",
+        "risna",
+        "ritli",
+        "rivbi",
+        "rokci",
+        "romge",
+        "romlo",
+        "ronte",
+        "ropno",
+        "rorci",
+        "rotsu",
+        "rozgu",
+        "ruble",
+        "rufsu",
+        "runme",
+        "runta",
+        "rupnu",
+        "rusko",
+        "rutni",
+        "sabji",
+        "sabnu",
+        "sacki",
+        "saclu",
+        "sadjo",
+        "sakci",
+        "sakli",
+        "sakta",
+        "salci",
+        "salpo",
+        "salri",
+        "salta",
+        "samcu",
+        "sampu",
+        "sanbu",
+        "sance",
+        "sanga",
+        "sanji",
+        "sanli",
+        "sanmi",
+        "sanso",
+        "santa",
+        "sarcu",
+        "sarji",
+        "sarlu",
+        "sarni",
+        "sarxe",
+        "saske",
+        "satci",
+        "satre",
+        "savru",
+        "sazri",
+        "sefsi",
+        "sefta",
+        "sekre",
+        "selci",
+        "selfu",
+        "semto",
+        "senci",
+        "sengi",
+        "senpi",
+        "senta",
+        "senva",
+        "sepli",
+        "serti",
+        "sesre",
+        "setca",
+        "sevzi",
+        "sfani",
+        "sfasa",
+        "sfofa",
+        "sfubu",
+        "sibli",
+        "siclu",
+        "sicni",
+        "sicpi",
+        "sidbo",
+        "sidju",
+        "sigja",
+        "sigma",
+        "sikta",
+        "silka",
+        "silna",
+        "simlu",
+        "simsa",
+        "simxu",
+        "since",
+        "sinma",
+        "sinso",
+        "sinxa",
+        "sipna",
+        "sirji",
+        "sirxo",
+        "sisku",
+        "sisti",
+        "sitna",
+        "sivni",
+        "skaci",
+        "skami",
+        "skapi",
+        "skari",
+        "skicu",
+        "skiji",
+        "skina",
+        "skori",
+        "skoto",
+        "skuba",
+        "skuro",
+        "slabu",
+        "slaka",
+        "slami",
+        "slanu",
+        "slari",
+        "slasi",
+        "sligu",
+        "slilu",
+        "sliri",
+        "slovo",
+        "sluji",
+        "sluni",
+        "smacu",
+        "smadi",
+        "smaji",
+        "smaka",
+        "smani",
+        "smela",
+        "smoka",
+        "smuci",
+        "smuni",
+        "smusu",
+        "snada",
+        "snanu",
+        "snidu",
+        "snime",
+        "snipa",
+        "snuji",
+        "snura",
+        "snuti",
+        "sobde",
+        "sodna",
+        "sodva",
+        "softo",
+        "solji",
+        "solri",
+        "sombo",
+        "sonci",
+        "sorcu",
+        "sorgu",
+        "sorni",
+        "sorta",
+        "sovda",
+        "spaji",
+        "spali",
+        "spano",
+        "spati",
+        "speni",
+        "spero",
+        "spisa",
+        "spita",
+        "spofu",
+        "spoja",
+        "spuda",
+        "sputu",
+        "sraji",
+        "sraku",
+        "sralo",
+        "srana",
+        "srasu",
+        "srera",
+        "srito",
+        "sruma",
+        "sruri",
+        "stace",
+        "stagi",
+        "staku",
+        "stali",
+        "stani",
+        "stapa",
+        "stasu",
+        "stati",
+        "steba",
+        "steci",
+        "stedu",
+        "stela",
+        "stero",
+        "stici",
+        "stidi",
+        "stika",
+        "stizu",
+        "stodi",
+        "stuna",
+        "stura",
+        "stuzi",
+        "sucta",
+        "sudga",
+        "sufti",
+        "suksa",
+        "sumji",
+        "sumne",
+        "sumti",
+        "sunga",
+        "sunla",
+        "surla",
+        "sutra",
+        "tabno",
+        "tabra",
+        "tadji",
+        "tadni",
+        "tagji",
+        "taksi",
+        "talsa",
+        "tamca",
+        "tamji",
+        "tamne",
+        "tanbo",
+        "tance",
+        "tanjo",
+        "tanko",
+        "tanru",
+        "tansi",
+        "tanxe",
+        "tapla",
+        "tarbi",
+        "tarci",
+        "tarla",
+        "tarmi",
+        "tarti",
+        "taske",
+        "tasmi",
+        "tasta",
+        "tatpi",
+        "tatru",
+        "tavla",
+        "taxfu",
+        "tcaci",
+        "tcadu",
+        "tcana",
+        "tcati",
+        "tcaxe",
+        "tcena",
+        "tcese",
+        "tcica",
+        "tcidu",
+        "tcika",
+        "tcila",
+        "tcima",
+        "tcini",
+        "tcita",
+        "temci",
+        "temse",
+        "tende",
+        "tenfa",
+        "tengu",
+        "terdi",
+        "terpa",
+        "terto",
+        "tifri",
+        "tigni",
+        "tigra",
+        "tikpa",
+        "tilju",
+        "tinbe",
+        "tinci",
+        "tinsa",
+        "tirna",
+        "tirse",
+        "tirxu",
+        "tisna",
+        "titla",
+        "tivni",
+        "tixnu",
+        "toknu",
+        "toldi",
+        "tonga",
+        "tordu",
+        "torni",
+        "torso",
+        "traji",
+        "trano",
+        "trati",
+        "trene",
+        "tricu",
+        "trina",
+        "trixe",
+        "troci",
+        "tsaba",
+        "tsali",
+        "tsani",
+        "tsapi",
+        "tsiju",
+        "tsina",
+        "tsuku",
+        "tubnu",
+        "tubra",
+        "tugni",
+        "tujli",
+        "tumla",
+        "tunba",
+        "tunka",
+        "tunlo",
+        "tunta",
+        "tuple",
+        "turko",
+        "turni",
+        "tutci",
+        "tutle",
+        "tutra",
+        "vacri",
+        "vajni",
+        "valsi",
+        "vamji",
+        "vamtu",
+        "vanbi",
+        "vanci",
+        "vanju",
+        "vasru",
+        "vasxu",
+        "vecnu",
+        "vedli",
+        "venfu",
+        "vensa",
+        "vente",
+        "vepre",
+        "verba",
+        "vibna",
+        "vidni",
+        "vidru",
+        "vifne",
+        "vikmi",
+        "viknu",
+        "vimcu",
+        "vindu",
+        "vinji",
+        "vinta",
+        "vipsi",
+        "virnu",
+        "viska",
+        "vitci",
+        "vitke",
+        "vitno",
+        "vlagi",
+        "vlile",
+        "vlina",
+        "vlipa",
+        "vofli",
+        "voksa",
+        "volve",
+        "vorme",
+        "vraga",
+        "vreji",
+        "vreta",
+        "vrici",
+        "vrude",
+        "vrusi",
+        "vubla",
+        "vujnu",
+        "vukna",
+        "vukro",
+        "xabju",
+        "xadba",
+        "xadji",
+        "xadni",
+        "xagji",
+        "xagri",
+        "xajmi",
+        "xaksu",
+        "xalbo",
+        "xalka",
+        "xalni",
+        "xamgu",
+        "xampo",
+        "xamsi",
+        "xance",
+        "xango",
+        "xanka",
+        "xanri",
+        "xansa",
+        "xanto",
+        "xarci",
+        "xarju",
+        "xarnu",
+        "xasli",
+        "xasne",
+        "xatra",
+        "xatsi",
+        "xazdo",
+        "xebni",
+        "xebro",
+        "xecto",
+        "xedja",
+        "xekri",
+        "xelso",
+        "xendo",
+        "xenru",
+        "xexso",
+        "xigzo",
+        "xindo",
+        "xinmo",
+        "xirma",
+        "xislu",
+        "xispo",
+        "xlali",
+        "xlura",
+        "xorbo",
+        "xorlo",
+        "xotli",
+        "xrabo",
+        "xrani",
+        "xriso",
+        "xrotu",
+        "xruba",
+        "xruki",
+        "xrula",
+        "xruti",
+        "xukmi",
+        "xulta",
+        "xunre",
+        "xurdo",
+        "xusra",
+        "xutla",
+        "zabna",
+        "zajba",
+        "zalvi",
+        "zanru",
+        "zarci",
+        "zargu",
+        "zasni",
+        "zasti",
+        "zbabu",
+        "zbani",
+        "zbasu",
+        "zbepi",
+        "zdani",
+        "zdile",
+        "zekri",
+        "zenba",
+        "zepti",
+        "zetro",
+        "zevla",
+        "zgadi",
+        "zgana",
+        "zgike",
+        "zifre",
+        "zinki",
+        "zirpu",
+        "zivle",
+        "zmadu",
+        "zmiku",
+        "zucna",
+        "zukte",
+        "zumri",
+        "zungi",
+        "zunle",
+        "zunti",
+        "zutse",
+        "zvati",
+        "zviki",
+        "jbobau",
+        "jbopre",
+        "karsna",
+        "cabdei",
+        "zunsna",
+        "gendra",
+        "glibau",
+        "nintadni",
+        "pavyseljirna",
+        "vlaste",
+        "selbri",
+        "latro'a",
+        "zdakemkulgu'a",
+        "mriste",
+        "selsku",
+        "fu'ivla",
+        "tolmo'i",
+        "snavei",
+        "xagmau",
+        "retsku",
+        "ckupau",
+        "skudji",
+        "smudra",
+        "prulamdei",
+        "vokta'a",
+        "tinju'i",
+        "jefyfa'o",
+        "bavlamdei",
+        "kinzga",
+        "jbocre",
+        "jbovla",
+        "xauzma",
+        "selkei",
+        "xuncku",
+        "spusku",
+        "jbogu'e",
+        "pampe'o",
+        "bripre",
+        "jbosnu",
+        "zi'evla",
+        "gimste",
+        "tolzdi",
+        "velski",
+        "samselpla",
+        "cnegau",
+        "velcki",
+        "selja'e",
+        "fasybau",
+        "zanfri",
+        "reisku",
+        "favgau",
+        "jbota'a",
+        "rejgau",
+        "malgli",
+        "zilkai",
+        "keidji",
+        "tersu'i",
+        "jbofi'e",
+        "cnima'o",
+        "mulgau",
+        "ningau",
+        "ponbau",
+        "mrobi'o",
+        "rarbau",
+        "zmanei",
+        "famyma'o",
+        "vacysai",
+        "jetmlu",
+        "jbonunsla",
+        "nunpe'i",
+        "fa'orma'o",
+        "crezenzu'e",
+        "jbojbe",
+        "cmicu'a",
+        "zilcmi",
+        "tolcando",
+        "zukcfu",
+        "depybu'i",
+        "mencre",
+        "matmau",
+        "nunctu",
+        "selma'o",
+        "titnanba",
+        "naldra",
+        "jvajvo",
+        "nunsnu",
+        "nerkla",
+        "cimjvo",
+        "muvgau",
+        "zipcpi",
+        "runbau",
+        "faumlu",
+        "terbri",
+        "balcu'e",
+        "dragau",
+        "smuvelcki",
+        "piksku",
+        "selpli",
+        "bregau",
+        "zvafa'i",
+        "ci'izra",
+        "noltruti'u",
+        "samtci",
+        "snaxa'a"
+      ]
+    },
+    english_old: {
+      prefix: 4,
+      words: [
+        "like",
+        "just",
+        "love",
+        "know",
+        "never",
+        "want",
+        "time",
+        "out",
+        "there",
+        "make",
+        "look",
+        "eye",
+        "down",
+        "only",
+        "think",
+        "heart",
+        "back",
+        "then",
+        "into",
+        "about",
+        "more",
+        "away",
+        "still",
+        "them",
+        "take",
+        "thing",
+        "even",
+        "through",
+        "long",
+        "always",
+        "world",
+        "too",
+        "friend",
+        "tell",
+        "try",
+        "hand",
+        "thought",
+        "over",
+        "here",
+        "other",
+        "need",
+        "smile",
+        "again",
+        "much",
+        "cry",
+        "been",
+        "night",
+        "ever",
+        "little",
+        "said",
+        "end",
+        "some",
+        "those",
+        "around",
+        "mind",
+        "people",
+        "girl",
+        "leave",
+        "dream",
+        "left",
+        "turn",
+        "myself",
+        "give",
+        "nothing",
+        "really",
+        "off",
+        "before",
+        "something",
+        "find",
+        "walk",
+        "wish",
+        "good",
+        "once",
+        "place",
+        "ask",
+        "stop",
+        "keep",
+        "watch",
+        "seem",
+        "everything",
+        "wait",
+        "got",
+        "yet",
+        "made",
+        "remember",
+        "start",
+        "alone",
+        "run",
+        "hope",
+        "maybe",
+        "believe",
+        "body",
+        "hate",
+        "after",
+        "close",
+        "talk",
+        "stand",
+        "own",
+        "each",
+        "hurt",
+        "help",
+        "home",
+        "god",
+        "soul",
+        "new",
+        "many",
+        "two",
+        "inside",
+        "should",
+        "true",
+        "first",
+        "fear",
+        "mean",
+        "better",
+        "play",
+        "another",
+        "gone",
+        "change",
+        "use",
+        "wonder",
+        "someone",
+        "hair",
+        "cold",
+        "open",
+        "best",
+        "any",
+        "behind",
+        "happen",
+        "water",
+        "dark",
+        "laugh",
+        "stay",
+        "forever",
+        "name",
+        "work",
+        "show",
+        "sky",
+        "break",
+        "came",
+        "deep",
+        "door",
+        "put",
+        "black",
+        "together",
+        "upon",
+        "happy",
+        "such",
+        "great",
+        "white",
+        "matter",
+        "fill",
+        "past",
+        "please",
+        "burn",
+        "cause",
+        "enough",
+        "touch",
+        "moment",
+        "soon",
+        "voice",
+        "scream",
+        "anything",
+        "stare",
+        "sound",
+        "red",
+        "everyone",
+        "hide",
+        "kiss",
+        "truth",
+        "death",
+        "beautiful",
+        "mine",
+        "blood",
+        "broken",
+        "very",
+        "pass",
+        "next",
+        "forget",
+        "tree",
+        "wrong",
+        "air",
+        "mother",
+        "understand",
+        "lip",
+        "hit",
+        "wall",
+        "memory",
+        "sleep",
+        "free",
+        "high",
+        "realize",
+        "school",
+        "might",
+        "skin",
+        "sweet",
+        "perfect",
+        "blue",
+        "kill",
+        "breath",
+        "dance",
+        "against",
+        "fly",
+        "between",
+        "grow",
+        "strong",
+        "under",
+        "listen",
+        "bring",
+        "sometimes",
+        "speak",
+        "pull",
+        "person",
+        "become",
+        "family",
+        "begin",
+        "ground",
+        "real",
+        "small",
+        "father",
+        "sure",
+        "feet",
+        "rest",
+        "young",
+        "finally",
+        "land",
+        "across",
+        "today",
+        "different",
+        "guy",
+        "line",
+        "fire",
+        "reason",
+        "reach",
+        "second",
+        "slowly",
+        "write",
+        "eat",
+        "smell",
+        "mouth",
+        "step",
+        "learn",
+        "three",
+        "floor",
+        "promise",
+        "breathe",
+        "darkness",
+        "push",
+        "earth",
+        "guess",
+        "save",
+        "song",
+        "above",
+        "along",
+        "both",
+        "color",
+        "house",
+        "almost",
+        "sorry",
+        "anymore",
+        "brother",
+        "okay",
+        "dear",
+        "game",
+        "fade",
+        "already",
+        "apart",
+        "warm",
+        "beauty",
+        "heard",
+        "notice",
+        "question",
+        "shine",
+        "began",
+        "piece",
+        "whole",
+        "shadow",
+        "secret",
+        "street",
+        "within",
+        "finger",
+        "point",
+        "morning",
+        "whisper",
+        "child",
+        "moon",
+        "green",
+        "story",
+        "glass",
+        "kid",
+        "silence",
+        "since",
+        "soft",
+        "yourself",
+        "empty",
+        "shall",
+        "angel",
+        "answer",
+        "baby",
+        "bright",
+        "dad",
+        "path",
+        "worry",
+        "hour",
+        "drop",
+        "follow",
+        "power",
+        "war",
+        "half",
+        "flow",
+        "heaven",
+        "act",
+        "chance",
+        "fact",
+        "least",
+        "tired",
+        "children",
+        "near",
+        "quite",
+        "afraid",
+        "rise",
+        "sea",
+        "taste",
+        "window",
+        "cover",
+        "nice",
+        "trust",
+        "lot",
+        "sad",
+        "cool",
+        "force",
+        "peace",
+        "return",
+        "blind",
+        "easy",
+        "ready",
+        "roll",
+        "rose",
+        "drive",
+        "held",
+        "music",
+        "beneath",
+        "hang",
+        "mom",
+        "paint",
+        "emotion",
+        "quiet",
+        "clear",
+        "cloud",
+        "few",
+        "pretty",
+        "bird",
+        "outside",
+        "paper",
+        "picture",
+        "front",
+        "rock",
+        "simple",
+        "anyone",
+        "meant",
+        "reality",
+        "road",
+        "sense",
+        "waste",
+        "bit",
+        "leaf",
+        "thank",
+        "happiness",
+        "meet",
+        "men",
+        "smoke",
+        "truly",
+        "decide",
+        "self",
+        "age",
+        "book",
+        "form",
+        "alive",
+        "carry",
+        "escape",
+        "damn",
+        "instead",
+        "able",
+        "ice",
+        "minute",
+        "throw",
+        "catch",
+        "leg",
+        "ring",
+        "course",
+        "goodbye",
+        "lead",
+        "poem",
+        "sick",
+        "corner",
+        "desire",
+        "known",
+        "problem",
+        "remind",
+        "shoulder",
+        "suppose",
+        "toward",
+        "wave",
+        "drink",
+        "jump",
+        "woman",
+        "pretend",
+        "sister",
+        "week",
+        "human",
+        "joy",
+        "crack",
+        "grey",
+        "pray",
+        "surprise",
+        "dry",
+        "knee",
+        "less",
+        "search",
+        "bleed",
+        "caught",
+        "clean",
+        "embrace",
+        "future",
+        "king",
+        "son",
+        "sorrow",
+        "chest",
+        "hug",
+        "remain",
+        "sat",
+        "worth",
+        "blow",
+        "daddy",
+        "final",
+        "parent",
+        "tight",
+        "also",
+        "create",
+        "lonely",
+        "safe",
+        "cross",
+        "dress",
+        "evil",
+        "silent",
+        "bone",
+        "fate",
+        "perhaps",
+        "anger",
+        "class",
+        "scar",
+        "snow",
+        "tiny",
+        "tonight",
+        "continue",
+        "control",
+        "dog",
+        "edge",
+        "mirror",
+        "month",
+        "suddenly",
+        "comfort",
+        "given",
+        "loud",
+        "quickly",
+        "gaze",
+        "plan",
+        "rush",
+        "stone",
+        "town",
+        "battle",
+        "ignore",
+        "spirit",
+        "stood",
+        "stupid",
+        "yours",
+        "brown",
+        "build",
+        "dust",
+        "hey",
+        "kept",
+        "pay",
+        "phone",
+        "twist",
+        "although",
+        "ball",
+        "beyond",
+        "hidden",
+        "nose",
+        "taken",
+        "fail",
+        "float",
+        "pure",
+        "somehow",
+        "wash",
+        "wrap",
+        "angry",
+        "cheek",
+        "creature",
+        "forgotten",
+        "heat",
+        "rip",
+        "single",
+        "space",
+        "special",
+        "weak",
+        "whatever",
+        "yell",
+        "anyway",
+        "blame",
+        "job",
+        "choose",
+        "country",
+        "curse",
+        "drift",
+        "echo",
+        "figure",
+        "grew",
+        "laughter",
+        "neck",
+        "suffer",
+        "worse",
+        "yeah",
+        "disappear",
+        "foot",
+        "forward",
+        "knife",
+        "mess",
+        "somewhere",
+        "stomach",
+        "storm",
+        "beg",
+        "idea",
+        "lift",
+        "offer",
+        "breeze",
+        "field",
+        "five",
+        "often",
+        "simply",
+        "stuck",
+        "win",
+        "allow",
+        "confuse",
+        "enjoy",
+        "except",
+        "flower",
+        "seek",
+        "strength",
+        "calm",
+        "grin",
+        "gun",
+        "heavy",
+        "hill",
+        "large",
+        "ocean",
+        "shoe",
+        "sigh",
+        "straight",
+        "summer",
+        "tongue",
+        "accept",
+        "crazy",
+        "everyday",
+        "exist",
+        "grass",
+        "mistake",
+        "sent",
+        "shut",
+        "surround",
+        "table",
+        "ache",
+        "brain",
+        "destroy",
+        "heal",
+        "nature",
+        "shout",
+        "sign",
+        "stain",
+        "choice",
+        "doubt",
+        "glance",
+        "glow",
+        "mountain",
+        "queen",
+        "stranger",
+        "throat",
+        "tomorrow",
+        "city",
+        "either",
+        "fish",
+        "flame",
+        "rather",
+        "shape",
+        "spin",
+        "spread",
+        "ash",
+        "distance",
+        "finish",
+        "image",
+        "imagine",
+        "important",
+        "nobody",
+        "shatter",
+        "warmth",
+        "became",
+        "feed",
+        "flesh",
+        "funny",
+        "lust",
+        "shirt",
+        "trouble",
+        "yellow",
+        "attention",
+        "bare",
+        "bite",
+        "money",
+        "protect",
+        "amaze",
+        "appear",
+        "born",
+        "choke",
+        "completely",
+        "daughter",
+        "fresh",
+        "friendship",
+        "gentle",
+        "probably",
+        "six",
+        "deserve",
+        "expect",
+        "grab",
+        "middle",
+        "nightmare",
+        "river",
+        "thousand",
+        "weight",
+        "worst",
+        "wound",
+        "barely",
+        "bottle",
+        "cream",
+        "regret",
+        "relationship",
+        "stick",
+        "test",
+        "crush",
+        "endless",
+        "fault",
+        "itself",
+        "rule",
+        "spill",
+        "art",
+        "circle",
+        "join",
+        "kick",
+        "mask",
+        "master",
+        "passion",
+        "quick",
+        "raise",
+        "smooth",
+        "unless",
+        "wander",
+        "actually",
+        "broke",
+        "chair",
+        "deal",
+        "favorite",
+        "gift",
+        "note",
+        "number",
+        "sweat",
+        "box",
+        "chill",
+        "clothes",
+        "lady",
+        "mark",
+        "park",
+        "poor",
+        "sadness",
+        "tie",
+        "animal",
+        "belong",
+        "brush",
+        "consume",
+        "dawn",
+        "forest",
+        "innocent",
+        "pen",
+        "pride",
+        "stream",
+        "thick",
+        "clay",
+        "complete",
+        "count",
+        "draw",
+        "faith",
+        "press",
+        "silver",
+        "struggle",
+        "surface",
+        "taught",
+        "teach",
+        "wet",
+        "bless",
+        "chase",
+        "climb",
+        "enter",
+        "letter",
+        "melt",
+        "metal",
+        "movie",
+        "stretch",
+        "swing",
+        "vision",
+        "wife",
+        "beside",
+        "crash",
+        "forgot",
+        "guide",
+        "haunt",
+        "joke",
+        "knock",
+        "plant",
+        "pour",
+        "prove",
+        "reveal",
+        "steal",
+        "stuff",
+        "trip",
+        "wood",
+        "wrist",
+        "bother",
+        "bottom",
+        "crawl",
+        "crowd",
+        "fix",
+        "forgive",
+        "frown",
+        "grace",
+        "loose",
+        "lucky",
+        "party",
+        "release",
+        "surely",
+        "survive",
+        "teacher",
+        "gently",
+        "grip",
+        "speed",
+        "suicide",
+        "travel",
+        "treat",
+        "vein",
+        "written",
+        "cage",
+        "chain",
+        "conversation",
+        "date",
+        "enemy",
+        "however",
+        "interest",
+        "million",
+        "page",
+        "pink",
+        "proud",
+        "sway",
+        "themselves",
+        "winter",
+        "church",
+        "cruel",
+        "cup",
+        "demon",
+        "experience",
+        "freedom",
+        "pair",
+        "pop",
+        "purpose",
+        "respect",
+        "shoot",
+        "softly",
+        "state",
+        "strange",
+        "bar",
+        "birth",
+        "curl",
+        "dirt",
+        "excuse",
+        "lord",
+        "lovely",
+        "monster",
+        "order",
+        "pack",
+        "pants",
+        "pool",
+        "scene",
+        "seven",
+        "shame",
+        "slide",
+        "ugly",
+        "among",
+        "blade",
+        "blonde",
+        "closet",
+        "creek",
+        "deny",
+        "drug",
+        "eternity",
+        "gain",
+        "grade",
+        "handle",
+        "key",
+        "linger",
+        "pale",
+        "prepare",
+        "swallow",
+        "swim",
+        "tremble",
+        "wheel",
+        "won",
+        "cast",
+        "cigarette",
+        "claim",
+        "college",
+        "direction",
+        "dirty",
+        "gather",
+        "ghost",
+        "hundred",
+        "loss",
+        "lung",
+        "orange",
+        "present",
+        "swear",
+        "swirl",
+        "twice",
+        "wild",
+        "bitter",
+        "blanket",
+        "doctor",
+        "everywhere",
+        "flash",
+        "grown",
+        "knowledge",
+        "numb",
+        "pressure",
+        "radio",
+        "repeat",
+        "ruin",
+        "spend",
+        "unknown",
+        "buy",
+        "clock",
+        "devil",
+        "early",
+        "false",
+        "fantasy",
+        "pound",
+        "precious",
+        "refuse",
+        "sheet",
+        "teeth",
+        "welcome",
+        "add",
+        "ahead",
+        "block",
+        "bury",
+        "caress",
+        "content",
+        "depth",
+        "despite",
+        "distant",
+        "marry",
+        "purple",
+        "threw",
+        "whenever",
+        "bomb",
+        "dull",
+        "easily",
+        "grasp",
+        "hospital",
+        "innocence",
+        "normal",
+        "receive",
+        "reply",
+        "rhyme",
+        "shade",
+        "someday",
+        "sword",
+        "toe",
+        "visit",
+        "asleep",
+        "bought",
+        "center",
+        "consider",
+        "flat",
+        "hero",
+        "history",
+        "ink",
+        "insane",
+        "muscle",
+        "mystery",
+        "pocket",
+        "reflection",
+        "shove",
+        "silently",
+        "smart",
+        "soldier",
+        "spot",
+        "stress",
+        "train",
+        "type",
+        "view",
+        "whether",
+        "bus",
+        "energy",
+        "explain",
+        "holy",
+        "hunger",
+        "inch",
+        "magic",
+        "mix",
+        "noise",
+        "nowhere",
+        "prayer",
+        "presence",
+        "shock",
+        "snap",
+        "spider",
+        "study",
+        "thunder",
+        "trail",
+        "admit",
+        "agree",
+        "bag",
+        "bang",
+        "bound",
+        "butterfly",
+        "cute",
+        "exactly",
+        "explode",
+        "familiar",
+        "fold",
+        "further",
+        "pierce",
+        "reflect",
+        "scent",
+        "selfish",
+        "sharp",
+        "sink",
+        "spring",
+        "stumble",
+        "universe",
+        "weep",
+        "women",
+        "wonderful",
+        "action",
+        "ancient",
+        "attempt",
+        "avoid",
+        "birthday",
+        "branch",
+        "chocolate",
+        "core",
+        "depress",
+        "drunk",
+        "especially",
+        "focus",
+        "fruit",
+        "honest",
+        "match",
+        "palm",
+        "perfectly",
+        "pillow",
+        "pity",
+        "poison",
+        "roar",
+        "shift",
+        "slightly",
+        "thump",
+        "truck",
+        "tune",
+        "twenty",
+        "unable",
+        "wipe",
+        "wrote",
+        "coat",
+        "constant",
+        "dinner",
+        "drove",
+        "egg",
+        "eternal",
+        "flight",
+        "flood",
+        "frame",
+        "freak",
+        "gasp",
+        "glad",
+        "hollow",
+        "motion",
+        "peer",
+        "plastic",
+        "root",
+        "screen",
+        "season",
+        "sting",
+        "strike",
+        "team",
+        "unlike",
+        "victim",
+        "volume",
+        "warn",
+        "weird",
+        "attack",
+        "await",
+        "awake",
+        "built",
+        "charm",
+        "crave",
+        "despair",
+        "fought",
+        "grant",
+        "grief",
+        "horse",
+        "limit",
+        "message",
+        "ripple",
+        "sanity",
+        "scatter",
+        "serve",
+        "split",
+        "string",
+        "trick",
+        "annoy",
+        "blur",
+        "boat",
+        "brave",
+        "clearly",
+        "cling",
+        "connect",
+        "fist",
+        "forth",
+        "imagination",
+        "iron",
+        "jock",
+        "judge",
+        "lesson",
+        "milk",
+        "misery",
+        "nail",
+        "naked",
+        "ourselves",
+        "poet",
+        "possible",
+        "princess",
+        "sail",
+        "size",
+        "snake",
+        "society",
+        "stroke",
+        "torture",
+        "toss",
+        "trace",
+        "wise",
+        "bloom",
+        "bullet",
+        "cell",
+        "check",
+        "cost",
+        "darling",
+        "during",
+        "footstep",
+        "fragile",
+        "hallway",
+        "hardly",
+        "horizon",
+        "invisible",
+        "journey",
+        "midnight",
+        "mud",
+        "nod",
+        "pause",
+        "relax",
+        "shiver",
+        "sudden",
+        "value",
+        "youth",
+        "abuse",
+        "admire",
+        "blink",
+        "breast",
+        "bruise",
+        "constantly",
+        "couple",
+        "creep",
+        "curve",
+        "difference",
+        "dumb",
+        "emptiness",
+        "gotta",
+        "honor",
+        "plain",
+        "planet",
+        "recall",
+        "rub",
+        "ship",
+        "slam",
+        "soar",
+        "somebody",
+        "tightly",
+        "weather",
+        "adore",
+        "approach",
+        "bond",
+        "bread",
+        "burst",
+        "candle",
+        "coffee",
+        "cousin",
+        "crime",
+        "desert",
+        "flutter",
+        "frozen",
+        "grand",
+        "heel",
+        "hello",
+        "language",
+        "level",
+        "movement",
+        "pleasure",
+        "powerful",
+        "random",
+        "rhythm",
+        "settle",
+        "silly",
+        "slap",
+        "sort",
+        "spoken",
+        "steel",
+        "threaten",
+        "tumble",
+        "upset",
+        "aside",
+        "awkward",
+        "bee",
+        "blank",
+        "board",
+        "button",
+        "card",
+        "carefully",
+        "complain",
+        "crap",
+        "deeply",
+        "discover",
+        "drag",
+        "dread",
+        "effort",
+        "entire",
+        "fairy",
+        "giant",
+        "gotten",
+        "greet",
+        "illusion",
+        "jeans",
+        "leap",
+        "liquid",
+        "march",
+        "mend",
+        "nervous",
+        "nine",
+        "replace",
+        "rope",
+        "spine",
+        "stole",
+        "terror",
+        "accident",
+        "apple",
+        "balance",
+        "boom",
+        "childhood",
+        "collect",
+        "demand",
+        "depression",
+        "eventually",
+        "faint",
+        "glare",
+        "goal",
+        "group",
+        "honey",
+        "kitchen",
+        "laid",
+        "limb",
+        "machine",
+        "mere",
+        "mold",
+        "murder",
+        "nerve",
+        "painful",
+        "poetry",
+        "prince",
+        "rabbit",
+        "shelter",
+        "shore",
+        "shower",
+        "soothe",
+        "stair",
+        "steady",
+        "sunlight",
+        "tangle",
+        "tease",
+        "treasure",
+        "uncle",
+        "begun",
+        "bliss",
+        "canvas",
+        "cheer",
+        "claw",
+        "clutch",
+        "commit",
+        "crimson",
+        "crystal",
+        "delight",
+        "doll",
+        "existence",
+        "express",
+        "fog",
+        "football",
+        "gay",
+        "goose",
+        "guard",
+        "hatred",
+        "illuminate",
+        "mass",
+        "math",
+        "mourn",
+        "rich",
+        "rough",
+        "skip",
+        "stir",
+        "student",
+        "style",
+        "support",
+        "thorn",
+        "tough",
+        "yard",
+        "yearn",
+        "yesterday",
+        "advice",
+        "appreciate",
+        "autumn",
+        "bank",
+        "beam",
+        "bowl",
+        "capture",
+        "carve",
+        "collapse",
+        "confusion",
+        "creation",
+        "dove",
+        "feather",
+        "girlfriend",
+        "glory",
+        "government",
+        "harsh",
+        "hop",
+        "inner",
+        "loser",
+        "moonlight",
+        "neighbor",
+        "neither",
+        "peach",
+        "pig",
+        "praise",
+        "screw",
+        "shield",
+        "shimmer",
+        "sneak",
+        "stab",
+        "subject",
+        "throughout",
+        "thrown",
+        "tower",
+        "twirl",
+        "wow",
+        "army",
+        "arrive",
+        "bathroom",
+        "bump",
+        "cease",
+        "cookie",
+        "couch",
+        "courage",
+        "dim",
+        "guilt",
+        "howl",
+        "hum",
+        "husband",
+        "insult",
+        "led",
+        "lunch",
+        "mock",
+        "mostly",
+        "natural",
+        "nearly",
+        "needle",
+        "nerd",
+        "peaceful",
+        "perfection",
+        "pile",
+        "price",
+        "remove",
+        "roam",
+        "sanctuary",
+        "serious",
+        "shiny",
+        "shook",
+        "sob",
+        "stolen",
+        "tap",
+        "vain",
+        "void",
+        "warrior",
+        "wrinkle",
+        "affection",
+        "apologize",
+        "blossom",
+        "bounce",
+        "bridge",
+        "cheap",
+        "crumble",
+        "decision",
+        "descend",
+        "desperately",
+        "dig",
+        "dot",
+        "flip",
+        "frighten",
+        "heartbeat",
+        "huge",
+        "lazy",
+        "lick",
+        "odd",
+        "opinion",
+        "process",
+        "puzzle",
+        "quietly",
+        "retreat",
+        "score",
+        "sentence",
+        "separate",
+        "situation",
+        "skill",
+        "soak",
+        "square",
+        "stray",
+        "taint",
+        "task",
+        "tide",
+        "underneath",
+        "veil",
+        "whistle",
+        "anywhere",
+        "bedroom",
+        "bid",
+        "bloody",
+        "burden",
+        "careful",
+        "compare",
+        "concern",
+        "curtain",
+        "decay",
+        "defeat",
+        "describe",
+        "double",
+        "dreamer",
+        "driver",
+        "dwell",
+        "evening",
+        "flare",
+        "flicker",
+        "grandma",
+        "guitar",
+        "harm",
+        "horrible",
+        "hungry",
+        "indeed",
+        "lace",
+        "melody",
+        "monkey",
+        "nation",
+        "object",
+        "obviously",
+        "rainbow",
+        "salt",
+        "scratch",
+        "shown",
+        "shy",
+        "stage",
+        "stun",
+        "third",
+        "tickle",
+        "useless",
+        "weakness",
+        "worship",
+        "worthless",
+        "afternoon",
+        "beard",
+        "boyfriend",
+        "bubble",
+        "busy",
+        "certain",
+        "chin",
+        "concrete",
+        "desk",
+        "diamond",
+        "doom",
+        "drawn",
+        "due",
+        "felicity",
+        "freeze",
+        "frost",
+        "garden",
+        "glide",
+        "harmony",
+        "hopefully",
+        "hunt",
+        "jealous",
+        "lightning",
+        "mama",
+        "mercy",
+        "peel",
+        "physical",
+        "position",
+        "pulse",
+        "punch",
+        "quit",
+        "rant",
+        "respond",
+        "salty",
+        "sane",
+        "satisfy",
+        "savior",
+        "sheep",
+        "slept",
+        "social",
+        "sport",
+        "tuck",
+        "utter",
+        "valley",
+        "wolf",
+        "aim",
+        "alas",
+        "alter",
+        "arrow",
+        "awaken",
+        "beaten",
+        "belief",
+        "brand",
+        "ceiling",
+        "cheese",
+        "clue",
+        "confidence",
+        "connection",
+        "daily",
+        "disguise",
+        "eager",
+        "erase",
+        "essence",
+        "everytime",
+        "expression",
+        "fan",
+        "flag",
+        "flirt",
+        "foul",
+        "fur",
+        "giggle",
+        "glorious",
+        "ignorance",
+        "law",
+        "lifeless",
+        "measure",
+        "mighty",
+        "muse",
+        "north",
+        "opposite",
+        "paradise",
+        "patience",
+        "patient",
+        "pencil",
+        "petal",
+        "plate",
+        "ponder",
+        "possibly",
+        "practice",
+        "slice",
+        "spell",
+        "stock",
+        "strife",
+        "strip",
+        "suffocate",
+        "suit",
+        "tender",
+        "tool",
+        "trade",
+        "velvet",
+        "verse",
+        "waist",
+        "witch",
+        "aunt",
+        "bench",
+        "bold",
+        "cap",
+        "certainly",
+        "click",
+        "companion",
+        "creator",
+        "dart",
+        "delicate",
+        "determine",
+        "dish",
+        "dragon",
+        "drama",
+        "drum",
+        "dude",
+        "everybody",
+        "feast",
+        "forehead",
+        "former",
+        "fright",
+        "fully",
+        "gas",
+        "hook",
+        "hurl",
+        "invite",
+        "juice",
+        "manage",
+        "moral",
+        "possess",
+        "raw",
+        "rebel",
+        "royal",
+        "scale",
+        "scary",
+        "several",
+        "slight",
+        "stubborn",
+        "swell",
+        "talent",
+        "tea",
+        "terrible",
+        "thread",
+        "torment",
+        "trickle",
+        "usually",
+        "vast",
+        "violence",
+        "weave",
+        "acid",
+        "agony",
+        "ashamed",
+        "awe",
+        "belly",
+        "blend",
+        "blush",
+        "character",
+        "cheat",
+        "common",
+        "company",
+        "coward",
+        "creak",
+        "danger",
+        "deadly",
+        "defense",
+        "define",
+        "depend",
+        "desperate",
+        "destination",
+        "dew",
+        "duck",
+        "dusty",
+        "embarrass",
+        "engine",
+        "example",
+        "explore",
+        "foe",
+        "freely",
+        "frustrate",
+        "generation",
+        "glove",
+        "guilty",
+        "health",
+        "hurry",
+        "idiot",
+        "impossible",
+        "inhale",
+        "jaw",
+        "kingdom",
+        "mention",
+        "mist",
+        "moan",
+        "mumble",
+        "mutter",
+        "observe",
+        "ode",
+        "pathetic",
+        "pattern",
+        "pie",
+        "prefer",
+        "puff",
+        "rape",
+        "rare",
+        "revenge",
+        "rude",
+        "scrape",
+        "spiral",
+        "squeeze",
+        "strain",
+        "sunset",
+        "suspend",
+        "sympathy",
+        "thigh",
+        "throne",
+        "total",
+        "unseen",
+        "weapon",
+        "weary"
+      ]
+    }
+  };
+
   // recovery.js
-  var index = new Map(monero_english_default.map((word, i) => [word, i]));
   var { Point: Point2 } = ed25519;
-  function checksumWord(words) {
+  var { chinese_simplified, ...remainingMyMoneroLists } = mymonero_languages_default;
+  var myMoneroLists = [chinese_simplified, { words: monero_english_default, prefix: 3 }, ...Object.values(remainingMyMoneroLists)];
+  function prefix(word, length) {
+    return Array.from(word).slice(0, length).join("");
+  }
+  function checksumWord(words, prefixLength = 3) {
     let crc = 4294967295;
-    for (const ch of words.map((word) => word.slice(0, 3)).join("")) {
-      crc ^= ch.charCodeAt(0);
+    const bytes = new TextEncoder().encode(words.map((word) => prefix(word, prefixLength)).join(""));
+    for (const byte of bytes) {
+      crc ^= byte;
       for (let bit = 0; bit < 8; bit++) {
         crc = crc >>> 1 ^ (crc & 1 ? 3988292384 : 0);
       }
@@ -8388,16 +46676,25 @@ zoo`.split("\n"));
     return words[((crc ^ 4294967295) >>> 0) % words.length];
   }
   function decodeMyMonero(phrase) {
-    const all = phrase.split(" ");
-    const words = all.slice(0, 12);
-    if (all.length !== 13 || !words.every((word) => index.has(word)) || checksumWord(words) !== all[12]) {
-      throw new Error("Invalid MyMonero phrase.");
+    const input = phrase.normalize("NFC").trim().toLowerCase().split(/\s+/u);
+    if (input.length !== 13) throw new Error("Invalid MyMonero phrase.");
+    for (const list of myMoneroLists) {
+      const byWord = new Map(list.words.map((word, i) => [word.toLowerCase(), i]));
+      if (!input.every((word) => byWord.has(word))) continue;
+      const canonical = input.map((word) => list.words[byWord.get(word)]);
+      const checksum2 = checksumWord(canonical.slice(0, 12), list.prefix).toLowerCase();
+      if (prefix(checksum2, list.prefix) !== prefix(input[12], list.prefix)) continue;
+      const byPrefix = new Map(list.words.map((word, i) => [prefix(word.toLowerCase(), list.prefix), i]));
+      const indices = input.slice(0, 12).map((word) => byPrefix.get(prefix(word, list.prefix)));
+      return decodeTriplets(indices, list.words.length);
     }
+    throw new Error("Invalid MyMonero phrase.");
+  }
+  function decodeTriplets(indices, n) {
     const entropy = new Uint8Array(16);
     const data = new DataView(entropy.buffer);
-    const n = monero_english_default.length;
     for (let i = 0; i < 4; i++) {
-      const [a, b, c] = words.slice(i * 3, i * 3 + 3).map((word) => index.get(word));
+      const [a, b, c] = indices.slice(i * 3, i * 3 + 3);
       const value = a + n * ((b - a + n) % n) + n * n * ((c - b + n) % n);
       if (value > 4294967295) throw new Error("Invalid MyMonero entropy.");
       data.setUint32(i * 4, value, true);
@@ -8423,7 +46720,9 @@ zoo`.split("\n"));
     return { address, spend: bytesToHex(numberToBytesLE(spend, 32)), view: bytesToHex(numberToBytesLE(view, 32)) };
   }
   function exodus(phrase, passphrase) {
-    if (!validateMnemonic(phrase, wordlist)) throw new Error("Invalid English BIP39 mnemonic.");
+    phrase = phrase.normalize("NFKD").trim().split(/\s+/u).join(" ");
+    const dictionaries = [wordlist, wordlist2, wordlist3, wordlist4, wordlist5, wordlist6, wordlist7, wordlist8, wordlist9, wordlist10];
+    if (!dictionaries.some((list) => validateMnemonic(phrase, list))) throw new Error("Invalid BIP39 mnemonic or checksum.");
     const seed = mnemonicToSeedSync(phrase, passphrase);
     const root = HDKey.fromMasterSeed(seed);
     const child = root.derive("m/44'/128'/0'/0/0");

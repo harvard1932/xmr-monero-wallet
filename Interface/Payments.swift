@@ -39,14 +39,20 @@ private enum PaymentInputError: LocalizedError {
         switch self {
         case .address: "Enter a Monero address or a monero: payment request."
         case .amount: "Enter a positive XMR amount with up to 12 decimal places."
-        case .parameter(let name): "This payment request includes an unsupported field (\(name)). Ask the recipient for a compatible address."
+        case .parameter(let name): WalletL10n.text("This payment request includes an unsupported field (%@). Ask the recipient for a compatible address.", name)
         }
     }
+}
+
+struct WalletPaymentAuthorizationError: LocalizedError {
+    let underlying: Error
+    var errorDescription: String? { WalletL10n.diagnostic(underlying) }
 }
 
 struct SendView: View {
     var data: WalletPresentation
     var actions: WalletActions
+    @State private var wantsInitialScan: Bool
     @State private var destination: String
     @State private var amount = ""
     @State private var priority = 0
@@ -61,8 +67,10 @@ struct SendView: View {
     @State private var broadcastIssue: String?
     @State private var unsignedFrames: [String] = []
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.locale) private var locale
 
-    init(data: WalletPresentation, actions: WalletActions, initialAddress: String = "") {
+    init(data: WalletPresentation, actions: WalletActions, initialAddress: String = "", scanOnOpen: Bool = false) {
+        _wantsInitialScan = State(initialValue: scanOnOpen)
         self.data = data
         self.actions = actions
         _destination = State(initialValue: initialAddress)
@@ -89,15 +97,16 @@ struct SendView: View {
                     Text(XMRAmount.format(review.amount) + " XMR").font(.largeTitle.bold()).monospacedDigit()
                 }
                 WalletField(label: "Recipient address") {
-                    Text(review.address).font(.system(.callout, design: .monospaced)).textSelection(.enabled)
+                    Text(verbatim: review.address).font(.system(.callout, design: .monospaced)).textSelection(.enabled)
+                        .environment(\.layoutDirection, .leftToRight)
                 }
                 VStack(spacing: 10) {
                     WalletLine(label: "Wallet", value: data.name)
-                    WalletLine(label: "Network", value: data.network)
+                    WalletLine(label: "Network", value: WalletL10n.text(data.network))
                     WalletLine(label: "Network fee", value: XMRAmount.format(review.fee) + " XMR")
                     Divider()
                     let total = review.amount.addingReportingOverflow(review.fee)
-                    WalletLine(label: "Total", value: total.overflow ? "Out of range" : XMRAmount.format(total.partialValue) + " XMR")
+                    WalletLine(label: "Total", value: total.overflow ? WalletL10n.text("Out of range") : XMRAmount.format(total.partialValue) + " XMR")
                 }
                 if let error { WalletNotice(text: error) }
                 if data.viewOnly, let cold = actions.cold {
@@ -113,7 +122,7 @@ struct SendView: View {
                             } catch {
                                 await actions.discard(review.id)
                                 self.review = nil
-                                self.error = error.localizedDescription
+                                self.error = WalletL10n.diagnostic(error)
                             }
                         }
                     }.buttonStyle(WalletPrimaryButton()).disabled(busy)
@@ -170,7 +179,7 @@ struct SendView: View {
                                 ForEach(data.addresses.filter { address in
                                     spendableCoins.contains { $0.subaddressIndex == address.id }
                                 }) { address in
-                                    Button(address.label.isEmpty ? "Subaddress " + String(address.id) : address.label) {
+                                    Button(address.label.isEmpty ? WalletL10n.text("Subaddress %lld", Int64(address.id)) : address.label) {
                                         preferred = Set(spendableCoins.filter { $0.subaddressIndex == address.id }.map(\.id))
                                     }
                                 }
@@ -210,15 +219,18 @@ struct SendView: View {
                             destination = payload.trimmingCharacters(in: .whitespacesAndNewlines)
                             if let invoiceAmount = target.amount { amount = XMRAmount.format(invoiceAmount) }
                             error = nil
-                        } catch { self.error = error.localizedDescription }
-                    case .failure(let failure): error = failure.localizedDescription
+                        } catch { self.error = WalletL10n.diagnostic(error) }
+                    case .failure(let failure): error = WalletL10n.diagnostic(failure)
                     }
                     return true
                 }
                 Button("Close") { scan = false }.buttonStyle(.borderedProminent).padding()
             }.preferredColorScheme(.dark)
         }
-        .onAppear { visible = true }
+        .onAppear {
+            visible = true
+            if wantsInitialScan { wantsInitialScan = false; openScanner() }
+        }
         .onDisappear {
             visible = false
             if let review, !busy { Task { await actions.discard(review.id) } }
@@ -246,7 +258,7 @@ struct SendView: View {
         do {
             let target = try MoneroPaymentTarget(destination)
             let entered = amount.trimmingCharacters(in: .whitespacesAndNewlines)
-            let parsed = entered.isEmpty ? target.amount : XMRAmount.parseInput(entered)
+            let parsed = entered.isEmpty ? target.amount : XMRAmount.parseInput(entered, locale: locale)
             guard let parsed, parsed > 0 else { throw PaymentInputError.amount }
             if let invoiceAmount = target.amount, invoiceAmount != parsed {
                 error = "The amount differs from the payment request. Check the request before continuing."
@@ -258,9 +270,9 @@ struct SendView: View {
                 do {
                     let prepared = try await actions.prepare(target.address, parsed, priority, preferred.sorted())
                     if visible { review = prepared } else { await actions.discard(prepared.id) }
-                } catch { self.error = error.localizedDescription }
+                } catch { self.error = WalletL10n.diagnostic(error) }
             }
-        } catch { self.error = error.localizedDescription }
+        } catch { self.error = WalletL10n.diagnostic(error) }
     }
 
     private func submit(_ prepared: WalletSendReview) {
@@ -273,12 +285,16 @@ struct SendView: View {
                 try await actions.submit(prepared.id)
                 review = nil
                 sent = true
+            } catch let failure as WalletPaymentAuthorizationError {
+                // Authentication happens before broadcasting. The same reviewed
+                // payment remains available if its owner cancels the PIN prompt.
+                if !(failure.underlying is CancellationError) { error = failure.localizedDescription }
             } catch {
                 await actions.discard(prepared.id)
                 review = nil
                 destination = ""
                 amount = ""
-                broadcastIssue = error.localizedDescription
+                broadcastIssue = WalletL10n.diagnostic(error)
             }
         }
     }
@@ -288,18 +304,20 @@ private struct SwipeToSend: View {
     var busy: Bool
     var action: () -> Void
     @State private var offset: CGFloat = 0
+    @Environment(\.layoutDirection) private var layoutDirection
     var body: some View {
         GeometryReader { geo in
             let travel = max(1, geo.size.width - 57)
+            let direction: CGFloat = layoutDirection == .rightToLeft ? -1 : 1
             ZStack(alignment: .leading) {
                 Capsule().fill(WalletStyle.apricot.opacity(0.13))
                 Text(busy ? "Sending…" : "Slide to send").font(.headline)
                     .foregroundStyle(WalletStyle.apricot).frame(maxWidth: .infinity).opacity(1 - 0.8 * offset / travel)
-                Image(systemName: "arrow.right").font(.headline)
+                Image(systemName: "arrow.forward").font(.headline)
                     .foregroundStyle(WalletStyle.ink).frame(width: 46, height: 46)
-                    .background(WalletStyle.apricot, in: Circle()).padding(5).offset(x: offset)
+                    .background(WalletStyle.apricot, in: Circle()).padding(5).offset(x: direction * offset)
                     .gesture(DragGesture(minimumDistance: 2)
-                        .onChanged { offset = min(travel, max(0, $0.translation.width)) }
+                        .onChanged { offset = min(travel, max(0, direction * $0.translation.width)) }
                         .onEnded { _ in
                             if offset >= travel * 0.92 { action() }
                             withAnimation(.easeOut(duration: 0.15)) { offset = 0 }
@@ -354,8 +372,9 @@ struct ReceiveView: View {
                     }.pickerStyle(.menu)
                 } else { Text(name(selected)).font(.headline) }
                 PaymentQR(payload: selected.address)
-                WalletField(label: "Address · \(data.network)") {
-                    Text(selected.address).font(.system(.caption, design: .monospaced)).textSelection(.enabled)
+                WalletField(label: "Address · \(WalletL10n.text(data.network))") {
+                    Text(verbatim: selected.address).font(.system(.caption, design: .monospaced)).textSelection(.enabled)
+                        .environment(\.layoutDirection, .leftToRight)
                 }
                 HStack(spacing: 10) {
                     Button {
@@ -383,7 +402,7 @@ struct ReceiveView: View {
                             label = ""
                             creating = false
                             error = nil
-                        } catch { self.error = error.localizedDescription }
+                        } catch { self.error = WalletL10n.diagnostic(error) }
                     }
                 }.buttonStyle(WalletPrimaryButton()).disabled(busy)
             } else {
@@ -395,7 +414,10 @@ struct ReceiveView: View {
     }
 
     private func name(_ address: WalletAddressItem) -> String {
-        !address.label.isEmpty ? address.label : (address.id == 0 ? "Primary address" : "Subaddress " + String(address.id))
+        if !address.label.isEmpty {
+            return address.id == 0 && address.label == "Primary account" ? WalletL10n.text("Primary account") : address.label
+        }
+        return address.id == 0 ? WalletL10n.text("Primary address") : WalletL10n.text("Subaddress %lld", Int64(address.id))
     }
 }
 

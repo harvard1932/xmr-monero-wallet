@@ -15,6 +15,7 @@ final class ConnectionTests: XCTestCase {
         config.endpoint = "https://node.example:18089"
         XCTAssertNoThrow(try config.validate())
         config.useProxy = true
+        config.externalTor = true
         config.proxy = "192.0.2.2:9050"
         XCTAssertThrowsError(try config.validate())
     }

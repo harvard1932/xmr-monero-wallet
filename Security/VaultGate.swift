@@ -8,10 +8,11 @@ struct VaultGate: View {
     let close: () async -> Void
     let readSeed: () async throws -> String
     let onSource: () -> Void
+    let primaryAddress: () async throws -> String
 
     var body: some View {
         VaultEntry(vault: vault, create: create, restore: restore, open: open, close: close,
-                   readSeed: readSeed, onSource: onSource)
+                   readSeed: readSeed, onSource: onSource, primaryAddress: primaryAddress)
             .id(vault.sessionID)
     }
 }
@@ -29,6 +30,7 @@ private struct VaultEntry: View {
     let close: () async -> Void
     let readSeed: () async throws -> String
     let onSource: () -> Void
+    let primaryAddress: () async throws -> String
 
     @State private var step = GateStep.welcome
     @State private var name = ""
@@ -36,6 +38,7 @@ private struct VaultEntry: View {
     @State private var method = RestoreMethod.phrase
     @State private var seedFormat = VaultSeedFormat.classic
     @State private var passphrase = ""
+    @State private var polyseedOffset = false
     @State private var address = ""
     @State private var viewKey = ""
     @State private var spendKey = ""
@@ -45,6 +48,13 @@ private struct VaultEntry: View {
     @State private var challengeIndices: [Int] = []
     @State private var notice: String?
     @State private var creatingBackup: VaultWallet?
+    @State private var confirmAddress = false
+    @State private var reviewAddress = ""
+    @State private var expectedAddress = ""
+    @State private var reviewCompletion: CheckedContinuation<Bool, Never>?
+    @State private var confirmWipe = false
+    @State private var eraseConfirmation = ""
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some View {
         GeometryReader { geometry in
@@ -56,6 +66,7 @@ private struct VaultEntry: View {
                         if let error = vault.loadError {
                             heading("Wallet storage", subtitle: error)
                             Button("Read again") { vault.reconcile() }.buttonStyle(WalletPrimaryButton())
+                            Button("Erase all wallet data", role: .destructive) { eraseConfirmation = ""; confirmWipe = true }.disabled(vault.working)
                         } else {
                             ProgressView("Opening wallet storage")
                         }
@@ -82,6 +93,57 @@ private struct VaultEntry: View {
         .foregroundStyle(WalletStyle.text)
         .tint(WalletStyle.apricot)
         .preferredColorScheme(.dark)
+        .sheet(isPresented: $confirmAddress, onDismiss: { finishReview(false) }) {
+            WalletSheet(title: "Confirm restored address") {
+                Text("Compare this primary address with your original wallet before finishing. A different passphrase or derivation can open a different wallet.")
+                Text(verbatim: reviewAddress).font(.body.monospaced()).textSelection(.enabled)
+                Button("I recognize this address") { finishReview(true) }.buttonStyle(WalletPrimaryButton())
+                Button("Return to restore") { finishReview(false) }.buttonStyle(WalletPrimaryButton(muted: true))
+            }
+        }
+        .onDisappear { finishReview(false) }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active, vault.phase == .loading, vault.loadError != nil { vault.reconcile() }
+        }
+        .sheet(isPresented: $confirmWipe, onDismiss: { eraseConfirmation = "" }) {
+            WalletSheet(title: "Erase all app data") {
+                Text("This deletes local wallets, the app PIN and settings. You will need your recovery backups.")
+                TextField("Type DELETE", text: $eraseConfirmation)
+                    .keyboardType(.asciiCapable).textInputAutocapitalization(.characters).autocorrectionDisabled()
+                    .textFieldStyle(.roundedBorder)
+                Button("Erase with iPhone passcode", role: .destructive) {
+                    guard eraseConfirmation == "DELETE" else { return }
+                    eraseConfirmation = ""
+                    confirmWipe = false
+                    Task {
+                        do { await close(); try await vault.eraseAllFromLock() }
+                        catch is CancellationError {}
+                        catch { notice = WalletL10n.diagnostic(error) }
+                    }
+                }.disabled(eraseConfirmation != "DELETE" || vault.working)
+            }
+        }
+    }
+
+    private func finishReview(_ accepted: Bool) {
+        let completion = reviewCompletion
+        reviewCompletion = nil
+        confirmAddress = false
+        completion?.resume(returning: accepted)
+    }
+
+    private func verifyRestoredAddress(_ address: String) async throws {
+        guard !address.isEmpty else { throw InputError("Unable to read the restored address.") }
+        let expected = expectedAddress.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard expected.isEmpty || expected == address else {
+            throw InputError("The restored address differs from the original address. Check your phrase, passphrase and recovery method.")
+        }
+        reviewAddress = address
+        let accepted = await withCheckedContinuation { continuation in
+            reviewCompletion = continuation
+            confirmAddress = true
+        }
+        guard accepted else { throw CancellationError() }
     }
 
     private var topBar: some View {
@@ -138,7 +200,7 @@ private struct VaultEntry: View {
         if let wallet = vault.active {
             VStack(alignment: .leading, spacing: 22) {
                 VaultArtwork().frame(height: 196).padding(.top, 4)
-                heading("Wallet locked", subtitle: "Unlock with Face ID, Touch ID, or your iPhone passcode.")
+                heading("Wallet locked", subtitle: "Use your app PIN or enabled biometrics to unlock.")
                 if vault.wallets.count > 1 {
                     Menu {
                         ForEach(vault.wallets) { row in Button(row.name) { vault.select(row) } }
@@ -154,6 +216,8 @@ private struct VaultEntry: View {
                     .buttonStyle(WalletPrimaryButton()).disabled(vault.working)
                 Button("Create or restore another wallet") { step = .welcome; notice = nil; vault.beginAdding() }
                     .font(.subheadline).frame(maxWidth: .infinity, minHeight: 44).disabled(vault.working)
+                Button("Erase all wallet data", role: .destructive) { eraseConfirmation = ""; confirmWipe = true }
+                    .font(.footnote).frame(maxWidth: .infinity, minHeight: 44).disabled(vault.working)
             }
         }
     }
@@ -190,6 +254,16 @@ private struct VaultEntry: View {
                         Text("Keep your original MyMonero phrase. This import restores its two private keys.")
                             .font(.footnote).foregroundStyle(WalletStyle.muted)
                     } else {
+                        WalletField(label: "Seed offset or Polyseed passphrase (optional)") {
+                            secureInput("Leave empty if unused", $passphrase)
+                        }
+                        if seedWords.count == 16 {
+                            Toggle("Original wallet used a Monero seed offset", isOn: $polyseedOffset)
+                            if polyseedOffset {
+                                Text("Use this option for unencrypted Polyseed words with a Monero wallet seed offset.")
+                                    .font(.footnote).foregroundStyle(WalletStyle.muted)
+                            }
+                        }
                         Text("Use a 25-word classic Monero seed or 16-word Polyseed.")
                             .font(.footnote).foregroundStyle(WalletStyle.muted)
                     }
@@ -210,6 +284,12 @@ private struct VaultEntry: View {
                         WalletField(label: "Private spend key") { secureInput("64 hexadecimal characters", $spendKey) }
                     }
                 }
+                if method == .phrase {
+                    WalletField(label: "Original primary address (optional)") {
+                        TextField("Compare against this address", text: $expectedAddress)
+                            .textInputAutocapitalization(.never).autocorrectionDisabled()
+                    }
+                }
                 WalletField(label: "Restore height (optional)") {
                     TextField("0", text: $height).keyboardType(.numberPad).accessibilityLabel("Restore height")
                 }
@@ -219,7 +299,7 @@ private struct VaultEntry: View {
             Button { startSetup() } label: {
                 actionLabel(step == .restore ? "Restore wallet" : "Create wallet", symbol: "arrow.right")
             }.buttonStyle(WalletPrimaryButton()).disabled(vault.working || name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
-        }
+        }.disabled(vault.working)
     }
 
     private func secureInput(_ placeholder: String, _ value: Binding<String>) -> some View {
@@ -258,7 +338,7 @@ private struct VaultEntry: View {
                     try vault.markBackupVerified(for: wallet)
                     wipeInputs()
                     vault.enter(wallet)
-                } catch { notice = error.localizedDescription }
+                } catch { notice = WalletL10n.diagnostic(error) }
             } label: { actionLabel("Open wallet", symbol: "arrow.right") }
             .buttonStyle(WalletPrimaryButton()).disabled(answerA.isEmpty || answerB.isEmpty)
             Button("View phrase again") { answerA = ""; answerB = ""; notice = nil; step = .backup }
@@ -283,18 +363,19 @@ private struct VaultEntry: View {
 
     private func wipeInputs() {
         phrase = ""; address = ""; viewKey = ""; spendKey = ""; answerA = ""; answerB = ""; height = ""
-        challengeIndices = []; method = .phrase; seedFormat = .classic; passphrase = ""; creatingBackup = nil
+        challengeIndices = []; method = .phrase; seedFormat = .classic; passphrase = ""; creatingBackup = nil; expectedAddress = ""; reviewAddress = ""; polyseedOffset = false
     }
 
     private func restoreRequest() async throws -> VaultRestore {
-        let block = height.trimmingCharacters(in: .whitespacesAndNewlines)
+        let block = height.walletASCIIDigits.trimmingCharacters(in: .whitespacesAndNewlines)
         guard let value = block.isEmpty ? 0 : UInt64(block) else { throw InputError("Enter a whole block height.") }
         let source: WalletRestoreSource
         switch method {
         case .phrase:
             let cleaned = seedWords.joined(separator: " ")
             guard !cleaned.isEmpty else { throw InputError("Enter your recovery phrase.") }
-            source = try await LegacySeedRecovery.source(format: seedFormat, phrase: cleaned, passphrase: passphrase)
+            if seedFormat == .classic { source = try ProtectedSeed.source(words: cleaned, passphrase: passphrase, nativePolyseedOffset: polyseedOffset) }
+            else { source = try await LegacySeedRecovery.source(format: seedFormat, phrase: cleaned, passphrase: passphrase) }
         case .keys, .watch:
             let trimmed = address.trimmingCharacters(in: .whitespacesAndNewlines)
             let view = viewKey.trimmingCharacters(in: .whitespacesAndNewlines)
@@ -327,6 +408,22 @@ private struct VaultEntry: View {
                 let words: String
                 if let request {
                     try await restore(location, request)
+                    try vault.requireCurrent(session)
+                    let restoredAddress = try await primaryAddress()
+                    try vault.requireCurrent(session)
+                    try await verifyRestoredAddress(restoredAddress)
+                    try vault.requireCurrent(session)
+                    let backup: VaultBackup
+                    if method == .phrase {
+                        backup = .init(format: (seedFormat == .classic && seedWords.count == 16 && polyseedOffset) ? "Polyseed with Monero seed offset" : seedFormat.rawValue, phrase: seedWords.joined(separator: " "), address: restoredAddress,
+                                       view: nil, spend: nil, requiresPassphrase: seedFormat != .myMonero && !passphrase.isEmpty)
+                    } else {
+                        backup = .init(format: method.rawValue, phrase: nil, address: restoredAddress,
+                                       view: viewKey.trimmingCharacters(in: .whitespacesAndNewlines),
+                                       spend: method == .keys ? spendKey.trimmingCharacters(in: .whitespacesAndNewlines) : nil,
+                                       requiresPassphrase: false)
+                    }
+                    try vault.saveOriginal(backup, for: location.wallet)
                     words = ""
                 } else {
                     words = try await create(location)
@@ -349,9 +446,9 @@ private struct VaultEntry: View {
                 if let draft {
                     await close()
                     do { try vault.discardDraft(draft) }
-                    catch { if vault.sessionID == session { notice = error.localizedDescription; return } }
+                    catch { if vault.sessionID == session { notice = WalletL10n.diagnostic(error); return } }
                 }
-                if vault.sessionID == session { notice = error.localizedDescription }
+                if vault.sessionID == session, !(error is CancellationError) { notice = WalletL10n.diagnostic(error) }
             }
         }
     }
@@ -384,7 +481,7 @@ private struct VaultEntry: View {
                 }
             } catch {
                 if openingCore { await close() }
-                if vault.sessionID == session { notice = error.localizedDescription }
+                if vault.sessionID == session, !(error is CancellationError) { notice = WalletL10n.diagnostic(error) }
             }
         }
     }
@@ -392,7 +489,7 @@ private struct VaultEntry: View {
     private struct InputError: LocalizedError {
         let message: String
         init(_ message: String) { self.message = message }
-        var errorDescription: String? { message }
+        var errorDescription: String? { WalletL10n.text(message) }
     }
 }
 

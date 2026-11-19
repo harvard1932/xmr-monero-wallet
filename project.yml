@@ -9,8 +9,8 @@ settings:
     TARGETED_DEVICE_FAMILY: "1"
     SUPPORTS_MACCATALYST: NO
     SWIFT_EMIT_LOC_STRINGS: YES
-    CURRENT_PROJECT_VERSION: 1
-    MARKETING_VERSION: 0.1.0
+    CURRENT_PROJECT_VERSION: 2
+    MARKETING_VERSION: 0.2.0
     CODE_SIGN_STYLE: Automatic
 targets:
   XMRMoneroWallet:
@@ -23,6 +23,15 @@ targets:
       - Interface
       - Shared
       - path: Resources/Assets.xcassets
+      - path: Resources/InfoPlist.xcstrings
+        buildPhase: resources
+      - path: ThirdParty/Polyseed-LICENSE
+        buildPhase: resources
+      - path: ThirdParty/Polyseed-NOTICE
+        buildPhase: resources
+      - path: ThirdParty/Tor
+        excludes: ["*.h"]
+        buildPhase: resources
       - path: Resources/Localizable.xcstrings
         buildPhase: resources
       - path: ThirdParty/Cake-translations-LICENSE
@@ -45,18 +54,26 @@ targets:
         INFOPLIST_FILE: Resources/Info.plist
         PRODUCT_BUNDLE_IDENTIFIER: io.github.harvard1932.xmrwallet
         SWIFT_OBJC_BRIDGING_HEADER: Core/MoneroBridge.h
+        HEADER_SEARCH_PATHS: '$(inherited) "$(SRCROOT)/Security/Polyseed/include"'
         CLANG_CXX_LANGUAGE_STANDARD: c++17
         ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
         LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/Frameworks"
     dependencies:
       - framework: Vendor/MoneroWallet.xcframework
         embed: true
+      - framework: Vendor/tor-nolzma.xcframework
+        embed: false
+      - sdk: libz.tbd
       - target: SyncWidget
         embed: true
   SyncWidget:
     type: app-extension
     platform: iOS
-    sources: [Shared, SyncWidget/SyncWidget.swift]
+    sources:
+      - Shared
+      - SyncWidget/SyncWidget.swift
+      - path: Resources/Localizable.xcstrings
+        buildPhase: resources
     settings:
       base:
         INFOPLIST_FILE: SyncWidget/Info.plist
@@ -72,10 +89,36 @@ targets:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: io.github.harvard1932.xmrwallet.tests
         GENERATE_INFOPLIST_FILE: YES
+  WalletUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    sources: [UITests]
+    dependencies:
+      - target: XMRMoneroWallet
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.harvard1932.xmrwallet.uitests
+        TEST_TARGET_NAME: XMRMoneroWallet
+        GENERATE_INFOPLIST_FILE: YES
 schemes:
+  WalletUIFlows:
+    build:
+      targets:
+        XMRMoneroWallet: all
+    test:
+      targets: [WalletUITests]
+      captureScreenshotsAutomatically: false
+      environmentVariables:
+        XMR_UI_TEST_DISPOSABLE: "$(XMR_UI_TEST_DISPOSABLE)"
+        XMR_UI_SCREENSHOTS: "$(XMR_UI_SCREENSHOTS)"
   XMRMoneroWallet:
     build:
       targets:
         XMRMoneroWallet: all
     test:
       targets: [WalletTests]
+      environmentVariables:
+        XMR_LIVE_NODE_TEST: "$(XMR_LIVE_NODE_TEST)"
+        XMR_LIVE_TOR: "$(XMR_LIVE_TOR)"
+        XMR_LIVE_MARKET: "$(XMR_LIVE_MARKET)"
+        XMR_TOR_STRESS: "$(XMR_TOR_STRESS)"

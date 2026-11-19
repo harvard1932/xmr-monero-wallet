@@ -38,7 +38,7 @@ struct URFrameCollector {
         let fields = text.split(separator: "/", omittingEmptySubsequences: false)
         guard (2...3).contains(fields.count), fields.first == "ur:" + kind, fields.last?.isEmpty == false,
               fields.last?.utf8.allSatisfy({ (97...122).contains($0) }) == true else {
-            throw URInputError("Scan a " + kind + " QR code.")
+            throw URInputError(WalletL10n.text("Scan a %@ QR code.", kind))
         }
         var index = 1
         var total = 1
@@ -72,13 +72,13 @@ struct URFrameDisplay: View {
         if frames.isEmpty {
             WalletNotice(text: "The wallet returned no QR frames.")
         } else {
-            Text(instructions).font(.subheadline).foregroundStyle(WalletStyle.muted)
+            Text(WalletL10n.text(instructions)).font(.subheadline).foregroundStyle(WalletStyle.muted)
             PaymentQR(payload: frames[index % frames.count].uppercased())
             if frames.count > 1 {
                 WalletLine(label: "Frame", value: "\(index + 1) / \(frames.count)")
                 HStack {
                     Button { playing = false; index = (index + frames.count - 1) % frames.count } label: {
-                        Label("Back", systemImage: "chevron.left")
+                        Label("Back", systemImage: "chevron.backward")
                     }
                     Spacer()
                     Button { playing.toggle() } label: {
@@ -86,7 +86,7 @@ struct URFrameDisplay: View {
                     }
                     Spacer()
                     Button { playing = false; index = (index + 1) % frames.count } label: {
-                        Label("Next", systemImage: "chevron.right")
+                        Label("Next", systemImage: "chevron.forward")
                     }
                 }
                 .task(id: playing) {
@@ -117,7 +117,7 @@ private struct ColdFrameReader: View {
     var body: some View {
         VStack(spacing: 15) {
             HStack {
-                Text("Scan " + kind.label).font(.title3.bold())
+                Text(WalletL10n.text("Scan %@", WalletL10n.text(kind.label))).font(.title3.bold())
                 Spacer()
                 Button("Close") { dismiss() }
             }
@@ -132,7 +132,7 @@ private struct ColdFrameReader: View {
                         error = nil
                         return false
                     } catch {
-                        self.error = error.localizedDescription
+                        self.error = WalletL10n.diagnostic(error)
                         camera = false
                         return true
                     }
@@ -144,7 +144,7 @@ private struct ColdFrameReader: View {
             } else {
                 Spacer()
                 Image(systemName: "qrcode.viewfinder").font(.system(size: 55)).foregroundStyle(WalletStyle.apricot)
-                Text("Point your camera at the " + kind.label + " QR code on the other device.").multilineTextAlignment(.center)
+                Text(WalletL10n.text("Point your camera at the %@ QR code on the other device.", WalletL10n.text(kind.label))).multilineTextAlignment(.center)
                 if let error { WalletNotice(text: error) }
                 Spacer()
                 Button("Start scan") {
@@ -211,7 +211,7 @@ struct PairingQRImportButton: View {
             ZStack(alignment: .topTrailing) {
                 WalletQRScanner { result in
                     do { onPair(try PairPayload.decode(try result.get())) }
-                    catch { self.error = error.localizedDescription }
+                    catch { self.error = WalletL10n.diagnostic(error) }
                     scan = false
                     return true
                 }
@@ -253,23 +253,23 @@ struct ColdSigningTools: View {
                 Text(review.summary).font(.system(.callout, design: .monospaced)).textSelection(.enabled)
                 Button(busy ? "Signing…" : "Sign this transaction") {
                     run {
-                        self.review = nil
                         let signed = try await actions.sign(review)
+                        self.review = nil
                         display(signed, "Scan the signed transaction into the online view-only wallet.")
                     }
                 }.buttonStyle(WalletPrimaryButton()).disabled(busy || data.networkEnabled)
                 Button("Cancel") { self.review = nil }.disabled(busy)
             } else if let scannedKind {
-                Text("Scanned " + scannedKind.label).font(.title2.bold())
+                Text(WalletL10n.text("Scanned %@", WalletL10n.text(scannedKind.label))).font(.title2.bold())
                 if scannedKind == .images {
                     Toggle("Trust this node for this import", isOn: $trustNode)
                     Text("Importing key images lets the connected node link spent outputs in this wallet. Use a node you control.")
                         .font(.footnote).foregroundStyle(WalletStyle.muted)
                 } else if scannedKind == .signed {
-                    Text("Broadcast this signed transaction on " + data.network + " using the online wallet. Confirm you reviewed it on the signer.")
+                    Text(WalletL10n.text("Broadcast this signed transaction on %@ using the online wallet. Confirm you reviewed it on the signer.", WalletL10n.text(data.network)))
                         .foregroundStyle(WalletStyle.muted)
                 }
-                Button(buttonFor(scannedKind)) { apply(scannedKind) }.buttonStyle(WalletPrimaryButton())
+                Button(WalletL10n.text(buttonFor(scannedKind))) { apply(scannedKind) }.buttonStyle(WalletPrimaryButton())
                     .disabled(busy || (scannedKind == .images && !trustNode))
                 Button("Cancel") { clearImport() }.disabled(busy)
             } else if data.viewOnly {
@@ -301,7 +301,7 @@ struct ColdSigningTools: View {
                     taskButton("Scan unsigned transaction", "signature") { activeScan = .unsigned }
                 }
             }
-            if let status { Label(status, systemImage: "checkmark.circle").font(.subheadline).foregroundStyle(WalletStyle.mint) }
+            if let status { Label(WalletL10n.text(status), systemImage: "checkmark.circle").font(.subheadline).foregroundStyle(WalletStyle.mint) }
             if let error { WalletNotice(text: error) }
             if busy { ProgressView() }
         }
@@ -355,7 +355,7 @@ struct ColdSigningTools: View {
         error = nil
         Task { @MainActor in
             defer { busy = false }
-            do { try await operation() } catch { self.error = error.localizedDescription }
+            do { try await operation() } catch { self.error = WalletL10n.diagnostic(error) }
         }
     }
 

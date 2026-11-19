@@ -1,5 +1,21 @@
 import Foundation
 
+extension String {
+    /// Map only Unicode decimal digits, keeping separators and other characters
+    /// intact for the caller’s own locale and syntax checks.
+    var walletASCIIDigits: String {
+        var canonical = ""
+        for scalar in unicodeScalars {
+            if scalar.properties.generalCategory == .decimalNumber, let digit = scalar.properties.numericValue {
+                canonical.append(String(Int(digit)))
+            } else {
+                canonical.unicodeScalars.append(scalar)
+            }
+        }
+        return canonical
+    }
+}
+
 /// UI amounts are atomic units. Decimal input and formatting never use floating-point arithmetic.
 enum XMRAmount {
     static let scale: UInt64 = 1_000_000_000_000
@@ -19,7 +35,8 @@ enum XMRAmount {
 
     static func parseInput(_ raw: String, locale: Locale = .current) -> UInt64? {
         let separator = locale.decimalSeparator ?? "."
-        return parse(separator == "." ? raw : raw.replacingOccurrences(of: separator, with: "."))
+        let local = separator == "." ? raw : raw.replacingOccurrences(of: separator, with: ".")
+        return parse(local.walletASCIIDigits)
     }
 
     static func format(_ atomic: UInt64, minFraction: Int = 0) -> String {
@@ -70,6 +87,7 @@ struct WalletPresentation {
     var network: String
     var total: UInt64 = 0
     var available: UInt64 = 0
+    var nodeName: String?
     var syncStatus: String = "Offline"
     var synced: Bool = false
     var syncProgress: Double? = nil

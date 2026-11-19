@@ -28,6 +28,8 @@ xcrun clang -c "$ur_src"/*.c
 xcrun clang++ -std=c++17 -I "$ur_src" "$root/Scripts/Regtest/EncodeUR.cpp" "$ur_src"/*.cpp ./*.o -o encode-ur
 xcrun clang++ -std=c++17 -c "$root/Core/MoneroBridge.cpp" -o bridge.o
 xcrun swiftc -parse-as-library -import-objc-header "$root/Core/MoneroBridge.h" \
-  "$root/Core/WalletTypes.swift" "$root/Core/WalletEngine.swift" "$root/Scripts/Regtest/ColdTransfer.swift" \
+  "$root/Core/WalletTypes.swift" "$root/Core/WalletEngine.swift" "$root/Scripts/Regtest/ColdTransfer.swift" "$root/Scripts/Regtest/HotTransfer.swift" \
   bridge.o "./$lib" -lc++ -Xlinker -rpath -Xlinker '@executable_path' -o cold-transfer
 python3 "$root/Scripts/Regtest/regtest.py" "$work" "$work/$bin"
+mkdir "$work/private-testnet"
+PYTHONDONTWRITEBYTECODE=1 python3 "$root/Scripts/Regtest/hot_testnet.py" "$work/private-testnet" "$work/$bin" "$work/cold-transfer"

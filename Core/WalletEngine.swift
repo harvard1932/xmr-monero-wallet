@@ -6,6 +6,7 @@ actor WalletEngine {
     private typealias Handle = UnsafeMutableRawPointer
     private let network: Int32
     private var wallet: Handle?
+    private var restrictedScan = false
     private var hasNode = false
     private var usedNetwork = false
     private var pending: (id: UUID, handle: Handle)?
@@ -13,10 +14,13 @@ actor WalletEngine {
     private let birthHeightKey = "xmrwallet.scan-start.v1"
     private let seedKindKey = "xmrwallet.seed-kind.v1"
 
-    init(testnet: Bool = false) { network = testnet ? 1 : 0 }
+    init(testnet: Bool = false) {
+        XMRInitializeNetworking()
+        network = testnet ? 1 : 0
+    }
 
     private func current() throws -> Handle {
-        guard let wallet else { throw WalletEngineError("Unlock a wallet first.") }
+        guard let wallet, !restrictedScan else { throw WalletEngineError("Unlock a wallet first.") }
         return wallet
     }
 
@@ -51,10 +55,29 @@ actor WalletEngine {
             throw error
         }
         wallet = candidate
+        restrictedScan = false
         if let history = MONERO_Wallet_history(candidate) { MONERO_TransactionHistory_refresh(history) }
     }
 
+    // stop() only requests cancellation. The refresh worker may still append
+    // to the hash-chain deque. Offline synchronous refresh crosses wallet2's
+    // m_refreshMutex2 after the active scan exits, without starting another RPC.
+    private func pauseAndDrain(_ handle: Handle) {
+        MONERO_Wallet_pauseRefresh(handle)
+        MONERO_Wallet_stop(handle)
+        MONERO_Wallet_setOffline(handle, true)
+        _ = MONERO_Wallet_refresh(handle)
+    }
+
     private func save(_ handle: Handle) throws {
+        let resume = hasNode
+        if resume { pauseAndDrain(handle) }
+        defer {
+            if resume {
+                MONERO_Wallet_setOffline(handle, false)
+                MONERO_Wallet_startRefresh(handle)
+            }
+        }
         guard MONERO_Wallet_store(handle, "") else { throw failure(handle, "Could not save the wallet.") }
     }
 
@@ -82,16 +105,40 @@ actor WalletEngine {
         var candidate: Handle?
         var kind = "classic"
         switch source {
-        case .mnemonic(let input):
+        case .mnemonic(let input), .decryptedPolyseed(let input), .protectedMnemonic(let input, _), .polyseedWithMoneroOffset(let input, _):
+            let offset: String
+            let expectsPolyseed: Bool?
+            switch source {
+            case .decryptedPolyseed:
+                offset = ""
+                expectsPolyseed = true
+                kind = "polyseed-encrypted"
+            case .protectedMnemonic(_, let passphrase):
+                offset = passphrase
+                expectsPolyseed = false
+            case .polyseedWithMoneroOffset(_, let passphrase):
+                offset = passphrase
+                expectsPolyseed = true
+            default:
+                offset = ""
+                expectsPolyseed = nil
+            }
+            guard !offset.utf8.contains(0), expectsPolyseed == nil || !offset.isEmpty else {
+                throw WalletEngineError("Invalid seed offset passphrase.")
+            }
             let words = input.split(whereSeparator: \.isWhitespace)
             let mnemonic = words.joined(separator: " ")
             guard !mnemonic.utf8.contains(0) else { throw WalletEngineError("Invalid recovery phrase.") }
             if words.count == 16 {
-                kind = "polyseed"
-                candidate = MONERO_WalletManager_createWalletFromPolyseed(manager, url.path, password, network, mnemonic, "", false, height, 1)
+                // This native API's passphrase is a Monero offset applied after keygen.
+                // Standard encrypted Polyseeds are decrypted before reaching this adapter.
+                guard expectsPolyseed != false else { throw WalletEngineError("Decrypt the Polyseed before restoring this wallet.") }
+                if kind != "polyseed-encrypted" { kind = offset.isEmpty ? "polyseed" : "polyseed-offset" }
+                candidate = MONERO_WalletManager_createWalletFromPolyseed(manager, url.path, password, network, mnemonic, offset, false, height, 1)
             } else {
-                guard words.count == 25 else { throw WalletEngineError("Enter a 25-word Monero seed or 16-word Polyseed.") }
-                candidate = MONERO_WalletManager_recoveryWallet(manager, url.path, password, mnemonic, network, height, 1, "")
+                guard words.count == 25, expectsPolyseed != true else { throw WalletEngineError("Enter a 25-word Monero seed or 16-word Polyseed.") }
+                kind = offset.isEmpty ? "classic" : "classic-offset"
+                candidate = MONERO_WalletManager_recoveryWallet(manager, url.path, password, mnemonic, network, height, 1, offset)
             }
         case let .keys(address, view, spend):
             guard validAddress(address), validKey(view), spend.map(validKey) ?? true else {
@@ -103,7 +150,7 @@ actor WalletEngine {
         try adopt(candidate, manager: manager)
         let wallet = try current()
         let nativeHeight = MONERO_Wallet_getRefreshFromBlockHeight(wallet)
-        let start = kind == "polyseed" && height == 0 ? nativeHeight : height
+        let start = kind.hasPrefix("polyseed") && height == 0 ? nativeHeight : height
         try rememberScanStart(start, kind: kind, wallet: wallet)
     }
 
@@ -122,6 +169,9 @@ actor WalletEngine {
         guard !MONERO_Wallet_watchOnly(wallet), kind != "keys" else {
             throw WalletEngineError("This wallet was restored from keys. Keep the original key backup.")
         }
+        guard kind != "classic-offset", kind != "polyseed-offset", kind != "polyseed-encrypted" else {
+            throw WalletEngineError("Use the original recovery phrase and its seed offset to restore this wallet.")
+        }
         let phrase = kind == "polyseed" ? string(MONERO_Wallet_getPolyseed(wallet, ""), sensitive: true)
             : string(MONERO_Wallet_seed(wallet, ""), sensitive: true)
         guard !phrase.isEmpty else { throw failure(wallet, "Could not read the recovery phrase.") }
@@ -131,9 +181,8 @@ actor WalletEngine {
     func close() throws {
         guard let wallet else { return }
         let manager = try manager()
+        if hasNode { pauseAndDrain(wallet) }
         discardTransactions(wallet)
-        MONERO_Wallet_pauseRefresh(wallet)
-        MONERO_Wallet_stop(wallet)
         hasNode = false
         if !MONERO_WalletManager_closeWallet(manager, wallet, true) {
             let error = failure(wallet, "Could not save the wallet before locking.")
@@ -141,6 +190,7 @@ actor WalletEngine {
             throw error
         }
         self.wallet = nil
+        restrictedScan = false
         usedNetwork = false
     }
 
@@ -171,10 +221,11 @@ actor WalletEngine {
         guard scheme == "http", (loopback && proxy == nil) || (onion && proxy != nil) else {
             throw WalletEngineError("The native engine requires a local secure transport or a Tor v3 onion node through a proxy.")
         }
+        if hasNode { pauseAndDrain(wallet) }
         discardTransactions(wallet)
         usedNetwork = true
         hasNode = false
-        MONERO_Wallet_pauseRefresh(wallet)
+        MONERO_Wallet_setOffline(wallet, false)
         let scanStart = UInt64(string(MONERO_Wallet_getCacheAttribute(wallet, birthHeightKey))) ?? 0
         guard MONERO_Wallet_init(wallet, node.absoluteString, 0, username, password, scheme == "https", false, proxy ?? "") else {
             throw failure(wallet, "Could not configure the node.")
@@ -292,7 +343,7 @@ actor WalletEngine {
         }
         // Broadcasting is irreversible. A subsequent cache-write failure must
         // never be reported as a failed send that invites a duplicate payment.
-        _ = MONERO_Wallet_store(wallet, "")
+        try? save(wallet)
         return ids
     }
 
@@ -425,6 +476,22 @@ actor WalletEngine {
         return wallet
     }
 
+    func privateKeyBackup() throws -> (address: String, view: String, spend: String?) {
+        let wallet = try current()
+        let watchOnly = MONERO_Wallet_watchOnly(wallet)
+        guard watchOnly || string(MONERO_Wallet_getCacheAttribute(wallet, seedKindKey)) == "keys" else {
+            throw WalletEngineError("Use the recovery phrase to back up this wallet.")
+        }
+        let address = string(MONERO_Wallet_address(wallet, 0, 0))
+        let view = string(MONERO_Wallet_secretViewKey(wallet), sensitive: true)
+        let spend = watchOnly ? nil : string(MONERO_Wallet_secretSpendKey(wallet), sensitive: true)
+        guard validAddress(address), validKey(view), view.contains(where: { $0 != "0" }),
+              spend.map({ validKey($0) && $0.contains(where: { $0 != "0" }) }) ?? true else {
+            throw WalletEngineError("The wallet could not export its private keys.")
+        }
+        return (address, view, spend)
+    }
+
     func pairing() throws -> (address: String, viewKey: String) {
         let wallet = try offlineSigner()
         return (string(MONERO_Wallet_address(wallet, 0, 0)), string(MONERO_Wallet_secretViewKey(wallet), sensitive: true))
@@ -438,7 +505,7 @@ actor WalletEngine {
     func importOutputs(_ frames: [String]) throws {
         let wallet = try offlineSigner()
         let payload = try importPayload(frames, type: "xmr-output")
-        guard MONERO_Wallet_importOutputsUR(wallet, payload) else { throw failure(wallet, "Could not import the wallet outputs.") }
+        guard XMRImportOutputs(wallet, payload) else { throw failure(wallet, "Could not import the wallet outputs.") }
         try save(wallet)
     }
 
@@ -453,7 +520,7 @@ actor WalletEngine {
         let payload = try importPayload(frames, type: "xmr-keyimage")
         MONERO_Wallet_setTrustedDaemon(wallet, true)
         defer { MONERO_Wallet_setTrustedDaemon(wallet, false) }
-        guard MONERO_Wallet_importKeyImagesUR(wallet, payload) else { throw failure(wallet, "Could not import the signed key images.") }
+        guard XMRImportKeyImages(wallet, payload) else { throw failure(wallet, "Could not import the signed key images.") }
         try save(wallet)
     }
 
@@ -495,6 +562,31 @@ actor WalletEngine {
         guard hasNode else { throw WalletEngineError("Connect the view-only wallet to a node to broadcast.") }
         let payload = try importPayload(frames, type: "xmr-txsigned")
         guard XMRSubmitSigned(wallet, payload) else { throw failure(wallet, "Broadcast was not confirmed. Check history before retrying.") }
-        _ = MONERO_Wallet_store(wallet, "")
+        try? save(wallet)
+    }
+}
+
+
+extension WalletEngine {
+    func configureRestrictedScan(password: String) throws {
+        let handle = try current()
+        if MONERO_Wallet_watchOnly(handle) || MONERO_Wallet_getBackgroundSyncType(handle) == MONERO_WalletBackgroundSync_ReusePassword { return }
+        guard XMRConfigureScanOnly(handle, password) else { throw failure(handle, "Could not enable locked-screen scanning.") }
+    }
+
+    func enterRestrictedScan() throws {
+        let handle = try current()
+        discardTransactions(handle)
+        if MONERO_Wallet_watchOnly(handle) { restrictedScan = true; return }
+        guard MONERO_Wallet_getBackgroundSyncType(handle) == MONERO_WalletBackgroundSync_ReusePassword,
+              MONERO_Wallet_startBackgroundSync(handle), XMRIsBackgroundSyncing(handle) else {
+            throw WalletEngineError("Unlock to continue scanning.")
+        }
+        restrictedScan = true
+    }
+
+    func scanHeight() throws -> UInt64 {
+        guard restrictedScan, let wallet else { throw WalletEngineError("Unlock to continue scanning.") }
+        return MONERO_Wallet_blockChainHeight(wallet)
     }
 }

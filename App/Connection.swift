@@ -17,11 +17,14 @@ struct ConnectionSettings: Codable, Equatable {
     var endpoint = ""
     var useProxy = false
     var proxy = "127.0.0.1:9050"
+    // Missing in v0.1 preferences, which always used an explicitly configured proxy.
+    var externalTor: Bool? = false
+    var usesExternalTor: Bool { externalTor ?? true }
     var selection: ConnectionMode { ConnectionMode(rawValue: mode) ?? .offline }
 
     func validate() throws {
         if selection == .custom { _ = try customURL() }
-        if useProxy && selection != .offline {
+        if useProxy && usesExternalTor && selection != .offline {
             let parts = proxy.split(separator: ":", omittingEmptySubsequences: false)
             guard parts.count == 2, parts[0] == "127.0.0.1",
                   let port = UInt16(parts[1]), port > 0 else {
@@ -66,6 +69,8 @@ struct ConnectionSettings: Codable, Equatable {
         URL(string: "http://rucknium757bokwv3ss35ftgc3gzb7hgbvvglbg3hisp7tsj2fkd2nyd.onion:18081")!
     ]
 
+    // Probe directly only after choosing a direct public route. Start wallet2 as
+    // soon as a healthy node replies, with the other origins available for failover.
     // Probes contain only get_info. A proxy selection never uses URLSession for probes.
     func candidates() async throws -> [URL] {
         try validate()
@@ -77,31 +82,62 @@ struct ConnectionSettings: Codable, Equatable {
             return await withTaskGroup(of: URL?.self) { group in
                 for node in Self.publicNodes {
                     group.addTask {
-                        let config = URLSessionConfiguration.ephemeral
-                        config.timeoutIntervalForRequest = 5
-                        let session = URLSession(configuration: config, delegate: NoNodeRedirect(), delegateQueue: nil)
-                        defer { session.invalidateAndCancel() }
-                        guard let (data, response) = try? await session.data(from: node.appending(path: "get_info")),
-                              (response as? HTTPURLResponse)?.statusCode == 200,
+                        guard let data = try? await PublicJSON.read(node.appending(path: "get_info"), limit: 128 * 1024, timeout: 5),
                               let info = try? JSONDecoder().decode(NodeInfo.self, from: data),
-                              info.mainnet, info.status == "OK", info.height > 0 else { return nil }
+                              info.healthy else { return nil }
                         return node
                     }
                 }
-                var usable = [URL]()
-                for await node in group { if let node { usable.append(node) } }
-                return usable
+                for await result in group {
+                    if let first = result {
+                        group.cancelAll()
+                        return [first] + Self.publicNodes.filter { $0 != first }
+                    }
+                }
+                return []
             }
         }
     }
 
-    private struct NodeInfo: Decodable {
+    struct NodeInfo: Decodable {
         let mainnet: Bool
         let height: UInt64
         let status: String
+        let offline: Bool?
+        let synchronized: Bool?
+        let target_height: UInt64?
+        var healthy: Bool {
+            guard mainnet, status == "OK", height > 0, offline != true, synchronized != false else { return false }
+            let target = target_height ?? 0
+            return target <= height || target - height <= 3
+        }
     }
 }
 
+
+/// Price requests and node probes go only to the selected origin. Limit both
+/// claimed and actual bytes, including responses using chunked transfer.
+enum PublicJSON {
+    static func read(_ url: URL, limit: Int, timeout: TimeInterval) async throws -> Data {
+        let config = URLSessionConfiguration.ephemeral
+        config.httpCookieStorage = nil
+        config.urlCache = nil
+        config.urlCredentialStorage = nil
+        config.timeoutIntervalForRequest = timeout
+        config.timeoutIntervalForResource = timeout
+        let session = URLSession(configuration: config, delegate: NoNodeRedirect(), delegateQueue: nil)
+        defer { session.invalidateAndCancel() }
+        let (stream, response) = try await session.bytes(from: url)
+        guard (response as? HTTPURLResponse)?.statusCode == 200,
+              response.expectedContentLength <= Int64(limit) else { throw URLError(.badServerResponse) }
+        var data = Data()
+        for try await byte in stream {
+            guard data.count < limit else { throw URLError(.dataLengthExceedsMaximum) }
+            data.append(byte)
+        }
+        return data
+    }
+}
 
 private final class NoNodeRedirect: NSObject, URLSessionTaskDelegate {
     func urlSession(_ session: URLSession, task: URLSessionTask, willPerformHTTPRedirection response: HTTPURLResponse,

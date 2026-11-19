@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct InvoiceList: View {
+    @Environment(\.locale) private var locale
     var data: WalletPresentation
     var actions: WalletActions
     @State private var label = ""
@@ -54,7 +55,7 @@ struct InvoiceList: View {
     private func create() {
         guard !busy else { return }
         let name = label.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !name.isEmpty, let parsed = XMRAmount.parseInput(amount), parsed > 0 else {
+        guard !name.isEmpty, let parsed = XMRAmount.parseInput(amount, locale: locale), parsed > 0 else {
             error = "Enter a label and a positive XMR amount with up to 12 decimal places."
             return
         }
@@ -68,12 +69,12 @@ struct InvoiceList: View {
                 label = ""
                 error = nil
                 selected = invoice
-            } catch { self.error = error.localizedDescription }
+            } catch { self.error = WalletL10n.diagnostic(error) }
         }
     }
 
     private func invoiceStatus(_ invoice: WalletInvoiceItem) -> String {
-        invoice.received >= invoice.amount ? "Paid" : invoice.received > 0 ? "Partially paid" : "Awaiting payment"
+        WalletL10n.text(invoice.received >= invoice.amount ? "Paid" : invoice.received > 0 ? "Partially paid" : "Awaiting payment")
     }
 
     private func invoiceDetail(_ invoice: WalletInvoiceItem) -> some View {
@@ -137,7 +138,7 @@ struct CoinList: View {
                 Task {
                     defer { busy = false }
                     do { try await actions.labelOutput(coin.id, label); error = nil }
-                    catch { self.error = error.localizedDescription }
+                    catch { self.error = WalletL10n.diagnostic(error) }
                 }
             }
         }
@@ -149,7 +150,7 @@ struct CoinList: View {
         Task {
             defer { busy = false }
             do { try await actions.freeze(coin.id, !coin.frozen); error = nil }
-            catch { self.error = error.localizedDescription }
+            catch { self.error = WalletL10n.diagnostic(error) }
         }
     }
 }
@@ -201,13 +202,13 @@ struct ContactList: View {
         }
         .sheet(item: $sendTo) { contact in SendView(data: data, actions: actions, initialAddress: contact.address) }
         .confirmationDialog("Remove this contact?", isPresented: Binding(get: { remove != nil }, set: { if !$0 { remove = nil } }), presenting: remove) { contact in
-            Button("Remove " + contact.name, role: .destructive) {
+            Button("Remove \(contact.name)", role: .destructive) {
                 guard !busy else { return }
                 busy = true
                 Task {
                     defer { busy = false }
                     do { try await actions.removeContact(contact.id); error = nil }
-                    catch { self.error = error.localizedDescription }
+                    catch { self.error = WalletL10n.diagnostic(error) }
                 }
             }
         }
@@ -227,7 +228,7 @@ struct ContactList: View {
                 self.address = ""
                 self.name = ""
                 adding = false
-            } catch { self.error = error.localizedDescription }
+            } catch { self.error = WalletL10n.diagnostic(error) }
         }
     }
 }

@@ -13,13 +13,15 @@ private enum DashboardTab: String, CaseIterable {
 }
 
 private enum WalletRoute: String, Identifiable {
-    case send, receive, contacts, invoices, coins, price, cold
+    case send, scan, receive, contacts, invoices, coins, price, cold
     var id: Self { self }
 }
 
 struct WalletDashboard: View {
     var data: WalletPresentation
     var actions: WalletActions
+    var showNetwork: (() -> Void)?
+    var showPulse: (() -> Void)?
     @State private var tab: DashboardTab = .wallet
     @State private var sheet: WalletRoute?
     @State private var detail: WalletActivityItem?
@@ -54,6 +56,7 @@ struct WalletDashboard: View {
         .sheet(item: $sheet) { route in
             switch route {
             case .send: SendView(data: data, actions: actions)
+            case .scan: SendView(data: data, actions: actions, scanOnOpen: true)
             case .receive: ReceiveView(data: data, actions: actions)
             case .invoices: InvoiceList(data: data, actions: actions)
             case .coins: CoinList(data: data, actions: actions)
@@ -64,7 +67,9 @@ struct WalletDashboard: View {
                 ContactList(data: data, actions: actions)
             }
         }
-        .sheet(item: $detail) { ActivityDetail(item: $0) }
+        .sheet(item: $detail) { item in
+            ActivityDetail(item: data.activity.first { $0.id == item.id } ?? item)
+        }
     }
 
     private var header: some View {
@@ -74,9 +79,16 @@ struct WalletDashboard: View {
                 Text("Monero Wallet").font(.headline.weight(.bold)).tracking(-0.5)
             }
             Spacer()
+            Button(action: showNetwork ?? actions.settings) {
+                Label {
+                    Text(data.nodeName ?? WalletL10n.text(data.syncStatus))
+                        .lineLimit(1).truncationMode(.middle).font(.caption)
+                } icon: { Image(systemName: data.usesProxy ? "shield.lefthalf.filled" : "network") }
+                    .frame(maxWidth: 155, minHeight: 44, alignment: .trailing)
+            }.accessibilityLabel("Node and sync settings")
             Button(action: actions.settings) {
                 Image(systemName: "gearshape").font(.system(size: 18, weight: .medium))
-                    .frame(width: 43, height: 43)
+                    .frame(width: 44, height: 44)
                     .background(WalletStyle.dusk, in: Circle())
                     .overlay(Circle().stroke(WalletStyle.stroke))
             }.accessibilityLabel("Settings")
@@ -102,7 +114,7 @@ struct WalletDashboard: View {
                     }
                     .padding(.horizontal, 12).padding(.vertical, 8)
                     .background(WalletStyle.panel, in: Capsule())
-                }.accessibilityLabel("Switch wallet, " + data.name)
+                }.accessibilityLabel("Switch wallet, \(data.name)")
             }
             balanceCard
             HStack(spacing: 10) {
@@ -112,6 +124,10 @@ struct WalletDashboard: View {
                 Button { sheet = .receive } label: {
                     Label("Receive", systemImage: "arrow.down.left")
                 }.buttonStyle(WalletPrimaryButton(muted: true))
+                Button { sheet = .scan } label: {
+                    Image(systemName: "qrcode.viewfinder").font(.title3).frame(width: 48, height: 52)
+                        .background(WalletStyle.panel, in: RoundedRectangle(cornerRadius: 15))
+                }.accessibilityLabel("Scan payment QR")
             }
         }
         VStack(alignment: .leading, spacing: 12) {
@@ -124,12 +140,12 @@ struct WalletDashboard: View {
             ActivityList(items: Array(data.activity.prefix(3)), selected: { detail = $0 })
         }
         if !data.synced {
-            Button(action: actions.settings) {
+            Button(action: showNetwork ?? actions.settings) {
                 HStack(alignment: .center, spacing: 12) {
                     Image(systemName: "point.3.connected.trianglepath.dotted")
                         .font(.title3).foregroundStyle(WalletStyle.apricot)
                     VStack(alignment: .leading, spacing: 4) {
-                        Text(data.syncStatus).font(.subheadline.weight(.semibold))
+                        Text(WalletL10n.text(data.syncStatus)).font(.subheadline.weight(.semibold))
                         Text("Node and sync settings").font(.caption).foregroundStyle(WalletStyle.muted)
                     }
                     Spacer()
@@ -150,7 +166,7 @@ struct WalletDashboard: View {
                 Spacer()
                 HStack(spacing: 5) {
                     Circle().fill(WalletStyle.plum).frame(width: 5, height: 5)
-                    Text(data.network.uppercased()).font(.system(size: 10, weight: .bold, design: .monospaced)).tracking(0.6)
+                    Text(WalletL10n.text(data.network).uppercased(with: WalletL10n.locale)).font(.system(size: 10, weight: .bold, design: .monospaced)).tracking(0.6)
                 }
                 .padding(.horizontal, 9).padding(.vertical, 6)
                 .background(WalletStyle.apricot.opacity(0.8), in: Capsule())
@@ -205,6 +221,11 @@ struct WalletDashboard: View {
 
     private var toolList: some View {
         VStack(spacing: 0) {
+            Button(action: showPulse ?? actions.settings) {
+                Label("Privacy Pulse", systemImage: "shield.lefthalf.filled")
+                    .font(.headline).frame(maxWidth: .infinity, alignment: .leading).padding()
+            }
+            Divider().overlay(WalletStyle.stroke)
             toolRow("Payment requests", "Invoices and payment status", "qrcode", .invoices)
             Divider().overlay(WalletStyle.stroke)
             toolRow("Contacts", "Saved Monero addresses", "person.crop.rectangle.stack", .contacts)
@@ -281,7 +302,7 @@ struct ActivityList: View {
                                 .frame(width: 35, height: 35).background(WalletStyle.panel, in: Circle())
                             VStack(alignment: .leading, spacing: 4) {
                                 Text(item.incoming ? "Received" : "Sent").font(.subheadline.weight(.semibold))
-                                Text(item.date.formatted(date: .abbreviated, time: .shortened))
+                                Text(item.date.formatted(.dateTime.locale(WalletL10n.locale).month(.abbreviated).day().hour().minute()))
                                     .font(.caption2).foregroundStyle(WalletStyle.muted)
                             }
                             Spacer()
@@ -306,10 +327,10 @@ struct ActivityDetail: View {
         WalletSheet(title: "Transaction") {
             Text(XMRAmount.format(item.amount) + " XMR").font(.title.bold()).monospacedDigit()
             VStack(spacing: 10) {
-                WalletLine(label: "Direction", value: item.incoming ? "Received" : "Sent")
-                WalletLine(label: "Status", value: item.failed ? "Failed" : item.pending ? "Pending" : "Confirmed")
+                WalletLine(label: "Direction", value: WalletL10n.text(item.incoming ? "Received" : "Sent"))
+                WalletLine(label: "Status", value: WalletL10n.text(item.failed ? "Failed" : item.pending ? "Pending" : "Confirmed"))
                 WalletLine(label: "Confirmations", value: String(item.confirmations))
-                WalletLine(label: "Date", value: item.date.formatted())
+                WalletLine(label: "Date", value: item.date.formatted(.dateTime.locale(WalletL10n.locale).year().month().day().hour().minute()))
                 if !item.incoming { WalletLine(label: "Network fee", value: XMRAmount.format(item.fee) + " XMR") }
             }
             WalletField(label: "Transaction ID") {

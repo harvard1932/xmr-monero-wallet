@@ -34,10 +34,43 @@ final class TransferIntegrationTests: XCTestCase {
             let viewer = try await wallet.snapshot()
             XCTAssertTrue(viewer.watchOnly)
             XCTAssertEqual(viewer.addresses.first?.address, mainAddress)
+            let keyBackup = try await wallet.privateKeyBackup()
+            XCTAssertEqual(keyBackup.address, mainAddress)
+            XCTAssertTrue(keyBackup.view == pairing.viewKey)
+            XCTAssertNil(keyBackup.spend)
             try await wallet.restore(at: directory.appendingPathComponent("restored"), password: password,
                                      source: .mnemonic(phrase), height: 0)
             let restored = try await wallet.snapshot()
             XCTAssertEqual(restored.addresses.first?.address, mainAddress)
+            try await wallet.close()
+        } catch {
+            try? await wallet.close()
+            throw error
+        }
+    }
+
+    func testClassicSeedOffsetChangesAddressAndProtectsOriginalBackup() async throws {
+        let directory = FileManager.default.temporaryDirectory.appendingPathComponent(UUID().uuidString)
+        try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true)
+        defer { try? FileManager.default.removeItem(at: directory) }
+        let wallet = WalletEngine(testnet: true)
+        let password = UUID().uuidString, offset = UUID().uuidString
+        do {
+            let phrase = try await wallet.create(at: directory.appendingPathComponent("plain"), password: password)
+            let plain = try await wallet.snapshot().addresses.first?.address
+            try await wallet.restore(at: directory.appendingPathComponent("protected"), password: password,
+                                     source: .protectedMnemonic(phrase, passphrase: offset), height: 0)
+            let protected = try await wallet.snapshot().addresses.first?.address
+            XCTAssertNotNil(protected)
+            XCTAssertNotEqual(protected, plain)
+            do {
+                _ = try await wallet.seed()
+                XCTFail("A seed-offset restore exposed a different native backup as the original phrase.")
+            } catch is WalletEngineError {}
+            try await wallet.restore(at: directory.appendingPathComponent("repeat"), password: password,
+                                     source: .protectedMnemonic(phrase, passphrase: offset), height: 0)
+            let repeated = try await wallet.snapshot().addresses.first?.address
+            XCTAssertEqual(repeated, protected)
             try await wallet.close()
         } catch {
             try? await wallet.close()

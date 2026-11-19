@@ -19,6 +19,13 @@ final class PaymentInputTests: XCTestCase {
         XCTAssertNil(XMRAmount.parseInput("1.000,50", locale: Locale(identifier: "de_DE")))
     }
 
+    func testLocalizedDecimalDigitsStayExactAndProtocolAmountsRemainASCII() {
+        XCTAssertEqual(XMRAmount.parseInput("١٫٠٠٠٠٠٠٠٠٠٠٠١", locale: Locale(identifier: "ar_EG")), 1_000_000_000_001)
+        XCTAssertEqual(XMRAmount.parseInput("৭.২৫", locale: Locale(identifier: "bn_BD")), 7_250_000_000_000)
+        XCTAssertNil(XMRAmount.parseInput("١٬٢٣٤", locale: Locale(identifier: "ar_EG")))
+        XCTAssertNil(XMRAmount.parse("١.٢٥"))
+    }
+
     func testPaymentRequestKeepsExactAmount() throws {
         let target = try MoneroPaymentTarget("monero:wallet-address?tx_amount=0.000000000001&recipient_name=Shop")
         XCTAssertEqual(target.address, "wallet-address")

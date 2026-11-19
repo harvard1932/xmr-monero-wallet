@@ -1,9 +1,17 @@
 # Interface languages
 
-The wallet includes English plus Arabic, Bengali, Dutch, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swahili, Thai, Traditional Chinese, Turkish and Vietnamese. Choose a language with the globe during onboarding or the picker in Settings. Device language is the default. Arabic supports right-to-left layout.
+The wallet ships English and 22 other languages. The language picker includes Arabic, Bengali, Dutch, French, German, Hindi, Indonesian, Italian, Japanese, Korean, Malay, Polish, Portuguese, Russian, Simplified Chinese, Spanish, Swahili, Swedish, Thai, Traditional Chinese, Turkish and Vietnamese. It initially follows the device language. Choosing Arabic also switches the layout to right-to-left.
 
-Translations are partial. The catalog has 92 source strings covering common wallet actions, navigation, balances, fee labels, recovery terms and the backup warning. Bengali, Malay, Swahili and Traditional Chinese include 54 translations each. German includes 92. Other translated languages include 91 each. Advanced controls, some security instructions, the source information page and runtime errors still contain English. Monero seed languages are a separate feature.
+The catalogs cover wallet setup and recovery, authentication, payment review, fees, balances and history, contacts, invoices, coin control, cold signing, node and privacy settings, prices, and the Live Activity. The app looks up translations locally. iOS chooses the language for its own permission dialogs. It receives localized camera and Face ID usage descriptions from the app. Addresses, amounts encoded in payment requests, recovery words, user labels and the native engine’s original diagnostic or transaction-review text are preserved.
 
-Most wallet terminology comes from [Cake Wallet’s MIT-licensed language resources](https://github.com/cake-tech/cake_wallet/tree/0b121b07217ddaa5e3a886e95d2393286728b59d/res/values). Its notice is in `ThirdParty/Cake-translations-LICENSE`. The introductory text and terms in `own.json` and `additional.json` were written for this app. The catalog is compiled into the app. Selecting a language never sends wallet data to a translation service.
+## Translation sources
 
-Run `python3 Localization/import.py` from the project root to recreate the catalog from its pinned upstream revision and local files. The importer prints each language’s count.
+The checked-in [interface catalog](../Resources/Localizable.xcstrings) and [permission catalog](../Resources/InfoPlist.xcstrings) are the source of truth. Common wallet terms incorporate the pinned Cake Wallet translations under the MIT license. Other strings include translations written for this project and machine-assisted translations of public interface copy. Machine-assisted entries are marked **Needs Review** in Xcode pending a native speaker’s review. Their text is included in the built app. Translation preparation uses public source copy only. No translation service is part of the wallet runtime. [Upstream revision](https://github.com/cake-tech/cake_wallet/tree/0b121b07217ddaa5e3a886e95d2393286728b59d/res/values) · [License](../ThirdParty/Cake-translations-LICENSE)
+
+## Verification
+
+Run `python3 Localization/check.py` in the project root to validate locale coverage, printf substitutions, unresolved placeholders, known identical terms, and permission descriptions. Run `python3 Localization/check.py --compile` on a Mac with Xcode to compile both catalogs and compare every localized string against the output. After a clean app and widget build, add `--derived-data <build-directory>` to check the compiler-extracted keys.
+
+Keep each format argument’s type and position when translating. For example, `%1$lld` and `%2$lld` can be reordered to match the target language. Protocol identifiers and literal address examples are marked as invariant. Keep native diagnostic details distinct from app-authored guidance.
+
+`python3 Localization/import.py` fills any missing terminology from the pinned upstream revision and the project’s short phrase lists. It preserves existing translations. Ordinary app builds require only the checked-in catalogs.

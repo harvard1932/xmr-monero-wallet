@@ -17,9 +17,15 @@ The bundled headers match the pinned source. `monero_wallet2_api_c.h` and `moner
 
 To rebuild the engine independently, clone the wrapper at the exact commit above and use its [Docker build](https://github.com/MrCyjaneK/monero_c/blob/3bfb3856a838f2bf6b729501837bb0295dedf25d/builder/Dockerfile) and [release script](https://github.com/MrCyjaneK/monero_c/blob/3bfb3856a838f2bf6b729501837bb0295dedf25d/builder/release.sh). Compare the two resulting iOS dylibs with the corresponding archive members before install-name editing or code signing. This project's verification covered the distribution archive digest, not an independent source-to-binary reproduction. Developers can compile modifications in that source checkout, wrap their libraries in equivalent framework slices and rebuild and sign the app from source in Xcode.
 
+## Native lifecycle and scanning
+
+The iOS adapter pauses, cancels and drains the active native refresh worker before saving or closing the encrypted cache. The synchronous offline refresh acquires wallet2’s refresh mutex after an in-flight scan exits. The locked-screen scan uses wallet2’s spend-key-removing background mode. The C++ bridge calls the matching virtual methods for background-sync setup and status because the pinned C wrapper hardcodes a different mode during setup and its status accessor calls `hasUnknownKeyImages()`. The app’s adapter also denies ordinary wallet operations while restricted scanning is active. [Pinned C wrapper](https://github.com/MrCyjaneK/monero_c/blob/3bfb3856a838f2bf6b729501837bb0295dedf25d/monero_libwallet2_api_c/src/main/cpp/monero_wallet2_api_c.cpp)
+
 ## Network transport
 
 The pinned engine's native HTTP client uses TLS autodetection. In this version that mode may accept an unverified certificate or retry with plaintext, even when given an HTTPS URL. `WalletEngine.connect` therefore rejects direct remote HTTPS traffic. The raw native endpoint must be loopback or a v3 onion service reached through a SOCKS4a-compatible proxy. For onion destinations the proxy resolves the hostname. The engine never falls back from an onion connection to a direct clearnet connection.
+
+The newer monero_c v0.18.5.3-RC1 release published a documentation archive without a matching iPhone wallet library. This project pins a release that ships matching arm64 iOS, simulator and host inputs. [Wrapper releases](https://github.com/MrCyjaneK/monero_c/releases/tag/v0.18.5.3-RC1)
 
 The wallet2 base in this wrapper predates Monero v0.18.5.4. The [upstream v0.18.5.0 release](https://github.com/monero-project/monero/releases/tag/v0.18.5.0) includes additional change-address checks and HTTP client authentication fixes. The newer upstream changes need to be evaluated and incorporated where applicable before a production release. A matching archive digest identifies the expected bytes. It does not provide independent security assurance.
 
@@ -28,3 +34,6 @@ The wallet2 base in this wrapper predates Monero v0.18.5.4. The [upstream v0.18.
 `TransferIntegrationTests` creates random disposable testnet wallets offline. It verifies a 25-word backup and restore, an address book entry, subaddress persistence, view-only pairing and refusal to prepare an offline spend.
 
 A standard Monero regtest daemon activates protocol v16 at block 1. Production wallet2 checks the real network hard-fork schedule, so a standard fakechain cannot validate the app's mainnet synchronization. Keep the production version checks enabled.
+
+
+The native bridge directly calls wallet2’s background-sync mode setter and actual background-sync status accessor. The pinned C façade selects a different mode and reads an unrelated flag. Before storing a cache, switching nodes or closing a live wallet, the Swift actor pauses refresh, sets the native client offline and drains its refresh work to prevent simultaneous cache mutation. The app can then reopen encrypted keys normally. The bounded background path restricts native operations to scan progress. [Bridge](../Core/MoneroBridge.cpp) · [Wallet lifecycle](../Core/WalletEngine.swift)

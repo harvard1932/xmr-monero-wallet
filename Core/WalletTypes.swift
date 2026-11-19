@@ -2,6 +2,9 @@ import Foundation
 
 enum WalletRestoreSource: Sendable {
     case mnemonic(String)
+    case decryptedPolyseed(String)
+    case protectedMnemonic(String, passphrase: String)
+    case polyseedWithMoneroOffset(String, offset: String)
     case keys(address: String, view: String, spend: String?)
 }
 

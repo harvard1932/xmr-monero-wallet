@@ -3,8 +3,8 @@ import JavaScriptCore
 
 enum VaultSeedFormat: String, CaseIterable {
     case classic = "Monero / Polyseed"
-    case myMonero = "MyMonero (13 English words)"
-    case bip39 = "Exodus / Cake BIP39 (English)"
+    case myMonero = "MyMonero (13 words)"
+    case bip39 = "Exodus / Cake BIP39"
 }
 
 enum LegacySeedRecovery {
@@ -33,14 +33,14 @@ enum LegacySeedRecovery {
             guard let value = adapter.invokeMethod("myMonero", withArguments: [phrase]),
                   context.exception == nil, let fields = value.toDictionary() as? [String: String],
                   let address = fields["address"], let view = fields["view"], let spend = fields["spend"] else {
-                throw WalletEngineError("Check the 13 English MyMonero words, including the checksum word.")
+                throw WalletEngineError("Check the 13 MyMonero words and their checksum.")
             }
             return .keys(address: address, view: view, spend: spend)
         case .bip39:
             guard let value = adapter.invokeMethod("exodus", withArguments: [phrase, passphrase]),
                   context.exception == nil, value.isString, let classic = value.toString(),
                   classic.split(separator: " ").count == 25 else {
-                throw WalletEngineError("Check the English BIP39 phrase and its checksum.")
+                throw WalletEngineError("Check the BIP39 phrase and its checksum.")
             }
             return .mnemonic(classic)
         }

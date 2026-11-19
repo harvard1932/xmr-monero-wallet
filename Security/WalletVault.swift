@@ -1,8 +1,13 @@
+import CryptoKit
 import Foundation
 import LocalAuthentication
 import Security
 import SwiftUI
 import UIKit
+
+extension Notification.Name {
+    static let walletVaultErased = Notification.Name("WalletVaultErased")
+}
 
 struct VaultWallet: Identifiable, Codable, Hashable {
     let id: UUID
@@ -25,19 +30,17 @@ struct VaultRestore {
 enum VaultPhase { case loading, needsWallet, locked, opening, unlocked }
 
 private enum VaultFailure: LocalizedError {
-    case random, keychain(OSStatus), name, invalidRegistry, unavailable, missingWallet
+    case keychain(OSStatus), name, invalidRegistry, missingWallet
 
     var errorDescription: String? {
         switch self {
-        case .random: return "The device could not generate a wallet password. Please try again."
         case .keychain(errSecItemNotFound):
-            return "This iPhone no longer holds the wallet’s unlock key. Restore it from your recovery backup."
-        case .keychain(errSecUserCanceled): return "Authentication was canceled."
-        case .keychain(let code): return "The iPhone Keychain could not complete this request (\(code))."
-        case .name: return "Use a unique wallet name of 1 to 48 characters."
-        case .invalidRegistry: return "The local wallet list could not be read. Existing wallet files have been preserved."
-        case .unavailable: return "Set a device passcode in iPhone Settings to protect this wallet."
-        case .missingWallet: return "This wallet is no longer available on this device."
+            return WalletL10n.text("This iPhone no longer holds the wallet’s unlock key. Restore it from your recovery backup.")
+        case .keychain(errSecUserCanceled): return WalletL10n.text("Authentication was canceled.")
+        case .keychain(let code): return WalletL10n.text("The iPhone Keychain could not complete this request (%lld).", Int64(code))
+        case .name: return WalletL10n.text("Use a unique wallet name of 1 to 48 characters.")
+        case .invalidRegistry: return WalletL10n.text("The local wallet list could not be read. Existing wallet files have been preserved.")
+        case .missingWallet: return WalletL10n.text("This wallet is no longer available on this device.")
         }
     }
 }
@@ -89,24 +92,10 @@ final class VaultAppDelegate: NSObject, UIApplicationDelegate {
     }
 }
 
-// Each read uses its own local authentication context. The actual decryption
-// password is stored behind the Keychain access control, separate from wallet files.
-private enum WalletCredential {
+// Version-one wallet passwords use their original user-presence Keychain ACL
+// exactly once during migration to the PIN-protected wallet credential.
+enum WalletCredential {
     private static let service = (Bundle.main.bundleIdentifier ?? "XMRMoneroWallet") + ".wallet-password.v1"
-
-    static func authenticate(_ reason: String) async throws -> LAContext {
-        let context = LAContext()
-        context.localizedCancelTitle = "Cancel"
-        var availabilityError: NSError?
-        guard context.canEvaluatePolicy(.deviceOwnerAuthentication, error: &availabilityError) else {
-            if availabilityError?.code == LAError.passcodeNotSet.rawValue { throw VaultFailure.unavailable }
-            throw availabilityError ?? VaultFailure.unavailable as NSError
-        }
-        guard try await context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason) else {
-            throw VaultFailure.keychain(errSecAuthFailed)
-        }
-        return context
-    }
 
     static func query(_ id: UUID) -> [String: Any] {
         [kSecClass as String: kSecClassGenericPassword,
@@ -115,28 +104,10 @@ private enum WalletCredential {
          kSecAttrSynchronizable as String: false]
     }
 
-    static func add(_ id: UUID) throws -> String {
-        var bytes = [UInt8](repeating: 0, count: 32)
-        guard SecRandomCopyBytes(kSecRandomDefault, bytes.count, &bytes) == errSecSuccess else {
-            throw VaultFailure.random
-        }
-        var error: Unmanaged<CFError>?
-        guard let access = SecAccessControlCreateWithFlags(nil, kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly,
-                                                           .userPresence, &error) else {
-            if let error { throw error.takeRetainedValue() as Error }
-            throw VaultFailure.unavailable
-        }
-        let password = Data(bytes).base64EncodedString()
-        var item = query(id)
-        item[kSecAttrAccessControl as String] = access
-        item[kSecValueData as String] = Data(password.utf8)
-        let status = SecItemAdd(item as CFDictionary, nil)
-        guard status == errSecSuccess else { throw VaultFailure.keychain(status) }
-        return password
-    }
-
     static func read(_ id: UUID, reason: String) async throws -> String {
-        let context = try await authenticate(reason)
+        let context = LAContext()
+        context.localizedReason = WalletL10n.text(reason)
+        context.localizedCancelTitle = WalletL10n.text("Cancel")
         defer { context.invalidate() }
         var item = query(id)
         item[kSecUseAuthenticationContext as String] = context
@@ -154,6 +125,13 @@ private enum WalletCredential {
         let status = SecItemDelete(query(id) as CFDictionary)
         guard status == errSecSuccess || status == errSecItemNotFound else { throw VaultFailure.keychain(status) }
     }
+
+    static func removeAll() throws {
+        let query: [String: Any] = [kSecClass as String: kSecClassGenericPassword,
+                                     kSecAttrService as String: service, kSecAttrSynchronizable as String: false]
+        let status = SecItemDelete(query as CFDictionary)
+        guard status == errSecSuccess || status == errSecItemNotFound else { throw VaultFailure.keychain(status) }
+    }
 }
 
 @MainActor
@@ -164,6 +142,7 @@ final class WalletVault: ObservableObject {
     @Published private(set) var sessionID = UUID()
     @Published private(set) var working = false
     @Published private(set) var loadError: String?
+    private var sessionKey: SymmetricKey?
     private let fm = FileManager.default
     private let root: URL
     private var runningOperation: UUID?
@@ -186,10 +165,23 @@ final class WalletVault: ObservableObject {
         try path.setResourceValues(values)
     }
 
+    private var eraseJournal: WalletEraseJournal { WalletEraseJournal(root: root) }
+
     func reconcile() {
+        guard !working else { return }
         do {
             try protectedFolder(root)
             let contents = try fm.contentsOfDirectory(at: root, includingPropertiesForKeys: nil)
+            if contents.contains(where: { $0.lastPathComponent == eraseJournal.marker.lastPathComponent }) {
+                phase = .loading; active = nil; wallets = []; loadError = nil
+                if let ticket = beginOperation() {
+                    Task {
+                        defer { endOperation(ticket) }
+                        do { try await finishErasure() } catch { loadError = WalletL10n.diagnostic(error) }
+                    }
+                }
+                return
+            }
             var discovered: [VaultWallet] = []
             for item in contents {
                 let filename = item.lastPathComponent
@@ -218,11 +210,13 @@ final class WalletVault: ObservableObject {
             loadError = nil
         } catch {
             phase = .loading
-            loadError = error.localizedDescription
+            loadError = WalletL10n.diagnostic(error)
         }
     }
 
     func lock() {
+        WalletPINPrompt.cancel()
+        sessionKey = nil
         sessionID = UUID()
         if phase != .loading { phase = wallets.isEmpty ? .needsWallet : .locked }
     }
@@ -240,12 +234,101 @@ final class WalletVault: ObservableObject {
         phase = .locked
     }
 
+    private func passwordFile(_ id: UUID) -> URL { folder(id).appending(path: "credential.sealed") }
+    private func originalFile(_ id: UUID) -> URL { folder(id).appending(path: "original-backup.sealed") }
+
+    func authorizeAction(reason: String, manage: Bool = false) async throws {
+        let session = sessionID
+        let hasCiphertexts = wallets.contains { fm.fileExists(atPath: passwordFile($0.id).path) }
+        let key = try await WalletPINPrompt.request(reason: reason, existingCiphertexts: hasCiphertexts, manage: manage)
+        try requireCurrent(session)
+        sessionKey = key
+    }
+
+    func managePIN() async throws {
+        try await authorizeAction(reason: "Authenticate to change wallet security.", manage: true)
+    }
+
+    func eraseAllFromSettings(close: () async -> Void) async throws {
+        guard phase == .unlocked, let ticket = beginOperation() else { throw CancellationError() }
+        defer { endOperation(ticket) }
+        try await authorizeAction(reason: "Confirm erasing wallet data from this iPhone.")
+        try requireCurrent(ticket)
+        try await commitFullErasure(close: close)
+    }
+
+    func eraseAllFromLock() async throws {
+        guard phase == .locked || (phase == .loading && loadError != nil), let ticket = beginOperation() else { throw CancellationError() }
+        defer { endOperation(ticket) }
+        try await WalletPINStore.shared.authorizeEmergencyErase()
+        try requireCurrent(ticket)
+        try await commitFullErasure(close: {})
+    }
+
+    private func commitFullErasure(close: () async -> Void) async throws {
+        // Establish the durable user intent before closing any native handle.
+        try eraseJournal.begin()
+        phase = .loading; loadError = nil; active = nil; wallets = []
+        lock()
+        await close()
+        do { try await finishErasure() }
+        catch { loadError = WalletL10n.diagnostic(error); throw error }
+    }
+
+    private func finishErasure() async throws {
+        try await eraseJournal.finish(retireCredentials: {
+            try WalletCredential.removeAll()
+            try await WalletPINStore.shared.eraseAll()
+        }, eraseNetworkState: {
+            try await EmbeddedTor.shared.eraseState()
+        }, clearPreferences: {
+            if let bundle = Bundle.main.bundleIdentifier { UserDefaults.standard.removePersistentDomain(forName: bundle) }
+        })
+        sessionKey = nil; wallets = []; active = nil; phase = .needsWallet; loadError = nil
+        NotificationCenter.default.post(name: .walletVaultErased, object: nil)
+    }
+
     func authorizedLocation(for wallet: VaultWallet, reason: String) async throws -> VaultLocation {
         guard wallets.contains(where: { $0.id == wallet.id }) else { throw VaultFailure.missingWallet }
         let session = sessionID
-        let password = try await WalletCredential.read(wallet.id, reason: reason)
+        try await authorizeAction(reason: reason)
+        try requireCurrent(session)
+        guard let key = sessionKey else { throw CancellationError() }
+        let password = try await WalletCredentialMigration.open(at: passwordFile(wallet.id), walletID: wallet.id, key: key,
+            legacy: { try await WalletCredential.read(wallet.id, reason: "Authorize migration of this wallet to the app PIN.") },
+            checkSession: { try self.requireCurrent(session) }, retireLegacy: { try WalletCredential.remove(wallet.id) })
         try requireCurrent(session)
         return VaultLocation(wallet: wallet, fileURL: file(wallet.id), password: password)
+    }
+
+    func saveOriginal(_ backup: VaultBackup, for wallet: VaultWallet) throws {
+        guard let key = sessionKey else { throw CancellationError() }
+        try WalletSealedFile.write(JSONEncoder().encode(backup), to: originalFile(wallet.id), walletID: wallet.id, key: key)
+    }
+
+    func recoveryBackup(for wallet: VaultWallet, nativeSeed: () async throws -> String,
+                        rawKeys: (() async throws -> (address: String, view: String, spend: String?))? = nil) async throws -> VaultBackup {
+        let ticket = sessionID
+        _ = try await authorizedLocation(for: wallet, reason: "View the original wallet recovery backup.")
+        try requireCurrent(ticket)
+        guard let key = sessionKey else { throw CancellationError() }
+        let url = originalFile(wallet.id)
+        if fm.fileExists(atPath: url.path) {
+            let data = try WalletSealedFile.read(url, walletID: wallet.id, key: key)
+            return try JSONDecoder().decode(VaultBackup.self, from: data)
+        }
+        do {
+            let words = try await nativeSeed()
+            try requireCurrent(ticket)
+            return .init(format: "Native wallet recovery words", phrase: words, address: nil, view: nil, spend: nil, requiresPassphrase: false)
+        } catch {
+            try requireCurrent(ticket)
+            guard let rawKeys else { throw error }
+            let keys = try await rawKeys()
+            try requireCurrent(ticket)
+            return .init(format: "Native wallet keys", phrase: nil, address: keys.address,
+                         view: keys.view, spend: keys.spend, requiresPassphrase: false)
+        }
     }
 
     func beginOperation() -> UUID? {
@@ -272,14 +355,15 @@ final class WalletVault: ObservableObject {
               !wallets.contains(where: { $0.name.localizedCaseInsensitiveCompare(name) == .orderedSame }) else {
             throw VaultFailure.name
         }
-        let context = try await WalletCredential.authenticate("Protect this wallet with your iPhone’s device lock.")
-        defer { context.invalidate() }
+        try await authorizeAction(reason: "Protect this wallet with your app PIN.")
         try requireCurrent(session)
+        guard let key = sessionKey else { throw CancellationError() }
         let wallet = VaultWallet(id: UUID(), name: name, createdAt: Date(), backupVerified: restored)
         try protectedFolder(folder(wallet.id))
         do {
             try Data().write(to: folder(wallet.id).appending(path: ".draft"), options: [.atomic, .completeFileProtection])
-            let password = try WalletCredential.add(wallet.id)
+            let password = SymmetricKey(size: .bits256).withUnsafeBytes { Data($0).base64EncodedString() }
+            try WalletSealedFile.write(Data(password.utf8), to: passwordFile(wallet.id), walletID: wallet.id, key: key)
             return VaultLocation(wallet: wallet, fileURL: file(wallet.id), password: password)
         } catch {
             try? fm.removeItem(at: folder(wallet.id))
@@ -319,7 +403,7 @@ final class WalletVault: ObservableObject {
     }
 
     func enter(_ wallet: VaultWallet) {
-        guard let wallet = wallets.first(where: { $0.id == wallet.id }), wallet.backupVerified else { return }
+        guard sessionKey != nil, let wallet = wallets.first(where: { $0.id == wallet.id }), wallet.backupVerified else { return }
         active = wallet
         phase = .unlocked
     }

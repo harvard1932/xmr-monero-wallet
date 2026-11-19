@@ -2,6 +2,15 @@ import './encoding.js';
 import { HDKey } from '@scure/bip32';
 import { mnemonicToSeedSync, validateMnemonic } from '@scure/bip39';
 import { wordlist as bip39English } from '@scure/bip39/wordlists/english.js';
+import { wordlist as czech } from '@scure/bip39/wordlists/czech.js';
+import { wordlist as french } from '@scure/bip39/wordlists/french.js';
+import { wordlist as italian } from '@scure/bip39/wordlists/italian.js';
+import { wordlist as japanese } from '@scure/bip39/wordlists/japanese.js';
+import { wordlist as korean } from '@scure/bip39/wordlists/korean.js';
+import { wordlist as portuguese } from '@scure/bip39/wordlists/portuguese.js';
+import { wordlist as simplifiedchinese } from '@scure/bip39/wordlists/simplified-chinese.js';
+import { wordlist as spanish } from '@scure/bip39/wordlists/spanish.js';
+import { wordlist as traditionalchinese } from '@scure/bip39/wordlists/traditional-chinese.js';
 import { base58xmr } from '@scure/base';
 import { ed25519 } from '@noble/curves/ed25519.js';
 import { bytesToNumberLE, numberToBytesLE } from '@noble/curves/utils.js';
@@ -9,14 +18,22 @@ import { keccak_256 } from '@noble/hashes/sha3.js';
 import { bytesToHex, concatBytes } from '@noble/hashes/utils.js';
 import english from './monero-english.json' with { type: 'json' };
 
-const index = new Map(english.map((word, i) => [word, i]));
+import myMoneroLanguages from './mymonero-languages.json' with { type: 'json' };
 const { Point } = ed25519;
+// Match the upstream decoder's order for words shared by multiple languages.
+const { chinese_simplified, ...remainingMyMoneroLists } = myMoneroLanguages;
+const myMoneroLists = [chinese_simplified, { words: english, prefix: 3 }, ...Object.values(remainingMyMoneroLists)];
 
-function checksumWord(words) {
-  // Monero English uses CRC-32 of the concatenated three-letter prefixes.
+function prefix(word, length) {
+  return Array.from(word).slice(0, length).join('');
+}
+
+function checksumWord(words, prefixLength = 3) {
+  // CRC-32 covers UTF-8 bytes of the dictionary's canonical prefixes.
   let crc = 0xffffffff;
-  for (const ch of words.map(word => word.slice(0, 3)).join('')) {
-    crc ^= ch.charCodeAt(0);
+  const bytes = new TextEncoder().encode(words.map(word => prefix(word, prefixLength)).join(''));
+  for (const byte of bytes) {
+    crc ^= byte;
     for (let bit = 0; bit < 8; bit++) {
       crc = (crc >>> 1) ^ (crc & 1 ? 0xedb88320 : 0);
     }
@@ -25,16 +42,28 @@ function checksumWord(words) {
 }
 
 function decodeMyMonero(phrase) {
-  const all = phrase.split(' ');
-  const words = all.slice(0, 12);
-  if (all.length !== 13 || !words.every(word => index.has(word)) || checksumWord(words) !== all[12]) {
-    throw new Error('Invalid MyMonero phrase.');
+  const input = phrase.normalize('NFC').trim().toLowerCase().split(/\s+/u);
+  if (input.length !== 13) throw new Error('Invalid MyMonero phrase.');
+  for (const list of myMoneroLists) {
+    const byWord = new Map(list.words.map((word, i) => [word.toLowerCase(), i]));
+    if (!input.every(word => byWord.has(word))) continue;
+    const canonical = input.map(word => list.words[byWord.get(word)]);
+    const checksum = checksumWord(canonical.slice(0, 12), list.prefix).toLowerCase();
+    if (prefix(checksum, list.prefix) !== prefix(input[12], list.prefix)) continue;
+    // EnglishOld contains duplicate prefixes. MyMonero's own trimmed map
+    // retains the last index. Match it even when the owner enters full words.
+    const byPrefix = new Map(list.words.map((word, i) => [prefix(word.toLowerCase(), list.prefix), i]));
+    const indices = input.slice(0, 12).map(word => byPrefix.get(prefix(word, list.prefix)));
+    return decodeTriplets(indices, list.words.length);
   }
+  throw new Error('Invalid MyMonero phrase.');
+}
+
+function decodeTriplets(indices, n) {
   const entropy = new Uint8Array(16);
   const data = new DataView(entropy.buffer);
-  const n = english.length;
   for (let i = 0; i < 4; i++) {
-    const [a, b, c] = words.slice(i * 3, i * 3 + 3).map(word => index.get(word));
+    const [a, b, c] = indices.slice(i * 3, i * 3 + 3);
     const value = a + n * ((b - a + n) % n) + n * n * ((c - b + n) % n);
     if (value > 0xffffffff) throw new Error('Invalid MyMonero entropy.');
     data.setUint32(i * 4, value, true);
@@ -62,7 +91,9 @@ export function myMonero(phrase) {
 }
 
 export function exodus(phrase, passphrase) {
-  if (!validateMnemonic(phrase, bip39English)) throw new Error('Invalid English BIP39 mnemonic.');
+  phrase = phrase.normalize('NFKD').trim().split(/\s+/u).join(' ');
+  const dictionaries = [bip39English, czech, french, italian, japanese, korean, portuguese, simplifiedchinese, spanish, traditionalchinese];
+  if (!dictionaries.some(list => validateMnemonic(phrase, list))) throw new Error('Invalid BIP39 mnemonic or checksum.');
   const seed = mnemonicToSeedSync(phrase, passphrase);
   const root = HDKey.fromMasterSeed(seed);
   const child = root.derive("m/44'/128'/0'/0/0");

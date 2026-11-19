@@ -126,8 +126,8 @@ struct WalletField<Content: View>: View {
 struct WalletNotice: View {
     let text: String
     var body: some View {
-        Label(text, systemImage: "exclamationmark.circle")
-            .font(.callout).foregroundStyle(WalletStyle.apricot).accessibilityLabel(text)
+        Label(WalletL10n.message(text), systemImage: "exclamationmark.circle")
+            .font(.callout).foregroundStyle(WalletStyle.apricot).accessibilityLabel(WalletL10n.message(text))
     }
 }
 

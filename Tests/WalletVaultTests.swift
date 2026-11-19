@@ -26,7 +26,7 @@ final class WalletVaultTests: XCTestCase {
         XCTAssertEqual(vault.phase, .locked)
         try vault.markBackupVerified(for: wallet)
         vault.enter(wallet)
-        XCTAssertEqual(vault.phase, .unlocked)
+        XCTAssertEqual(vault.phase, .locked, "A verified backup cannot bypass app authentication.")
 
         let relaunch = WalletVault(root: root)
         XCTAssertEqual(relaunch.phase, .locked)

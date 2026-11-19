@@ -1,5 +1,4 @@
 import SwiftUI
-import ActivityKit
 
 @main
 struct XMRMoneroWalletApp: App {
@@ -17,7 +16,7 @@ struct XMRMoneroWalletApp: App {
 }
 
 enum WalletPanel: String, Identifiable {
-    case source, settings, wallets
+    case source, settings, wallets, network, privacy
     var id: String { rawValue }
 }
 
@@ -35,7 +34,8 @@ struct WalletRoot: View {
             if vault.phase == .unlocked {
                 Group {
                     if let data = session.data {
-                        WalletDashboard(data: data, actions: session.actions(vault: vault, settings: { panel = .settings }, wallets: { panel = .wallets }))
+                        WalletDashboard(data: data, actions: session.actions(vault: vault, settings: { panel = .settings }, wallets: { panel = .wallets }),
+                                        showNetwork: { panel = .network }, showPulse: { panel = .privacy })
                             .id(vault.sessionID)
                     } else {
                         VStack(spacing: 20) {
@@ -49,7 +49,8 @@ struct WalletRoot: View {
                 .task(id: vault.sessionID) { await session.run() }
             } else {
                 VaultGate(vault: vault, create: session.create, restore: session.restore, open: session.open,
-                          close: session.close, readSeed: session.readSeed, onSource: { panel = .source })
+                          close: session.close, readSeed: session.readSeed, onSource: { panel = .source },
+                          primaryAddress: session.primaryAddress)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -59,11 +60,35 @@ struct WalletRoot: View {
             case .source: WalletSource()
             case .settings: WalletSettings(vault: vault, session: session, lock: lock)
             case .wallets: WalletPicker(vault: vault, session: session)
+            case .network:
+                NavigationStack {
+                    NetworkSettings(session: session, lock: lock)
+                        .toolbar { ToolbarItem(placement: .topBarTrailing) { Button("Done") { panel = nil } } }
+                }
+            case .privacy: WalletSettings(vault: vault, session: session, lock: lock, initialPage: .privacy)
             }
         }
         .onChange(of: scenePhase) { _, phase in
-            if phase == .background { lock() }
+            if phase == .background {
+                let canScan = vault.phase == .unlocked && showActivity
+                panel = nil
+                vault.lock()
+                session.lockForBackground(allowProgress: canScan)
+            } else if phase == .active {
+                session.finishBackgroundScan()
+            }
             updateIdleTimer()
+        }
+        .onReceive(NotificationCenter.default.publisher(for: .walletVaultErased)) { _ in
+            panel = nil
+            session.takeOffline()
+            session.resetPreferences()
+        }
+        .onChange(of: session.data?.id) { _, id in
+            if id != nil, vault.phase == .unlocked, session.needsNetworkChoice, panel == nil { panel = .network }
+        }
+        .onReceive(NotificationCenter.default.publisher(for: UIApplication.protectedDataWillBecomeUnavailableNotification)) { _ in
+            session.finishBackgroundScan()
         }
         .onReceive(NotificationCenter.default.publisher(for: UIScreen.capturedDidChangeNotification)) { _ in
             isCaptured = UIScreen.main.isCaptured
@@ -75,7 +100,12 @@ struct WalletRoot: View {
         .onChange(of: session.height) { _, _ in updateIdleTimer() }
         .onChange(of: session.data?.synced) { _, _ in updateIdleTimer() }
         .onChange(of: keepAwake) { _, _ in updateIdleTimer() }
-        .task(id: activityState) { await syncLiveActivity() }
+        .task(id: activityState) {
+            // The session publishes directly during its granted background time.
+            if scenePhase == .active {
+                await SyncLiveActivity.publish(activityState, allowCreation: vault.phase == .unlocked)
+            }
+        }
         .alert("Wallet storage", isPresented: Binding(get: { session.notice != nil }, set: { if !$0 { session.notice = nil } })) {
             Button("OK") { session.notice = nil }
         } message: { Text(session.notice ?? "") }
@@ -86,22 +116,7 @@ struct WalletRoot: View {
     }
 
     private var activityState: SyncAttributes.ContentState? {
-        guard vault.phase == .unlocked, showActivity, session.data?.syncProgress != nil, session.data?.synced == false else { return nil }
-        return .init(height: session.height, target: session.chainHeight)
-    }
-
-    private func syncLiveActivity() async {
-        let existing = Activity<SyncAttributes>.activities
-        guard let state = activityState, ActivityAuthorizationInfo().areActivitiesEnabled else {
-            for activity in existing { await activity.end(nil, dismissalPolicy: .immediate) }
-            return
-        }
-        let content = ActivityContent(state: state, staleDate: Date().addingTimeInterval(60))
-        if let activity = existing.first { await activity.update(content) }
-        else if !Task.isCancelled {
-            do { _ = try Activity.request(attributes: SyncAttributes(), content: content, pushType: nil) }
-            catch { /* The phone can disable Live Activities independently of wallet sync. */ }
-        }
+        showActivity ? session.lockScreenProgress : nil
     }
 
     private func lock() {

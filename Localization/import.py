@@ -65,13 +65,21 @@ for locale in set(ADDITIONAL) - {"en"}:
     for label, source in copies.items():
         translated[locale][label] = translated[locale][source]
 
-catalog = {}
+# The checked-in catalog also contains app-authored translations and complete
+# workflow translations. A terminology refresh must preserve all of them.
+target = HERE.parent / "Resources/Localizable.xcstrings"
+catalog = json.loads(target.read_text())["strings"]
+added = 0
 for locale, terms in translated.items():
     for source, value in terms.items():
-        item = catalog.setdefault(source, {"extractionState": "manual", "localizations": {}})
-        item["localizations"][locale] = {"stringUnit": {"state": "translated", "value": value}}
-out = {"sourceLanguage": "en", "strings": catalog, "version": "1.0"}
-(HERE.parent / "Resources/Localizable.xcstrings").write_text(json.dumps(out, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
-print("Source strings:", len(catalog))
-for locale in sorted(translated):
-    print(locale, len(translated[locale]))
+        if source not in catalog or catalog[source].get("shouldTranslate") is False:
+            continue
+        values = catalog[source].setdefault("localizations", {})
+        if locale not in values:
+            values[locale] = {"stringUnit": {"state": "translated", "value": value}}
+            added += 1
+
+if added:
+    out = {"sourceLanguage": "en", "strings": catalog, "version": "1.0"}
+    target.write_text(json.dumps(out, ensure_ascii=False, indent=2, sort_keys=True) + "\n")
+print(f"Filled {added} previously missing terminology translations.")

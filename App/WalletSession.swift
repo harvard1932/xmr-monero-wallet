@@ -13,10 +13,20 @@ final class WalletSession: ObservableObject {
     @Published private(set) var changingNode = false
     @Published var notice: String?
 
+    @Published private(set) var lockScreenProgress: SyncAttributes.ContentState?
+    @Published private(set) var torProgress: Int?
+    @Published private(set) var needsNetworkChoice = true
+    private var backgroundEngine: WalletEngine?
+    private var scanTask: Task<Void, Never>?
+    private var scanGrant: WalletScanGrant?
+
     private(set) var engine: WalletEngine?
     private var generation = UUID()
     private var pendingClose: Task<Void, Never>?
     private var wallet: VaultWallet?
+    private struct WalletRoutePreference: Codable { var connection: ConnectionSettings? }
+    private var connectionURL: URL?
+    private let preferences: UserDefaults
     private var metadataURL: URL?
     private var metadataKey: SymmetricKey?
     private var invoices = [WalletInvoiceItem]()
@@ -26,18 +36,37 @@ final class WalletSession: ObservableObject {
     private var activeNode: URL?
     private var relay: NodeRelay?
 
-    init() {
-        if let saved = UserDefaults.standard.data(forKey: "connection"),
-           let prefs = try? JSONDecoder().decode(ConnectionSettings.self, from: saved) { connection = prefs }
+    init(preferences: UserDefaults = .standard) {
+        self.preferences = preferences
     }
 
-    private func begin(_ location: VaultLocation) async throws -> WalletEngine {
+    /// A new offline signer must never inherit another wallet’s online route.
+    /// Existing v0.1 wallets keep their route on their first v0.2 unlock.
+    private func loadConnection(in directory: URL, migratingLegacy: Bool) throws {
+        let url = directory.appending(path: "network.json")
+        let choice: ConnectionSettings?
+        if FileManager.default.fileExists(atPath: url.path) {
+            let bytes = try Data(contentsOf: url)
+            choice = (try? JSONDecoder().decode(WalletRoutePreference.self, from: bytes))?.connection
+        } else {
+            let legacy = migratingLegacy ? preferences.data(forKey: "connection") : nil
+            choice = legacy.flatMap { try? JSONDecoder().decode(ConnectionSettings.self, from: $0) }
+            let bytes = try JSONEncoder().encode(WalletRoutePreference(connection: choice))
+            try bytes.write(to: url, options: [.atomic, .completeFileProtection])
+        }
+        connectionURL = url
+        connection = choice ?? ConnectionSettings()
+        needsNetworkChoice = choice == nil
+    }
+
+    private func begin(_ location: VaultLocation, migratingLegacy: Bool = false) async throws -> WalletEngine {
         takeOffline()
         let reservation = generation
         await pendingClose?.value
         guard reservation == generation else { throw CancellationError() }
         try Task.checkCancellation()
         let next = WalletEngine()
+        try loadConnection(in: location.fileURL.deletingLastPathComponent(), migratingLegacy: migratingLegacy)
         wallet = location.wallet
         metadataURL = location.fileURL.deletingLastPathComponent().appending(path: "invoices.sealed")
         metadataKey = HKDF<SHA256>.deriveKey(inputKeyMaterial: SymmetricKey(data: Data(location.password.utf8)),
@@ -53,6 +82,7 @@ final class WalletSession: ObservableObject {
     func create(_ location: VaultLocation) async throws -> String {
         let next = try await begin(location)
         let phrase = try await next.create(at: location.fileURL, password: location.password)
+        await configureScanIfRequested(next, location: location)
         try check(next)
         return phrase
     }
@@ -60,13 +90,31 @@ final class WalletSession: ObservableObject {
     func restore(_ location: VaultLocation, _ request: VaultRestore) async throws {
         let next = try await begin(location)
         try await next.restore(at: location.fileURL, password: location.password, source: request.source, height: request.height)
+        await configureScanIfRequested(next, location: location)
         try check(next)
     }
 
     func open(_ location: VaultLocation) async throws {
-        let next = try await begin(location)
+        let next = try await begin(location, migratingLegacy: true)
         try await next.open(at: location.fileURL, password: location.password)
+        await configureScanIfRequested(next, location: location)
         try check(next)
+    }
+
+    private func configureScanIfRequested(_ core: WalletEngine, location: VaultLocation) async {
+        guard preferences.bool(forKey: "syncActivity") else { return }
+        do { try await core.configureRestrictedScan(password: location.password) }
+        catch { if engine === core { notice = WalletL10n.diagnostic(error) } }
+    }
+
+    func primaryAddress() async throws -> String {
+        let current = try liveEngine()
+        let snapshot = try await current.snapshot()
+        try check(current)
+        guard let address = snapshot.addresses.first?.address, !address.isEmpty else {
+            throw WalletEngineError("The restored wallet did not provide a primary address.")
+        }
+        return address
     }
 
     func readSeed() async throws -> String {
@@ -85,34 +133,106 @@ final class WalletSession: ObservableObject {
         guard engine === expected, !Task.isCancelled else { throw CancellationError() }
     }
 
-    /// Synchronously drops the presentation and any authority to use the old session.
-    func takeOffline() {
+    /// Immediately revoke UI actions and release decoded wallet metadata.
+    private func detachWallet() -> WalletEngine? {
         generation = UUID()
         let old = engine
         engine = nil
         wallet = nil
         data = nil
-        notice = nil
         metadataKey = nil
         metadataURL = nil
+        connectionURL = nil
         invoices = []
         pending.removeAll()
         nodeName = nil
         activeNode = nil
-        relay?.stop()
-        relay = nil
+        torProgress = nil
         height = 0
         chainHeight = 0
         problem = nil
         changingNode = false
         attempted.removeAll()
-        if let old {
-            let prior = pendingClose
-            pendingClose = Task {
-                await prior?.value
-                do { try await old.close() }
-                catch { self.notice = "Wallet files could not be saved. Unlock and check your wallet before continuing." }
+        return old
+    }
+
+    private func stopTransport() {
+        relay?.stop()
+        relay = nil
+        EmbeddedTor.shared.stop()
+    }
+
+    private func enqueueClose(_ old: WalletEngine?) {
+        guard let old else { return }
+        let prior = pendingClose
+        pendingClose = Task {
+            await prior?.value
+            do { try await old.close() }
+            catch { self.notice = WalletL10n.text("Wallet files could not be saved. Unlock and check your wallet before continuing.") }
+        }
+    }
+
+    func takeOffline() {
+        finishBackgroundScan()
+        lockScreenProgress = nil
+        stopTransport()
+        enqueueClose(detachWallet())
+    }
+
+    func lockForBackground(allowProgress: Bool) {
+        guard allowProgress, backgroundEngine == nil,
+              var state = lockScreenProgress, state.phase == .scanning,
+              let core = detachWallet() else {
+            if backgroundEngine == nil { takeOffline() }
+            return
+        }
+        backgroundEngine = core
+        let grant = WalletScanGrant()
+        scanGrant = grant
+        grant.begin { [weak self] in
+            if self?.backgroundEngine === core { self?.finishBackgroundScan() }
+        }
+        guard grant.active else { finishBackgroundScan(); return }
+        scanTask = Task {
+            do {
+                // Full wallets discard their spend key in native wallet2 before polling.
+                // View-only wallets already lack this key.
+                try await core.enterRestrictedScan()
+                while backgroundEngine === core, !Task.isCancelled {
+                    let scanned = try await core.scanHeight()
+                    guard backgroundEngine === core else { return }
+                    state.height = scanned
+                    if scanned >= state.target { state.phase = .complete }
+                    if state != lockScreenProgress {
+                        lockScreenProgress = state
+                        await SyncLiveActivity.publish(state, allowCreation: false)
+                    }
+                    if state.phase == .complete { break }
+                    try await Task.sleep(for: .seconds(2))
+                }
+            } catch { /* A restricted scan may be unavailable after the device locks. */ }
+            if backgroundEngine === core { finishBackgroundScan() }
+        }
+    }
+
+    func finishBackgroundScan() {
+        guard let core = backgroundEngine else { return }
+        backgroundEngine = nil
+        scanTask?.cancel()
+        scanTask = nil
+        if lockScreenProgress?.phase == .scanning { lockScreenProgress?.phase = .paused }
+        stopTransport()
+        enqueueClose(core)
+        let grant = scanGrant
+        scanGrant = nil
+        let saving = pendingClose
+        let final = lockScreenProgress
+        Task {
+            if lockScreenProgress == final {
+                await SyncLiveActivity.publish(final, allowCreation: false)
             }
+            await saving?.value
+            grant?.end()
         }
     }
 
@@ -129,18 +249,47 @@ final class WalletSession: ObservableObject {
         while !Task.isCancelled, engine === current {
             await refresh()
             if connection.selection == .automatic, !changingNode,
-               data?.synced != true, Date().timeIntervalSince(lastProgress) > 75 {
+               Self.shouldRetry(connected: data?.syncProgress != nil, synced: data?.synced == true,
+                                elapsed: Date().timeIntervalSince(lastProgress)) {
                 await connect(retrying: true)
             }
             do { try await Task.sleep(for: .seconds(5)) } catch { return }
         }
     }
 
+    nonisolated static func shouldRetry(connected: Bool, synced: Bool, elapsed: TimeInterval) -> Bool {
+        if !connected { return elapsed >= 15 }
+        return elapsed >= (synced ? 900 : 75)
+    }
+
     func saveConnection(_ prefs: ConnectionSettings) throws {
         try prefs.validate()
-        let bytes = try JSONEncoder().encode(prefs)
-        UserDefaults.standard.set(bytes, forKey: "connection")
+        guard let url = connectionURL else { throw WalletEngineError("Unlock the wallet to continue.") }
+        let bytes = try JSONEncoder().encode(WalletRoutePreference(connection: prefs))
+        try bytes.write(to: url, options: [.atomic, .completeFileProtection])
         connection = prefs
+        needsNetworkChoice = false
+    }
+
+    /// Enabling a route from a never-connected wallet needs no file reopen.
+    /// Other route changes close the previous native session before reconnecting.
+    func chooseInitialConnection(_ prefs: ConnectionSettings) async throws {
+        guard connection.selection == .offline, !changingNode else { throw WalletEngineError("Open network settings to change the active route.") }
+        let current = try liveEngine()
+        try saveConnection(prefs)
+        await connect()
+        try check(current)
+        await refresh()
+    }
+
+    func retryConnection() async {
+        await connect(retrying: true)
+        await refresh()
+    }
+
+    func resetPreferences() {
+        connection = ConnectionSettings()
+        needsNetworkChoice = true
     }
 
     private func connect(retrying: Bool = false) async {
@@ -148,6 +297,14 @@ final class WalletSession: ObservableObject {
         changingNode = true
         defer { if engine === current { changingNode = false } }
         do {
+            let proxy: String?
+            if connection.useProxy && !connection.usesExternalTor {
+                torProgress = 0
+                proxy = try await EmbeddedTor.shared.start { [weak self] percent in
+                    if self?.engine === current { self?.torProgress = percent }
+                }
+            } else { proxy = connection.useProxy ? connection.proxy : nil }
+            try check(current)
             let candidates = try await connection.candidates()
             try check(current)
             var targets = candidates.filter { !retrying || !attempted.contains($0) }
@@ -158,7 +315,6 @@ final class WalletSession: ObservableObject {
                 try check(current)
                 attempted.insert(node)
                 do {
-                    let proxy = connection.useProxy ? connection.proxy : nil
                     relay?.stop()
                     relay = nil
                     if node.scheme == "https" {
@@ -171,6 +327,7 @@ final class WalletSession: ObservableObject {
                         try await current.connect(node: node, proxy: proxy)
                     }
                     try check(current)
+                    torProgress = nil
                     activeNode = node
                     nodeName = node.host
                     lastProgress = Date()
@@ -181,7 +338,8 @@ final class WalletSession: ObservableObject {
             throw latest ?? WalletEngineError("The node is unavailable.")
         } catch {
             guard engine === current else { return }
-            problem = error.localizedDescription
+            torProgress = nil
+            problem = WalletL10n.diagnostic(error)
             lastProgress = Date()
         }
     }
@@ -193,7 +351,7 @@ final class WalletSession: ObservableObject {
             let coins = try await current.outputs()
             let contacts = try await current.contacts()
             try check(current)
-            if snap.height != height { lastProgress = Date() }
+            if snap.height > height || (snap.synchronized && snap.targetHeight > chainHeight) { lastProgress = Date() }
             height = snap.height
             chainHeight = snap.targetHeight
             let status = changingNode ? "Connecting" : snap.connected ? (snap.synchronized ? "Synchronized" : "Synchronizing") : "Offline"
@@ -203,6 +361,7 @@ final class WalletSession: ObservableObject {
             var presentation = WalletPresentation(id: wallet.id.uuidString, name: wallet.name, network: "Mainnet")
             presentation.usesProxy = connection.useProxy
             presentation.networkEnabled = connection.selection != .offline
+            presentation.nodeName = nodeName
             presentation.total = snap.balance
             presentation.available = snap.unlocked
             presentation.syncStatus = status
@@ -220,8 +379,11 @@ final class WalletSession: ObservableObject {
                 return updated
             }
             data = presentation
+            if snap.connected && snap.targetHeight > 0 {
+                lockScreenProgress = .init(height: snap.height, target: snap.targetHeight, phase: snap.synchronized ? .complete : .scanning)
+            } else { lockScreenProgress = nil }
         } catch {
-            if engine === current && !Task.isCancelled { problem = error.localizedDescription }
+            if engine === current && !Task.isCancelled { problem = WalletL10n.diagnostic(error) }
         }
     }
 
@@ -253,6 +415,9 @@ final class WalletSession: ObservableObject {
             return WalletSendReview(id: tx.id.uuidString, address: tx.destination, amount: tx.amount, fee: tx.fee)
         }, submit: { id in
             let core = try current()
+            do { try await vault.authorizeAction(reason: "Confirm and send payment") }
+            catch { throw WalletPaymentAuthorizationError(underlying: error) }
+            _ = try current()
             guard let tx = self.pending.removeValue(forKey: id) else { throw WalletEngineError("Review the payment again.") }
             _ = try await core.commit(tx)
             if self.engine === core { await self.refresh() }
@@ -315,10 +480,36 @@ final class WalletSession: ObservableObject {
             let review = try await current().inspectUnsigned(frames)
             return WalletOfflineReview(id: review.id, summary: review.summary)
         }, sign: { review in
-            try await current().sign(OfflineReview(id: review.id, summary: review.summary))
+            _ = try current()
+            try await vault.authorizeAction(reason: "Sign this transaction")
+            return try await current().sign(OfflineReview(id: review.id, summary: review.summary))
         }, submitSigned: { frames in
+            _ = try current()
+            try await vault.authorizeAction(reason: "Confirm and send payment")
             try await current().submitSigned(frames)
             await self.refresh()
         }))
+    }
+}
+
+
+/// Holds the iOS execution grant through the native cache write. An expiration
+/// handler can release its own grant immediately, even if the close is in flight.
+@MainActor
+private final class WalletScanGrant {
+    private var id: UIBackgroundTaskIdentifier = .invalid
+    var active: Bool { id != .invalid }
+
+    func begin(onExpiration: @escaping @MainActor () -> Void) {
+        id = UIApplication.shared.beginBackgroundTask(withName: "Finish wallet scan") { [weak self] in
+            onExpiration()
+            self?.end()
+        }
+    }
+
+    func end() {
+        guard active else { return }
+        UIApplication.shared.endBackgroundTask(id)
+        id = .invalid
     }
 }

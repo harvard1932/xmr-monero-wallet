@@ -5,6 +5,7 @@ import os
 from pathlib import Path
 import secrets
 import signal
+import shutil
 import socket
 import subprocess
 import sys
@@ -33,6 +34,9 @@ class LocalRPC:
         return "regtest:" + self.password
 
     def call(self, method, **params):
+        return self.request(method, params)
+
+    def request(self, method, params):
         payload = json.dumps({"jsonrpc": "2.0", "id": "0", "method": method, "params": params}).encode()
         # epee ties Digest nonces to its HTTP connection. libcurl reuses that
         # connection for the authenticated retry, including the original body.
@@ -95,28 +99,34 @@ def run(work, binaries):
         wallet.wait(rpc, "get_version")
         # All three wallets are created with new keys and have no external connection.
         wallet.call("create_wallet", filename="receiver", password=password, language="English")
-        recipient = wallet.call("get_address")["address"]
         wallet.call("close_wallet")
+        def app(command):
+            subprocess.run([str(work / "cold-transfer"), command], env=env, cwd=work, check=True)
+
+        app("invoice-address")
+        recipient = (work / "destination").read_text()
         wallet.call("create_wallet", filename="sender", password=password, language="English")
         sender = wallet.call("get_address")["address"]
-        node.call("generateblocks", amount_of_blocks=80, wallet_address=sender)
-        wallet.call("refresh")
-        if wallet.call("get_balance")["unlocked_balance"] <= AMOUNT:
-            raise RuntimeError("Fixture funding did not unlock.")
-        images = wallet.call("export_key_images", all=True)
         view_key = wallet.call("query_key", key_type="view_key")["key"]
         wallet.call("close_wallet")
+        # Preserve an empty signer with the same keys before any blocks are mined.
+        for suffix in ["", ".keys"]:
+            shutil.copyfile(wallet_dir / ("sender" + suffix), wallet_dir / ("offline-signer" + suffix))
+        node.call("generateblocks", amount_of_blocks=80, wallet_address=sender)
         wallet.call("generate_from_keys", filename="viewer", address=sender, viewkey=view_key, password=password, restore_height=0)
         wallet.call("refresh")
-        wallet.call("import_key_images", offset=images["offset"], signed_key_images=images["signed_key_images"])
+        wallet.call("close_wallet")
+        app("pair-outputs")
+        wallet.call("open_wallet", filename="viewer", password=password)
+        if wallet.call("get_balance")["unlocked_balance"] <= AMOUNT:
+            raise RuntimeError("Imported fixture outputs did not unlock.")
         tx = wallet.call("transfer", destinations=[{"amount": AMOUNT, "address": recipient}], priority=1, do_not_relay=True)
         if tx["fee"] <= 0 or not tx.get("unsigned_txset"):
             raise RuntimeError("The fixture transaction lacks a fee or unsigned payload.")
         wallet.call("close_wallet")
-        (work / "destination").write_text(recipient)
         with (work / "unsigned.ur").open("wb") as stream:
             subprocess.run([str(work / "encode-ur")], input=bytes.fromhex(tx["unsigned_txset"]), stdout=stream, check=True)
-        subprocess.run([str(work / "cold-transfer"), "sign"], env=env, cwd=work, check=True)
+        app("sign")
         node.call("generateblocks", amount_of_blocks=12, wallet_address=sender)
         wallet.call("open_wallet", filename="receiver", password=password)
         wallet.call("refresh")
@@ -126,7 +136,7 @@ def run(work, binaries):
                 tx["amount"] == AMOUNT and tx["confirmations"] >= 10 for tx in transfers):
             raise RuntimeError("The independent recipient failed to confirm the reviewed amount.")
         wallet.call("close_wallet")
-        subprocess.run([str(work / "cold-transfer"), "receipt"], env=env, cwd=work, check=True)
+        app("receipt")
         print(f"Verified {AMOUNT} atomic units received and unlocked, with a fee of {tx['fee']} atomic units.")
 
 

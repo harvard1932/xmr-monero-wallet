@@ -1,0 +1,292 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSCameraUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "مسح عناوين Monero والفواتير وتوقيع رموز QR."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Monero ঠিকানা, চালান এবং সাইনিং QR কোড স্ক্যান করুন."
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Scannen Sie Monero-Adressen, Rechnungen und signieren Sie QR-Codes."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Scan Monero addresses, invoices and signing QR codes."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Escanee direcciones, facturas y códigos QR de firma de Monero."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Scannez les adresses Monero, les factures et signez les codes QR."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "मोनेरो पते, चालान और हस्ताक्षरित क्यूआर कोड को स्कैन करें।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Pindai alamat Monero, faktur, dan penandatanganan kode QR."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Scansiona indirizzi Monero, fatture e firma codici QR."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Monero のアドレス、請求書、署名用 QR コードをスキャンします。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Monero 주소, 청구서를 스캔하고 QR 코드에 서명하세요."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Imbas alamat Monero, invois dan tandatangan kod QR."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Scan Monero-adressen, facturen en onderteken QR-codes."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Skanuj adresy Monero, faktury i podpisuj kody QR."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Digitalize endereços Monero, faturas e assinatura de códigos QR."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Сканируйте адреса Monero, счета-фактуры и подписывайте QR-коды."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Skanna Monero-adresser, fakturor och signering av QR-koder."
+          }
+        },
+        "sw": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Changanua anwani za Monero, ankara na kutia sahihi misimbo ya QR."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "สแกนที่อยู่ Monero ใบแจ้งหนี้ และการลงนามรหัส QR"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Monero adreslerini, faturalarını ve QR kodlarını imzalayarak tarayın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Quét địa chỉ Monero, hóa đơn và ký mã QR."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "扫描门罗币地址、发票和签名二维码。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "掃描門羅幣地址、發票和簽名二維碼。"
+          }
+        }
+      }
+    },
+    "NSFaceIDUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "ar": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "استخدم Face ID لفتح هذه المحفظة وحماية معلومات الاسترداد."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "এই ওয়ালেটটি আনলক করতে এবং পুনরুদ্ধারের তথ্য সুরক্ষিত করতে ফেস আইডি ব্যবহার করুন।"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Verwenden Sie Face ID, um diese Brieftasche zu entsperren und Wiederherstellungsinformationen zu schützen."
+          }
+        },
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Face ID to unlock this wallet and protect recovery information."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Utilice Face ID para desbloquear esta billetera y proteger la información de recuperación."
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Utilisez Face ID pour déverrouiller ce portefeuille et protéger les informations de récupération."
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "इस वॉलेट को अनलॉक करने और पुनर्प्राप्ति जानकारी को सुरक्षित रखने के लिए फेस आईडी का उपयोग करें।"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Gunakan ID Wajah untuk membuka kunci dompet ini dan melindungi informasi pemulihan."
+          }
+        },
+        "it": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Usa Face ID per sbloccare questo portafoglio e proteggere le informazioni di recupero."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Face ID を使用してこのウォレットのロックを解除し、回復情報を保護します。"
+          }
+        },
+        "ko": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Face ID를 사용하여 이 지갑을 잠금 해제하고 복구 정보를 보호하세요."
+          }
+        },
+        "ms": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Gunakan Face ID untuk membuka kunci dompet ini dan melindungi maklumat pemulihan."
+          }
+        },
+        "nl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Gebruik Face ID om deze portemonnee te ontgrendelen en herstelinformatie te beschermen."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Użyj Face ID, aby odblokować ten portfel i chronić dane odzyskiwania."
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Use o Face ID para desbloquear esta carteira e proteger as informações de recuperação."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Используйте Face ID, чтобы разблокировать этот кошелек и защитить информацию для восстановления."
+          }
+        },
+        "sv": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Använd Face ID för att låsa upp den här plånboken och skydda återställningsinformation."
+          }
+        },
+        "sw": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Tumia Kitambulisho cha Uso ili kufungua pochi hii na kulinda maelezo ya urejeshaji."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "ใช้ Face ID เพื่อปลดล็อคกระเป๋าเงินนี้และปกป้องข้อมูลการกู้คืน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Bu cüzdanın kilidini açmak ve kurtarma bilgilerini korumak için Face ID'yi kullanın."
+          }
+        },
+        "vi": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "Sử dụng Face ID để mở khóa ví này và bảo vệ thông tin khôi phục."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "使用面容 ID 解锁此钱包并保护恢复信息。"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "needs_review",
+            "value": "使用面容 ID 解鎖此錢包並保護恢復訊息。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

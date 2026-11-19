@@ -1,0 +1,18 @@
+--- dispatch_naming.c
++++ dispatch_naming.c
+@@ -68,3 +68,15 @@
+ DECLARE_ID_MAP_FNS(channel);
+ DECLARE_ID_MAP_FNS(subsys);
+ DECLARE_ID_MAP_FNS(msg_type);
++
++/* The keyed name maps outlive tor_run_main in the upstream CLI. An embedded
++ * restart may reseed SipHash. Release names after every complete Tor exit,
++ * before another instance can initialize its own subsystems. */
++void
++XMRTorReleaseDispatchNames(void)
++{
++  namemap_clear(&message_id_map);
++  namemap_clear(&subsys_id_map);
++  namemap_clear(&channel_id_map);
++  namemap_clear(&msg_type_id_map);
++}
